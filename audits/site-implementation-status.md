@@ -61,3 +61,7 @@ Both 2026 papers now have independently reviewed crop coordinates (130 questions
 ## Optional private source-image preview
 
 An explicit --with-reviewed-crops option regenerates approved source crops from hash-checked PDFs and displays them above explanatory paraphrases. The local 260-question build contains 261 image parts, with exact copied-file identity, reviewed-only gating, dimensions, alt identifiers and static links checked. Multipart Q11 retains both parts. No image assets are committed by this code checkpoint. Full accessible transcription, browser visual QA and redistribution rights remain open.
+
+## 2022–2024 crop-review batch
+
+520 questions now have independently reviewed crop coordinates. The 2024 sessions, 2023 and 2022 add 260 reviewed questions. Generated assets remain local. Browser visual QA is still blocked; a managed-browser file URL was denied and no workaround was attempted. Main, Pages, workflows and source answers are unchanged.

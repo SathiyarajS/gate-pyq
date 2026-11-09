@@ -5,12 +5,10 @@ source-rights conclusion, original-fidelity claim, or transcription certificatio
 
 ## Current coverage
 
-- 260 questions across four 2025–2026 papers have independently reviewed bounds; 3,146 remain pending.
-- Reviewed records include 261 crop parts: 2025 CS1 Q11 continues onto page 11. All four complete papers were visually inspected by author and separate reviewer.
-- Current proposal methods: {'page_fallback': 2395, 'text_marker_candidate': 823, 'manual_table_boundary_review': 261}.
-- 8378 overlap pairs remain across the full draft corpus. Reviewed records have no neighboring-question text contamination; blank table space is sometimes retained.
-- 40 source PDFs resolve for 46 papers; 35 have previously recorded matching hashes and five ZIP-member hashes are locally recorded only. Twenty sources carry parser warnings requiring visual care.
-- Scope is crop completeness, not transcription, answers, original-paper completeness or public distribution rights. Remaining 42 papers require crop review.
+- 520 questions across eight 2022–2026 papers have independently reviewed bounds; 2,886 remain pending.
+- 521 crop parts are reviewed; 2025 CS1 Q11 has two parts. Every source page and output in the new four-paper batch received separate preparation and independent visual review.
+- 8305 overlap pairs remain across draft and reviewed records in the corpus; this count is diagnostic, not approval.
+- Scope is crop completeness, not transcription, answers, original-paper completeness or distribution rights. Remaining 38 papers require crop review.
 
 See `crop-source-map.json` for URLs, archive members, SHA-256, portable paths, page/text counts and parser warnings; `crop-summary.json` for per-paper counts. Workstation paths are kept separately in ignored `.local-source-cache/source-paths.json` and must be regenerated on another machine. The renderer prefers normal repository source paths, with `--source-cache` as an optional local override. No PDF was added to publication assets.
 
