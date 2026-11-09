@@ -1,15 +1,15 @@
 {
   "counts": {
-    "page_fallback": 2396,
-    "candidate_questions": 3406,
-    "text_marker_candidate": 953,
-    "overlap_pairs": 8390,
-    "verified_questions": 130,
-    "pending_visual_review_questions": 3276,
-    "manual_table_boundary_review": 130,
-    "first_pass_reviewed_questions": 130,
+    "page_fallback": 2395,
+    "candidate_questions": 3146,
+    "text_marker_candidate": 823,
+    "overlap_pairs": 8378,
+    "verified_questions": 260,
+    "pending_visual_review_questions": 3146,
+    "manual_table_boundary_review": 261,
+    "first_pass_reviewed_questions": 260,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 3276
+    "pending_first_pass_questions": 3146
   },
   "papers": {
     "CS-1991": {
@@ -139,10 +139,12 @@
       "candidate": 65
     },
     "CS-2025-S1": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 66
     },
     "CS-2025-S2": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2026-S1": {
       "verified": 65

@@ -71837,19 +71837,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 1,
       "bbox": [
-        0,
-        149.73,
-        595.32,
-        841.92
+        70,
+        140.28,
+        525.44,
+        449.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q2": [
@@ -71857,19 +71854,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 2,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        417.43
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q3": [
@@ -71877,19 +71871,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 3,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        223.97
+        70,
+        94.44,
+        525.44,
+        405.43
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q4": [
@@ -71897,19 +71888,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 4,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        589.53
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q5": [
@@ -71917,19 +71905,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 5,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        646.92
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q6": [
@@ -71937,19 +71922,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 6,
       "bbox": [
-        0,
-        172.65,
-        595.32,
-        841.92
+        70,
+        163.2,
+        525.44,
+        567.21
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q7": [
@@ -71957,19 +71939,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 7,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        359.12
+        70,
+        94.44,
+        525.44,
+        585.69
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q8": [
@@ -71977,19 +71956,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 8,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        204.41
+        70,
+        94.44,
+        525.44,
+        431.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q9": [
@@ -71997,19 +71973,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 9,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        702.72
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q10": [
@@ -72017,19 +71990,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 10,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        223.97
+        70,
+        94.44,
+        525.44,
+        403.95
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q11": [
@@ -72037,40 +72007,33 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 10,
       "bbox": [
-        0,
-        482.66,
-        595.32,
-        841.92
+        70,
+        473.21,
+        525.44,
+        768.48
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "multipart_boundary_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     },
     {
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        595.32,
-        841.92
+        70,
+        94,
+        525.44,
+        173
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "multipart_boundary_review_required"
-      ]
+        "options_C_D_continuation"
+      ],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q12": [
@@ -72078,19 +72041,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 12,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        325.75
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q13": [
@@ -72098,19 +72058,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 13,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        339.55
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q14": [
@@ -72118,19 +72075,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 14,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        222.94
+        70,
+        94.44,
+        525.44,
+        367.15
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q15": [
@@ -72138,19 +72092,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 15,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        530.6,
+        368.23
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q16": [
@@ -72158,19 +72109,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 16,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        482.97
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q17": [
@@ -72178,19 +72126,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 17,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        383.59
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q18": [
@@ -72198,19 +72143,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 18,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        369.31
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q19": [
@@ -72218,19 +72160,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 19,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        460.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q20": [
@@ -72238,19 +72177,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 20,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        354.67
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q21": [
@@ -72258,19 +72194,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 21,
       "bbox": [
-        0,
-        103.74,
-        595.32,
-        841.92
+        70,
+        94.44,
+        571.4,
+        433.87
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q22": [
@@ -72278,19 +72211,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 22,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        368.23
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q23": [
@@ -72298,19 +72228,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 23,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        395.71
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q24": [
@@ -72318,19 +72245,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 24,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        355.27
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q25": [
@@ -72338,19 +72262,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 25,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        196.85
+        70,
+        94.44,
+        525.44,
+        340.15
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q26": [
@@ -72358,19 +72279,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 26,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        340.39
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q27": [
@@ -72378,19 +72296,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 27,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        571.77
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q28": [
@@ -72398,19 +72313,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 28,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        341.23
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q29": [
@@ -72418,19 +72330,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 29,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        417.19
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q30": [
@@ -72438,19 +72347,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 30,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        214.48
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q31": [
@@ -72458,19 +72364,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 31,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        249.64
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q32": [
@@ -72478,19 +72381,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 32,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        176.44
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q33": [
@@ -72498,19 +72398,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 33,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        310.39
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q34": [
@@ -72518,19 +72415,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 34,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        337.99
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q35": [
@@ -72538,19 +72432,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 35,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        226.24
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q36": [
@@ -72558,19 +72449,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 36,
       "bbox": [
-        0,
-        126.81,
-        595.32,
-        260.57
+        70,
+        117.36,
+        525.44,
+        405.43
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q37": [
@@ -72578,19 +72466,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 37,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        235.73
+        70,
+        94.44,
+        525.44,
+        379.03
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q38": [
@@ -72598,19 +72483,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 38,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        376.76
+        70,
+        94.44,
+        525.44,
+        520.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q39": [
@@ -72618,19 +72500,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 39,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        422.35
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q40": [
@@ -72638,19 +72517,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 40,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        480.33
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q41": [
@@ -72658,19 +72534,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 41,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        322.51
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q42": [
@@ -72678,19 +72551,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 42,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        423.55
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q43": [
@@ -72698,19 +72568,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 43,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        383.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q44": [
@@ -72718,19 +72585,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 44,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        405.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q45": [
@@ -72738,19 +72602,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 45,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        418.87
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q46": [
@@ -72758,19 +72619,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 46,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        368.23
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q47": [
@@ -72778,19 +72636,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 47,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        530.6,
+        381.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q48": [
@@ -72798,19 +72653,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 48,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        413.11
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q49": [
@@ -72818,19 +72670,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 49,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        369.67
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q50": [
@@ -72838,19 +72687,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 50,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        452.13
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q51": [
@@ -72858,19 +72704,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 51,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        241.96
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q52": [
@@ -72878,19 +72721,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 52,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        483.93
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q53": [
@@ -72898,19 +72738,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 53,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        577.65
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q54": [
@@ -72918,19 +72755,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 54,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        345.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q55": [
@@ -72938,19 +72772,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 55,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        539.24,
+        540.45
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q56": [
@@ -72958,19 +72789,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 56,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        227.8
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q57": [
@@ -72978,19 +72806,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 57,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        399.55
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q58": [
@@ -72998,19 +72823,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 58,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        214.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q59": [
@@ -73018,19 +72840,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 59,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        227.57
+        70,
+        94.44,
+        525.44,
+        449.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q60": [
@@ -73038,19 +72857,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 60,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        422.95
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q61": [
@@ -73058,19 +72874,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 61,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        337.99
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q62": [
@@ -73078,19 +72891,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 62,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.44,
+        525.44,
+        697.32
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q63": [
@@ -73098,19 +72908,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 63,
       "bbox": [
-        0,
-        126.81,
-        595.32,
-        841.92
+        70,
+        117.36,
+        525.44,
+        512.25
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q64": [
@@ -73118,20 +72925,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 64,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        394.52
+        70,
+        94.44,
+        525.44,
+        383.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S1-Q65": [
@@ -73139,20 +72942,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
       "page": 64,
       "bbox": [
-        0,
-        392.52,
-        595.32,
-        841.92
+        70,
+        383.07,
+        525.44,
+        529.17
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2025-S1.json"
     }
   ],
   "CS-2025-S2-Q1": [
@@ -73160,19 +72959,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 1,
       "bbox": [
-        0,
-        152.25,
-        595.32,
-        841.92
+        70,
+        143.18,
+        525,
+        451.53
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q2": [
@@ -73180,19 +72978,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 2,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        389.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q3": [
@@ -73200,19 +72997,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 3,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        393.79
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q4": [
@@ -73220,19 +73016,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 4,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        571.17
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q5": [
@@ -73240,19 +73035,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 5,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        379.03
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q6": [
@@ -73260,19 +73054,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 6,
       "bbox": [
-        0,
-        126.81,
-        595.32,
-        841.92
+        70,
+        117.86,
+        525,
+        426.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q7": [
@@ -73280,19 +73073,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 7,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        377.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q8": [
@@ -73300,19 +73092,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 8,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        156.31
+        70,
+        94.94,
+        525,
+        514.77
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q9": [
@@ -73320,19 +73111,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 9,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        405.56
+        70,
+        94.94,
+        525,
+        548.37
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q10": [
@@ -73340,19 +73130,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 10,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        568.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q11": [
@@ -73360,19 +73149,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 11,
       "bbox": [
-        0,
-        126.81,
-        595.32,
-        220.97
+        70,
+        117.86,
+        525,
+        437.67
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q12": [
@@ -73380,19 +73168,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 11,
       "bbox": [
-        0,
-        447.14,
-        595.32,
-        841.92
+        70,
+        438.17,
+        525,
+        715.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q13": [
@@ -73400,19 +73187,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 12,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        345.08
+        70,
+        94.94,
+        525,
+        468.09
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q14": [
@@ -73420,19 +73206,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 13,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        247.61
+        70,
+        94.94,
+        525,
+        427.59
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q15": [
@@ -73440,19 +73225,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 13,
       "bbox": [
-        0,
-        437.18,
-        595.32,
-        841.92
+        70,
+        428.09,
+        525,
+        732.72
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q16": [
@@ -73460,19 +73244,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 14,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        432.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q17": [
@@ -73480,19 +73263,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 15,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        500.73
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q18": [
@@ -73500,19 +73282,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 16,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        404.95
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q19": [
@@ -73520,19 +73301,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 17,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        658.32
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q20": [
@@ -73540,19 +73320,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 18,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        222.41
+        70,
+        94.94,
+        525,
+        403.23
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q21": [
@@ -73560,19 +73339,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 18,
       "bbox": [
-        0,
-        412.68,
-        595.32,
-        841.92
+        70,
+        403.73,
+        525,
+        740.88
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q22": [
@@ -73580,19 +73358,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 19,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        498.81
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q23": [
@@ -73600,19 +73377,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 20,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        263.6
+        70,
+        94.94,
+        525,
+        443.57
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q24": [
@@ -73620,19 +73396,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 20,
       "bbox": [
-        0,
-        453.02,
-        595.32,
-        841.92
+        70,
+        444.07,
+        525,
+        726.6
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q25": [
@@ -73640,20 +73415,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 21,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        415.28
+        70,
+        94.94,
+        525,
+        403.83
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q26": [
@@ -73661,20 +73434,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 21,
       "bbox": [
-        0,
-        413.28,
-        595.32,
-        573.1
+        70,
+        404.33,
+        525,
+        754.2
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q27": [
@@ -73682,20 +73453,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 22,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        469.9
+        70,
+        94.94,
+        525,
+        458.45
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q28": [
@@ -73703,20 +73472,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 22,
       "bbox": [
-        0,
-        467.9,
-        595.32,
-        841.92
+        70,
+        458.95,
+        525,
+        727.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q29": [
@@ -73724,19 +73491,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 23,
       "bbox": [
-        0,
-        103.9,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        391.99
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q30": [
@@ -73744,19 +73510,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 24,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        566.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q31": [
@@ -73764,20 +73529,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 25,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        582.94
+        70,
+        94.94,
+        525,
+        571.37
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q32": [
@@ -73785,20 +73548,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 25,
       "bbox": [
-        0,
-        580.94,
-        595.32,
-        841.92
+        70,
+        571.87,
+        525,
+        728.28
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q33": [
@@ -73806,20 +73567,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 26,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        302.0
+        70,
+        94.94,
+        525,
+        290.43
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q34": [
@@ -73827,20 +73586,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 26,
       "bbox": [
-        0,
-        300.0,
-        595.32,
-        406.16
+        70,
+        290.93,
+        525,
+        394.71
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q35": [
@@ -73848,20 +73605,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 26,
       "bbox": [
-        0,
-        404.16,
-        595.32,
-        841.92
+        70,
+        395.21,
+        525,
+        514.53
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q36": [
@@ -73869,19 +73624,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 27,
       "bbox": [
-        0,
-        126.81,
-        595.32,
-        291.8
+        70,
+        117.86,
+        525,
+        472.89
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q37": [
@@ -73889,19 +73643,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 28,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        417.79
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q38": [
@@ -73909,19 +73662,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 29,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        509.73
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q39": [
@@ -73929,19 +73681,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 30,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        249.8
+        70,
+        94.94,
+        525,
+        429.75
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q40": [
@@ -73949,19 +73700,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 30,
       "bbox": [
-        0,
-        439.22,
-        595.32,
-        841.92
+        70,
+        430.25,
+        525,
+        739.92
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q41": [
@@ -73969,19 +73719,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 31,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        120.29
+        70,
+        94.94,
+        525,
+        445.61
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q42": [
@@ -73989,19 +73738,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 31,
       "bbox": [
-        0,
-        455.06,
-        595.32,
-        841.92
+        70,
+        446.11,
+        525,
+        743.76
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q43": [
@@ -74009,19 +73757,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 32,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        524.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q44": [
@@ -74029,19 +73776,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 33,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        458.01
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q45": [
@@ -74049,19 +73795,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 34,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        199.08
+        70,
+        94.94,
+        525,
+        524.13
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q46": [
@@ -74069,19 +73814,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 35,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        455.37
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q47": [
@@ -74089,19 +73833,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 36,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        191.45
+        70,
+        94.94,
+        525,
+        548.13
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q48": [
@@ -74109,19 +73852,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 37,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        545.73
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q49": [
@@ -74129,20 +73871,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 38,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        454.66
+        70,
+        94.94,
+        525,
+        443.21
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q50": [
@@ -74150,20 +73890,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 38,
       "bbox": [
-        0,
-        452.66,
-        595.32,
-        841.92
+        70,
+        443.71,
+        525,
+        716.76
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q51": [
@@ -74171,19 +73909,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 39,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        547.17
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q52": [
@@ -74191,19 +73928,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 40,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        404.95
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q53": [
@@ -74211,19 +73947,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 41,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        544.89
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q54": [
@@ -74231,19 +73966,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 42,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        659.04
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q55": [
@@ -74251,20 +73985,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 43,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        317.0
+        70,
+        94.94,
+        525,
+        279.63
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q56": [
@@ -74272,20 +74004,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 43,
       "bbox": [
-        0,
-        315.0,
-        595.32,
-        422.96
+        70,
+        280.13,
+        525,
+        411.51
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q57": [
@@ -74293,20 +74023,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 43,
       "bbox": [
-        0,
-        420.96,
-        595.32,
-        841.92
+        70,
+        412.01,
+        525,
+        635.52
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q58": [
@@ -74314,20 +74042,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 44,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        264.08
+        70,
+        94.94,
+        525,
+        252.6
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q59": [
@@ -74335,20 +74061,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 44,
       "bbox": [
-        0,
-        262.08,
-        595.32,
-        331.95
+        70,
+        253.1,
+        525,
+        665.64
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q60": [
@@ -74356,20 +74080,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 45,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        288.92
+        70,
+        94.94,
+        525,
+        277.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q61": [
@@ -74377,20 +74099,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 45,
       "bbox": [
-        0,
-        286.92,
-        595.32,
-        368.33
+        70,
+        277.97,
+        525,
+        481.29
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q62": [
@@ -74398,19 +74118,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 46,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        505.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q63": [
@@ -74418,20 +74137,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 47,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        521.02
+        70,
+        94.94,
+        525,
+        509.57
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q64": [
@@ -74439,20 +74156,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 47,
       "bbox": [
-        0,
-        519.02,
-        595.32,
-        841.92
+        70,
+        510.07,
+        525,
+        655.08
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2025-S2-Q65": [
@@ -74460,19 +74175,18 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
       "page": 48,
       "bbox": [
-        0,
-        103.89,
-        595.32,
-        841.92
+        70,
+        94.94,
+        525,
+        226.24
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
+      "status": "verified",
+      "method": "manual_table_boundary_review",
       "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+      "review_audit": "audits/crops-CS-2025-S2.json"
     }
   ],
   "CS-2026-S1-Q1": [

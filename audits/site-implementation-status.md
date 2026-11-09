@@ -53,3 +53,7 @@ For a reproducible clean preview, use a new empty output directory with `python 
 ## Second crop-review batch
 
 Both 2026 papers now have independently reviewed crop coordinates (130 questions); 3,276 remain pending. CS1 Q32/Q58 initial truncation was caught and repaired before approval. Source crop assets are still generated locally, not included in this text checkpoint. Source answers and deployment restrictions are unchanged.
+
+## 2025 crop-review batch
+
+260 questions now have independently reviewed crop coordinates across four 2025–2026 papers; 3,146 remain pending. 2025 CS1 Q11 had a missing continuation containing options C/D, added and independently verified before approval. Other papers and final source-presentation gates remain open. No source answers or workflow permissions changed.

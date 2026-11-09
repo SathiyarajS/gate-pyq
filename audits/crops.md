@@ -1,17 +1,16 @@
 # Crop preparation audit (private local work)
 
-Status: **130 crops independently reviewed; Phase 1 is not complete.** No publication,
+Status: **260 crops independently reviewed; Phase 1 is not complete.** No publication,
 source-rights conclusion, original-fidelity claim, or transcription certification.
 
 ## Current coverage
 
-- 130 questions across CS-2026-S1 and CS-2026-S2 independently crop-reviewed; 3,276 remain pending.
-- 130 manually bounded crops, 953 marker candidates and 2,396 full-page candidates.
-- 8,390 overlap pairs remain in the draft corpus; the 130 reviewed crops have zero overlaps.
-- 40 source PDFs resolved for 46 papers; 35 match previously recorded hashes and 5 ZIP-member hashes are locally recorded only.
-- 20 source PDFs have parser warnings. Parse success does not establish intact figures.
-- CS-2026-S2: all 42 original pages and all 65 proposed boundaries independently visually inspected. Every final 216-DPI WebP independently regenerated and matched byte-for-byte; actual outputs Q1–Q4 additionally visually sampled. See the paper and render-check audits for exact scope.
-- Other 44 papers require source/crop visual QA. No full transcription certification or public redistribution clearance is implied.
+- 260 questions across four 2025–2026 papers have independently reviewed bounds; 3,146 remain pending.
+- Reviewed records include 261 crop parts: 2025 CS1 Q11 continues onto page 11. All four complete papers were visually inspected by author and separate reviewer.
+- Current proposal methods: {'page_fallback': 2395, 'text_marker_candidate': 823, 'manual_table_boundary_review': 261}.
+- 8378 overlap pairs remain across the full draft corpus. Reviewed records have no neighboring-question text contamination; blank table space is sometimes retained.
+- 40 source PDFs resolve for 46 papers; 35 have previously recorded matching hashes and five ZIP-member hashes are locally recorded only. Twenty sources carry parser warnings requiring visual care.
+- Scope is crop completeness, not transcription, answers, original-paper completeness or public distribution rights. Remaining 42 papers require crop review.
 
 See `crop-source-map.json` for URLs, archive members, SHA-256, portable paths, page/text counts and parser warnings; `crop-summary.json` for per-paper counts. Workstation paths are kept separately in ignored `.local-source-cache/source-paths.json` and must be regenerated on another machine. The renderer prefers normal repository source paths, with `--source-cache` as an optional local override. No PDF was added to publication assets.
 

@@ -1,0 +1,1723 @@
+{
+  "paper": "CS-2025-S2",
+  "status": "independently_reviewed",
+  "review_status": "independent_source_bounds_review_passed",
+  "counts": {
+    "questions": 65,
+    "crop_images": 65,
+    "source_pages_inspected": 48,
+    "contact_sheets_inspected": 17,
+    "independent_review_pending": 0,
+    "verified": 65,
+    "overlap_pairs": 0
+  },
+  "source": {
+    "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+    "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+    "url": "https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+    "pages": 48,
+    "hash_basis": "record_or_manifest"
+  },
+  "method": "Vector table lines proposed boundaries; first-pass reviewer inspected all complete annotated source pages and all actual crop WebPs in two-column contact sheets. Source page inspection used 1.5x raster; crops rendered 3x WebP quality80. No continuation/shared-stem dependencies observed across questions. Boundaries include final prompts after equations and figures. Existing watermark and table whitespace retained.",
+  "limitations": [
+    "Crop boundaries independently reviewed; this does not certify exact transcription, answers, final key revision or distribution rights.",
+    "No transcription or answer verification performed.",
+    "No copyright license or publication permission established. Local review images are not publication artifacts."
+  ],
+  "inspected_pixels": [
+    {
+      "file": "sources/annotated-01.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "ffefe54d852b734b02f8615ac704fb1f0251f78da37ec0300c7f86809de9231e"
+    },
+    {
+      "file": "sources/annotated-02.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "501332b4ebe24c06d0b852d5b627c61bc3f3466f51797f82c5ae5691bac3874d"
+    },
+    {
+      "file": "sources/annotated-03.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "551479484b94bbc79b0b82763097c544400f5929f06467fb98cc8c4cb70df972"
+    },
+    {
+      "file": "sources/annotated-04.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "e3a62e95f0396c15e6d173c550cc39332d2fc2d9fc487e07adbaf75875009492"
+    },
+    {
+      "file": "sources/annotated-05.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "cb8ab2d00a3c02101cd6513c45b0f263aa916dd73f094bde72ea5918968e4fa1"
+    },
+    {
+      "file": "sources/annotated-06.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "53b0f819e4606c407b3a3d6fead6d304147e9a6d955672e13f94929c3eb3d7af"
+    },
+    {
+      "file": "sources/annotated-07.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "cad88e9969bf5923f2ad07738ab5cd51c97a252ff6bb2e4ef2ccde30dad64fcb"
+    },
+    {
+      "file": "sources/annotated-08.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "752039d37ec497630ea97b5a7878a4c2c7e8aa68858f15f81de006e944fceaf8"
+    },
+    {
+      "file": "sources/annotated-09.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "074ff80a2fa5ae20950e967bf1bb7c5fad9f5d13c140a4f0d3546c44f5d73c88"
+    },
+    {
+      "file": "sources/annotated-10.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "2a6fb460fe94d49585a994ae9f07133c07c0c06a4a957b94fe20a452ade0994a"
+    },
+    {
+      "file": "sources/annotated-11.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "cc4003da2108e14b80cbac2618f0e369f1d14d951ab41bd047f26e460f7bc2df"
+    },
+    {
+      "file": "sources/annotated-12.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "5086b38924c1b30b3935c30d42e33b75b177cc08684e78a3dec46a1de7d20020"
+    },
+    {
+      "file": "sources/annotated-13.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "a5ea8dc0ba1c5471f7420e70302c2fe956f77a0cfb8b989b2b9177a3b66ece90"
+    },
+    {
+      "file": "sources/annotated-14.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "503a349a02a19c1401d71145f572042032fecca698cdf32644309dd88fca3010"
+    },
+    {
+      "file": "sources/annotated-15.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "582192747a65b088a5463b465d5310ee543fc09c4183a22135e5000c079a667f"
+    },
+    {
+      "file": "sources/annotated-16.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "344e5e8691585a6547139e8e3811166a57fd30721e5333bfd44ad38d69937a6c"
+    },
+    {
+      "file": "sources/annotated-17.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "0cd16efc2be4a63c7920837cb67c3409dd157b84c7f82d0a2e02dd46e9847ce9"
+    },
+    {
+      "file": "sources/annotated-18.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "8013e6f380de5294504f3ace8933f3b829914078be06bee8a1cabfd379457a69"
+    },
+    {
+      "file": "sources/annotated-19.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "683eb7c0cf47c308c406774b09fa056b9b41cdd6466586c00acb200865f8976d"
+    },
+    {
+      "file": "sources/annotated-20.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "b25369dd5fbc66be6ca5e8e17af6f6a3ecf1c4e77c21393c81b5a99a85360909"
+    },
+    {
+      "file": "sources/annotated-21.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "30f43673a0815545bfa8bffc356128bd5026e556460da6592d568aa0bfa303fb"
+    },
+    {
+      "file": "sources/annotated-22.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "07dfb8690837b3172d696f9eb179e60188385cd0e7b8cda475517ceaeaab4f17"
+    },
+    {
+      "file": "sources/annotated-23.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "3338e7b2765e40730c74136e6d9fa82c2bd53bf1968e5abdd89c054301b47fce"
+    },
+    {
+      "file": "sources/annotated-24.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "20219f2e8f28a44f169f60f7250d6b10cc153ba79ae66f624e626cb86dc62d85"
+    },
+    {
+      "file": "sources/annotated-25.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "53138d08a12adecba3e698b04ac105e32097ad932bf5c0efe2fc141d4b159db7"
+    },
+    {
+      "file": "sources/annotated-26.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "bef5e9084d3807e0086241e1a8eaf522fd61fd0a74bb4a110ff52101c2dbbb74"
+    },
+    {
+      "file": "sources/annotated-27.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "cef09a39ddade44ab4ebb3daa828fae7f790546a08fedf7a8f90f2eeb13e6700"
+    },
+    {
+      "file": "sources/annotated-28.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "adb7e07f9926ebd1d5612458dda6c85aeb597e3709f1601511a2de6e269eeb9d"
+    },
+    {
+      "file": "sources/annotated-29.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "2114e045c94d3d666f18c88881e91a84f916cca6aecfd5daa421b988a0c6029e"
+    },
+    {
+      "file": "sources/annotated-30.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "78c5bc383adae46f055aa16b48c858b9cc4dc3b33defc6d57dfffb7981722302"
+    },
+    {
+      "file": "sources/annotated-31.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "ef6e8b8e67b1062c6f0bd1c8ab57174511b7c15fce469a4578a0d63090e43127"
+    },
+    {
+      "file": "sources/annotated-32.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "5c7b9f4751a10bad805b8d755a617b0e4852fc4e59ab0486481af8ada6876e9f"
+    },
+    {
+      "file": "sources/annotated-33.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "f4a650dcb50cc0fe25e4aa0236b0a0273d021b8c988d49c8eed000011aae34dc"
+    },
+    {
+      "file": "sources/annotated-34.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "b8eb5dfba8bcc87322fc4e242ef0ae109e38a552c94634240b967ab129e10688"
+    },
+    {
+      "file": "sources/annotated-35.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "69e10f30caf875a12016691417f1b7cdd0742984075564e22aadfa5a27edb014"
+    },
+    {
+      "file": "sources/annotated-36.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "d77d74ce4c6b24044e6db49a1d09e007e54f50c8b0144ea7a4a5188fc178edc2"
+    },
+    {
+      "file": "sources/annotated-37.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "e80c56750ad25f28e79eab1eb97be8bb08572c31bca512d9b0257628faef77f9"
+    },
+    {
+      "file": "sources/annotated-38.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "4739f12f6a1e5ea7981abc76cde0c39b0172da954872926ee1455927833f44ec"
+    },
+    {
+      "file": "sources/annotated-39.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "a37a644e5c98290b55c9cfa5cc4013058525f6ac6ce404fe5509ade88b1c6ec3"
+    },
+    {
+      "file": "sources/annotated-40.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "7993ad25ea37ff0e5e36d3d1b37bce4a17ce0124c90a52e0d4a19d1a24e3d27c"
+    },
+    {
+      "file": "sources/annotated-41.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "110f3a2aa08c3708dca4e3ddee06a0c8626c0cd512c269ff98e15a6096219441"
+    },
+    {
+      "file": "sources/annotated-42.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "1ea4337adaf4966ecca3f85d72b5d6f194cb46cec316fb7482984b8d1269bd00"
+    },
+    {
+      "file": "sources/annotated-43.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "d5f11f984ca1ac0663ed7d8b739017a758a00aa7a079439ccd12714db54e847a"
+    },
+    {
+      "file": "sources/annotated-44.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "42b3c9dc2db6f1be301e3fae2de48f731b9b9ef712fdbc189580c399b18e7076"
+    },
+    {
+      "file": "sources/annotated-45.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "32781f328126006e3a8d84574f51b8a166e4dbadc865a25189db5537c6572496"
+    },
+    {
+      "file": "sources/annotated-46.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "7fe8b3f575ae4be7da3e5ea2b1d1d419ceea9cbc8ca72aadb87dedad2466c384"
+    },
+    {
+      "file": "sources/annotated-47.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "0f8027c8e2bf48e390527de6fbed8f7b935702d81be474487389b5e31c18f2ec"
+    },
+    {
+      "file": "sources/annotated-48.png",
+      "pixels": [
+        893,
+        1263
+      ],
+      "sha256": "b513bbb1608800bf9578838a5fa602805d545a7759ef374f0d89f873491f7cce"
+    },
+    {
+      "file": "contact-01.png",
+      "pixels": [
+        1800,
+        1583
+      ],
+      "sha256": "5e345cbd12161ae37c4eebbc7857f2e9d4b0ba5c752483a5cd7853c835c3b937"
+    },
+    {
+      "file": "contact-02.png",
+      "pixels": [
+        1800,
+        1474
+      ],
+      "sha256": "ccb99a1229e8771fa7650a425747c10c8c102803878f42e96cddd52ae9e8b606"
+    },
+    {
+      "file": "contact-03.png",
+      "pixels": [
+        1800,
+        1600
+      ],
+      "sha256": "706b63b239c14c701ec19d32163e88747e7a68fa670289049bffff6594b12b5e"
+    },
+    {
+      "file": "contact-04.png",
+      "pixels": [
+        1800,
+        1440
+      ],
+      "sha256": "600d2ecc8fe04d04f0b14e22c7092c9f96de829f5ccc75c1f4464a89ba0f847d"
+    },
+    {
+      "file": "contact-05.png",
+      "pixels": [
+        1800,
+        1940
+      ],
+      "sha256": "75afb52bf522692d5117859f1d7fba4de4de6be0f3fb76bfe3385137e1f1d90c"
+    },
+    {
+      "file": "contact-06.png",
+      "pixels": [
+        1800,
+        1521
+      ],
+      "sha256": "ee30b26ebc9243ec941e0abc2fa807c0d6ed4f67b43304683e482b4f6d8716ec"
+    },
+    {
+      "file": "contact-07.png",
+      "pixels": [
+        1800,
+        1446
+      ],
+      "sha256": "38500d1ae8fdd1db5342618c61e3a482c5a05167cf50dd4fc081e56264305f96"
+    },
+    {
+      "file": "contact-08.png",
+      "pixels": [
+        1800,
+        1900
+      ],
+      "sha256": "5b94bcaf0607edcc50837f7493f727e91e0733cd08d7d17dc136781836907eed"
+    },
+    {
+      "file": "contact-09.png",
+      "pixels": [
+        1800,
+        1130
+      ],
+      "sha256": "1fb86a46539ea0d457f303091c105d6e116951d04a301313a3675f4ad427e498"
+    },
+    {
+      "file": "contact-10.png",
+      "pixels": [
+        1800,
+        1516
+      ],
+      "sha256": "f6403a2bc99fe88b3e28f509c3e371f0baaa397f3ce3e7e839894ee6bdc713b7"
+    },
+    {
+      "file": "contact-11.png",
+      "pixels": [
+        1800,
+        1575
+      ],
+      "sha256": "7eea9b66c5cf967af5fe878d7f0ad2f96b51d0064de60b3e4101f1585750fba1"
+    },
+    {
+      "file": "contact-12.png",
+      "pixels": [
+        1800,
+        1772
+      ],
+      "sha256": "10c7f7303a2054ceec40314715a9bdcb7f68ae59ccb1dfd9a1af68f28a1f39b6"
+    },
+    {
+      "file": "contact-13.png",
+      "pixels": [
+        1800,
+        1613
+      ],
+      "sha256": "bc6de7d9d4be6821364e671d3a7173b3a2f0ab5b63854ece00f39ddb1969e3b2"
+    },
+    {
+      "file": "contact-14.png",
+      "pixels": [
+        1800,
+        1514
+      ],
+      "sha256": "5eaeae92b57d52a55b7d658492a6fc0d164a556bbe4a4eb997828842708b85ea"
+    },
+    {
+      "file": "contact-15.png",
+      "pixels": [
+        1800,
+        1295
+      ],
+      "sha256": "843c2a1c8b5a6d583d932b3492730aef358f8a3f034b533514c2b32a70a385c3"
+    },
+    {
+      "file": "contact-16.png",
+      "pixels": [
+        1800,
+        1661
+      ],
+      "sha256": "4c1a171a0f9de23527f67065237606888c5aa38ccd9f4640928ac8daa08b537a"
+    },
+    {
+      "file": "contact-17.png",
+      "pixels": [
+        1800,
+        287
+      ],
+      "sha256": "001a1fa48aec1432ce2c207d13ea33f62d9942f8c419290595557844c93f0782"
+    }
+  ],
+  "entries": [
+    {
+      "question_id": "CS-2025-S2-Q1",
+      "source_page": 1,
+      "bbox_points": [
+        70,
+        143.18,
+        525,
+        451.53
+      ],
+      "render_file": "images/CS-2025-S2-Q1-1.webp",
+      "render_pixels": [
+        1365,
+        926
+      ],
+      "render_sha256": "2035a6e186fd5d3aac299f3a77fbd5ed200ef279c1092dd517e4d085653743fd",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q2",
+      "source_page": 2,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        389.47
+      ],
+      "render_file": "images/CS-2025-S2-Q2-1.webp",
+      "render_pixels": [
+        1365,
+        885
+      ],
+      "render_sha256": "5f3a13934ec1b6079e2ee1007e7a295cc31be5649d8310876dade24c84a9ca15",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q3",
+      "source_page": 3,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        393.79
+      ],
+      "render_file": "images/CS-2025-S2-Q3-1.webp",
+      "render_pixels": [
+        1365,
+        898
+      ],
+      "render_sha256": "827d7992e91932a1a1bf07446d9c669f5432ccd1ce3d0c8e54817bf546c81fe6",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q4",
+      "source_page": 4,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        571.17
+      ],
+      "render_file": "images/CS-2025-S2-Q4-1.webp",
+      "render_pixels": [
+        1365,
+        1430
+      ],
+      "render_sha256": "eeb24ef1af6ffdfab53106bc7eff6db5b49dc81cc2f02eb331b300afce979b91",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q5",
+      "source_page": 5,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        379.03
+      ],
+      "render_file": "images/CS-2025-S2-Q5-1.webp",
+      "render_pixels": [
+        1365,
+        854
+      ],
+      "render_sha256": "5eaa074f08503c694e4d648cb58d0477cd46f0c6bf67844b61d30907b1f6c0c5",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q6",
+      "source_page": 6,
+      "bbox_points": [
+        70,
+        117.86,
+        525,
+        426.07
+      ],
+      "render_file": "images/CS-2025-S2-Q6-1.webp",
+      "render_pixels": [
+        1365,
+        926
+      ],
+      "render_sha256": "65e4effec57f7dd92be5f321bbcc58df1aa51277361d54fd8cc2495d216bb44e",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q7",
+      "source_page": 7,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        377.47
+      ],
+      "render_file": "images/CS-2025-S2-Q7-1.webp",
+      "render_pixels": [
+        1365,
+        849
+      ],
+      "render_sha256": "447feaab2c6d6725abd41aeb414be6c06b829150114028408e48c06c4a273eb0",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q8",
+      "source_page": 8,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        514.77
+      ],
+      "render_file": "images/CS-2025-S2-Q8-1.webp",
+      "render_pixels": [
+        1365,
+        1261
+      ],
+      "render_sha256": "d04ac04e3b3f2e911df3b8ce328acd2d922c94dd372c7e15ee532e989bb766c0",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q9",
+      "source_page": 9,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        548.37
+      ],
+      "render_file": "images/CS-2025-S2-Q9-1.webp",
+      "render_pixels": [
+        1365,
+        1362
+      ],
+      "render_sha256": "bd4543081f71335e3fe2277ec0b67c1e29b62ca867caca31eeb73b06b67dc9e6",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q10",
+      "source_page": 10,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        568.05
+      ],
+      "render_file": "images/CS-2025-S2-Q10-1.webp",
+      "render_pixels": [
+        1365,
+        1421
+      ],
+      "render_sha256": "9c15d4a23dcd6c79788d6a17e28c19c2cfb1278ff6a46a052607cfe5bf0d1937",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q11",
+      "source_page": 11,
+      "bbox_points": [
+        70,
+        117.86,
+        525,
+        437.67
+      ],
+      "render_file": "images/CS-2025-S2-Q11-1.webp",
+      "render_pixels": [
+        1365,
+        961
+      ],
+      "render_sha256": "b5bf4e3d79e6edf8305533304fb450e92b63b8fa3787e4f70eeda960b548f773",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q12",
+      "source_page": 11,
+      "bbox_points": [
+        70,
+        438.17,
+        525,
+        715.68
+      ],
+      "render_file": "images/CS-2025-S2-Q12-1.webp",
+      "render_pixels": [
+        1365,
+        834
+      ],
+      "render_sha256": "acd49b23a8aacc617c3f3a46be4d946e21aff5c0051e39e128f5c9dbda02fe79",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q13",
+      "source_page": 12,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        468.09
+      ],
+      "render_file": "images/CS-2025-S2-Q13-1.webp",
+      "render_pixels": [
+        1365,
+        1121
+      ],
+      "render_sha256": "bb17ddd083a680883087dce3cb36dbc1f26ee52d133085ab6b1027343842b0db",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q14",
+      "source_page": 13,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        427.59
+      ],
+      "render_file": "images/CS-2025-S2-Q14-1.webp",
+      "render_pixels": [
+        1365,
+        999
+      ],
+      "render_sha256": "69a5b881fe597566c6f8d790ac4103891263e3c911164fbea99d13b6136a5c3b",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q15",
+      "source_page": 13,
+      "bbox_points": [
+        70,
+        428.09,
+        525,
+        732.72
+      ],
+      "render_file": "images/CS-2025-S2-Q15-1.webp",
+      "render_pixels": [
+        1365,
+        915
+      ],
+      "render_sha256": "c5ced790b0dea16b09843f66c5f30f97db02d57dde91edfba709f9c07d717e3c",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q16",
+      "source_page": 14,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        432.07
+      ],
+      "render_file": "images/CS-2025-S2-Q16-1.webp",
+      "render_pixels": [
+        1365,
+        1013
+      ],
+      "render_sha256": "b1aecd2ed1ca8f9b2ec7009f5e8957eba351a100d2c054867ee6f0ab27321bf2",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q17",
+      "source_page": 15,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        500.73
+      ],
+      "render_file": "images/CS-2025-S2-Q17-1.webp",
+      "render_pixels": [
+        1365,
+        1219
+      ],
+      "render_sha256": "6cb1d5f6b6c1f28e9b26f520af3d51fceff3439b4544e99b0fb60cdfa53c0704",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q18",
+      "source_page": 16,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        404.95
+      ],
+      "render_file": "images/CS-2025-S2-Q18-1.webp",
+      "render_pixels": [
+        1365,
+        931
+      ],
+      "render_sha256": "bced4e926f1026eaef51f47b366e2a152e12c8f3cea41b59416e4f3f71a0902d",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q19",
+      "source_page": 17,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        658.32
+      ],
+      "render_file": "images/CS-2025-S2-Q19-1.webp",
+      "render_pixels": [
+        1365,
+        1691
+      ],
+      "render_sha256": "8e074cf06aadb7b8c6298b9dc781ae7efe2063591d80d8ebac617d53802165cc",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q20",
+      "source_page": 18,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        403.23
+      ],
+      "render_file": "images/CS-2025-S2-Q20-1.webp",
+      "render_pixels": [
+        1365,
+        926
+      ],
+      "render_sha256": "68d200a5d53560d1411f8ed3a25b9d4a328f0c48c5d3c8bca3e0ba859c0d6b75",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q21",
+      "source_page": 18,
+      "bbox_points": [
+        70,
+        403.73,
+        525,
+        740.88
+      ],
+      "render_file": "images/CS-2025-S2-Q21-1.webp",
+      "render_pixels": [
+        1365,
+        1012
+      ],
+      "render_sha256": "bada5a9d3556680913d38f2beb69058eceb9a8625e69267545b118b3e779e002",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q22",
+      "source_page": 19,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        498.81
+      ],
+      "render_file": "images/CS-2025-S2-Q22-1.webp",
+      "render_pixels": [
+        1365,
+        1213
+      ],
+      "render_sha256": "db6fec61e4c2a527e8c4b213990322a93ae0eaf21414c43187ec4ce4e969fbd5",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q23",
+      "source_page": 20,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        443.57
+      ],
+      "render_file": "images/CS-2025-S2-Q23-1.webp",
+      "render_pixels": [
+        1365,
+        1047
+      ],
+      "render_sha256": "00e2b968a36276ba90f43f78a2beb698d99a47de701e932cda9d434584e00f8a",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q24",
+      "source_page": 20,
+      "bbox_points": [
+        70,
+        444.07,
+        525,
+        726.6
+      ],
+      "render_file": "images/CS-2025-S2-Q24-1.webp",
+      "render_pixels": [
+        1365,
+        848
+      ],
+      "render_sha256": "703c61db93907229e112dd4d8a40662af8e8f9197dd83eda72500ca1c4e32130",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q25",
+      "source_page": 21,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        403.83
+      ],
+      "render_file": "images/CS-2025-S2-Q25-1.webp",
+      "render_pixels": [
+        1365,
+        928
+      ],
+      "render_sha256": "f2e7bd6bb644b3fa2e3c7b2305baf891affb3e0944019f15189cdc551bb70b46",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q26",
+      "source_page": 21,
+      "bbox_points": [
+        70,
+        404.33,
+        525,
+        754.2
+      ],
+      "render_file": "images/CS-2025-S2-Q26-1.webp",
+      "render_pixels": [
+        1365,
+        1051
+      ],
+      "render_sha256": "bb5b5116d46339536028263681faa4f28983ea0854e93b604be70a272cc374d3",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q27",
+      "source_page": 22,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        458.45
+      ],
+      "render_file": "images/CS-2025-S2-Q27-1.webp",
+      "render_pixels": [
+        1365,
+        1092
+      ],
+      "render_sha256": "c013746697401d8bfb86649fd2ec736f691123c7f0c11cc4e540027730620e2b",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q28",
+      "source_page": 22,
+      "bbox_points": [
+        70,
+        458.95,
+        525,
+        727.68
+      ],
+      "render_file": "images/CS-2025-S2-Q28-1.webp",
+      "render_pixels": [
+        1365,
+        808
+      ],
+      "render_sha256": "c4c4f040cccbf6f89b941369b43cd19190a07b2b0b7e98d614161f0974ff790b",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q29",
+      "source_page": 23,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        391.99
+      ],
+      "render_file": "images/CS-2025-S2-Q29-1.webp",
+      "render_pixels": [
+        1365,
+        892
+      ],
+      "render_sha256": "dabae9228aa33ba1261a410845932ebb911712fcf41864d7b91ccb0d380a4781",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q30",
+      "source_page": 24,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        566.49
+      ],
+      "render_file": "images/CS-2025-S2-Q30-1.webp",
+      "render_pixels": [
+        1365,
+        1416
+      ],
+      "render_sha256": "3420b5f4a799855a25ded6970bff6f8fe26354b508f9c63b20537a7f2058e063",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q31",
+      "source_page": 25,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        571.37
+      ],
+      "render_file": "images/CS-2025-S2-Q31-1.webp",
+      "render_pixels": [
+        1365,
+        1431
+      ],
+      "render_sha256": "07d03c5ac58b7129680e7681ca53a0d4c19a7eeefd98bc3df72c81fd366d4ce0",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q32",
+      "source_page": 25,
+      "bbox_points": [
+        70,
+        571.87,
+        525,
+        728.28
+      ],
+      "render_file": "images/CS-2025-S2-Q32-1.webp",
+      "render_pixels": [
+        1365,
+        470
+      ],
+      "render_sha256": "614f9831553d6d17d40dcaefaaaf63040c391a6665b8c33543989f3d1cd1819a",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q33",
+      "source_page": 26,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        290.43
+      ],
+      "render_file": "images/CS-2025-S2-Q33-1.webp",
+      "render_pixels": [
+        1365,
+        588
+      ],
+      "render_sha256": "5e7316824a6986f27681c43e69903f2cb15bb9db49299812a7e2a1b4779f9c79",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q34",
+      "source_page": 26,
+      "bbox_points": [
+        70,
+        290.93,
+        525,
+        394.71
+      ],
+      "render_file": "images/CS-2025-S2-Q34-1.webp",
+      "render_pixels": [
+        1365,
+        313
+      ],
+      "render_sha256": "38d3c0cf0d51495d77b7a39e2215ec6db0af759186aa5a807e7f215b054896dd",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q35",
+      "source_page": 26,
+      "bbox_points": [
+        70,
+        395.21,
+        525,
+        514.53
+      ],
+      "render_file": "images/CS-2025-S2-Q35-1.webp",
+      "render_pixels": [
+        1365,
+        359
+      ],
+      "render_sha256": "0181e190f14e80cdcc9f337bf8e68d5b2c935cb1b1953c3118ec5edee3175a8e",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q36",
+      "source_page": 27,
+      "bbox_points": [
+        70,
+        117.86,
+        525,
+        472.89
+      ],
+      "render_file": "images/CS-2025-S2-Q36-1.webp",
+      "render_pixels": [
+        1365,
+        1066
+      ],
+      "render_sha256": "9bbfd617f50d9e98d6840bc8cc2198ad1104f01203f3e4e528af346613c0fec7",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q37",
+      "source_page": 28,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        417.79
+      ],
+      "render_file": "images/CS-2025-S2-Q37-1.webp",
+      "render_pixels": [
+        1365,
+        970
+      ],
+      "render_sha256": "ea99e81f789b70814f8ec34309d91c62066e6a8f02f1bbddf15c525e5972a6d7",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q38",
+      "source_page": 29,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        509.73
+      ],
+      "render_file": "images/CS-2025-S2-Q38-1.webp",
+      "render_pixels": [
+        1365,
+        1246
+      ],
+      "render_sha256": "55430c0ef6dd817ff085026d2b99595bfbe250c95a25fe145b39b43f0250f7c7",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q39",
+      "source_page": 30,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        429.75
+      ],
+      "render_file": "images/CS-2025-S2-Q39-1.webp",
+      "render_pixels": [
+        1365,
+        1006
+      ],
+      "render_sha256": "97034f9b62b96fd9a43b400e1deba67317065d178106ece55d31f303e8984905",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q40",
+      "source_page": 30,
+      "bbox_points": [
+        70,
+        430.25,
+        525,
+        739.92
+      ],
+      "render_file": "images/CS-2025-S2-Q40-1.webp",
+      "render_pixels": [
+        1365,
+        930
+      ],
+      "render_sha256": "335a326eedc970c448d49d27eefe2552221f6026eceeac11f5aeed247cf9c573",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q41",
+      "source_page": 31,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        445.61
+      ],
+      "render_file": "images/CS-2025-S2-Q41-1.webp",
+      "render_pixels": [
+        1365,
+        1053
+      ],
+      "render_sha256": "19ec55c88f51115dda96f885ce9623c4b3576351423f99fa81d43e083c88beae",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q42",
+      "source_page": 31,
+      "bbox_points": [
+        70,
+        446.11,
+        525,
+        743.76
+      ],
+      "render_file": "images/CS-2025-S2-Q42-1.webp",
+      "render_pixels": [
+        1365,
+        894
+      ],
+      "render_sha256": "2d0ff3900c525d7205eb46aa2cfe85b3d89b0e8ba2b890392dcdeee1360b5b0f",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q43",
+      "source_page": 32,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        524.49
+      ],
+      "render_file": "images/CS-2025-S2-Q43-1.webp",
+      "render_pixels": [
+        1365,
+        1290
+      ],
+      "render_sha256": "2b6f37165155061723e9d347d2cbcf34a52825e408fc58b32ea54b75c7b03fe0",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q44",
+      "source_page": 33,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        458.01
+      ],
+      "render_file": "images/CS-2025-S2-Q44-1.webp",
+      "render_pixels": [
+        1365,
+        1091
+      ],
+      "render_sha256": "78788a3477632bbed243fe1b435362bdba11b87bfa6f760ed60123f35096a695",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q45",
+      "source_page": 34,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        524.13
+      ],
+      "render_file": "images/CS-2025-S2-Q45-1.webp",
+      "render_pixels": [
+        1365,
+        1289
+      ],
+      "render_sha256": "fc5ebe182fd3b7633323bfba097c139693afbcabe70c2433af0414a6d7420a1c",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q46",
+      "source_page": 35,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        455.37
+      ],
+      "render_file": "images/CS-2025-S2-Q46-1.webp",
+      "render_pixels": [
+        1365,
+        1083
+      ],
+      "render_sha256": "1c814fcd08456f18cfcfb26cb9eff98375412db12c2ff6cb8b53aef47eb66cd2",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q47",
+      "source_page": 36,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        548.13
+      ],
+      "render_file": "images/CS-2025-S2-Q47-1.webp",
+      "render_pixels": [
+        1365,
+        1361
+      ],
+      "render_sha256": "8e291b4cd5b01c8af22a4c1f97ead3c57a716f49aea90368536e777f8e9d7573",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q48",
+      "source_page": 37,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        545.73
+      ],
+      "render_file": "images/CS-2025-S2-Q48-1.webp",
+      "render_pixels": [
+        1365,
+        1354
+      ],
+      "render_sha256": "9153d1b311bc0f75936b7e751f83c8ada753beebef370938e2a671abc4fd0fa5",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q49",
+      "source_page": 38,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        443.21
+      ],
+      "render_file": "images/CS-2025-S2-Q49-1.webp",
+      "render_pixels": [
+        1365,
+        1046
+      ],
+      "render_sha256": "fa5367ed45cafdff34bb536970473378d93e6441e26218562127922234d6cf28",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q50",
+      "source_page": 38,
+      "bbox_points": [
+        70,
+        443.71,
+        525,
+        716.76
+      ],
+      "render_file": "images/CS-2025-S2-Q50-1.webp",
+      "render_pixels": [
+        1365,
+        820
+      ],
+      "render_sha256": "7f30b79b110cf9c0e7112bd458c9d7870d6b1a0382b324a8154549b2aef5b3bf",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q51",
+      "source_page": 39,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        547.17
+      ],
+      "render_file": "images/CS-2025-S2-Q51-1.webp",
+      "render_pixels": [
+        1365,
+        1358
+      ],
+      "render_sha256": "d957a74f22f76869461c0a5c98e715c2e19850ceacab520df0da0d07c817c939",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q52",
+      "source_page": 40,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        404.95
+      ],
+      "render_file": "images/CS-2025-S2-Q52-1.webp",
+      "render_pixels": [
+        1365,
+        931
+      ],
+      "render_sha256": "f79c60bdd129fa09b3f8e7b91f7750d92a1755342f62e7df409cf1132ba6a1d6",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q53",
+      "source_page": 41,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        544.89
+      ],
+      "render_file": "images/CS-2025-S2-Q53-1.webp",
+      "render_pixels": [
+        1365,
+        1351
+      ],
+      "render_sha256": "bf519a37a1d4dfea228a8f95ad4d398be56cff3501ffdf8ad2c4934632d3490a",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q54",
+      "source_page": 42,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        659.04
+      ],
+      "render_file": "images/CS-2025-S2-Q54-1.webp",
+      "render_pixels": [
+        1365,
+        1694
+      ],
+      "render_sha256": "53a6e7a4f11822c27ea607f5502bfa029fafae26630235d47bab9e100f5050bb",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q55",
+      "source_page": 43,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        279.63
+      ],
+      "render_file": "images/CS-2025-S2-Q55-1.webp",
+      "render_pixels": [
+        1365,
+        555
+      ],
+      "render_sha256": "3ed61e14ff41ff17a1e10287e281d1a2737f8948f23eff5a2acdf31842f0b5d8",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q56",
+      "source_page": 43,
+      "bbox_points": [
+        70,
+        280.13,
+        525,
+        411.51
+      ],
+      "render_file": "images/CS-2025-S2-Q56-1.webp",
+      "render_pixels": [
+        1365,
+        395
+      ],
+      "render_sha256": "21a0eb5bf0a2092434c5731aedb290172f2940ea1c3347d68c53d3f3c971bda1",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q57",
+      "source_page": 43,
+      "bbox_points": [
+        70,
+        412.01,
+        525,
+        635.52
+      ],
+      "render_file": "images/CS-2025-S2-Q57-1.webp",
+      "render_pixels": [
+        1365,
+        671
+      ],
+      "render_sha256": "fa79ebdbf739d069d6e605c999c283759cafd0bd471de7536cc0eaca1c3fd96e",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q58",
+      "source_page": 44,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        252.6
+      ],
+      "render_file": "images/CS-2025-S2-Q58-1.webp",
+      "render_pixels": [
+        1365,
+        474
+      ],
+      "render_sha256": "a8d0ecf70d2e4262ac36883d659380f26eab56086e0897d96a3db7626a3717b2",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q59",
+      "source_page": 44,
+      "bbox_points": [
+        70,
+        253.1,
+        525,
+        665.64
+      ],
+      "render_file": "images/CS-2025-S2-Q59-1.webp",
+      "render_pixels": [
+        1365,
+        1238
+      ],
+      "render_sha256": "7ea41ffa8e39c170d7127fbe410321e0bf514ac0c97ca917f3d7be61f3a1627f",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q60",
+      "source_page": 45,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        277.47
+      ],
+      "render_file": "images/CS-2025-S2-Q60-1.webp",
+      "render_pixels": [
+        1365,
+        549
+      ],
+      "render_sha256": "5d813d38f9eed482da0527c987b0401d1a19d6df6562a39f23635e35a5f8d709",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q61",
+      "source_page": 45,
+      "bbox_points": [
+        70,
+        277.97,
+        525,
+        481.29
+      ],
+      "render_file": "images/CS-2025-S2-Q61-1.webp",
+      "render_pixels": [
+        1365,
+        611
+      ],
+      "render_sha256": "0c20c54b3affac4fc86adfc19ef1d4752e73768e807ffed4a3c60a5f3c88a33f",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q62",
+      "source_page": 46,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        505.05
+      ],
+      "render_file": "images/CS-2025-S2-Q62-1.webp",
+      "render_pixels": [
+        1365,
+        1232
+      ],
+      "render_sha256": "332e00a53fbdb93fd9e1c1bb7b41862024cc24b25c994bb8cf1afa1793f4d703",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q63",
+      "source_page": 47,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        509.57
+      ],
+      "render_file": "images/CS-2025-S2-Q63-1.webp",
+      "render_pixels": [
+        1365,
+        1245
+      ],
+      "render_sha256": "f9287d84c2adb395537633ffde4845db31b4cdcb2707f3708829e69e631ceff7",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q64",
+      "source_page": 47,
+      "bbox_points": [
+        70,
+        510.07,
+        525,
+        655.08
+      ],
+      "render_file": "images/CS-2025-S2-Q64-1.webp",
+      "render_pixels": [
+        1365,
+        436
+      ],
+      "render_sha256": "3d5f0de6a9c7dd3c7a5abc079f8d7d85153fda0ebc8ae3d447fa99c4b85a8984",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    },
+    {
+      "question_id": "CS-2025-S2-Q65",
+      "source_page": 48,
+      "bbox_points": [
+        70,
+        94.94,
+        525,
+        226.24
+      ],
+      "render_file": "images/CS-2025-S2-Q65-1.webp",
+      "render_pixels": [
+        1365,
+        395
+      ],
+      "render_sha256": "e434167fbc383e968c74e46d671fb38c3f4b0b91b9e374667bd909ed6d5b8269",
+      "review_status": "independent_visual_review_pending",
+      "first_pass_result": "Complete stem, options, equations, code and figures where present; no adjacent question or answer-key contamination observed."
+    }
+  ],
+  "independent_review": "Separate reviewer inspected all 48 full source pages and all 65 current bounds. Q43 page32 annotation regenerated from current JSON and rechecked. No corrections. First-pass author inspected all 65 actual rendered outputs.",
+  "reviewed_proposal_sha256": "62c37bc52b1b047b5558eb0217ba8e647a2fcee9b70a7f204a0865a7d551e6d1"
+}
