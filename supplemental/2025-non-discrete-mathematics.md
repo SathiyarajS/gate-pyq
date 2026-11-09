@@ -93,3 +93,117 @@ Normalization gives 1=C∫₁⁴x²dx=21C, hence C=1/21. Therefore P(2≤X≤3)=
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 
 **Discrepancy / qualification:** No answer-key disagreement identified; model and counting conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q11
+
+**Question:** [Official archived paper page 11](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** C
+
+**Derived answer:** C
+
+## Solution
+
+Multiplying the matrix by itself gives A²=[[5, 0],[0, 5]]=5I. Therefore A⁸=(A²)⁴=5⁴I=625I, option C.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q12
+
+**Question:** [Official archived paper page 11](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** A
+
+**Derived answer:** A
+
+## Solution
+
+Integration by parts gives ∫t ln(t)dt=(t²/2)ln(t)−t²/4. Evaluating from 1 to x yields (x²/2)ln(x)−x²/4+1/4. Equating to 1/4 gives x²(2ln(x)−1)=0. Because x>1, ln(x)=1/2 and x=√e, option A. The integral is strictly increasing for x>1, confirming uniqueness.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q14
+
+**Question:** [Official archived paper page 13](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=13); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** A
+
+**Derived answer:** A
+
+## Solution
+
+Multiplying L²=L⁻¹ by L gives L³=I. Hence L⁸=(L³)²L²=L², so M=N. Their difference is the zero matrix and det(M−N)=0, option A. Non-singularity of the original matrices does not imply that their difference is nonsingular.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q44
+
+**Question:** [Official archived paper page 33](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=33); consult original wording, diagrams and choices.
+
+**Type / marks:** MSQ, 2 mark(s).
+
+**Official answer:** A;B;C
+
+**Derived answer:** A;B;C
+
+## Solution
+
+Since P=LU, first solving LY=Q and then UX=Y is equivalent to PX=Q, including recognizing inconsistency or nonuniqueness if U is singular. L is unit lower triangular, so detL=1 and detP=detU=u11u22u33. If P is invertible then both factors are invertible; if P is singular a diagonal entry of U is zero. Symmetry of P does not force triangular factors to be symmetric: L=[[1, 0, 0],[1, 1, 0],[0, 0, 1]], U=[[1, 1, 0],[0, 1, 0],[0, 0, 1]] gives symmetric P but nonsymmetric factors. Hence A, B, C. Supplemental linear algebra.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q64
+
+**Question:** [Official archived paper page 47](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=47); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 0.5 to 0.5
+
+**Derived answer:** 0.5
+
+## Solution
+
+Equality of the monic polynomials means their root multisets agree: {α,β}={α²,β²}. Either each root is fixed by squaring, hence is 0 or1, giving x², x(x−1),(x−1)²; or squaring swaps distinct roots, giving α=β²,β=α² and thus the two nontrivial cube roots of unity, whose polynomial is x²+x+1. There are four polynomials, of which x² and(x−1)² have equal roots. Uniform choice therefore gives 2/4=0. 5. Supplemental algebra/probability; uniform selection is the intended meaning of choosing at random from this finite set.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2025 CS2: Q65
+
+**Question:** [Official archived paper page 48](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=48); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 0.70 to 0.80
+
+**Derived answer:** 0.74
+
+## Solution
+
+Let U be the uniform cut. If U<0. 4 the containing interval has length 1−U; if U>0. 4 its length isU. The event U=0. 4 has probability zero. Therefore E[L]=∫₀^0. 4(1−u)du+∫₀. 4¹u du=0. 32+0. 42=0. 74. This lies within the published0. 70–0. 80 interval. Supplemental continuous probability.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
