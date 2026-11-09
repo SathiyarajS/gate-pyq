@@ -16,11 +16,23 @@ for q in qs:
  if re.search(r'\d\. +(?!0x)\d',q.get('solution','')):errors.append('Possible damaged decimal/IP notation: '+str(q.get('question_id')))
  if q.get('source_url') and not q.get('source_archive_member') and not q['source_url'].endswith('#page='+str(q.get('source_page'))):errors.append('Source-page link mismatch: '+str(q.get('question_id')))
  if q.get('source_section'):
-  ordinal=int(q['source_question_number']); printed=int(q.get('printed_question_number',-1))
+  ordinal=int(q['source_question_number']); scheme=q.get('source_numbering_scheme'); raw_printed=str(q.get('printed_question_number',''))
+  if scheme=='cs_grouped_subparts':
+   expected_printed=str(q.get('source_group_number',''))+str(q.get('source_subpart',''))
+   if raw_printed!=expected_printed or q['source_section']!='CS':errors.append('Grouped source numbering mismatch: '+str(q.get('question_id')))
+   if q.get('paper_id')=='CS-2005':
+    mapped=str(ordinal) if ordinal<=80 else str(81+(ordinal-81)//2)+('a' if ordinal%2 else 'b')
+    if not 1<=ordinal<=90 or raw_printed!=mapped:errors.append('2005 grouped item mapping mismatch: '+str(q.get('question_id')))
+    if q.get('marks')!=(1 if ordinal<=30 else 2):errors.append('2005 item marks mismatch: '+str(q.get('question_id')))
+   printed=ordinal
+  else:printed=int(raw_printed or -1)
   ga_printed=ordinal+55 if q.get('source_numbering_scheme')=='cs_first_continuous' else ordinal
   cs_printed=ordinal if q.get('source_numbering_scheme')=='ga_first_continuous' else ordinal-10
-  if (q['source_section'],printed)!=(('GA',ga_printed) if ordinal<=10 else ('CS',cs_printed)):
+  expected=('CS',ordinal) if scheme in {'cs_only_continuous','cs_grouped_subparts'} else (('GA',ga_printed) if ordinal<=10 else ('CS',cs_printed))
+  if (q['source_section'],printed)!=expected:
    errors.append('Printed/normalized numbering mismatch: '+str(q.get('question_id')))
+ if q.get('official_answer') is None and (q.get('key_url') is not None or q.get('key_page') is not None or q.get('verification_status')=='official_key_matched'):
+  errors.append('Unsupported official-key claim: '+str(q.get('question_id')))
  qids.append(q.get('question_id'));pairs.append((q.get('paper_id'),q.get('source_question_number')))
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')
  if q.get('subject') not in subjects|{'excluded'}:errors.append('Unknown subject')

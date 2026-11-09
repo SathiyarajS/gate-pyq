@@ -6,7 +6,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 27,
     "paper_id": "CS-2015-S2"
   },
@@ -17,7 +17,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 27,
     "paper_id": "CS-2015-S2"
   },
@@ -28,7 +28,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 28,
     "paper_id": "CS-2015-S2"
   },
@@ -39,7 +39,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 28,
     "paper_id": "CS-2015-S2"
   },
@@ -50,7 +50,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 28,
     "paper_id": "CS-2015-S2"
   },
@@ -61,7 +61,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 29,
     "paper_id": "CS-2015-S2"
   },
@@ -72,7 +72,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 29,
     "paper_id": "CS-2015-S2"
   },
@@ -83,7 +83,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "8",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 29,
     "paper_id": "CS-2015-S2"
   },
@@ -94,7 +94,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 30,
     "paper_id": "CS-2015-S2"
   },
@@ -105,7 +105,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 30,
     "paper_id": "CS-2015-S2"
   },
@@ -116,7 +116,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 31,
     "paper_id": "CS-2015-S2"
   },
@@ -127,7 +127,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "2048",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 31,
     "paper_id": "CS-2015-S2"
   },
@@ -138,7 +138,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 31,
     "paper_id": "CS-2015-S2"
   },
@@ -149,7 +149,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "36",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 31,
     "paper_id": "CS-2015-S2"
   },
@@ -160,7 +160,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "6",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 32,
     "paper_id": "CS-2015-S2"
   },
@@ -171,7 +171,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 32,
     "paper_id": "CS-2015-S2"
   },
@@ -182,7 +182,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "3",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 32,
     "paper_id": "CS-2015-S2"
   },
@@ -193,7 +193,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "14",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 32,
     "paper_id": "CS-2015-S2"
   },
@@ -204,7 +204,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "22",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 32,
     "paper_id": "CS-2015-S2"
   },
@@ -215,7 +215,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 33,
     "paper_id": "CS-2015-S2"
   },
@@ -226,7 +226,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 33,
     "paper_id": "CS-2015-S2"
   },
@@ -237,7 +237,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 33,
     "paper_id": "CS-2015-S2"
   },
@@ -248,7 +248,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "19",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 34,
     "paper_id": "CS-2015-S2"
   },
@@ -259,7 +259,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "51",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 34,
     "paper_id": "CS-2015-S2"
   },
@@ -270,7 +270,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 34,
     "paper_id": "CS-2015-S2"
   },
@@ -281,7 +281,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 35,
     "paper_id": "CS-2015-S2"
   },
@@ -292,7 +292,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 35,
     "paper_id": "CS-2015-S2"
   },
@@ -303,7 +303,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 36,
     "paper_id": "CS-2015-S2"
   },
@@ -314,7 +314,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 36,
     "paper_id": "CS-2015-S2"
   },
@@ -325,7 +325,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 36,
     "paper_id": "CS-2015-S2"
   },
@@ -336,7 +336,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 36,
     "paper_id": "CS-2015-S2"
   },
@@ -347,7 +347,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "5",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 37,
     "paper_id": "CS-2015-S2"
   },
@@ -358,7 +358,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 37,
     "paper_id": "CS-2015-S2"
   },
@@ -369,7 +369,7 @@
     "question_type": "NAT",
     "marks": 1,
     "official_answer": "12",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 37,
     "paper_id": "CS-2015-S2"
   },
@@ -380,7 +380,7 @@
     "question_type": "MCQ",
     "marks": 1,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 38,
     "paper_id": "CS-2015-S2"
   },
@@ -391,7 +391,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 38,
     "paper_id": "CS-2015-S2"
   },
@@ -402,7 +402,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 39,
     "paper_id": "CS-2015-S2"
   },
@@ -413,7 +413,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 39,
     "paper_id": "CS-2015-S2"
   },
@@ -424,7 +424,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 39,
     "paper_id": "CS-2015-S2"
   },
@@ -435,7 +435,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 40,
     "paper_id": "CS-2015-S2"
   },
@@ -446,7 +446,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 40,
     "paper_id": "CS-2015-S2"
   },
@@ -457,7 +457,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "6.1 to 6.2",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 40,
     "paper_id": "CS-2015-S2"
   },
@@ -468,7 +468,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "36",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 41,
     "paper_id": "CS-2015-S2"
   },
@@ -479,7 +479,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 41,
     "paper_id": "CS-2015-S2"
   },
@@ -490,7 +490,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "3",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 41,
     "paper_id": "CS-2015-S2"
   },
@@ -501,7 +501,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 42,
     "paper_id": "CS-2015-S2"
   },
@@ -512,7 +512,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 42,
     "paper_id": "CS-2015-S2"
   },
@@ -523,7 +523,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "5",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 43,
     "paper_id": "CS-2015-S2"
   },
@@ -534,7 +534,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "A",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 44,
     "paper_id": "CS-2015-S2"
   },
@@ -545,7 +545,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 45,
     "paper_id": "CS-2015-S2"
   },
@@ -556,7 +556,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 45,
     "paper_id": "CS-2015-S2"
   },
@@ -567,7 +567,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "15",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 46,
     "paper_id": "CS-2015-S2"
   },
@@ -578,7 +578,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "13",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 47,
     "paper_id": "CS-2015-S2"
   },
@@ -589,7 +589,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 47,
     "paper_id": "CS-2015-S2"
   },
@@ -600,7 +600,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "1",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 48,
     "paper_id": "CS-2015-S2"
   },
@@ -611,7 +611,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 48,
     "paper_id": "CS-2015-S2"
   },
@@ -622,7 +622,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "0",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 48,
     "paper_id": "CS-2015-S2"
   },
@@ -633,7 +633,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "36",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 49,
     "paper_id": "CS-2015-S2"
   },
@@ -644,7 +644,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "0.95",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 49,
     "paper_id": "CS-2015-S2"
   },
@@ -655,7 +655,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 49,
     "paper_id": "CS-2015-S2"
   },
@@ -666,7 +666,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "D",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 50,
     "paper_id": "CS-2015-S2"
   },
@@ -677,7 +677,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "B",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 50,
     "paper_id": "CS-2015-S2"
   },
@@ -688,7 +688,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 50,
     "paper_id": "CS-2015-S2"
   },
@@ -699,7 +699,7 @@
     "question_type": "MCQ",
     "marks": 2,
     "official_answer": "C",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 50,
     "paper_id": "CS-2015-S2"
   },
@@ -710,7 +710,7 @@
     "question_type": "NAT",
     "marks": 2,
     "official_answer": "19.2",
-    "official_session": 2,
+    "official_session": null,
     "key_page": 51,
     "paper_id": "CS-2015-S2"
   }

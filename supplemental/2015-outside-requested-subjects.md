@@ -313,3 +313,192 @@ Formal code inspection includes checking adherence to coding standards, C. Inspe
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
 **Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q17 (printed CS Q17)
+
+**Question:** [Official archived paper page 59](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 1 mark(s).
+
+**Official answer:** 612 to 613
+
+**Derived answer:** 612.06
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Unadjusted points=30·4+60·5+23·4+8·10+2·7=606. Adjustment sum=4·0+4·3+6·4=36. The factor is 0.65+0.01·36=1.01, giving606·1.01=612.06, within the official612 to 613 range.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q18 (printed CS Q18)
+
+**Question:** [Official archived paper page 59](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** B
+
+**Derived answer:** B conceptually, after fixing HTML attribute syntax
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+A base element sets the base URL used to resolve relative links, so the intended B is <base href="http://www.yourname.com/">. Anchor elements only make individual links. The printed options use href: rather than href=; literal B therefore is not the required valid HTML attribute assignment. Retain the official conceptual answer with the syntax correction explicit.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** CS-2015-S3-Q18-HTML-SYNTAX
+
+
+# GATE 2015 CS3: Q23 (printed CS Q23)
+
+**Question:** [Official archived paper page 61](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** B
+
+**Derived answer:** B
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Solving(A−I)v=0 gives−y+2z=0 and x+2y=0. Therefore y=2z, x=−4z, so the nonzero eigenvectors are scalar multiples of(−4, 2, 1), B.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q24 (printed CS Q24)
+
+**Question:** [Official archived paper page 61](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** C
+
+**Derived answer:** C
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Take logarithms: ln[(1+x²)^(e^(−x))]=ln(1+x²)/e^x→0. Exponentiating gives limit1, C.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q33 (printed CS Q33)
+
+**Question:** [Official archived paper page 64](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 1 mark(s).
+
+**Official answer:** 28
+
+**Derived answer:** 28
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+The detected seeded fraction is 75/100=0.75. Detected real faults number159−75=84. Under equal detectability, estimated total real faults=84/0.75=112, leaving112−84=28 undetected.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q36 (printed CS Q36)
+
+**Question:** [Official archived paper page 65](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 308 to 310
+
+**Derived answer:** 308.67
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Starting from rest supplies v0=0 and the table ends with v20=0. With h=2, Simpson gives(2/3)[0+0+4(10+25+32+11+2)+2(18+29+20+5)]=(2/3)(320+144)=308.6667km, rounded308.67 and within308 to 310.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q52 (printed CS Q52)
+
+**Question:** [Official archived paper page 73](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 2 mark(s).
+
+**Official answer:** C
+
+**Derived answer:** C
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+A nontrivial homogeneous solution requires determinant zero. The determinant is minus(p³+q³+r³−3pqr), which factors as −(p+q+r)((p−q)²+(q−r)²+(r−p)²)/2. Over real coefficients this vanishes exactly when p+q+r=0 or p=q=r, C. The real-domain convention matters for the sum-of-squares implication.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q54 (printed CS Q54)
+
+**Question:** [Official archived paper page 74](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 2 mark(s).
+
+**Official answer:** A
+
+**Derived answer:** A
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Replace x by 1/x to obtain a f(1/x)+b f(x)=x−25. Eliminate f(1/x): f(x)=[a/x−bx−25a+25b]/(a²−b²). Integrating from 1 to 2 yields[a(ln2−25)+(47/2)b]/(a²−b²), A. The source states a≠b. Existence of f at x=1 also forces a+b≠0, since (a+b)f(1)=−24. Together these ensure a²−b² is nonzero.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.
+
+
+# GATE 2015 CS3: Q58 (printed CS Q58)
+
+**Question:** [Official archived paper page 76](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 2 mark(s).
+
+**Official answer:** A
+
+**Derived answer:** A
+
+**Source access:** Open archive member CS/CS2015.pdf inside the linked official CS.zip. Page numbers refer to the extracted PDF, not the Drive preview.
+
+## Solution
+
+Treat each compound source-level condition as one decision: X has its first if, the while, and the final if, so complexity4. The shown Y graph has 8 vertices and 10 edges, giving E−N+2=4. Serial composition adds complexities minus1, so Z=4+4−1=7. Thus A. Expanding the short-circuit AND into separate predicate nodes would increase X to 5 and Z to 8; the official answer uses source-statement predicate counting rather than that expanded control-flow model.
+
+**Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; conventions are stated in the solution.

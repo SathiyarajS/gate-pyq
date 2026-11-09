@@ -18,19 +18,19 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2000 | ? | 0 | ☐ | 0 |
 | 2001 | ? | 0 | ☐ | 0 |
 | 2002 | ? | 0 | ☐ | 0 |
-| 2003 | ? | 0 | ☐ | 0 |
-| 2004 | ? | 0 | ☐ | 0 |
-| 2005 | ? | 0 | ☐ | 0 |
-| 2006 | ? | 0 | ☐ | 0 |
-| 2007 | ? | 0 | ☐ | 0 |
-| 2008 | ? | 0 | ☐ | 0 |
-| 2009 | ? | 0 | ☐ | 0 |
-| 2010 | ? | 0 | ☐ | 0 |
-| 2011 | ? | 0 | ☐ | 0 |
-| 2012 | ? | 0 | ☐ | 0 |
-| 2013 | ? | 0 | ☐ | 0 |
-| 2014 | ? | 0 | ☐ | 0 |
-| 2015 | ? | 8 (source-linked entries) | ☐ | 0 |
+| 2003 | ? | 5 (source-linked entries) | ☐ | 0 |
+| 2004 | ? | 6 (source-linked entries) | ☐ | 1 |
+| 2005 | ? | 7 (source-linked entries) | ☐ | 1 |
+| 2006 | ? | 5 (source-linked entries) | ☐ | 4 |
+| 2007 | ? | 6 (source-linked entries) | ☐ | 2 |
+| 2008 | ? | 7 (source-linked entries) | ☐ | 0 |
+| 2009 | ? | 4 (source-linked entries) | ☐ | 1 |
+| 2010 | ? | 5 (source-linked entries) | ☐ | 0 |
+| 2011 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2012 | ? | 7 (source-linked entries) | ☐ | 1 |
+| 2013 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2014 | ? | 15 (source-linked entries) | ☐ | 4 |
+| 2015 | ? | 12 (source-linked entries) | ☐ | 0 |
 | 2016 | ? | 8 (source-linked entries) | ☐ | 3 |
 | 2017 | ? | 8 (source-linked entries) | ☐ | 3 |
 | 2018 | ? | 4 (source-linked entries) | ☐ | 0 |

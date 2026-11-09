@@ -25,12 +25,12 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2007 | ? | 0 | ☐ | 0 |
 | 2008 | ? | 0 | ☐ | 0 |
 | 2009 | ? | 0 | ☐ | 0 |
-| 2010 | ? | 0 | ☐ | 0 |
-| 2011 | ? | 0 | ☐ | 0 |
-| 2012 | ? | 0 | ☐ | 0 |
-| 2013 | ? | 0 | ☐ | 0 |
-| 2014 | ? | 0 | ☐ | 0 |
-| 2015 | ? | 20 (source-linked entries) | ☐ | 2 |
+| 2010 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2011 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2012 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2013 | ? | 10 (source-linked entries) | ☐ | 1 |
+| 2014 | ? | 30 (source-linked entries) | ☐ | 2 |
+| 2015 | ? | 30 (source-linked entries) | ☐ | 3 |
 | 2016 | ? | 20 (source-linked entries) | ☐ | 1 |
 | 2017 | ? | 20 (source-linked entries) | ☐ | 1 |
 | 2018 | ? | 10 (source-linked entries) | ☐ | 2 |

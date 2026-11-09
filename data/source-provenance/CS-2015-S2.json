@@ -10,5 +10,9 @@
   "alternate_mapping": "Archived S06 pages1\u201325 correspond to member pages27\u201351; NAT labels/values compared and matched.",
   "final_revision_verified": false,
   "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-  "source_page_note": "Question label can appear at bottom of preceding page; links may point to label or substantive content page."
+  "source_page_note": "Question label can appear at bottom of preceding page; links may point to label or substantive content page.",
+  "exam_date": "2015-02-07",
+  "exam_shift": 2,
+  "archive_variant_label": "SESSION - 2",
+  "session_note": "Original annotated cover states date and shift, not a numeric exam-session identifier. S1/S2/S3 are retained as archive variant labels; official_session is null."
 }
