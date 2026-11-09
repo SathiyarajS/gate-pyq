@@ -1,0 +1,15 @@
+{
+  "paper_id": "CS-2015-S1",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "folder_url": "https://drive.google.com/drive/folders/1sV6FgtOUDl_PGjc36Zdc0eJwK1zZ_2OF",
+  "zip_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "member": "CS/CS2015.pdf",
+  "body_physical_pages": "2\u201325; divider1",
+  "numbering": "GA1\u201310 followed by CS11\u201365; normalized ordinal equals printed number",
+  "key": "Inline annotated official answers, including Q39 interval0.40 to0.46. Single numeric answers are preserved, not expanded into invented tolerances.",
+  "alternate_archived_official": "https://web.archive.org/web/20170712121049id_/http://www.gate.iitg.ac.in:80/2015answers/CS_S05.pdf",
+  "alternate_mapping": "S05 pages1\u201324 correspond to member pages2\u201325; NAT labels/values compared and matched.",
+  "final_revision_verified": false,
+  "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+  "source_page_note": "Question label can appear at bottom of preceding page; links may point to label or substantive content page."
+}

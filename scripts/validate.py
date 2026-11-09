@@ -14,13 +14,26 @@ for q in qs:
  for f in ['question_id','paper_id','source_question_number','subject','question_text','source_page','solution','derived_answer','official_answer','verification_status','discrepancy_ids']:
   if f not in q:errors.append(f'Missing {f}: {q.get("question_id")}')
  if re.search(r'\d\. +(?!0x)\d',q.get('solution','')):errors.append('Possible damaged decimal/IP notation: '+str(q.get('question_id')))
- if q.get('source_url') and not q['source_url'].endswith('#page='+str(q.get('source_page'))):errors.append('Source-page link mismatch: '+str(q.get('question_id')))
+ if q.get('source_url') and not q.get('source_archive_member') and not q['source_url'].endswith('#page='+str(q.get('source_page'))):errors.append('Source-page link mismatch: '+str(q.get('question_id')))
+ if q.get('source_section'):
+  ordinal=int(q['source_question_number']); printed=int(q.get('printed_question_number',-1))
+  ga_printed=ordinal+55 if q.get('source_numbering_scheme')=='cs_first_continuous' else ordinal
+  cs_printed=ordinal if q.get('source_numbering_scheme')=='ga_first_continuous' else ordinal-10
+  if (q['source_section'],printed)!=(('GA',ga_printed) if ordinal<=10 else ('CS',cs_printed)):
+   errors.append('Printed/normalized numbering mismatch: '+str(q.get('question_id')))
  qids.append(q.get('question_id'));pairs.append((q.get('paper_id'),q.get('source_question_number')))
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')
  if q.get('subject') not in subjects|{'excluded'}:errors.append('Unknown subject')
  if q.get('subject')=='excluded' and not q.get('exclusion_reason'):errors.append('Unexplained exclusion')
  if args.require_complete and q.get('subject')!='excluded' and (q.get('verification_status')!='reviewed' or q.get('source_transcription_verified') is not True):errors.append(f'Not release-verified (including transcription): {q.get("question_id")}')
 if len(qids)!=len(set(qids)) or len(pairs)!=len(set(pairs)):errors.append('Duplicate question identifiers')
+# Scanned source keys retain a separate, visually verified transcription.
+lookup={(q['paper_id'],int(q['source_question_number'])):q for q in qs}
+for keyfile in (p/'data/key-transcriptions').glob('*.json'):
+ for row in json.loads(keyfile.read_text()):
+  q=lookup.get((row['paper_id'],row['ordinal']))
+  if not q or any(q.get(f)!=row.get(f) for f in ['official_answer','question_type','marks','source_section','printed_question_number','official_session']):
+   errors.append('Scanned-key transcription mismatch: '+row['paper_id']+' Q'+str(row['ordinal']))
 counts=Counter(q.get('paper_id') for q in qs)
 if args.require_complete:
  for x in papers:
