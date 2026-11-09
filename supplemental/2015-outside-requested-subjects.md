@@ -2,6 +2,10 @@
 
 # GATE 2015 CS1: Q11 (printed CS Q11)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **6**, and locate printed **CS 11** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 6](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -29,6 +33,10 @@ Baseline derivation and retained qualifications: For x≠0, 1, g(h(x))=−1/(x�
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS1: Q12 (printed CS Q12)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **6**, and locate printed **CS 12** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 6](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -58,6 +66,10 @@ Baseline derivation and retained qualifications: Write x^(1/x)=exp((ln x)/x). Th
 
 # GATE 2015 CS1: Q16 (printed CS Q16)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **8**, and locate printed **CS 16** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -85,6 +97,10 @@ Baseline derivation and retained qualifications: Condition coverage is white-box
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS1: Q25 (printed CS Q25)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **10**, and locate printed **CS 25** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 10](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -114,6 +130,10 @@ Baseline derivation and retained qualifications: XML names are case-sensitive; o
 
 # GATE 2015 CS1: Q33 (printed CS Q33)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **12**, and locate printed **CS 33** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 12](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -141,6 +161,10 @@ Baseline derivation and retained qualifications: Let L=[[a, 0],[b, c]] and U=[[1
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS1: Q38 (printed CS Q38)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **14**, and locate printed **CS 38** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 14](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -170,6 +194,10 @@ Baseline derivation and retained qualifications: The control-flow graph has four
 
 # GATE 2015 CS1: Q58 (printed CS Q58)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **21**, and locate printed **CS 58** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 21](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -198,6 +226,10 @@ Baseline derivation and retained qualifications: An antiderivative of cos(1/x)/x
 
 # GATE 2015 CS1: Q59 (printed CS Q59)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **22**, and locate printed **CS 59** in **CS-2015-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 22](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -225,6 +257,10 @@ Baseline derivation and retained qualifications: The trace is 1+a=(−1)+7=6, so
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS2: Q15 (printed CS Q15)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **31**, and locate printed **CS 15** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 31](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -255,6 +291,10 @@ Eigenvalues satisfy det(A−λI)=0. Here (4−λ)(1−λ)−10=λ²−5λ−6. F
 
 # GATE 2015 CS2: Q25 (printed CS Q25)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **34**, and locate printed **CS 25** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 34](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -283,6 +323,10 @@ Requirements state what externally observable behavior and constraints must be m
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS2: Q29 (printed CS Q29)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **36**, and locate printed **CS 29** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 36](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -313,6 +357,10 @@ COCOMO first estimates person-month effort from code size using a calibrated pow
 
 # GATE 2015 CS2: Q51 (printed CS Q51)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **45**, and locate printed **CS 51** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 45](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -341,6 +389,10 @@ The secant line through (xa, f(xa)) and (xb, fb) has slope (fb−f(xa))/(xb−xa
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS2: Q56 (printed CS Q56)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **48**, and locate printed **CS 56** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 48](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -371,6 +423,10 @@ At x=0 the function is undefined and its magnitude grows without bound as x appr
 
 # GATE 2015 CS2: Q57 (printed CS Q57)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **48**, and locate printed **CS 57** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 48](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -399,6 +455,10 @@ Before doing arithmetic, observe that the third column is exactly 15 times the f
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS2: Q64 (printed CS Q64)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **50**, and locate printed **CS 64** in **CS-2015-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 50](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -429,6 +489,10 @@ An inspection is a systematic static review against defect classes and a checkli
 
 # GATE 2015 CS3: Q17 (printed CS Q17)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **59**, and locate printed **CS 17** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 59](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -456,6 +520,10 @@ An inspection is a systematic static review against defect classes and a checkli
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS3: Q18 (printed CS Q18)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **59**, and locate printed **CS 18** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 59](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -485,6 +553,10 @@ An inspection is a systematic static review against defect classes and a checkli
 
 # GATE 2015 CS3: Q23 (printed CS Q23)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **61**, and locate printed **CS 23** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 61](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -512,6 +584,10 @@ An inspection is a systematic static review against defect classes and a checkli
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS3: Q24 (printed CS Q24)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **61**, and locate printed **CS 24** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 61](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -541,6 +617,10 @@ An inspection is a systematic static review against defect classes and a checkli
 
 # GATE 2015 CS3: Q33 (printed CS Q33)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **64**, and locate printed **CS 33** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 64](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -568,6 +648,10 @@ An inspection is a systematic static review against defect classes and a checkli
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS3: Q36 (printed CS Q36)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **65**, and locate printed **CS 36** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 65](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -597,6 +681,10 @@ An inspection is a systematic static review against defect classes and a checkli
 
 # GATE 2015 CS3: Q52 (printed CS Q52)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **73**, and locate printed **CS 52** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 73](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -625,6 +713,10 @@ An inspection is a systematic static review against defect classes and a checkli
 
 # GATE 2015 CS3: Q54 (printed CS Q54)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **74**, and locate printed **CS 54** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 74](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -652,6 +744,10 @@ An inspection is a systematic static review against defect classes and a checkli
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2015 CS3: Q58 (printed CS Q58)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2015.pdf**, open physical PDF page **76**, and locate printed **CS 58** in **CS-2015-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 76](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 

@@ -48,3 +48,5 @@ For each question, record a unique ID, paper/session ID, source question number,
 Detailed step-by-step expansion and a separate explanation-quality audit are in progress. Existing answer reviews do not certify explanatory depth; see [QUALITY.md](QUALITY.md).
 
 Explanation-depth review: 3406 entries have independently reviewed teaching expansions; 0 remain pending. This is separate from answer review and complete question/source access. See [QUALITY.md](QUALITY.md).
+
+Actual source navigation: [SOURCE_ACCESS.md](SOURCE_ACCESS.md) distinguishes direct/archived PDFs from ZIP/member/page routes and lists the 19 explicitly pending local artwork entries. This is access guidance, not a complete-original or reuse-permission certificate.

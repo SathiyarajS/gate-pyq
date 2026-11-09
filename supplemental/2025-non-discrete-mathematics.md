@@ -2,6 +2,10 @@
 
 # GATE 2025 CS1: Q23
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=23), physical page **23**, printed **CS 23**, variant **CS-2025-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 23](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=23); consult original wording, diagrams and choices.
 
 **Type / marks:** MSQ, 1 mark(s).
@@ -30,6 +34,10 @@ There is exactly one inconsistent value and exactly one infinitely-solvable valu
 
 # GATE 2025 CS1: Q31
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=31), physical page **31**, printed **CS 31**, variant **CS-2025-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 31](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=31); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -56,6 +64,10 @@ Thus enter −2.0. Matching derivatives alone would determine a but leave b unde
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2025 CS1: Q32
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=32), physical page **32**, printed **CS 32**, variant **CS-2025-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 32](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=32); consult original wording, diagrams and choices.
 
@@ -84,6 +96,10 @@ Two heads do not prove that the coin is fake: the combined four-coin fair altern
 
 # GATE 2025 CS1: Q41
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=41), physical page **41**, printed **CS 41**, variant **CS-2025-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 41](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=41); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -111,6 +127,10 @@ Equivalently, the eigenvalues of A^13 are (±√2)^13=±2^6√2. The negative ei
 
 # GATE 2025 CS1: Q58
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=58), physical page **58**, printed **CS 58**, variant **CS-2025-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 58](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf#page=58); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -137,6 +157,10 @@ Because this is a continuous distribution, including or excluding either endpoin
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2025 CS2: Q11
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11), physical page **11**, printed **CS 11**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 11](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11); consult original wording, diagrams and choices.
 
@@ -166,6 +190,10 @@ Powers of the same matrix associate, so A^8=(A²)^4=(5I)^4=5^4 I=625I. Thus the 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2025 CS2: Q12
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11), physical page **11**, printed **CS 12**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 11](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=11); consult original wording, diagrams and choices.
 
@@ -198,6 +226,10 @@ The requirement x>1 rules out x=0 and gives ln x=1/2, hence x=e^(1/2)=√e. It s
 
 # GATE 2025 CS2: Q14
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=13), physical page **13**, printed **CS 14**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 13](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=13); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -226,6 +258,10 @@ Do not replace det(M−N) by det M−det N: determinants are not additive in tha
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2025 CS2: Q44
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=33), physical page **33**, printed **CS 44**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 33](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=33); consult original wording, diagrams and choices.
 
@@ -259,6 +295,10 @@ For D, take L=[[1,0,0],[1,1,0],[0,0,1]] and U=[[1,1,0],[0,1,0],[0,0,1]]. Their p
 
 # GATE 2025 CS2: Q64
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=47), physical page **47**, printed **CS 64**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 47](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=47); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -288,6 +328,10 @@ There are therefore four distinct eligible polynomials, not four ordered root pa
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2025 CS2: Q65
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=48), physical page **48**, printed **CS 65**, variant **CS-2025-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 48](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf#page=48); consult original wording, diagrams and choices.
 

@@ -2,6 +2,10 @@
 
 # GATE 2022 CS: Q20
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=16), physical page **16**, printed **CS 20**, variant **CS-2022**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 16](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=16); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -28,6 +32,10 @@ Trace only sums diagonal entries, not all entries. (AB)ii=Σj AijBji. Finite sum
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2022 CS: Q34
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=23), physical page **23**, printed **CS 34**, variant **CS-2022**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 23](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=23); consult original wording, diagrams and choices.
 
@@ -56,6 +64,10 @@ Alternatively l’Hôpital gives numerator derivative 1 and denominator derivati
 
 # GATE 2022 CS: Q45
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=30), physical page **30**, printed **CS 45**, variant **CS-2022**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 30](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=30); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -82,6 +94,10 @@ Elimination details: R2←R2−R1 gives [0,2,1|3]; R3←R3−2R1 gives [0,−1,�
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2022 CS: Q53
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=35), physical page **35**, printed **CS 53**, variant **CS-2022**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 35](https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf#page=35); consult original wording, diagrams and choices.
 

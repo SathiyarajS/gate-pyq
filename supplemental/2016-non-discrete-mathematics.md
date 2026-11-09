@@ -2,6 +2,10 @@
 
 # GATE 2016 CS1: Q13 (printed CS Q3)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **4**, and locate printed **CS 3** in **CS-2016-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 4](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -29,6 +33,10 @@ Direct substitution gives 0/0, which is indeterminate rather than the numerical 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2016 CS1: Q14 (printed CS Q4)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **4**, and locate printed **CS 4** in **CS-2016-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 4](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -58,6 +66,10 @@ A probability density must be nonnegative and have total area 1. Here its integr
 
 # GATE 2016 CS1: Q15 (printed CS Q5)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **4**, and locate printed **CS 5** in **CS-2016-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 4](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -85,6 +97,10 @@ The characteristic polynomial of a real matrix has real coefficients. Therefore 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2016 CS2: Q12 (printed CS Q2)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **26**, and locate printed **CS 2** in **CS-2016-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 26](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -114,6 +130,10 @@ Write f(x)=Σa_k x^k. Adding f(−x) cancels odd powers and doubles even powers;
 
 # GATE 2016 CS2: Q14 (printed CS Q4)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **26**, and locate printed **CS 4** in **CS-2016-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 26](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -141,6 +161,10 @@ Compare ranks, not just numbers of equations: solvability requires rank(A)=rank(
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2016 CS2: Q16 (printed CS Q6)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2016.pdf**, open physical PDF page **27**, and locate printed **CS 6** in **CS-2016-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 27](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 

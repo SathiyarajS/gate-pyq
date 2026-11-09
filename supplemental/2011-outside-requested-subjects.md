@@ -2,6 +2,10 @@
 
 # GATE 2011 CS: Q15 (printed CS Q5)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=2), physical page **2**, printed **CS 5**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 2](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=2); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -34,6 +38,10 @@ The LOC-to-effort conversion must be done separately for each language: x/10000 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2011 CS: Q17 (printed CS Q7)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3), physical page **3**, printed **CS 7**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 3](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3); consult original wording, diagrams and choices.
 
@@ -68,6 +76,10 @@ COCOMO uses thousands of lines, not raw LOC, as its size input. Substituting 400
 
 # GATE 2011 CS: Q19 (printed CS Q9)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3), physical page **3**, printed **CS 9**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 3](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -100,6 +112,10 @@ A static timestamp written into HTML is not the client's current time. Remote im
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2011 CS: Q20 (printed CS Q10)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3), physical page **3**, printed **CS 10**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 3](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=3); consult original wording, diagrams and choices.
 
@@ -134,6 +150,10 @@ Functional requirements describe what services the system must provide. Non-func
 
 # GATE 2011 CS: Q41 (printed CS Q31)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=8), physical page **8**, printed **CS 31**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=8); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -167,6 +187,10 @@ The denominator e^(-ix) is never zero for real x, so the quotient simplification
 
 # GATE 2011 CS: Q50 (printed CS Q40)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=11), physical page **11**, printed **CS 40**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 11](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=11); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -199,6 +223,10 @@ Subtracting λI preserves triangular form. Expanding the determinant along the f
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2011 CS: Q57 (printed CS Q47)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=13), physical page **13**, printed **CS 47**, variant **CS-2011**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 13](https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf#page=13); consult original wording, diagrams and choices.
 

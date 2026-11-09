@@ -2,6 +2,10 @@
 
 # GATE 2023 CS: Q18
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=15), physical page **15**, printed **CS 18**, variant **CS-2023**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 15](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=15); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -27,6 +31,10 @@ Teaching detail. A row swap reverses the alternating sign in the determinant def
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2023 CS: Q28
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=26), physical page **26**, printed **CS 28**, variant **CS-2023**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 26](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=26); consult original wording, diagrams and choices.
 
@@ -54,6 +62,10 @@ Teaching detail. A stationary point alone need not be an extremum, so the sign c
 
 # GATE 2023 CS: Q31
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=29), physical page **29**, printed **CS 31**, variant **CS-2023**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 29](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=29); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -79,6 +91,10 @@ Teaching detail. One can integrate in the stated order to verify the symmetry sh
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2023 CS: Q53
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=56), physical page **56**, printed **CS 53**, variant **CS-2023**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 56](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf#page=56); consult original wording, diagrams and choices.
 

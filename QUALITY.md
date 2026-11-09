@@ -49,3 +49,5 @@ Legacy leaves are not all separately marked questions. Source variants, ambiguou
 ## Release status
 
 Answer review, official-key comparison, explanation depth, source accessibility and full collection coverage are distinct checks. The full 36-year deliverable remains incomplete.
+
+Actual source navigation: [SOURCE_ACCESS.md](SOURCE_ACCESS.md) distinguishes direct/archived PDFs from ZIP/member/page routes and lists the 19 explicitly pending local artwork entries. This is access guidance, not a complete-original or reuse-permission certificate.

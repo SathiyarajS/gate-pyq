@@ -2,6 +2,10 @@
 
 # GATE 2024 CS1: Q11
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=8), physical page **8**, printed **CS 11**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=8); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -31,6 +35,10 @@ Answer: D, {−1,0,1}. Equal function values at a crossing ensure continuity her
 
 # GATE 2024 CS1: Q12
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=8), physical page **8**, printed **CS 12**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=8); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -59,6 +67,10 @@ Answer: B. A direct determinant check gives 1(45−48)−2(36−42)+3(32−35)=�
 
 # GATE 2024 CS1: Q14
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=9), physical page **9**, printed **CS 14**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 9](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=9); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -86,6 +98,10 @@ Answer: B. The order 1,2,3,4 shows both events can occur, disproving mutual excl
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2024 CS1: Q27
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=18), physical page **18**, printed **CS 27**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 18](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=18); consult original wording, diagrams and choices.
 
@@ -116,6 +132,10 @@ Answer: B and C. As a check, the four disjoint probabilities 0.1, 0.2, 0.4 and 0
 
 # GATE 2024 CS1: Q49
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=30), physical page **30**, printed **CS 49**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 30](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=30); consult original wording, diagrams and choices.
 
 **Type / marks:** MSQ, 2 mark(s).
@@ -145,6 +165,10 @@ Answer: A only. The counterexamples use different matrices because each universa
 
 # GATE 2024 CS1: Q63
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=35), physical page **35**, printed **CS 63**, variant **CS-2024-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 35](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf#page=35); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -172,6 +196,10 @@ Answer: 0.375, already expressed to three decimal places and within the official
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2024 CS2: Q16
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=12), physical page **12**, printed **CS 16**, variant **CS-2024-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 12](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=12); consult original wording, diagrams and choices.
 
@@ -201,6 +229,10 @@ Approach: Pair each point x with its reflection 2−x across the midpoint 1.
 
 # GATE 2024 CS2: Q18
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=13), physical page **13**, printed **CS 18**, variant **CS-2024-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 13](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=13); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -229,6 +261,10 @@ Approach: Count outcomes for distinguishable dice, or expose the dice one at a t
 
 # GATE 2024 CS2: Q44
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=31), physical page **31**, printed **CS 44**, variant **CS-2024-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 31](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=31); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -256,6 +292,10 @@ Approach: Use a bound true for each outcome, which remains true after taking an 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2024 CS2: Q47
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=32), physical page **32**, printed **CS 47**, variant **CS-2024-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 32](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf#page=32); consult original wording, diagrams and choices.
 

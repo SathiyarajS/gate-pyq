@@ -2,6 +2,10 @@
 
 # GATE 2021 CS1: Q28 (printed CS Q18)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=20), physical page **20**, printed **CS 18**, variant **CS-2021-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 20](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=20); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -27,6 +31,10 @@ With rate λ=2 the mean is 1/2, so integrate the density: ∫_(1/2)^∞ 2e^(−2
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2021 CS1: Q30 (printed CS Q20)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=21), physical page **21**, printed **CS 20**, variant **CS-2021-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 21](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=21); consult original wording, diagrams and choices.
 
@@ -54,6 +62,10 @@ Direct substitution yields 0/0, an indeterminate form rather than an answer. Mul
 
 # GATE 2021 CS1: Q45 (printed CS Q35)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=29), physical page **29**, printed **CS 35**, variant **CS-2021-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 29](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=29); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -79,6 +91,10 @@ Let U=X−E[X], V=Y−E[Y]. Cauchy–Schwarz says |E[UV]|≤√(E[U²]E[V²]); s
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2021 CS1: Q62 (printed CS Q52)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=40), physical page **40**, printed **CS 52**, variant **CS-2021-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 40](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=40); consult original wording, diagrams and choices.
 
@@ -106,6 +122,10 @@ For any vector v, Jv is the vector whose four entries are sum(v). Thus v=(1,1,1,
 
 # GATE 2021 CS1: Q64 (printed CS Q54)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=41), physical page **41**, printed **CS 54**, variant **CS-2021-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 41](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=41); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -131,6 +151,10 @@ Among an imagined 1000 transmissions, 100 are H and 900 are L. Expected received
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2021 CS2: Q32 (printed CS Q22)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=65), physical page **65**, printed **CS 22**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 65](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=65); consult original wording, diagrams and choices.
 
@@ -158,6 +182,10 @@ Write X as the sum of 1000 independent Bernoulli indicators. Each has variance p
 
 # GATE 2021 CS2: Q34 (printed CS Q24)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=66), physical page **66**, printed **CS 24**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 66](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=66); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -183,6 +211,10 @@ Rank-nullity applies to the five-column linear map: rank+nullity=5. The statemen
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2021 CS2: Q35 (printed CS Q25)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=66), physical page **66**, printed **CS 25**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 66](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=66); consult original wording, diagrams and choices.
 
@@ -210,6 +242,10 @@ The mean value theorem needs continuity on the closed interval and differentiabi
 
 # GATE 2021 CS2: Q39 (printed CS Q29)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=70), physical page **70**, printed **CS 29**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 70](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=70); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -236,6 +272,10 @@ Alternatively enumerate outcomes for A first: probability 0.2 earns 0; probabili
 
 # GATE 2021 CS2: Q43 (printed CS Q33)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=73), physical page **73**, printed **CS 33**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 73](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=73); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -261,6 +301,10 @@ A direct check on the second draw already shows the pattern: (r/N)((r+1)/(N+1))+
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2021 CS2: Q47 (printed CS Q37)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=76), physical page **76**, printed **CS 37**, variant **CS-2021-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 76](https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf#page=76); consult original wording, diagrams and choices.
 
