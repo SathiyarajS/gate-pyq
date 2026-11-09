@@ -2,6 +2,10 @@
 
 # GATE 2020 CS: Q11 (printed CS Q1)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf#page=3), physical page **3**, printed **CS 1**, variant **CS-2020**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 3](https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf#page=3); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -31,6 +35,10 @@ The derivative of e^(−x) is negative. The derivative of x²−sin x is 2x−co
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2020 CS: Q37 (printed CS Q27)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf#page=9), physical page **9**, printed **CS 27**, variant **CS-2020**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 9](https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf#page=9); consult original wording, diagrams and choices.
 

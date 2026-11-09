@@ -2,6 +2,10 @@
 
 # GATE 2014 CS1: Q12 (printed CS Q2)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **8**, and locate printed **CS 2** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -29,6 +33,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS1: Q14 (printed CS Q4)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **8**, and locate printed **CS 4** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -58,6 +66,10 @@
 
 # GATE 2014 CS1: Q15 (printed CS Q5)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **8**, and locate printed **CS 5** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -85,6 +97,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS1: Q16 (printed CS Q6)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **9**, and locate printed **CS 6** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 9](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -114,6 +130,10 @@
 
 # GATE 2014 CS1: Q28 (printed CS Q18)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **11**, and locate printed **CS 18** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 11](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -141,6 +161,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS1: Q56 (printed CS Q46)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **19**, and locate printed **CS 46** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 19](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -170,6 +194,10 @@
 
 # GATE 2014 CS1: Q57 (printed CS Q47)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **19**, and locate printed **CS 47** in **CS-2014-S1**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 19](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -197,6 +225,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS2: Q14 (printed CS Q4)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **30**, and locate printed **CS 4** in **CS-2014-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 30](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -228,6 +260,10 @@
 
 # GATE 2014 CS2: Q15 (printed CS Q5)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **30**, and locate printed **CS 5** in **CS-2014-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 30](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -257,6 +293,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS2: Q29 (printed CS Q19)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **33**, and locate printed **CS 19** in **CS-2014-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 33](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -288,6 +328,10 @@
 
 # GATE 2014 CS2: Q56 (printed CS Q46)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **42**, and locate printed **CS 46** in **CS-2014-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 42](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -317,6 +361,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS2: Q57 (printed CS Q47)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **42**, and locate printed **CS 47** in **CS-2014-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 42](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -348,6 +396,10 @@
 
 # GATE 2014 CS3: Q14 (printed CS Q4)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **53**, and locate printed **CS 4** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 53](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -373,6 +425,10 @@ Step 1: The trace equals the eigenvalue sum, while the determinant equals their 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS3: Q15 (printed CS Q5)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **54**, and locate printed **CS 5** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 54](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -400,6 +456,10 @@ Step 1: Use dim(V1+V2)=dim V1+dim V2−dim(V1∩V2). Step 2: Since V1+V2 is a su
 
 # GATE 2014 CS3: Q16 (printed CS Q6)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **54**, and locate printed **CS 6** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 54](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -425,6 +485,10 @@ Step 1: On the integration interval x is nonnegative; sin x is nonnegative on [0
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS3: Q29 (printed CS Q19)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **57**, and locate printed **CS 19** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 57](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -452,6 +516,10 @@ Step 1: Cohesion measures how closely a module's internal responsibilities belon
 
 # GATE 2014 CS3: Q56 (printed CS Q46)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **64**, and locate printed **CS 46** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 64](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -477,6 +545,10 @@ Step 1: On an ordinary forward interval a≤b, x² is convex because its second 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2014 CS3: Q57 (printed CS Q47)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2014.pdf**, open physical PDF page **64**, and locate printed **CS 47** in **CS-2014-S3**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 64](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 

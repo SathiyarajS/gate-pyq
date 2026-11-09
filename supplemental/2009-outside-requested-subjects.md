@@ -2,6 +2,10 @@
 
 # GATE 2009: Q19 (printed CS Q19)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2009.pdf**, open physical PDF page **4**, and locate printed **CS 19** in **CS-2009**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2009.pdf, physical page 4. Consult original wording and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -28,6 +32,10 @@ The ordering measures how much one module relies on another’s implementation. 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2009: Q20 (printed CS Q20)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2009.pdf**, open physical PDF page **4**, and locate printed **CS 20** in **CS-2009**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2009.pdf, physical page 4. Consult original wording and choices.
 
@@ -56,6 +64,10 @@ Expand the spans onto a three-by-three logical grid: row 1 ab, cd, cd; row 2 ab,
 
 # GATE 2009: Q25 (printed CS Q25)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2009.pdf**, open physical PDF page **5**, and locate printed **CS 25** in **CS-2009**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2009.pdf, physical page 5. Consult original wording and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -83,6 +95,10 @@ Use tan(α−β)=(tanα−tanβ)/(1+tanαtanβ) with α=π/4. The integrand beco
 
 # GATE 2009: Q49 (printed CS Q49)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2009.pdf**, open physical PDF page **11**, and locate printed **CS 49** in **CS-2009**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2009.pdf, physical page 11. Consult original wording and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -109,6 +125,10 @@ A context diagram deliberately hides internal decomposition behind one process, 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2009: Q50 (printed CS Q50)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2009.pdf**, open physical PDF page **11**, and locate printed **CS 50** in **CS-2009**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2009.pdf, physical page 11. Consult original wording and choices.
 

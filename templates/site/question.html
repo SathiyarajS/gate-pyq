@@ -1,0 +1,18 @@
+<article class="question" id="{{ q.question_id }}" data-id="{{ q.question_id }}" data-type="{{ q.display_type }}" data-key="{{ q.practice_key }}" data-subject="{{ q.subject_dir }}">
+<div class="question-meta"><span>{{ 'Q' ~ q.number if paper_view else 'Q' ~ q.ordinal }}.</span> <span>(GATE {{ q.year }}{% if q.session %} {{ q.session }}{% endif %}, Q{{ q.number }})</span> <span>{{ q.marks if q.marks is not none else 'Unspecified' }} mark{% if q.marks != 1 %}s{% endif %} · {{ q.display_type }}</span></div>
+<div class="question-tools">{% if q.discrepancy_ids %}<span class="badge">⚠ Discrepancy</span>{% endif %}<a href="{{ prefix }}{{ q.permalink }}">Permalink</a><button class="copy-link js-only" type="button">Copy link</button><button class="bookmark js-only" type="button" aria-pressed="false">Bookmark</button><a href="{{ q.report }}">Report issue</a></div>
+<h2>{{ q.question_title }}</h2><p class="eyebrow">{{ q.topic_title }} · Paraphrase preview</p>
+<div class="paraphrase" data-pagefind-body>{{ q.question_text|rich }}</div>
+{% if q.shared_context %}<details><summary>Shared context</summary>{{ q.shared_context|rich }}</details>{% endif %}
+{% if q.options_data %}<details><summary>Recorded options (source verification pending)</summary><pre>{{ q.options_data }}</pre></details>{% endif %}
+<p class="source-note">Not a verbatim question. Options, diagrams or shared context may require the source. {% if q.source_link %}<a href="{{ q.source_link }}" rel="noopener">View source · p.{{ q.source_page }}</a>{% endif %}{% if q.source_archive_member %} · Archive member: {{ q.source_archive_member }}{% endif %}</p>
+{% if q.exclusion_reason %}<p class="source-note">Scope note: {{ q.exclusion_reason }}</p>{% endif %}
+<details class="provenance"><summary>Source, key & numbering caveats</summary>{% for field in ["source_provenance","source_access_note","key_revision_status","source_numbering_note","source_group_marks","source_subpart","source_pages","shared_context_reference"] %}{% if q[field] is defined and q[field] is not none %}<p><strong>{{ field|replace("_", " ") }}:</strong> {{ q[field] }}</p>{% endif %}{% endfor %}</details>
+<div class="practice js-only"><label>Your answer <input class="attempt-input" type="text" autocomplete="off" placeholder="{% if q.display_type == 'NAT' %}Number{% elif q.display_type in ['MCQ','MSQ'] %}Letters as printed in source{% else %}Self-check{% endif %}"></label><button class="check-answer" type="button">Check / reveal</button><output class="attempt-result" aria-live="polite"></output></div>
+<details class="answer" data-pagefind-ignore><summary>Answer & detailed solution</summary>
+<p><strong>Official key:</strong> {{ q.official_answer if q.official_answer is not none else 'none located; answer below is independently derived' }}</p>
+{% if q.official_answer is none or q.derived_answer != q.official_answer %}<p><strong>Our answer:</strong> {{ q.derived_answer }}</p>{% endif %}
+<h3>Detailed solution</h3>{{ q.solution|rich }}<p class="source-note">Verification: {{ q.verification_status }} · Original type: {{ q.question_type }}</p>
+{% for d in q.discrepancies %}<aside class="discrepancy"><h3>⚠ {{ d.type }}</h3><p>{{ d.summary }}</p><p>Official key: {{ d.official }}</p><p>Derivation / interpretation: {{ d.derived }}</p><p>Status: {{ d.status }}</p><small>{{ d.id }}</small></aside>{% endfor %}
+<p class="source-note">{% if q.source_link %}<a href="{{ q.source_link }}">Source paper · p.{{ q.source_page }}</a>{% endif %}{% if q.key_link %} · <a href="{{ q.key_link }}">Answer key{% if q.key_page %} · p.{{ q.key_page }}{% endif %}</a>{% endif %}</p><p class="source-note">{{ q.source_access_note }}</p>
+</details></article>

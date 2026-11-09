@@ -1,0 +1,152 @@
+{
+  "counts": {
+    "page_fallback": 2396,
+    "candidate_questions": 3406,
+    "text_marker_candidate": 1083,
+    "overlap_pairs": 8422,
+    "verified_questions": 0,
+    "pending_visual_review_questions": 3406
+  },
+  "papers": {
+    "CS-1991": {
+      "candidate": 71
+    },
+    "CS-1992": {
+      "candidate": 69
+    },
+    "CS-1993": {
+      "candidate": 70
+    },
+    "CS-1994": {
+      "candidate": 85
+    },
+    "CS-1995": {
+      "candidate": 91
+    },
+    "CS-1996": {
+      "candidate": 95
+    },
+    "CS-1997": {
+      "candidate": 101
+    },
+    "CS-1998": {
+      "candidate": 100
+    },
+    "CS-1999": {
+      "candidate": 88
+    },
+    "CS-2000": {
+      "candidate": 96
+    },
+    "CS-2001": {
+      "candidate": 99
+    },
+    "CS-2002": {
+      "candidate": 101
+    },
+    "CS-2003": {
+      "candidate": 90
+    },
+    "CS-2004": {
+      "candidate": 90
+    },
+    "CS-2005": {
+      "candidate": 90
+    },
+    "CS-2006": {
+      "candidate": 85
+    },
+    "CS-2007": {
+      "candidate": 85
+    },
+    "CS-2008": {
+      "candidate": 85
+    },
+    "CS-2009": {
+      "candidate": 60
+    },
+    "CS-2010": {
+      "candidate": 65
+    },
+    "CS-2011": {
+      "candidate": 65
+    },
+    "CS-2012": {
+      "candidate": 65
+    },
+    "CS-2013": {
+      "candidate": 65
+    },
+    "CS-2014-S1": {
+      "candidate": 65
+    },
+    "CS-2014-S2": {
+      "candidate": 65
+    },
+    "CS-2014-S3": {
+      "candidate": 65
+    },
+    "CS-2015-S1": {
+      "candidate": 65
+    },
+    "CS-2015-S2": {
+      "candidate": 65
+    },
+    "CS-2015-S3": {
+      "candidate": 65
+    },
+    "CS-2016-S1": {
+      "candidate": 65
+    },
+    "CS-2016-S2": {
+      "candidate": 65
+    },
+    "CS-2017-S1": {
+      "candidate": 65
+    },
+    "CS-2017-S2": {
+      "candidate": 65
+    },
+    "CS-2018": {
+      "candidate": 65
+    },
+    "CS-2019": {
+      "candidate": 65
+    },
+    "CS-2020": {
+      "candidate": 65
+    },
+    "CS-2021-S1": {
+      "candidate": 65
+    },
+    "CS-2021-S2": {
+      "candidate": 65
+    },
+    "CS-2022": {
+      "candidate": 65
+    },
+    "CS-2023": {
+      "candidate": 65
+    },
+    "CS-2024-S1": {
+      "candidate": 65
+    },
+    "CS-2024-S2": {
+      "candidate": 65
+    },
+    "CS-2025-S1": {
+      "candidate": 65
+    },
+    "CS-2025-S2": {
+      "candidate": 65
+    },
+    "CS-2026-S1": {
+      "candidate": 65
+    },
+    "CS-2026-S2": {
+      "candidate": 65
+    }
+  },
+  "source_count": 40,
+  "resolved_sources": 40
+}

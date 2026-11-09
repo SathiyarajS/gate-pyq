@@ -2,6 +2,10 @@
 
 # GATE 2013 CS: Q13 (printed CS Q3)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=2), physical page **2**, printed **CS 3**, variant **CS-2013**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 2](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=2); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -30,6 +34,10 @@ For A, the new columns are u, v+w, u+v, where the old columns are u=(1, 1, 1), v
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2013 CS: Q21 (printed CS Q11)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=3), physical page **3**, printed **CS 11**, variant **CS-2013**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 3](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=3); consult original wording, diagrams and choices.
 
@@ -60,6 +68,10 @@ The service workflow publishes a description, lets a client find it, then binds 
 
 # GATE 2013 CS: Q32 (printed CS Q22)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=5), physical page **5**, printed **CS 22**, variant **CS-2013**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 5](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=5); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -89,6 +101,10 @@ Continuity at a point needs three things: the function value must exist, both on
 
 # GATE 2013 CS: Q33 (printed CS Q23)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=5), physical page **5**, printed **CS 23**, variant **CS-2013**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 5](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=5); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -117,6 +133,10 @@ Each interval contributes its width times the average of its two endpoint height
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2013 CS: Q48 (printed CS Q38)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=8), physical page **8**, printed **CS 38**, variant **CS-2013**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 8](https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf#page=8); consult original wording, diagrams and choices.
 

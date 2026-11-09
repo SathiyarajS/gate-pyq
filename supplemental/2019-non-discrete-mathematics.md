@@ -2,6 +2,10 @@
 
 # GATE 2019 CS: Q19 (printed CS Q9)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=5), physical page **5**, printed **CS 9**, variant **CS-2019**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 5](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=5); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -31,6 +35,10 @@ Result: D, I and II are equivalent. The square-matrix assumption matters because
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2019 CS: Q23 (printed CS Q13)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=6), physical page **6**, printed **CS 13**, variant **CS-2019**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 6](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=6); consult original wording, diagrams and choices.
 
@@ -64,6 +72,10 @@ Result: C. As an independent check, differentiating numerator and denominator in
 
 # GATE 2019 CS: Q32 (printed CS Q22)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=8), physical page **8**, printed **CS 22**, variant **CS-2019**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=8); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -95,6 +107,10 @@ Result: 0.503. Independence permits the same number to be drawn twice. Treating 
 
 # GATE 2019 CS: Q54 (printed CS Q44)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=14), physical page **14**, printed **CS 44**, variant **CS-2019**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 14](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=14); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -122,6 +138,10 @@ Result: 0.503. Independence permits the same number to be drawn twice. Treating 
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2019 CS: Q57 (printed CS Q47)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=14), physical page **14**, printed **CS 47**, variant **CS-2019**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 14](https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf#page=14); consult original wording, diagrams and choices.
 

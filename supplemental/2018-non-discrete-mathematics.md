@@ -2,6 +2,10 @@
 
 # GATE 2018 CS: Q25 (printed CS Q15)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2018.pdf**, open physical PDF page **8**, and locate printed **CS 15** in **CS-2018**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -33,6 +37,10 @@ A trial ties with probability6/36=1/6 and is decisive with probability5/6. Winni
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2018 CS: Q26 (printed CS Q16)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2018.pdf**, open physical PDF page **8**, and locate printed **CS 16** in **CS-2018**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -66,6 +74,10 @@ Substitute u=x², du=2x dx. The integral is(1/2)sin(x²) evaluated at 0 andπ/4,
 
 # GATE 2018 CS: Q27 (printed CS Q17)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2018.pdf**, open physical PDF page **8**, and locate printed **CS 17** in **CS-2018**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 8](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -97,6 +109,10 @@ A=uv^T has rank1. Its nonzero eigenvalue is v^Tu=1+2=3, since Au=u(v^Tu)=3u. The
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2018 CS: Q36 (printed CS Q26)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2018.pdf**, open physical PDF page **10**, and locate printed **CS 26** in **CS-2018**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 10](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 

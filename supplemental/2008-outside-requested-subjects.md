@@ -2,6 +2,10 @@
 
 # GATE 2008: Q1 (printed CS Q1)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **2**, and locate printed **CS 1** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 2. Consult original wording and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -32,6 +36,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2008: Q3 (printed CS Q3)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **2**, and locate printed **CS 3** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 2. Consult original wording and choices.
 
@@ -64,6 +72,10 @@
 
 # GATE 2008: Q21 (printed CS Q21)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **5**, and locate printed **CS 21** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 5. Consult original wording and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -94,6 +106,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2008: Q22 (printed CS Q22)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **5**, and locate printed **CS 22** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 5. Consult original wording and choices.
 
@@ -126,6 +142,10 @@
 
 # GATE 2008: Q25 (printed CS Q25)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **5**, and locate printed **CS 25** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 5. Consult original wording and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -157,6 +177,10 @@
 
 # GATE 2008: Q28 (printed CS Q28)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **5**, and locate printed **CS 28** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 5. Consult original wording and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -187,6 +211,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2008: Q29 (printed CS Q29)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2008.pdf**, open physical PDF page **6**, and locate printed **CS 29** in **CS-2008**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official-source archive](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view), member CS/CS2008.pdf, physical page 6. Consult original wording and choices.
 

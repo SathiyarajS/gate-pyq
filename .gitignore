@@ -5,3 +5,10 @@
 
 __pycache__/
 *.pyc
+
+# Generated private previews and local-only source/render caches
+_site/
+site-assets/q/
+.local-source-cache/
+audits/screenshots/
+audits/compare/

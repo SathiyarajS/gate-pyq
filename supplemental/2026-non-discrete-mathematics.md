@@ -1,5 +1,9 @@
 # GATE 2026 CS1: Q11
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=10), physical page **10**, printed **CS 11**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=10).
 
 **Paraphrased problem context:** An urn starts with one red and one blue ball. Each step selects a ball uniformly, then returns it together with one additional ball of its color. Find the probability of equal red and blue counts after two steps. Options: 1/4, 1/3, 1/2, 2/3.
@@ -30,6 +34,10 @@ Step-by-step solution
 
 # GATE 2026 CS1: Q13
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=11), physical page **11**, printed **CS 13**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=11).
 
 **Paraphrased problem context:** For n>1, find the largest possible multiplicity of one eigenvalue of a real n-by-n matrix. Options: n, n−1, 1, n+1.
@@ -59,6 +67,10 @@ Step-by-step solution
 **Discrepancy references:** See stated model assumptions.
 
 # GATE 2026 CS1: Q20
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=16), physical page **16**, printed **CS 20**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=16).
 
@@ -91,6 +103,10 @@ Step-by-step solution
 
 # GATE 2026 CS1: Q32
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=23), physical page **23**, printed **CS 32**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=23).
 
 **Paraphrased problem context:** For x>0, f(x)=c₁e^x−c₂ln(1/x); for x≤0, f(x)=3. The constants are real. Continuity at zero is required. Find c₁+c₂ as an integer.
@@ -121,6 +137,10 @@ Step-by-step solution
 **Discrepancy references:** See stated model assumptions.
 
 # GATE 2026 CS1: Q46
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=35), physical page **35**, printed **CS 46**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=35).
 
@@ -154,6 +174,10 @@ Step-by-step solution
 
 # GATE 2026 CS1: Q58
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44), physical page **44**, printed **CS 58**, variant **CS-2026-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Original question:** [Complete wording, options and figures](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44).
 
 **Paraphrased problem context:** X takes values 1,…,8. Values 1,2,5,7 each have probability 1/6; values 3,4,6,8 each have probability 1/12. Find E[X] rounded to two decimals.
@@ -186,6 +210,10 @@ Result: 4.25. The published accepted numerical interval is 4.24 to 4.26, which i
 **Discrepancy references:** See stated model assumptions.
 
 # GATE 2026 CS2: Q14
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=12), physical page **12**, printed **CS 14**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official master paper page 12](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=12); consult original wording, diagrams and choices.
 
@@ -223,6 +251,10 @@ Step-by-step solution
 
 # GATE 2026 CS2: Q27
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=21), physical page **21**, printed **CS 27**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official master paper page 21](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=21); consult original wording, diagrams and choices.
 
 **Type / marks:** MSQ, 1 mark(s).
@@ -258,6 +290,10 @@ Step-by-step solution
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2026 CS2: Q31
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=22), physical page **22**, printed **CS 31**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official master paper page 22](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=22); consult original wording, diagrams and choices.
 
@@ -295,6 +331,10 @@ Step-by-step solution
 
 # GATE 2026 CS2: Q62
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41), physical page **41**, printed **CS 62**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -330,6 +370,10 @@ Step-by-step solution
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2026 CS2: Q63
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41), physical page **41**, printed **CS 63**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
 
@@ -367,6 +411,10 @@ Step-by-step solution
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2026 CS2: Q64
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the official PDF](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41), physical page **41**, printed **CS 64**, variant **CS-2026-S2**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
 

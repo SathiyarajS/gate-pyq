@@ -2,6 +2,10 @@
 
 # GATE 2017 CS2: Q20 (printed CS Q10)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2-2017.pdf**, open physical PDF page **5**, and locate printed **CS 10** in **CS-2017-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 5](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 1 mark(s).
@@ -31,6 +35,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2017 CS2: Q32 (printed CS Q22)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2-2017.pdf**, open physical PDF page **9**, and locate printed **CS 22** in **CS-2017-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 9](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -62,6 +70,10 @@
 
 # GATE 2017 CS2: Q36 (printed CS Q26)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2-2017.pdf**, open physical PDF page **10**, and locate printed **CS 26** in **CS-2017-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 10](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -91,6 +103,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2017 CS2: Q41 (printed CS Q31)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2-2017.pdf**, open physical PDF page **12**, and locate printed **CS 31** in **CS-2017-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 12](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
@@ -122,6 +138,10 @@
 
 # GATE 2017 CS2: Q62 (printed CS Q52)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open official-linked CS.zip](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view). Extract **CS/CS2-2017.pdf**, open physical PDF page **21**, and locate printed **CS 52** in **CS-2017-S2**. This is ZIP/member navigation, not a direct question-page link.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 21](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 2 mark(s).
@@ -151,6 +171,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2017 CS1: Q13 (printed CS Q3)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=3), physical page **3**, printed **CS 3**, variant **CS-2017-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 3](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=3); consult original wording, diagrams and choices.
 
@@ -182,6 +206,10 @@
 
 # GATE 2017 CS1: Q29 (printed CS Q19)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=10), physical page **10**, printed **CS 19**, variant **CS-2017-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 10](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=10); consult original wording, diagrams and choices.
 
 **Type / marks:** NAT, 1 mark(s).
@@ -211,6 +239,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2017 CS1: Q38 (printed CS Q28)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14), physical page **14**, printed **CS 28**, variant **CS-2017-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 14](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14); consult original wording, diagrams and choices.
 
@@ -242,6 +274,10 @@
 
 # GATE 2017 CS1: Q40 (printed CS Q30)
 
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14), physical page **14**, printed **CS 30**, variant **CS-2017-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
+
 **Question:** [Official archived paper page 14](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14); consult original wording, diagrams and choices.
 
 **Type / marks:** MCQ, 2 mark(s).
@@ -271,6 +307,10 @@
 **Explanation depth:** Expanded and independently reviewed for teaching detail. Original question transcription remains separately uncertified.
 
 # GATE 2017 CS1: Q41 (printed CS Q31)
+
+<!-- original-source-access:start -->
+**Actual source access:** [Open actual source question in the archived official PDF](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14), physical page **14**, printed **CS 31**, variant **CS-2017-S1**. Continue to following pages for any continuation; some viewers ignore page anchors.
+<!-- original-source-access:end -->
 
 **Question:** [Official archived paper page 14](https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf#page=14); consult original wording, diagrams and choices.
 

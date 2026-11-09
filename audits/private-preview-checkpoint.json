@@ -1,0 +1,12 @@
+{
+  "status": "private_preparation_not_release",
+  "question_count": 3406,
+  "topic_reviewed": 348,
+  "topic_candidates": 3058,
+  "crop_verified": 0,
+  "browser_qa": "blocked_socket_permission",
+  "pdf_rendering": "blocked_socket_permission",
+  "print_html_drafts": 26,
+  "public_deployment": "not_performed",
+  "question_data_changed": false
+}
