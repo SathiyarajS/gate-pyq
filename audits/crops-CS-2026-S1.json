@@ -1,0 +1,909 @@
+{
+  "paper": "CS-2026-S1",
+  "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+  "source_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "questions": 65,
+  "verified": 65,
+  "status": "independent_source_bounds_review_passed",
+  "corrections": [
+    "Q32 bottom extended to retain complete piecewise formula and prompt",
+    "Q58 bottom extended to retain probability formula and expectation prompt"
+  ],
+  "limitations": "Blank original table space retained. No transcription, key correctness, final-revision or redistribution-rights certification.",
+  "crops": [
+    {
+      "question_id": "CS-2026-S1-Q1",
+      "page": 1,
+      "bbox": [
+        70,
+        136.32,
+        525,
+        741.38
+      ],
+      "width": 1365,
+      "height": 1817,
+      "sha256": "989d38aa72290440134a81b16279dc4045ca61dca5ae7fa7a1d89515c756d20e"
+    },
+    {
+      "question_id": "CS-2026-S1-Q2",
+      "page": 2,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        566.49
+      ],
+      "width": 1365,
+      "height": 1429,
+      "sha256": "46cec3a676aed302f3fdc5d090ddbc378e8ba89d879782ffc6ccf52a068dc122"
+    },
+    {
+      "question_id": "CS-2026-S1-Q3",
+      "page": 3,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        738.72
+      ],
+      "width": 1365,
+      "height": 1946,
+      "sha256": "d0d62d4a8c7b618d64a6e0747c90014dd0879173f2c562ab4a9105d09aef8bea"
+    },
+    {
+      "question_id": "CS-2026-S1-Q4",
+      "page": 4,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        404.59
+      ],
+      "width": 1365,
+      "height": 943,
+      "sha256": "439f6cfb852009c60dbdef664d3b01212972cd6ac87a6b2446630e99bf2273ce"
+    },
+    {
+      "question_id": "CS-2026-S1-Q5",
+      "page": 4,
+      "bbox": [
+        70,
+        441.41,
+        525,
+        750.74
+      ],
+      "width": 1365,
+      "height": 929,
+      "sha256": "991869b5d23c3a0c97d434bf4c2422501819ab61531681279238f89925cf92a3"
+    },
+    {
+      "question_id": "CS-2026-S1-Q6",
+      "page": 5,
+      "bbox": [
+        70,
+        113.4,
+        525,
+        763.46
+      ],
+      "width": 1365,
+      "height": 1951,
+      "sha256": "5eb65084c4b5812a8b6730b8afe7f0b29b4488c1e1628adf150b8569e11374f3"
+    },
+    {
+      "question_id": "CS-2026-S1-Q7",
+      "page": 6,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        644.16
+      ],
+      "width": 1365,
+      "height": 1662,
+      "sha256": "adddc8169812223acfa93fdba6ab782937c2e0022da1de414532f77960d33ff3"
+    },
+    {
+      "question_id": "CS-2026-S1-Q8",
+      "page": 7,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        660.12
+      ],
+      "width": 1365,
+      "height": 1710,
+      "sha256": "0faf6707be6699bee936874177b42be5454d0fb9c00206ddc7085b93b058bfe1"
+    },
+    {
+      "question_id": "CS-2026-S1-Q9",
+      "page": 8,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        632.52
+      ],
+      "width": 1365,
+      "height": 1627,
+      "sha256": "a37adca878368f0ef803b1350737800e341c8c3a6530edc8f611846fda4becaf"
+    },
+    {
+      "question_id": "CS-2026-S1-Q10",
+      "page": 9,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        455.01
+      ],
+      "width": 1365,
+      "height": 1095,
+      "sha256": "1967f96f4222ad835d3591ba83151de00d9222a9edfcfbb6d49af5d0855f7790"
+    },
+    {
+      "question_id": "CS-2026-S1-Q11",
+      "page": 10,
+      "bbox": [
+        70,
+        136.32,
+        525,
+        409.03
+      ],
+      "width": 1365,
+      "height": 820,
+      "sha256": "64fa4bf38902764a7011f0166c522cb8313b8d419fcee4a70b424ddddd50836c"
+    },
+    {
+      "question_id": "CS-2026-S1-Q12",
+      "page": 10,
+      "bbox": [
+        70,
+        445.85,
+        525,
+        768.14
+      ],
+      "width": 1365,
+      "height": 968,
+      "sha256": "9980779bfe2f9eb8efc3e69b28b52f10e4d4de0e2f098290d5c8b9723212d313"
+    },
+    {
+      "question_id": "CS-2026-S1-Q13",
+      "page": 11,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        337.27
+      ],
+      "width": 1365,
+      "height": 741,
+      "sha256": "a78aad4d9870d54f5c301fc09386084550b873f96db10db9dfffc2bfb6cb99ca"
+    },
+    {
+      "question_id": "CS-2026-S1-Q14",
+      "page": 11,
+      "bbox": [
+        70,
+        374.07,
+        525,
+        740.76
+      ],
+      "width": 1365,
+      "height": 1101,
+      "sha256": "ab07e4b77f8e66b036b128e4aa60dddb7417284f8bcb3fdfffc0a2e2c10f2ec7"
+    },
+    {
+      "question_id": "CS-2026-S1-Q15",
+      "page": 12,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        728.52
+      ],
+      "width": 1365,
+      "height": 1915,
+      "sha256": "206f57cef0facd27ff94b1e4573ba73a773f67fa7b1c63c50a6913ee1df9b523"
+    },
+    {
+      "question_id": "CS-2026-S1-Q16",
+      "page": 13,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        735.12
+      ],
+      "width": 1365,
+      "height": 1935,
+      "sha256": "eb3567d59a94cd933fe0f45e05e5300f459985509a304b35291f0ba5c16ef9cf"
+    },
+    {
+      "question_id": "CS-2026-S1-Q17",
+      "page": 14,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        740.88
+      ],
+      "width": 1365,
+      "height": 1952,
+      "sha256": "7eec1e3589572fb7d91037e6d79a71c21d011d0d61244ebf85bf7fe1143c5c57"
+    },
+    {
+      "question_id": "CS-2026-S1-Q18",
+      "page": 15,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        363.19
+      ],
+      "width": 1365,
+      "height": 819,
+      "sha256": "289b9eb1175ec94a2bc07151372cae8037bbba9bd00cef2bd087f418a4a89696"
+    },
+    {
+      "question_id": "CS-2026-S1-Q19",
+      "page": 15,
+      "bbox": [
+        70,
+        399.99,
+        525,
+        739.08
+      ],
+      "width": 1365,
+      "height": 1019,
+      "sha256": "263d3c050ba606f999bceb2d77f30e4337570beb9c313546b8d94f149c33daa6"
+    },
+    {
+      "question_id": "CS-2026-S1-Q20",
+      "page": 16,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        363.07
+      ],
+      "width": 1365,
+      "height": 819,
+      "sha256": "a4f50aa20348008132e93e4e74411e4b8362a77713196178199ce38273dcea8c"
+    },
+    {
+      "question_id": "CS-2026-S1-Q21",
+      "page": 16,
+      "bbox": [
+        70,
+        399.87,
+        525,
+        726.48
+      ],
+      "width": 1365,
+      "height": 981,
+      "sha256": "fce4516f96038982acd56adcb7d25e2d95809d53670e5eaaec09c68d87a54654"
+    },
+    {
+      "question_id": "CS-2026-S1-Q22",
+      "page": 17,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        725.28
+      ],
+      "width": 1365,
+      "height": 1905,
+      "sha256": "8f69dcc17eb4f72f1fbbda1abc049af0554b195d21e3d70ef3ad20b133591793"
+    },
+    {
+      "question_id": "CS-2026-S1-Q23",
+      "page": 18,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        709.92
+      ],
+      "width": 1365,
+      "height": 1859,
+      "sha256": "acf5ce07fa5f4c2564a5c295403afc4619e5825b500d700b58fc8145809d753a"
+    },
+    {
+      "question_id": "CS-2026-S1-Q24",
+      "page": 19,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        753.02
+      ],
+      "width": 1365,
+      "height": 1989,
+      "sha256": "c62ec94b8d0340a2ffd2a3b79454d9b730d57bce54477e3266ba5f217a83abf4"
+    },
+    {
+      "question_id": "CS-2026-S1-Q25",
+      "page": 20,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        388.51
+      ],
+      "width": 1365,
+      "height": 895,
+      "sha256": "b572755052347e747e3393e20127c4bfb3e38768529ceff663a36a108f345430"
+    },
+    {
+      "question_id": "CS-2026-S1-Q26",
+      "page": 20,
+      "bbox": [
+        70,
+        425.45,
+        525,
+        748.7
+      ],
+      "width": 1365,
+      "height": 971,
+      "sha256": "389e7a0b192939eaaa483d1b2c52c6d10c8d81be8a76d1bfa9ae2c7c990d66f9"
+    },
+    {
+      "question_id": "CS-2026-S1-Q27",
+      "page": 21,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        404.47
+      ],
+      "width": 1365,
+      "height": 943,
+      "sha256": "29abb413a702db1aaa869aae186b9699fae0dd4e3b6828322ad08c5d29e15a44"
+    },
+    {
+      "question_id": "CS-2026-S1-Q28",
+      "page": 21,
+      "bbox": [
+        70,
+        441.29,
+        525,
+        749.18
+      ],
+      "width": 1365,
+      "height": 925,
+      "sha256": "3312e39377cde2fe3b60ed1108d5605ee08e73ff8057a30f788e77e43c2049be"
+    },
+    {
+      "question_id": "CS-2026-S1-Q29",
+      "page": 22,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        376.99
+      ],
+      "width": 1365,
+      "height": 860,
+      "sha256": "7098c30c34cc26f4f6aefffb5d75e90636ab56a0fd3e742cd555eef595743b16"
+    },
+    {
+      "question_id": "CS-2026-S1-Q30",
+      "page": 22,
+      "bbox": [
+        70,
+        413.81,
+        525,
+        758.42
+      ],
+      "width": 1365,
+      "height": 1035,
+      "sha256": "420d11616a044403c44c9455e10c9108b4dadc1fe2a5d55daa126db79b8acba9"
+    },
+    {
+      "question_id": "CS-2026-S1-Q31",
+      "page": 23,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        321.79
+      ],
+      "width": 1365,
+      "height": 695,
+      "sha256": "d9f9ec4b74828b4d1401421a1fcf0b1bd10a99550b85c80b3d24696b16394127"
+    },
+    {
+      "question_id": "CS-2026-S1-Q32",
+      "page": 23,
+      "bbox": [
+        70,
+        514.01,
+        525,
+        664.68
+      ],
+      "width": 1365,
+      "height": 453,
+      "sha256": "0d1105a6054e80828d8c45d53e6ea7d150f5590950347ffeb17ac89435debf39"
+    },
+    {
+      "question_id": "CS-2026-S1-Q33",
+      "page": 23,
+      "bbox": [
+        70,
+        664.88,
+        525,
+        732.24
+      ],
+      "width": 1365,
+      "height": 203,
+      "sha256": "521be2f1eb3d87169695ac241f27c098b0c34c7f98bc986c883405997925530b"
+    },
+    {
+      "question_id": "CS-2026-S1-Q34",
+      "page": 24,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        465.01
+      ],
+      "width": 1365,
+      "height": 1125,
+      "sha256": "1194b5ec751fc4b65dd48cf878682158ff0b8d2a1464515caa95ed86106ec3de"
+    },
+    {
+      "question_id": "CS-2026-S1-Q35",
+      "page": 24,
+      "bbox": [
+        70,
+        466.01,
+        525,
+        601.44
+      ],
+      "width": 1365,
+      "height": 407,
+      "sha256": "b78e24caa351469559fe98cd02afb5a6a876dbb757cdb1c00e37b3e3198695ac"
+    },
+    {
+      "question_id": "CS-2026-S1-Q36",
+      "page": 25,
+      "bbox": [
+        70,
+        160.08,
+        525,
+        740.64
+      ],
+      "width": 1365,
+      "height": 1742,
+      "sha256": "9148b47dfe7fea3b386109974f6aff603f0dd55954beff80be9dfb3f4b9bdddf"
+    },
+    {
+      "question_id": "CS-2026-S1-Q37",
+      "page": 26,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        733.68
+      ],
+      "width": 1365,
+      "height": 1931,
+      "sha256": "f1c751285afba20a988c1ae18a02606a50cd40424402fff2790d18d39be029d4"
+    },
+    {
+      "question_id": "CS-2026-S1-Q38",
+      "page": 27,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        750.38
+      ],
+      "width": 1365,
+      "height": 1981,
+      "sha256": "c978079aa8a6aa6ce5ad0c59e72810fd111dacf5570b424409d2e47358f7c55c"
+    },
+    {
+      "question_id": "CS-2026-S1-Q39",
+      "page": 28,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        738.12
+      ],
+      "width": 1365,
+      "height": 1944,
+      "sha256": "d43d3e0e540aefde20a1f25b64c2503d026a11b47b9ff764222f984df046fde6"
+    },
+    {
+      "question_id": "CS-2026-S1-Q40",
+      "page": 29,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        735.84
+      ],
+      "width": 1365,
+      "height": 1937,
+      "sha256": "9a8127568dbefa53ec6d62a5ec0268a1f1f3d718f7c0ac9479f8edab7160418c"
+    },
+    {
+      "question_id": "CS-2026-S1-Q41",
+      "page": 30,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        738.12
+      ],
+      "width": 1365,
+      "height": 1944,
+      "sha256": "ce60afc54f24ac77bb0248712f63222d2997afd9a54b04a3514db78797d8f842"
+    },
+    {
+      "question_id": "CS-2026-S1-Q42",
+      "page": 31,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        752.42
+      ],
+      "width": 1365,
+      "height": 1987,
+      "sha256": "bfc0217de221486c9c3ba6b0f268bfa68a91741c1c07a9b2f16999daab98318e"
+    },
+    {
+      "question_id": "CS-2026-S1-Q43",
+      "page": 32,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        746.42
+      ],
+      "width": 1365,
+      "height": 1969,
+      "sha256": "14bc77932605beed69a5f184fd6d73682eea44098107af14d7d5eb0b26f16b83"
+    },
+    {
+      "question_id": "CS-2026-S1-Q44",
+      "page": 33,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        740.16
+      ],
+      "width": 1365,
+      "height": 1950,
+      "sha256": "84a31b98b3a37454df7d9f25136c53ddd016cd487e3101230737ca8d2dccb3c3"
+    },
+    {
+      "question_id": "CS-2026-S1-Q45",
+      "page": 34,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        753.14
+      ],
+      "width": 1365,
+      "height": 1989,
+      "sha256": "97aad16cb60cbea721908659b0e3d4a306a0f6c76bf635467d4596368b7b5c4a"
+    },
+    {
+      "question_id": "CS-2026-S1-Q46",
+      "page": 35,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        393.31
+      ],
+      "width": 1365,
+      "height": 909,
+      "sha256": "7051c017a958dc2a148c4bb25ed8cff68c08a22639f6fb85d0b68f8c48d7db68"
+    },
+    {
+      "question_id": "CS-2026-S1-Q47",
+      "page": 35,
+      "bbox": [
+        70,
+        430.13,
+        525,
+        769.46
+      ],
+      "width": 1365,
+      "height": 1019,
+      "sha256": "870c81725de73fbecacf69be8876e1f2e9711be85b004b8c8cc6732590e3ca8e"
+    },
+    {
+      "question_id": "CS-2026-S1-Q48",
+      "page": 36,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        745.46
+      ],
+      "width": 1365,
+      "height": 1966,
+      "sha256": "0fa7fba6704069a96bf3d05cf0ff286c781f0b7caec32b43ba1b70506e56e4b6"
+    },
+    {
+      "question_id": "CS-2026-S1-Q49",
+      "page": 37,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        735.36
+      ],
+      "width": 1365,
+      "height": 1936,
+      "sha256": "21ff6a6dc73a0172492ee54fc5747c6e1b80f819daf1ceb3460c76e60b66287e"
+    },
+    {
+      "question_id": "CS-2026-S1-Q50",
+      "page": 38,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        762.26
+      ],
+      "width": 1365,
+      "height": 2016,
+      "sha256": "0160d4ce2ab5164d4a3fe7921ba89dfeee2b85ed1353e666487b01cde1f3da26"
+    },
+    {
+      "question_id": "CS-2026-S1-Q51",
+      "page": 39,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        735.24
+      ],
+      "width": 1365,
+      "height": 1935,
+      "sha256": "4ba9320926bf0f349f1a57beb6dc79041f2822fbb18d2cfa0945b11baa5cc8fd"
+    },
+    {
+      "question_id": "CS-2026-S1-Q52",
+      "page": 40,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        737.28
+      ],
+      "width": 1365,
+      "height": 1941,
+      "sha256": "ebaea2860b16ba3e64c1480b3b3ab07cce26cea8e69a6e5da536f2fb0e0f99ad"
+    },
+    {
+      "question_id": "CS-2026-S1-Q53",
+      "page": 41,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        743.06
+      ],
+      "width": 1365,
+      "height": 1959,
+      "sha256": "58570673d44958a2bd95268159ab9ff45166f5efe8b46ffd2c25296dab71d033"
+    },
+    {
+      "question_id": "CS-2026-S1-Q54",
+      "page": 42,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        750.74
+      ],
+      "width": 1365,
+      "height": 1982,
+      "sha256": "183e2a81a3bb12c0b3d7aeb74387aff7ad537902f78108d1f211148f7c3b06e2"
+    },
+    {
+      "question_id": "CS-2026-S1-Q55",
+      "page": 43,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        391.15
+      ],
+      "width": 1365,
+      "height": 903,
+      "sha256": "862ad21f2db8f50034f74a6f88f72b9161f10252262fee39e2baa47d3104b83d"
+    },
+    {
+      "question_id": "CS-2026-S1-Q56",
+      "page": 43,
+      "bbox": [
+        70,
+        428.09,
+        525,
+        725.28
+      ],
+      "width": 1365,
+      "height": 892,
+      "sha256": "7b96c0e1bdef719904efead3b41beca6a7727fd1781b040e56b4289ae18f73b9"
+    },
+    {
+      "question_id": "CS-2026-S1-Q57",
+      "page": 44,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        142.16
+      ],
+      "width": 1365,
+      "height": 156,
+      "sha256": "1b6028b0a92ca5bbc464fb060fe995c71e431bd682a80bd56988c36eb2448025"
+    },
+    {
+      "question_id": "CS-2026-S1-Q58",
+      "page": 44,
+      "bbox": [
+        70,
+        143.16,
+        525,
+        261.79
+      ],
+      "width": 1365,
+      "height": 357,
+      "sha256": "bba4119a5eba37ceb0057808024e2a95e1ed31ae331f83d9961da7694b76b3c3"
+    },
+    {
+      "question_id": "CS-2026-S1-Q59",
+      "page": 44,
+      "bbox": [
+        70,
+        261.99,
+        525,
+        394.19
+      ],
+      "width": 1365,
+      "height": 398,
+      "sha256": "39596335e8aad3227362aaea9005918e3956b69d2d73d6cdac39c21329e1c01d"
+    },
+    {
+      "question_id": "CS-2026-S1-Q60",
+      "page": 44,
+      "bbox": [
+        70,
+        395.19,
+        525,
+        762.5
+      ],
+      "width": 1365,
+      "height": 1103,
+      "sha256": "19f4ae0fd0de6a9059e7771d45494683027f17aa923d7b02b2ba92ae808cc9d2"
+    },
+    {
+      "question_id": "CS-2026-S1-Q61",
+      "page": 45,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        374.39
+      ],
+      "width": 1365,
+      "height": 853,
+      "sha256": "b19d1f708b033f1537118a52e77a608640ca08dafd4b85ac8ce760909d6543b0"
+    },
+    {
+      "question_id": "CS-2026-S1-Q62",
+      "page": 45,
+      "bbox": [
+        70,
+        375.39,
+        525,
+        724.8
+      ],
+      "width": 1365,
+      "height": 1049,
+      "sha256": "eb9d8741021b8ba64545c463b848b28083b600f62ae04041cf6f867aeb9aa8c8"
+    },
+    {
+      "question_id": "CS-2026-S1-Q63",
+      "page": 46,
+      "bbox": [
+        70,
+        90.48,
+        525,
+        371.03
+      ],
+      "width": 1365,
+      "height": 843,
+      "sha256": "00151bde96922483cc75a43c001f75d99f3188c5521bb26453b484f839fd303b"
+    },
+    {
+      "question_id": "CS-2026-S1-Q64",
+      "page": 46,
+      "bbox": [
+        70,
+        372.03,
+        525,
+        506.77
+      ],
+      "width": 1365,
+      "height": 405,
+      "sha256": "b08cec11c3c5e5a755a1b24fc326eae438424acc56f16db3345d2a47c7fdeb0b"
+    },
+    {
+      "question_id": "CS-2026-S1-Q65",
+      "page": 46,
+      "bbox": [
+        70,
+        507.77,
+        525,
+        576.0
+      ],
+      "width": 1365,
+      "height": 205,
+      "sha256": "7aa9c93f5e2ed5cc37b2a583ad59e5b61316077b8a4934866389fc4d1c196293"
+    }
+  ],
+  "independent_review": "Separate reviewer visually inspected all 46 source pages and all 65 bounds, including regenerated Q32/Q58 corrections. No additional corrections. Actual rendered Q32/Q58 separately visually checked by author; output hashes recorded. This certifies crop boundaries only.",
+  "reviewed_proposal_sha256": "0a02ee654f0301ecd992083c7a107e8c384dbbd7a1d7f54de54d1f273a9717ad"
+}

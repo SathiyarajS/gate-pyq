@@ -12,3 +12,6 @@ site-assets/q/
 .local-source-cache/
 audits/screenshots/
 audits/compare/
+
+node_modules/
+_site-enhanced/

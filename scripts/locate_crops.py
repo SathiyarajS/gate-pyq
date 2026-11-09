@@ -21,7 +21,7 @@ def main():
     ap.add_argument('--ocr',action='store_true')
     args=ap.parse_args()
     existing=ROOT/'data/crops.json'
-    if existing.exists() and any(e.get('status')=='verified' for es in json.loads(existing.read_text()).values() for e in es):
+    if existing.exists() and any((e.get('status')=='verified' or e.get('method','').startswith('manual') or e.get('review_status')) for es in json.loads(existing.read_text()).values() for e in es):
         raise SystemExit('Refusing to overwrite reviewed crops; merge new proposals separately.')
     qs=json.loads((ROOT/'data/questions.json').read_text()); manifest=json.loads((ROOT/'sources/manifest.json').read_text())
     wanted={q.get('source_file_sha256') for q in qs} | {v.get('sha256') for v in manifest['files'].values()}; index={}; errors=[]; archive_hashes={}

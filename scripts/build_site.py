@@ -14,6 +14,21 @@ def load(path, default=None):
 def safe_url(value):
     return str(value) if value and urlparse(str(value)).scheme in ('https','http') else ''
 
+def inline_math(text):
+    """Only explicit LaTeX delimiters; preserve legacy dollar end-markers verbatim."""
+    pattern = r'(\\\(.*?\\\)|\\\[.*?\\\]|\$\$.*?\$\$)'
+    parts = re.split(pattern, text, flags=re.S)
+    result=[]
+    for part in parts:
+        explicit = ((part.startswith(r'\(') and part.endswith(r'\)')) or
+                    (part.startswith(r'\[') and part.endswith(r'\]')) or
+                    (part.startswith('$$') and part.endswith('$$')))
+        if explicit:
+            display=part.startswith((r'\[','$$'))
+            result.append('<span class="math-source" data-math="'+html.escape(part[2:-2],quote=True)+'" data-display="'+str(display).lower()+'">'+html.escape(part)+'</span>')
+        else:result.append(html.escape(part))
+    return ''.join(result)
+
 def rich(value):
     # Escape first. Preserve text/code/paragraphs without allowing source HTML execution.
     chunks = re.split(r'(```[^\n]*\n.*?```)', str(value or ''), flags=re.S)
@@ -22,7 +37,7 @@ def rich(value):
         if chunk.startswith('```'):
             result.append('<pre><code>'+html.escape(chunk.split('\n',1)[-1].removesuffix('```'))+'</code></pre>')
         else:
-            result.extend('<p>'+html.escape(p).replace('\n','<br>')+'</p>' for p in chunk.split('\n\n') if p.strip())
+            result.extend('<p>'+inline_math(p).replace('\n','<br>')+'</p>' for p in chunk.split('\n\n') if p.strip())
     return Markup(''.join(result))
 
 def discrepancies():
@@ -74,16 +89,23 @@ def main():
         issues.append(f"Topic grouping: {topic_review_counts['reviewed']} reviewed, {topic_review_counts['candidate']} candidate, {len(nonreviewed_topics)-topic_review_counts['candidate']} other or missing; {len(nonreviewed_topics)} assignments require review.")
     # Preview intentionally does not publish unverified crops or transcriptions.
     issues.append('Original question crops and redraw verification are not yet complete; all displayed question text is a paraphrase preview.')
-    issues.append('PDF exports, Pagefind indexing and self-hosted mathematical typesetting are pending.')
+    katex_dir=ROOT/'node_modules/katex/dist'
+    has_math=(katex_dir/'katex.min.js').is_file() and (katex_dir/'katex.min.css').is_file()
+    if not has_math:issues.append('Mathematical typesetting assets are unavailable; explicit LaTeX is preserved as text. Run npm ci to provision pinned local assets.')
+    issues.append('PDF verification and Pagefind indexing must be run and checked separately after this build.')
     if not args.preview:raise SystemExit('Release blocked:\n- '+'\n- '.join(issues))
-    out.mkdir(parents=True,exist_ok=True);shutil.copytree(ROOT/'site-static',out/'assets',dirs_exist_ok=True)
+    out.mkdir(parents=True,exist_ok=True)
+    if has_math:
+        shutil.copytree(katex_dir,out/'assets/vendor/katex',dirs_exist_ok=True)
+        shutil.copy2(ROOT/'node_modules/katex/LICENSE',out/'assets/vendor/katex/LICENSE')
+    shutil.copytree(ROOT/'site-static',out/'assets',dirs_exist_ok=True)
     env=Environment(loader=FileSystemLoader(ROOT/'templates/site'),autoescape=select_autoescape(['html']));env.filters['rich']=rich
     counts={s:len(qs) for s,qs in groups.items()};titles={s:TITLES[int(s[:2])-1] for s in groups}
     cards=[dict(slug=s,title=titles[s],count=counts[s],topics=len(topics.get(s,{}).get('topics',[]))) for s in sorted(groups)]
     def render(path,**ctx):
         target=out/path/'index.html';target.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*len(Path(path).parts) if path else './'
-        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=True,**ctx))
+        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=True,has_math=has_math,**ctx))
     def sortkey(q):return (-q['year'],q['paper_id'],tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
     search=[];canonical={};subject_seen=[];paper_seen=[]
     for subject,qs in sorted(groups.items()):
@@ -124,6 +146,8 @@ def main():
     render('about',title='Know what you are studying.',kind='about')
     render('discrepancies',title='Discrepancies & interpretations',kind='discrepancies',discrepancy_groups=[(titles[s],[q for q in qs if q['discrepancy_ids']]) for s,qs in sorted(groups.items())])
     (out/'search.json').write_text(json.dumps(search,ensure_ascii=False))
+    for item in search:
+        render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     assert collections.Counter(subject_seen)==collections.Counter(seen)==collections.Counter(paper_seen)
     (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
     print(f'Built PRIVATE PREVIEW: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')

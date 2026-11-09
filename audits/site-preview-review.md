@@ -2,7 +2,7 @@
 
 Reviewed the local generated preview against CODEX_INSTRUCTIONS.md and audits/site-implementation-status.md. This review does not authorize publication or certify exact source fidelity.
 
-## Final frozen-snapshot result
+## Initial preparation snapshot (historical result)
 
 A clean rebuild was independently checked: 4,233 HTML files including 26 print drafts, 3,406 unique canonical subject records and 3,406 unique paper-view records. Zero structural/link/metadata errors. The JavaScript and print-HTML checks below also passed on this frozen output. Topic review remains partial (348 reviewed, 3,058 candidates), not certified complete.
 
@@ -24,7 +24,7 @@ Chromium did not start: process_singleton_posix.cc socket() failed with Operatio
 
 The generator does not clear its output directory on rebuild. A clean output directory is recommended after topic or route changes to avoid stale unlinked pages.
 
-Pagefind, math typesetting, exact original crops, independently reviewed topics, verified redraws and finished PDF acceptance remain pending. Stored question data was not edited by this reviewer. Latest access metadata presence in generated fragments was checked; provenance correctness and every underlying source were not independently re-audited.
+At this initial checkpoint, Pagefind, math typesetting, exact original crops, independently reviewed topics, verified redraws and finished PDF acceptance remained pending. Stored question data was not edited by this reviewer. Latest access metadata presence in generated fragments was checked; provenance correctness and every underlying source were not independently re-audited.
 
 ## Reproducible checks
 
@@ -32,3 +32,7 @@ Pagefind, math typesetting, exact original crops, independently reviewed topics,
 - `node audits/site-preview-review-js.cjs`
 - `python audits/site-preview-review-pdf-html.py` (requires the build dependencies)
 - Browser script retained as `audits/site-preview-review-browser.py` for an environment that permits Chromium. Its results must not be assumed until execution succeeds and the screenshots are actually inspected.
+
+## Enhanced checkpoint follow-up
+
+A new clean build passed with 7,634 HTML files (including 3,406 search documents and 26 print drafts), exact 3,406 canonical subject and paper records, and zero static errors. All 3,406 topic assignments now have individual text/solution-based review. Real KaTeX and Pagefind parser/index checks pass; see enhanced-preview-review.md. Crop metadata records 65 independent source-boundary/render checks, but the preview remains paraphrase-based. Browser, accessibility, PDF layout, full original presentation, source fidelity and rights limitations above still apply.

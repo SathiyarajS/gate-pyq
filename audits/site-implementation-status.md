@@ -38,3 +38,18 @@ Private preview implementation, topic review, source/crop QA, PDF generation, re
 - No deployment workflow or permission expansion was added. The existing Claude source-fetch script/workflow is unchanged, so this checkpoint does not intentionally trigger it.
 
 For a reproducible clean preview, use a new empty output directory with `python scripts/build_site.py --preview --output <directory>`. Incremental reuse can leave stale pages when topic assignments change. The final release command deliberately remains blocked.
+
+## Crop-review batch after private preparation
+
+65 CS-2026-S2 crops now pass independent source-boundary review and byte-for-byte regeneration checks; 3,341 remain pending. This checkpoint records provenance/coordinates and QA only, not generated image publication, transcription completeness or public rights clearance. Initial topic counts above describe the prior frozen preparation, not live work. The proposal generator now refuses to overwrite manual review work.
+
+## Reviewed topics and enhanced search batch
+
+- All 3,406 topic assignments individually reviewed against available question context and solutions; zero candidates remain. This does not certify source-image fidelity or answer correctness. Source question data is unchanged.
+- Self-hosted pinned KaTeX and Pagefind added. A clean build generates 7,634 HTML pages including 3,406 answer-free search documents and 26 print drafts. Structural, exact subject/paper coverage, static links, practice/math logic, real search-index and print-HTML checks pass.
+- 65 reviewed crop bounds remain metadata only; generated crop assets are not included in this checkpoint.
+- Browser, responsive, accessibility and actual PDF visual QA remain blocked/not completed. Original transcription and public-source rights gates remain open. Main and Pages settings are unchanged.
+
+## Second crop-review batch
+
+Both 2026 papers now have independently reviewed crop coordinates (130 questions); 3,276 remain pending. CS1 Q32/Q58 initial truncation was caught and repaired before approval. Source crop assets are still generated locally, not included in this text checkpoint. Source answers and deployment restrictions are unchanged.

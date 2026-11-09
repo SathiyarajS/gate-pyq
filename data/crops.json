@@ -74480,19 +74480,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 1,
       "bbox": [
-        0,
-        145.41,
-        595.32,
-        841.92
+        70,
+        136.32,
+        525,
+        741.38
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q2": [
@@ -74500,19 +74497,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 2,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        566.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q3": [
@@ -74520,19 +74514,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 3,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        247.28
+        70,
+        90.48,
+        525,
+        738.72
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q4": [
@@ -74540,19 +74531,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 4,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        170.57
+        70,
+        90.48,
+        525,
+        404.59
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q5": [
@@ -74560,19 +74548,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 4,
       "bbox": [
-        0,
-        450.62,
-        595.32,
-        841.92
+        70,
+        441.41,
+        525,
+        750.74
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q6": [
@@ -74580,19 +74565,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 5,
       "bbox": [
-        0,
-        122.49,
-        595.32,
-        841.92
+        70,
+        113.4,
+        525,
+        763.46
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q7": [
@@ -74600,19 +74582,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 6,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        644.16
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q8": [
@@ -74620,19 +74599,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 7,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        660.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q9": [
@@ -74640,19 +74616,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 8,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        632.52
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q10": [
@@ -74660,19 +74633,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 9,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        227.69
+        70,
+        90.48,
+        525,
+        455.01
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q11": [
@@ -74680,20 +74650,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 10,
       "bbox": [
-        0,
-        145.41,
-        595.32,
-        456.94
+        70,
+        136.32,
+        525,
+        409.03
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q12": [
@@ -74701,20 +74667,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 10,
       "bbox": [
-        0,
-        454.94,
-        595.32,
-        547.9
+        70,
+        445.85,
+        525,
+        768.14
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q13": [
@@ -74722,19 +74684,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 11,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        270.32
+        70,
+        90.48,
+        525,
+        337.27
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q14": [
@@ -74742,19 +74701,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 11,
       "bbox": [
-        0,
-        383.16,
-        595.32,
-        441.22
+        70,
+        374.07,
+        525,
+        740.76
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q15": [
@@ -74762,19 +74718,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 12,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        728.52
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q16": [
@@ -74782,19 +74735,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 13,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        735.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q17": [
@@ -74802,19 +74752,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 14,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        147.17
+        70,
+        90.48,
+        525,
+        740.88
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q18": [
@@ -74822,20 +74769,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 15,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        411.22
+        70,
+        90.48,
+        525,
+        363.19
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q19": [
@@ -74843,20 +74786,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 15,
       "bbox": [
-        0,
-        409.22,
-        595.32,
-        841.92
+        70,
+        399.99,
+        525,
+        739.08
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q20": [
@@ -74864,20 +74803,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 16,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        410.98
+        70,
+        90.48,
+        525,
+        363.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q21": [
@@ -74885,20 +74820,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 16,
       "bbox": [
-        0,
-        408.98,
-        595.32,
-        841.92
+        70,
+        399.87,
+        525,
+        726.48
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q22": [
@@ -74906,19 +74837,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 17,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        725.28
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q23": [
@@ -74926,19 +74854,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 18,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        709.92
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q24": [
@@ -74946,19 +74871,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 19,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        298.76
+        70,
+        90.48,
+        525,
+        753.02
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q25": [
@@ -74966,20 +74888,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 20,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        436.54
+        70,
+        90.48,
+        525,
+        388.51
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q26": [
@@ -74987,20 +74905,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 20,
       "bbox": [
-        0,
-        434.54,
-        595.32,
-        566.77
+        70,
+        425.45,
+        525,
+        748.7
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q27": [
@@ -75008,20 +74922,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 21,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        452.38
+        70,
+        90.48,
+        525,
+        404.47
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q28": [
@@ -75029,20 +74939,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 21,
       "bbox": [
-        0,
-        450.38,
-        595.32,
-        841.92
+        70,
+        441.29,
+        525,
+        749.18
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q29": [
@@ -75050,20 +74956,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 22,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        425.02
+        70,
+        90.48,
+        525,
+        376.99
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q30": [
@@ -75071,20 +74973,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 22,
       "bbox": [
-        0,
-        423.02,
-        595.32,
-        841.92
+        70,
+        413.81,
+        525,
+        758.42
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q31": [
@@ -75092,20 +74990,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 23,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        525.1
+        70,
+        90.48,
+        525,
+        321.79
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q32": [
@@ -75113,20 +75007,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 23,
       "bbox": [
-        0,
-        523.1,
-        595.32,
-        586.32
+        70,
+        514.01,
+        525,
+        664.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q33": [
@@ -75134,19 +75024,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 23,
       "bbox": [
-        0,
-        673.97,
-        595.32,
-        703.57
+        70,
+        664.88,
+        525,
+        732.24
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q34": [
@@ -75154,20 +75041,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 24,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        477.22
+        70,
+        90.48,
+        525,
+        465.01
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q35": [
@@ -75175,20 +75058,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 24,
       "bbox": [
-        0,
-        475.22,
-        595.32,
-        491.26
+        70,
+        466.01,
+        525,
+        601.44
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q36": [
@@ -75196,19 +75075,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 25,
       "bbox": [
-        0,
-        169.17,
-        595.32,
-        841.92
+        70,
+        160.08,
+        525,
+        740.64
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q37": [
@@ -75216,19 +75092,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 26,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        216.89
+        70,
+        90.48,
+        525,
+        733.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q38": [
@@ -75236,19 +75109,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 27,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        750.38
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q39": [
@@ -75256,19 +75126,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 28,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        738.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q40": [
@@ -75276,19 +75143,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 29,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        232.16
+        70,
+        90.48,
+        525,
+        735.84
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q41": [
@@ -75296,19 +75160,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 30,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        738.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q42": [
@@ -75316,19 +75177,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 31,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        752.42
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q43": [
@@ -75336,19 +75194,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 32,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        746.42
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q44": [
@@ -75356,19 +75211,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 33,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        142.97
+        70,
+        90.48,
+        525,
+        740.16
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q45": [
@@ -75376,19 +75228,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 34,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        261.56
+        70,
+        90.48,
+        525,
+        753.14
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q46": [
@@ -75396,19 +75245,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 35,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        129.07
+        70,
+        90.48,
+        525,
+        393.31
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q47": [
@@ -75416,19 +75262,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 35,
       "bbox": [
-        0,
-        439.22,
-        595.32,
-        841.92
+        70,
+        430.13,
+        525,
+        769.46
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q48": [
@@ -75436,19 +75279,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 36,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        745.46
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q49": [
@@ -75456,19 +75296,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 37,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        735.36
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q50": [
@@ -75476,19 +75313,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 38,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        762.26
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q51": [
@@ -75496,19 +75330,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 39,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        735.24
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q52": [
@@ -75516,19 +75347,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 40,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        737.28
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q53": [
@@ -75536,19 +75364,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 41,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        743.06
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q54": [
@@ -75556,19 +75381,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 42,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        841.92
+        70,
+        90.48,
+        525,
+        750.74
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q55": [
@@ -75576,20 +75398,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 43,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        439.18
+        70,
+        90.48,
+        525,
+        391.15
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q56": [
@@ -75597,20 +75415,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 43,
       "bbox": [
-        0,
-        437.18,
-        595.32,
-        841.92
+        70,
+        428.09,
+        525,
+        725.28
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q57": [
@@ -75618,20 +75432,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 44,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        154.25
+        70,
+        90.48,
+        525,
+        142.16
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q58": [
@@ -75639,20 +75449,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 44,
       "bbox": [
-        0,
-        152.25,
-        595.32,
-        171.41
+        70,
+        143.16,
+        525,
+        261.79
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q59": [
@@ -75660,20 +75466,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 44,
       "bbox": [
-        0,
-        271.2,
-        595.32,
-        406.3
+        70,
+        261.99,
+        525,
+        394.19
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q60": [
@@ -75681,20 +75483,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 44,
       "bbox": [
-        0,
-        404.3,
-        595.32,
-        567.85
+        70,
+        395.19,
+        525,
+        762.5
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q61": [
@@ -75702,20 +75500,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 45,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        386.48
+        70,
+        90.48,
+        525,
+        374.39
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q62": [
@@ -75723,20 +75517,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 45,
       "bbox": [
-        0,
-        384.48,
-        595.32,
-        841.92
+        70,
+        375.39,
+        525,
+        724.8
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q63": [
@@ -75744,20 +75534,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 46,
       "bbox": [
-        0,
-        99.69,
-        595.32,
-        383.12
+        70,
+        90.48,
+        525,
+        371.03
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q64": [
@@ -75765,20 +75551,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 46,
       "bbox": [
-        0,
-        381.12,
-        595.32,
-        518.86
+        70,
+        372.03,
+        525,
+        506.77
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S1-Q65": [
@@ -75786,20 +75568,16 @@
       "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
       "page": 46,
       "bbox": [
-        0,
-        516.86,
-        595.32,
-        841.92
+        70,
+        507.77,
+        525,
+        576.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_table_boundary_review",
+      "flags": [],
+      "review_status": "independent_source_bounds_review_passed",
+      "review_audit": "audits/crops-CS-2026-S1.json"
     }
   ],
   "CS-2026-S2-Q1": [
@@ -75808,17 +75586,28 @@
       "page": 1,
       "bbox": [
         70,
-        135.82,
+        136.82,
         525,
         444.55
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q2": [
@@ -75827,17 +75616,28 @@
       "page": 2,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         651.46
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q3": [
@@ -75846,17 +75646,28 @@
       "page": 3,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         412.63
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q4": [
@@ -75869,13 +75680,24 @@
         525,
         399.99
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q5": [
@@ -75884,17 +75706,28 @@
       "page": 4,
       "bbox": [
         70,
-        399.49,
+        400.49,
         525,
         708.34
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q6": [
@@ -75903,17 +75736,28 @@
       "page": 5,
       "bbox": [
         70,
-        112.9,
+        113.9,
         525,
         421.63
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q7": [
@@ -75922,17 +75766,28 @@
       "page": 6,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         708.34
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q8": [
@@ -75941,17 +75796,28 @@
       "page": 7,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         634.18
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q9": [
@@ -75960,17 +75826,28 @@
       "page": 8,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         698.02
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q10": [
@@ -75979,17 +75856,28 @@
       "page": 9,
       "bbox": [
         70,
-        158.74,
+        159.74,
         525,
         522.55
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q11": [
@@ -75998,17 +75886,28 @@
       "page": 10,
       "bbox": [
         70,
-        135.82,
+        136.82,
         525,
         753.6
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q12": [
@@ -76017,17 +75916,28 @@
       "page": 11,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         756.0
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q13": [
@@ -76040,13 +75950,24 @@
         525,
         396.03
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q14": [
@@ -76055,17 +75976,28 @@
       "page": 12,
       "bbox": [
         70,
-        395.53,
+        396.53,
         525,
         748.92
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q15": [
@@ -76074,17 +76006,28 @@
       "page": 13,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         755.52
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q16": [
@@ -76097,13 +76040,24 @@
         525,
         429.65
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q17": [
@@ -76112,17 +76066,28 @@
       "page": 14,
       "bbox": [
         70,
-        429.15,
+        430.15,
         525,
         737.02
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q18": [
@@ -76131,17 +76096,28 @@
       "page": 15,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         759.96
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q19": [
@@ -76150,17 +76126,28 @@
       "page": 16,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         753.48
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q20": [
@@ -76173,13 +76160,24 @@
         525,
         387.87
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q21": [
@@ -76188,17 +76186,28 @@
       "page": 17,
       "bbox": [
         70,
-        387.37,
+        388.37,
         525,
         739.3
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q22": [
@@ -76211,13 +76220,24 @@
         525,
         396.99
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q23": [
@@ -76226,17 +76246,28 @@
       "page": 18,
       "bbox": [
         70,
-        396.49,
+        397.49,
         525,
         755.52
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q24": [
@@ -76245,17 +76276,28 @@
       "page": 19,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         724.54
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q25": [
@@ -76268,13 +76310,24 @@
         525,
         433.13
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q26": [
@@ -76283,17 +76336,28 @@
       "page": 20,
       "bbox": [
         70,
-        432.63,
+        433.63,
         525,
         768.48
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q27": [
@@ -76306,13 +76370,24 @@
         525,
         417.29
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q28": [
@@ -76321,17 +76396,28 @@
       "page": 21,
       "bbox": [
         70,
-        416.79,
+        417.79,
         525,
         753.24
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q29": [
@@ -76344,13 +76430,24 @@
         525,
         359.67
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q30": [
@@ -76363,13 +76460,24 @@
         525,
         439.73
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q31": [
@@ -76382,13 +76490,24 @@
         525,
         583.52
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q32": [
@@ -76397,17 +76516,28 @@
       "page": 22,
       "bbox": [
         70,
-        583.02,
+        584.02,
         525,
         744.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q33": [
@@ -76420,13 +76550,24 @@
         525,
         156.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q34": [
@@ -76439,13 +76580,24 @@
         525,
         222.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q35": [
@@ -76454,17 +76606,28 @@
       "page": 23,
       "bbox": [
         70,
-        221.86,
+        222.86,
         525,
         464.35
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q36": [
@@ -76473,17 +76636,28 @@
       "page": 24,
       "bbox": [
         70,
-        112.9,
+        113.9,
         525,
         730.06
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q37": [
@@ -76496,13 +76670,24 @@
         525,
         402.27
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q38": [
@@ -76511,17 +76696,28 @@
       "page": 25,
       "bbox": [
         70,
-        401.77,
+        402.77,
         525,
         752.16
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q39": [
@@ -76530,17 +76726,28 @@
       "page": 26,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         768.12
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q40": [
@@ -76549,17 +76756,28 @@
       "page": 27,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         719.62
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q41": [
@@ -76568,17 +76786,28 @@
       "page": 28,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         747.48
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q42": [
@@ -76587,17 +76816,28 @@
       "page": 29,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         745.32
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q43": [
@@ -76610,13 +76850,24 @@
         525,
         399.99
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q44": [
@@ -76625,17 +76876,28 @@
       "page": 30,
       "bbox": [
         70,
-        399.49,
+        400.49,
         525,
         765.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q45": [
@@ -76644,17 +76906,28 @@
       "page": 31,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         716.74
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q46": [
@@ -76663,17 +76936,28 @@
       "page": 32,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         734.38
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q47": [
@@ -76682,17 +76966,28 @@
       "page": 33,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         740.02
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q48": [
@@ -76701,17 +76996,28 @@
       "page": 34,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         743.88
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q49": [
@@ -76720,17 +77026,28 @@
       "page": 35,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         735.1
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q50": [
@@ -76739,17 +77056,28 @@
       "page": 36,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         768.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q51": [
@@ -76758,17 +77086,28 @@
       "page": 37,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         766.2
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q52": [
@@ -76781,13 +77120,24 @@
         525,
         594.8
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q53": [
@@ -76796,17 +77146,28 @@
       "page": 38,
       "bbox": [
         70,
-        594.3,
+        595.3,
         525,
         742.2
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q54": [
@@ -76819,13 +77180,24 @@
         525,
         223.56
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q55": [
@@ -76838,13 +77210,24 @@
         525,
         370.59
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q56": [
@@ -76857,13 +77240,24 @@
         525,
         489.89
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q57": [
@@ -76872,17 +77266,28 @@
       "page": 39,
       "bbox": [
         70,
-        489.39,
+        490.39,
         525,
         735.1
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q58": [
@@ -76895,13 +77300,24 @@
         525,
         223.56
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q59": [
@@ -76914,13 +77330,24 @@
         525,
         470.21
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q60": [
@@ -76929,17 +77356,28 @@
       "page": 40,
       "bbox": [
         70,
-        469.71,
+        470.71,
         525,
         767.04
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q61": [
@@ -76952,13 +77390,24 @@
         525,
         420.77
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q62": [
@@ -76971,13 +77420,24 @@
         525,
         473.21
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q63": [
@@ -76990,13 +77450,24 @@
         525,
         593.36
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q64": [
@@ -77005,17 +77476,28 @@
       "page": 41,
       "bbox": [
         70,
-        592.86,
+        593.86,
         525,
         735.34
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ],
   "CS-2026-S2-Q65": [
@@ -77024,17 +77506,28 @@
       "page": 42,
       "bbox": [
         70,
-        89.98,
+        90.98,
         525,
         290.45
       ],
-      "status": "draft",
+      "status": "verified",
       "method": "manual_table_boundary_review",
       "number_detected": true,
       "flags": [
         "independent_visual_review_required"
       ],
-      "review_status": "independent_visual_review_pending"
+      "review_status": "independent_source_bounds_and_render_review_passed",
+      "visual_review": {
+        "reviewed_on": "2026-11-09",
+        "scope": "First pass: own number, complete stem/options/figures/code, neighboring boundaries and continuation/shared-context scan; not independent verification.",
+        "source_page_pixels": [
+          893,
+          1263
+        ],
+        "source_render_scale": 1.5,
+        "final_upper_boundary_adjustment": "At most 1 PDF point inward within inspected empty table border; no content removed."
+      },
+      "review_audit": "audits/crops-CS-2026-S2-render-check.json"
     }
   ]
 }

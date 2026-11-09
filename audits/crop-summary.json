@@ -2,10 +2,14 @@
   "counts": {
     "page_fallback": 2396,
     "candidate_questions": 3406,
-    "text_marker_candidate": 1083,
-    "overlap_pairs": 8422,
-    "verified_questions": 0,
-    "pending_visual_review_questions": 3406
+    "text_marker_candidate": 953,
+    "overlap_pairs": 8390,
+    "verified_questions": 130,
+    "pending_visual_review_questions": 3276,
+    "manual_table_boundary_review": 130,
+    "first_pass_reviewed_questions": 130,
+    "independent_visual_review_pending_questions": 0,
+    "pending_first_pass_questions": 3276
   },
   "papers": {
     "CS-1991": {
@@ -141,12 +145,13 @@
       "candidate": 65
     },
     "CS-2026-S1": {
-      "candidate": 65
+      "verified": 65
     },
     "CS-2026-S2": {
-      "candidate": 65
+      "verified": 65
     }
   },
   "source_count": 40,
-  "resolved_sources": 40
+  "resolved_sources": 40,
+  "reviewed_border_overlaps": []
 }

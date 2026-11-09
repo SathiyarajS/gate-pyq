@@ -1,5 +1,5 @@
 {
-  "html_pages": 4233,
+  "html_pages": 7634,
   "subject_records": 3406,
   "paper_records": 3406,
   "unique_subject_records": 3406,
@@ -8,7 +8,7 @@
   "sample_paths": {
     "CS-1991-Q1": "01-digital-logic/page/6/index.html",
     "CS-2019-Q22": "12-discrete-mathematics/page/28/index.html",
-    "CS-2019-Q52": "08-operating-systems/page/27/index.html",
+    "CS-2019-Q52": "08-operating-systems/page/26/index.html",
     "CS-2020-Q17": "06-theory-of-computation/page/7/index.html",
     "CS-2023-Q30": "12-discrete-mathematics/page/27/index.html"
   }
