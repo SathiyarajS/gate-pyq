@@ -90,7 +90,8 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=11",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
     }
   },
   {
@@ -111,7 +112,8 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=12",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
     }
   },
   {
@@ -156,7 +158,8 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=15",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
     }
   },
   {
@@ -273,7 +276,8 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=19",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
     }
   },
   {
@@ -384,7 +388,8 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=22",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
     }
   },
   {
@@ -405,7 +410,30 @@
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=22",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
     "independent_review": {
-      "status": "pending"
+      "status": "reviewed",
+      "scope": "Independent second derivation and published-key comparison passed. Visual and final-key provenance reviews remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q31",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "31",
+    "subject": "09-database-management-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 23,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q31 — Database Management Systems: dependency preservation and normal forms\n\nPaper page 23; key page 1. MSQ, 1 mark. **Answer: A, B, C.**\n\n1. The 3NF synthesis construction can always produce a dependency-preserving 3NF decomposition for a relation and its functional dependencies. It starts from a minimal cover, groups appropriate determinants with their dependents, and includes a candidate-key relation if needed for losslessness. Thus A is true.\n2. Since a relation in 3NF also satisfies 2NF and 1NF, the same dependency-preserving decomposition supplies existence witnesses for both lower normal forms. Hence B is true and the assertion of possible failure at 2NF in D is false.\n3. BCNF does not always permit dependency preservation. For an explicit witness, consider R(A,B,C) with AB → C and C → B. Its candidate keys are AB and AC. The dependency C → B violates BCNF because C does not determine A.\n4. Any BCNF decomposition must use proper subrelations rather than retaining all of ABC. Among proper subrelations, the only essential nontrivial projected dependency is C → B on BC; the projections on AB and AC contain no nontrivial dependencies. Thus the union of all available proper projections cannot imply AB → C: under that union, the closure of AB never acquires C. No collection of those BCNF components can preserve the original dependencies. This proves C.\n\n**Common error:** A lossless BCNF decomposition does not automatically preserve every dependency. Losslessness and dependency preservation are separate requirements.\n",
+    "derived_answer": "A;B;C",
+    "official_answer": "A;B;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=23",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
     }
   },
   {
@@ -432,6 +460,28 @@
     }
   },
   {
+    "question_id": "CS-2026-S1-Q34",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "34",
+    "subject": "03-programming-in-c",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 24,
+    "question_type": "NAT",
+    "marks": 1,
+    "solution": "## Q34 — Programming in C: block scope and shadowing\n\nPaper page 24; key page 1. NAT, 1 mark. **Answer: 9. Official interval: 9 to 9.**\n\n1. The function receives its own parameter i with value 9 and parameter j with value 10. The initial comparison succeeds.\n2. Inside the conditional block, a new local i is declared. It shadows the parameter i only within that block. The loop increments this inner variable from 0 to 10; it does not alter the parameter i.\n3. The loop also increases the function-local j, which has no effect on the printed expression. When execution leaves the block, the inner i goes out of scope.\n4. The print statement is outside the block. Its identifier i therefore refers to the parameter, still equal to 9. The output is 9, with no newline implied by the shown format string.\n\n**Common error:** Shadowing creates a different object; it is not assignment to the outer object.\n",
+    "derived_answer": "9 to 9",
+    "official_answer": "9 to 9",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=24",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
     "question_id": "CS-2026-S1-Q35",
     "paper_id": "CS-2026-S1",
     "source_question_number": "35",
@@ -452,6 +502,272 @@
     "independent_review": {
       "status": "reviewed",
       "scope": "Independent second derivation and official paper/key cross-check passed. Q12 also exhaustively enumerated. Visual transcription and final-key provenance checks remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q36",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "36",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 25,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "## Q36 — Computer Organization and Architecture: binary32 addition\n\nPaper page 25; key page 1. MCQ, 2 marks. **Answer: C, hexadecimal 35E80000.**\n\n1. Both operands are positive normal IEEE 754 binary32 numbers. The exponent field of 35C00000 is 107, so its unbiased exponent is −20. Its fraction field is 400000, giving significand 1.5. Thus X = 1.5 × 2^−20.\n2. For 34A00000 the exponent field is 105, giving unbiased exponent −22; fraction 200000 gives significand 1.25. Thus Y = 1.25 × 2^−22 = 0.3125 × 2^−20.\n3. Their sum is 1.8125 × 2^−20. Since 1 ≤ 1.8125 < 2, no exponent renormalization is required. The fraction is 0.8125 = 13/16, which has an exact terminating binary expansion.\n4. The exponent bits remain 107, contributing 35800000. The stored fraction is (13/16) × 2^23 = 680000 in hexadecimal. Combining the fields yields 35E80000. No rounding error occurs here.\n\n**Computational check:** Python struct unpacked both binary32 operands and repacked their sum, obtaining 0x35e80000. This complements the exact field-level derivation; it is not the sole justification.\n",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=25",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q38",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "38",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 27,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "## Q38 — Computer Organization and Architecture: cache address fields\n\nPaper page 27; key page 2. MCQ, 2 marks. **Answer: A, N = M + L.**\n\n1. Byte addresses contain 32 bits. A 128-byte block needs log2(128)=7 offset bits.\n2. The cache contains 2^23 / 2^7 = 2^16 blocks. In a direct-mapped organization, there are 2^16 sets, requiring 16 index bits. Hence its tag length is M=32−16−7=9.\n3. K=2^L ways reduce the set count to 2^(16−L). The set index therefore uses 16−L bits while the block offset remains 7 bits.\n4. The set-associative tag length is N=32−(16−L)−7=9+L=M+L.\n\n**Common error:** Associativity changes the number of sets, not the number of bytes per block. Offset bits do not grow with the number of ways.\n",
+    "derived_answer": "A",
+    "official_answer": "A",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=27",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q39",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "39",
+    "subject": "03-programming-in-c",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 28,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "## Q39 — Programming in C / Data Structures: recursive list length\n\nPaper page 28; key page 2. MCQ, 2 marks. **Answer: B.**\n\n1. The input list is nonempty, so the current head points to a node. A one-node list is recognized by a null next pointer, and its length is 1.\n2. If a next node exists, the tail beginning there is also nonempty. The total length is one for the current node plus the recursively computed tail length. This supplies the base condition and recursive expression in B.\n3. Induction proves correctness: length 1 returns 1; assuming the routine counts a tail of length n−1, the recursive case returns 1+(n−1)=n.\n4. Passing the unchanged head recursively never decreases the problem size and does not terminate on longer lists. Using head==NULL as the base test while returning 1 gives an extra count for the empty suffix. These defects eliminate the other choices.\n\n**Assumption:** As usual for a finite singly linked list, the chain is acyclic. The question's recursion would not terminate on a cyclic structure.\n",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=28",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q40",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "40",
+    "subject": "04-data-structures",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 29,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "## Q40 — Data Structures: insertion constraints in a complete BST\n\nPaper page 29; key page 2. MCQ, 2 marks. **Answer: D, value 5.**\n\n1. A complete binary tree with 15 nodes has all four levels full. For the ordered keys 1 through 15, the BST invariant therefore fixes root 8, its children 4 and 12, and their children 2, 6, 10 and 14. The leaves are 1, 3, 5, 7, 9, 11, 13 and 15.\n2. Ordinary BST insertion without rotations requires every ancestor of a node to have been inserted earlier. Otherwise an earlier inserted descendant would occupy an ancestor position and could not later move below it.\n3. The ancestors of 5 are 8, 4 and 6. All three must already exist before 5 is inserted, so 5 cannot be inserted third.\n4. Each other offered value can occur third: prefixes (8,12,4), (8,4,2) and (8,12,10) place 4, 2 and 10 third respectively. Each prefix respects the fixed tree's ancestor order, so it can be extended by inserting the remaining keys in an ancestor-before-descendant order to produce the required complete tree.\n\n**Common error:** A completed tree need not stay complete at every intermediate insertion. Only the final shape is constrained here.\n",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=29",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q41",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "41",
+    "subject": "05-algorithms",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 30,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "Increasing the permitted edge budget enlarges the set over which the minimum is taken. Therefore the minimum cannot increase, including the case where a former infinity becomes finite; S1 is true. S2 need not hold for a fixed smaller edge budget. As a counterexample, use undirected edges s-a, a-u, u-v of weight 1 each and s-v of weight 10. The unique shortest s-to-v path is s-a-u-v and includes (u,v). At budget k=1, u is unreachable from s, so d_1(u)=infinity, while d_1(v)=10. The claimed inequality fails. Thus only S1 holds, giving A. This positive-weight example avoids any complications about negative-weight cycles.",
+    "derived_answer": "A",
+    "official_answer": "A",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=30",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q43",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "43",
+    "subject": "09-database-management-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 32,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "The two existentially quantified variables represent joined coordinates: v is the second coordinate of R and the first coordinate of S. The join condition is therefore R.Q=S.X. The output keeps only u, the first coordinate of R, namely attribute P. Joining on that equality and projecting P gives option B. Reversing the written operand order of the join does not alter this coordinate equality. The other options equate the wrong coordinates.",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=32",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q44",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "44",
+    "subject": "10-computer-networks",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 33,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "Using the usual simplified exercise convention that the initial congestion window is one segment, the window doubles each RTT while below the threshold. By the end of rounds transmitting windows 1,2,4,...,512, a total of 1023 segments has begun transmission. The next window is 1024, covering sequence positions 1024 through 2047. It starts after ten RTTs, so segment 2000 starts in the interval [10,11) milliseconds, corresponding to B, under the idealized round model. The threshold 10000 does not intervene because the window is only 1024. Important: the initial congestion window and the precise initial time origin are not explicitly specified in the inspected question. With an initial window of ten segments, the same idealized doubling calculation instead places segment 2000 in the eighth sending round, starting after seven RTTs. Therefore the official B needs the implicit one-segment convention; it is not a consequence of the stated parameters alone.",
+    "derived_answer": "B under the implicit initial-window=1 convention; otherwise under-specified.",
+    "official_answer": "B",
+    "verification_status": "discrepancy_open",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q44-IW"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=33",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q45",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "45",
+    "subject": "10-computer-networks",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 34,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "One frame occupies the transmitter for 1000/100000 seconds = 10 milliseconds. The acknowledgment of the first frame can arrive only after that full frame is transmitted, propagates to the receiver, and its zero-length acknowledgment propagates back. The interval is therefore 10+100+100 = 210 milliseconds. Sending W frames back-to-back occupies 10W milliseconds. To avoid any idle gap before the first window slot is reusable requires 10W>=210, hence W>=21. At W=21 the first acknowledgment arrives exactly when transmission of the initial window finishes, sustaining full utilization. Twenty frames cover only the propagation round trip and omit the first frame transmission time. Select B.",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=34",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q47",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "47",
+    "subject": "12-discrete-mathematics",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 35,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "If a vertex v is omitted from a vertex cover, all its distinct neighbors must be included to cover its incident edges. Degree at least k+1 would then require more than k vertices, contradicting minimal cover size k. Thus A forces v into every minimum cover. B does not: take a four-vertex path a-b-c-d, whose minimum cover size is 2. Endpoint a lies on the path of length 3=k+1, but the minimum cover {b,c} excludes it. C does not: a triangle has k=2, and any vertex lies on its cycle of length 3 but can be excluded by choosing the other two. The same triangle refutes D: each vertex belongs to a clique of size k=2 (an incident edge), yet some minimum cover excludes it. Only A always forces inclusion.",
+    "derived_answer": "A",
+    "official_answer": "A",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=35",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q49",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "49",
+    "subject": "05-algorithms",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 37,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "A is the strict cycle property: if an MST included the uniquely heaviest edge of a cycle, deleting that edge separates the tree; another cycle edge crosses the resulting cut and is lighter, yielding a lower-weight spanning tree. D is the strict cut property for the cut containing one vertex: its unique lightest incident edge must occur in every MST. B is not a cycle property. For a concrete connected counterexample, take edges ad=1, bd=2, ab=3, bc=4, ac=5. The smallest edge of cycle a-b-c-a is ab=3, but it is excluded from the MST {ad,bd,bc}, because a-d-b already connects its endpoints more cheaply. C fails on any tree with distinct edge weights: every edge is in the only spanning tree, including the heaviest incident edge at each vertex. Thus select A and D. The statement tacitly needs a connected graph for an MST to exist; for disconnected inputs these arguments apply to a minimum spanning forest componentwise.",
+    "derived_answer": "A;D",
+    "official_answer": "A;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=37",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q50",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "50",
+    "subject": "05-algorithms",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 38,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "DFS discovery-to-finish intervals for two distinct vertices are either nested or disjoint. They never partially overlap, so D is impossible for any DFS, not just on DAGs. In B, v is an ancestor of u when the edge u-to-v is examined. The DFS-tree path from v to u followed by this edge makes a directed cycle, contradicting that the input is a DAG. Thus B is also impossible. A occurs on a tree edge from u to a newly discovered v; v finishes before its recursive caller u. C occurs when v was fully explored before u is discovered, and a later edge goes from u to that already finished vertex. For example, process a DFS root v with no outgoing edges before root u in a graph with only edge u-to-v. Select B and D.",
+    "derived_answer": "B;D",
+    "official_answer": "B;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=38",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q51",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "51",
+    "subject": "06-theory-of-computation",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 39,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "Every regular language is context-free, so C follows immediately from the given regularity of L2. The intersection condition does not impose comparable restrictions on the part of L1 outside L2. Choose L2 to be empty and L1={a^n b^n c^n : n>=0}. Then L2 and L1 intersection L2 are both regular, while L1 is not context-free and hence not regular. Also L1 union L2 equals L1 and is not regular. This single counterexample refutes A, B and D, leaving only C.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=39",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
     }
   }
 ]

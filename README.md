@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: a source-audited collection of GATE CS questions and independently written solutions, organised by subject. Twenty solution entries (seventeen in requested subjects and three supplemental non-discrete mathematics items) have independently derived solutions compared with a published official key. Q28 has an explicitly logged formal ambiguity; other answers match; the collection remains incomplete and second review remains incomplete. Fourteen derivations have a second check, but original wording/figure review and final-key provenance are still pending. Some entries contain only a source link and an original solution, not a question transcription.
+Work in progress: 34 solution entries for 2026 CS1, including 31 in requested subjects and 3 supplemental mathematics entries. All 34 have been compared with the published official key and 34 derivations have a second review. Q28 and Q44 retain explicit wording/assumption discrepancies. Entries are paraphrases or source-linked solutions, not complete question transcriptions. No paper, subject-year or 36-year collection is complete. Original wording/figure review and final-key provenance remain pending.
 
 ## Subjects
 | # | Subject |
