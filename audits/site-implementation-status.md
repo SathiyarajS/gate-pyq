@@ -57,3 +57,7 @@ Both 2026 papers now have independently reviewed crop coordinates (130 questions
 ## 2025 crop-review batch
 
 260 questions now have independently reviewed crop coordinates across four 2025–2026 papers; 3,146 remain pending. 2025 CS1 Q11 had a missing continuation containing options C/D, added and independently verified before approval. Other papers and final source-presentation gates remain open. No source answers or workflow permissions changed.
+
+## Optional private source-image preview
+
+An explicit --with-reviewed-crops option regenerates approved source crops from hash-checked PDFs and displays them above explanatory paraphrases. The local 260-question build contains 261 image parts, with exact copied-file identity, reviewed-only gating, dimensions, alt identifiers and static links checked. Multipart Q11 retains both parts. No image assets are committed by this code checkpoint. Full accessible transcription, browser visual QA and redistribution rights remain open.

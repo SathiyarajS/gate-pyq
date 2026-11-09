@@ -1,0 +1,9 @@
+{
+  "questions_with_reviewed_crops": 260,
+  "image_parts": 261,
+  "only_reviewed_images": true,
+  "copied_image_byte_identity": true,
+  "alt_text_and_dimensions": true,
+  "browser_layout_qa": "not_performed",
+  "limitations": "Static completeness and file checks only; alt text is not a complete accessible transcription. No source rights, original completeness or answer certification."
+}

@@ -46,3 +46,14 @@ No command above changes repository visibility, Pages settings, workflow permiss
 ## Verified crop metadata
 
 260 question crop records across the four 2025–2026 papers have independent boundary review. Generated images remain local, not published by these text checkpoints. After resolving sources locally, `python scripts/render_crops.py --question CS-2026-S2-Q1` demonstrates the verified rendering path. The remaining 3,146 questions are draft and require review. The preview still uses clearly labelled paraphrases until complete source presentation and rights gates are satisfied.
+
+## Optional original-source images in a local preview
+
+After resolving source PDFs, use a fresh output directory:
+
+```sh
+python scripts/build_site.py --preview --with-reviewed-crops --output _site-crop-preview
+python audits/site-crop-display-review.py
+```
+
+This regenerates only independently reviewed crops from hash-checked originals and shows them above the explanatory paraphrase. Multipart questions keep every crop part in order. It does not approve draft crops, produce a certified text transcription, grant redistribution rights or enable deployment. Generated images and previews remain ignored local files. Image alt text identifies the source/page; it is not a full accessible transcription. Browser rendering still needs visual QA.

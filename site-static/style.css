@@ -6,3 +6,5 @@
 @media print{header,footer,.preview,.pagination,.filters,.question-tools,.practice,.topic-list,.heat,.timer,.js-only{display:none!important}:root{--bg:white;--panel:white;--ink:black;--muted:#333;--line:#aaa;--accent:#164e40;--warn:#eee;--warnink:black}main{padding:0;max-width:none}.question{break-inside:avoid;padding:12px}.answer::details-content{display:block}.answer> :not(summary){display:block!important}h1{font-size:30px}a{color:inherit}.source-note{font-size:9pt}}
 
 .search-facets{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}.search-facets label{font-size:.8rem;min-width:0}.search-facets select{display:block;max-width:100%;width:100%}.math-source{overflow-wrap:anywhere}.katex-display{max-width:100%;overflow-x:auto;overflow-y:hidden}.math-unsupported{border-bottom:1px dotted var(--muted)}
+
+.original-source figure{margin:16px 0}.original-source img{display:block;width:100%;height:auto;background:white;border:1px solid var(--line)}.original-source figcaption{font-size:.75rem;color:var(--muted);margin-top:6px}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build locally: python scripts/build_site.py --preview. Default is fail-closed release."""
-import argparse, collections, html, json, math, re, shutil
+import argparse, collections, html, json, math, re, shutil, subprocess, sys
 from pathlib import Path
 from urllib.parse import quote, urlparse
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -49,7 +49,7 @@ def discrepancies():
     return rows
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--preview',action='store_true');ap.add_argument('--output',default='_site');args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--preview',action='store_true');ap.add_argument('--output',default='_site');ap.add_argument('--with-reviewed-crops',action='store_true',help='Private local preview only: regenerate and include reviewed source crops. Does not grant redistribution rights.');args=ap.parse_args()
     out=(ROOT/args.output).resolve()
     if out == ROOT or ROOT not in out.parents: raise SystemExit('Output must be a subdirectory of repository')
     questions=load(ROOT/'data/questions.json'); papers=load(ROOT/'data/papers.json'); topics=load(ROOT/'data/topics.json',{}); ds=discrepancies()
@@ -95,6 +95,26 @@ def main():
     issues.append('PDF verification and Pagefind indexing must be run and checked separately after this build.')
     if not args.preview:raise SystemExit('Release blocked:\n- '+'\n- '.join(issues))
     out.mkdir(parents=True,exist_ok=True)
+    crop_assets={}
+    if args.with_reviewed_crops:
+        manifest=load(ROOT/'data/crops.json',{})
+        approved=[qid for qid,entries in manifest.items() if entries and all(c.get('status')=='verified' for c in entries)]
+        if not approved:raise SystemExit('No independently reviewed crop records available')
+        # Regenerate from hash-checked original PDFs, rather than trust stale local images.
+        subprocess.run([sys.executable,str(ROOT/'scripts/render_crops.py')]+[v for qid in approved for v in ('--question',qid)],check=True)
+        assets=load(ROOT/'site-assets/q/manifest.json',{})
+        dest=out/'assets/questions';dest.mkdir(parents=True,exist_ok=True)
+        for qid in approved:
+            if qid not in seen:raise SystemExit('Crop record has unknown question ID')
+            entries=assets.get(qid,[])
+            if len(entries)!=len(manifest[qid]):raise SystemExit('Crop image count mismatch: '+qid)
+            for entry in entries:
+                name=entry['file']
+                if Path(name).name!=name or entry.get('status')!='verified':raise SystemExit('Unsafe or unreviewed crop asset')
+                shutil.copy2(ROOT/'site-assets/q'/name,dest/name)
+            crop_assets[qid]=entries
+        for q in questions:q['original_crops']=crop_assets.get(q['question_id'],[])
+        issues.append(f'{len(crop_assets)} questions include reviewed original-source crops in this private local preview. Remaining questions retain source-linked paraphrases. No redistribution rights are asserted.')
     if has_math:
         shutil.copytree(katex_dir,out/'assets/vendor/katex',dirs_exist_ok=True)
         shutil.copy2(ROOT/'node_modules/katex/LICENSE',out/'assets/vendor/katex/LICENSE')
@@ -149,7 +169,7 @@ def main():
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     assert collections.Counter(subject_seen)==collections.Counter(seen)==collections.Counter(paper_seen)
-    (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
+    (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
     print(f'Built PRIVATE PREVIEW: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')
     print('\n'.join(issues))
 if __name__=='__main__':main()
