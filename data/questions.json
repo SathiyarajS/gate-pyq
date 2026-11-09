@@ -1,5 +1,230 @@
 [
   {
+    "question_id": "CS-2026-S1-Q1",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "1",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 1,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "A protagonist is the central figure in a narrative; the opposing character is the antagonist. The latter is the intended contrasting term, so choose B. The other offered words refer to unrelated attitudes or activities rather than the opposing narrative role.",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=1",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q2",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "2",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 2,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "Every permitted piece covers exactly four unit squares, so any nonoverlapping assembly must have area divisible by four. The rectangle in C has 3*5=15 cells and is impossible. The other options can actually be tiled: the 2-by-4 rectangle by two horizontal bars, the 3-by-4 rectangle by three horizontal bars, and the 4-by-5 rectangle by five vertical bars. Thus the area obstruction singles out C, rather than merely giving a necessary condition. The cell counts and piece shapes were visually checked in the official diagram.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=2",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q3",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "3",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 3,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "Every match removes exactly one contender. To finish with one undefeated winner, 63 of the 64 entrants must be eliminated, so exactly 63 matches are necessary. Equivalently, a balanced bracket has 32+16+8+4+2+1=63 games. The elimination argument does not require a balanced bracket.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=3",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q4",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "4",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 4,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "To maximize electives, use the largest permitted total and the smallest permitted allocation to the other variable category. After the fixed allocations and minimum specialization allocation, the remaining capacity is 70-15-20-10=25 credits. That allocation also meets the lower total-credit requirement. Hence D.",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=4",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q5",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "5",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 4,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "Let T mean the teacher is present, S that every student is standing, and Q that every student is silent. The premise is T implies S and Q. It entails each individual consequence and also its contrapositive: a student failing to stand silently disproves T. It does not entail the converse S implies T; students might stand while the teacher is absent. Therefore C is the statement not necessarily true.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=4",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q6",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "6",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 5,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "The passage describes a use of combinatorial counting in some physical models and then explains assigning probabilities to compute averages. This supports statement Q. It does not justify promoting that limited use into the universal assertion P that all physical modeling invokes combinatorics. The intended comprehension classification is therefore P false and Q true, option B. In strict logic, lack of support for an always claim is not by itself a proof of its negation; the answer uses the passage-based reading of P rather than an independent theorem about all physical models.",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "discrepancy_open",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q6-INFERENCE"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=5",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q7",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "7",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 6,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "Compare both orthographic projections, including the internal step edges rather than only the outer silhouettes. The target front profile has column heights 3,2,2, while the top footprint is a 3-by-3 layout with its front-right cell absent. Candidate (iv) has the required L-shaped footprint and the correct step arrangement: taking rows from back to front, its height grid is [3,2,2], [3,1,1], [2,1,0], with zero denoting the missing cell. Column maxima reproduce the front profile, and equal-height adjoining top cells give the drawn interior boundaries. This yields candidate (iv), option D. Both required views, not just one outline, must match. Elimination checks: (i) fills the front-right footprint corner; (iii) raises the middle front-profile column to height 3; (ii) introduces a raised middle terrace and the wrong internal top-view step boundary. These fail the target projections.",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=6",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q8",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "8",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 7,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "Reading the plot gives three intervals: zero up to S=10, then S-10 between 10 and 20, then the constant 10 thereafter. Subtract the hinge turning on at 20 from the hinge turning on at 10. For S<=10 both are zero. For 10<S<=20 only the first is active, giving S-10. Above 20 the difference is (S-10)-(S-20)=10. Thus H_10(S)-H_20(S), option A, matches the whole graph including both junctions. The graph’s slope and plateau were inspected directly.",
+    "derived_answer": "A",
+    "official_answer": "A",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=7",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q9",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "9",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 8,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "The stated observations rule out a medal-winning best in rounds 1 and 2. The bronze medalist had already reached his personal best by the end of round 4, and did not improve afterward, ruling out later rounds. His best cannot have occurred in round 4: the eventual silver medalist threw farther than him in that round, which would then have placed the silver medalist ahead after four rounds, contradicting the reported second-place position of the bronze medalist at that time. The only remaining round is the third, option A.",
+    "derived_answer": "A",
+    "official_answer": "A",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=8",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q10",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "10",
+    "subject": "11-general-aptitude",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 9,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "There are 36 equally likely ordered pairs. Conditioning on the first result 1 through 6, the numbers of possible multiples on the second roll are respectively 6,3,2,1,1,1. The count of favorable pairs is 14. Hence the probability is 14/36=7/18, option C. Equal results count because a number is one times itself; reversing the order of the two rolls does not preserve the condition.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=9",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
     "question_id": "CS-2026-S1-Q11",
     "paper_id": "CS-2026-S1",
     "source_question_number": "11",
@@ -117,6 +342,30 @@
     }
   },
   {
+    "question_id": "CS-2026-S1-Q16",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "16",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 13,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "# GATE 2026 CS1 Q16: pipeline-model qualification\n\nSubject: Computer Organization and Architecture. MCQ, 1 mark. Official scoring answer: **B (read-after-write)**.\n\nSources inspected through text extraction on 2026-11-09:\n- [Official master paper, page 13](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=13)\n- [Official published key, page 1](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1)\n\n## Intended derivation\n\nA read-after-write dependency occurs when an earlier instruction produces a register value that a later instruction consumes. If the consumer reads before the producer's result is available, it obtains stale data. A classic example is an ADD writing R1 followed by an instruction using R1. This makes B a valid data-hazard category.\n\nIn the conventional single-issue, in-order, fixed-stage pipeline, all register reads occur in an earlier fixed stage than all register writes, and instructions reach those stages in program order. Under that model, later writes cannot overtake earlier reads or writes. Thus write-after-read and write-after-write dependencies do not become pipeline hazards. Read-after-read does not overwrite a value and is not a data hazard. This model supports the intended unique selection B.\n\n## Discrepancy / missing-model qualification\n\nThe question describes a pipelined processor without specifying the fixed-stage, in-order model. The general wording is therefore broader than the assumptions needed for a unique MCQ answer.\n\n- A write-after-read hazard can occur when an earlier instruction is delayed before reading R1 while a later instruction writes R1 early. The earlier instruction would consume the later value instead of the old value it should have read.\n- A write-after-write hazard can occur when a long-latency earlier instruction and a short-latency later instruction both write R1, but the earlier one completes last. Without ordering or renaming, the final value can incorrectly come from the earlier instruction.\n\nSuch hazards can arise in pipelines that permit the relevant execution reordering; they are not excluded merely by the word pipelined. Register renaming and appropriate scheduling can remove or prevent them, but those mechanisms are not stated in this question.\n\n**Status:** Preserve official B for scoring, and label the unique-answer interpretation model-dependent rather than asserting that WAR and WAW can never be data hazards. Suggested discrepancy identifier: CS-2026-S1-Q16-PIPELINE-MODEL. Independent second derivation review passed; visual transcription verification and final-key revision check remain pending. This is an interpretation issue, not a claim that the published key has been officially corrected.\n",
+    "derived_answer": "B in the classic in-order fixed-stage model; WAR/WAW can also be hazards in broader pipeline models.",
+    "official_answer": "B",
+    "verification_status": "discrepancy_open",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q16-PIPELINE-MODEL"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=13",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second review confirms model-dependent uniqueness."
+    }
+  },
+  {
     "question_id": "CS-2026-S1-Q17",
     "paper_id": "CS-2026-S1",
     "source_question_number": "17",
@@ -209,6 +458,29 @@
       "status": "reviewed",
       "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
       "review_notes": "Nonzero kernel implies singularity; scalar multiples give distinct nonzero vectors, while zero matrix refutes fixed rank."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q21",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "21",
+    "subject": "01-digital-logic",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 16,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q21 — Digital Logic: XOR identity\n\nPaper page 16; key page 1. MSQ, 1 mark. **Answer: A, C.**\n\n1. Let x=NOT P and y=Q. The given expression becomes (x OR y) XOR (x AND y).\n2. If both x and y are zero, both inner expressions are zero and the result is zero. If exactly one is one, the OR is one and the AND zero, so the result is one. If both are one, both inner expressions are one and the result is zero. Thus the expression is x XOR y.\n3. Substituting back gives (NOT P) XOR Q, exactly option C. Complementing one XOR input complements the XOR result, so this is also NOT(P XOR Q), option A.\n4. B is P XOR Q, the opposite function. D complements both XOR inputs and therefore equals P XOR Q as well, so neither is equivalent to the given expression.\n\n**Truth-table check:** For (P,Q)=00,01,10,11, the output is respectively 1,0,0,1. This is XNOR of P and Q.\n\n**Visual check:** Option A's bar covers the whole XOR expression; C complements P only; D complements each input separately. Those distinctions were confirmed in the rendered source.\n",
+    "derived_answer": "A;C",
+    "official_answer": "A;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=16",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual confirmation of complement bars, table/minterms and choices; final-key revision pending."
     }
   },
   {
@@ -437,6 +709,30 @@
     }
   },
   {
+    "question_id": "CS-2026-S1-Q32",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "32",
+    "subject": "excluded",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 23,
+    "question_type": "NAT",
+    "marks": 1,
+    "solution": "For positive x, rewrite the logarithm term as c2 ln(x). As x approaches zero from the right, ln(x) diverges, while e^x tends to 1. A finite right limit therefore requires c2=0. Continuity with the value at zero then requires c1=3. Hence c1+c2=3. The formula was checked visually to distinguish the logarithm argument and exponential.",
+    "derived_answer": "3 to 3",
+    "official_answer": "3 to 3",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=23",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    },
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+  },
+  {
     "question_id": "CS-2026-S1-Q33",
     "paper_id": "CS-2026-S1",
     "source_question_number": "33",
@@ -524,6 +820,29 @@
     "independent_review": {
       "status": "reviewed",
       "scope": "Independent mathematical check and option/key mapping review passed. Visual transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q37",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "37",
+    "subject": "01-digital-logic",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 26,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "## Q37 — Digital Logic: saturating counter next-state logic\n\nPaper page 26; key page 1. MCQ, 2 marks. **Answer: B.**\n\n1. A D flip-flop takes its next state from its D input. Thus D1 and D0 must equal the corresponding next-state bits in all eight input/current-state rows.\n2. Use variable order (P,Q1,Q0). The rows where D1=1 have binary indices 1,2,3,7. Adjacent pairs (1,3), (2,3) and (3,7) yield the implicants (NOT P)Q0, (NOT P)Q1 and Q1Q0. Therefore D1=(NOT P)Q1 OR (NOT P)Q0 OR Q1Q0.\n3. The rows where D0=1 have indices 0,2,3,6. Adjacent pairs (0,2), (2,3) and (2,6) yield (NOT P)(NOT Q0), (NOT P)Q1 and Q1(NOT Q0). Therefore D0=(NOT P)(NOT Q0) OR (NOT P)Q1 OR Q1(NOT Q0).\n4. These two expressions are the pair in B. Each of the other offered pairs fails at least one row: A gives the wrong D0 at 000; C gives the wrong D1 at 000; D gives the wrong D1 at 100.\n\n**Computational check:** Evaluated B on all eight assignments and compared the resulting two-bit value with min(3,current+1) for P=0 and max(0,current−1) for P=1. All eight matched.\n\n**Visual check:** Inspected both the full next-state table and each complement bar in the four expression pairs.\n",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=26",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual confirmation of complement bars, table/minterms and choices; final-key revision pending."
     }
   },
   {
@@ -615,6 +934,29 @@
     }
   },
   {
+    "question_id": "CS-2026-S1-Q42",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "42",
+    "subject": "07-compiler-design",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 31,
+    "question_type": "MCQ",
+    "marks": 2,
+    "solution": "An expression is available at a merge only if it was computed on every incoming path and neither operand was subsequently modified. Both B2 and B3 compute g*k without later changing g or k, so that expression is redundant in B4. Although b+i was computed in B1, B3 assigns a new value to b, invalidating it on that path; it is not available at the merge. The expression c+m was computed on the B3 path but not on the B2 path, and B4 does not compute it. Therefore it is not globally available in B5. The redundant set is {g*k} for B4 and empty for B5, option D. Assigning a=c*4 in B2 does not assign to c. The graph and assignment targets were visually checked.",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=31",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    }
+  },
+  {
     "question_id": "CS-2026-S1-Q43",
     "paper_id": "CS-2026-S1",
     "source_question_number": "43",
@@ -683,6 +1025,30 @@
     }
   },
   {
+    "question_id": "CS-2026-S1-Q46",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "46",
+    "subject": "excluded",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 35,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "The factors are negatives of one another, so the function is minus the square of x-|x|/2. For x>=0 it equals -x^2/4; for x<0 it equals -9x^2/4. It has a strict local (and global) maximum at zero and no local minimum. The derivative is -x/2 on the positive side, -9x/2 on the negative side, and zero at the origin, so it is continuous everywhere. Its own one-sided derivatives at zero are -1/2 and -9/2, which differ; therefore f-prime is not differentiable on all of R. Select A,C,D. The source has |x| divided by 2, not |x| squared; visual inspection resolved this extraction ambiguity.",
+    "derived_answer": "A;C;D",
+    "official_answer": "A;C;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=35",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    },
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+  },
+  {
     "question_id": "CS-2026-S1-Q47",
     "paper_id": "CS-2026-S1",
     "source_question_number": "47",
@@ -702,6 +1068,29 @@
     "independent_review": {
       "status": "reviewed",
       "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q48",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "48",
+    "subject": "01-digital-logic",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 36,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q48 — Digital Logic: minimum sum of products\n\nPaper page 36; key page 2. MSQ, 2 marks. **Answer: B, D.**\n\n1. There are exactly six prime implicants. In bit-pattern notation using variable order (P,Q,R,S), where a dash is a don't-care coordinate, they are:\n   - 0--1: (NOT P)S, covering minterms 1,3,5,7.\n   - -10-: Q(NOT R), covering 4,5,12,13.\n   - 001-: (NOT P)(NOT Q)R, covering 2,3.\n   - -010: (NOT Q)R(NOT S), covering 2,10.\n   - 1-10: PR(NOT S), covering 10,14.\n   - 11-0: PQ(NOT S), covering 12,14.\n2. The first two prime implicants are essential: minterm 1 can only be covered by 0--1, and minterm 4 only by -10-. Together they leave 2,10,14 uncovered.\n3. No single remaining prime implicant covers all three residual minterms. Therefore at least two further terms are required, for a minimum of four product terms overall. Each additional prime has three literals, so the minimum covers have ten literals in total.\n4. Option B adds 001- and 1-10: these cover 2,3 and 10,14, completing the function. Option D adds 11-0 and -010: these cover 12,14 and 2,10, also completing it. Both achieve the four-term, ten-literal minimum.\n5. Option A leaves minterm 14 uncovered. Option C leaves minterm 2 uncovered. Hence neither even represents the target function.\n\n**Completeness check:** Exhaustively enumerated all 81 four-variable cubes, retained cubes containing no zero minterm, and extracted the six maximal cubes above. Enumerating prime-implicant covers found minimum size four. There is a third minimum cover using the two essential implicants plus -010 and 1-10; it is not one of the offered choices. The answer does not claim that B and D are the only possible minimal expressions.\n\n**Visual check:** Confirmed the minterm list and all complement bars in options A–D directly from rendered page 36.\n",
+    "derived_answer": "B;D",
+    "official_answer": "B;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=36",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual confirmation of complement bars, table/minterms and choices; final-key revision pending."
     }
   },
   {
@@ -768,6 +1157,318 @@
     "independent_review": {
       "status": "reviewed",
       "scope": "Independent second derivation and option mapping reviewed. Q44 remains under-specified; Q49 connectedness assumption retained. Visual/final-key provenance checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q52",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "52",
+    "subject": "06-theory-of-computation",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 40,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q52 — Theory of Computation: counting invariants in a grammar\n\nPaper page 40. MSQ, 2 marks. **Answer: B, D.**\n\nWrite a(w) and b(w) for the numbers of the two terminals in a generated word w.\n\n1. Every expansion of B produces a^k b^k for some k≥1. Hence its two counts are equal.\n2. For A's terminating alternative, a B expansion with k of each terminal gives counts a=k+3 and b=k+2. Thus b≤a≤2b.\n3. Suppose a word derived from the recursive A child has counts x,y satisfying y≤x≤2y. The surrounding recursive production contributes two a terminals and one b terminal, plus two B words. If those B words together contribute K of each terminal, the new counts are x+K+2 and y+K+1. Their difference is (x−y)+1≥0. Also twice the new b count minus the new a count is (2y−x)+K≥0. Thus both inequalities are invariant under recursion.\n4. The start production combines two A words, one B word and an outer string with three a terminals and three b terminals. Adding the counts preserves b≤a≤2b. Consequently every complete word satisfies the two bounds in B and D. The existential violations in A and C are impossible.\n\n**Common error:** Counting only the explicitly written terminals of a production omits arbitrarily long balanced B expansions. The invariant accounts for them without enumerating strings.\n",
+    "derived_answer": "B;D",
+    "official_answer": "B;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=40",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q53",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "53",
+    "subject": "07-compiler-design",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 41,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q53 — Compiler Design: syntax-directed definitions\n\nPaper page 41. MSQ, 2 marks. **Answer: A, B, D.**\n\n1. Both grammars generate a type keyword, either int or float, followed by one or more identifier tokens. G1 builds an identifier list through V; G2 builds the same sequence by extending D. Therefore their languages are identical, establishing A.\n2. In SDD2, T.type comes from a type keyword and D.type comes from a child T or D. Every attribute value flows upward from children to the left-hand-side symbol, or is a constant. All attributes are synthesized, so SDD2 is S-attributed and B is true.\n3. SDD1 passes the type inherited by V down through the identifier list. But it also contains synthesized attributes, including T.type and D.type. Its inherited dependencies are L-attributed, yet the stronger wording that it contains only inherited attributes is false. Thus C is false.\n4. In either definition, every identifier receives the same type supplied by the leading keyword. Thus the same identifier/type entries are recorded, establishing D. The ways in which the values flow through the parse tree differ; the resulting entries do not.\n\n**Common error:** L-attributed does not mean exclusively inherited. An L-attributed definition can contain synthesized attributes as well.\n",
+    "derived_answer": "A;B;D",
+    "official_answer": "A;B;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=41",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q54",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "54",
+    "subject": "08-operating-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 42,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q54 — Operating Systems / Computer Organization: translation and cache events\n\nPaper page 42. MSQ, 2 marks. **Answer: B, C.**\n\n1. Interpret a page-table miss here as a nonresident page (a page fault), not as a cache miss while fetching the page-table entry. The cache is physically addressed, so the ordinary sequence first resolves virtual-to-physical translation and then accesses the referenced cache block.\n2. A TLB miss can occur even when the page is resident: the translation may simply not be cached in the TLB. After a successful page-table lookup the data block may still be present in the cache. Therefore A is possible.\n3. In a correctly maintained translation system, a TLB hit supplies a valid resident-page translation, and a page-table walk is not needed for that reference. It cannot simultaneously be the page-table-fault sequence described in B. Thus B is impossible.\n4. If the referenced page is absent from memory, the stated invalidation rule prevents its data blocks from remaining valid in the cache. Therefore the page-fault-plus-cache-hit sequence C is impossible. A TLB miss, page fault and absence of the data block from cache, as in D, is possible.\n\n**Interpretation note:** These are hit/miss conditions for the original reference before fault recovery. Fault servicing can populate memory or cache and then retry the instruction; hits on that later retry are not the same event sequence. Correct TLB invalidation is implicit in a functioning virtual-memory system.\n",
+    "derived_answer": "B;C",
+    "official_answer": "B;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=42",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q55",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "55",
+    "subject": "12-discrete-mathematics",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 43,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q55 — Discrete Mathematics / Algorithms: bipartiteness\n\nPaper page 43. MSQ, 2 marks. **Answer: B, C.**\n\n1. Along a cycle, a proper two-colouring alternates colours on each successive edge. An odd number of alternations would require the starting vertex to have both colours. Odd cycles are therefore forbidden, making A false.\n2. An even cycle can alternate colours consistently. A four-cycle is a direct example, so B is true.\n3. Use BFS or DFS from every not-yet-coloured vertex, assign opposite colours across each explored edge, and reject if an edge has equally coloured endpoints. If no conflict occurs, the assignment is a valid two-colouring. Processing all components is essential for disconnected graphs.\n4. With adjacency lists, each vertex is visited once and each undirected edge is examined at most twice. This is the standard worst-case Θ(|V|+|E|) traversal bound used by the question, yielding C. No sorting or priority queue is required; the claimed optimal logarithmic-factor bound in D is not the standard bound.\n\n**Complexity scope:** The stated bound is the conventional full-graph adjacency-list algorithm bound. Particular inputs may be rejected earlier, for example when a conflict is found before traversal finishes.\n",
+    "derived_answer": "B;C",
+    "official_answer": "B;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=43",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q56",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "56",
+    "subject": "10-computer-networks",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 43,
+    "question_type": "MSQ",
+    "marks": 2,
+    "solution": "## Q56 — Computer Networks: CIDR sizing and alignment\n\nPaper page 43. MSQ, 2 marks. **Answer: A, B, C.**\n\n1. A single CIDR allocation must have a power-of-two address count. Since 2^12=4096<6000≤8192=2^13, the smallest fitting block is /19, containing 8192 addresses.\n2. A /19 boundary leaves thirteen host bits. Its mask is 255.255.224.0, so the fourth octet must be zero and the third octet must be a multiple of 32.\n3. The ISP's /15 block spans second-octet values 16 and 17 with first octet 202. The candidates in A, B and C are all within that range and use aligned third octets 0, 64 and 32 respectively.\n4. D uses third octet 24, which is not a multiple of 32. It is a host address inside the /19 network starting at third octet 0, not the canonical start of a distinct /19 allocation. Therefore exclude D.\n\n**Interpretation note:** A request for 6000 addresses is rounded up to a CIDR block that can hold at least that many; a single /19 does not contain exactly 6000. The eligibility result is unchanged if a conventional subnet reserves two addresses, since 8190 remains sufficient.\n",
+    "derived_answer": "A;B;C",
+    "official_answer": "A;B;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=43",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q57",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "57",
+    "subject": "12-discrete-mathematics",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 44,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "## Q57 — Discrete Mathematics: matchings in a path\n\nPaper page 44. NAT, 2 marks. **Answer: 34. Official interval: 34 to 34.**\n\n1. Let M_n count matchings of an n-vertex path, including the empty matching. If the first vertex is unmatched, the remaining choices are any matching of the last n−1 vertices, giving M_(n−1).\n2. If the first vertex is matched, it must use the edge to the second vertex. No other chosen edge may touch either of those vertices, leaving a path on n−2 vertices and M_(n−2) choices.\n3. These cases are disjoint and exhaustive, so M_n=M_(n−1)+M_(n−2), with M_0=M_1=1. The values through n=8 are 1,1,2,3,5,8,13,21,34.\n4. A separate count by matching size agrees: choosing k nonadjacent edges among the seven edges gives binomial(8−k,k). Summing for k=0,1,2,3,4 yields 1+7+15+10+1=34.\n\n**Common error:** The empty set is a matching and contributes one. Omitting it gives an off-by-one result.\n",
+    "derived_answer": "34 to 34",
+    "official_answer": "34 to 34",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and key comparison reviewed; visual/final-key checks pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q58",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "58",
+    "subject": "excluded",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 44,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "Expectation is the probability-weighted sum. Grouping outcomes by their probability gives (1+2+5+7)/6 +(3+4+6+8)/12 =15/6+21/12 =4.25. The supplied probabilities sum to 4/6+4/12=1. Preserve the official accepted interval 4.24 to 4.26 rather than narrowing it to the computed central value. The two probability groups were checked visually.",
+    "derived_answer": "4.25",
+    "official_answer": "4.24 to 4.26",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "source_visual_reviewed": true,
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and visual source review passed. Official final-key revision provenance remains pending."
+    },
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+  },
+  {
+    "question_id": "CS-2026-S1-Q59",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "59",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 44,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "At 15000 revolutions per minute, one revolution takes 60000/15000=4 milliseconds. The mean rotational latency for an independently random sector is half a revolution, or 2 milliseconds. The prescribed track visits require 5+7+5=17 adjacent-track movements, totaling 17 milliseconds. Thirty sector accesses contribute a mean rotational delay of 30*2=60 milliseconds. One sector takes 4/400=0.01 milliseconds to transfer, so transfer time is 0.3 milliseconds. The sum is 17+60+0.3=77.3 milliseconds. This is an expected-time calculation under the independent uniform rotational-position convention, not an exact realized duration determined by arbitrary unspecified sector locations. The question asks for total time without explicitly saying expected; retain the official number with this qualification.",
+    "derived_answer": "77.3 to 77.3",
+    "official_answer": "77.3 to 77.3",
+    "verification_status": "discrepancy_open",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q59-EXPECTED"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q60",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "60",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 44,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "With a one-nanosecond clock and the exercise’s single occupied EX-stage model, an operation lasting t consumes ceil(t) cycles and blocks subsequent use for ceil(t)-1 extra cycles. The listed contributions are LOAD 15*1=15, IMUL 10*1=10, IDIV 5*2=10, FADD 10*1=10, FSUB 5*1=5, FMUL 15*2=30, and FDIV 5*3=15. All remaining operations finish within one cycle and add no structural stall. The total is 95 cycles. This assumes the variable-duration EX operation prevents a new instruction from entering that stage while it is occupied; a separately pipelined functional-unit implementation would require additional architectural details.",
+    "derived_answer": "95 to 95",
+    "official_answer": "95 to 95",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=44",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q61",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "61",
+    "subject": "03-programming-in-c",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 45,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "For positive integer n, repeated integer division by two reaches 1 after floor(log2 n) divisions, so bar(n)=floor(log2 n). Thus foo(n)=1+foo(floor(log2 n)) for n>1, with foo(1)=1. Let a_j be the smallest positive n returning j. Then a_1=1, and reaching the smallest input a_j after one floor-log step requires n=2^(a_j), so a_(j+1)=2^(a_j). The thresholds are 1,2,4,16,65536. Consequently the smallest input returning 5 is 65536; its chain is 65536→16→4→2→1.",
+    "derived_answer": "65536 to 65536",
+    "official_answer": "65536 to 65536",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=45",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q62",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "62",
+    "subject": "04-data-structures",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 45,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "Reconstruct recursively using preorder’s root-first property and the BST value bounds. The left subtree of the root has root 25, with left child 13 and right child 40; node 40 has children 30 and 47. The right subtree has root 75, with left child 60 whose right child is 70, and right child 80 whose left child is 77. Postorder then gives 13,30,47,40,25,70,60,77,80,75,50. Counting from one, 60 occupies position 7.",
+    "derived_answer": "7 to 7",
+    "official_answer": "7 to 7",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=45",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q63",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "63",
+    "subject": "08-operating-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 46,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "Only the newly created child executes continue and advances to the next loop iteration. The parent of each successful fork reaches break, exits the loop, and prints once. The first parent prints, its child forks the next process and then prints, and that next child forks once more and prints. The last child leaves the loop when its index reaches 3 and also prints. Thus three forks form a single continuing lineage with four total processes and four executions of printf. This is not exponential doubling because each parent stops forking immediately.",
+    "derived_answer": "4 to 4",
+    "official_answer": "4 to 4",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=46",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q64",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "64",
+    "subject": "08-operating-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 46,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "Sort the ten arrivals chronologically and apply nonpreemptive FCFS. The arrival times are 10,11,20,22,30,33,40,44,50,55, with alternating service durations 6 and 8. Starting each process at max(arrival,previous completion) gives start times 10,16,24,30,38,44,52,58,66,72. The waiting times are therefore 0,5,4,8,8,11,12,14,16,17, summing to 95 seconds. Divide by ten processes to obtain 9.5 seconds. Arrival gaps do not create idle periods after the first process because the queue never empties before the next arrival.",
+    "derived_answer": "9.5 to 9.5",
+    "official_answer": "9.5 to 9.5",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=46",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q65",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "65",
+    "subject": "09-database-management-systems",
+    "question_text": "See linked original.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 46,
+    "question_type": "NAT",
+    "marks": 2,
+    "solution": "Every superkey contains some candidate key. Supersets of AB are AB,ABC,ABD,ABCD, giving four; supersets of AC are AC,ABC,ACD,ABCD, also four. The overlap consists of ABC and ABCD, so inclusion-exclusion gives 4+4-2=6 superkeys. Since the premise says these are the only candidate keys, no additional superkey can arise without containing AB or AC. The six distinct sets are AB,AC,ABC,ABD,ACD,ABCD.",
+    "derived_answer": "6 to 6",
+    "official_answer": "6 to 6",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=46",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and key comparison passed; Q6 and Q59 interpretation qualifications retained. Final-key revision/visual checks not implied."
     }
   }
 ]

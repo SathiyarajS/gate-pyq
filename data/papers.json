@@ -712,7 +712,7 @@
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf",
     "key_revision": "Published key accessed 2026-11-09; final/revised designation not independently established",
     "expected_question_count": 65,
-    "source_review_status": "partially_reviewed",
+    "source_review_status": "numbering_and_key_fields_reconciled",
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": 3,
@@ -783,7 +783,11 @@
       "64",
       "65"
     ],
-    "final_key_verified": false
+    "final_key_verified": false,
+    "paper_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+    "key_sha256": "7386d012225f9feb7dad1c9ab20c7f7bfc60b2ec91a1f768a49f5bd5bb9b2f28",
+    "source_accessed_on": "2026-11-09",
+    "question_number_reconciliation": "65 unique records match official key question numbers 1\u201365; complete question transcription not claimed."
   },
   {
     "paper_id": "CS-2026-S2",
