@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: 130 source-numbered solution entries cover both 2026 CS papers, with 118 in the requested subjects and 12 supplemental non-discrete mathematics entries. All 130 derivations have independent second review, and their official answer fields, types and marks reconcile with the downloaded published keys. Figure-dependent questions were visually inspected. Wording/model qualifications are recorded without changing official scoring answers. Entries are paraphrases or source-linked solutions, not complete question transcriptions. Final-key revision provenance and the remaining 1991–2025 papers are outstanding; the 36-year collection is not complete.
+Work in progress: 195 source-numbered solution entries cover both 2026 CS papers and 2025 CS1, with 178 in the requested subjects and 17 supplemental non-discrete mathematics entries. All 195 derivations have independent second review, and official answer fields, types and marks reconcile with the downloaded published keys. Figure-dependent questions were visually inspected. Wording/model qualifications are recorded without changing official scoring answers. Entries are paraphrases or source-linked solutions, not complete question transcriptions. Final-key revision provenance, 2025 CS2 and the 1991–2024 papers remain outstanding; the 36-year collection is not complete.
 
 ## Subjects
 | # | Subject |
