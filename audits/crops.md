@@ -5,10 +5,10 @@ source-rights conclusion, original-fidelity claim, or transcription certificatio
 
 ## Current coverage
 
-- 520 questions across eight 2022–2026 papers have independently reviewed bounds; 2,886 remain pending.
-- 521 crop parts are reviewed; 2025 CS1 Q11 has two parts. Every source page and output in the new four-paper batch received separate preparation and independent visual review.
-- 8305 overlap pairs remain across draft and reviewed records in the corpus; this count is diagnostic, not approval.
-- Scope is crop completeness, not transcription, answers, original-paper completeness or distribution rights. Remaining 38 papers require crop review.
+- 845 questions across thirteen 2018–2026 papers have independently reviewed bounds; 2,561 remain pending.
+- 858 crop parts are reviewed. The 2020 scan requires two option continuations and ten separately preserved orphaned labels. Every relevant source page and output received separate preparation and independent visual review.
+- 7979 overlap pairs remain among draft records; no reviewed neighboring-question regions overlap. This count is diagnostic, not approval.
+- Scope is crop completeness, not transcription, answers, original-paper completeness or distribution rights. Remaining 33 papers require crop review.
 
 See `crop-source-map.json` for URLs, archive members, SHA-256, portable paths, page/text counts and parser warnings; `crop-summary.json` for per-paper counts. Workstation paths are kept separately in ignored `.local-source-cache/source-paths.json` and must be regenerated on another machine. The renderer prefers normal repository source paths, with `--source-cache` as an optional local override. No PDF was added to publication assets.
 

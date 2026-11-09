@@ -1,19 +1,23 @@
 {
   "counts": {
-    "page_fallback": 2340,
-    "candidate_questions": 2886,
-    "text_marker_candidate": 618,
-    "overlap_pairs": 8305,
-    "verified_questions": 520,
-    "pending_visual_review_questions": 2886,
+    "page_fallback": 2080,
+    "candidate_questions": 2561,
+    "text_marker_candidate": 553,
+    "overlap_pairs": 7979,
+    "verified_questions": 845,
+    "pending_visual_review_questions": 2561,
     "manual_table_boundary_review": 261,
-    "first_pass_reviewed_questions": 520,
+    "first_pass_reviewed_questions": 845,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 2886,
+    "pending_first_pass_questions": 2561,
     "manual_full_page_visual_table_boundary_review": 65,
     "manual_visual_table_boundary_review": 65,
-    "manual_page_region_review": 65,
-    "manual_source_boundary_review": 65
+    "manual_page_region_review": 130,
+    "manual_source_boundary_review": 65,
+    "manual_full_source_visual_question_bounds": 65,
+    "manual_full_page_visual_review": 77,
+    "manual_scanned_page_region_review": 65,
+    "manual_full_page_table_boundary_review": 65
   },
   "papers": {
     "CS-1991": {
@@ -116,19 +120,24 @@
       "candidate": 65
     },
     "CS-2018": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2019": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2020": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 77
     },
     "CS-2021-S1": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2021-S2": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2022": {
       "verified": 65,

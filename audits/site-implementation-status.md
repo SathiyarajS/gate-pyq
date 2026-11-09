@@ -65,3 +65,7 @@ An explicit --with-reviewed-crops option regenerates approved source crops from 
 ## 2022–2024 crop-review batch
 
 520 questions now have independently reviewed crop coordinates. The 2024 sessions, 2023 and 2022 add 260 reviewed questions. Generated assets remain local. Browser visual QA is still blocked; a managed-browser file URL was denied and no workaround was attempted. Main, Pages, workflows and source answers are unchanged.
+
+## 2018–2021 crop-review batch
+
+845 questions now have independently reviewed crop coordinates, across thirteen papers. The 2020 multipart record preserves options split across pages and orphaned printed labels. The 2019 Q6 bottom was extended before approval. Main, Pages, workflows and answers are unchanged. Browser visual QA remains blocked.
