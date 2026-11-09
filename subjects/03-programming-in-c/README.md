@@ -37,7 +37,7 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2019 | ? | 0 | ☐ | 0 |
 | 2020 | ? | 0 | ☐ | 0 |
 | 2021 | ? | 0 | ☐ | 0 |
-| 2022 | ? | 0 | ☐ | 0 |
+| 2022 | ? | 3 (source-linked entries) | ☐ | 0 |
 | 2023 | ? | 3 (source-linked entries) | ☐ | 1 |
 | 2024 | ? | 7 (source-linked entries) | ☐ | 0 |
 | 2025 | ? | 7 (source-linked entries) | ☐ | 0 |

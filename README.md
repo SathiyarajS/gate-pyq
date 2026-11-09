@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: 455 source-numbered solution entries across 7 CS papers, with 418 in the requested subjects and 37 supplemental mathematics entries. All recorded derivations have independent second review, and official answers, types and marks reconcile with the downloaded keys. Figure-dependent questions were visually inspected. Wording/model discrepancies are disclosed without changing official scoring answers. Entries are paraphrases or source-linked solutions, not complete question transcriptions. See COVERAGE.md for paper coverage and final-key provenance. The 36-year collection is not complete.
+Work in progress: 520 source-numbered solution entries across 8 CS papers, with 479 in the requested subjects and 41 supplemental mathematics entries. All recorded derivations have independent second review, and official answers, types and marks reconcile with the downloaded keys. Figure-dependent questions were visually inspected. Wording/model discrepancies are disclosed without changing official scoring answers. Entries are paraphrases or source-linked solutions, not complete question transcriptions. See COVERAGE.md for paper coverage and final-key provenance. The 36-year collection is not complete.
 
 ## Subjects
 | # | Subject |

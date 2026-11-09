@@ -11,6 +11,7 @@ Scope: 1991–2026, 46 provisional CS paper variants. Listed papers have complet
 | CS-2024-S2 (session 6) | 65/65 | 61 | 4 | 65 | Yes |
 | CS-2024-S1 (session 5) | 65/65 | 59 | 6 | 65 | Yes |
 | CS-2023 (session 1) | 65/65 | 61 | 4 | 65 | Pending |
-| Total | 455 | 418 | 37 | 455 | |
+| CS-2022 (session 1) | 65/65 | 61 | 4 | 65 | Pending |
+| Total | 520 | 479 | 41 | 520 | |
 
-All official key fields, types and marks reconcile for the listed papers. The remaining 39 provisional paper variants have no solution entries yet and their source/session inventories remain unverified. Full-release validation intentionally fails until the wider collection, source transcription and outstanding provenance checks are complete.
+All official key fields, types and marks reconcile for the listed papers. The remaining 38 provisional paper variants have no solution entries yet and their source/session inventories remain unverified. Full-release validation intentionally fails until the wider collection, source transcription and outstanding provenance checks are complete.
