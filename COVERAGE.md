@@ -47,7 +47,8 @@ Scope: 1991–2026, 46 provisional CS paper variants. Identifier coverage is not
 | CS-1996 | 95/95 | 88 | 7 | 95 | Not located | Pending |
 | CS-1995 | 91/91 | 81 | 10 | 91 | Not located | Pending |
 | CS-1994 | 85/85 | 80 | 5 | 85 | Not located | Pending |
-| CS-1993 | 70/70 | 55 | 15 | 69 | Not located | Pending |
+| CS-1993 | 70/70 | 55 | 15 | 70 | Not located | Pending |
 | CS-1992 | 69/69 | 69 | 0 | 69 | Not located | Pending |
+| CS-1991 | 71/71 | 71 | 0 | 71 | Not located | Pending |
 
-Total: 3335 entries. 1 provisional variants remain without solutions. Full-release validation intentionally remains closed.
+Total: 3406 entries. 0 provisional variants remain without solutions. Full-release validation intentionally remains closed.

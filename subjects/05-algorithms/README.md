@@ -6,7 +6,7 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 
 | Year | Official question count | Documented | Verified (2nd pass) | Discrepancies |
 |------|------------------------|------------|---------------------|---------------|
-| 1991 | ? | 0 | ☐ | 0 |
+| 1991 | ? | 6 (source-linked entries) | ☐ | 2 |
 | 1992 | ? | 7 (source-linked entries) | ☐ | 4 |
 | 1993 | ? | 3 (source-linked entries) | ☐ | 3 |
 | 1994 | ? | 8 (source-linked entries) | ☐ | 3 |

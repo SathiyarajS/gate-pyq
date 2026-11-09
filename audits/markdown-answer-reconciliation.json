@@ -1,0 +1,5 @@
+{
+  "entries_checked": 3406,
+  "mismatches": [],
+  "multiline_answer_note": "CS-2000-Q84 and Q85 have four-line output answers; first-line-only regex differences were inspected and are not mismatches."
+}

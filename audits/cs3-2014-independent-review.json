@@ -1,0 +1,219 @@
+{
+  "paper_id": "CS-2014-S3",
+  "reviewed_records": 65,
+  "source_pages_visually_inspected": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "question_source_and_options": "pass",
+  "teaching_depth": "pass_with_explicit_qualifications",
+  "official_key_transcription": "pass_65_of_65",
+  "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+  "verified_zip_member": "CS/CS2014.pdf",
+  "metadata_corrections": [
+    {
+      "question_id": "CS-2014-S3-Q51",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q51",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q52",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q52",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q53",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q53",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q54",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q54",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q55",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q55",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q56",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q56",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q57",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q57",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q58",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q58",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q59",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q59",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q60",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q60",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q61",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q61",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q62",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q62",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q63",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q63",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q64",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q64",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    },
+    {
+      "question_id": "CS-2014-S3-Q65",
+      "field": "source_archive_member",
+      "old": "CS/CS3014.pdf",
+      "new": "CS/CS2014.pdf"
+    },
+    {
+      "question_id": "CS-2014-S3-Q65",
+      "field": "source_access_note",
+      "old": "Open merged CS/CS3014.pdf in official CS.zip; session3 source pages51\u201366, key67.",
+      "new": "Open merged CS/CS2014.pdf in official CS.zip; session3 source pages51\u201366, key67."
+    }
+  ],
+  "checks": [
+    "Q21 six-operation polynomial identity for -100..100",
+    "Q25 all binary strings of lengths 0..2 plus missing bab",
+    "Q52 exhaustive sorted arrays lengths 1..7 over 0..3 and targets -1..4",
+    "Q55 synchronous JK sequence",
+    "Q65 exhaustive truth table"
+  ],
+  "protected_answer_fields": "unchanged",
+  "review_metadata": "kept pending for parent integration; this audit independently approves expansion only"
+}

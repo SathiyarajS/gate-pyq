@@ -1,0 +1,17 @@
+{
+  "question_id": "CS-2025-S1-Q9",
+  "status": "reviewed",
+  "method": "Independent reviewer decoded embedded raster and compared pixel-for-pixel to fresh official source render; all folds and four options visually checked; official scoring A confirmed.",
+  "source_page": 9,
+  "dimensions": [
+    1191,
+    1684
+  ],
+  "limitations": [
+    "Raster source access is not full screen-reader or vector accessibility."
+  ],
+  "text_corrections": [
+    "C reverses top/bottom triangles only.",
+    "D replaces two off-centre square holes with a central square."
+  ]
+}

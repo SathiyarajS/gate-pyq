@@ -10,6 +10,9 @@
 
 **Independently derived answer:** C
 
+**Essential problem context (paraphrased):** Find the rank of the matrix [[1, 1], [0, 0]].
+(A) 4; (B) 2; (C) 1; (D) 0.
+
 ## Solution
 
 Step 1: Count independent rows, not nonzero entries.
@@ -32,6 +35,9 @@ Conclusion and qualifications: The first row is nonzero and the second row is ze
 **Official answer:** Not available; no official key located.
 
 **Independently derived answer:** C
+
+**Essential problem context (paraphrased):** For which polynomial degrees does the trapezoidal integration rule give an exact result?
+(A) 0 but not 1; (B) 1 but not 0; (C) 0 or 1; (D) 2.
 
 ## Solution
 
@@ -56,6 +62,9 @@ Conclusion and qualifications: The trapezoidal rule integrates the straight line
 
 **Independently derived answer:** A
 
+**Essential problem context (paraphrased):** The Newton–Raphson iteration Xₙ₊₁ = Xₙ/2 + 3/(2Xₙ) can solve which equation?
+(A) X²=3; (B) X³=3; (C) X²=2; (D) X³=2.
+
 ## Solution
 
 Step 1: Derive the Newton step from the candidate equation.
@@ -78,6 +87,8 @@ Conclusion and qualifications: For g(x)=x²−3, Newton’s formula is x−g(x)/
 **Official answer:** Not available; no official key located.
 
 **Independently derived answer:** 1, 2, −2, −1
+
+**Essential problem context (paraphrased):** Find the eigenvalues of A with rows [1,2,34,49], [0,2,43,94], [0,0,−2,104], [0,0,0,−1].
 
 ## Solution
 

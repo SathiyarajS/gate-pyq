@@ -1,0 +1,602 @@
+{
+  "paper_id": "CS-2014-S2",
+  "status": "pass_after_one_source_fidelity_correction_with_inherited_discrepancies_retained",
+  "reviewer": "independent native reviewer review_2014_cs2_depth",
+  "source_pdf": "/tmp/gate-2014-CS.pdf",
+  "visual_pages_inspected": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "scope": "All 65 expanded stems, all MCQ alternatives in order, formulas, figures, code, tables, source numbering, answer/key rows, reasoning correctness and substantive teaching depth. Pages 28-29 GA, 30-44 CS, 45 key. Every rendered page inspected directly, not text extraction alone.",
+  "protected_fields": "Compared every existing baseline field except the explicitly permitted expansion fields; all protected fields unchanged. All 65 baseline solutions remain verbatim inside expansion. 65 records, 100 marks, 15 GA marks.",
+  "corrections": [
+    {
+      "question_id": "CS-2014-S2-Q38",
+      "source_page": 36,
+      "field": "question_text",
+      "before": "C One HTTP request and one TCP connection are necessary.",
+      "after": "C One HTTP request suffices, and one TCP connection is necessary.",
+      "reason": "Source option C claims one HTTP request is sufficient, not merely necessary. The previous paraphrase weakened the distractor and could make it true. Corrected in contribution JSON, Markdown and builder, without touching answers or solution."
+    }
+  ],
+  "discrepancy_assessment": {
+    "Q43": "Source literally supplies occupied pages 101-120. MRU evicts the newest scanned page and retains 19 irrelevant pages. With three total passes OPT=260 while every listed policy=300; with initial pass plus three repetitions OPT=340 versus 400. Thus inherited discrepancy is independently supported under both pass conventions. Official D remains unchanged, not endorsed as unconditional.",
+    "Q50": "Source prints abs, not fabs, and does not require positive q. Mathematical absolute value permits +/-1.73 at two decimals; 1.72 and 1.74 do not satisfy immediate-return error bound. Declared C integer abs permits a wider immediate-return region including 1.50. Inherited distinction is supported; official interval unchanged.",
+    "other_qualifications": "Q7 weaken versus contradict; Q21 unsigned intermediate overflow; Q30 simplified FAT accounting; Q31 sole-candidate-key reading; Q47 distinct subsequence strings; Q53 full-block refill timing; Q54 multiplexor fan-in wording; Q65 half-open initiation interval. Existing explanations disclose these appropriately."
+  },
+  "depth_assessment": "All 65 have question-specific setup, derivation and checking content. Mathematical questions include operative formulas and calculations or proofs; algorithmic questions include traces, invariants, constructions or counterexamples. Simple vocabulary/concept questions explain distractors without requiring artificial word counts. No unresolved new correctness or material depth blocker after Q38 correction. Some inherited prose lacks spaces before numbers; cosmetic only.",
+  "metadata_note": "Contribution review metadata still says pending; audit is the independent review evidence for parent integration. No automatic upgrade of source/key final-revision provenance or inherited discrepancy status.",
+  "repository_changes": "None. Only three contribution files corrected; audit/check artifacts written outside repository.",
+  "checks": {
+    "protected_fields": "unchanged",
+    "records": 65,
+    "marks": 100,
+    "q43_occupied_initial_frames": {
+      "3": {
+        "OPT": 260,
+        "MRU": 300,
+        "LRU": 300,
+        "FIFO": 300,
+        "LIFO": 300
+      },
+      "4": {
+        "OPT": 340,
+        "MRU": 400,
+        "LRU": 400,
+        "FIFO": 400,
+        "LIFO": 400
+      }
+    },
+    "q46_substring_identity": "all binary strings through length 12",
+    "q48_all_merge_orders": 358,
+    "q49_all_256_leaf_assignments": 6,
+    "q63_tautology_truth_table": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "reviewed_sha256": {
+      "cs2-2014-expanded.json": "a1135e3db34227a1d691e84830d666df12e2492239f25d38b50ca317e5f360fd",
+      "cs2-2014-expanded.md": "6eb898473ebc2c26e7ff3512f922688d80c92fd522d73f50c80ac4ac63c05cc4"
+    }
+  },
+  "records": [
+    {
+      "question_id": "CS-2014-S2-Q1",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Historical meaning correctly selects A; distractors distinguished."
+    },
+    {
+      "question_id": "CS-2014-S2-Q2",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Embedded subject question correctly selects B; that-trace distractor explained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q3",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All four vocabulary matches and option order verified."
+    },
+    {
+      "question_id": "CS-2014-S2-Q4",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Arithmetic-progression endpoints and mean 100 correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q5",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Convergence bound and nonnegative fixed point 4 supplied."
+    },
+    {
+      "question_id": "CS-2014-S2-Q6",
+      "source_page": 28,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Passage and four geographic/history alternatives preserved; B intended."
+    },
+    {
+      "question_id": "CS-2014-S2-Q7",
+      "source_page": 29,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "D correct as non-weakening evidence; strict logical contradiction qualification retained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q8",
+      "source_page": 29,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Roots -2 and 4 give magnitudes 14 and 52."
+    },
+    {
+      "question_id": "CS-2014-S2-Q9",
+      "source_page": 29,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All five chart points verified visually; doubled denominator produces 140 percent increase."
+    },
+    {
+      "question_id": "CS-2014-S2-Q10",
+      "source_page": 29,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All four hand angles recomputed; 6:22 closest."
+    },
+    {
+      "question_id": "CS-2014-S2-Q11",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Hypergeometric count 25/210 and percent conversion correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q12",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Nine slips, including repeated the; lengths sum 35, rounded 3.9."
+    },
+    {
+      "question_id": "CS-2014-S2-Q13",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Balanced simple bipartite bound and attaining graph supplied."
+    },
+    {
+      "question_id": "CS-2014-S2-Q14",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Outer-product factors visually verified; rank one gives zero determinant."
+    },
+    {
+      "question_id": "CS-2014-S2-Q15",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Nonzero leading coefficient retained; endpoint product negative and sum zero."
+    },
+    {
+      "question_id": "CS-2014-S2-Q16",
+      "source_page": 30,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Complementary truth-table pairs correctly yield doubly exponential count."
+    },
+    {
+      "question_id": "CS-2014-S2-Q17",
+      "source_page": 31,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Decoder one-hot sequence matches ring counter."
+    },
+    {
+      "question_id": "CS-2014-S2-Q18",
+      "source_page": 31,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Digit/base constraints yield exactly three factor pairs."
+    },
+    {
+      "question_id": "CS-2014-S2-Q19",
+      "source_page": 31,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Word-to-byte conversion, sets and 20-bit tag correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q20",
+      "source_page": 31,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Printed shift loop preserved; nine nonzero iterates."
+    },
+    {
+      "question_id": "CS-2014-S2-Q21",
+      "source_page": 31,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All four expressions preserved; early exact division and unsigned-overflow caveat correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q22",
+      "source_page": 32,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Heap insertion order and all four arrays checked."
+    },
+    {
+      "question_id": "CS-2014-S2-Q23",
+      "source_page": 32,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Master-theorem comparison and independent leaf lower bound correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q24",
+      "source_page": 32,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "BFS source-only shortest-path guarantee correctly distinguished from all pairs."
+    },
+    {
+      "question_id": "CS-2014-S2-Q25",
+      "source_page": 32,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Independent exponents in concatenation; witness abb refutes equal counts."
+    },
+    {
+      "question_id": "CS-2014-S2-Q26",
+      "source_page": 32,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Reduction direction and constant-map counterexample sound."
+    },
+    {
+      "question_id": "CS-2014-S2-Q27",
+      "source_page": 33,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All grammar productions copied correctly; recursive sides explain associativity."
+    },
+    {
+      "question_id": "CS-2014-S2-Q28",
+      "source_page": 33,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Target-program allocation separated from compiler's own allocation."
+    },
+    {
+      "question_id": "CS-2014-S2-Q29",
+      "source_page": 33,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All requirements-engineering distractors addressed."
+    },
+    {
+      "question_id": "CS-2014-S2-Q30",
+      "source_page": 33,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Decimal units and simplified single-FAT overhead acknowledged; 99.6 within key."
+    },
+    {
+      "question_id": "CS-2014-S2-Q31",
+      "source_page": 33,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Eight supersets of E under sole-candidate-key reading; ambiguity retained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q32",
+      "source_page": 34,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Every table row checked; collision at age 19 explained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q33",
+      "source_page": 34,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "RIP distance vector and OSPF link state correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q34",
+      "source_page": 34,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "listen versus bind/connect/accept correctly distinguished."
+    },
+    {
+      "question_id": "CS-2014-S2-Q35",
+      "source_page": 34,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Full figure inspected: six square forwarding symbols, including adjacent L1 exit symbols; TTL 26."
+    },
+    {
+      "question_id": "CS-2014-S2-Q36",
+      "source_page": 35,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Three-link pipeline formula gives 3.3,2.4,3.3 ms."
+    },
+    {
+      "question_id": "CS-2014-S2-Q37",
+      "source_page": 35,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Encrypted session payload and visible transport/network headers distinguished."
+    },
+    {
+      "question_id": "CS-2014-S2-Q38",
+      "source_page": 36,
+      "source_fidelity": "pass_after_correction",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Corrected option C sufficiency versus necessity defect; persistent connection explanation sound."
+    },
+    {
+      "question_id": "CS-2014-S2-Q39",
+      "source_page": 36,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Every schedule event and commit checked; full conflict graph acyclic and reads recoverable."
+    },
+    {
+      "question_id": "CS-2014-S2-Q40",
+      "source_page": 37,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Two input buffers yield symmetric product plus smaller outer scan."
+    },
+    {
+      "question_id": "CS-2014-S2-Q41",
+      "source_page": 37,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Producer/consumer operation order preserved; empty-buffer deadlock and valid ordering repair explained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q42",
+      "source_page": 38,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Arrival/burst/device conditions preserved; full quantum trace reaches first C I/O completion at 1000 ms."
+    },
+    {
+      "question_id": "CS-2014-S2-Q43",
+      "source_page": 38,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_preserved_discrepancy",
+      "teaching_depth": "pass",
+      "note": "Occupied initial pages explicitly verified; independent simulation confirms inherited discrepancy for both repetition readings."
+    },
+    {
+      "question_id": "CS-2014-S2-Q44",
+      "source_page": 38,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All offset instructions and options checked; only trailing dimensions inferable, option A matches."
+    },
+    {
+      "question_id": "CS-2014-S2-Q45",
+      "source_page": 39,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Dovetailing and acceptance reduction both supplied; finite input set does not imply decidability."
+    },
+    {
+      "question_id": "CS-2014-S2-Q46",
+      "source_page": 39,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Both substring definitions checked; boundary identity verified exhaustively through length 12 and nonregularity proof sound."
+    },
+    {
+      "question_id": "CS-2014-S2-Q47",
+      "source_page": 39,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Strings visually verified; three distinct LCS strings of length four, embeddings distinguished."
+    },
+    {
+      "question_id": "CS-2014-S2-Q48",
+      "source_page": 39,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All merge orders independently enumerated; optimal worst-case count 358."
+    },
+    {
+      "question_id": "CS-2014-S2-Q49",
+      "source_page": 40,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Every expression-tree operator/edge verified; all 256 assignments confirm maximum 6."
+    },
+    {
+      "question_id": "CS-2014-S2-Q50",
+      "source_page": 40,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_preserved_discrepancy",
+      "teaching_depth": "pass",
+      "note": "Printed abs and no positivity restriction verified; intended 1.73 and literal integer-abs discrepancy preserved."
+    },
+    {
+      "question_id": "CS-2014-S2-Q51",
+      "source_page": 40,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Queue-front invariant and reverse/push/reverse sequence justified."
+    },
+    {
+      "question_id": "CS-2014-S2-Q52",
+      "source_page": 41,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Printed static-variable recursive function checked; nontermination for 50 versus return for other values."
+    },
+    {
+      "question_id": "CS-2014-S2-Q53",
+      "source_page": 41,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Full-block refill model stated rather than universal miss-penalty claim."
+    },
+    {
+      "question_id": "CS-2014-S2-Q54",
+      "source_page": 41,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Tag/index change derived; multiplexor fan-in versus output-width qualification retained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q55",
+      "source_page": 41,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Bit layout and all hexadecimal alternatives verified; C1640000 correct."
+    },
+    {
+      "question_id": "CS-2014-S2-Q56",
+      "source_page": 42,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Exact Newton two-cycle 2,0 verified; only statement I."
+    },
+    {
+      "question_id": "CS-2014-S2-Q57",
+      "source_page": 42,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Full five-by-five matrix verified; J2 and J3 spectra give product 6."
+    },
+    {
+      "question_id": "CS-2014-S2-Q58",
+      "source_page": 42,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Inclusion-exclusion counts and uniform-selection convention give 0.26."
+    },
+    {
+      "question_id": "CS-2014-S2-Q59",
+      "source_page": 42,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Prime factorization 2*19*53 gives eight positive divisors."
+    },
+    {
+      "question_id": "CS-2014-S2-Q60",
+      "source_page": 42,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Ordering direction and both extrema demonstrated."
+    },
+    {
+      "question_id": "CS-2014-S2-Q61",
+      "source_page": 43,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "Necessary degree condition plus explicit complement-cycle sufficiency."
+    },
+    {
+      "question_id": "CS-2014-S2-Q62",
+      "source_page": 43,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All nine vertices and thirteen weighted edges checked; contracted graph gives six MSTs, weight 11."
+    },
+    {
+      "question_id": "CS-2014-S2-Q63",
+      "source_page": 43,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "All formula symbols checked; full eight-row truth table confirms only B is not tautological."
+    },
+    {
+      "question_id": "CS-2014-S2-Q64",
+      "source_page": 43,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "SQL bag semantics and duplicate R preservation correct; printed invalid D retained and C null-safe equivalence explained."
+    },
+    {
+      "question_id": "CS-2014-S2-Q65",
+      "source_page": 44,
+      "source_fidelity": "pass",
+      "correctness": "pass_with_stated_conventions",
+      "teaching_depth": "pass",
+      "note": "600 ns module cycle and 100 ns bus slot preserved; feasible rotation proves 10000 initiated stores."
+    }
+  ]
+}

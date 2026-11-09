@@ -42,6 +42,7 @@ for q in qs:
  if q.get('official_answer') is None and (q.get('key_url') is not None or q.get('key_page') is not None or q.get('verification_status')=='official_key_matched'):
   errors.append('Unsupported official-key claim: '+str(q.get('question_id')))
  if q.get('explanatory_depth_status')=='reviewed_expanded' and q.get('independent_depth_review',{}).get('status')!='reviewed':errors.append('Expanded explanation lacks independent depth review: '+str(q.get('question_id')))
+ if q.get('explanatory_depth_status')=='reviewed_expanded' and q.get('question_text','').strip() in {'','See linked original.'}:errors.append('Reviewed expansion lacks essential problem context: '+str(q.get('question_id')))
  if args.require_complete and q.get('subject')!='excluded' and (q.get('explanatory_depth_status')!='reviewed_expanded' or q.get('independent_depth_review',{}).get('status')!='reviewed'):errors.append('Explanation-depth review incomplete: '+str(q.get('question_id')))
  qids.append(q.get('question_id'));pairs.append((q.get('paper_id'),q.get('source_question_number')))
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')

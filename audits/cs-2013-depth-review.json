@@ -1,0 +1,531 @@
+{
+  "status": "passed_with_minor_wording_fix",
+  "scope": "Independent review of all 65 expanded contexts, choices and teaching solutions against archived official Code A PDF and Code A key; baseline invariants compared.",
+  "source_visual_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "key_visual_pages": [
+    1,
+    2
+  ],
+  "source_text": "/workspace/shared/gate2013-research/A.txt",
+  "source_pdf": "/workspace/shared/gate2013-research/A.pdf",
+  "key_pdf": "/workspace/shared/gate2013-research/key.pdf",
+  "checks": [
+    "Author check_2013_expansion.py independently executed successfully before and after correction.",
+    "All 65 official answers independently matched extracted Code A key with GA-first mapping.",
+    "All 65 JSON contexts and solutions present verbatim in companion Markdown.",
+    "All baseline fields matching booklet, permutation, scoring, answer, discrepancy, numbering or key protected and unchanged.",
+    "Independent exhaustive three-item semaphore state check: C 26 states, no deadlock or premature reads; A/B/D have deadlock witnesses."
+  ],
+  "protected_fields": [
+    "printed_question_number",
+    "source_numbering_scheme",
+    "source_numbering_note",
+    "derived_answer",
+    "official_answer",
+    "discrepancy_ids",
+    "key_url",
+    "key_page",
+    "source_booklet",
+    "key_column",
+    "key_file_sha256",
+    "key_revision_status",
+    "key_visual_reviewed",
+    "discrepancy_details"
+  ],
+  "limitations": [
+    "Booklets B–D permutation metadata preserved but permutation PDFs not re-audited in this Code A depth review.",
+    "No claim of verbatim transcription: contexts remain essential-givens paraphrases.",
+    "Contribution review-status fields left for parent integration; this audit supplies the completed review."
+  ],
+  "material_findings": [],
+  "minor_fixes": [
+    {
+      "question_id": "CS-2013-Q64",
+      "before": "Without every one of",
+      "after": "With none of",
+      "reason": "Avoid ambiguity between none of the cycle attributes and not all of them.",
+      "files": [
+        "cs-2013-expanded.json",
+        "cs-2013-expanded.md",
+        "expand_2013_part3.py"
+      ],
+      "other_change": "Recomputed Q64 solution_word_count after removing two words."
+    }
+  ],
+  "reviewed": [
+    {
+      "question_id": "CS-2013-Q1",
+      "printed_question_number": "56",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q2",
+      "printed_question_number": "57",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q3",
+      "printed_question_number": "58",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q4",
+      "printed_question_number": "59",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q5",
+      "printed_question_number": "60",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q6",
+      "printed_question_number": "61",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q7",
+      "printed_question_number": "62",
+      "source_page": 13,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q8",
+      "printed_question_number": "63",
+      "source_page": 14,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q9",
+      "printed_question_number": "64",
+      "source_page": 14,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q10",
+      "printed_question_number": "65",
+      "source_page": 14,
+      "status": "pass",
+      "note": "Wage multiplier and total-period versus hours-per-day caveat retained; intended result 15180 verified."
+    },
+    {
+      "question_id": "CS-2013-Q11",
+      "printed_question_number": "1",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q12",
+      "printed_question_number": "2",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q13",
+      "printed_question_number": "3",
+      "source_page": 2,
+      "status": "pass",
+      "note": "All four determinant matrices visually compared; A negates determinant; triangular row transformations preserve C/D."
+    },
+    {
+      "question_id": "CS-2013-Q14",
+      "printed_question_number": "4",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q15",
+      "printed_question_number": "5",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q16",
+      "printed_question_number": "6",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q17",
+      "printed_question_number": "7",
+      "source_page": 2,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q18",
+      "printed_question_number": "8",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q19",
+      "printed_question_number": "9",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Printed A→a terminology and exponential option D visually checked; n−1 depends on intended exclusion of all length-one reductions."
+    },
+    {
+      "question_id": "CS-2013-Q20",
+      "printed_question_number": "10",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q21",
+      "printed_question_number": "11",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q22",
+      "printed_question_number": "12",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q23",
+      "printed_question_number": "13",
+      "source_page": 3,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q24",
+      "printed_question_number": "14",
+      "source_page": 4,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q25",
+      "printed_question_number": "15",
+      "source_page": 4,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q26",
+      "printed_question_number": "16",
+      "source_page": 4,
+      "status": "pass",
+      "note": "All lock orders checked; B has global order b<a<c<d. Counterexample waits in other options are realizable."
+    },
+    {
+      "question_id": "CS-2013-Q27",
+      "printed_question_number": "17",
+      "source_page": 4,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q28",
+      "printed_question_number": "18",
+      "source_page": 4,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q29",
+      "printed_question_number": "19",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q30",
+      "printed_question_number": "20",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q31",
+      "printed_question_number": "21",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q32",
+      "printed_question_number": "22",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q33",
+      "printed_question_number": "23",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q34",
+      "printed_question_number": "24",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Indicator derivation valid with stated independent-edge convention; dependence caveat retained."
+    },
+    {
+      "question_id": "CS-2013-Q35",
+      "printed_question_number": "25",
+      "source_page": 5,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q36",
+      "printed_question_number": "26",
+      "source_page": 6,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q37",
+      "printed_question_number": "27",
+      "source_page": 6,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q38",
+      "printed_question_number": "28",
+      "source_page": 6,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q39",
+      "printed_question_number": "29",
+      "source_page": 6,
+      "status": "pass",
+      "note": "Cylinder/track wording discrepancy preserved; final inclusive sector offset gives cylinder 1284."
+    },
+    {
+      "question_id": "CS-2013-Q40",
+      "printed_question_number": "30",
+      "source_page": 6,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q41",
+      "printed_question_number": "31",
+      "source_page": 7,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q42",
+      "printed_question_number": "32",
+      "source_page": 7,
+      "status": "pass",
+      "note": "L2 all-zero decomposition ambiguity is handled through existential split enumeration; decisive regular complement argument correct."
+    },
+    {
+      "question_id": "CS-2013-Q43",
+      "printed_question_number": "33",
+      "source_page": 7,
+      "status": "pass",
+      "note": "DFA transitions, acceptance, regex and options visually verified; two nonaccepting states equivalent and 11 is counterexample."
+    },
+    {
+      "question_id": "CS-2013-Q44",
+      "printed_question_number": "34",
+      "source_page": 7,
+      "status": "pass",
+      "note": "Capacity-two race schedule valid and upper bound follows causal dependency chain; author exhaustive check independently rerun."
+    },
+    {
+      "question_id": "CS-2013-Q45",
+      "printed_question_number": "35",
+      "source_page": 8,
+      "status": "pass",
+      "note": "SQL, relational algebra, tuple and domain calculus visually checked; set semantics and single-attribute T convention explicit."
+    },
+    {
+      "question_id": "CS-2013-Q46",
+      "printed_question_number": "36",
+      "source_page": 8,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q47",
+      "printed_question_number": "37",
+      "source_page": 8,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q48",
+      "printed_question_number": "38",
+      "source_page": 8,
+      "status": "pass",
+      "note": "Graph visually counted: M1 4 methods/4 attributes, M2 3/4; two internal accesses per method and two external accesses of m. Density and coupling calculation correct."
+    },
+    {
+      "question_id": "CS-2013-Q49",
+      "printed_question_number": "39",
+      "source_page": 9,
+      "status": "pass",
+      "note": "All source code options visually checked; independent exhaustive n=3 binary semaphore state exploration confirms C completes without deadlock/premature read and A/B/D admit deadlock."
+    },
+    {
+      "question_id": "CS-2013-Q50",
+      "printed_question_number": "40",
+      "source_page": 9,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q51",
+      "printed_question_number": "41",
+      "source_page": 9,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q52",
+      "printed_question_number": "42",
+      "source_page": 10,
+      "status": "pass",
+      "note": "Reference syntax, recursion, all options and MTA verified. Unspecified operand-order discussion distinguishes function execution sequencing from adjacent x++ UB; no numerical scoring replacement."
+    },
+    {
+      "question_id": "CS-2013-Q53",
+      "printed_question_number": "43",
+      "source_page": 10,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q54",
+      "printed_question_number": "44",
+      "source_page": 10,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q55",
+      "printed_question_number": "45",
+      "source_page": 10,
+      "status": "pass",
+      "note": "11 ns clock and 15-cycle taken-branch schedule checked under explicit EI-resolution convention."
+    },
+    {
+      "question_id": "CS-2013-Q56",
+      "printed_question_number": "46",
+      "source_page": 10,
+      "status": "pass",
+      "note": "Source givens and all choices checked; teaching reasoning and final answer independently reviewed."
+    },
+    {
+      "question_id": "CS-2013-Q57",
+      "printed_question_number": "47",
+      "source_page": 10,
+      "status": "pass",
+      "note": "All quantifiers visually verified; B/C equivalent, A/D not equivalent with singleton countermodel. Official MTA preserved."
+    },
+    {
+      "question_id": "CS-2013-Q58",
+      "printed_question_number": "48",
+      "source_page": 11,
+      "status": "pass",
+      "note": "One spill-store construction and liveness lower bound checked under code-motion-only restriction; reloads distinguished from spill stores."
+    },
+    {
+      "question_id": "CS-2013-Q59",
+      "printed_question_number": "49",
+      "source_page": 11,
+      "status": "pass",
+      "note": "Fixed-order four-value live set and four-register schedule checked."
+    },
+    {
+      "question_id": "CS-2013-Q60",
+      "printed_question_number": "50",
+      "source_page": 11,
+      "status": "pass",
+      "note": "All replacement maps checked; only 3/4 cascade forward."
+    },
+    {
+      "question_id": "CS-2013-Q61",
+      "printed_question_number": "51",
+      "source_page": 11,
+      "status": "pass",
+      "note": "All four resulting strings checked against code."
+    },
+    {
+      "question_id": "CS-2013-Q62",
+      "printed_question_number": "52",
+      "source_page": 12,
+      "status": "pass",
+      "note": "Page-size algebra checked with explicitly stated upper-entry-width convention."
+    },
+    {
+      "question_id": "CS-2013-Q63",
+      "printed_question_number": "53",
+      "source_page": 12,
+      "status": "pass",
+      "note": "Set index bits 6–15 and page-offset bits 0–12 yield eight colours."
+    },
+    {
+      "question_id": "CS-2013-Q64",
+      "printed_question_number": "54",
+      "source_page": 12,
+      "status": "pass",
+      "note": "All four keys and completeness proof checked; minor wording changed from Without every one of to With none of in teaching paragraph."
+    },
+    {
+      "question_id": "CS-2013-Q65",
+      "printed_question_number": "55",
+      "source_page": 12,
+      "status": "pass",
+      "note": "A→C is a partial dependency on candidate key AD; 1NF not 2NF correct."
+    }
+  ],
+  "sha256": {
+    "cs-2013-expanded.json": "d6e0e4a861d98088a26e95200b9f95e8f4ed3d9ccbee16506f39ffbb51932bd9",
+    "cs-2013-expanded.md": "e57ff1390d2ec5d3b28da86db2c51cf3015f4c6b3119c0b753bfab145a956de9",
+    "expand_2013_part3.py": "717d2b73e3e373ca9f7bd69f6aa1b00a9937e6dddc4594867b5c4bd2ab8c4ee8"
+  }
+}

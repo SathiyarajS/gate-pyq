@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: 3335 source-numbered entries across 45 CS papers, with 3097 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; 1 entries remain unresolved because source material is missing. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1645 entries have no located official key, including the unresolved source gaps; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
+Work in progress: 3406 source-numbered entries across 46 CS papers, with 3168 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; The formerly missing 1993 state diagram now has a conditional third-party reconstruction; original fidelity remains unverified. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1716 entries have no located official key, including the conditional third-party diagram reconstruction; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
 
 ## Subjects
 | # | Subject |
@@ -47,4 +47,4 @@ For each question, record a unique ID, paper/session ID, source question number,
 
 Detailed step-by-step expansion and a separate explanation-quality audit are in progress. Existing answer reviews do not certify explanatory depth; see [QUALITY.md](QUALITY.md).
 
-Explanation-depth review: 1580 entries have independently reviewed teaching expansions; 1755 remain pending. This is separate from answer review and complete question/source access. See [QUALITY.md](QUALITY.md).
+Explanation-depth review: 3406 entries have independently reviewed teaching expansions; 0 remain pending. This is separate from answer review and complete question/source access. See [QUALITY.md](QUALITY.md).

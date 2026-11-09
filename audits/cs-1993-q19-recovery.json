@@ -1,0 +1,71 @@
+{
+  "target": "CS-1993-Q19, original6.2",
+  "retrieved_date": "2026-11-09",
+  "primary_recovery": {
+    "page": "https://gateoverflow.in/17235/gate-cse-1993-question-6-2",
+    "image": "https://gateoverflow.in/?qa=blob&qa_blobid=11950775580811503216",
+    "image_local": "/tmp/gate1993-6-2.png",
+    "sha256": "1cb1fbb836fa8cc8b22aef42fa46c1a248e7f6e2f0e3a7857f4cbc05aa71d21f",
+    "dimensions": [
+      600,
+      166
+    ],
+    "format": "JPEG",
+    "visual_observation": "S1 self-loop a=1/out1; S1→S2 a=0/out2; S2 self-loop b=1/out2; S2→S1 b=0/out1. Outputs do not alter fixed-point existence."
+  },
+  "rejected_mismatch": {
+    "url": "https://gateoverflow.in/2316/gate-cse-1993-question-19",
+    "reason": "Original descriptive Q19 NAND/D-flip-flop controller, not normalizedQ19/original6.2. Inversion-bubble discussion belongs that other question; no table from it was used."
+  },
+  "additional_pdf": {
+    "url": "https://guttitech.com/phpfusion/images/articles/CS-1993-unsolved.pdf",
+    "local": "/tmp/gate1993-guttitech.pdf",
+    "sha256": "f7be53fd6236daf7840ddf35ba4ff2fcb257313b3ba8ecca29f23f0ee199bd9b",
+    "page": 4,
+    "visual_observation": "GateForum-branded reproduction, retains same6.2 prompt/options and multiple-correct instructions but omits6.2 diagram. No independent diagram corroboration."
+  },
+  "provenance_limit": "Community-hosted third-party diagram, not verified original exam authority. Agreement with community answer is not official verification. Prior missing-figure limitation remains valid for the original two PDFs.",
+  "derivation_method": "Independently transcribed four diagram arrows, enumerated both current states for four fixed input pairs, tested equality of current/next state.",
+  "transition_table": [
+    {
+      "a": 0,
+      "b": 0,
+      "next_from_S1": "S2",
+      "next_from_S2": "S1",
+      "stable_states": []
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "next_from_S1": "S2",
+      "next_from_S2": "S2",
+      "stable_states": [
+        "S2"
+      ]
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "next_from_S1": "S1",
+      "next_from_S2": "S1",
+      "stable_states": [
+        "S1"
+      ]
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "next_from_S1": "S1",
+      "next_from_S2": "S2",
+      "stable_states": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "review_status": "pending",
+  "independent_review": {
+    "status": "reviewed",
+    "scope": "Independently inspected recovered image, compared original prompt/options and MSQ instructions, and enumerated all four input pairs. Result remains conditional on third-party diagram provenance."
+  }
+}
