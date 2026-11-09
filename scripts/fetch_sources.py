@@ -65,8 +65,9 @@ def main():
 
     # Official GATE 2026 archive (CS.zip) on Google Drive.
     zpath = OUT / "CS.zip"
-    subprocess.run([sys.executable, "-m", "gdown", "--fuzzy", "-O", str(zpath),
-                    f"https://drive.google.com/file/d/{DRIVE_ID}/view"], check=False)
+    subprocess.run([sys.executable, "-m", "gdown", DRIVE_ID, "-O", str(zpath)], check=False)
+    if not (zpath.exists() and zipfile.is_zipfile(zpath)):
+        fetch(f"https://drive.usercontent.google.com/download?id={DRIVE_ID}&export=download&confirm=t", zpath)
     if zpath.exists() and zipfile.is_zipfile(zpath):
         with zipfile.ZipFile(zpath) as z:
             for m in z.namelist():
