@@ -17,14 +17,14 @@ for q in qs:
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')
  if q.get('subject') not in subjects|{'excluded'}:errors.append('Unknown subject')
  if q.get('subject')=='excluded' and not q.get('exclusion_reason'):errors.append('Unexplained exclusion')
- if args.require_complete and q.get('subject')!='excluded' and q.get('verification_status')!='reviewed':errors.append(f'Unreviewed question: {q.get("question_id")}')
+ if args.require_complete and q.get('subject')!='excluded' and (q.get('verification_status')!='reviewed' or q.get('source_transcription_verified') is not True):errors.append(f'Unreviewed question: {q.get("question_id")}')
 if len(qids)!=len(set(qids)) or len(pairs)!=len(set(pairs)):errors.append('Duplicate question identifiers')
 counts=Counter(q.get('paper_id') for q in qs)
 if args.require_complete:
  for x in papers:
   actual={q['source_question_number'] for q in qs if q['paper_id']==x['paper_id']}
   if not x.get('expected_question_numbers') or actual!=set(x['expected_question_numbers']):errors.append('Unreconciled question numbers: '+x['paper_id'])
-  if not x['inventory_verified'] or x['source_review_status']!='reviewed' or not x['paper_url'] or not x['key_url'] or x['expected_question_count'] is None or counts[x['paper_id']]!=x['expected_question_count']:errors.append('Incomplete paper: '+x['paper_id'])
+  if not x.get('final_key_verified') or not x['inventory_verified'] or x['source_review_status']!='reviewed' or not x['paper_url'] or not x['key_url'] or x['expected_question_count'] is None or counts[x['paper_id']]!=x['expected_question_count']:errors.append('Incomplete paper: '+x['paper_id'])
 print(f'{len(papers)} candidate papers; {len(qs)} recorded questions. Structural checks '+('FAILED' if errors else 'passed')+'.')
 for e in errors:print(e)
 raise SystemExit(bool(errors))

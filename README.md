@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: a source-audited collection of GATE CS questions and independently written solutions, organised by subject. Nine question summaries (six in requested subjects and three supplemental non-discrete mathematics items) have independently derived solutions matched to a published official key; the collection remains incomplete and second review is pending.
+Work in progress: a source-audited collection of GATE CS questions and independently written solutions, organised by subject. Twenty solution entries (seventeen in requested subjects and three supplemental non-discrete mathematics items) have independently derived solutions compared with a published official key. Q28 has an explicitly logged formal ambiguity; other answers match; the collection remains incomplete and second review remains incomplete. Fourteen derivations have a second check, but original wording/figure review and final-key provenance are still pending. Some entries contain only a source link and an original solution, not a question transcription.
 
 ## Subjects
 | # | Subject |

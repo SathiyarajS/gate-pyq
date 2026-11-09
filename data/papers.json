@@ -12,7 +12,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1992",
@@ -27,7 +28,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1993",
@@ -42,7 +44,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1994",
@@ -57,7 +60,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1995",
@@ -72,7 +76,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1996",
@@ -87,7 +92,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1997",
@@ -102,7 +108,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1998",
@@ -117,7 +124,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-1999",
@@ -132,7 +140,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2000",
@@ -147,7 +156,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2001",
@@ -162,7 +172,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2002",
@@ -177,7 +188,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2003",
@@ -192,7 +204,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2004",
@@ -207,7 +220,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2005",
@@ -222,7 +236,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2006",
@@ -237,7 +252,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2007",
@@ -252,7 +268,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2008",
@@ -267,7 +284,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2009",
@@ -282,7 +300,8 @@
     "ga_expected": false,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2010",
@@ -297,7 +316,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2011",
@@ -312,7 +332,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2012",
@@ -327,7 +348,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2013",
@@ -342,7 +364,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2014-S1",
@@ -357,7 +380,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2014-S2",
@@ -372,7 +396,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2014-S3",
@@ -387,7 +412,8 @@
     "ga_expected": true,
     "paper_variant": 3,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2015-S1",
@@ -402,7 +428,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2015-S2",
@@ -417,7 +444,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2015-S3",
@@ -432,7 +460,8 @@
     "ga_expected": true,
     "paper_variant": 3,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2016-S1",
@@ -447,7 +476,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2016-S2",
@@ -462,7 +492,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2017-S1",
@@ -477,7 +508,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2017-S2",
@@ -492,7 +524,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2018",
@@ -507,7 +540,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2019",
@@ -522,7 +556,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2020",
@@ -537,7 +572,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2021-S1",
@@ -552,7 +588,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2021-S2",
@@ -567,7 +604,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2022",
@@ -582,7 +620,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2023",
@@ -597,7 +636,8 @@
     "ga_expected": true,
     "paper_variant": null,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2024-S1",
@@ -612,7 +652,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2024-S2",
@@ -627,7 +668,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2025-S1",
@@ -642,7 +684,8 @@
     "ga_expected": true,
     "paper_variant": 1,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2025-S2",
@@ -657,7 +700,8 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2026-S1",
@@ -738,7 +782,8 @@
       "63",
       "64",
       "65"
-    ]
+    ],
+    "final_key_verified": false
   },
   {
     "paper_id": "CS-2026-S2",
@@ -753,6 +798,7 @@
     "ga_expected": true,
     "paper_variant": 2,
     "exam_session": null,
-    "expected_question_numbers": null
+    "expected_question_numbers": null,
+    "final_key_verified": false
   }
 ]

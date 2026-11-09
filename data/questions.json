@@ -17,7 +17,12 @@
     "notes": "The draws are not independent fair colour choices: reinforcement changes the second-draw probability.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=10",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
-    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage.",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
+      "review_notes": "The two mixed-colour ordered paths each have probability 1/6."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q12",
@@ -36,7 +41,11 @@
     "discrepancy_ids": [],
     "notes": "Options: A=512, B=1025, C=1023, D=255.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=10",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and official paper/key cross-check passed. Q12 also exhaustively enumerated. Visual transcription and final-key provenance checks remain pending."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q13",
@@ -56,7 +65,54 @@
     "notes": "Distinct eigenvalues are not required; a repeated eigenvalue can account for the entire characteristic polynomial.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=11",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
-    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage.",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
+      "review_notes": "Characteristic polynomial degree gives upper bound n, attained by the identity; geometric interpretation also attains n."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q14",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "14",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "Addressing-mode correspondence.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 11,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "Immediate addressing encodes a literal constant in the instruction, giving P to 4. Indirect addressing obtains an address through a pointer, giving Q to 2. Base-plus-index addressing selects an array element using a varying index, giving R to 1. A fixed displacement from a record base selects a record field, giving S to 3. The matching tuple is therefore (4,2,1,3), option B.",
+    "derived_answer": "B",
+    "official_answer": "B",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=11",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q15",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "15",
+    "subject": "02-computer-organization-architecture",
+    "question_text": "Load-store instruction sequence.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 12,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "A load-store architecture performs arithmetic on registers, with explicit instructions moving operands between memory and registers. Load X into R0 and Y into R1, compute ADD R2,R0,R1, then store R2 into memory location Z. This is option D. Option A uses memory operands directly in ADD; B still adds a memory operand and targets memory; C likewise tries to add memory operands before storing. Those three do not obey the stated architecture.",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=12",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
   },
   {
     "question_id": "CS-2026-S1-Q17",
@@ -75,7 +131,57 @@
     "discrepancy_ids": [],
     "notes": "A logarithmic factor appears in Master theorem case 2, when the additive term matches the branching threshold. It does not match here.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=14",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
+      "review_notes": "log_4(5)<2; the second recurrence is polynomially below the first recurrence threshold, yielding Theta(n^2)."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q18",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "18",
+    "subject": "10-computer-networks",
+    "question_text": "TCP connection closing.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 15,
+    "question_type": "MCQ",
+    "marks": 1,
+    "solution": "TCP supports simultaneous close: either endpoint may send FIN before receiving the other endpoint’s FIN, and the protocol has states and acknowledgements for that case. Thus D is true. Connection establishment conventionally uses the three-way handshake, so A is false. Either endpoint may initiate closing, so the restriction in B is false. TCP provides two independent byte streams for full-duplex communication, contradicting C.",
+    "derived_answer": "D",
+    "official_answer": "D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=15",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q19",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "19",
+    "subject": "10-computer-networks",
+    "question_text": "HTTP persistence.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 15,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q19 — Computer Networks: HTTP/1.1 persistence and pipelining\n\nPaper page 15. **Answer: A, C, D.** Official key agrees.\n\n1. A persistent connection can carry successive request/response exchanges with its server. Its lifetime is not limited to one embedded object, nor to one HTML page. Hence A and D are supported.\n2. Pipelining permits a client to send another request before the preceding response has finished arriving. Responses still arrive in request order; pipelining is not arbitrary interleaving of response bodies. Thus C is supported.\n3. A direct TCP connection has a fixed remote endpoint. It cannot become a direct connection to another server merely because the next resource belongs to the same webpage. Under the question's ordinary browser-to-origin-server interpretation, B is false.\n\n**Standards cross-check:** [RFC 9112, section 9.3](https://httpwg.org/specs/rfc9112.html#persistent.connections) describes persistent connections and section 9.3.2 describes pipelining. Protocol support does not imply that every browser currently enables pipelining.\n\n**Interpretation caveat:** A connection to a forward proxy can carry requests for multiple origins. Therefore the explanation rejects B for direct browser-to-server connections, not as an absolute statement about every HTTP deployment. This caveat does not change the published key.\n",
+    "derived_answer": "A;C;D",
+    "official_answer": "A;C;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q19-PROXY"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=15",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and option mapping review; source transcription and final-key provenance remain pending."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q20",
@@ -95,7 +201,12 @@
     "notes": "Two distinct nonzero null vectors need not be independent. Nullity 1 already supplies infinitely many nonzero vectors over the real field.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=16",
     "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
-    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage."
+    "exclusion_reason": "Non-discrete Engineering Mathematics is outside the 12 requested subjects; solution retained as supplemental coverage.",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
+      "review_notes": "Nonzero kernel implies singularity; scalar multiples give distinct nonzero vectors, while zero matrix refutes fixed rank."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q22",
@@ -114,7 +225,11 @@
     "discrepancy_ids": [],
     "notes": "Operations in the listed order are options A, B, C, D.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=17",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and official paper/key cross-check passed. Q12 also exhaustively enumerated. Visual transcription and final-key provenance checks remain pending."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q23",
@@ -133,7 +248,165 @@
     "discrepancy_ids": [],
     "notes": "Heap ordering does not determine leaf positions; the complete-binary-tree shape and indexing do.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=18",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Derivation and option mapping independently checked against extracted official paper and published key. Final-key revision and visual transcription review remain pending.",
+      "review_notes": "Internal positions are precisely 1 through floor(n/2); B and C lie inside that interval."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q24",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "24",
+    "subject": "04-data-structures",
+    "question_text": "Linear-probing table occupancy.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 19,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "Compute each home position using (x+7) mod 11 and probe forward, wrapping at 11. Insert 1 at 8; 13 at 9; 22 at 7; 15 at 0. For 11, positions 7,8,9 are occupied, so place it at 10. For 24, positions 9,10,0 are occupied, so place it at 1. The occupied slots are {0,1,7,8,9,10}. Among the offered indices 0,10,2,1, only 2 is empty: option C.",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=19",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q25",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "25",
+    "subject": "06-theory-of-computation",
+    "question_text": "Grammar derivations.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 20,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q25 — Theory of Computation: grammar ambiguity and derivations\n\nPaper page 20. **Answer: A, B, C.** Official key agrees.\n\nWork with the grammar S → aSbS | bS | ε. Here ε denotes the empty string.\n\n1. The string abb admits these two different leftmost derivations:\n   - S ⇒ aSbS ⇒ abS ⇒ abbS ⇒ abb.\n   - S ⇒ aSbS ⇒ abSbS ⇒ abbS ⇒ abb.\n   In the first derivation, the extra b comes from the final S of the root production. In the second, it comes from the first S. Thus they represent different parse trees, not just different orders of expanding one tree. Both ambiguity (A) and the existence of two distinct derivations (B) follow.\n2. For abab, the root must use aSbS because the word starts with a. Its explicit b must be the b in position 2 or position 4. Choosing position 4 would require the first S to generate ba. That is impossible: every nonempty word generated by S ends in b. To prove this invariant, bS ends in b if its child is empty or ends in b if its child does; aSbS has the same property through its explicit b and final child.\n3. Consequently the explicit root b is in position 2, its first child is ε, and its final child generates ab. The latter has only the construction aSbS with both children empty. Therefore abab has exactly one parse tree and one rightmost derivation, establishing C. One rightmost derivation is S ⇒ aSbS ⇒ aSbaSbS ⇒ aSbaSb ⇒ aSbab ⇒ abab.\n4. This is a context-free grammar. Membership in a context-free language is decidable, for example by converting to a suitable normal form and applying a finite parsing algorithm. Therefore the undecidability claim D is false.\n\n**Common error:** Two unrestricted derivations can differ solely in expansion order. Ambiguity requires different parse trees, equivalently different leftmost derivations or different rightmost derivations; the witness above meets that stronger test.\n",
+    "derived_answer": "A;B;C",
+    "official_answer": "A;B;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=20",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and option mapping review; source transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q26",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "26",
+    "subject": "06-theory-of-computation",
+    "question_text": "Automaton state bounds.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 20,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q26 — Theory of Computation: NFA-to-DFA state bound\n\nPaper page 20. **Answer: B, D.** Official key agrees.\n\n1. Subset construction represents each DFA state by a subset of the six NFA states. There are at most 2^6 = 64 such subsets, including the empty subset. Epsilon closures, if applicable, do not increase this bound.\n2. Removing unreachable states and minimizing can only reduce that number. A minimal equivalent DFA therefore cannot require 65 or 128 states, establishing B and D.\n3. One state is possible: a six-state NFA can accept every string. For an example with all six states reachable, use a cycle of six accepting states over a one-letter alphabet. Its language is universal and its minimal DFA has one accepting state.\n4. To check that 32 is genuinely possible, use the binary language whose fifth symbol from the end is 1. A six-state NFA has one start state that loops on 0 and 1, can nondeterministically guess a 1 as that fifth-from-last symbol, and then traverses four more symbol transitions to an accepting state. A 32-state DFA stores the last five symbols, initially padded with zeros. Any distinct five-bit histories differ in some position j; appending j−1 zeros makes that position the fifth symbol from the end. The two resulting strings have different acceptance outcomes. Thus all 32 histories are distinguishable and the minimal DFA has exactly 32 states.\n\n**Common error:** An upper bound alone rules out the oversized choices; an explicit witness is useful to verify that the smaller offered values really are possible.\n",
+    "derived_answer": "B;D",
+    "official_answer": "B;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=20",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and option mapping review; source transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q27",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "27",
+    "subject": "07-compiler-design",
+    "question_text": "Compiler error classification.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 21,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q27 — Compiler Design / Programming in C: error classes\n\nPaper page 21. **Answer: C.** Official key agrees.\n\n1. S1 opens a string literal but does not close it before the end of the line. Tokenization cannot form a valid string-literal token. In the compiler-phase classification used by the question, this is a lexical error.\n2. S2 contains a properly closed string. Its semicolon inside the quotation marks is part of the string data, while the semicolon outside terminates the declaration. There is no lexical or syntactic error merely because both semicolons appear.\n3. S3 has the shape of a grammatical declaration, but initializes an int pointer with a string literal, whose ordinary expression conversion produces a char pointer. The incompatible pointer types violate the C initialization constraints. This is a type/semantic error in the question's classification.\n4. Therefore C correctly pairs the lexical error in S1 with the semantic error in S3. A and B misclassify S2, and D assigns the wrong compiler phase to S1.\n\n**Precision caveat:** Real compilers may emit several cascading diagnostics after the malformed string. This solution classifies the primary defect, rather than treating every emitted diagnostic as a separate intended answer. In C, accepting a program after a warning or as an extension does not make a constraint violation valid standard C.\n",
+    "derived_answer": "C",
+    "official_answer": "C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=21",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and option mapping review; source transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q28",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "28",
+    "subject": "07-compiler-design",
+    "question_text": "LL(1) properties.",
+    "question_text_status": "source reference only; consult original wording/options",
+    "source_page": 21,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "## Q28 — Compiler Design: LL(1) parsing properties\n\nPaper page 21. **Official answer: C.** The intended textbook selection is C, but its literal necessity claim is overbroad; see the counterexample below.\n\n1. LL(1) selects a production from the next input token using a predictive parsing table. It does not use trial-and-error backtracking, so A is false.\n2. Left recursion prevents ordinary predictive top-down parsing; it is something to remove, not a requirement for LL(1). Hence B is false.\n3. Left factoring is a standard transformation for removing shared prefixes that obstruct predictive selection. This explains the intended textbook answer C, but syntactic left factoring is not literally necessary for every LL(1) grammar. Left factoring is also not sufficient: FIRST/FIRST or FIRST/FOLLOW conflicts can remain.\n4. LL(1) does not have greater grammar-recognition power than SLR parsing. Thus D is false.\n\n**Discrepancy / interpretation issue:** A reduced, productive counterexample is S → A a | A b, A → ε. The two S alternatives share the syntactic prefix A, so the grammar is not literally left-factored. Nevertheless FIRST(Aa)={a} and FIRST(Ab)={b}; the predictive table selects the two S productions in different columns. For A, its sole epsilon production is selected on FOLLOW(A)={a,b}. There are no conflicts, so the grammar is LL(1). Thus the exact general necessity claim in C is false under the standard syntactic definition of left-factored form. Preserve C as the official scoring answer while prominently recording this qualification; do not silently present the claim as a theorem. The issue is not restricted to unreachable or unproductive grammar alternatives.\n\n**Review:** This counterexample was supplied during independent peer review and checked against FIRST/FOLLOW construction.\n",
+    "derived_answer": "Official scoring answer C; literal necessity claim is overbroad (see discrepancy).",
+    "official_answer": "C",
+    "verification_status": "discrepancy_open",
+    "discrepancy_ids": [
+      "CS-2026-S1-Q28-LL1"
+    ],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=21",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent derivation and option mapping review; source transcription and final-key provenance remain pending."
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q29",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "29",
+    "subject": "08-operating-systems",
+    "question_text": "False deadlock statements.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 22,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "The question asks for FALSE statements. Banker’s algorithm implements deadlock avoidance by testing whether allocations preserve a safe state; it is not a deadlock-prevention rule that forbids one of the necessary conditions. Thus A is false. Preventing hold-and-wait blocks a necessary deadlock condition, so B is true. In a resource-allocation graph an assignment edge points from a resource instance to the process holding it; a process-to-resource edge is a request, so C is false. A safe state has a sequence in which all processes can obtain their remaining claims and finish, which makes D true in the standard safe-allocation sense. Select A and C.",
+    "derived_answer": "A;C",
+    "official_answer": "A;C",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=22",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
+  },
+  {
+    "question_id": "CS-2026-S1-Q30",
+    "paper_id": "CS-2026-S1",
+    "source_question_number": "30",
+    "subject": "09-database-management-systems",
+    "question_text": "Functional-dependency implications.",
+    "question_text_status": "source reference only; consult linked original for full wording and options",
+    "source_page": 22,
+    "question_type": "MSQ",
+    "marks": 1,
+    "solution": "C follows by augmentation and union: P determines R and Q determines S, so PQ determines both R and S. D is augmentation: adding Q to the determinant cannot destroy P’s determination of R. A fails, for example with tuples (P,Q,R)=(0,0,0),(1,0,1): P determines R, hence PQ does too, but Q does not. B fails in a relation with R equal to XOR(P,Q) over all four binary input pairs: the pair PQ determines R, while neither P nor Q alone does. An arbitrary fixed S can be appended to both counterexamples. Hence only C and D always hold.",
+    "derived_answer": "C;D",
+    "official_answer": "C;D",
+    "verification_status": "official_key_matched",
+    "discrepancy_ids": [],
+    "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=22",
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "pending"
+    }
   },
   {
     "question_id": "CS-2026-S1-Q33",
@@ -152,7 +425,11 @@
     "discrepancy_ids": [],
     "notes": "Accepted numerical interval is preserved exactly.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=23",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and official paper/key cross-check passed. Q12 also exhaustively enumerated. Visual transcription and final-key provenance checks remain pending."
+    }
   },
   {
     "question_id": "CS-2026-S1-Q35",
@@ -171,6 +448,10 @@
     "discrepancy_ids": [],
     "notes": "Accepted numerical interval is preserved exactly.",
     "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf#page=24",
-    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1"
+    "key_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=1",
+    "independent_review": {
+      "status": "reviewed",
+      "scope": "Independent second derivation and official paper/key cross-check passed. Q12 also exhaustively enumerated. Visual transcription and final-key provenance checks remain pending."
+    }
   }
 ]
