@@ -1,6 +1,6 @@
-# GATE CSE Previous Year Questions (1990–2025)
+# GATE CSE Previous Year Questions (1991–2026)
 
-Complete, verified collection of the previous 36 years of GATE CS/IT questions with solutions, organised by subject.
+Work in progress: a source-audited collection of GATE CS questions and independently written solutions, organised by subject. Nine question summaries (six in requested subjects and three supplemental non-discrete mathematics items) have independently derived solutions matched to a published official key; the collection remains incomplete and second review is pending.
 
 ## Subjects
 | # | Subject |
@@ -19,16 +19,27 @@ Complete, verified collection of the previous 36 years of GATE CS/IT questions w
 | 12 | [Discrete Mathematics](subjects/12-discrete-mathematics) |
 
 ## Ground rules
-1. **No missing questions.** Each year/paper (including multiple sets, e.g. 2014–2026 sets, and CS/IT papers where applicable) is reconciled against the official paper's question count. Counts live in each subject's coverage tracker; a year is only "done" when documented == official.
+1. **No missing questions.** Each year/paper (including multiple sets, e.g. 2014–2026 sessions) is reconciled against the official paper's question count. Paper-level counts and source status live in `data/papers.json`. Every numbered item must be accounted for, including items outside the requested subjects. A paper is complete only after source reconciliation and independent solution review.
 2. **No wrong answers.** Every solution is derived independently and compared with the official answer key (including revised/final keys). Mismatch → resolve or log as a discrepancy; never silently pick one.
 3. **Discrepancies are always recorded**: question errors, ambiguity, missing figures, key changes, disputed keys, bonus/dropped questions. Each is in the question's `Discrepancy` field and indexed in [DISCREPANCIES.md](DISCREPANCIES.md).
 4. Questions are uncategorised-by-subject cross-cutting? Assign to the single best-fit subject; note cross-references.
-5. Questions are reproduced verbatim (incl. code, tables, figures) with marks and type (MCQ/MSQ/NAT).
+5. Preserve source wording, code, tables and figures faithfully where permitted, with marks and actual historical question format. Do not copy third-party explanations; write solutions independently.
 
 ## Scope assumption
-"Previous 36 years" = **1990–2025**. Adjust the range in the subject trackers if you want a different window (e.g. 1987 onward).
+"Previous 36 years" = **1991–2026**, inclusive, following the current working scope. Separate historical IT papers are not silently included; their inclusion requires an explicit scope decision.
 
 ## Workflow
 Per subject/year: collect official paper + key → add questions via [template](templates/question.md) → solve and verify → update tracker → log discrepancies → commit (`<subject>: <year> done`).
 
 Sources of truth: official GATE papers/keys (IIT organising institute sites, gate.iitk.ac.in archives). Third-party sites (e.g. GATE Overflow) may be used for cross-checking only.
+
+
+## Current status and quality gates
+
+The repository is scaffolding, not a complete question bank. Unknown counts remain null; they must not be reported as zero questions in a paper. An empty discrepancy log does not mean no discrepancies exist.
+
+`data/papers.json` lists 46 candidate CS papers for 36 years. Session inventory is provisional until reconciled against source papers. General Aptitude is included where present (from 2010); earlier years are not missing GA. Separate IT papers and non-discrete engineering mathematics require explicit scope handling. Every source question must receive either an included subject or a documented exclusion reason so omitted material cannot disappear silently.
+
+Run `python3 scripts/validate.py` to check record structure. Run `python3 scripts/validate.py --require-complete` for the release gate; it intentionally fails until every paper, question, source and solution has been verified. Passing structural validation alone is not evidence of answer correctness.
+
+For each question, record a unique ID, paper/session ID, source question number, source page, subject, preserved question and figure references, independent solution, derived answer, exact official answer or accepted range, key revision, verification status, and discrepancy IDs. An unavailable official key must remain explicitly unverified. See `data/README.md`.

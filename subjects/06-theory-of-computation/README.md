@@ -1,4 +1,4 @@
-# Theory of Computation — GATE PYQ (1990–2025)
+# Theory of Computation — GATE PYQ (1991–2026)
 
 Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.md](../../templates/question.md) for each question.
 
@@ -6,7 +6,6 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 
 | Year | Official question count | Documented | Verified (2nd pass) | Discrepancies |
 |------|------------------------|------------|---------------------|---------------|
-| 1990 | ? | 0 | ☐ | 0 |
 | 1991 | ? | 0 | ☐ | 0 |
 | 1992 | ? | 0 | ☐ | 0 |
 | 1993 | ? | 0 | ☐ | 0 |
@@ -42,3 +41,7 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2023 | ? | 0 | ☐ | 0 |
 | 2024 | ? | 0 | ☐ | 0 |
 | 2025 | ? | 0 | ☐ | 0 |
+
+| 2026 | ? | 0 | ☐ | 0 |
+
+Counts are subject-specific and remain unknown until all sessions are classified. Zero documented is not zero expected. No solutions are verified yet.
