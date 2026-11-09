@@ -42,6 +42,6 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2024 | ? | 0 | ☐ | 0 |
 | 2025 | ? | 0 | ☐ | 0 |
 
-| 2026 | ? | 4 (partial entries) | ☐ | 1 |
+| 2026 | ? | 7 (source-linked entries) | ☐ | 1 |
 
 Counts are subject-specific and remain unknown until all sessions are classified. Zero documented is not zero expected. See question ledger for key comparisons and pending reviews.

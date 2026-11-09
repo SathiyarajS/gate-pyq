@@ -130,3 +130,129 @@ Expectation is the probability-weighted sum. Grouping outcomes by their probabil
 **Verification:** Source diagram/notation visually inspected; [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf#page=2) compared. Independent second derivation review passed; final-key revision verification pending.
 
 **Scope:** Supplemental non-discrete mathematics, outside the requested subject list.
+
+
+# GATE 2026 CS2: Q14
+
+**Question:** [Official master paper page 12](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=12); consult original wording, diagrams and choices.
+
+**Type / marks:** MCQ, 1 mark(s).
+
+**Official answer:** B
+
+**Derived answer:** B
+
+## Solution
+
+Compare the density with (1/(σ√(2π))) exp(−(x−μ)²/(2σ²)). The coefficient gives σ=3 and the exponent gives μ=0 and 2σ²=18. Hence X is normal with mean 0 and variance 9, option B. It is not uniform or exponential, and a Poisson variable has a discrete probability mass function rather than this density.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.
+
+
+# GATE 2026 CS2: Q27
+
+**Question:** [Official master paper page 21](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=21); consult original wording, diagrams and choices.
+
+**Type / marks:** MSQ, 1 mark(s).
+
+**Official answer:** A;C
+
+**Derived answer:** A;C
+
+## Solution
+
+On the symmetric interval [−1,1], the odd term −ax integrates to zero. The remaining integrals are ∫3x² dx=2 and ∫1 dx=2. Hence I(a)=4 for every real a. It is independent of a and positive (indeed for all a), so A and C are true; B and D are false.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.
+
+
+# GATE 2026 CS2: Q31
+
+**Question:** [Official master paper page 22](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=22); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 1 mark(s).
+
+**Official answer:** 24 to 24
+
+**Derived answer:** 24
+
+## Solution
+
+Multiple solutions require the two linear equations to be dependent and consistent. The determinant is a²−16, so a=4 or a=−4. Multiplying the first equation by a gives a²x+ay=ab. Comparing with 16x+ay=24 gives ab=24. The consistent pairs are (a,b)=(4,6) and (−4,−6), both yielding the requested product 24.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=1) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.
+
+
+# GATE 2026 CS2: Q62
+
+**Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 48 to 48
+
+**Derived answer:** 48 to 48
+
+## Solution
+
+Multiplying an n-by-n matrix by a scalar multiplies each of its n rows by that scalar, so the determinant scales by its nth power. Here det(2A)=2^4 det(A)=16*3=48.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.
+
+
+# GATE 2026 CS2: Q63
+
+**Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 0.5 to 0.5
+
+**Derived answer:** 0.5
+
+## Solution
+
+Conditioning on two heads among tosses 1,2,3,5 leaves toss 2 equally likely to be head or tail by symmetry. Tosses 4 and 6 remain independent fair tosses because they are not involved in that condition. If toss 2 is a head, the target event needs at least one head among 4 and 6, probability 3/4. If toss 2 is a tail, it needs both heads, probability 1/4. Averaging gives (1/2)(3/4)+(1/2)(1/4)=1/2=0.5. Exhaustive enumeration of all 64 outcomes gave 12 satisfying both events out of 24 satisfying the condition.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.
+
+
+# GATE 2026 CS2: Q64
+
+**Question:** [Official master paper page 41](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf#page=41); consult original wording, diagrams and choices.
+
+**Type / marks:** NAT, 2 mark(s).
+
+**Official answer:** 40 to 40
+
+**Derived answer:** 40 to 40
+
+## Solution
+
+Within each interval between consecutive tenths, the output is one on the second-decimal-digit bands 2–3 and 6–7, and zero elsewhere. It switches at offsets .02,.04,.06,.08 in each tenth: four jumps. There are ten tenth-sized intervals in (0,1), yielding forty discontinuities. Boundaries between tenths have zero on both sides and add none; zero and one are outside the domain. Use the customary decimal expansion that does not end in recurring nines. At a jump boundary, choosing the other representation changes a point value but does not remove the unequal one-sided limits.
+
+**Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
+
+**Discrepancy / qualification:** No answer-key disagreement identified; any model assumptions are stated in the solution.
+
+**Scope:** Supplemental non-discrete Engineering Mathematics.

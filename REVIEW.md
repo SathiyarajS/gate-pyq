@@ -1,7 +1,7 @@
 # Review status
 
-65 of 65 recorded derivations have independent second review. See each question’s independent_review field for scope. Figure-dependent entries have source visual review. Complete source-transcription QA and confirmed final-key revision provenance remain outstanding. A second derivation review is not a certification of source completeness.
+All 130 recorded derivations (65 for each 2026 CS paper) have independent second review. Relevant diagrams, tables, complement bars and options were visually inspected. Complete question transcription and final/revised-key provenance are not certified. Source hashes and access dates are stored with the paper records; the official session numbers are 3 and 4, distinct from paper variants CS1/CS2.
 
-Q6 distinguishes unsupported from false; Q16 depends on a pipeline model; Q59 uses expected rotational latency. Q28 has a formal nullable-prefix counterexample to the literal necessity claim. Q44 depends on unstated initial-window and timing conventions. Q19 records a direct-origin versus proxy interpretation caveat. Official scoring answers are preserved alongside these qualifications.
+Every official answer field, accepted numerical range, question type and mark value was reconciled against the corresponding downloaded key. An official-key match is not a guarantee against a flawed question or key. The discrepancy log therefore preserves formal wording issues and model assumptions alongside official scoring answers.
 
-Computational cross-checks include exhaustive enumeration for Q12, arithmetic for Q22, linear probing simulation for Q24, exact binary32 field reconstruction for Q36, and a conflict-free parsing table for the Q28 counterexample.
+Computational cross-checks include exhaustive binary-matrix enumeration, Boolean truth tables and prime covers, integer arithmetic, hash/cache simulations, LR(0) canonical-item construction, CRC division, recursion thresholds, FCFS schedules and finite probability enumeration. The structural validator passes; the full-release validator intentionally does not.
