@@ -1,7 +1,5 @@
 # Review status
 
-All 260 recorded derivations (65 for each of the four 2025–2026 CS papers) have independent second review. Relevant diagrams, tables, complement bars and options were visually inspected. Complete question transcription and final/revised-key provenance are not certified. Source hashes and access dates are stored with the paper records; the official 2026 session numbers are 3 and 4, and 2025 CS1/CS2 are sessions 1/2, distinct from paper-variant naming.
+All 455 recorded derivations across 7 papers have independent second review. Relevant diagrams, tables, complement bars and choices were visually inspected. Every official answer/range, type and mark was reconciled with the corresponding downloaded key. Paper records store source hashes, access dates and official session numbers. Final-key labels are verified only where explicitly recorded in COVERAGE.md.
 
-Every official answer field, accepted numerical range, question type and mark value was reconciled against the corresponding downloaded key. An official-key match is not a guarantee against a flawed question or key. The discrepancy log therefore preserves formal wording issues and model assumptions alongside official scoring answers.
-
-Computational cross-checks include exhaustive binary-matrix enumeration, Boolean truth tables and prime covers, integer arithmetic, hash/cache simulations, LR(0) canonical-item construction, CRC division, recursion thresholds, FCFS schedules and finite probability enumeration. The structural validator passes; the full-release validator intentionally does not.
+Complete question transcription and overall 36-year coverage are not certified. A match to an official key does not prove that the question or key is flawless; the discrepancy log and individual solutions preserve model assumptions and counterexamples. Structural checks pass, while the full-release gate intentionally remains closed.

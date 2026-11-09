@@ -38,8 +38,8 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2020 | ? | 0 | ☐ | 0 |
 | 2021 | ? | 0 | ☐ | 0 |
 | 2022 | ? | 0 | ☐ | 0 |
-| 2023 | ? | 0 | ☐ | 0 |
-| 2024 | ? | 0 | ☐ | 0 |
+| 2023 | ? | 6 (source-linked entries) | ☐ | 1 |
+| 2024 | ? | 10 (source-linked entries) | ☐ | 1 |
 | 2025 | ? | 9 (source-linked entries) | ☐ | 2 |
 
 | 2026 | ? | 10 (source-linked entries) | ☐ | 1 |

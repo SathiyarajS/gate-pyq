@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Structural validation and explicit completeness gate, not mathematical proof."""
-import argparse,json
+import argparse,json,re
 from pathlib import Path
 from collections import Counter
 p=Path(__file__).resolve().parents[1]
@@ -13,11 +13,13 @@ qids=[];pairs=[]
 for q in qs:
  for f in ['question_id','paper_id','source_question_number','subject','question_text','source_page','solution','derived_answer','official_answer','verification_status','discrepancy_ids']:
   if f not in q:errors.append(f'Missing {f}: {q.get("question_id")}')
+ if re.search(r'\d\. +\d',q.get('solution','')):errors.append('Possible damaged decimal/IP notation: '+str(q.get('question_id')))
+ if q.get('source_url') and not q['source_url'].endswith('#page='+str(q.get('source_page'))):errors.append('Source-page link mismatch: '+str(q.get('question_id')))
  qids.append(q.get('question_id'));pairs.append((q.get('paper_id'),q.get('source_question_number')))
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')
  if q.get('subject') not in subjects|{'excluded'}:errors.append('Unknown subject')
  if q.get('subject')=='excluded' and not q.get('exclusion_reason'):errors.append('Unexplained exclusion')
- if args.require_complete and q.get('subject')!='excluded' and (q.get('verification_status')!='reviewed' or q.get('source_transcription_verified') is not True):errors.append(f'Unreviewed question: {q.get("question_id")}')
+ if args.require_complete and q.get('subject')!='excluded' and (q.get('verification_status')!='reviewed' or q.get('source_transcription_verified') is not True):errors.append(f'Not release-verified (including transcription): {q.get("question_id")}')
 if len(qids)!=len(set(qids)) or len(pairs)!=len(set(pairs)):errors.append('Duplicate question identifiers')
 counts=Counter(q.get('paper_id') for q in qs)
 if args.require_complete:

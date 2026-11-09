@@ -31,7 +31,7 @@ The coefficient determinant is 1−k². For k≠±1 it is nonzero, so there is e
 
 ## Solution
 
-Both pieces are polynomials, so only the join x=1 needs checking. Continuity requires a+b=1³+1²+1=3. Equality of one-sided derivatives requires a=3(1)²+2(1)=5. Therefore b=3−5=−2, reported as −2. 0. The official accepted interval is −2. 1 to −1. 9 and is preserved.
+Both pieces are polynomials, so only the join x=1 needs checking. Continuity requires a+b=1³+1²+1=3. Equality of one-sided derivatives requires a=3(1)²+2(1)=5. Therefore b=3−5=−2, reported as −2.0. The official accepted interval is −2.1 to −1.9 and is preserved.
 
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 
@@ -50,7 +50,7 @@ Both pieces are polynomials, so only the join x=1 needs checking. Continuity req
 
 ## Solution
 
-Let F mean the fake coin and H mean two heads. With a uniform coin choice, P(F)=1/5, P(H|F)=1, and P(H|not F)=1/4 for the independent tosses of a regular fair coin. Bayes gives P(F|H)=(1/5)/[(1/5)+(4/5)(1/4)]=(1/5)/(2/5)=1/2=0. 50. The official range is 0. 49 to 0. 51.
+Let F mean the fake coin and H mean two heads. With a uniform coin choice, P(F)=1/5, P(H|F)=1, and P(H|not F)=1/4 for the independent tosses of a regular fair coin. Bayes gives P(F|H)=(1/5)/[(1/5)+(4/5)(1/4)]=(1/5)/(2/5)=1/2=0.50. The official range is 0.49 to 0.51.
 
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 
@@ -88,7 +88,7 @@ Direct multiplication gives A²=2I. Therefore A¹³=64A. Since det(A−λI)=λ²
 
 ## Solution
 
-Normalization gives 1=C∫₁⁴x²dx=21C, hence C=1/21. Therefore P(2≤X≤3)=∫₂³x²/21 dx=(27−8)/63=19/63≈0. 301587, rounding to 0. 302. Supplemental continuous probability, not requested discrete mathematics.
+Normalization gives 1=C∫₁⁴x²dx=21C, hence C=1/21. Therefore P(2≤X≤3)=∫₂³x²/21 dx=(27−8)/63=19/63≈0.301587, rounding to 0.302. Supplemental continuous probability, not requested discrete mathematics.
 
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 
@@ -183,7 +183,7 @@ Since P=LU, first solving LY=Q and then UX=Y is equivalent to PX=Q, including re
 
 ## Solution
 
-Equality of the monic polynomials means their root multisets agree: {α,β}={α²,β²}. Either each root is fixed by squaring, hence is 0 or1, giving x², x(x−1),(x−1)²; or squaring swaps distinct roots, giving α=β²,β=α² and thus the two nontrivial cube roots of unity, whose polynomial is x²+x+1. There are four polynomials, of which x² and(x−1)² have equal roots. Uniform choice therefore gives 2/4=0. 5. Supplemental algebra/probability; uniform selection is the intended meaning of choosing at random from this finite set.
+Equality of the monic polynomials means their root multisets agree: {α,β}={α²,β²}. Either each root is fixed by squaring, hence is 0 or1, giving x², x(x−1),(x−1)²; or squaring swaps distinct roots, giving α=β²,β=α² and thus the two nontrivial cube roots of unity, whose polynomial is x²+x+1. There are four polynomials, of which x² and(x−1)² have equal roots. Uniform choice therefore gives 2/4=0.5. Supplemental algebra/probability; uniform selection is the intended meaning of choosing at random from this finite set.
 
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 
@@ -202,7 +202,7 @@ Equality of the monic polynomials means their root multisets agree: {α,β}={α�
 
 ## Solution
 
-Let U be the uniform cut. If U<0. 4 the containing interval has length 1−U; if U>0. 4 its length isU. The event U=0. 4 has probability zero. Therefore E[L]=∫₀^0. 4(1−u)du+∫₀. 4¹u du=0. 32+0. 42=0. 74. This lies within the published0. 70–0. 80 interval. Supplemental continuous probability.
+Let U be the uniform cut. If U<0.4 the containing interval has length 1−U; if U>0.4 its length isU. The event U=0.4 has probability zero. Therefore E[L]=∫₀^0.4(1−u)du+∫₀. 4¹u du=0.32+0.42=0.74. This lies within the published0.70–0.80 interval. Supplemental continuous probability.
 
 **Verification:** Independent second derivation review passed and [published key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf#page=2) compared. Final-key revision provenance and complete question transcription are not certified.
 

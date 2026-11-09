@@ -1,15 +1,16 @@
 # Coverage snapshot
 
-Scope: 1991–2026, 46 provisional CS paper variants. Both CS papers in 2025 and 2026 currently have solution entries.
+Scope: 1991–2026, 46 provisional CS paper variants. Listed papers have complete solution-identifier coverage, not certified full question transcription.
 
-| Paper | Source-numbered solution entries | Requested-subject entries | Supplemental mathematics | Second derivation reviews |
-|---|---:|---:|---:|---:|
-| 2026 CS1 (official session 3) | 65/65 | 59 | 6 | 65 |
-| 2026 CS2 (official session 4) | 65/65 | 59 | 6 | 65 |
-| 2025 CS1 (official session 1) | 65/65 | 60 | 5 | 65 |
-| 2025 CS2 (official session 2) | 65/65 | 59 | 6 | 65 |
-| Total | 260 | 237 | 23 | 260 |
+| Paper | Entries | Requested subjects | Supplemental | Second reviews | Final-key label verified |
+|---|---:|---:|---:|---:|---|
+| CS-2026-S2 (session 4) | 65/65 | 59 | 6 | 65 | Pending |
+| CS-2026-S1 (session 3) | 65/65 | 59 | 6 | 65 | Pending |
+| CS-2025-S2 (session 2) | 65/65 | 59 | 6 | 65 | Pending |
+| CS-2025-S1 (session 1) | 65/65 | 60 | 5 | 65 | Pending |
+| CS-2024-S2 (session 6) | 65/65 | 61 | 4 | 65 | Yes |
+| CS-2024-S1 (session 5) | 65/65 | 59 | 6 | 65 | Yes |
+| CS-2023 (session 1) | 65/65 | 61 | 4 | 65 | Pending |
+| Total | 455 | 418 | 37 | 455 | |
 
-No missing solution identifiers in these four papers. All official answer fields, question types and marks reconcile with their downloaded published keys. This is solution-index coverage, not a certified verbatim question bank or complete source audit. Figure-dependent inputs were inspected visually. Final/revised-key provenance remains unconfirmed.
-
-All 1991–2024 solution content, source reconciliation and paper/session inventory verification remain pending. Run the completeness gate before any release claim.
+All official key fields, types and marks reconcile for the listed papers. The remaining 39 provisional paper variants have no solution entries yet and their source/session inventories remain unverified. Full-release validation intentionally fails until the wider collection, source transcription and outstanding provenance checks are complete.

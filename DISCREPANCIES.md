@@ -19,6 +19,12 @@ This partial review does not establish that other questions are discrepancy-free
 | CS-2025-S1-Q29-SCHEDULING-MODEL | OS | 2025 CS1 | 29 | Additional preemptions unspecified | The code fixes 21 stipulated I/O completions, not any extra preemptions. | 21 to 21 | Counts only ready transitions forced by I/O; no extra scheduling preemptions. | Open; intended model retained |
 | CS-2025-S2-Q6-COUNTERFACTUAL | GA | 2025 CS2 | 6 | Pragmatic inference | Counterfactual wording normally suggests lack of knowledge, but is not unconditional formal entailment. | B | Intended conversational reading retained. | Explained |
 | CS-2025-S2-Q47-MFU-COUNTERS | OS | 2025 CS2 | 47 | Counter lifetime unspecified | MFU with reset-on-load counters also reproduces the displayed trace. | D | Optimal works; reset-on-load MFU yields C,D, while lifetime counts rule C out. See full trace in solution. | Open; official scoring answer retained |
+| CS-2024-S1-Q41-HEAP-TYPE | 04-data-structures | 2024 CS1 | 41 | Heap model unspecified | The word heapified does not specify max-heap; the scoring option assumes it. | D | Official scoring answer retained; see source-linked solution. | Open |
+| CS-2024-S1-Q42-BASE-CASE | 05-algorithms | 2024 CS1 | 42 | Inconsistent recurrence base | Recursive n≥1 overlaps T(1)=1; exact square roots never reach1. A bounded stopping convention is needed. | A | Official scoring answer retained; see source-linked solution. | Open |
+| CS-2024-S1-Q57-WAIT-PREMISE | 08-operating-systems | 2024 CS1 | 57 | Impossible all-calls-succeed premise | A new child has no children at its first wait, causing ECHILD; ignored return still yields14 printf executions. | 14 to 14 | Official scoring answer retained; see source-linked solution. | Open |
+| CS-2024-S2-Q28-DF-CONDITION | 10-computer-networks | 2024 CS2 | 28 | IPv4 fragmentation needs DF=0 | A router drops an oversized IPv4 packet when DF=1 instead of fragmenting it; official B,C assumes fragmentation is permitted. | B;C | Official scoring answer retained; see source-linked solution. | Open |
+| CS-2023-Q47-EVALUATION-ORDER | 03-programming-in-c | 2023 CS | 47 | Unspecified C operand evaluation order | The + operator does not require the left recursive call before the right; the official print order assumes left-first evaluation. | C | Official scoring answer retained; see source-linked solution. | Open |
+| CS-2023-Q57-PAGE-ALIGNMENT | 08-operating-systems | 2023 CS | 57 | Array alignment and initial residency omitted | 4096 page faults assumes a page-aligned initially nonresident array with no unrelated memory references. | 4096 to 4096 | Official scoring answer retained; see source-linked solution. | Open |
 
 Sources: [Official 2026 CS1 paper](https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf), pages 5, 13, 15, 21, 33 and 44; [published key](https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf), page 1. The key's final/revised status has not been independently confirmed. The Q28 and Q44 issues are wording/assumption qualifications, not claims that the scoring key was changed.
 
@@ -27,3 +33,9 @@ CS2 sources: [Official paper](https://gate2026.iitg.ac.in/doc/download/2026/QPs/
 2025 CS1 sources: [official archived paper](https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf), pages 21, 26, 29; [published archived key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf). Q60 and Q65 also explain the inclusive counting/index conventions represented by their published ranges.
 
 2025 CS2 sources: [official archived paper](https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf), pages 6 and 36; [published archived key](https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf). Additional rounding, schema and representation conventions are recorded within their solutions.
+
+2024 CS1 sources: [official paper](https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf), [official key](https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf).
+
+2024 CS2 sources: [official paper](https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf), [official key](https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf).
+
+2023 CS sources: [official paper](https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf), [official key](https://gate2026.iitg.ac.in/doc/download/Answer_keys2023/CS_ANS_GATE2023.pdf).
