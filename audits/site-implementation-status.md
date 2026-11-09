@@ -69,3 +69,7 @@ An explicit --with-reviewed-crops option regenerates approved source crops from 
 ## 2018–2021 crop-review batch
 
 845 questions now have independently reviewed crop coordinates, across thirteen papers. The 2020 multipart record preserves options split across pages and orphaned printed labels. The 2019 Q6 bottom was extended before approval. Main, Pages, workflows and answers are unchanged. Browser visual QA remains blocked.
+
+## Additional 2015–2017 crop reviews
+
+1,105 questions / 1,118 parts now have independently reviewed source crop bounds and outputs. This batch adds 2017 CS1, both 2016 papers and 2015 CS1. Answers, main, Pages, workflows and source binaries are unchanged.

@@ -5,10 +5,11 @@ source-rights conclusion, original-fidelity claim, or transcription certificatio
 
 ## Current coverage
 
-- 845 questions across thirteen 2018–2026 papers have independently reviewed bounds; 2,561 remain pending.
-- 858 crop parts are reviewed. The 2020 scan requires two option continuations and ten separately preserved orphaned labels. Every relevant source page and output received separate preparation and independent visual review.
-- 7979 overlap pairs remain among draft records; no reviewed neighboring-question regions overlap. This count is diagnostic, not approval.
-- Scope is crop completeness, not transcription, answers, original-paper completeness or distribution rights. Remaining 33 papers require crop review.
+- 1,105 questions across seventeen 2015–2026 papers have independently reviewed bounds; 2,301 remain pending across 29 papers.
+- 1,118 crop parts are reviewed. Separate reviewers checked all full source question pages and actual outputs. The 2020 multipart records preserve split options and orphaned labels.
+- 7704 overlap pairs remain among drafts; no reviewed neighboring-question regions overlap. This diagnostic does not approve drafts.
+- The annotated 2015 source uses complete question-body regions, excluding external colored answer scoring; printed number metadata retains header mapping.
+- Crop fidelity is not answer recertification, source-completeness certification, accessible transcription or redistribution permission.
 
 See `crop-source-map.json` for URLs, archive members, SHA-256, portable paths, page/text counts and parser warnings; `crop-summary.json` for per-paper counts. Workstation paths are kept separately in ignored `.local-source-cache/source-paths.json` and must be regenerated on another machine. The renderer prefers normal repository source paths, with `--source-cache` as an optional local override. No PDF was added to publication assets.
 
