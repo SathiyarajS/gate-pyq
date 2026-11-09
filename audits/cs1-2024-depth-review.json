@@ -1,0 +1,8 @@
+{
+  "paper_id": "CS-2024-S1",
+  "entries": 65,
+  "decision": "Independent depth review passed",
+  "scope": "All65 essential paraphrases/solutions; official source text/key comparison; diagram pages6,7,14,18,20,21,27,30,31,34,36 and both key pages visually inspected. Independent parser, FIRST/FOLLOW, DFA, graph, fork and fragmentation checks.",
+  "correction": "Optional Q35 equijoin schema clarification applied to builder and regenerated; all supplied checks passed.",
+  "limitations": "Full transcription and separate accessible artwork remain pending; Q41/Q42/Q57 discrepancies preserved."
+}

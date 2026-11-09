@@ -1,0 +1,60 @@
+{
+  "year": 2002,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/2002-gfg.pdf",
+  "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+  "pages": "10",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "70 with descriptive subparts",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "questions": 101,
+  "content_groups": 70,
+  "inventory_scope": "Observed 50 objectives and 51 descriptive leaves across 20 groups; original official completeness unverified",
+  "count_policy": "70 content groups:50 MCQ plus20 descriptive groups. 101 answerable leaves:50 MCQ plus51 explicitly lettered/roman subdivisions. Unlabelled multiple blanks/actions retained in single leaf; do not infer individual descriptive marks.",
+  "marks": {
+    "section_a_total": 75,
+    "section_b_group_marks": 5,
+    "section_b_offered_groups": 20,
+    "section_b_required_groups": 15,
+    "offered_group_marks_arithmetic": 175,
+    "attempted_marks_from_instructions": 150,
+    "gateforum_cover_claim": 200,
+    "individual_descriptive_subpart_marks": null
+  },
+  "inventory_reference": "CS-2002-inventory.json",
+  "source_discrepancies": [
+    {
+      "id": "year_ocr",
+      "detail": "Both raster titles say 2002. GFG embedded OCR says 2001; do not use OCR title as year evidence."
+    },
+    {
+      "id": "maximum_marks",
+      "detail": "GateForum cover says Maximum Marks 200, but instructions specify 25 one-mark +25 two-mark objectives and any15 of20 descriptive groups of5marks. Instruction-derived attempted total150; all offered groups total175. No original verified to resolve cover contradiction."
+    },
+    {
+      "id": "objective_29_option_d",
+      "detail": "Visually verified GF2.4(p7) option(d) AC=0,CY=1; GFG29(p4) option(d) AC=0,CY=0 duplicates(a). Do not silently equate reproductions."
+    },
+    {
+      "id": "B12_adjacency",
+      "detail": "GateForum Q12(p14) omits literal1 after equals in adjacency definition. GFG Q60(p8) retains1."
+    },
+    {
+      "id": "B13b_example",
+      "detail": "GateForum Q13(b)(p14) says3 compositions of4 but lists only1+2+1 and2+1+1. GFG Q61(b)(p8) additionally lists1+1+2."
+    },
+    {
+      "id": "B4b_glyph",
+      "detail": "Power-set glyph is missing/substituted in reproductions; accompanying prose identifies powerset. Verify mathematical notation visually rather than relying on extraction."
+    }
+  ],
+  "alternate_reproduction": {
+    "id": "gateforum",
+    "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs2002.pdf",
+    "sha256": "11aaf98c71561773560448fba8a83ac258dba092d1cb0e8b44226f5063d34549",
+    "pages": 18,
+    "status": "secondary retypeset reproduction; not official original or official key"
+  }
+}

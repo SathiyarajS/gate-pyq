@@ -9,6 +9,10 @@ papers=json.loads((p/'data/papers.json').read_text());qs=json.loads((p/'data/que
 ids=[x['paper_id'] for x in papers]; subjects={x.name for x in (p/'subjects').iterdir()}
 if len(ids)!=len(set(ids)):errors.append('Duplicate paper IDs')
 if set(x['year'] for x in papers)!=set(range(1991,2027)):errors.append('Year coverage differs from 1991–2026')
+legacy_items={}
+for inventory in (p/'data/source-provenance').glob('*-inventory.json'):
+ data=json.loads(inventory.read_text())
+ for row in data.get('items',[]):legacy_items[(f"CS-{data['year']}",row['normalized_ordinal'])]=row
 qids=[];pairs=[]
 for q in qs:
  for f in ['question_id','paper_id','source_question_number','subject','question_text','source_page','solution','derived_answer','official_answer','verification_status','discrepancy_ids']:
@@ -17,7 +21,11 @@ for q in qs:
  if q.get('source_url') and not q.get('source_archive_member') and not q['source_url'].endswith('#page='+str(q.get('source_page'))):errors.append('Source-page link mismatch: '+str(q.get('question_id')))
  if q.get('source_section'):
   ordinal=int(q['source_question_number']); scheme=q.get('source_numbering_scheme'); raw_printed=str(q.get('printed_question_number',''))
-  if scheme=='cs_grouped_subparts':
+  if scheme in {'legacy_sections_subparts','secondary_reproduction_label_original_unverified'}:
+   row=legacy_items.get((q['paper_id'],ordinal))
+   if not row or any([q['source_section']!=row['section'],raw_printed!=row['printed_id'],str(q.get('source_group_number'))!=str(row['printed_question']),q.get('source_subpart')!=row['printed_subpart'],q.get('marks')!=row['marks'],q.get('source_group_marks')!=row['source_group_marks']]):errors.append('Legacy source ledger mismatch: '+str(q.get('question_id')))
+   printed=ordinal
+  elif scheme=='cs_grouped_subparts':
    expected_printed=str(q.get('source_group_number',''))+str(q.get('source_subpart',''))
    if raw_printed!=expected_printed or q['source_section']!='CS':errors.append('Grouped source numbering mismatch: '+str(q.get('question_id')))
    if q.get('paper_id')=='CS-2005':
@@ -28,11 +36,13 @@ for q in qs:
   else:printed=int(raw_printed or -1)
   ga_printed=ordinal+55 if q.get('source_numbering_scheme')=='cs_first_continuous' else ordinal
   cs_printed=ordinal if q.get('source_numbering_scheme')=='ga_first_continuous' else ordinal-10
-  expected=('CS',ordinal) if scheme in {'cs_only_continuous','cs_grouped_subparts'} else (('GA',ga_printed) if ordinal<=10 else ('CS',cs_printed))
+  expected=(q['source_section'],ordinal) if scheme in {'legacy_sections_subparts','secondary_reproduction_label_original_unverified'} else ('CS',ordinal) if scheme in {'cs_only_continuous','cs_grouped_subparts'} else (('GA',ga_printed) if ordinal<=10 else ('CS',cs_printed))
   if (q['source_section'],printed)!=expected:
    errors.append('Printed/normalized numbering mismatch: '+str(q.get('question_id')))
  if q.get('official_answer') is None and (q.get('key_url') is not None or q.get('key_page') is not None or q.get('verification_status')=='official_key_matched'):
   errors.append('Unsupported official-key claim: '+str(q.get('question_id')))
+ if q.get('explanatory_depth_status')=='reviewed_expanded' and q.get('independent_depth_review',{}).get('status')!='reviewed':errors.append('Expanded explanation lacks independent depth review: '+str(q.get('question_id')))
+ if args.require_complete and q.get('subject')!='excluded' and (q.get('explanatory_depth_status')!='reviewed_expanded' or q.get('independent_depth_review',{}).get('status')!='reviewed'):errors.append('Explanation-depth review incomplete: '+str(q.get('question_id')))
  qids.append(q.get('question_id'));pairs.append((q.get('paper_id'),q.get('source_question_number')))
  if q.get('paper_id') not in ids:errors.append('Unknown paper reference')
  if q.get('subject') not in subjects|{'excluded'}:errors.append('Unknown subject')
@@ -52,6 +62,6 @@ if args.require_complete:
   actual={q['source_question_number'] for q in qs if q['paper_id']==x['paper_id']}
   if not x.get('expected_question_numbers') or actual!=set(x['expected_question_numbers']):errors.append('Unreconciled question numbers: '+x['paper_id'])
   if not x.get('final_key_verified') or not x['inventory_verified'] or x['source_review_status']!='reviewed' or not x['paper_url'] or not x['key_url'] or x['expected_question_count'] is None or counts[x['paper_id']]!=x['expected_question_count']:errors.append('Incomplete paper: '+x['paper_id'])
-print(f'{len(papers)} candidate papers; {len(qs)} recorded questions. Structural checks '+('FAILED' if errors else 'passed')+'.')
+print(f'{len(papers)} candidate papers; {len(qs)} recorded entries. Structural checks '+('FAILED' if errors else 'passed')+'.')
 for e in errors:print(e)
 raise SystemExit(bool(errors))

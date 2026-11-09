@@ -1,0 +1,10 @@
+{
+  "paper_id": "CS-1995",
+  "entries": 91,
+  "review": "Independent correctness, source and explanatory-depth review passed for all observed leaves. GFG pages1\u20138 and relevant alternate pages visually inspected; mathematical/source-model caveats retained. Q39 question paraphrase corrected to avoid asserting unstated replacement assumption. No official key located. Original completeness unverified.",
+  "checks": [
+    "check_1995_objectives.py",
+    "check_1995_middle.py",
+    "check_cs1995_tail.py"
+  ]
+}

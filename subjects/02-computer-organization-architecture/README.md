@@ -7,17 +7,17 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | Year | Official question count | Documented | Verified (2nd pass) | Discrepancies |
 |------|------------------------|------------|---------------------|---------------|
 | 1991 | ? | 0 | ☐ | 0 |
-| 1992 | ? | 0 | ☐ | 0 |
-| 1993 | ? | 0 | ☐ | 0 |
-| 1994 | ? | 0 | ☐ | 0 |
-| 1995 | ? | 0 | ☐ | 0 |
-| 1996 | ? | 0 | ☐ | 0 |
-| 1997 | ? | 0 | ☐ | 0 |
-| 1998 | ? | 0 | ☐ | 0 |
-| 1999 | ? | 0 | ☐ | 0 |
-| 2000 | ? | 0 | ☐ | 0 |
-| 2001 | ? | 0 | ☐ | 0 |
-| 2002 | ? | 0 | ☐ | 0 |
+| 1992 | ? | 9 (source-linked entries) | ☐ | 5 |
+| 1993 | ? | 8 (source-linked entries) | ☐ | 1 |
+| 1994 | ? | 5 (source-linked entries) | ☐ | 0 |
+| 1995 | ? | 14 (source-linked entries) | ☐ | 5 |
+| 1996 | ? | 12 (source-linked entries) | ☐ | 6 |
+| 1997 | ? | 10 (source-linked entries) | ☐ | 5 |
+| 1998 | ? | 9 (source-linked entries) | ☐ | 4 |
+| 1999 | ? | 12 (source-linked entries) | ☐ | 2 |
+| 2000 | ? | 14 (source-linked entries) | ☐ | 5 |
+| 2001 | ? | 18 (source-linked entries) | ☐ | 0 |
+| 2002 | ? | 13 (source-linked entries) | ☐ | 1 |
 | 2003 | ? | 6 (source-linked entries) | ☐ | 0 |
 | 2004 | ? | 7 (source-linked entries) | ☐ | 0 |
 | 2005 | ? | 11 (source-linked entries) | ☐ | 1 |

@@ -1,6 +1,6 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
-Work in progress: 2340 source-numbered solution entries across 34 CS papers, with 2164 in the requested subjects and 176 supplemental entries. All recorded derivations have independent second review and relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 650 entries have no located official key and are independently solved only. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
+Work in progress: 3335 source-numbered entries across 45 CS papers, with 3097 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; 1 entries remain unresolved because source material is missing. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1645 entries have no located official key, including the unresolved source gaps; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
 
 ## Subjects
 | # | Subject |
@@ -40,6 +40,11 @@ The repository is scaffolding, not a complete question bank. Unknown counts rema
 
 `data/papers.json` lists 46 candidate CS papers for 36 years. Session inventory is provisional until reconciled against source papers. General Aptitude is included where present (from 2010); earlier years are not missing GA. Separate IT papers and non-discrete engineering mathematics require explicit scope handling. Every source question must receive either an included subject or a documented exclusion reason so omitted material cannot disappear silently.
 
-Run `python3 scripts/validate.py` to check record structure. Run `python3 scripts/validate.py --require-complete` for the release gate; it intentionally fails until every paper, question, source and solution has been verified. Passing structural validation alone is not evidence of answer correctness.
+Run `python 3 scripts/validate.py` to check record structure. Run `python 3 scripts/validate.py --require-complete` for the release gate; it intentionally fails until every paper, question, source and solution has been verified. Passing structural validation alone is not evidence of answer correctness.
 
 For each question, record a unique ID, paper/session ID, source question number, source page, subject, preserved question and figure references, independent solution, derived answer, exact official answer or accepted range, key revision, verification status, and discrepancy IDs. An unavailable official key must remain explicitly unverified. See `data/README.md`.
+
+
+Detailed step-by-step expansion and a separate explanation-quality audit are in progress. Existing answer reviews do not certify explanatory depth; see [QUALITY.md](QUALITY.md).
+
+Explanation-depth review: 1580 entries have independently reviewed teaching expansions; 1755 remain pending. This is separate from answer review and complete question/source access. See [QUALITY.md](QUALITY.md).

@@ -1,0 +1,15 @@
+{
+  "year": 1992,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/1992-gfg.pdf",
+  "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+  "pages": "9",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "16 with grouped subparts",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "questions": 69,
+  "content_groups": 52,
+  "inventory_scope": "Observed 39 objectives and 30 descriptive leaves across 13 groups; original official completeness unverified"
+}

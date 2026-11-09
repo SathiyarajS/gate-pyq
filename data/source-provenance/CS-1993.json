@@ -1,0 +1,15 @@
+{
+  "year": 1993,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/1993-gfg.pdf",
+  "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+  "pages": "15",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "28 with grouped subparts",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "questions": 70,
+  "content_groups": 63,
+  "inventory_scope": "Observed 43 objectives and 27 descriptive leaves across 20 groups; original official completeness unverified"
+}
