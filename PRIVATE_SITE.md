@@ -45,7 +45,7 @@ No command above changes repository visibility, Pages settings, workflow permiss
 
 ## Verified crop metadata
 
-2,250 question crop records across 33 papers have independent boundary review. Generated images remain local, not published by these text checkpoints. After resolving sources locally, `python scripts/render_crops.py --question CS-2026-S2-Q1` demonstrates the verified rendering path. The remaining 1,156 questions are draft and require review. The preview still uses clearly labelled paraphrases until complete source presentation and rights gates are satisfied.
+2,540 question crop records across 36 papers have independent boundary review. Generated images remain local, not published by these text checkpoints. After resolving sources locally, `python scripts/render_crops.py --question CS-2026-S2-Q1` demonstrates the verified rendering path. The remaining 866 questions are draft and require review. The preview still uses clearly labelled paraphrases until complete source presentation and rights gates are satisfied.
 
 ## Optional original-source images in a local preview
 

@@ -103,3 +103,7 @@ An explicit --with-reviewed-crops option regenerates approved source crops from 
 2,250 questions / 2,454 parts now have independently reviewed source bounds and actual outputs. This batch adds 350 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.
 
 The 2008 skew correction adds opt-in rigid full-page rotation with explicit coordinate metadata and inverse-source provenance. Six affected parts passed independent visual review and fresh byte checks; 99 unchanged parts retained previous bytes. Six renderer regression tests passed. Source SHA preflight and legacy geometry remain unchanged. Full legacy parity and this batch output checks are recorded in local validation.
+
+## Additional crop reviews: CS-2003, CS-2002, CS-2001
+
+2,540 questions / 2,932 parts now have independently reviewed source bounds and actual outputs. This batch adds 290 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.

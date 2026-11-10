@@ -1,0 +1,13 @@
+{
+  "image_references_checked": 7362,
+  "unique_parts": 2454,
+  "links_dimensions_lazy_passed": true,
+  "browser_tested": false,
+  "reviewed_question_checkpoint": 2250,
+  "reviewed_part_checkpoint": 2454,
+  "full_preview_build_passed": true,
+  "limitations": [
+    "Static links, dimensions and lazy-loading attributes checked; no browser interaction/layout test",
+    "No PDF rendering or deployment"
+  ]
+}
