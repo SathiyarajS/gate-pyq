@@ -47329,21 +47329,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
+        54,
         81.84,
-        595.44,
-        179.48
+        550,
+        175.48
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 1,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q2": [
@@ -47351,21 +47348,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
+        54,
         177.48,
-        595.44,
-        252.68
+        550,
+        248.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 2,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q3": [
@@ -47373,21 +47367,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
+        54,
         250.68,
-        595.44,
-        297.8
+        550,
+        293.8
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 3,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q4": [
@@ -47395,21 +47386,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
+        54,
         295.8,
-        595.44,
-        357.56
+        550,
+        353.56
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 4,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q5": [
@@ -47417,21 +47405,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
+        54,
         355.56,
-        595.44,
-        422.24
+        550,
+        510
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 5,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q6": [
@@ -47439,21 +47424,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 51,
       "bbox": [
-        0,
-        420.24,
-        595.44,
-        435.92
+        54,
+        560.16,
+        550,
+        716
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 6,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q7": [
@@ -47461,21 +47443,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 52,
       "bbox": [
-        0,
-        48.84,
-        595.44,
-        222.44
+        54,
+        52,
+        550,
+        218.44
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 7,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q8": [
@@ -47483,21 +47462,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 52,
       "bbox": [
-        0,
+        54,
         220.44,
-        595.44,
-        328.52
+        550,
+        324.52
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 8,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q9": [
@@ -47505,21 +47481,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 52,
       "bbox": [
-        0,
+        54,
         326.52,
-        595.44,
-        353.84
+        550,
+        626.92
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 9,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q10": [
@@ -47527,20 +47500,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 52,
       "bbox": [
-        0,
+        54,
         628.92,
-        595.44,
-        841.68
+        550,
+        674
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 10,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q11": [
@@ -47548,21 +47519,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 53,
       "bbox": [
-        0,
+        54,
         94.69,
-        595.22,
-        331.58
+        550,
+        327.58
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 1,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q12": [
@@ -47570,21 +47538,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 53,
       "bbox": [
-        0,
+        54,
         329.58,
-        595.22,
-        454.59
+        550,
+        450.59
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 2,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q13": [
@@ -47592,21 +47557,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 53,
       "bbox": [
-        0,
+        54,
         452.59,
-        595.22,
-        538.65
+        550,
+        534.65
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 3,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q14": [
@@ -47614,21 +47576,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 53,
       "bbox": [
-        0,
+        54,
         536.65,
-        595.22,
-        842.0
+        550,
+        700
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 4,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q15": [
@@ -47636,21 +47595,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 54,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        121.53
+        54,
+        52,
+        550,
+        117.53
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 5,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q16": [
@@ -47658,21 +47614,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 54,
       "bbox": [
-        0,
+        54,
         119.53,
-        595.22,
-        162.75
+        550,
+        158.75
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 6,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q17": [
@@ -47680,21 +47633,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 54,
       "bbox": [
-        0,
+        54,
         160.75,
-        595.22,
-        347.13
+        550,
+        343.13
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 7,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q18": [
@@ -47702,21 +47652,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 54,
       "bbox": [
-        0,
+        54,
         345.13,
-        595.22,
-        519.68
+        550,
+        515.68
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 8,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q19": [
@@ -47724,21 +47671,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 54,
       "bbox": [
-        0,
+        54,
         517.68,
-        595.22,
-        842.0
+        550,
+        660
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 9,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q20": [
@@ -47746,20 +47690,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 55,
       "bbox": [
-        0,
-        49.21,
-        595.22,
-        288.22
+        54,
+        52,
+        550,
+        366.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 10,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q21": [
@@ -47767,20 +47709,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 55,
       "bbox": [
-        0,
+        54,
         368.05,
-        595.22,
-        384.25
+        550,
+        437.21
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 11,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q22": [
@@ -47788,20 +47728,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 55,
       "bbox": [
-        0,
+        54,
         439.21,
-        595.22,
-        842.0
+        550,
+        774
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 12,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q23": [
@@ -47809,21 +47747,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 56,
       "bbox": [
-        0,
+        54,
         87.06,
-        595.22,
-        288.51
+        550,
+        284.51
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 13,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q24": [
@@ -47831,21 +47766,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 56,
       "bbox": [
-        0,
+        54,
         286.51,
-        595.22,
-        359.49
+        550,
+        355.49
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 14,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q25": [
@@ -47853,21 +47785,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 56,
       "bbox": [
-        0,
+        54,
         357.49,
-        595.22,
-        458.44
+        550,
+        454.44
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 15,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q26": [
@@ -47875,21 +47804,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 56,
       "bbox": [
-        0,
+        54,
         456.44,
-        595.22,
-        571.29
+        550,
+        567.29
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 16,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q27": [
@@ -47897,21 +47823,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 56,
       "bbox": [
-        0,
+        54,
         569.29,
-        595.22,
-        842.0
+        550,
+        665
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 17,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q28": [
@@ -47919,20 +47842,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 57,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        77.68
+        54,
+        52,
+        550,
+        180.76
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 18,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q29": [
@@ -47940,21 +47861,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 57,
       "bbox": [
-        0,
+        54,
         182.76,
-        595.22,
-        305.79
+        550,
+        301.79
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 19,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q30": [
@@ -47962,21 +47880,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 57,
       "bbox": [
-        0,
+        54,
         303.79,
-        595.22,
-        426.86
+        550,
+        422.86
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 20,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q31": [
@@ -47984,21 +47899,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 57,
       "bbox": [
-        0,
+        54,
         424.86,
-        595.22,
-        580.66
+        550,
+        576.66
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 21,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q32": [
@@ -48006,21 +47918,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 57,
       "bbox": [
-        0,
+        54,
         578.66,
-        595.22,
-        842.0
+        550,
+        688
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 22,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q33": [
@@ -48028,21 +47937,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 58,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        197.44
+        54,
+        52,
+        550,
+        193.44
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 23,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q34": [
@@ -48050,21 +47956,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 58,
       "bbox": [
-        0,
+        54,
         195.44,
-        595.22,
-        331.12
+        550,
+        327.12
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 24,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q35": [
@@ -48072,21 +47975,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 58,
       "bbox": [
-        0,
+        54,
         329.12,
-        595.22,
-        522.86
+        550,
+        480
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 25,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q36": [
@@ -48094,20 +47994,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 58,
       "bbox": [
-        0,
+        54,
         558.97,
-        595.22,
-        626.5
+        550,
+        716
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 26,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q37": [
@@ -48115,21 +48013,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 59,
       "bbox": [
-        0,
+        54,
         61.75,
-        595.22,
-        146.85
+        550,
+        142.85
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 27,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q38": [
@@ -48137,21 +48032,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 59,
       "bbox": [
-        0,
+        54,
         144.85,
-        595.22,
-        293.18
+        550,
+        289.18
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 28,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q39": [
@@ -48159,21 +48051,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 59,
       "bbox": [
-        0,
+        54,
         291.18,
-        595.22,
-        518.91
+        550,
+        514.91
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 29,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q40": [
@@ -48181,21 +48070,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 59,
       "bbox": [
-        0,
+        54,
         516.91,
-        595.22,
-        842.0
+        550,
+        764
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 30,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q41": [
@@ -48203,21 +48089,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 60,
       "bbox": [
-        0,
+        54,
         61.63,
-        595.22,
-        138.99
+        550,
+        134.99
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 31,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q42": [
@@ -48225,21 +48108,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 60,
       "bbox": [
-        0,
+        54,
         136.99,
-        595.22,
-        205.9
+        550,
+        318.18
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 32,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q43": [
@@ -48247,21 +48127,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 60,
       "bbox": [
-        0,
+        54,
         320.18,
-        595.22,
-        406.41
+        550,
+        402.41
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 33,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q44": [
@@ -48269,21 +48146,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 60,
       "bbox": [
-        0,
+        54,
         404.41,
-        595.22,
-        589.58
+        550,
+        585.58
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 34,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q45": [
@@ -48291,21 +48165,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 60,
       "bbox": [
-        0,
+        54,
         587.58,
-        595.22,
-        842.0
+        550,
+        685
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 35,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q46": [
@@ -48313,21 +48184,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 61,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        250.05
+        54,
+        52,
+        550,
+        246.05
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 36,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q47": [
@@ -48335,21 +48203,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 61,
       "bbox": [
-        0,
+        54,
         248.05,
-        595.22,
-        416.85
+        550,
+        412.85
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 37,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q48": [
@@ -48357,21 +48222,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 61,
       "bbox": [
-        0,
+        54,
         414.85,
-        595.22,
-        626.96
+        550,
+        622.96
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 38,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q49": [
@@ -48379,21 +48241,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 61,
       "bbox": [
-        0,
+        54,
         624.96,
-        595.22,
-        842.0
+        550,
+        709
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 39,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q50": [
@@ -48401,21 +48260,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 62,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        141.75
+        54,
+        52,
+        550,
+        137.75
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 40,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q51": [
@@ -48423,21 +48279,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 62,
       "bbox": [
-        0,
+        54,
         139.75,
-        595.22,
-        842.0
+        550,
+        566
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 41,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q52": [
@@ -48445,21 +48298,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 63,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        451.8
+        54,
+        52,
+        550,
+        447.8
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 42,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q53": [
@@ -48467,21 +48317,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 63,
       "bbox": [
-        0,
+        54,
         449.8,
-        595.22,
-        623.38
+        550,
+        619.38
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 43,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q54": [
@@ -48489,21 +48336,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 63,
       "bbox": [
-        0,
+        54,
         621.38,
-        595.22,
-        842.0
+        550,
+        711
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 44,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q55": [
@@ -48511,20 +48355,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 64,
       "bbox": [
-        0,
-        49.15,
-        595.22,
-        264.4
+        54,
+        52,
+        550,
+        380.21
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 45,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q56": [
@@ -48532,21 +48374,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 64,
       "bbox": [
-        0,
+        54,
         382.21,
-        595.22,
-        523.89
+        550,
+        519.89
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 46,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q57": [
@@ -48554,21 +48393,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 64,
       "bbox": [
-        0,
+        54,
         521.89,
-        595.22,
-        648.39
+        550,
+        644.39
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 47,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q58": [
@@ -48576,21 +48412,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 64,
       "bbox": [
-        0,
+        54,
         646.39,
-        595.22,
-        842.0
+        550,
+        680
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 48,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q59": [
@@ -48598,21 +48431,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 65,
       "bbox": [
-        0,
-        48.97,
-        595.22,
-        321.03
+        54,
+        52,
+        550,
+        317.03
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 49,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q60": [
@@ -48620,21 +48450,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 65,
       "bbox": [
-        0,
+        54,
         319.03,
-        595.22,
-        477.63
+        550,
+        473.63
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 50,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q61": [
@@ -48642,21 +48469,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 65,
       "bbox": [
-        0,
+        54,
         475.63,
-        595.22,
-        548.55
+        550,
+        544.55
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 51,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q62": [
@@ -48664,21 +48488,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 65,
       "bbox": [
-        0,
+        54,
         546.55,
-        595.22,
-        842.0
+        550,
+        716
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 52,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q63": [
@@ -48686,21 +48507,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 66,
       "bbox": [
-        0,
-        49.09,
-        595.22,
-        179.07
+        54,
+        52,
+        550,
+        175.07
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 53,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q64": [
@@ -48708,21 +48526,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 66,
       "bbox": [
-        0,
+        54,
         177.07,
-        595.22,
-        463.95
+        550,
+        459.95
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 54,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2014-S3-Q65": [
@@ -48730,21 +48545,18 @@
       "file": "sources/archive/CS/CS2014.pdf",
       "page": 66,
       "bbox": [
-        0,
+        54,
         461.95,
-        595.22,
-        842.0
+        550,
+        583
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
-        "source_parse_warning_check_missing_figures"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+      "printed_question_number": 55,
+      "review_audit": "audits/crops-CS-2014-S3.json"
     }
   ],
   "CS-2015-S1-Q1": [

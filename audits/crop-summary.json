@@ -1,21 +1,21 @@
 {
   "counts": {
     "page_fallback": 1841,
-    "candidate_questions": 2171,
-    "text_marker_candidate": 402,
-    "overlap_pairs": 7622,
-    "verified_questions": 1235,
-    "pending_visual_review_questions": 2171,
+    "candidate_questions": 2106,
+    "text_marker_candidate": 337,
+    "overlap_pairs": 7580,
+    "verified_questions": 1300,
+    "pending_visual_review_questions": 2106,
     "manual_table_boundary_review": 261,
-    "first_pass_reviewed_questions": 1235,
+    "first_pass_reviewed_questions": 1300,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 2171,
+    "pending_first_pass_questions": 2106,
     "manual_full_page_visual_table_boundary_review": 65,
     "manual_visual_table_boundary_review": 65,
     "manual_page_region_review": 195,
     "manual_source_boundary_review": 65,
     "manual_full_source_visual_question_bounds": 65,
-    "manual_full_page_visual_review": 207,
+    "manual_full_page_visual_review": 272,
     "manual_scanned_page_region_review": 65,
     "manual_full_page_table_boundary_review": 65,
     "source_question_body_image_region": 65,
@@ -101,7 +101,8 @@
       "crop_parts": 65
     },
     "CS-2014-S3": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2015-S1": {
       "verified": 65,

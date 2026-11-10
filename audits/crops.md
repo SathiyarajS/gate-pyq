@@ -1,13 +1,13 @@
 # Crop preparation audit (private local work)
 
-Status: **1,235 crops independently reviewed; Phase 1 is not complete.** No publication,
+Status: **1,300 crops independently reviewed; Phase 1 is not complete.** No publication,
 source-rights conclusion, original-fidelity claim, or transcription certification.
 
 ## Current coverage
 
-- 1,235 questions across nineteen 2014–2026 papers have independently reviewed bounds; 2,171 remain pending across 27 papers.
-- 1,248 crop parts are reviewed. Separate reviewers checked all full source question pages and actual outputs. The 2020 multipart records preserve split options and orphaned labels.
-- 7622 overlap pairs remain among drafts; no reviewed neighboring-question regions overlap. This diagnostic does not approve drafts.
+- 1,300 questions across twenty 2014–2026 papers have independently reviewed bounds; 2,106 remain pending across 26 papers.
+- 1,313 crop parts are reviewed. Separate reviewers checked all full source question pages and actual outputs. The 2020 multipart records preserve split options and orphaned labels.
+- 7580 overlap pairs remain among drafts; no reviewed neighboring-question regions overlap. This diagnostic does not approve drafts.
 - The annotated 2015 source uses complete question-body regions, excluding external colored answer scoring; printed number metadata retains header mapping.
 - Crop fidelity is not answer recertification, source-completeness certification, accessible transcription or redistribution permission.
 
