@@ -1,0 +1,21 @@
+digraph cfg {
+ graph [layout=neato,overlap=true,splines=true,bgcolor="transparent",notranslate=true];
+ node [shape=box,width=1.55,height=0.42,fixedsize=true,fontsize=18];
+ edge [arrowsize=0.75];
+ entry [pos="115,300!",shape=plaintext,label="ENTRY",height=0.3];
+ b1 [pos="115,250!",label="a = b + c"];
+ b2 [pos="115,155!",label="d = a + e"];
+ b3 [pos="260,155!",label="e = a + f"];
+ b4 [pos="115,60!",label="g = d + e"];
+ exit [pos="115,0!",shape=plaintext,label="EXIT",height=0.3];
+ l1 [pos="49,278!",shape=plaintext,label="B1",width=0.4,height=0.25,fontsize=16];
+ l2 [pos="65,184!",shape=plaintext,label="B2",width=0.4,height=0.25,fontsize=16];
+ l3 [pos="306,184!",shape=plaintext,label="B3",width=0.4,height=0.25,fontsize=16];
+ l4 [pos="65,89!",shape=plaintext,label="B4",width=0.4,height=0.25,fontsize=16];
+ entry -> b1 [pos="e,115,266 115,288 115,283 115,278 115,273"];
+ b1 -> b2 [pos="e,115,171 115,235 115,218 115,194 115,178"];
+ b1 -> b3 [pos="e,260,171 171,235 190,221 233,189 254,175"];
+ b2 -> b4 [pos="e,115,76 115,140 115,122 115,98 115,83"];
+ b3 -> b1 [pos="e,171,266 260,140 365,40 403,400 176,271"];
+ b4 -> exit [pos="e,115,14 115,45 115,37 115,29 115,21"];
+}

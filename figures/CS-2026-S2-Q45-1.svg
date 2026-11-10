@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Control flow graph" viewBox="0.00 0.00 376.50 419.00">
+<title id="title">Control flow graph</title><desc id="desc">ENTRY leads to B1: a = b + c. B1 branches to B2: d = a + e, and B3: e = a + f. B3 loops back to B1. B2 leads to B4: g = d + e; B4 leads to EXIT.</desc><g fill="currentColor" id="graph0" transform="scale(1 1) rotate(0) translate(-30.5 404)">
+<title>cfg</title>
+
+<g id="node1">
+<title>entry</title>
+<text text-anchor="middle" x="115" y="-295.6" font-family="Times,serif" font-size="18">ENTRY</text>
+</g>
+
+<g id="node2">
+<title>b1</title>
+<polygon fill="none" stroke="currentColor" points="171,-265 59,-265 59,-235 171,-235 171,-265" />
+<text text-anchor="middle" x="115" y="-245.6" font-family="Times,serif" font-size="18">a = b + c</text>
+</g>
+
+<g id="edge1">
+<title>entry-&gt;b1</title>
+<path fill="none" stroke="currentColor" d="M115,-288C115,-283 115,-278 115,-273" />
+<polygon fill="currentColor" stroke="currentColor" points="117.63,-273.5 115,-266 112.38,-273.5 117.63,-273.5" />
+</g>
+
+<g id="node3">
+<title>b2</title>
+<polygon fill="none" stroke="currentColor" points="171,-170 59,-170 59,-140 171,-140 171,-170" />
+<text text-anchor="middle" x="115" y="-150.6" font-family="Times,serif" font-size="18">d = a + e</text>
+</g>
+
+<g id="edge2">
+<title>b1-&gt;b2</title>
+<path fill="none" stroke="currentColor" d="M115,-235C115,-218 115,-194 115,-178" />
+<polygon fill="currentColor" stroke="currentColor" points="117.63,-178.5 115,-171 112.38,-178.5 117.63,-178.5" />
+</g>
+
+<g id="node4">
+<title>b3</title>
+<polygon fill="none" stroke="currentColor" points="316,-170 204,-170 204,-140 316,-140 316,-170" />
+<text text-anchor="middle" x="260" y="-150.6" font-family="Times,serif" font-size="18">e = a + f</text>
+</g>
+
+<g id="edge3">
+<title>b1-&gt;b3</title>
+<path fill="none" stroke="currentColor" d="M171,-235C190,-221 233,-189 254,-175" />
+<polygon fill="currentColor" stroke="currentColor" points="255.22,-177.34 260,-171 252.3,-172.98 255.22,-177.34" />
+</g>
+
+<g id="node5">
+<title>b4</title>
+<polygon fill="none" stroke="currentColor" points="171,-75 59,-75 59,-45 171,-45 171,-75" />
+<text text-anchor="middle" x="115" y="-55.6" font-family="Times,serif" font-size="18">g = d + e</text>
+</g>
+
+<g id="edge4">
+<title>b2-&gt;b4</title>
+<path fill="none" stroke="currentColor" d="M115,-140C115,-122 115,-98 115,-83" />
+<polygon fill="currentColor" stroke="currentColor" points="117.63,-83.5 115,-76 112.38,-83.5 117.63,-83.5" />
+</g>
+
+<g id="edge5">
+<title>b3-&gt;b1</title>
+<path fill="none" stroke="currentColor" d="M260,-140C365,-40 403,-400 176,-271" />
+<polygon fill="currentColor" stroke="currentColor" points="178.16,-269.45 171,-266 174.45,-273.16 178.16,-269.45" />
+</g>
+
+<g id="node6">
+<title>exit</title>
+<text text-anchor="middle" x="115" y="4.4" font-family="Times,serif" font-size="18">EXIT</text>
+</g>
+
+<g id="edge6">
+<title>b4-&gt;exit</title>
+<path fill="none" stroke="currentColor" d="M115,-45C115,-37 115,-29 115,-21" />
+<polygon fill="currentColor" stroke="currentColor" points="117.63,-21.5 115,-14 112.38,-21.5 117.63,-21.5" />
+</g>
+
+<g id="node7">
+<title>l1</title>
+<text text-anchor="middle" x="49" y="-274.2" font-family="Times,serif" font-size="16">B1</text>
+</g>
+
+<g id="node8">
+<title>l2</title>
+<text text-anchor="middle" x="65" y="-180.2" font-family="Times,serif" font-size="16">B2</text>
+</g>
+
+<g id="node9">
+<title>l3</title>
+<text text-anchor="middle" x="306" y="-180.2" font-family="Times,serif" font-size="16">B3</text>
+</g>
+
+<g id="node10">
+<title>l4</title>
+<text text-anchor="middle" x="65" y="-85.2" font-family="Times,serif" font-size="16">B4</text>
+</g>
+</g>
+</svg>
