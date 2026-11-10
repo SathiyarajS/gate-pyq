@@ -43371,21 +43371,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        138.973,
+        479.0,
+        197.307
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 56,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q2": [
@@ -43393,21 +43390,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        207.613,
+        476.667,
+        253.613
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 57,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q3": [
@@ -43415,21 +43409,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        263.8,
+        449.333,
+        297.8
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 58,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q4": [
@@ -43437,21 +43428,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        308.44,
+        502.0,
+        342.773
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 59,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q5": [
@@ -43459,21 +43447,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        353.08,
+        332.0,
+        423.413
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 60,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q6": [
@@ -43481,21 +43466,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        464.893,
+        367.333,
+        541.56
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 61,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q7": [
@@ -43503,21 +43485,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        552.04,
+        531.333,
+        598.04
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 62,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q8": [
@@ -43525,21 +43504,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        101.653,
+        532.333,
+        257.987
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 63,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q9": [
@@ -43547,21 +43523,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        268.0,
+        531.667,
+        314.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 64,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q10": [
@@ -43569,21 +43542,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        324.973,
+        532.333,
+        382.64
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 65,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q11": [
@@ -43591,20 +43561,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0,
-        505.25,
-        612.0,
-        519.73
+        79.0,
+        108.173,
+        531.333,
+        171.507
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 1,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q12": [
@@ -43612,21 +43580,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        181.48,
+        532.0,
+        239
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 2,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q13": [
@@ -43634,21 +43599,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        245.667,
+        418.667,
+        400.853
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 3,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q14": [
@@ -43656,21 +43618,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        408.52,
+        492.0,
+        440.933
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 4,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q15": [
@@ -43678,21 +43637,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        448.933,
+        399.0,
+        606.533
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 5,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q16": [
@@ -43700,21 +43656,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        614.2,
+        531.667,
+        658.493
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 6,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q17": [
@@ -43722,21 +43675,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        666.16,
+        532.333,
+        712.493
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 7,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q18": [
@@ -43744,21 +43694,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.067,
+        513.333,
+        125.4
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 8,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q19": [
@@ -43766,21 +43713,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        134.293,
+        532.0,
+        192.293
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 9,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q20": [
@@ -43788,21 +43732,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        200.2,
+        531.667,
+        306.2
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 10,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q21": [
@@ -43810,21 +43751,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        314.2,
+        481.333,
+        444.867
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 11,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q22": [
@@ -43832,21 +43770,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        454.933,
+        531.333,
+        536.6
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 12,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q23": [
@@ -43854,21 +43789,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        544.72,
+        532.333,
+        686.386
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 13,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q24": [
@@ -43876,21 +43808,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.4,
+        532.0,
+        239.4
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 14,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q25": [
@@ -43898,21 +43827,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        247.933,
+        521.333,
+        317.933
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 15,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q26": [
@@ -43920,21 +43846,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        325.84,
+        531.667,
+        467.173
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 16,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q27": [
@@ -43942,21 +43865,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        475.48,
+        501.667,
+        581.48
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 17,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q28": [
@@ -43964,21 +43884,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        589.813,
+        532.0,
+        682.813
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 18,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q29": [
@@ -43986,21 +43903,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.4,
+        531.667,
+        133.733
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 19,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q30": [
@@ -44008,21 +43922,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        141.76,
+        532.0,
+        223.76
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 20,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q31": [
@@ -44030,21 +43941,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        231.88,
+        483.333,
+        267.547
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 21,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q32": [
@@ -44052,21 +43960,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        277.48,
+        449.333,
+        392.147
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 22,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q33": [
@@ -44074,21 +43979,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        402.4,
+        531.667,
+        499.733
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 23,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q34": [
@@ -44096,21 +43998,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        508.12,
+        531.667,
+        554.12
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 24,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q35": [
@@ -44118,21 +44017,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        562.48,
+        499.667,
+        621.147
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 25,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q36": [
@@ -44140,21 +44036,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        119.293,
+        529.0,
+        299.293
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 26,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q37": [
@@ -44162,21 +44055,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        308.44,
+        415.333,
+        375.773
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 27,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q38": [
@@ -44184,21 +44074,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        386.08,
+        452.667,
+        517.08
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 28,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q39": [
@@ -44206,21 +44093,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        526.48,
+        531.667,
+        609.147
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 29,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q40": [
@@ -44228,21 +44112,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        617.68,
+        468.667,
+        667.346
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 30,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q41": [
@@ -44250,21 +44131,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.4,
+        477.333,
+        228
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 31,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q42": [
@@ -44272,21 +44150,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        230.833,
+        340.333,
+        361
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 32,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q43": [
@@ -44294,21 +44169,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        363.5,
+        488.0,
+        601.973
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 33,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q44": [
@@ -44316,21 +44188,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        609.973,
+        532.0,
+        714
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 34,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q45": [
@@ -44338,21 +44207,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.4,
+        511.333,
+        343
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 35,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q46": [
@@ -44360,21 +44226,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        345.5,
+        531.667,
+        402
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 36,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q47": [
@@ -44382,21 +44245,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        403.333,
+        532.0,
+        496
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 37,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q48": [
@@ -44404,21 +44264,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        497.0,
+        532.0,
+        713.333
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 38,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q49": [
@@ -44426,21 +44283,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        87.733,
+        531.667,
+        467
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 39,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q50": [
@@ -44448,21 +44302,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        467.333,
+        531.667,
+        627
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 40,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q51": [
@@ -44470,21 +44321,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        627,
+        488.0,
+        716
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 41,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q52": [
@@ -44492,21 +44340,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        99.947,
+        532.0,
+        227.28
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 42,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q53": [
@@ -44514,21 +44359,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        235.72,
+        531.667,
+        294.72
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 43,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q54": [
@@ -44536,21 +44378,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        305.267,
+        531.667,
+        460.267
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 44,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q55": [
@@ -44558,21 +44397,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        468.52,
+        532.0,
+        574.186
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 45,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q56": [
@@ -44580,21 +44416,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        582.52,
+        531.667,
+        628.52
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 46,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q57": [
@@ -44602,21 +44435,18 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        79.0,
+        635.88,
+        459.667,
+        690.88
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 47,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q58": [
@@ -44624,21 +44454,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        78.667,
+        113.667,
+        531.667,
+        300.667
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 48,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-48-49",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 11,
+      "bbox": [
+        79.0,
+        307.573,
+        531.667,
+        364
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 48,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q59": [
@@ -44646,21 +44492,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        612.0,
-        792.0
+        78.667,
+        113.667,
+        531.667,
+        300.667
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 49,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-48-49",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 11,
+      "bbox": [
+        79.0,
+        364,
+        532.667,
+        418
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 49,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q60": [
@@ -44668,20 +44530,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 11,
       "bbox": [
-        0,
-        597.89,
-        612.0,
-        658.33
+        78.667,
+        421.333,
+        531.667,
+        598
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 50,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-50-51",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 11,
+      "bbox": [
+        79.0,
+        602.893,
+        532.0,
+        661
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 50,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q61": [
@@ -44689,20 +44568,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 11,
       "bbox": [
-        0,
-        656.33,
-        612.0,
-        792.0
+        78.667,
+        421.333,
+        531.667,
+        598
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 51,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-50-51",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 11,
+      "bbox": [
+        79.0,
+        661,
+        532.333,
+        714
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 51,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q62": [
@@ -44710,20 +44606,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 12,
       "bbox": [
-        0,
-        210.17,
-        612.0,
-        259.69
+        78.667,
+        112.667,
+        531.667,
+        211
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 52,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-52-53",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 12,
+      "bbox": [
+        78.333,
+        214.84,
+        443.667,
+        254.173
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 52,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q63": [
@@ -44731,20 +44644,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 12,
       "bbox": [
-        0,
-        257.69,
-        612.0,
-        381.61
+        78.667,
+        112.667,
+        531.667,
+        211
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 53,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-52-53",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 12,
+      "bbox": [
+        79.0,
+        262.36,
+        531.333,
+        308.36
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 53,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q64": [
@@ -44752,20 +44682,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 12,
       "bbox": [
-        0,
-        379.61,
-        612.0,
-        429.25
+        78.667,
+        317.0,
+        531.333,
+        380
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 54,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-54-55",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 12,
+      "bbox": [
+        78.333,
+        384.613,
+        438.333,
+        423.613
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 54,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2013-Q65": [
@@ -44773,20 +44720,37 @@
       "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
       "page": 12,
       "bbox": [
-        0,
-        427.25,
-        612.0,
-        792.0
+        78.667,
+        317.0,
+        531.333,
+        380
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 55,
+      "role": "shared_context",
+      "shared_context_group": "CS-2013-printed-54-55",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+      "page": 12,
+      "bbox": [
+        79.0,
+        432.253,
+        430.0,
+        479.253
+      ],
+      "status": "verified",
+      "method": "manual_full_page_visual_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+      "printed_question_number": 55,
+      "review_audit": "audits/crops-CS-2013.json"
     }
   ],
   "CS-2014-S1-Q1": [

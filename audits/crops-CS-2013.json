@@ -1,0 +1,1509 @@
+{
+  "paper_id": "CS-2013",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "94f3bd5a1abc97c553e28f2fbea39610bfbde70bacb30d402efec8c46b9e8e7b",
+  "preparation_evidence_sha256": "26234fdd18fac5a31e52b1c4e40ccf633890e08920505a1caa084110af8b9567",
+  "independent_review_evidence_sha256": "c649909052361ac71b761629596e7d28929f8a5348900db5fbe1ad1d8f8cb328",
+  "questions": 65,
+  "crop_parts": 73,
+  "verified_questions": 65,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "status": "approved",
+    "paper_id": "CS-2013",
+    "scope": "Independent source crop boundaries and rendered output review only; not transcription, answers, or solution verification.",
+    "review_date": "2026-11-10",
+    "source_sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+    "crops_sha256": "94f3bd5a1abc97c553e28f2fbea39610bfbde70bacb30d402efec8c46b9e8e7b",
+    "questions": 65,
+    "parts": 73,
+    "source_pages_visually_reviewed": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contact_sheets": [
+      {
+        "file": "contact-01.png",
+        "sha256": "7de23222db28eb3cbe6bf15b260427e9cedd0eef5ae585890f2bb6ac68d1860f",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-02.png",
+        "sha256": "2ad122b162ff98b84e99bdbc3898df08fbaeb6aa017a6410c61464d229bfc025",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-03.png",
+        "sha256": "525a16315e3e9cb897744d958d52eed978199b471aaf78b5a57b19fb18e49520",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-04.png",
+        "sha256": "ee6df56d639355408d0872b8242b69c05a34c62aca9e554e058da32deda0390a",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-05.png",
+        "sha256": "73c4c331d938b095b9d88971b9f85cd7ee9fde9963756851c12d73066ba94fb6",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-06.png",
+        "sha256": "8655ee9ed58e001a1c97fd81536246a7b3e8b39c3dc85597c59682f992212ddb",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-07.png",
+        "sha256": "3f6b4d5f269fa43c7dcbc985600d47ad3eb4954c956b9c11e995d392bdab5e54",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-08.png",
+        "sha256": "877e1adac88cbac05d1435c3d39aa9954a9a4eccb7fe126f1bd707c1eef57ed6",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-09.png",
+        "sha256": "433e942c8aa389be80ac6beda551b18d8cef11c4104441c106052291eb1619c5",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-10.png",
+        "sha256": "122ba0a5259a80ebd1f1f4be64f7da7867a76bf0781beadc1d338c9f242b537b",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-11.png",
+        "sha256": "500876e79120c8fc2e2223b6251d12daba3719979f1e6748880136137e14bfef",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-12.png",
+        "sha256": "f0290d24366265a64a58bc0aaf97fe439d8a9ba8505bb1068996c1ab81b164dc",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-13.png",
+        "sha256": "632c165f2c93dd5b656b25f7b41751802f680166be957aa7d257798bf4c70755",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-14.png",
+        "sha256": "db1bd9ca9fdd7624d2aeace9a7d5c62e87962a722b0eb3bd1a0b1c4e58baa5fb",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-15.png",
+        "sha256": "232477214aeca7bc16747a1abe81d1585c14d736f6d405dbf28847222c8bf3c3",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-16.png",
+        "sha256": "dd737428021afa3524525cce7a5cd776c3fadfd8a420f05e97e80973c67cc114",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-17.png",
+        "sha256": "6c6b39fb4f591049543e6c6bf1254223bce8876ede9d9040148c2a09996f05b5",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-18.png",
+        "sha256": "15e465e7e794b1b5b76d3bc1d714e497f77ed2c3b1fdd384cf9de83d08e47fbc",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      },
+      {
+        "file": "contact-19.png",
+        "sha256": "d6d4b1c739547521b04d7c02778d51a4d661387de4d7a880068b25e5f8ea3606",
+        "visually_reviewed": true,
+        "actual_output_composite_pixel_identical": true
+      }
+    ],
+    "render_scale": 3,
+    "webp_quality": 80,
+    "fresh_render_byte_identity_count": 73,
+    "own_question_markers_checked": 65,
+    "intentional_shared_context_overlaps": [
+      [
+        "CS-2013-Q58",
+        1,
+        "CS-2013-Q59",
+        1
+      ],
+      [
+        "CS-2013-Q60",
+        1,
+        "CS-2013-Q61",
+        1
+      ],
+      [
+        "CS-2013-Q62",
+        1,
+        "CS-2013-Q63",
+        1
+      ],
+      [
+        "CS-2013-Q64",
+        1,
+        "CS-2013-Q65",
+        1
+      ]
+    ],
+    "unexpected_overlap_count": 0,
+    "issues": [],
+    "visual_findings": [
+      "Inspected full source pages 2–14 and every actual output via 19 contact sheets, independently recomposed from the 73 WebP files and confirmed pixel identical. All stems, option sets, tables, diagrams, mathematics, code and closing braces retained.",
+      "Code A printed 1–55 maps to normalized Q11–65; printed 56–65 maps to normalized Q1–10. All 65 own printed markers retained in question parts.",
+      "Q13 (printed 3) retains full upper determinant and all four matrix options. Q15 truth table, Q24 router diagram, Q33 numerical table, Q43 DFA, Q45 relational expressions, and Q48 module diagrams are complete.",
+      "Dense boundaries at printed 31/32/33, 35/36/37/38, 39/40/41, 48/49 and 50/51 preserve final options and braces without neighbor fragments.",
+      "Shared context is retained as separate first parts for normalized Q58/Q59 (register code), Q60/Q61 (find-and-replace code and all four tests), Q62/Q63 (paging/cache statement), Q64/Q65 (functional dependencies). These four identical first-part pairs are the only positive-area overlaps.",
+      "Headers, footers, marks-section headings and the final end-of-paper notice are excluded. No source continuation was omitted."
+    ],
+    "outputs": [
+      {
+        "question_id": "CS-2013-Q1",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          138.973,
+          479.0,
+          197.307
+        ],
+        "output_sha256": "0085e5dc32f3626cd4249c1fb642f5058dc10b8ced916288624de1cc80affe3f",
+        "dimensions_px": [
+          1200,
+          176
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q2",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          207.613,
+          476.667,
+          253.613
+        ],
+        "output_sha256": "331cdd6d26fa5ccf8a1631c8a66404d2906487a2fca754f18b8786262298bf3d",
+        "dimensions_px": [
+          1193,
+          139
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q3",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          263.8,
+          449.333,
+          297.8
+        ],
+        "output_sha256": "66800ffb3b485f5d9c0cb70f0938be6926e031b8ae26aa13bdd2770817622bb0",
+        "dimensions_px": [
+          1111,
+          103
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q4",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          308.44,
+          502.0,
+          342.773
+        ],
+        "output_sha256": "1055e56fc81f735de7fa86c5d0c7eb10b8a8667fffc007e63f526b345adb6415",
+        "dimensions_px": [
+          1269,
+          104
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q5",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          353.08,
+          332.0,
+          423.413
+        ],
+        "output_sha256": "9e70b879491c0b07b2d2f5544e7266f6135b54c427a9259d0c1ab30a35910680",
+        "dimensions_px": [
+          759,
+          212
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q6",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          464.893,
+          367.333,
+          541.56
+        ],
+        "output_sha256": "ef7c9b0b3708b4cf8351705f0d11b4876e1625e71eef38101639f3ff645783ff",
+        "dimensions_px": [
+          865,
+          231
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q7",
+        "part": 1,
+        "page": 13,
+        "bbox": [
+          79.0,
+          552.04,
+          531.333,
+          598.04
+        ],
+        "output_sha256": "8081293e4e6900d417b257fa6695759ff77b2a4f591dc7e8dca7fc0d3ea60568",
+        "dimensions_px": [
+          1357,
+          139
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q8",
+        "part": 1,
+        "page": 14,
+        "bbox": [
+          79.0,
+          101.653,
+          532.333,
+          257.987
+        ],
+        "output_sha256": "768fb66272f793f776a4bd9dcb09e4797169e8b08b69cf98376ce3564cf46f41",
+        "dimensions_px": [
+          1360,
+          470
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q9",
+        "part": 1,
+        "page": 14,
+        "bbox": [
+          79.0,
+          268.0,
+          531.667,
+          314.0
+        ],
+        "output_sha256": "72f74f45a1cc19ba97c3ad3d75ce7d8a1980203197f8ec0241a70bae1b228729",
+        "dimensions_px": [
+          1358,
+          138
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q10",
+        "part": 1,
+        "page": 14,
+        "bbox": [
+          79.0,
+          324.973,
+          532.333,
+          382.64
+        ],
+        "output_sha256": "7aa7a47604ce24ae712cc7010bfe79840913ed14bd1e961af2047657bf877b4e",
+        "dimensions_px": [
+          1360,
+          174
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q11",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          108.173,
+          531.333,
+          171.507
+        ],
+        "output_sha256": "0332160dd1354803a391722df0a71161ace444e836c870ebbd17d4a19953fd17",
+        "dimensions_px": [
+          1357,
+          191
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q12",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          181.48,
+          532.0,
+          239
+        ],
+        "output_sha256": "1289bf6c039f9c45d5cf30f421413f32fcbd4bf41b55b0905b27821466775e9b",
+        "dimensions_px": [
+          1359,
+          173
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q13",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          245.667,
+          418.667,
+          400.853
+        ],
+        "output_sha256": "3c97fcdd70930283811f39f3f248efbc6cfb5a8e252058eb5172645894826ddd",
+        "dimensions_px": [
+          1019,
+          466
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q14",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          408.52,
+          492.0,
+          440.933
+        ],
+        "output_sha256": "bfcce9d19f4b323e4f3d5f210fae31d7222018df4b5ef0353eb83ebb2aeee759",
+        "dimensions_px": [
+          1239,
+          98
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q15",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          448.933,
+          399.0,
+          606.533
+        ],
+        "output_sha256": "385c0ba1c99b43d51a87c2ccfd391ca4c59b4c4562c26eea5c95609551a4a59c",
+        "dimensions_px": [
+          960,
+          474
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q16",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          614.2,
+          531.667,
+          658.493
+        ],
+        "output_sha256": "f9729c78948170ad5edde68287292a5ff1a9fd4dbc56b98d32b2e7f026592965",
+        "dimensions_px": [
+          1358,
+          134
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q17",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          79.0,
+          666.16,
+          532.333,
+          712.493
+        ],
+        "output_sha256": "124cc9307c6d54949dd1dccfa90842651305981872fdca0fc6582ef0d529cdb3",
+        "dimensions_px": [
+          1360,
+          140
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q18",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          87.067,
+          513.333,
+          125.4
+        ],
+        "output_sha256": "f5fbbd9c7fc6c436a23b79205b11605c10197624b0b3be1f4be1bf4f49b1e819",
+        "dimensions_px": [
+          1303,
+          116
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q19",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          134.293,
+          532.0,
+          192.293
+        ],
+        "output_sha256": "f4f522c11980a4622496dd5f01e4762ec0cfea0c4b6d4c4274b0751ed0454df2",
+        "dimensions_px": [
+          1359,
+          175
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q20",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          200.2,
+          531.667,
+          306.2
+        ],
+        "output_sha256": "d91a68eef1ec1d50fa910f6467a72306829d980aaf7ff406730ae7952b7bd84a",
+        "dimensions_px": [
+          1358,
+          319
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q21",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          314.2,
+          481.333,
+          444.867
+        ],
+        "output_sha256": "1a92533fda6e9ada2c05c5ae7a06c8d9f9dc0b01cde24713d356c6510238fbbe",
+        "dimensions_px": [
+          1207,
+          393
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q22",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          454.933,
+          531.333,
+          536.6
+        ],
+        "output_sha256": "63566d2aaa56c7c90c35da6c73f1aff89d19c8c4bf44572483a19e08a451ca82",
+        "dimensions_px": [
+          1357,
+          246
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q23",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          79.0,
+          544.72,
+          532.333,
+          686.386
+        ],
+        "output_sha256": "5c394151ad389102cf51fbb74fecf46bbc4a0b945f710c7ac85fb1320199321c",
+        "dimensions_px": [
+          1360,
+          426
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q24",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          79.0,
+          87.4,
+          532.0,
+          239.4
+        ],
+        "output_sha256": "57b480b30aaae95b59fe519da932b453c9d9f3581969c86b03251f129cfab421",
+        "dimensions_px": [
+          1359,
+          457
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q25",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          79.0,
+          247.933,
+          521.333,
+          317.933
+        ],
+        "output_sha256": "7e861fb8fccb07ae4808373ba0390934e25131d74ccd9b545290adb30218e2a4",
+        "dimensions_px": [
+          1327,
+          211
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q26",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          79.0,
+          325.84,
+          531.667,
+          467.173
+        ],
+        "output_sha256": "ceac5b1db2ec46dde6f95e05c6847b41c38d536eeb6ceea617d38226b2fc5709",
+        "dimensions_px": [
+          1358,
+          425
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q27",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          79.0,
+          475.48,
+          501.667,
+          581.48
+        ],
+        "output_sha256": "1ba722a767f92b79d69b7371ef6fd33d7dadd327c3577b325961b48af9bfe3e7",
+        "dimensions_px": [
+          1268,
+          319
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q28",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          79.0,
+          589.813,
+          532.0,
+          682.813
+        ],
+        "output_sha256": "0466ab2314fa106c2a4149d46381566001079c011c7e325304fe6a52da6ba918",
+        "dimensions_px": [
+          1359,
+          280
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q29",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          87.4,
+          531.667,
+          133.733
+        ],
+        "output_sha256": "3ffc76f7d933bf05b491e22186d5fb3c8c31f688fa2af08731a3a938ceb5de74",
+        "dimensions_px": [
+          1358,
+          140
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q30",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          141.76,
+          532.0,
+          223.76
+        ],
+        "output_sha256": "c30e0faa9eb6a4e19406e129a66351b489871f9c91a8a8968c427b31fbae4ebb",
+        "dimensions_px": [
+          1359,
+          247
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q31",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          231.88,
+          483.333,
+          267.547
+        ],
+        "output_sha256": "f654320f4e52c0167f3c60dbe5c4b34f5dac9bae8953861b7693824fd25872f8",
+        "dimensions_px": [
+          1213,
+          108
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q32",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          277.48,
+          449.333,
+          392.147
+        ],
+        "output_sha256": "c7f9bcd8e3418fd2683a91a69c159a807caa0430645f1041468d99e2a9624603",
+        "dimensions_px": [
+          1111,
+          345
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q33",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          402.4,
+          531.667,
+          499.733
+        ],
+        "output_sha256": "26bd038b0afb02161a8fafed41a2a68752cd331bed16dee90d79142c1426e72f",
+        "dimensions_px": [
+          1358,
+          293
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q34",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          508.12,
+          531.667,
+          554.12
+        ],
+        "output_sha256": "7bc40d8cdec442c438f4dd3585720462ef1d3b639b480704bb7c1b4bf7f87b37",
+        "dimensions_px": [
+          1358,
+          139
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q35",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          79.0,
+          562.48,
+          499.667,
+          621.147
+        ],
+        "output_sha256": "b6ac7a3c5cd0f219d6455b16903e382fdbe64cc78ce4f399c43d2b7e763b4132",
+        "dimensions_px": [
+          1262,
+          177
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q36",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          79.0,
+          119.293,
+          529.0,
+          299.293
+        ],
+        "output_sha256": "33ae2b36eaf0a559a9df3ef147a50956f3ea3d6b29aba001e80570805b235272",
+        "dimensions_px": [
+          1350,
+          541
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q37",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          79.0,
+          308.44,
+          415.333,
+          375.773
+        ],
+        "output_sha256": "c1e0e1ebbeffb2126c08669ac7c84bbf0baf64366dc5bd3ad3e64b3e3d37bd42",
+        "dimensions_px": [
+          1009,
+          203
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q38",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          79.0,
+          386.08,
+          452.667,
+          517.08
+        ],
+        "output_sha256": "8f8bf1946afaf41ff84ac0295ca8336dcfdb577b9f39a172173da31a9362137e",
+        "dimensions_px": [
+          1121,
+          394
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q39",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          79.0,
+          526.48,
+          531.667,
+          609.147
+        ],
+        "output_sha256": "81c579930bfcad99a1adf1afa7a7b72c573d6bae0413996767132709b5a8aae4",
+        "dimensions_px": [
+          1358,
+          249
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q40",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          79.0,
+          617.68,
+          468.667,
+          667.346
+        ],
+        "output_sha256": "50f15fb00f2e8eee8e3e98139d98d9d0305980baa1d4b2afad5da94cc6cc7fa2",
+        "dimensions_px": [
+          1169,
+          150
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q41",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          79.0,
+          87.4,
+          477.333,
+          228
+        ],
+        "output_sha256": "71ca7a2a49fbf737cbb159899c7d4e83c942c2d9635f143018a40d23c4a00574",
+        "dimensions_px": [
+          1195,
+          422
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q42",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          79.0,
+          230.833,
+          340.333,
+          361
+        ],
+        "output_sha256": "d52d4238cfafc62aa14ca234ff988cceb64ef542c395839059c4995f85558a6e",
+        "dimensions_px": [
+          784,
+          391
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q43",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          79.0,
+          363.5,
+          488.0,
+          601.973
+        ],
+        "output_sha256": "8bec1d30f083ce2874b9bf0b18dc3da51d1c59218cf4e6f9ebf807dd2161900e",
+        "dimensions_px": [
+          1227,
+          716
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q44",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          79.0,
+          609.973,
+          532.0,
+          714
+        ],
+        "output_sha256": "346fd5fe70a29384cb5a9a31abe0797cbc6fdc7a7fca7c70bece4dc021f30f3e",
+        "dimensions_px": [
+          1359,
+          313
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q45",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          79.0,
+          87.4,
+          511.333,
+          343
+        ],
+        "output_sha256": "703c22cfa701a287b65236b3bfd54fa86f61cd5a9c6945c73f00893fe667f81c",
+        "dimensions_px": [
+          1297,
+          767
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q46",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          79.0,
+          345.5,
+          531.667,
+          402
+        ],
+        "output_sha256": "35c0e13615455e13f769093574099c6241606d3a78087059696f21bed2ae4a5c",
+        "dimensions_px": [
+          1358,
+          170
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q47",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          79.0,
+          403.333,
+          532.0,
+          496
+        ],
+        "output_sha256": "1adf6e57e6ebec894844606810b58d9b13a8739fae9417296edb8e5af2658715",
+        "dimensions_px": [
+          1359,
+          278
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q48",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          79.0,
+          497.0,
+          532.0,
+          713.333
+        ],
+        "output_sha256": "1d98db68e84312906c8125cfb14ee1d1252e0af185d5b08103eeb70a05cc4236",
+        "dimensions_px": [
+          1359,
+          649
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q49",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          79.0,
+          87.733,
+          531.667,
+          467
+        ],
+        "output_sha256": "65d3dce48be077234420bb2015c6a1513f014e530f730fd7ed988934726cd8af",
+        "dimensions_px": [
+          1358,
+          1138
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q50",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          79.0,
+          467.333,
+          531.667,
+          627
+        ],
+        "output_sha256": "4eb4af20d9f8f37402b9c535a75ccb70588ed8d4c76f16aaee57222a718a3d8b",
+        "dimensions_px": [
+          1358,
+          479
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q51",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          79.0,
+          627,
+          488.0,
+          716
+        ],
+        "output_sha256": "958e26f05774a1c55b41ca1e91877a3088ced2d2e28d7e86008530c596235046",
+        "dimensions_px": [
+          1227,
+          267
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q52",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          99.947,
+          532.0,
+          227.28
+        ],
+        "output_sha256": "1943b332abc25941c773b134cf5b0e925a7d7b514e2d2f8569165321a785d449",
+        "dimensions_px": [
+          1359,
+          383
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q53",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          235.72,
+          531.667,
+          294.72
+        ],
+        "output_sha256": "df2542ff99550b7251557ec9b74b81847e374f4c7f00e7216cdb40848c52e91e",
+        "dimensions_px": [
+          1358,
+          178
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q54",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          305.267,
+          531.667,
+          460.267
+        ],
+        "output_sha256": "2f6933bda01049f53a1a26966c1481786277067bab367397bd9e63f809a6e520",
+        "dimensions_px": [
+          1358,
+          466
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q55",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          468.52,
+          532.0,
+          574.186
+        ],
+        "output_sha256": "d53543f673d34bfc0423258f9a7c9ed5da672083ef6dcde84afe12235105acf7",
+        "dimensions_px": [
+          1359,
+          318
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q56",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          582.52,
+          531.667,
+          628.52
+        ],
+        "output_sha256": "d0185cebf77ddb9efc8c5df346d92c8bbb616f78fd6bb84065541c3124fa5ea3",
+        "dimensions_px": [
+          1358,
+          139
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q57",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          79.0,
+          635.88,
+          459.667,
+          690.88
+        ],
+        "output_sha256": "0d36361c7bcee33b12816970ddf07dd5a4cc9381191d7942b539ee640aba10a1",
+        "dimensions_px": [
+          1142,
+          166
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q58",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          78.667,
+          113.667,
+          531.667,
+          300.667
+        ],
+        "output_sha256": "c8fbe1ce8df998d848a232c047703fc77ac0187f2f80cd85dad9245421b73f93",
+        "dimensions_px": [
+          1359,
+          561
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q58",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          79.0,
+          307.573,
+          531.667,
+          364
+        ],
+        "output_sha256": "229ae98d7ca39b35e0c5caaa7e250a0faca330dfc7410d479243cf5b2b2cec67",
+        "dimensions_px": [
+          1358,
+          170
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q59",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          78.667,
+          113.667,
+          531.667,
+          300.667
+        ],
+        "output_sha256": "c8fbe1ce8df998d848a232c047703fc77ac0187f2f80cd85dad9245421b73f93",
+        "dimensions_px": [
+          1359,
+          561
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q59",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          79.0,
+          364,
+          532.667,
+          418
+        ],
+        "output_sha256": "40b52aacd0de458edfcb26372d17c8113d1f955908e2d9fd189c5ca6db23c3ab",
+        "dimensions_px": [
+          1361,
+          162
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q60",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          78.667,
+          421.333,
+          531.667,
+          598
+        ],
+        "output_sha256": "f4c6b18554fba1e1cb2cc701aea266fedf41c0ae6e8f66f58eff809bd08edad2",
+        "dimensions_px": [
+          1359,
+          530
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q60",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          79.0,
+          602.893,
+          532.0,
+          661
+        ],
+        "output_sha256": "d1859abb5f51841b658ce762a11c8178554375f90dd4be5e059be53000054f0c",
+        "dimensions_px": [
+          1359,
+          175
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q61",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          78.667,
+          421.333,
+          531.667,
+          598
+        ],
+        "output_sha256": "f4c6b18554fba1e1cb2cc701aea266fedf41c0ae6e8f66f58eff809bd08edad2",
+        "dimensions_px": [
+          1359,
+          530
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q61",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          79.0,
+          661,
+          532.333,
+          714
+        ],
+        "output_sha256": "5d4ca8532c783e231597d52275f5d6d1d13bec481f170d8bd8832bf60b3c8dd5",
+        "dimensions_px": [
+          1360,
+          159
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q62",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          78.667,
+          112.667,
+          531.667,
+          211
+        ],
+        "output_sha256": "8d047c9c4998a2fb1235a8a44fe0ef4760c47085ec91d539ea2605f36b70b770",
+        "dimensions_px": [
+          1359,
+          295
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q62",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          78.333,
+          214.84,
+          443.667,
+          254.173
+        ],
+        "output_sha256": "e39e262c791efcbb60d8e7bc4da8c975470074f3343992ff71ecf184e3596474",
+        "dimensions_px": [
+          1096,
+          119
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q63",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          78.667,
+          112.667,
+          531.667,
+          211
+        ],
+        "output_sha256": "8d047c9c4998a2fb1235a8a44fe0ef4760c47085ec91d539ea2605f36b70b770",
+        "dimensions_px": [
+          1359,
+          295
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q63",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          79.0,
+          262.36,
+          531.333,
+          308.36
+        ],
+        "output_sha256": "e810d3042b8410d577632d254d008a6cce0f3c9bc3e83f18aa35262bdaec61bd",
+        "dimensions_px": [
+          1357,
+          139
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q64",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          78.667,
+          317.0,
+          531.333,
+          380
+        ],
+        "output_sha256": "09d6d4ee1ad20232540ae7149881800730d0079d0653d63c7de1c05f5893cc2c",
+        "dimensions_px": [
+          1358,
+          189
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q64",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          78.333,
+          384.613,
+          438.333,
+          423.613
+        ],
+        "output_sha256": "8886892f58106924f7d8a2eda5a7fbf564367cf9736472babc9e35bc17a523af",
+        "dimensions_px": [
+          1080,
+          118
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q65",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          78.667,
+          317.0,
+          531.333,
+          380
+        ],
+        "output_sha256": "09d6d4ee1ad20232540ae7149881800730d0079d0653d63c7de1c05f5893cc2c",
+        "dimensions_px": [
+          1358,
+          189
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      },
+      {
+        "question_id": "CS-2013-Q65",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          79.0,
+          432.253,
+          430.0,
+          479.253
+        ],
+        "output_sha256": "3090e6f6a541292d1ed792b3efa26d90b98f3a586af301c3e38d7ad3aaf57c5a",
+        "dimensions_px": [
+          1053,
+          142
+        ],
+        "fresh_render_byte_identical": true,
+        "visual_review": "pass"
+      }
+    ]
+  }
+}

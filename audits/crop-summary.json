@@ -1,21 +1,21 @@
 {
   "counts": {
-    "page_fallback": 1648,
-    "candidate_questions": 1911,
-    "text_marker_candidate": 335,
-    "overlap_pairs": 7391,
-    "verified_questions": 1495,
-    "pending_visual_review_questions": 1911,
+    "page_fallback": 1590,
+    "candidate_questions": 1846,
+    "text_marker_candidate": 328,
+    "overlap_pairs": 7251,
+    "verified_questions": 1560,
+    "pending_visual_review_questions": 1846,
     "manual_table_boundary_review": 261,
-    "first_pass_reviewed_questions": 1495,
+    "first_pass_reviewed_questions": 1560,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 1911,
+    "pending_first_pass_questions": 1846,
     "manual_full_page_visual_table_boundary_review": 65,
     "manual_visual_table_boundary_review": 65,
     "manual_page_region_review": 195,
     "manual_source_boundary_review": 65,
     "manual_full_source_visual_question_bounds": 65,
-    "manual_full_page_visual_review": 272,
+    "manual_full_page_visual_review": 345,
     "manual_scanned_page_region_review": 65,
     "manual_full_page_table_boundary_review": 65,
     "source_question_body_image_region": 260,
@@ -90,7 +90,8 @@
       "candidate": 65
     },
     "CS-2013": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 73
     },
     "CS-2014-S1": {
       "verified": 65,
@@ -185,5 +186,66 @@
   },
   "source_count": 40,
   "resolved_sources": 40,
-  "reviewed_border_overlaps": []
+  "reviewed_border_overlaps": [
+    {
+      "questions": [
+        "CS-2013-Q58",
+        "CS-2013-Q59"
+      ],
+      "page": 11,
+      "bbox": [
+        78.667,
+        113.667,
+        531.667,
+        300.667
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "questions": [
+        "CS-2013-Q60",
+        "CS-2013-Q61"
+      ],
+      "page": 11,
+      "bbox": [
+        78.667,
+        421.333,
+        531.667,
+        598
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "questions": [
+        "CS-2013-Q62",
+        "CS-2013-Q63"
+      ],
+      "page": 12,
+      "bbox": [
+        78.667,
+        112.667,
+        531.667,
+        211
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2013.json"
+    },
+    {
+      "questions": [
+        "CS-2013-Q64",
+        "CS-2013-Q65"
+      ],
+      "page": 12,
+      "bbox": [
+        78.667,
+        317.0,
+        531.333,
+        380
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2013.json"
+    }
+  ]
 }
