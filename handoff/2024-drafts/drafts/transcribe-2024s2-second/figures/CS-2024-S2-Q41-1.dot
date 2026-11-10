@@ -1,0 +1,6 @@
+digraph M {graph [splines=true, overlap=true]; node [fontname="serif", fontsize=20, fixedsize=true, width=0.48, height=0.48]; edge [fontname="serif", fontsize=18];
+start [label="", shape=none, width=0, height=0, pos="-40,45!"];
+1 [pos="0,70!", shape=circle]; 2 [pos="65,125!",shape=doublecircle]; 3 [pos="170,125!",shape=circle];4 [pos="65,0!",shape=circle];5 [pos="170,0!",shape=doublecircle];
+start -> 1; 1 -> 2 [label="ε"]; 1 -> 4 [label="ε"];
+2 -> 3 [label="0"];3 -> 2 [label="0"];3 -> 5 [label="ε"];4 -> 5 [label="1"];5 -> 4 [label="1"];
+}

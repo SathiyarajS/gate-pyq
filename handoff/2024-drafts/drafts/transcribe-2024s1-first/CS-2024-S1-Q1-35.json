@@ -1,0 +1,550 @@
+{
+  "CS-2024-S1-Q1": {
+    "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words [dry → arid → parched] is analogous to [diet → fast → ________ ]. Which one of the given options is appropriate to fill the blank?",
+    "options": {
+      "A": "starve",
+      "B": "reject",
+      "C": "feast",
+      "D": "deny"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q2": {
+    "stem": "If two distinct non-zero real variables $x$ and $y$ are such that $(x+y)$ is proportional to $(x-y)$ then the value of $\\frac{x}{y}$",
+    "options": {
+      "A": "depends on $xy$",
+      "B": "depends only on $x$ and not on $y$",
+      "C": "depends only on $y$ and not on $x$",
+      "D": "is a constant"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q3": {
+    "stem": "Consider the following sample of numbers:\n\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13\n\nThe median of the sample is",
+    "options": {
+      "A": "13.5",
+      "B": "14",
+      "C": "11",
+      "D": "18.7"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q4": {
+    "stem": "The number of coins of ₹1, ₹5, and ₹10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in ₹5 coins is",
+    "options": {
+      "A": "21%",
+      "B": "$14\\frac{2}{7}\\%$",
+      "C": "10%",
+      "D": "30%"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q5": {
+    "stem": "For positive non-zero real variables $p$ and $q$, if\n$$\\log(p^2+q^2)=\\log p+\\log q+2\\log 3\\ ,$$\nthen, the value of $\\frac{p^4+q^4}{p^2q^2}$ is",
+    "options": {
+      "A": "79",
+      "B": "81",
+      "C": "9",
+      "D": "83"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      3
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q6": {
+    "stem": "In the given text, the blanks are numbered (i)−(iv). Select the best match for all the blanks.\n\nSteve was advised to keep his head ___(i)___ before heading ___(ii)___ to bat;\nfor, while he had a head ___(iii)___ batting, he could only do so with a cool head\n___(iv)___ his shoulders.",
+    "options": {
+      "A": "(i) down (ii) down (iii) on (iv) for",
+      "B": "(i) on (ii) down (iii) for (iv) on",
+      "C": "(i) down (ii) out (iii) for (iv) on",
+      "D": "(i) on (ii) out (iii) on (iv) for"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      4
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q7": {
+    "stem": "A rectangular paper sheet of dimensions 54 cm × 4 cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken. Then, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+    "options": {
+      "A": "$1/\\pi$",
+      "B": "$2/\\pi$",
+      "C": "$3/\\pi$",
+      "D": "$4/\\pi$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      5
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q8": {
+    "stem": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person.\n\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n\n| Macronutrient | Energy density (kcal/g) |\n|---|---|\n| Carbohydrates | 4 |\n| Proteins | 4 |\n| Unsaturated fat | 9 |\n| Saturated fat | 9 |\n| Trans fat | 9 |\n\nThe total fat (all three types), in grams, this person consumes is",
+    "options": {
+      "A": "44.4",
+      "B": "77.8",
+      "C": "100",
+      "D": "3,600"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q8-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      6
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q9": {
+    "stem": "A rectangular paper of 20 cm × 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+    "options": {
+      "A": "18",
+      "B": "24",
+      "C": "20",
+      "D": "21"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q10": {
+    "stem": "The least number of squares to be added in the figure to make AB a line of symmetry is",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q10-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q11": {
+    "stem": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a function such that $f(x)=\\max\\{x,x^3\\},\\ x\\in\\mathbb{R}$, where $\\mathbb{R}$ is the set of all real numbers. The set of all points where $f(x)$ is NOT differentiable is",
+    "options": {
+      "A": "$\\{-1,1,2\\}$",
+      "B": "$\\{-2,-1,1\\}$",
+      "C": "$\\{0,1\\}$",
+      "D": "$\\{-1,0,1\\}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q12": {
+    "stem": "The product of all eigenvalues of the matrix $\\begin{bmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{bmatrix}$ is",
+    "options": {
+      "A": "−1",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q13": {
+    "stem": "Consider a system that uses 5 bits for representing signed integers in 2’s complement format. In this system, two integers $A$ and $B$ are represented as $A=01010$ and $B=11010$. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+    "options": {
+      "A": "$A+B$",
+      "B": "$A-B$",
+      "C": "$B-A$",
+      "D": "$2*B$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q14": {
+    "stem": "Consider a permutation sampled uniformly at random from the set of all permutations of $\\{1,2,3,\\cdots,n\\}$ for some $n\\geq4$. Let $X$ be the event that 1 occurs before 2 in the permutation, and $Y$ the event that 3 occurs before 4. Which one of the following statements is TRUE?",
+    "options": {
+      "A": "The events $X$ and $Y$ are mutually exclusive",
+      "B": "The events $X$ and $Y$ are independent",
+      "C": "Either event $X$ or $Y$ must occur",
+      "D": "Event $X$ is more likely than event $Y$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q15": {
+    "stem": "Which one of the following statements is FALSE?",
+    "options": {
+      "A": "In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle",
+      "B": "For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode",
+      "C": "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+      "D": "The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      10
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q16": {
+    "stem": "A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user’s computer in some order. \n\n(i) HTTP GET request for the index page \n\n(ii) DNS request to resolve the web server’s name to its IP address \n\n(iii) HTTP GET request for an image object \n\n(iv) TCP SYN to open a connection to the web server \n\nWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ?",
+    "options": {
+      "A": "(iv), (ii), (iii), (i)",
+      "B": "(ii), (iv), (iii), (i)",
+      "C": "(ii), (iv), (i), (iii)",
+      "D": "(iv), (ii), (i), (iii)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q17": {
+    "stem": "Given an integer array of size $N$, we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+    "options": {
+      "A": "both $O(N)$ and $\\Omega(N)$",
+      "B": "$O(N)$ but not $\\Omega(N)$",
+      "C": "$\\Omega(N)$ but not $O(N)$",
+      "D": "neither $O(N)$ nor $\\Omega(N)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q18": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\nint main(){\n   int a = 6;\n   int b = 0;\n   while(a < 10) {\n      a = a / 12 + 1;\n      a += b;}\n   printf(”%d”, a);\n   return 0;}\n```\n[sic: typographic double quotation marks in source.]\n\nWhich one of the following statements is CORRECT?",
+    "options": {
+      "A": "The program prints 9 as output",
+      "B": "The program prints 10 as output",
+      "C": "The program gets stuck in an infinite loop",
+      "D": "The program prints 6 as output"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      12
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending. Source contains typographic quotation marks in C code; retained with [sic]. Proposed question-error discrepancy and solution qualification are in proposed-corrections.json.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q19": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\nvoid fX();\nint main(){\n   fX();\n   return 0;}\n\n  void fX(){\n   char a;\n   if((a=getchar()) != ’\\n’)\n       fX();\n   if(a != ’\\n’)\n       putchar(a);}\n```\n[sic: typographic single quotation marks in source.]\n\nAssume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT?",
+    "options": {
+      "A": "The program will not terminate",
+      "B": "The program will terminate with no output",
+      "C": "The program will terminate with 4321 as output",
+      "D": "The program will terminate with 1234 as output"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending. Source contains typographic quotation marks in C code; retained with [sic]. Proposed question-error discrepancy and solution qualification are in proposed-corrections.json.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q20": {
+    "stem": "Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S?",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(iv)"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q20-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      14
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q21": {
+    "stem": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases?",
+    "options": {
+      "A": "Only the root node",
+      "B": "All leaf nodes",
+      "C": "All internal nodes",
+      "D": "Only the leftmost leaf node"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q22": {
+    "stem": "Which of the following statements about a relation R in first normal form (1NF) is/are TRUE ?",
+    "options": {
+      "A": "R can have a multi-attribute key",
+      "B": "R cannot have a foreign key",
+      "C": "R cannot have a composite attribute",
+      "D": "R cannot have more than one candidate key"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q23": {
+    "stem": "Let $L_1,L_2$ be two regular languages and $L_3$ a language which is not regular. Which of the following statements is/are *always* TRUE?",
+    "options": {
+      "A": "$L_1=L_2$ if and only if $L_1\\cap\\overline{L_2}=\\phi$",
+      "B": "$L_1\\cup L_3$ is not regular",
+      "C": "$\\overline{L_3}$ is not regular",
+      "D": "$\\overline{L_1}\\cup\\overline{L_2}$ is regular"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q24": {
+    "stem": "Which of the following statements about threads is/are TRUE?",
+    "options": {
+      "A": "Threads can only be implemented in kernel space",
+      "B": "Each thread has its own file descriptor table for open files",
+      "C": "All the threads belonging to a process share a common stack",
+      "D": "Threads belonging to a process are by default not protected from each other"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q25": {
+    "stem": "Which of the following process state transitions is/are NOT possible?",
+    "options": {
+      "A": "Running to Ready",
+      "B": "Waiting to Running",
+      "C": "Ready to Waiting",
+      "D": "Running to Terminated"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q26": {
+    "stem": "Which of the following is/are Bottom-Up Parser(s)?",
+    "options": {
+      "A": "Shift-reduce Parser",
+      "B": "Predictive Parser",
+      "C": "LL(1) Parser",
+      "D": "LR Parser"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q27": {
+    "stem": "Let $A$ and $B$ be two events in a probability space with $P(A)=0.3$, $P(B)=0.5$, and $P(A\\cap B)=0.1$. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "The two events $A$ and $B$ are independent",
+      "B": "$P(A\\cup B)=0.7$",
+      "C": "$P(A\\cap B^c)=0.2$, where $B^c$ is the complement of the event $B$",
+      "D": "$P(A^c\\cap B^c)=0.4$, where $A^c$ and $B^c$ are the complements of the events $A$ and $B$, respectively"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q28": {
+    "stem": "Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT?",
+    "options": {
+      "A": "With no propagation delays, the output $Y$ is always logic Zero",
+      "B": "With no propagation delays, the output $Y$ is always logic One",
+      "C": "With propagation delays, the output $Y$ can have a transient logic One after $X$ transitions from logic Zero to logic One",
+      "D": "With propagation delays, the output $Y$ can have a transient logic Zero after $X$ transitions from logic One to logic Zero"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q28-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q29": {
+    "stem": "TCP client P successfully establishes a connection to TCP server Q. Let $N_P$ denote the sequence number in the SYN sent from P to Q. Let $N_Q$ denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?",
+    "options": {
+      "A": "The sequence number $N_P$ is chosen randomly by P",
+      "B": "The sequence number $N_P$ is always 0 for a new connection",
+      "C": "The acknowledgement number $N_Q$ is equal to $N_P$",
+      "D": "The acknowledgement number $N_Q$ is equal to $N_P+1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q30": {
+    "stem": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+    "options": {
+      "A": "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+      "B": "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+      "C": "Forwarding cannot prevent all pipeline stalls",
+      "D": "Forwarding does not require any extra hardware to retrieve the data from the pipeline stages"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q31": {
+    "stem": "Which of the following fields is/are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network?",
+    "options": {
+      "A": "Source IP",
+      "B": "Destination IP",
+      "C": "Header Checksum",
+      "D": "Total Length"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q32": {
+    "stem": "Let $A$ and $B$ be non-empty finite sets such that there exist one-to-one and onto functions (i) from $A$ to $B$ and (ii) from $A\\times A$ to $A\\cup B$. The number of possible values of $|A|$ is __________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q33": {
+    "stem": "Consider the operator precedence and associativity rules for the *integer* arithmetic operators given in the table below.\n\n| Operator | Precedence | Associativity |\n|---|---|---|\n| $+$ | Highest | Left |\n| $-$ | High | Right |\n| $*$ | Medium | Right |\n| $/$ | Low | Right |\n\nThe value of the expression $3+1+5*2/7+2-4-7-6/2$ as per the above rules is __________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q34": {
+    "stem": "The number of spanning trees in a complete graph of 4 vertices labelled A, B, C, and D is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q35": {
+    "stem": "Consider the following two relations, **R(A,B)** and **S(A,C)**:\n\n**R**\n\n| A | B |\n|---|---|\n| 10 | 20 |\n| 20 | 30 |\n| 30 | 40 |\n| 30 | 50 |\n| 50 | 95 |\n\n**S**\n\n| A | C |\n|---|---|\n| 10 | 90 |\n| 30 | 45 |\n| 40 | 80 |\n\nThe total number of tuples obtained by evaluating the following expression\n$$\\sigma_{B<C}(R\\bowtie_{R.A=S.A}S)$$\nis _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Extracted text corrected against rendered canonical source pages by transcribe_2024_s1_first. Independent source/figure review and manual production-rendered comparison pending.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  }
+}

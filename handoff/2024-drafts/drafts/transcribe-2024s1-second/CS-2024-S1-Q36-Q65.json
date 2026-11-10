@@ -1,0 +1,426 @@
+{
+  "CS-2024-S1-Q36": {
+    "stem": "Consider a network path P—Q—R between nodes P and R via router Q. Node P sends a file of size $10^6$ bytes to R via this path by splitting the file into chunks of $10^3$ bytes each. Node P sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n\nEach of the links P—Q and Q—R has a bandwidth of $10^6$ bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P—Q and transmit on link Q—R.\n\nAssume P starts transmitting the chunks at time $t = 0$.\nWhich one of the following options gives the time *(in seconds, rounded off to 3 decimal places)* at which R receives all the chunks of the file?",
+    "options": {
+      "A": "8.000",
+      "B": "8.008",
+      "C": "15.992",
+      "D": "16.000"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q37": {
+    "stem": "Consider the following syntax-directed definition (SDD).\n\n| | |\n|---|---|\n| $S \\to DHTU$ | $\\{\\ S.val = D.val + H.val + T.val + U.val;\\ \\}$ |\n| $D \\to \\text{\"M\"}D_1$ | $\\{\\ D.val = 5 + D_1.val;\\ \\}$ |\n| $D \\to \\epsilon$ | $\\{\\ D.val = -5;\\ \\}$ |\n| $H \\to \\text{\"L\"}H_1$ | $\\{\\ H.val = 5 * 10 + H_1.val;\\ \\}$ |\n| $H \\to \\epsilon$ | $\\{\\ H.val = -10;\\ \\}$ |\n| $T \\to \\text{\"C\"}T_1$ | $\\{\\ T.val = 5 * 100 + T_1.val;\\ \\}$ |\n| $T \\to \\epsilon$ | $\\{\\ T.val = -5;\\ \\}$ |\n| $U \\to \\text{\"K\"}$ | $\\{\\ U.val = 5;\\ \\}$ |\n\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute $S.val$)?",
+    "options": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "65"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      23
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q38": {
+    "stem": "Consider the following grammar $G$, with $S$ as the start symbol. The grammar $G$ has three incomplete productions denoted by (1), (2), and (3).\n\n$$\\begin{aligned}S&\\to daT\\mid\\underline{\\quad(1)\\quad}\\\\T&\\to aS\\mid bT\\mid\\underline{\\quad(2)\\quad}\\\\R&\\to\\underline{\\quad(3)\\quad}\\mid\\epsilon\\end{aligned}$$\n\nThe set of terminals is $\\{a,b,c,d,f\\}$. The FIRST and FOLLOW sets of the different non-terminals are as follows.\n\n$$\\operatorname{FIRST}(S)=\\{c,d,f\\},\\ \\operatorname{FIRST}(T)=\\{a,b,\\epsilon\\},\\ \\operatorname{FIRST}(R)=\\{c,\\epsilon\\}$$\n$$\\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c,f,\\$\\},\\ \\operatorname{FOLLOW}(R)=\\{f\\}$$\n\nWhich one of the following options CORRECTLY fills in the incomplete productions?",
+    "options": {
+      "A": "(1) $S\\to Rf$    (2) $T\\to\\epsilon$    (3) $R\\to cTR$",
+      "B": "(1) $S\\to fR$    (2) $T\\to\\epsilon$    (3) $R\\to cTR$",
+      "C": "(1) $S\\to fR$    (2) $T\\to cT$    (3) $R\\to cR$",
+      "D": "(1) $S\\to Rf$    (2) $T\\to cT$    (3) $R\\to cR$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      24
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q39": {
+    "stem": "Consider the following pseudo-code.\n\n```text\nL1:        t1 = -1\nL2:        t2 = 0\nL3:        t3 = 0\nL4:        t4 = 4 * t3\nL5:        t5 = 4 * t2\nL6:        t6 = t5 * M\nL7:        t7 = t4 + t6\nL8:        t8 = a[t7]\nL9:        if t8 <= max goto L11\nL10:       t1 = t8\nL11:       t3 = t3 + 1\nL12:       if t3 < M goto L4\nL13:       t2 = t2 + 1\nL14:       if t2 < N goto L3\nL15:       max = t1\n```\n\nWhich one of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively ?",
+    "options": {
+      "A": "6 and 6",
+      "B": "6 and 7",
+      "C": "7 and 7",
+      "D": "7 and 6"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q40": {
+    "stem": "Consider the following two threads T1 and T2 that update two shared variables a and b. Assume that initially a = b = 1. Though context switching between threads can happen at any time, each statement of T1 or T2 is executed atomically without interruption.\n\n```text\n     T1                        T2\n\na = a + 1;                 b = 2 * b;\nb = b + 1;                 a = 2 * a;\n```\n\nWhich one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution?",
+    "options": {
+      "A": "(a = 4, b = 4); (a = 3, b = 3); (a = 4, b = 3)",
+      "B": "(a = 3, b = 4); (a = 4, b = 3); (a = 3, b = 3)",
+      "C": "(a = 4, b = 4); (a = 4, b = 3); (a = 3, b = 4)",
+      "D": "(a = 2, b = 2); (a = 2, b = 3); (a = 3, b = 4)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q41": {
+    "stem": "An array [82, 101, 90, 11, 111, 75, 33, 131, 44, 93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+    "options": {
+      "A": "82, 90, 101",
+      "B": "82, 11, 93",
+      "C": "131, 11, 93",
+      "D": "131, 111, 90"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source. Existing source qualification CS-2024-S1-Q41-HEAP-TYPE remains applicable.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q42": {
+    "stem": "Consider the following recurrence relation:\n\n$$T(n)=\\begin{cases}\\sqrt{n}T(\\sqrt{n})+n&\\text{for }n\\geq 1,\\\\1&\\text{for }n=1.\\end{cases}$$\n[sic]\n\nWhich one of the following options is CORRECT?",
+    "options": {
+      "A": "$T(n)=\\Theta(n\\log\\log n)$",
+      "B": "$T(n)=\\Theta(n\\log n)$",
+      "C": "$T(n)=\\Theta(n^2\\log n)$",
+      "D": "$T(n)=\\Theta(n^2\\log\\log n)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source. The printed recursive condition n ≥ 1 is preserved with [sic]; existing question-error CS-2024-S1-Q42-BASE-CASE already explains the contradiction and stopping-model issue.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q43": {
+    "stem": "Consider a binary min-heap containing 105 distinct elements. Let $k$ be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of $k$ is",
+    "options": {
+      "A": "53",
+      "B": "52",
+      "C": "27",
+      "D": "1"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q44": {
+    "stem": "The symbol $\\to$ indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "$(X,Y)\\to(Z,W)$ implies $X\\to(Z,W)$",
+      "B": "$(X,Y)\\to(Z,W)$ implies $(X,Y)\\to Z$",
+      "C": "$((X,Y)\\to Z\\ \\text{and}\\ W\\to Y)$ implies $(X,W)\\to Z$",
+      "D": "$(X\\to Y\\ \\text{and}\\ Y\\to Z)$ implies $X\\to Z$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q45": {
+    "stem": "Let $G$ be a directed graph and $T$ a depth first search (DFS) spanning tree in $G$ that is rooted at a vertex $v$. Suppose $T$ is also a breadth first search (BFS) tree in $G$, rooted at $v$. Which of the following statements is/are TRUE for every such graph $G$ and tree $T$ ?",
+    "options": {
+      "A": "There are no back-edges in $G$ with respect to the tree $T$",
+      "B": "There are no cross-edges in $G$ with respect to the tree $T$",
+      "C": "There are no forward-edges in $G$ with respect to the tree $T$",
+      "D": "The only edges in $G$ are the edges in $T$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q46": {
+    "stem": "Consider the following read-write schedule $S$ over three transactions $T_1, T_2,$ and $T_3$, where the subscripts in the schedule indicate transaction IDs:\n\n$$S: r_1(z);\\ w_1(z);\\ r_2(x);\\ r_3(y);\\ w_3(y);\\ r_2(y);\\ w_2(x);\\ w_2(y);$$\n\nWhich of the following transaction schedules is/are conflict equivalent to $S$ ?",
+    "options": {
+      "A": "$T_1T_2T_3$",
+      "B": "$T_1T_3T_2$",
+      "C": "$T_3T_2T_1$",
+      "D": "$T_3T_1T_2$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q47": {
+    "stem": "Consider a Boolean expression given by $F(X,Y,Z)=\\sum(3,5,6,7)$.\nWhich of the following statements is/are CORRECT?",
+    "options": {
+      "A": "$F(X,Y,Z)=\\Pi(0,1,2,4)$",
+      "B": "$F(X,Y,Z)=XY+YZ+XZ$",
+      "C": "$F(X,Y,Z)$ is independent of input $Y$",
+      "D": "$F(X,Y,Z)$ is independent of input $X$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q48": {
+    "stem": "Consider the following C function definition.\n\n```c\nint f(int x, int y) {\n  for (int i=0; i<y; i++) {\n    x=x+x+y;\n  }\n  return x;\n}\n```\n\nWhich of the following statements is/are TRUE about the above function?",
+    "options": {
+      "A": "If the inputs are x=20, y=10, then the return value is greater than $2^{20}$",
+      "B": "If the inputs are x=20, y=20, then the return value is greater than $2^{20}$",
+      "C": "If the inputs are x=20, y=10, then the return value is less than $2^{10}$",
+      "D": "If the inputs are x=10, y=20, then the return value is greater than $2^{20}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q49": {
+    "stem": "Let $A$ be any $n\\times m$ matrix, where $m>n$. Which of the following statements is/are TRUE about the system of linear equations $Ax=0$ ?",
+    "options": {
+      "A": "There exist at least $m-n$ linearly independent solutions to this system",
+      "B": "There exist $m-n$ linearly independent vectors such that every solution is a linear combination of these vectors",
+      "C": "There exists a non-zero solution in which at least $m-n$ variables are 0",
+      "D": "There exists a solution in which at least $n$ variables are non-zero"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q50": {
+    "stem": "Consider the 5-state DFA $M$ accepting the language $L(M)\\subset(0+1)^*$ shown below. For any string $w\\in(0+1)^*$ let $n_0(w)$ be the number of $0$’s in $w$ and $n_1(w)$ be the number of $1$’s in $w$.\n\nWhich of the following statements is/are FALSE?",
+    "options": {
+      "A": "States 2 and 4 are distinguishable in $M$",
+      "B": "States 3 and 4 are distinguishable in $M$",
+      "C": "States 2 and 5 are distinguishable in $M$",
+      "D": "Any string $w$ with $n_0(w)=n_1(w)$ is in $L(M)$"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q50-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q51": {
+    "stem": "The chromatic number of a graph is the minimum number of colours used in a *proper* colouring of the graph. Let $G$ be any graph with $n$ vertices and chromatic number $k$. Which of the following statements is/are always TRUE?",
+    "options": {
+      "A": "$G$ contains a complete subgraph with $k$ vertices",
+      "B": "$G$ contains an independent set of size at least $n/k$",
+      "C": "$G$ contains at least $k(k-1)/2$ edges",
+      "D": "$G$ contains a vertex of degree at least $k$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q52": {
+    "stem": "Consider the operators $\\diamond$ and $\\square$ defined by $a\\diamond b=a+2b$, $a\\square b=ab$, for positive integers. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "Operator $\\diamond$ obeys the associative law",
+      "B": "Operator $\\square$ obeys the associative law",
+      "C": "Operator $\\diamond$ over the operator $\\square$ obeys the distributive law",
+      "D": "Operator $\\square$ over the operator $\\diamond$ obeys the distributive law"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q53": {
+    "stem": "Consider two set-associative cache memory architectures: WBC, which uses the write back policy, and WTC, which uses the write through policy. Both of them use the LRU (Least Recently Used) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "A read miss in WBC never evicts a dirty block",
+      "B": "A read miss in WTC never triggers a write back operation of a cache block to main memory",
+      "C": "A write hit in WBC can modify the value of the dirty bit of a cache block",
+      "D": "A write miss in WTC always writes the victim cache block to main memory before loading the missed block to the cache"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q54": {
+    "stem": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q55": {
+    "stem": "The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (ns). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10 ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized code for an equal amount of time. The number of cores that minimize the execution time of the program is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q56": {
+    "stem": "A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per instruction) without any memory stalls is 2. The program exhibits 2% miss rate on instruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles. The speedup (rounded off to two decimal places) achieved with a perfect cache (i.e., with NO data or instruction cache misses) is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q57": {
+    "stem": "Consider the following code snippet using the `fork()` and `wait()` system calls. Assume that the code compiles and runs correctly, and that the system calls run successfully without any errors.\n\n```c\nint x = 3;\nwhile(x > 0) {\n  fork();\n  printf(\"hello\");\n  wait(NULL);\n  x--;\n}\n```\n\nThe total number of times the `printf` statement is executed is _______",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source. Existing source qualification CS-2024-S1-Q57-WAIT-PREMISE remains applicable.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q58": {
+    "stem": "Consider the entries shown below in the forwarding table of an IP router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation “/N” in a prefix indicates a subnet mask with the most significant N bits set to 1.\n\n| Prefix | Next hop router |\n|---|---|\n| 10.1.1.0/24 | R1 |\n| 10.1.1.128/25 | R2 |\n| 10.1.1.64/26 | R3 |\n| 10.1.1.192/26 | R4 |\n\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205 . The number of packets forwarded via the next hop router R2 is _______",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q59": {
+    "stem": "Let $G=(V,\\Sigma,S,P)$ be a context-free grammar in Chomsky Normal Form with $\\Sigma=\\{a,b,c\\}$ and $V$ containing 10 variable symbols including the start symbol $S$. The string $w=a^{30}b^{30}c^{30}$ is derivable from $S$. The number of steps (application of rules) in the derivation $S\\to^* w$ is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q60": {
+    "stem": "The number of edges present in the forest generated by the DFS traversal of an undirected graph $G$ with 100 vertices is 40. The number of connected components in $G$ is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q61": {
+    "stem": "Consider the following two regular expressions over the alphabet $\\{0,1\\}$:\n\n$$r=0^*+1^*$$\n$$s=01^*+10^*$$\n\nThe total number of strings of length less than or equal to 5, which are neither in $r$ nor in $s$, is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q62": {
+    "stem": "Consider a memory management system that uses a page size of 2 KB. Assume that both the physical and virtual addresses start from 0. Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, 2, and 0, respectively. The physical address (in decimal format) corresponding to the virtual address 2500 (in decimal format) is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q63": {
+    "stem": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q64": {
+    "stem": "Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. X1 and X2 are inputs of M1. X3 and X4 are inputs of M2. A, B, and C are select lines of M1, M2, and M3, respectively.\n\nFor an instance of inputs **X1=1, X2=1, X3=0, and X4=0**, the number of combinations of A, B, C that give the output **Y=1** is _________",
+    "options": {},
+    "figures": [
+      "figures/CS-2024-S1-Q64-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q65": {
+    "stem": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Prepared from extracted text and visually compared with the actual rendered source page. Independent source/figure review and user manual production-rendered comparison remain pending. Existing solution checked against source.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  }
+}

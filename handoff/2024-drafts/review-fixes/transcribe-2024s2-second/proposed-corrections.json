@@ -1,0 +1,11 @@
+[
+  {
+    "question_id": "CS-2024-S2-Q36",
+    "type": "question-error",
+    "summary": "Printed C program contains typographic double quotation marks and en-dash subtraction signs.",
+    "source_page": 24,
+    "status": "proposed_pending_independent_review",
+    "detail": "Preserve the source code typography and annotate [sic]. Read literally, these are not ASCII C string delimiters/operators. The intended official answer B assumes normal C punctuation.",
+    "proposed_solution_suffix": "Source typography note: The printed program uses typographic quotation marks and en dashes. Interpreting these as the intended ASCII C quotation marks and subtraction operators gives the stated answer B; copied literally, the printed characters do not form valid C tokens."
+  }
+]

@@ -1,0 +1,559 @@
+{
+  "CS-2024-S2-Q1": {
+    "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words\n[walk → jog → sprint] is analogous to [bothered → ________ → daunted].\n\nWhich one of the given options is appropriate to fill the blank?",
+    "options": {
+      "A": "phased",
+      "B": "phrased",
+      "C": "fazed",
+      "D": "fused"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q2": {
+    "stem": "Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination [sic] of elements, they conclude that the spell does not work. How many attempts does each wizard make before coming to this conclusion, independently?",
+    "options": {
+      "A": "24",
+      "B": "48",
+      "C": "16",
+      "D": "12"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q3": {
+    "stem": "In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is $1/4^{\\text{th}}$ of the number of students who like other branches. The number of students who like both their core and other branches is 500. The number of students who like their core branches is",
+    "options": {
+      "A": "1,800",
+      "B": "3,500",
+      "C": "1,600",
+      "D": "1,500"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q4": {
+    "stem": "For positive non-zero real variables $x$ and $y$, if\n\n$$\\ln\\left(\\frac{x+y}{2}\\right)=\\frac{1}{2}[\\ln(x)+\\ln(y)]$$\n\nthen, the value of $\\frac{x}{y}+\\frac{y}{x}$ is",
+    "options": {
+      "A": "1",
+      "B": "1/2",
+      "C": "2",
+      "D": "4"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q5": {
+    "stem": "In the sequence $6, 9, 14, x, 30, 41$, a possible value of $x$ is",
+    "options": {
+      "A": "25",
+      "B": "21",
+      "C": "18",
+      "D": "20"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      3
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q6": {
+    "stem": "Sequence the following sentences in a coherent passage.\n\nP: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.\n\nQ: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.\n\nR: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth’s atmosphere and making it better suited for life.\n\nS: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+    "options": {
+      "A": "QPSR",
+      "B": "QSPR",
+      "C": "SPRQ",
+      "D": "SRPQ"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      4
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q7": {
+    "stem": "A person sold two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of",
+    "options": {
+      "A": "1% profit",
+      "B": "2% profit",
+      "C": "1% loss",
+      "D": "2% loss"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      5
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q8": {
+    "stem": "The pie charts depict the shares of various power generation technologies in the total electricity generation of a country for the years 2007 and 2023. The renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity generated remains the same from 2007 to 2023, what is the percentage increase in the share of the renewable sources of electricity generation over this period?",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "77.5%",
+      "D": "62.5%"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q8-1.svg",
+      "figures/CS-2024-S2-Q8-2.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      6
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q9": {
+    "stem": "A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "7",
+      "D": "8"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q10": {
+    "stem": "In the $4\\times4$ array shown below, each cell of the first three rows has either a cross (X) or a number. The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row has no crosses (X), the sum of the four numbers to be filled in the last row is",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "12",
+      "D": "9"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q10-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q11": {
+    "stem": "Consider a computer with a 4 MHz processor. Its DMA controller can transfer 8 bytes in 1 cycle from a device to main memory through cycle stealing at regular intervals. Which one of the following is the data transfer rate (in bits per second) of the DMA controller if 1% of the processor cycles are used for DMA?",
+    "options": {
+      "A": "2,56,000",
+      "B": "3,200",
+      "C": "25,60,000",
+      "D": "32,000"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q12": {
+    "stem": "Let $p$ and $q$ be the following propositions:\n\n$p$: Fail grade can be given.\n\n$q$: Student scores more than 50% marks.\n\nConsider the statement: “Fail grade cannot be given when student scores more than 50% marks.”\n\nWhich one of the following is the CORRECT representation of the above statement in propositional logic?",
+    "options": {
+      "A": "$q\\to\\neg p$",
+      "B": "$q\\to p$",
+      "C": "$p\\to q$",
+      "D": "$\\neg p\\to q$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q13": {
+    "stem": "Consider the following C program. Assume parameters to a function are evaluated from *right to left*.\n\n```c\n#include <stdio.h>\n\nint g(int p) { printf(\"%d\", p); return p; }\nint h(int q) { printf(\"%d\", q); return q; }\n\nvoid f(int x, int y) {\n  g(x);\n  h(y);\n}\n\nint main() {\n  f(g(10),h(20));\n}\n```\n\nWhich one of the following options is the CORRECT output of the above C program?",
+    "options": {
+      "A": "20101020",
+      "B": "10202010",
+      "C": "20102010",
+      "D": "10201020"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      10
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q14": {
+    "stem": "The format of a single-precision floating-point number as per the **IEEE 754** standard is:\n\n| Sign | Exponent | Mantissa |\n| --- | --- | --- |\n| (1bit) | (8 bits) | (23 bits) |\n\nChoose the largest floating-point number among the following options.",
+    "options": {
+      "A": "| Sign | Exponent | Mantissa |\n| --- | --- | --- |\n| 0 | 0111 1111 | 1111 1111 1111 1111 1111 111 |",
+      "B": "| Sign | Exponent | Mantissa |\n| --- | --- | --- |\n| 0 | 1111 1110 | 1111 1111 1111 1111 1111 111 |",
+      "C": "| Sign | Exponent | Mantissa |\n| --- | --- | --- |\n| 0 | 1111 1111 | 1111 1111 1111 1111 1111 111 |",
+      "D": "| Sign | Exponent | Mantissa |\n| --- | --- | --- |\n| 0 | 0111 1111 | 0000 0000 0000 0000 0000 000 |"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q15": {
+    "stem": "Let $T(n)$ be the recurrence relation defined as follows:\n\n$T(0)=1$,\n\n$T(1)=2$, and\n\n$T(n)=5T(n-1)-6T(n-2)$    for $n\\ge2$\n\nWhich one of the following statements is TRUE?",
+    "options": {
+      "A": "$T(n)=\\Theta(2^n)$",
+      "B": "$T(n)=\\Theta(n2^n)$",
+      "C": "$T(n)=\\Theta(3^n)$",
+      "D": "$T(n)=\\Theta(n3^n)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      12
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q16": {
+    "stem": "Let $f(x)$ be a continuous function from $\\mathbb{R}$ to $\\mathbb{R}$ such that\n\n$$f(x)=1-f(2-x)$$\n\nWhich one of the following options is the CORRECT value of $\\int_0^2 f(x)dx$ ?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "$-1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      12
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q17": {
+    "stem": "Let $A$ be the adjacency matrix of a simple undirected graph $G$. Suppose $A$ is its own inverse. Which one of the following statements is *always* TRUE?",
+    "options": {
+      "A": "$G$ is a cycle",
+      "B": "$G$ is a perfect matching",
+      "C": "$G$ is a complete graph",
+      "D": "There is no such graph $G$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q18": {
+    "stem": "When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is",
+    "options": {
+      "A": "$\\frac{1}{324}$",
+      "B": "$\\frac{5}{324}$",
+      "C": "$\\frac{7}{324}$",
+      "D": "$\\frac{11}{324}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q19": {
+    "stem": "Once the DBMS informs the user that a transaction has been successfully completed, its effect should persist even if the system crashes before all its changes are reflected on disk. This property is called",
+    "options": {
+      "A": "durability",
+      "B": "atomicity",
+      "C": "consistency",
+      "D": "isolation"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      14
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q20": {
+    "stem": "In the context of owner and weak entity sets in the ER (Entity-Relationship) data model, which one of the following statements is TRUE?",
+    "options": {
+      "A": "The weak entity set MUST have total participation in the identifying relationship",
+      "B": "The owner entity set MUST have total participation in the identifying relationship",
+      "C": "Both weak and owner entity sets MUST have total participation in the identifying relationship",
+      "D": "Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      14
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q21": {
+    "stem": "Consider the following two sets:\n\n| Set X | Set Y |\n| --- | --- |\n| P. Lexical Analyzer | 1. Abstract Syntax Tree |\n| Q. Syntax Analyzer | 2. Token |\n| R. Intermediate Code Generator | 3. Parse Tree |\n| S. Code Optimizer | 4. Constant Folding |\n\nWhich one of the following options is the CORRECT match from **Set X** to **Set Y** ?",
+    "options": {
+      "A": "P – 4; Q – 1; R – 3; S – 2",
+      "B": "P – 2; Q – 3; R – 1; S – 4",
+      "C": "P – 2; Q – 1; R – 3; S – 4",
+      "D": "P – 4; Q – 3; R – 2; S – 1"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q22": {
+    "stem": "Which one of the following regular expressions is equivalent to the language accepted by the DFA given below?",
+    "options": {
+      "A": "$0^*1(0+10^*1)^*$",
+      "B": "$0^*(10^*11)^*0^*$",
+      "C": "$0^*1(010^*1)^*0^*$",
+      "D": "$0(1+0^*10^*1)^*0^*$"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q22-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q23": {
+    "stem": "Node X has a TCP connection open to node Y. The packets from X to Y go through an intermediate IP router R. Ethernet switch S is the first switch on the network path between X and R. Consider a packet sent from X to Y over this connection. Which of the following statements is/are TRUE about the destination IP and MAC addresses on this packet at the time it leaves X?",
+    "options": {
+      "A": "The destination IP address is the IP address of R",
+      "B": "The destination IP address is the IP address of Y",
+      "C": "The destination MAC address is the MAC address of S",
+      "D": "The destination MAC address is the MAC address of Y"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q24": {
+    "stem": "Which of the following tasks is/are the responsibility/responsibilities of the memory management unit (MMU) in a system with paging-based memory management?",
+    "options": {
+      "A": "Allocate a new page table for a newly created process",
+      "B": "Translate a virtual address to a physical address using the page table",
+      "C": "Raise a trap when a virtual address is not found in the page table",
+      "D": "Raise a trap when a process tries to write to a page marked with read-only permission in the page table"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q25": {
+    "stem": "Consider a process P running on a CPU. Which one or more of the following events will always trigger a context switch by the OS that results in process P moving to a non-running state (e.g., ready, blocked)?",
+    "options": {
+      "A": "P makes a blocking system call to read a block of data from the disk",
+      "B": "P tries to access a page that is in the swap space, triggering a page fault",
+      "C": "An interrupt is raised by the disk to deliver data requested by some other process",
+      "D": "A timer interrupt is raised by the hardware"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q26": {
+    "stem": "Which of the following file organizations is/are I/O efficient for the scan operation in DBMS?",
+    "options": {
+      "A": "Sorted",
+      "B": "Heap",
+      "C": "Unclustered tree index",
+      "D": "Unclustered hash index"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q27": {
+    "stem": "Which of the following statements about the Two Phase Locking (2PL) protocol is/are TRUE?",
+    "options": {
+      "A": "2PL permits only serializable schedules",
+      "B": "With 2PL, a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation",
+      "C": "With 2PL, once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction",
+      "D": "A deadlock is possible with 2PL"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q28": {
+    "stem": "Which of the following statements about IPv4 fragmentation is/are TRUE?",
+    "options": {
+      "A": "The fragmentation of an IP datagram is performed only at the source of the datagram",
+      "B": "The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU",
+      "C": "The reassembly of fragments is performed only at the destination of the datagram",
+      "D": "The reassembly of fragments is performed at all intermediate routers along the path from the source to the destination"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q29": {
+    "stem": "Which of the following statements is/are FALSE?",
+    "options": {
+      "A": "An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects",
+      "B": "The attributes in a [sic] L-attributed definition cannot always be evaluated in a depth-first order",
+      "C": "Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed",
+      "D": "All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q30": {
+    "stem": "For a Boolean variable $x$, which of the following statements is/are FALSE?",
+    "options": {
+      "A": "$x.1=x$",
+      "B": "$x+1=x$",
+      "C": "$x.x=0$",
+      "D": "$x+\\bar{x}=1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q31": {
+    "stem": "An instruction format has the following structure:\n\nInstruction Number: *Opcode destination reg, source reg-1, source reg-2*\n\nConsider the following sequence of instructions to be executed in a pipelined processor:\n\n```text\nI1: DIV R3, R1, R2\nI2: SUB R5, R3, R4\nI3: ADD R3, R5, R6\nI4: MUL R7, R3, R8\n```\n\nWhich of the following statements is/are TRUE?",
+    "options": {
+      "A": "There is a RAW dependency on R3 between I1 and I2",
+      "B": "There is a WAR dependency on R3 between I1 and I3",
+      "C": "There is a RAW dependency on R3 between I2 and I3",
+      "D": "There is a WAW dependency on R3 between I3 and I4"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q32": {
+    "stem": "Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet?",
+    "options": {
+      "A": "Source IP Address",
+      "B": "Protocol",
+      "C": "Time to Live (TTL)",
+      "D": "Header Checksum"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q33": {
+    "stem": "Consider the following C function definition.\n\n```c\nint fX(char *a){\n\n    char *b = a;\n\n    while(*b)\n\n        b++;\n\n    return b - a;}\n```\n\nWhich of the following statements is/are TRUE?",
+    "options": {
+      "A": "The function call `fX(”abcd”)` [sic] will always return a value",
+      "B": "Assuming a character array `c` is declared as `char c[] = ”abcd”` [sic] in `main()`, the function call `fX(c)`will always return a value",
+      "C": "The code of the function will not compile",
+      "D": "Assuming a character pointer `c` is declared as `char *c = ”abcd”` [sic] in `main()`, the function call `fX(c)`will always return a value"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q34": {
+    "stem": "Let $P$ be the partial order defined on the set $\\{1,2,3,4\\}$ as follows\n\n$$P=\\{(x,x)\\mid x\\in\\{1,2,3,4\\}\\}\\cup\\{(1,2),(3,2),(3,4)\\}$$\n\nThe number of total orders on $\\{1,2,3,4\\}$ that contain $P$ is __________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      23
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q35": {
+    "stem": "Let $A$ be an array containing integer values. The distance of $A$ is defined as the minimum number of elements in $A$ that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array $[2, 5, 3, 1, 4, 2, 6]$ is ___________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      23
+    ],
+    "notes": "Preparer visually compared source page wording and options after text extraction and checked existing solution. Pending independent source/figure review and manual user production comparison.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  }
+}

@@ -1,0 +1,95 @@
+<svg viewBox="0.00 0.00 240.00 186.49" xmlns="http://www.w3.org/2000/svg">
+<title>Five-state NFA</title><g transform="scale(1 1) rotate(0) translate(4 177.24)">
+<title>M</title>
+<g>
+<title>start</title>
+</g>
+
+<g>
+<title>1</title>
+<ellipse fill="none" stroke="currentColor" cx="40.5" cy="-91.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="40.5" y="-86.5" font-family="serif" font-size="20.00">1</text>
+</g>
+
+<g>
+<title>start-&gt;1</title>
+<path fill="none" stroke="currentColor" d="M1.19,-66.93C3.24,-68.21 9.52,-72.14 16.48,-76.49" />
+<polygon fill="currentColor" stroke="currentColor" points="15.06,-79.73 25.39,-82.06 18.77,-73.79 15.06,-79.73" />
+</g>
+
+<g>
+<title>2</title>
+<ellipse fill="none" stroke="currentColor" cx="105.5" cy="-146.5" rx="17.5" ry="17.5" />
+<ellipse fill="none" stroke="currentColor" cx="105.5" cy="-146.5" rx="21.5" ry="21.5" />
+<text text-anchor="middle" x="105.5" y="-141.5" font-family="serif" font-size="20.00">2</text>
+</g>
+
+<g>
+<title>1-&gt;2</title>
+<path fill="none" stroke="currentColor" d="M53.97,-102.9C61.79,-109.52 71.89,-118.06 81.06,-125.82" />
+<polygon fill="currentColor" stroke="currentColor" points="78.92,-128.59 88.81,-132.38 83.44,-123.25 78.92,-128.59" />
+<text text-anchor="middle" x="66.4" y="-123.25" font-family="serif" font-size="18.00">ε</text>
+</g>
+
+<g>
+<title>4</title>
+<ellipse fill="none" stroke="currentColor" cx="105.5" cy="-21.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="105.5" y="-16.5" font-family="serif" font-size="20.00">4</text>
+</g>
+
+<g>
+<title>1-&gt;4</title>
+<path fill="none" stroke="currentColor" d="M52.42,-78.66C61.83,-68.53 75.15,-54.18 86.09,-42.4" />
+<polygon fill="currentColor" stroke="currentColor" points="88.97,-44.44 93.21,-34.73 83.84,-39.68 88.97,-44.44" />
+<text text-anchor="middle" x="67.83" y="-62.28" font-family="serif" font-size="18.00">ε</text>
+</g>
+
+<g>
+<title>3</title>
+<ellipse fill="none" stroke="currentColor" cx="210.5" cy="-146.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="210.5" y="-141.5" font-family="serif" font-size="20.00">3</text>
+</g>
+
+<g>
+<title>2-&gt;3</title>
+<path fill="none" stroke="currentColor" d="M126.5,-152.03C142.93,-153.49 165.89,-153.64 183.66,-152.48" />
+<polygon fill="currentColor" stroke="currentColor" points="184.03,-155.96 193.69,-151.61 183.42,-148.98 184.03,-155.96" />
+<text text-anchor="middle" x="155.22" y="-158.84" font-family="serif" font-size="18.00">0</text>
+</g>
+
+<g>
+<title>3-&gt;2</title>
+<path fill="none" stroke="currentColor" d="M193.63,-141.39C178.25,-139.67 155.13,-139.31 136.43,-140.28" />
+<polygon fill="currentColor" stroke="currentColor" points="136.04,-136.8 126.3,-140.99 136.52,-143.79 136.04,-136.8" />
+<text text-anchor="middle" x="155.12" y="-125.35" font-family="serif" font-size="18.00">0</text>
+</g>
+
+<g>
+<title>5</title>
+<ellipse fill="none" stroke="currentColor" cx="210.5" cy="-21.5" rx="17.5" ry="17.5" />
+<ellipse fill="none" stroke="currentColor" cx="210.5" cy="-21.5" rx="21.5" ry="21.5" />
+<text text-anchor="middle" x="210.5" y="-16.5" font-family="serif" font-size="20.00">5</text>
+</g>
+
+<g>
+<title>3-&gt;5</title>
+<path fill="none" stroke="currentColor" d="M210.5,-128.86C210.5,-109.28 210.5,-77.28 210.5,-53.31" />
+<polygon fill="currentColor" stroke="currentColor" points="214,-53.25 210.5,-43.25 207,-53.25 214,-53.25" />
+<text text-anchor="middle" x="205.5" y="-91.36" font-family="serif" font-size="18.00">ε</text>
+</g>
+
+<g>
+<title>4-&gt;5</title>
+<path fill="none" stroke="currentColor" d="M122.37,-26.61C137.75,-28.33 160.87,-28.69 179.57,-27.72" />
+<polygon fill="currentColor" stroke="currentColor" points="179.96,-31.2 189.7,-27.01 179.48,-24.21 179.96,-31.2" />
+<text text-anchor="middle" x="150.88" y="-33.85" font-family="serif" font-size="18.00">1</text>
+</g>
+
+<g>
+<title>5-&gt;4</title>
+<path fill="none" stroke="currentColor" d="M189.5,-15.97C173.07,-14.51 150.11,-14.36 132.34,-15.52" />
+<polygon fill="currentColor" stroke="currentColor" points="131.97,-12.04 122.31,-16.39 132.58,-19.02 131.97,-12.04" />
+<text text-anchor="middle" x="150.78" y="-0.36" font-family="serif" font-size="18.00">1</text>
+</g>
+</g>
+</svg>

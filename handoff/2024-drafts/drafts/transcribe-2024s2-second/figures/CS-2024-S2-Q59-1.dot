@@ -1,0 +1,6 @@
+graph G {graph [splines=true, overlap=true]; node [fontname="serif", fontsize=20, fixedsize=true, width=0.48, height=0.48]; edge [fontname="serif", fontsize=18];
+node [shape=circle];
+a [pos="0,70!"]; b [pos="110,140!"];c [pos="330,140!"];d [pos="440,70!"];e [pos="330,0!"];f [pos="110,0!"];g [pos="220,70!"];
+a -- b [label="1"];a -- f [label="1"];b -- c [label="3"];c -- d [label="1"];d -- e [label="1"];e -- f [label="3"];
+a -- g [label="2"];b -- g [label="2"];c -- g [label="2"];d -- g [label="2"];e -- g [label="2"];f -- g [label="2"];
+}

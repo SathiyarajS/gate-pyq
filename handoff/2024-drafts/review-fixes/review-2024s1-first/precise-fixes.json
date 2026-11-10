@@ -1,0 +1,58 @@
+[
+  {
+    "question_id": "CS-2024-S1-Q22",
+    "severity": "minor-source-emphasis",
+    "field": "stem",
+    "old": "relation R",
+    "new": "relation **R**",
+    "reason": "Restore visible source emphasis; wording and answer unaffected."
+  },
+  {
+    "question_id": "CS-2024-S1-Q30",
+    "severity": "minor-source-emphasis",
+    "field": "stem",
+    "old": "about forwarding is/are",
+    "new": "about *forwarding* is/are",
+    "reason": "Restore visible source emphasis; wording and answer unaffected."
+  },
+  {
+    "question_id": "CS-2024-S1-Q34",
+    "severity": "minor-source-emphasis",
+    "field": "stem",
+    "old": "a complete graph",
+    "new": "a *complete* graph",
+    "reason": "Restore visible source emphasis; wording and answer unaffected."
+  },
+  {
+    "question_id": "CS-2024-S1-Q22",
+    "severity": "minor-source-emphasis",
+    "field": "options.A",
+    "old": "R can have a multi-attribute key",
+    "new": "**R** can have a multi-attribute key",
+    "reason": "Source relation letter R is bold in all options."
+  },
+  {
+    "question_id": "CS-2024-S1-Q22",
+    "severity": "minor-source-emphasis",
+    "field": "options.B",
+    "old": "R cannot have a foreign key",
+    "new": "**R** cannot have a foreign key",
+    "reason": "Source relation letter R is bold in all options."
+  },
+  {
+    "question_id": "CS-2024-S1-Q22",
+    "severity": "minor-source-emphasis",
+    "field": "options.C",
+    "old": "R cannot have a composite attribute",
+    "new": "**R** cannot have a composite attribute",
+    "reason": "Source relation letter R is bold in all options."
+  },
+  {
+    "question_id": "CS-2024-S1-Q22",
+    "severity": "minor-source-emphasis",
+    "field": "options.D",
+    "old": "R cannot have more than one candidate key",
+    "new": "**R** cannot have more than one candidate key",
+    "reason": "Source relation letter R is bold in all options."
+  }
+]

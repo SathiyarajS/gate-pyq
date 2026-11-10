@@ -1,0 +1,48 @@
+{
+  "CS-2024-S2-Q2": [
+    "Restore italic emphasis on water, air, fire, and earth. Restore paragraph break before How many attempts. Keep singular combination [sic]; grammar proposal is supported and does not change answer."
+  ],
+  "CS-2024-S2-Q3": [
+    "Restore paragraph break before The number of students who like their core branches is."
+  ],
+  "CS-2024-S2-Q8": [
+    "Restore paragraph division around original figure location where renderer permits. Figures currently follow the complete stem, not the source insertion point. Q8-2 Year/2023 displays correctly in independently generated MuPDF raster but Inkscape output clips the title; require production comparison, and consider flattening translated panel coordinates for portability."
+  ],
+  "CS-2024-S2-Q9": [
+    "Restore paragraph break before The minimum number."
+  ],
+  "CS-2024-S2-Q10": [
+    "Restore paragraph break before The number in a cell (figure originally between paragraphs)."
+  ],
+  "CS-2024-S2-Q11": [
+    "Restore italic emphasis on in bits per second."
+  ],
+  "CS-2024-S2-Q12": [
+    "Restore italic emphasis on the quoted Fail grade cannot... statement."
+  ],
+  "CS-2024-S2-Q18": [
+    "Restore italic i.e. if preserving source emphasis."
+  ],
+  "CS-2024-S2-Q21": [
+    "Restore italic X/Y in bold Set X / Set Y labels if retaining exact emphasis."
+  ],
+  "CS-2024-S2-Q25": [
+    "Restore italic always."
+  ],
+  "CS-2024-S2-Q28": [
+    "Restore italic only in options A and C; retain existing DF=0 caveat and official B;C unchanged."
+  ],
+  "CS-2024-S2-Q29": [
+    "Keep a [sic] L-attributed definition; source article is confirmed, correction an is grammatical only."
+  ],
+  "CS-2024-S2-Q31": [
+    "Restore blank lines between instruction lines in the code representation to match source line spacing."
+  ],
+  "CS-2024-S2-Q32": [
+    "Restore italic always."
+  ],
+  "CS-2024-S2-Q33": [
+    "Insert a space between `fX(c)` and will in options B and D; source visibly separates these words.",
+    "Source visibly uses typographic double quotes around abcd. Preserve the source glyphs. If [sic] is retained, scope discrepancy explicitly as code typography, not a claim that the function definition fails to compile or that the official A;B;D is wrong. Add solution note that printed quotes are typographic delimiters and intended C calls return 4. Do not silently replace source quotes with ASCII."
+  ]
+}

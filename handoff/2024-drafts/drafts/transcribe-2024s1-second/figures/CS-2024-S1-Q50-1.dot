@@ -1,0 +1,18 @@
+// Editable topology and pinned source layout; safe hand-authored SVG preserves curved edge geometry.
+digraph DFA {
+ graph [layout=neato, overlap=false, splines=true];
+ node [shape=circle, pin=true];
+ start [shape=point, pos="0,1.7!"];
+ 1 [shape=doublecircle, pos="0.7,1.7!"];
+ 2 [pos="1.6,2.4!"];
+ 3 [pos="2.8,2.65!"];
+ 4 [pos="1.6,0.95!"];
+ 5 [pos="2.8,0.65!"];
+ start -> 1;
+ 1 -> 2 [label="0"]; 2 -> 1 [label="1"];
+ 2 -> 3 [label="0"]; 3 -> 2 [label="1"];
+ 3 -> 1 [label="0"];
+ 1 -> 4 [label="1"]; 4 -> 1 [label="0"];
+ 4 -> 5 [label="1"]; 5 -> 4 [label="0"];
+ 5 -> 1 [label="1"];
+}
