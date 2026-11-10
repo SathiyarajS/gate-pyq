@@ -183,7 +183,7 @@
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q12": {
-    "stem": "Which ONE of the following statements is FALSE regarding the symbol table?",
+    "stem": "Which ONE of the following statements is **FALSE** regarding the symbol table?",
     "options": {
       "A": "Symbol table is responsible for keeping track of the scope of variables.",
       "B": "Symbol table can be implemented using a binary search tree.",
@@ -195,7 +195,7 @@
     "checked_pages": [
       12
     ],
-    "notes": "Source PDF page visually inspected and text corrected by transcribe_2025_s1_first. Existing solution checked; no new answer discrepancy. Independent production-rendered comparison remains pending.",
+    "notes": "Source PDF page visually inspected and text corrected by transcribe_2025_s1_first. Existing solution checked; no new answer discrepancy. Independent production-rendered comparison remains pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'is FALSE regarding' -> 'is **FALSE** regarding' (emphasis per PDF font flags).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q13": {
@@ -525,18 +525,18 @@
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q35": {
-    "stem": "The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node. Suppose a Min-Heap $T$ stores 32 keys. The height of $T$ is _____________. (Answer in integer)",
+    "stem": "The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node.\n\nSuppose a Min-Heap $T$ stores 32 keys. The height of $T$ is _____________. (Answer in integer)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       35
     ],
-    "notes": "Source PDF page visually inspected and text corrected by transcribe_2025_s1_first. Existing solution checked; no new answer discrepancy. Independent production-rendered comparison remains pending.",
+    "notes": "Source PDF page visually inspected and text corrected by transcribe_2025_s1_first. Existing solution checked; no new answer discrepancy. Independent production-rendered comparison remains pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'leaf node. Suppose' -> 'leaf node.\\n\\nSuppose' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q36": {
-    "stem": "Consider a memory system with 1M bytes of main memory and 16K bytes of cache memory. Assume that the processor generates 20-bit memory address, and the cache block size is 16 bytes. If the cache uses direct mapping, how many bits will be required to store all the tag values? [Assume memory is byte addressable, 1K=$2^{10}$, 1M=$2^{20}$ .]",
+    "stem": "Consider a memory system with 1M bytes of main memory and 16K bytes of cache memory. Assume that the processor generates 20-bit memory address, and the cache block size is 16 bytes. If the cache uses direct mapping, how many bits will be required to store all the *tag* values? [Assume memory is byte addressable, 1K=$2^{10}$, 1M=$2^{20}$ .]",
     "options": {
       "A": "$6\\times2^{10}$",
       "B": "$8\\times2^{10}$",
@@ -548,7 +548,7 @@
     "checked_pages": [
       36
     ],
-    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending.",
+    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'all the tag values' -> 'all the *tag* values' (emphasis per PDF font flags).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q37": {
@@ -586,17 +586,17 @@
   "CS-2025-S1-Q39": {
     "stem": "Consider two relations describing $teams$ and $players$ in a sports league:\n\n- $teams(tid,tname)$: $tid$, $tname$ are team-id and team-name, respectively\n- $players(pid,pname,tid)$: $pid$, $pname$, and $tid$ denote player-id, player-name and the team-id of the player, respectively\n\nWhich ONE of the following tuple relational calculus queries returns the name of the players who play for the team having $tname$ as $'MI'$?",
     "options": {
-      "A": "$\\{p.pname\\mid p\\in players\\land\\exists t\\ (t\\in teams\\land p.tid=t.tid\\land t.tname='MI')\\}$",
-      "B": "$\\{p.pname\\mid p\\in teams\\land\\exists t\\ (t\\in players\\land p.tid=t.tid\\land t.tname='MI')\\}$",
-      "C": "$\\{p.pname\\mid p\\in players\\land\\exists t\\ (t\\in teams\\land t.tname='MI')\\}$",
-      "D": "$\\{p.pname\\mid p\\in teams\\land\\exists t\\ (t\\in players\\land t.tname='MI')\\}$"
+      "A": "$\\{p.pname\\mid p\\in players\\land\\exists t\\ (t\\in teams\\land p.tid=t.tid\\land t.tname={}'MI')\\}$",
+      "B": "$\\{p.pname\\mid p\\in teams\\land\\exists t\\ (t\\in players\\land p.tid=t.tid\\land t.tname={}'MI')\\}$",
+      "C": "$\\{p.pname\\mid p\\in players\\land\\exists t\\ (t\\in teams\\land t.tname={}'MI')\\}$",
+      "D": "$\\{p.pname\\mid p\\in teams\\land\\exists t\\ (t\\in players\\land t.tname={}'MI')\\}$"
     },
     "figures": [],
     "status": "draft",
     "checked_pages": [
       39
     ],
-    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending.",
+    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): options.A: \"t.tname='MI'\" -> \"t.tname={}'MI'\" (KaTeX attached the prime to '=' (rendered =′ MI′); empty group keeps ′MI′ as printed); options.B: \"t.tname='MI'\" -> \"t.tname={}'MI'\" (KaTeX attached the prime to '=' (rendered =′ MI′); empty group keeps ′MI′ as printed); options.C: \"t.tname='MI'\" -> \"t.tname={}'MI'\" (KaTeX attached the prime to '=' (rendered =′ MI′); empty group keeps ′MI′ as printed); options.D: \"t.tname='MI'\" -> \"t.tname={}'MI'\" (KaTeX attached the prime to '=' (rendered =′ MI′); empty group keeps ′MI′ as printed).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q40": {
@@ -778,14 +778,14 @@
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q51": {
-    "stem": "A disk of size 512M bytes is divided into blocks of 64K bytes. A file is stored in the disk using linked allocation. In linked allocation, each data block reserves 4 bytes to store the pointer to the next data block. The link part of the last data block contains a NULL pointer (also of 4 bytes). Suppose a file of 1M bytes needs to be stored in the disk. Assume, 1K = $2^{10}$ and 1M = $2^{20}$. The amount of space in bytes that will be wasted due to internal fragmentation is ______. (Answer in integer)",
+    "stem": "A disk of size 512M bytes is divided into blocks of 64K bytes. A file is stored in the disk using linked allocation. In linked allocation, each data block reserves 4 bytes to store the pointer to the next data block. The link part of the last data block contains a *NULL* pointer (also of 4 bytes). Suppose a file of 1M bytes needs to be stored in the disk. Assume, 1K = $2^{10}$ and 1M = $2^{20}$. The amount of space in bytes that will be wasted due to internal fragmentation is ______. (Answer in integer)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       51
     ],
-    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending.",
+    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'a NULL pointer' -> 'a *NULL* pointer' (emphasis per PDF font flags).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q52": {
@@ -800,7 +800,7 @@
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q53": {
-    "stem": "A computer has a memory hierarchy consisting of two-level cache (L1 and L2) and a main memory. If the processor needs to access data from memory, it first looks into L1 cache. If the data is not found in L1 cache, it goes to L2 cache. If it fails to get the data from L2 cache, it goes to main memory, where the data is definitely available. Hit rates and access times of various memory units are shown in the figure. The average memory access time in nanoseconds (ns) is ________. (rounded off to two decimal places)",
+    "stem": "A computer has a memory hierarchy consisting of two-level cache (L1 and L2) and a main memory. If the processor needs to access data from memory, it first looks into L1 cache. If the data is not found in L1 cache, it goes to L2 cache. If it fails to get the data from L2 cache, it goes to main memory, where the data is definitely available. *Hit rates* and *access times* of various memory units are shown in the figure. The *average memory access time* in nanoseconds (*ns*) is ________. (rounded off to two decimal places)",
     "options": {},
     "figures": [
       "figures/CS-2025-S1-Q53-1.svg"
@@ -809,7 +809,7 @@
     "checked_pages": [
       53
     ],
-    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending.",
+    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'available. Hit rates and access times of' -> 'available. *Hit rates* and *access times* of' (emphasis per PDF font flags); stem: 'The average memory access time in nanoseconds (ns)' -> 'The *average memory access time* in nanoseconds (*ns*)' (emphasis per PDF font flags).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q54": {
@@ -944,14 +944,14 @@
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   },
   "CS-2025-S1-Q65": {
-    "stem": "In a double hashing scheme, $h_1(k)=k\\bmod 11$ and $h_2(k)=1+(k\\bmod7)$ are the auxiliary hash functions. The size $m$ of the hash table is 11. The hash function for the i-th probe in the open address table is $[h_1(k)+i\\ h_2(k)]\\bmod m$. The following keys are inserted in the given order: 63, 50, 25, 79, 67, 24.\n\nThe slot at which key 24 gets stored is ___________. (Answer in integer)",
+    "stem": "In a double hashing scheme, $h_1(k)=k\\bmod 11$ and $h_2(k)=1+(k\\bmod7)$ are the auxiliary hash functions. The size $m$ of the hash table is 11. The hash function for the $i$-th probe in the open address table is $[h_1(k)+i\\ h_2(k)]\\bmod m$. The following keys are inserted in the given order: 63, 50, 25, 79, 67, 24.\n\nThe slot at which key 24 gets stored is ___________. (Answer in integer)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       64
     ],
-    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending.",
+    "notes": "Preparer visually compared extracted wording and mathematical notation with canonical physical page. Independent source review and user manual production-rendered comparison remain pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'for the i-th probe' -> 'for the $i$-th probe' (italic variable in source).",
     "source_sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
   }
 }

@@ -7,13 +7,15 @@ What is done and what is left. The task list is ticked by hand; the paper table 
 - [x] **3.1 Finish the 2024 drafts** (`handoff/2024-drafts/`)
   - [x] CS-2024-S1 drafted and committed (`transcribe: CS-2024-S1 (0/65 verified)`)
   - [x] CS-2024-S2 drafted and committed (`transcribe: CS-2024-S2 (0/65 verified)`)
-- [ ] **Repo-wide sweep** of the issue classes found while finishing 2024, applied to the CS-2025/CS-2026 drafts: emphasis vs PDF font flags (both directions), KaTeX `\text{"…"}` curly quotes, paragraphs split at line wraps, source glyphs (◊, ϵ, Π, en dash), edge labels overlapping lines, Graphviz per-node `<title>` tooltips
+- [x] **Repo-wide sweep** of the issue classes found while finishing 2024, applied to the CS-2025/CS-2026 drafts (65 entries, 5 figures; all still draft): emphasis vs PDF font flags (both directions), KaTeX quote/prime handling, paragraph breaks, source glyphs, literal asterisks (new `\*` escape), edge labels overlapping lines, Graphviz per-node `<title>` tooltips
+- [ ] **Figure label italics**: variables that the source prints in italics are upright in many figures (e.g. 2025-S1 Q50/Q59/Q60/Q64, 2025-S2 Q31/Q43, 2026-S1 Q8/Q37/Q42/Q53, 2026-S2 Q8 bold (i)/(ii), and the 2024 figures). `font-style` is now allowed in figure SVGs; each generator needs updating and a visual re-check.
 - [ ] **3.2 Transcribe** every paper (one per session, prompt B). Progress: "Drafted" column below.
 - [ ] **3.3 Independent review** of every drafted paper (fresh session, prompt C). Progress: "Verified" column below.
 - [ ] **3.4 Clean-up**
   - [ ] README.md: keep the "Website" section, move the long caveats paragraph to QUALITY.md
   - [ ] Move one-off `scripts/check_*.py` into `scripts/checks/` and fix paths in `audits/`
   - [ ] Older questions: render "Recorded options (source verification pending)" as a list, or drop it once the paper is verified
+  - [ ] Redrawn (verified) questions: drop the collapsed "Text version (paraphrase)" block and use the redrawn text for the original image's alt text; keep the original image behind "View original" and keep the paraphrase for questions that are not redrawn
 - [ ] **3.5 Missing official keys** (optional): 1,716 entries from 1991–2010 have no official key
 
 ## Papers

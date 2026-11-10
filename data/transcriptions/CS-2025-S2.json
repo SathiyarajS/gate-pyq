@@ -48,7 +48,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q4": {
-    "stem": "The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube? Note: The figures shown are representative.",
+    "stem": "The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube?\n\nNote: The figures shown are representative.",
     "options": {},
     "figures": [
       "figures/CS-2025-S2-Q4-1.svg"
@@ -57,7 +57,7 @@
     "checked_pages": [
       4
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. All four option drawings and their labels A–D are included in the single SVG; empty textual options avoid duplicate labels.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. All four option drawings and their labels A–D are included in the single SVG; empty textual options avoid duplicate labels. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'the cube? Note:' -> 'the cube?\\n\\nNote:' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q5": {
@@ -77,7 +77,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q6": {
-    "stem": "Based only on the conversation below, identify the logically correct inference: “Even if I had known that you were in the hospital, I would not have gone there to see you”, Ramya told Josephine.",
+    "stem": "Based only on the conversation below, identify the logically correct inference:\n\n“Even if I had known that you were in the hospital, I would not have gone there to see you”, Ramya told Josephine.",
     "options": {
       "A": "Ramya knew that Josephine was in the hospital.",
       "B": "Ramya did not know that Josephine was in the hospital.",
@@ -89,7 +89,7 @@
     "checked_pages": [
       6
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'inference: “Even' -> 'inference:\\n\\n“Even' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q7": {
@@ -125,7 +125,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q9": {
-    "stem": "In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square. What is the area (in cm$^2$) of the rectangle PLMN? Note: The figure shown is representative.",
+    "stem": "In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square.\n\nWhat is the area (in cm$^2$) of the rectangle PLMN?\n\nNote: The figure shown is representative.",
     "options": {
       "A": "$2\\sqrt{2}$",
       "B": "2",
@@ -139,11 +139,11 @@
     "checked_pages": [
       9
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'the square. What is' -> 'the square.\\n\\nWhat is' (paragraph break as printed (blank line in the source)); stem: 'PLMN? Note:' -> 'PLMN?\\n\\nNote:' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q10": {
-    "stem": "The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? Note: The figure shown is representative.",
+    "stem": "The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct?\n\nNote: The figure shown is representative.",
     "options": {
       "A": "Bridges on P, Q, and T",
       "B": "Bridges on P, Q, S, and T",
@@ -157,7 +157,7 @@
     "checked_pages": [
       10
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'correct? Note:' -> 'correct?\\n\\nNote:' (paragraph break as printed (blank line in the source)). Label U moved below the river branch it overlapped (figures/sources/CS-2025-S2-first.py; other outputs byte-identical).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q11": {
@@ -273,7 +273,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q18": {
-    "stem": "A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X. Which ONE of the following is NOT a possible candidate for X?",
+    "stem": "A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X.\n\nWhich ONE of the following is NOT a possible candidate for X?",
     "options": {
       "A": "Internet Control Message Protocol (ICMP)",
       "B": "Internet Group Management Protocol (IGMP)",
@@ -285,7 +285,7 @@
     "checked_pages": [
       16
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'protocol X. Which ONE' -> 'protocol X.\\n\\nWhich ONE' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q19": {
@@ -401,7 +401,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q26": {
-    "stem": "Processes $P1$, $P2$, $P3$, $P4$ arrive in that order at times 0, 1, 2, and 8 milliseconds respectively, and have execution times of 10, 13, 6, and 9 milliseconds respectively. Shortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling policy. Ignore context switching times. Which ONE of the following correctly gives the average turnaround time of the four processes in milliseconds?",
+    "stem": "Processes $P1$, $P2$, $P3$, $P4$ arrive in that order at times 0, 1, 2, and 8 milliseconds respectively, and have execution times of 10, 13, 6, and 9 milliseconds respectively. Shortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling policy. Ignore context switching times.\n\nWhich ONE of the following correctly gives the average turnaround time of the four processes in milliseconds?",
     "options": {
       "A": "22",
       "B": "15",
@@ -413,7 +413,7 @@
     "checked_pages": [
       21
     ],
-    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'switching times. Which ONE' -> 'switching times.\\n\\nWhich ONE' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q27": {
@@ -591,7 +591,7 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q39": {
-    "stem": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block. Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+    "stem": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block.\n\nWhich ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
     "options": {
       "A": "64 KB and 4 KB",
       "B": "128 KB and 16 KB",
@@ -603,7 +603,7 @@
     "checked_pages": [
       30
     ],
-    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'each cache block. Which ONE' -> 'each cache block.\\n\\nWhich ONE' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q40": {
@@ -735,7 +735,7 @@
     "checked_pages": [
       36
     ],
-    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Header labels \"initially\" and \"after\" set in italics as printed (figures/sources/CS-2025-S2-second.py; other outputs byte-identical).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q48": {
@@ -875,25 +875,25 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q57": {
-    "stem": "In a B$^+$- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes:\n\nA = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20*, 22*, 25*, 26*)\n\nThe *-marked keys signify that these are data entries in a leaf.\n\nAssume that a pointer between keys $k_1$ and $k_2$ points to a subtree containing keys in $[k_1,k_2)$, and that when a leaf is created, the smallest key in it is copied up into its parent.\n\nA record with key value 23 is inserted into the B$^+$- tree.\n\nThe smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer)",
+    "stem": "In a B$^+$- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes:\n\nA = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20\\*, 22\\*, 25\\*, 26\\*)\n\nThe *-marked keys signify that these are data entries in a leaf.\n\nAssume that a pointer between keys $k_1$ and $k_2$ points to a subtree containing keys in $[k_1,k_2)$, and that when a leaf is created, the smallest key in it is copied up into its parent.\n\nA record with key value 23 is inserted into the B$^+$- tree.\n\nThe smallest key value in the parent of the leaf that contains 25\\* is __________. (Answer in integer)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       43
     ],
-    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '20*,' -> '20\\\\*,' (literal asterisk, escaped); stem: '22*,' -> '22\\\\*,' (literal asterisk, escaped); stem: '25*,' -> '25\\\\*,' (literal asterisk, escaped); stem: '26*)' -> '26\\\\*)' (literal asterisk, escaped); stem: 'contains 25* is' -> 'contains 25\\\\* is' (literal asterisk, escaped).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q58": {
-    "stem": "A computer system supports a logical address space of $2^{32}$ bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a $b$-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. The value of $b$ is ___________ . (Answer in integer)",
+    "stem": "A computer system supports a logical address space of $2^{32}$ bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a $b$-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size.\n\nThe value of $b$ is ___________ . (Answer in integer)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       44
     ],
-    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'same size. The value' -> 'same size.\\n\\nThe value' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q59": {
@@ -965,14 +965,14 @@
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   },
   "CS-2025-S2-Q65": {
-    "stem": "The unit interval (0,1) is divided at a point chosen uniformly distributed over (0,1) in $\\mathbb{R}$ into two disjoint subintervals. The expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
+    "stem": "The unit interval (0,1) is divided at a point chosen uniformly distributed over (0,1) in $\\mathbb{R}$ into two disjoint subintervals.\n\nThe expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       48
     ],
-    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'subintervals. The expected' -> 'subintervals.\\n\\nThe expected' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
   }
 }

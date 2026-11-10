@@ -16,7 +16,7 @@ p=[];w=780;xs=[10,114]+[114+50*i for i in range(1,14)];ys=[10,40,70,100,130,160]
 for y in ys:p.append(line(10,y,764,y))
 p.extend([line(10,10,10,160),line(114,10,114,160),line(764,10,764,160)])
 for x in xs[2:-1]:p.append(line(x,40,x,160))
-p.extend([text(62,31,'initially',28,extra=''),text(439,31,'after',28,extra='')])
+p.extend([text(62,31,'initially',28,extra='font-style="italic"'),text(439,31,'after',28,extra='font-style="italic"')])
 rows=[['-','1*','2*','3*','4*','5*','4','1','6*','4','5','1*','3*','2*'],['-','1','1','1','1','1','1','1','6','6','6','6','6','2'],['-','-','2','2','4','4','4','4','4','4','4','1','1','1'],['-','-','-','3','3','5','5','5','5','5','5','5','3','3']]
 for r,row in enumerate(rows):
  for c,v in enumerate(row):p.append(text(62 if c==0 else 114+(c-.5)*50,62+r*30,v,28))

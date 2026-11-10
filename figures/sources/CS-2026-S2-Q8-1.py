@@ -13,6 +13,9 @@ dot=p/'CS-2026-S2-Q8-1.dot';dot.write_text('\n'.join(lines)+'\n')
 s=subprocess.check_output(['neato','-n2','-Tsvg',str(dot)]).decode()
 import xml.etree.ElementTree as ET
 root=ET.fromstring(s[s.index('<svg'):])
+# Drop Graphviz per-node/edge <title> tooltips; the figure keeps one accessible title.
+for g in root.iter():
+ for t in [c for c in g if c.tag.endswith('}title') or c.tag=='title']:g.remove(t)
 for k in ('width','height'):root.attrib.pop(k,None)
 for node in root.iter():
  node.tag=node.tag.removeprefix('{http://www.w3.org/2000/svg}')

@@ -87,5 +87,52 @@
     "figures/sources/make_graph.py": "632957b9dc9e3ef864d0c7ae4b3e90a54b32371cd445f41c4f77ee8dce542a46",
     "figures/sources/redraw.py": "af1f32940bfe48124a852a7ca3fd668ba5a2b50b645d3bcfbf6537b9acc5d0c1",
     "figures/sources/render_graphs.py": "0c59e240bbc936f00f67a4778783c6155c537410bfe3c7b9f8631d6dbc760625"
-  }
+  },
+  "post_review_changes": [
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Repo-wide sweep of issue classes found while finishing CS-2024 (emphasis vs PDF font flags, paragraphing, KaTeX quote/prime handling, literal asterisks, figure label overlap/italics, Graphviz tooltips).",
+      "entries_changed": [
+        "CS-2026-S2-Q8",
+        "CS-2026-S2-Q11",
+        "CS-2026-S2-Q16",
+        "CS-2026-S2-Q21",
+        "CS-2026-S2-Q24",
+        "CS-2026-S2-Q30",
+        "CS-2026-S2-Q31",
+        "CS-2026-S2-Q32",
+        "CS-2026-S2-Q33",
+        "CS-2026-S2-Q34",
+        "CS-2026-S2-Q35",
+        "CS-2026-S2-Q40",
+        "CS-2026-S2-Q45",
+        "CS-2026-S2-Q47",
+        "CS-2026-S2-Q50",
+        "CS-2026-S2-Q52",
+        "CS-2026-S2-Q53",
+        "CS-2026-S2-Q54",
+        "CS-2026-S2-Q55",
+        "CS-2026-S2-Q56",
+        "CS-2026-S2-Q57",
+        "CS-2026-S2-Q58",
+        "CS-2026-S2-Q59",
+        "CS-2026-S2-Q60",
+        "CS-2026-S2-Q61",
+        "CS-2026-S2-Q62",
+        "CS-2026-S2-Q63",
+        "CS-2026-S2-Q64",
+        "CS-2026-S2-Q65"
+      ],
+      "note": "The sha256 map above records what the draft reviews checked and is left unchanged. The files below differ from it and need the independent review (HANDOFF 3.3). Every entry remains draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2026-S2.json": "5130cd4925445839d766e1fb9b88708be05b801b2f1d3dd6db66060e0f6cfb12",
+        "figures/CS-2026-S2-Q8-1.svg": "64cacb1447b7728a953d616a86c4b9116ec49db9f7a57bd80242c4ed0fbb4fbc",
+        "figures/CS-2026-S2-Q45-1.svg": "422347a25c1689e212b46b8bf8a01ebc226a7bcbe107fc9609a0fffb59f9df32",
+        "figures/CS-2026-S2-Q47-1.svg": "d79a36b6fdcef153983d79fea2eb53df4070af86478f24e0464b5db8e45c01b7",
+        "figures/sources/CS-2026-S2-Q8-1.py": "1ae83ff9afde4e848bcb7feeaa88b1400cf9806be695b8eb3b95e9c4c8066b9f",
+        "figures/sources/CS-2026-S2-Q47-1.dot": "7803c837dc62804ff5faa03c891428fa784e13709847a298bce0aa8412e99dc4"
+      }
+    }
+  ]
 }

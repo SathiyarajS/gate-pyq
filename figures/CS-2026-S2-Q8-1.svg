@@ -1,269 +1,215 @@
 <svg viewBox="0.00 0.00 421.24 219.24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Intercity highways: (i) four-by-four grid and (ii) five-city network.">
 <title id="title">Intercity highways: (i) four-by-four grid and (ii) five-city network.</title><g id="graph0" transform="scale(1 1) rotate(0) translate(4 215.24)">
-<title>G</title>
 
 <g id="edge1">
-<title>n00--n01</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M8.28,-168.24C17.99,-168.24 46.57,-168.24 56.53,-168.24" />
 </g>
 
 <g id="edge4">
-<title>n00--n10</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M5,-164.96C5,-155.25 5,-126.67 5,-116.71" />
 </g>
 
 <g id="edge2">
-<title>n01--n02</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M63.28,-168.24C72.99,-168.24 101.57,-168.24 111.53,-168.24" />
 </g>
 
 <g id="edge5">
-<title>n01--n11</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M60,-164.96C60,-155.25 60,-126.67 60,-116.71" />
 </g>
 
 <g id="edge3">
-<title>n02--n03</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M118.28,-168.24C127.99,-168.24 156.57,-168.24 166.53,-168.24" />
 </g>
 
 <g id="edge7">
-<title>n02--n12</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M115,-164.96C115,-155.25 115,-126.67 115,-116.71" />
 </g>
 
 <g id="edge9">
-<title>n03--n13</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M170,-164.96C170,-155.25 170,-126.67 170,-116.71" />
 </g>
 
 <g id="edge6">
-<title>n10--n11</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M8.28,-113.24C17.99,-113.24 46.57,-113.24 56.53,-113.24" />
 </g>
 
 <g id="edge11">
-<title>n10--n20</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M5,-109.96C5,-100.25 5,-71.67 5,-61.71" />
 </g>
 
 <g id="edge8">
-<title>n11--n12</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M63.28,-113.24C72.99,-113.24 101.57,-113.24 111.53,-113.24" />
 </g>
 
 <g id="edge12">
-<title>n11--n21</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M60,-109.96C60,-100.25 60,-71.67 60,-61.71" />
 </g>
 
 <g id="edge10">
-<title>n12--n13</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M118.28,-113.24C127.99,-113.24 156.57,-113.24 166.53,-113.24" />
 </g>
 
 <g id="edge14">
-<title>n12--n22</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M115,-109.96C115,-100.25 115,-71.67 115,-61.71" />
 </g>
 
 <g id="edge16">
-<title>n13--n23</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M170,-109.96C170,-100.25 170,-71.67 170,-61.71" />
 </g>
 
 <g id="edge13">
-<title>n20--n21</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M8.28,-58.24C17.99,-58.24 46.57,-58.24 56.53,-58.24" />
 </g>
 
 <g id="edge18">
-<title>n20--n30</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M5,-54.96C5,-45.25 5,-16.67 5,-6.71" />
 </g>
 
 <g id="edge15">
-<title>n21--n22</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M63.28,-58.24C72.99,-58.24 101.57,-58.24 111.53,-58.24" />
 </g>
 
 <g id="edge19">
-<title>n21--n31</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M60,-54.96C60,-45.25 60,-16.67 60,-6.71" />
 </g>
 
 <g id="edge17">
-<title>n22--n23</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M118.28,-58.24C127.99,-58.24 156.57,-58.24 166.53,-58.24" />
 </g>
 
 <g id="edge21">
-<title>n22--n32</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M115,-54.96C115,-45.25 115,-16.67 115,-6.71" />
 </g>
 
 <g id="edge23">
-<title>n23--n33</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M170,-54.96C170,-45.25 170,-16.67 170,-6.71" />
 </g>
 
 <g id="edge20">
-<title>n30--n31</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M8.28,-3.24C17.99,-3.24 46.57,-3.24 56.53,-3.24" />
 </g>
 
 <g id="edge22">
-<title>n31--n32</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M63.28,-3.24C72.99,-3.24 101.57,-3.24 111.53,-3.24" />
 </g>
 
 <g id="edge24">
-<title>n32--n33</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M118.28,-3.24C127.99,-3.24 156.57,-3.24 166.53,-3.24" />
 </g>
 
 <g id="edge25">
-<title>a--b</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M268.3,-173.22C287.69,-173.08 386.62,-172.4 406.51,-172.26" />
 </g>
 
 <g id="edge29">
-<title>a--e</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M264.27,-169.85C260.93,-154.36 247.15,-90.48 243.76,-74.75" />
 </g>
 
 <g id="edge26">
-<title>b--d</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M408.18,-169.25C396.86,-150.64 336.1,-50.77 324.81,-32.21" />
 </g>
 
 <g id="edge28">
-<title>c--a</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M339.65,-140.7C326.82,-146.29 280.91,-166.3 268.25,-171.82" />
 </g>
 
 <g id="edge27">
-<title>d--c</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M323.67,-32.9C326.73,-49.75 339.45,-119.73 342.39,-135.9" />
 </g>
 
 <g id="edge30">
-<title>e--d</title>
 <path fill="none" stroke="currentColor" stroke-width="1.1" d="M246.04,-69.64C258.71,-62.99 307.28,-37.49 319.96,-30.84" />
 </g>
 
 <g id="node1">
-<title>n00</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="5" cy="-168.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node2">
-<title>n01</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="60" cy="-168.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node3">
-<title>n02</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="115" cy="-168.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node4">
-<title>n03</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="170" cy="-168.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node5">
-<title>n10</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="5" cy="-113.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node6">
-<title>n11</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="60" cy="-113.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node7">
-<title>n12</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="115" cy="-113.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node8">
-<title>n13</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="170" cy="-113.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node9">
-<title>n20</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="5" cy="-58.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node10">
-<title>n21</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="60" cy="-58.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node11">
-<title>n22</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="115" cy="-58.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node12">
-<title>n23</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="170" cy="-58.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node13">
-<title>n30</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="5" cy="-3.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node14">
-<title>n31</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="60" cy="-3.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node15">
-<title>n32</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="115" cy="-3.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node16">
-<title>n33</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="170" cy="-3.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node17">
-<title>a</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="265" cy="-173.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node18">
-<title>b</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="410" cy="-172.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node19">
-<title>c</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="343" cy="-139.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node20">
-<title>d</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="323" cy="-29.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node21">
-<title>e</title>
 <ellipse fill="currentColor" stroke="currentColor" cx="243" cy="-71.24" rx="3.24" ry="3.24" />
 </g>
 
 <g id="node22">
-<title>label1</title>
 <text text-anchor="middle" x="17" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor">(i)</text>
 </g>
 
 <g id="node23">
-<title>label2</title>
 <text text-anchor="middle" x="233" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor">(ii)</text>
 </g>
 </g>

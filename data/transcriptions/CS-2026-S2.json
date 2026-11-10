@@ -130,7 +130,7 @@
     "checked_pages": [
       7
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed from the SVG (geometry unchanged); generator updated to strip them. Local Graphviz 2.43 shifts coordinates by 1px, so the SVG was edited rather than regenerated.",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q9": {
@@ -168,7 +168,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q11": {
-    "stem": "For two different persons $x$ and $y$, the predicate $M(x,y)$ denotes that x knows y. Consider the following statement.\n\n*There is a person who does not know anyone else, but that person is known by everyone else.*\n\nWhich one of the following expressions represents the above statement?",
+    "stem": "For two different persons $x$ and $y$, the predicate $M(x,y)$ denotes that $x$ knows $y$. Consider the following statement.\n\n*There is a person who does not know anyone else, but that person is known by everyone else.*\n\nWhich one of the following expressions represents the above statement?",
     "options": {
       "A": "$(\\exists y)(\\forall x)\\,((x\\ne y)\\to(M(x,y)\\land\\neg M(y,x)))$",
       "B": "$(\\forall y)(\\exists x)\\,((x\\ne y)\\to(M(x,y)\\land\\neg M(y,x)))$",
@@ -180,7 +180,7 @@
     "checked_pages": [
       10
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'denotes that x knows y.' -> 'denotes that $x$ knows $y$.' (italic variables in source).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q12": {
@@ -248,7 +248,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q16": {
-    "stem": "Which one of the following options is **not** a property of Boolean Algebra?\n\n*Note:* $+$ is OR operation, $.$ is AND operation, and $\\prime$ is NOT operation",
+    "stem": "Which one of the following options is **not** a property of Boolean Algebra?\n\n*Note*: $+$ is OR operation, $.$ is AND operation, and $\\prime$ is NOT operation",
     "options": {
       "A": "$a+b=b+a$",
       "B": "$a.a'=1$",
@@ -260,7 +260,7 @@
     "checked_pages": [
       14
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q17": {
@@ -328,7 +328,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q21": {
-    "stem": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file.\n\nWhich one of the following is the total time (in seconds) to transfer the file?\n\n*Note:* $1\\mathrm{M}=10^6$, $1\\mathrm{k}=10^3$",
+    "stem": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file.\n\nWhich one of the following is the total time (in seconds) to transfer the file?\n\n*Note*: $1\\mathrm{M}=10^6$, $1\\mathrm{k}=10^3$",
     "options": {
       "A": "731",
       "B": "64",
@@ -340,7 +340,7 @@
     "checked_pages": [
       17
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Existing solution already discusses unspecified packetization/forwarding mode and retains official B under bottleneck-throughput interpretation; no new change proposed.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Existing solution already discusses unspecified packetization/forwarding mode and retains official B under bottleneck-throughput interpretation; no new change proposed. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q22": {
@@ -376,7 +376,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q24": {
-    "stem": "Consider the following functions, where $n$ is a positive integer.\n\n$$n^{1/3},\\quad\\log(n),\\quad\\log(n!),\\quad2^{\\log(n)}$$\n\nWhich one of the following options lists the functions in increasing order of asymptotic growth rate?\n\n*Note:* Assume the base of log to be 2.",
+    "stem": "Consider the following functions, where $n$ is a positive integer.\n\n$$n^{1/3},\\quad\\log(n),\\quad\\log(n!),\\quad2^{\\log(n)}$$\n\nWhich one of the following options lists the functions in increasing order of asymptotic growth rate?\n\n*Note*: Assume the base of log to be 2.",
     "options": {
       "A": "$\\log(n),\\ n^{1/3},\\ 2^{\\log(n)},\\ \\log(n!)$",
       "B": "$n^{1/3},\\ \\log(n),\\ \\log(n!),\\ 2^{\\log(n)}$",
@@ -388,7 +388,7 @@
     "checked_pages": [
       19
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q25": {
@@ -472,69 +472,69 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q30": {
-    "stem": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function $h(k)=k\\ mod\\ 9$. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is __________. *(answer in integer)*",
+    "stem": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function $h(k)=k\\ mod\\ 9$. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q31": {
-    "stem": "Consider the system of linear equations given below.\n\n$$ax+y=b$$\n\n$$16x+ay=24$$\n\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is __________. *(answer in integer)*",
+    "stem": "Consider the system of linear equations given below.\n\n$$ax+y=b$$\n\n$$16x+ay=24$$\n\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q32": {
-    "stem": "Consider an array $A=[10, 7, 8, 19, 41, 35, 25, 31]$. Suppose the merge sort algorithm is executed on array $A$ to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations.\n\nA merge operation on sorted left array $L$ and sorted right array $R$ is said to be void if the output of the merge operation is the elements of array $L$ followed by the elements of array $R$.\n\nThe number of void merge operations among these 7 merge operations is __________. *(answer in integer)*",
+    "stem": "Consider an array $A=[10, 7, 8, 19, 41, 35, 25, 31]$. Suppose the merge sort algorithm is executed on array $A$ to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations.\n\nA merge operation on sorted left array $L$ and sorted right array $R$ is said to be void if the output of the merge operation is the elements of array $L$ followed by the elements of array $R$.\n\nThe number of void merge operations among these 7 merge operations is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q33": {
-    "stem": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is __________. *(answer in integer)*",
+    "stem": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q34": {
-    "stem": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ________. *(rounded off to two decimal places)*",
+    "stem": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ________. (*rounded off to two decimal places*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(rounded off to two decimal places)*' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q35": {
-    "stem": "A lexical analyzer uses the following token definitions\n\n- $letter\\to[A-Za-z]$\n- $digit\\to[0-9]$\n- $id\\to letter\\ (letter\\mid digit)^{*}$\n- $number\\to digit^{+}$\n- $ws\\to(blank\\mid tab\\mid newline)^{+}$\n\nFor the string given below,\n\n$$x1\\ \\ 23mm\\ \\ 78\\ \\ y\\ \\ 7z\\ \\ zz5\\ \\ 14A\\ \\ 8H\\ \\ AaYcD$$\n\nthe number of tokens (excluding $ws$) that will be produced by the lexical analyzer is __________. *(answer in integer)*",
+    "stem": "A lexical analyzer uses the following token definitions\n\n- $letter\\to[A-Za-z]$\n- $digit\\to[0-9]$\n- $id\\to letter\\ (letter\\mid digit)^{*}$\n- $number\\to digit^{+}$\n- $ws\\to(blank\\mid tab\\mid newline)^{+}$\n\nFor the string given below,\n\n$$x1\\ \\ 23mm\\ \\ 78\\ \\ y\\ \\ 7z\\ \\ zz5\\ \\ 14A\\ \\ 8H\\ \\ AaYcD$$\n\nthe number of tokens (excluding $ws$) that will be produced by the lexical analyzer is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
+    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q36": {
@@ -602,7 +602,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q40": {
-    "stem": "Consider the following 4-variable Boolean function\n\n$$F(A,B,C,D)=\\Sigma m(0,1,2,3,8,9,10,11)$$\n\nConsider $A$ as MSB, $D$ as LSB. Which one of the following options represents the minimal sum of products form for the above function?\n\nNote: $+$ is OR operation, $.$ is AND operation, $'$ is NOT operation",
+    "stem": "Consider the following 4-variable Boolean function\n\n$$F(A,B,C,D)=\\Sigma m(0,1,2,3,8,9,10,11)$$\n\nConsider $A$ as MSB, $D$ as LSB. Which one of the following options represents the minimal sum of products form for the above function?\n\n*Note*: $+$ is OR operation, $.$ is AND operation, $'$ is NOT operation",
     "options": {
       "A": "$A'+B'+C'+D'$",
       "B": "$B'$",
@@ -614,7 +614,7 @@
     "checked_pages": [
       27
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q41": {
@@ -696,7 +696,7 @@
     "checked_pages": [
       31
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; viewBox tightened to the drawing (Graphviz had sized it from the loop control points, leaving a blank band above ENTRY).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q46": {
@@ -730,7 +730,7 @@
     "checked_pages": [
       33
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; two edge labels moved off their curves (D1 w->s \"1\" below, D2 w2->s2 \"1\" above, as printed); .dot lp values updated to match.",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q48": {
@@ -766,7 +766,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q50": {
-    "stem": "Consider a stack $S$ and a queue $Q$. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one, in that order. When an element arrives, it is assigned either to $S$ (pushed on $S$ ) or to $Q$ (enqueued to $Q$). Once all the five elements are stored, the output is generated in two steps. First, stack S is emptied by popping all elements. Then queue $Q$ is emptied by dequeueing all elements. The output obtained by following this process is 4 3 1 2 5 .\n\nGiven the output, the objective is to predict whether an element was assigned to $S$ or $Q$.\n\nWhich of the following options is/are possible valid assignment(s) of the elements?\n\nNote: In the options, the notation $xS$ denotes that element $x$ was assigned to $S$ and $yQ$ denotes that element $y$ was assigned to $Q$.",
+    "stem": "Consider a stack $S$ and a queue $Q$. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one, in that order. When an element arrives, it is assigned either to $S$ (pushed on $S$ ) or to $Q$ (enqueued to $Q$). Once all the five elements are stored, the output is generated in two steps. First, stack S is emptied by popping all elements. Then queue $Q$ is emptied by dequeueing all elements. The output obtained by following this process is 4 3 1 2 5 .\n\nGiven the output, the objective is to predict whether an element was assigned to $S$ or $Q$.\n\nWhich of the following options is/are possible valid assignment(s) of the elements?\n\n*Note:* In the options, the notation $xS$ denotes that element $x$ was assigned to $S$ and $yQ$ denotes that element $y$ was assigned to $Q$.",
     "options": {
       "A": "$1S,2Q,3S,4S,5Q$",
       "B": "$1Q,2Q,3S,4S,5Q$",
@@ -778,7 +778,7 @@
     "checked_pages": [
       36
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q51": {
@@ -798,7 +798,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q52": {
-    "stem": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory. Four words P, Q, R, and S are accessed by the processor in the same order 10 times. That is, there are a total of 40 memory references in the sequence P, Q, R, S, P, Q, R, S,…\n\nAssume that the cache memory is initially empty. The physical addresses of the words are given below (1 word =1 byte).\n\nP: 0x845B32, Q: 0x845B26, R: 0x845B36, S: 0x846B32\n\nWhich of the following statements is/are true?\n\nNote: 1K=$2^{10}$ and 1M=$2^{20}$",
+    "stem": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory. Four words P, Q, R, and S are accessed by the processor in the same order 10 times. That is, there are a total of 40 memory references in the sequence P, Q, R, S, P, Q, R, S,…\n\nAssume that the cache memory is initially empty. The physical addresses of the words are given below (1 word =1 byte).\n\nP: 0x845B32, Q: 0x845B26, R: 0x845B36, S: 0x846B32\n\nWhich of the following statements is/are true?\n\n*Note:* 1K=$2^{10}$ and 1M=$2^{20}$",
     "options": {
       "A": "Every access to P results in a cache miss",
       "B": "Every access to R results in a cache hit",
@@ -810,77 +810,77 @@
     "checked_pages": [
       38
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q53": {
-    "stem": "To keep track of free blocks in a file system, one of the two approaches is generally used – using bitmaps (bit vectors) or using linked lists. Consider that the linked list approach is used to keep track of free blocks in a file system. Assume that the disk size is 16 GB, block size is 2 KB, and block numbers used are 32-bit long. A single pointer of size 4 bytes is used in each block of the list to point to the next block of the list. The number of blocks required to hold the free disk block numbers is ____________. (answer in integer)\n\nNote: 1K=$2^{10}$ and 1G=$2^{30}$",
+    "stem": "To keep track of free blocks in a file system, one of the two approaches is generally used – using bitmaps (bit vectors) or using linked lists. Consider that the linked list approach is used to keep track of free blocks in a file system. Assume that the disk size is 16 GB, block size is 2 KB, and block numbers used are 32-bit long. A single pointer of size 4 bytes is used in each block of the list to point to the next block of the list. The number of blocks required to hold the free disk block numbers is ____________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$ and 1G=$2^{30}$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       38
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q54": {
-    "stem": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB. TLB reach is defined as the total amount of physical memory that can be accessed through the TLB entries. The paging system uses pages of size 4 KB. The virtual address space is 64 GB and physical address space is 1 GB. If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___________. (answer in integer)\n\nNote: 1K=$2^{10}$, 1M=$2^{20}$, 1G=$2^{30}$",
+    "stem": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB. TLB reach is defined as the total amount of physical memory that can be accessed through the TLB entries. The paging system uses pages of size 4 KB. The virtual address space is 64 GB and physical address space is 1 GB. If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$, 1M=$2^{20}$, 1G=$2^{30}$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q55": {
-    "stem": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme. Suppose there are 8 holes in the memory of sizes 20 KB, 4 KB, 25 KB, 18 KB, 7 KB, 9 KB, 15 KB, and 12 KB. Assume that no two holes are adjacent. Two processes P1 of size 16 KB and P2 of size 9 KB arrive in that order, and they are allocated memory using the best-fit technique. After allocating space to P1 and P2, the number of holes of size less than 8 KB is ____________. (answer in integer)\n\nNote: 1K=$2^{10}$",
+    "stem": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme. Suppose there are 8 holes in the memory of sizes 20 KB, 4 KB, 25 KB, 18 KB, 7 KB, 9 KB, 15 KB, and 12 KB. Assume that no two holes are adjacent. Two processes P1 of size 16 KB and P2 of size 9 KB arrive in that order, and they are allocated memory using the best-fit technique. After allocating space to P1 and P2, the number of holes of size less than 8 KB is ____________. (*answer in integer*)\n\n*Note:* 1K=$2^{10}$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q56": {
-    "stem": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache, with block numbers starting from 0. The word with physical address 0xA2C28 is mapped to the cache block number $176_{10}$. The maximum possible size of the cache (in KB) for this configuration is ___________. (answer in integer)\n\nNote: 1K=$2^{10}$ and 1M=$2^{20}$",
+    "stem": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache, with block numbers starting from 0. The word with physical address 0xA2C28 is mapped to the cache block number $176_{10}$. The maximum possible size of the cache (in KB) for this configuration is ___________. (*answer in integer*)\n\n*Note:* 1K=$2^{10}$ and 1M=$2^{20}$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q57": {
-    "stem": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles to complete the execution of an instruction. To improve the performance, the system was pipelined with a goal of achieving an average throughput of one instruction per clock cycle. However, it could operate only at 1.2 GHz due to pipeline overheads. While executing a program in the pipelined design, 30% of instructions encountered a stall of 2 cycles due to pipeline hazards. The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___________. (rounded off to two decimal places)\n\nNote: 1G=$10^9$",
+    "stem": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles to complete the execution of an instruction. To improve the performance, the system was pipelined with a goal of achieving an average throughput of one instruction per clock cycle. However, it could operate only at 1.2 GHz due to pipeline overheads. While executing a program in the pipelined design, 30% of instructions encountered a stall of 2 cycles due to pipeline hazards. The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___________. (*rounded off to two decimal places*)\n\n*Note*: 1G=$10^9$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to two decimal places)' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q58": {
-    "stem": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the maximum segment size (MSS) is 2 KB, and the slow start threshold for TCP congestion control is 16 KB. Assume that there are no timeouts or duplicate acknowledgements. The number of rounds of transmission required for the congestion control algorithm of the TCP connection to reach the congestion avoidance phase is ___________. (answer in integer)\n\nNote: 1K=$2^{10}$",
+    "stem": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the maximum segment size (MSS) is 2 KB, and the slow start threshold for TCP congestion control is 16 KB. Assume that there are no timeouts or duplicate acknowledgements. The number of rounds of transmission required for the congestion control algorithm of the TCP connection to reach the congestion avoidance phase is ___________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q59": {
-    "stem": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. The blocks Q and M represent active high 2:4 decoder and 4-to-1 multiplexer, respectively. Out of 16 possible input combinations, the number of combinations that produce Y=1 is ____________. (answer in integer)\n\nNote: One input combination is an instance of [A B S1 S0].",
+    "stem": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. The blocks Q and M represent active high 2:4 decoder and 4-to-1 multiplexer, respectively. Out of 16 possible input combinations, the number of combinations that produce Y=1 is ____________. (*answer in integer*)\n\n*Note:* One input combination is an instance of [A B S1 S0].",
     "options": {},
     "figures": [
       "figures/CS-2026-S2-Q59-1.svg"
@@ -889,73 +889,73 @@
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q60": {
-    "stem": "Consider the following ANSI-C program.\n\n```c\n#include <stdio.h>\n\nint main(){\n\n        int *ptr, a, b, c;\n        a=5; b=11; c=20;\n        ptr=&a; *ptr=c; ptr=&c;\n        a=*(&b); c=*ptr-a;\n        printf(\"%d\",c);\n        return(0);\n}\n```\n\nThe output of this program is ____________. (answer in integer)\n\nNote: Assume that the program compiles and runs successfully.",
+    "stem": "Consider the following ANSI-C program.\n\n```c\n#include <stdio.h>\n\nint main(){\n\n        int *ptr, a, b, c;\n        a=5; b=11; c=20;\n        ptr=&a; *ptr=c; ptr=&c;\n        a=*(&b); c=*ptr-a;\n        printf(\"%d\",c);\n        return(0);\n}\n```\n\nThe output of this program is ____________. (*answer in integer*)\n\n*Note*: Assume that the program compiles and runs successfully.",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q61": {
-    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n        int length=end+1-start;\n        if((length<1)||(start<0)||(end<0)){ return(0); }\n        if(length%3==0){\n                return(func(start+1, end));\n        } else if(length%3==1){\n                return(1+func(start, end-1));\n        } else {\n                return(func(start+2, end));\n        }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (answer in integer)\n\nNote: Ignore syntax errors (if any) in the function.",
+    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n        int length=end+1-start;\n        if((length<1)||(start<0)||(end<0)){ return(0); }\n        if(length%3==0){\n                return(func(start+1, end));\n        } else if(length%3==1){\n                return(1+func(start, end-1));\n        } else {\n                return(func(start+2, end));\n        }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q62": {
-    "stem": "The determinant of a $4\\times4$ matrix A is 3. The value of the determinant of 2A is ____________. (answer in integer)",
+    "stem": "The determinant of a $4\\times4$ matrix $A$ is 3. The value of the determinant of $2A$ is ____________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'matrix A is 3' -> 'matrix $A$ is 3' (italic variable in source); stem: 'determinant of 2A is' -> 'determinant of $2A$ is' (italic in source).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q63": {
-    "stem": "Suppose an unbiased coin is tossed 6 times. Each coin toss is independent of all previous coin tosses. Let $E_1$ be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let $E_2$ be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails.\n\nThe conditional probability $\\mathrm{P}(E_1\\mid E_2)$ is equal to ____________. (rounded off to one decimal place)",
+    "stem": "Suppose an unbiased coin is tossed 6 times. Each coin toss is independent of all previous coin tosses. Let $E_1$ be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let $E_2$ be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails.\n\nThe conditional probability $\\mathrm{P}(E_1\\mid E_2)$ is equal to ____________. (*rounded off to one decimal place*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to one decimal place)' -> '(*rounded off to one decimal place*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q64": {
-    "stem": "Consider a function $f:(0,1)\\to\\{0,1\\}$ defined as follows.\n\nFor a real number $r\\in(0,1)$ , $f(r)=1$ if the second digit after the decimal point in $r$ is one of the four digits 2, 3, 6 and 7. Otherwise, $f(r)$ is equal to 0.\n\nThe number of points in $(0,1)$ at which $f$ is discontinuous is ___________. (answer in integer)",
+    "stem": "Consider a function $f:(0,1)\\to\\{0,1\\}$ defined as follows.\n\nFor a real number $r\\in(0,1)$ , $f(r)=1$ if the second digit after the decimal point in $r$ is one of the four digits 2, 3, 6 and 7. Otherwise, $f(r)$ is equal to 0.\n\nThe number of points in $(0,1)$ at which $f$ is discontinuous is ___________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q65": {
-    "stem": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers. Assume that the link bandwidth is $10^8$ bits per second and that the propagation delay in the link is 5 nanoseconds per meter. Every transmitted data byte is assigned a unique sequence number.\n\nLet $N$ be the minimum number of bits needed for the sequence number field in the protocol header such that\n\ni. the sequence numbers do not wrap around before 60 seconds, and\n\nii. the maximum utilization of the link is achieved.\n\nThe value of $N$ is ______. (answer in integer)",
+    "stem": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers. Assume that the link bandwidth is $10^8$ bits per second and that the propagation delay in the link is 5 nanoseconds per meter. Every transmitted data byte is assigned a unique sequence number.\n\nLet $N$ be the minimum number of bits needed for the sequence number field in the protocol header such that\n\ni. the sequence numbers do not wrap around before 60 seconds, and\n\nii. the maximum utilization of the link is achieved.\n\nThe value of $N$ is ______. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       42
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   }
 }

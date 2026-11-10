@@ -106,5 +106,25 @@
     "figures/CS-2025-S1-Q9-1.svg": "fccc5c421148517ffc11b7bae41d2255590799dee3a4d867e93b45aaf4986761",
     "figures/sources/CS-2025-S1-first.py": "14b63e080b9c6f9584025b53ff11e351c895fc2e9a72ccaeedd6e2d9fbc16c00",
     "figures/sources/CS-2025-S1-second.py": "f3c430580030e4054c840288be80c568cb7d11f7b10192d749f5ff1fefd197e4"
-  }
+  },
+  "post_review_changes": [
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Repo-wide sweep of issue classes found while finishing CS-2024 (emphasis vs PDF font flags, paragraphing, KaTeX quote/prime handling, literal asterisks, figure label overlap/italics, Graphviz tooltips).",
+      "entries_changed": [
+        "CS-2025-S1-Q12",
+        "CS-2025-S1-Q35",
+        "CS-2025-S1-Q36",
+        "CS-2025-S1-Q39",
+        "CS-2025-S1-Q51",
+        "CS-2025-S1-Q53",
+        "CS-2025-S1-Q65"
+      ],
+      "note": "The sha256 map above records what the draft reviews checked and is left unchanged. The files below differ from it and need the independent review (HANDOFF 3.3). Every entry remains draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2025-S1.json": "f1d0d33d6b364e1d69c89cafd007d23112c8e7551be95b160b056475187854e0"
+      }
+    }
+  ]
 }

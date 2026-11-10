@@ -230,7 +230,7 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q15": {
-    "stem": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand.\n\nWhich one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y ?\n\n*Note:* X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+    "stem": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand.\n\nWhich one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y ?\n\n*Note*: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
     "options": {
       "A": "```asm\nADD Z, X, Y\n```",
       "B": "```asm\nLOAD R0, X\nADD Z, R0, Y\n```",
@@ -242,7 +242,7 @@
     "checked_pages": [
       12
     ],
-    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found.",
+    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q16": {
@@ -502,47 +502,47 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q32": {
-    "stem": "Consider the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined as follows:\n\n$$f(x)=\\begin{cases}c_1e^x-c_2\\log_e\\left(\\frac{1}{x}\\right),&\\text{if }x>0\\\\3&\\text{otherwise}\\end{cases}$$\n\nwhere $c_1,c_2\\in\\mathbb{R}$.\n\nIf $f$ is continuous at $x=0$, then $c_1+c_2=$ _________. *(answer in integer)*",
+    "stem": "Consider the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined as follows:\n\n$$f(x)=\\begin{cases}c_1e^x-c_2\\log_e\\left(\\frac{1}{x}\\right),&\\text{if }x>0\\\\3&\\text{otherwise}\\end{cases}$$\n\nwhere $c_1,c_2\\in\\mathbb{R}$.\n\nIf $f$ is continuous at $x=0$, then $c_1+c_2=$ _________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       23
     ],
-    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found.",
+    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q33": {
-    "stem": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is _________. *(answer in integer)*",
+    "stem": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is _________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       23
     ],
-    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found.",
+    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q34": {
-    "stem": "Consider the following program in C:\n\n```c\n#include <stdio.h>\n\nvoid func(int i, int j) {\n  if(i < j) {\n    int i = 0;\n    while (i < 10) {\n      j += 2;\n      i++;\n    }\n  }\n  printf(\"%d\", i);\n}\n\nint main() {\n  int i = 9, j = 10;\n  func(i, j);\n  return 0;\n}\n```\n\nThe output of the program is _________. *(answer in integer)*\n\n*Note:* Assume that the program compiles and runs successfully.",
+    "stem": "Consider the following program in C:\n\n```c\n#include <stdio.h>\n\nvoid func(int i, int j) {\n  if(i < j) {\n    int i = 0;\n    while (i < 10) {\n      j += 2;\n      i++;\n    }\n  }\n  printf(\"%d\", i);\n}\n\nint main() {\n  int i = 9, j = 10;\n  func(i, j);\n  return 0;\n}\n```\n\nThe output of the program is _________. (*answer in integer*)\n\n*Note*: Assume that the program compiles and runs successfully.",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       24
     ],
-    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found.",
+    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q35": {
-    "stem": "Consider a system consisting of $k$ instances of a resource $R$, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource $R$ and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance.\n\nThe minimum value of $k$ for the system to be deadlock-free is ________. *(answer in integer)*",
+    "stem": "Consider a system consisting of $k$ instances of a resource $R$, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource $R$ and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance.\n\nThe minimum value of $k$ for the system to be deadlock-free is ________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       24
     ],
-    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found.",
+    "notes": "Source PDF page and original crop inspected; wording and option order checked. Production-rendered independent comparison pending. Existing solution compared with source givens and options; no new answer-changing mismatch found. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q36": {
@@ -562,23 +562,23 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q65": {
-    "stem": "Consider a relational database schema with a relation $R(A,B,C,D)$. If $\\{A,B\\}$ and $\\{A,C\\}$ are the only two candidate keys of the relation $R$, then the number of superkeys of relation $R$ is ______. (answer in integer)",
+    "stem": "Consider a relational database schema with a relation $R(A,B,C,D)$. If $\\{A,B\\}$ and $\\{A,C\\}$ are the only two candidate keys of the relation $R$, then the number of superkeys of relation $R$ is ______. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       46
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q37": {
     "stem": "Consider a 2-bit saturating up/down counter that performs the saturating up count when the input $P$ is 0, and the saturating down count when $P$ is 1. The Next State table of the counter is as shown. The counter is built as a synchronous sequential circuit using D flip-flops.\n\nWhich one of the following options corresponds to the expressions for the inputs of the D flip-flops, $D_1$ and $D_0$?",
     "options": {
-      "A": "$D_1=P Q_1+\\overline{P}Q_0+Q_1Q_0$     $D_0=P Q_0+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
-      "B": "$D_1=\\overline{P}Q_1+\\overline{P}Q_0+Q_1Q_0$     $D_0=\\overline{P}\\,\\overline{Q_0}+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
-      "C": "$D_1=\\overline{P}\\,\\overline{Q_1}+\\overline{P}Q_0+Q_1Q_0$     $D_0=\\overline{P}Q_0+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
-      "D": "$D_1=P\\overline{Q_1}+\\overline{P}Q_0+Q_1Q_0$     $D_0=P\\overline{Q_0}+\\overline{P}Q_1+Q_1\\overline{Q_0}$"
+      "A": "$D_1=P Q_1+\\overline{P}Q_0+Q_1Q_0$\n\n$D_0=P Q_0+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
+      "B": "$D_1=\\overline{P}Q_1+\\overline{P}Q_0+Q_1Q_0$\n\n$D_0=\\overline{P}\\,\\overline{Q_0}+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
+      "C": "$D_1=\\overline{P}\\,\\overline{Q_1}+\\overline{P}Q_0+Q_1Q_0$\n\n$D_0=\\overline{P}Q_0+\\overline{P}Q_1+Q_1\\overline{Q_0}$",
+      "D": "$D_1=P\\overline{Q_1}+\\overline{P}Q_0+Q_1Q_0$\n\n$D_0=P\\overline{Q_0}+\\overline{P}Q_1+Q_1\\overline{Q_0}$"
     },
     "figures": [
       "figures/CS-2026-S1-Q37-1.svg"
@@ -587,7 +587,7 @@
     "checked_pages": [
       26
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): options.A: '$     $' -> '$\\n\\n$' (the two equations are printed in separate columns; were running together); options.B: '$     $' -> '$\\n\\n$' (the two equations are printed in separate columns; were running together); options.C: '$     $' -> '$\\n\\n$' (the two equations are printed in separate columns; were running together); options.D: '$     $' -> '$\\n\\n$' (the two equations are printed in separate columns; were running together).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q38": {
@@ -623,7 +623,7 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q40": {
-    "stem": "Let $P$ be the set of all integers from 1 to 15. Consider any order of insertion of the elements of $P$ into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted?",
+    "stem": "Let $P$ be the set of all integers from 1 to 15. Consider any order of insertion of the elements of $P$ into a binary search tree that creates a complete binary tree.\n\nWhich one of the following elements can NEVER be the third element that is inserted?",
     "options": {
       "A": "4",
       "B": "2",
@@ -635,7 +635,7 @@
     "checked_pages": [
       29
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'binary tree. Which one' -> 'binary tree.\\n\\nWhich one' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q41": {
@@ -655,7 +655,7 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q42": {
-    "stem": "Consider the control flow graph shown in the figure.\n\nWhich one of the following options correctly lists the set of redundant expressions (common subexpressions) in the basic blocks B4 and B5?\n\n*Note*: All the variables are integers.",
+    "stem": "Consider the control flow graph shown in the figure.\n\nWhich one of the following options correctly lists the set of redundant expressions (common subexpressions) in the basic blocks B4 and B5?\n\n*Note:* All the variables are integers.",
     "options": {
       "A": "B4: $\\{b+i\\}$\n\nB5: $\\{c+m\\}$",
       "B": "B4: $\\{g*k\\}$\n\nB5: $\\{c+m\\}$",
@@ -669,7 +669,7 @@
     "checked_pages": [
       31
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Original B2 has f = d − f, not f = a − f in the stored solution; answer D is unaffected. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Original B2 has f = d − f, not f = a − f in the stored solution; answer D is unaffected. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note*:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q43": {
@@ -852,7 +852,7 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q54": {
-    "stem": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. For a given memory reference, which of the following sequences of events can NEVER happen?",
+    "stem": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid.\n\nFor a given memory reference, which of the following sequences of events can NEVER happen?",
     "options": {
       "A": "TLB miss, Page table hit, Cache hit",
       "B": "TLB hit, Page table miss, Cache hit",
@@ -864,7 +864,7 @@
     "checked_pages": [
       42
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'invalid. For a given' -> 'invalid.\\n\\nFor a given' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q55": {
@@ -900,91 +900,91 @@
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q57": {
-    "stem": "Let $G$ be an undirected graph, which is a path on 8 vertices. The number of matchings in $G$ is ______. (answer in integer)",
+    "stem": "Let $G$ be an undirected graph, which is a path on 8 vertices. The number of matchings in $G$ is ______. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       44
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q58": {
-    "stem": "Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\Pr(X=1)=\\Pr(X=2)=\\Pr(X=5)=\\Pr(X=7)=\\frac{1}{6}$ and $\\Pr(X=3)=\\Pr(X=4)=\\Pr(X=6)=\\Pr(X=8)=\\frac{1}{12}$.\n\nThe expected value of $X$, denoted by $E[X]$, is equal to ___________. *(rounded off to two decimal places)*",
+    "stem": "Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\Pr(X=1)=\\Pr(X=2)=\\Pr(X=5)=\\Pr(X=7)=\\frac{1}{6}$ and $\\Pr(X=3)=\\Pr(X=4)=\\Pr(X=6)=\\Pr(X=8)=\\frac{1}{12}$.\n\nThe expected value of $X$, denoted by $E[X]$, is equal to ___________. (*rounded off to two decimal places*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       44
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(rounded off to two decimal places)*' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q59": {
-    "stem": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7. The total time for the data transfer (in milliseconds) from the hard disk is _________. (rounded off to one decimal place)",
+    "stem": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7.\n\nThe total time for the data transfer (in milliseconds) from the hard disk is _________. (*rounded off to one decimal place*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       44
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to one decimal place)' -> '(*rounded off to one decimal place*)' (source italicises the phrase, not the parentheses); stem: '12 and 7. The total' -> '12 and 7.\\n\\nThe total' (paragraph break as printed (blank line in the source)).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q60": {
-    "stem": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let $t_{EX}$ denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of $t_{EX}$ and $M$ (the number of instructions of that type in a sequence of 100 instructions for a program P), are given in the table below.\n\nThe duration of the pipeline clock cycle is 1 nanosecond. Assume that the latch time for the interstage buffers in the pipeline is negligible.\n\n| Instruction | $t_{EX}$ in nanoseconds | $M$ |\n| --- | --- | --- |\n| LOAD | 1.8 | 15 |\n| IMUL | 1.5 | 10 |\n| IDIV | 2.5 | 5 |\n| FADD | 1.7 | 10 |\n| FSUB | 1.7 | 5 |\n| FMUL | 2.8 | 15 |\n| FDIV | 3.2 | 5 |\n| All other instructions | Less than 1.0 | 35 |\n\nWhen program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ______. *(answer in integer)*",
+    "stem": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let $t_{EX}$ denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of $t_{EX}$ and $M$ (the number of instructions of that type in a sequence of 100 instructions for a program P), are given in the table below.\n\nThe duration of the pipeline clock cycle is 1 nanosecond. Assume that the latch time for the interstage buffers in the pipeline is negligible.\n\n| Instruction | $t_{EX}$ in nanoseconds | $M$ |\n| --- | --- | --- |\n| LOAD | 1.8 | 15 |\n| IMUL | 1.5 | 10 |\n| IDIV | 2.5 | 5 |\n| FADD | 1.7 | 10 |\n| FSUB | 1.7 | 5 |\n| FMUL | 2.8 | 15 |\n| FDIV | 3.2 | 5 |\n| All other instructions | Less than 1.0 | 35 |\n\nWhen program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ______. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       44
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q61": {
-    "stem": "Consider the recursive functions represented by the following code segment:\n\n```c\nint bar(int n){\n     if (n == 1) return 0;\n     else return 1 + bar(n/2);\n}\n\nint foo(int n){\n     if (n == 1) return 1;\n     else return 1 + foo(bar(n));\n}\n```\n\nThe smallest positive integer `n` for which `foo(n)` returns 5 is ______. *(answer in integer)*\n\n*Note*: Ignore syntax errors (if any) in the function.",
+    "stem": "Consider the recursive functions represented by the following code segment:\n\n```c\nint bar(int n){\n     if (n == 1) return 0;\n     else return 1 + bar(n/2);\n}\n\nint foo(int n){\n     if (n == 1) return 1;\n     else return 1 + foo(bar(n));\n}\n```\n\nThe smallest positive integer `n` for which `foo(n)` returns 5 is ______. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       45
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q62": {
-    "stem": "The following sequence corresponds to the preorder traversal of a binary search tree $T$:\n\n50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77\n\nThe position of the element 60 in the postorder traversal of $T$ is ______. (answer in integer)\n\n*Note*: The position begins with 1.",
+    "stem": "The following sequence corresponds to the preorder traversal of a binary search tree $T$:\n\n50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77\n\nThe position of the element 60 in the postorder traversal of $T$ is ______. (*answer in integer*)\n\n*Note:* The position begins with 1.",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       45
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: '*Note*:' -> '*Note:*' (Note label emphasis per PDF font flags).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q63": {
-    "stem": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the `fork()` system call is always successful in creating a process.\n\n```c\nint main () {\n   int i;\n   for (i = 0; i < 3; i++){\n      if (fork() == 0){\n        continue;\n      }\n      break;\n   }\n   printf(\"Hello!\");\n   return 0;\n}\n```\n\nThe total number of times that the `printf` statement gets executed is ________. *(answer in integer)*",
+    "stem": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the `fork()` system call is always successful in creating a process.\n\n```c\nint main () {\n   int i;\n   for (i = 0; i < 3; i++){\n      if (fork() == 0){\n        continue;\n      }\n      break;\n   }\n   printf(\"Hello!\");\n   return 0;\n}\n```\n\nThe total number of times that the `printf` statement gets executed is ________. (*answer in integer*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       46
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   },
   "CS-2026-S1-Q64": {
-    "stem": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time $t$ = 10, 20, 30, 40, and 50 (in seconds). Similarly, a new process of type C arrives at time $t$ = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at $t$ = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___________. (rounded off to one decimal place)",
+    "stem": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time $t$ = 10, 20, 30, 40, and 50 (in seconds). Similarly, a new process of type C arrives at time $t$ = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at $t$ = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___________. (*rounded off to one decimal place*)",
     "options": {},
     "figures": [],
     "status": "draft",
     "checked_pages": [
       46
     ],
-    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json.",
+    "notes": "Source PDF page visually inspected against extraction; exact wording, options and mathematical details corrected. Production-rendered independent comparison remains pending; retain draft. Existing solution compared with source; exceptions and retained qualifications are documented in report.json. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to one decimal place)' -> '(*rounded off to one decimal place*)' (source italicises the phrase, not the parentheses).",
     "source_sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
   }
 }

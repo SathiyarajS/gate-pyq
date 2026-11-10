@@ -88,5 +88,36 @@
     "figures/CS-2026-S1-Q8-1.svg": "8bd973e0c49d150ef33fd430ab3c35f7432be95ac74a5c7bd0fdd01ad327e276",
     "figures/sources/CS-2026-S1-first.py": "6e5e9b46a980c7f288e9b48fa9773ca5f11bfe6a8b9ac40652381597ea2890a0",
     "figures/sources/CS-2026-S1-second.py": "bda4938f96056dc790bea61f2ac533d2d62821a0c6ba3dc0214838682d5e1409"
-  }
+  },
+  "post_review_changes": [
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Repo-wide sweep of issue classes found while finishing CS-2024 (emphasis vs PDF font flags, paragraphing, KaTeX quote/prime handling, literal asterisks, figure label overlap/italics, Graphviz tooltips).",
+      "entries_changed": [
+        "CS-2026-S1-Q15",
+        "CS-2026-S1-Q32",
+        "CS-2026-S1-Q33",
+        "CS-2026-S1-Q34",
+        "CS-2026-S1-Q35",
+        "CS-2026-S1-Q37",
+        "CS-2026-S1-Q40",
+        "CS-2026-S1-Q42",
+        "CS-2026-S1-Q54",
+        "CS-2026-S1-Q57",
+        "CS-2026-S1-Q58",
+        "CS-2026-S1-Q59",
+        "CS-2026-S1-Q60",
+        "CS-2026-S1-Q61",
+        "CS-2026-S1-Q62",
+        "CS-2026-S1-Q63",
+        "CS-2026-S1-Q64",
+        "CS-2026-S1-Q65"
+      ],
+      "note": "The sha256 map above records what the draft reviews checked and is left unchanged. The files below differ from it and need the independent review (HANDOFF 3.3). Every entry remains draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2026-S1.json": "6efdf06586d18dfc0356878e93a76d3e9ecb2858d61f78de8dd93a1e8ad2d3e9"
+      }
+    }
+  ]
 }
