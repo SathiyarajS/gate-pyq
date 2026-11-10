@@ -20,7 +20,16 @@ function check(key,input,type){
 document.addEventListener('click',async event=>{const b=event.target.closest('button');if(!b)return;const article=b.closest('.question');if(!article)return;
  if(b.classList.contains('bookmark'))save(article,{bookmarked:!(state[article.dataset.id]?.bookmarked)});
  if(b.classList.contains('copy-link')){const url=new URL('q/'+article.dataset.id+'/',base).href;try{await navigator.clipboard.writeText(url);b.textContent='Copied';}catch{b.textContent='Use permalink';}}
- if(b.classList.contains('check-answer')){const input=article.querySelector('.attempt-input').value.trim().toUpperCase(),key=article.dataset.key,result=check(key,input,article.dataset.type);article.querySelector('.answer').open=true;article.querySelector('.attempt-result').textContent=result===null?'Self-check: this answer cannot be safely scored automatically. Compare the recorded key and conditional reasoning below.':(result?'Matches the recorded official key.':'Does not match the recorded official key.');save(article,{attempted:true,result,input});}
+ if(b.classList.contains('choice')&&b.classList.contains('multi')){b.setAttribute('aria-pressed',String(b.getAttribute('aria-pressed')!=='true'));return;}
+ if(b.classList.contains('choice')||b.classList.contains('check-answer')){
+  const type=article.dataset.type,key=article.dataset.key;let input='';
+  if(b.classList.contains('choice')){input=b.dataset.choice;article.querySelectorAll('.choice').forEach(c=>{c.classList.remove('picked','right','wrong');c.setAttribute('aria-pressed','false');});b.classList.add('picked');b.setAttribute('aria-pressed','true');}
+  else if(type==='MSQ')input=[...article.querySelectorAll('.choice[aria-pressed="true"]')].map(c=>c.dataset.choice).join(';');
+  else input=(article.querySelector('.attempt-input')?.value||'').trim().toUpperCase();
+  const result=check(key,input,type);article.querySelector('.answer').open=true;
+  if(result!==null)article.querySelectorAll('.choice.picked,.choice[aria-pressed="true"]').forEach(c=>c.classList.add(result?'right':'wrong'));
+  article.querySelector('.attempt-result').textContent=result===null?(input?'No official key to check against — compare with our answer below.':'Answer shown below.'):(result?'Correct — matches the official key.':'Not quite — the official key is shown below.');
+  save(article,{attempted:true,result,input});}
 });hydrate();
 const form=document.querySelector('#filters');if(form){let records=null,page=1,filtered=[];const original=document.querySelector('#questions').innerHTML;
  function draw(){document.querySelector('#questions').innerHTML=filtered.slice((page-1)*10,page*10).map(x=>x.html).join(''); // Same trusted, escaped fragments emitted by local generator; no source HTML accepted.

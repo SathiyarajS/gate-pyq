@@ -72,6 +72,32 @@ def render_crop(page, crop, scale=3):
                        pixels.x1-pix.x, pixels.y1-pix.y))
 
 
+def trim_blank_tail(img, qid, min_tail=150, pad=24):
+    """Remove the empty answer-box area left below questions in 2022+ papers.
+
+    Those papers print each question in a table that runs to the page end, so a
+    reviewed crop can carry a tall blank block. Only rows with no ink other than
+    the table's vertical rules (and full-width horizontal rules) are removed, and
+    only from the bottom; question content is never touched.
+    """
+    import re
+    year = re.match(r'CS-(\d{4})', qid)
+    if not year or int(year.group(1)) < 2022:
+        return img
+    gray = img.convert('L'); w, h = gray.size; px = gray.load()
+    def row_is_empty(y):
+        dark = sum(1 for x in range(0, w, 2) if px[x, y] < 150) * 2
+        return dark <= max(6, int(0.02 * w)) or dark > 0.9 * w
+    tail = 0
+    for y in range(h - 1, -1, -1):
+        if not row_is_empty(y):
+            break
+        tail += 1
+    if tail < min_tail or h - tail < 60:
+        return img
+    return img.crop((0, 0, w, h - tail + pad))
+
+
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--crops', default=str(ROOT/'data/crops.json'))
@@ -104,7 +130,7 @@ def main():
     assets=json.loads(previous.read_text()) if args.question and previous.exists() else {}
     for qid in selected:assets.pop(qid,None)
     for qid,n,crop,page in jobs:
-        img=render_crop(page,crop,args.scale);name=f'{qid}-{n}.webp'
+        img=trim_blank_tail(render_crop(page,crop,args.scale),qid);name=f'{qid}-{n}.webp'
         try:img.save(output/name,'WEBP',quality=80)
         except (KeyError,OSError):name=f'{qid}-{n}.png';img.save(output/name,'PNG')
         assets.setdefault(qid,[]).append({'file':name,'width':img.width,'height':img.height,'status':crop['status'],'page':crop['page']})

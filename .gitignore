@@ -17,3 +17,6 @@ node_modules/
 _site-enhanced/
 
 _site-crop-preview/
+
+# PDF-only downscaled question images
+.pdf-images/

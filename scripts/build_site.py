@@ -51,7 +51,7 @@ def discrepancies():
     return rows
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--preview',action='store_true');ap.add_argument('--output',default='_site');ap.add_argument('--with-reviewed-crops',action='store_true',help='Private local preview only: regenerate and include reviewed source crops. Does not grant redistribution rights.');args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--preview',action='store_true');ap.add_argument('--release',action='store_true',help='Public build: no preview banner; original-question crops for every question whose source PDF is present.');ap.add_argument('--output',default='_site');ap.add_argument('--with-reviewed-crops',action='store_true',help='Private local preview only: regenerate and include reviewed source crops. Does not grant redistribution rights.');args=ap.parse_args()
     out=(ROOT/args.output).resolve()
     if out == ROOT or ROOT not in out.parents: raise SystemExit('Output must be a subdirectory of repository')
     questions=load(ROOT/'data/questions.json'); papers=load(ROOT/'data/papers.json'); topics=load(ROOT/'data/topics.json',{}); ds=discrepancies()
@@ -64,8 +64,7 @@ def main():
         if not re.fullmatch(r'[A-Za-z0-9_-]+',q['question_id']) or not re.fullmatch(r'[A-Za-z0-9_-]+',q['paper_id']):raise SystemExit('Unsafe identifier')
         seen.add(q['question_id']); subject=q['subject'] if q['subject']!='excluded' else '13-other-topics'
         q['subject_dir']=subject;q['year']=pmap[q['paper_id']]['year'];q['display_type']=q['question_type'].upper() if q['question_type'].upper() in ('MCQ','MSQ','NAT') else ('Descriptive' if q['question_type'].lower() in ('descriptive','short-answer') else 'Other')
-        q['number']=q.get('printed_question_number') or q['source_question_number'];q['session']=q.get('official_session') or pmap[q['paper_id']].get('exam_session') or ''
-        if not q['session'] and re.search(r'-S\d+$',q['paper_id']): q['session']='CS'+q['paper_id'][-1]
+        q['number']=q.get('printed_question_number') or q['source_question_number'];set_match=re.search(r'-S(\d+)$',q['paper_id']);q['session']='Set '+set_match.group(1) if set_match else ''
         q['source_link']=safe_url(q.get('source_page_url') or q.get('source_url'));q['key_link']=safe_url(q.get('key_url'))
         if q['key_link'] and q.get('key_page') and '#' not in q['key_link']:q['key_link']+='#page='+str(q['key_page'])
         q['topic']=topics.get(subject,{}).get('assign',{}).get(q['question_id'],'unreviewed')
@@ -77,6 +76,8 @@ def main():
         q['options_data']=q.get('options') or q.get('question_options') or None
         # Options are never invented. A paraphrase often omits the original option set.
         q['practice_key']=str(q['official_answer']) if q['official_answer'] is not None else ''
+        key_letters=re.findall(r'[A-Z]',q['practice_key']) if re.fullmatch(r'[A-Z](;[A-Z])*',q['practice_key']) else []
+        last=max(['D']+key_letters);q['choices']=[chr(c) for c in range(ord('A'),ord(last)+1)]
         q['permalink']='q/'+q['question_id']+'/'
         q['report']='https://github.com/SathiyarajS/gate-pyq/issues/new?'+ 'title='+quote('['+q['question_id']+'] ')+'&body='+quote('Question: https://sathiyarajs.github.io/gate-pyq/'+q['permalink']+'\n\nDescribe the issue and cite the source page:\n')
         groups[subject].append(q)
@@ -93,17 +94,22 @@ def main():
         issues.append(f"Topic grouping: {topic_review_counts['reviewed']} reviewed, {topic_review_counts['candidate']} candidate, {len(nonreviewed_topics)-topic_review_counts['candidate']} other or missing; {len(nonreviewed_topics)} assignments require review.")
     redrawn=sum(bool(q['transcription']) for q in questions)
     redrawn_by_paper={p['paper_id']:sum(bool(q['transcription']) for q in questions if q['paper_id']==p['paper_id']) for p in papers}
-    issues.append(f'{redrawn}/{len(questions)} questions have accepted independent transcription-review metadata. Other questions retain reviewed crops where enabled, otherwise paraphrases. Publication and full visual QA remain blocked.')
+    issues.append(f'{redrawn}/{len(questions)} questions are redrawn as verified text and figures; the rest show the original question image where its source PDF is available, otherwise a paraphrase with a link to the source page.')
     katex_dir=ROOT/'node_modules/katex/dist'
     has_math=(katex_dir/'katex.min.js').is_file() and (katex_dir/'katex.min.css').is_file()
     if not has_math:issues.append('Mathematical typesetting assets are unavailable; explicit LaTeX is preserved as text. Run npm ci to provision pinned local assets.')
-    issues.append('PDF verification and Pagefind indexing must be run and checked separately after this build.')
-    if not args.preview:raise SystemExit('Release blocked:\n- '+'\n- '.join(issues))
+    if not args.release:issues.append('PDF verification and Pagefind indexing must be run and checked separately after this build.')
+    if args.release:args.with_reviewed_crops=True
+    if not args.preview and not args.release:raise SystemExit('Release blocked:\n- '+'\n- '.join(issues))
     out.mkdir(parents=True,exist_ok=True)
     crop_assets={}
     if args.with_reviewed_crops:
         manifest=load(ROOT/'data/crops.json',{})
         approved=[qid for qid,entries in manifest.items() if entries and all(c.get('status')=='verified' for c in entries)]
+        if args.release:
+            missing_src=[qid for qid in approved if not all((ROOT/c['file']).is_file() for c in manifest[qid])]
+            approved=[qid for qid in approved if qid not in missing_src]
+            if missing_src:issues.append(f'{len(missing_src)} questions show a paraphrase instead of the original image because their source PDF is not in the repository yet (papers: '+', '.join(sorted({q.rsplit("-Q",1)[0] for q in missing_src}))+').')
         if not approved:raise SystemExit('No independently reviewed crop records available')
         # Regenerate from hash-checked original PDFs, rather than trust stale local images.
         subprocess.run([sys.executable,str(ROOT/'scripts/render_crops.py')]+[v for qid in approved for v in ('--question',qid)],check=True)
@@ -119,7 +125,7 @@ def main():
                 shutil.copy2(ROOT/'site-assets/q'/name,dest/name)
             crop_assets[qid]=entries
         for q in questions:q['original_crops']=crop_assets.get(q['question_id'],[])
-        issues.append(f'{len(crop_assets)} questions include reviewed original-source crops in this private local preview. Remaining questions retain source-linked paraphrases. No redistribution rights are asserted.')
+        issues.append(f'{len(crop_assets)} questions show the original question image cropped from its source paper.' if args.release else f'{len(crop_assets)} questions include reviewed original-source crops in this private local preview. Remaining questions retain source-linked paraphrases. No redistribution rights are asserted.')
     if has_math:
         shutil.copytree(katex_dir,out/'assets/vendor/katex',dirs_exist_ok=True)
         shutil.copy2(ROOT/'node_modules/katex/LICENSE',out/'assets/vendor/katex/LICENSE')
@@ -130,7 +136,7 @@ def main():
     def render(path,**ctx):
         target=out/path/'index.html';target.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*len(Path(path).parts) if path else './'
-        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=True,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
+        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=not args.release,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
     def sortkey(q):return (-q['year'],q['paper_id'],tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
     search=[];canonical={};subject_seen=[];paper_seen=[]
     for subject,qs in sorted(groups.items()):
@@ -140,7 +146,7 @@ def main():
         invalid=[q['question_id'] for q in qs if q['topic'] not in allowed]
         if invalid and allowed!={'unreviewed'}:raise SystemExit('Invalid topic IDs: '+str(invalid[:5]))
         order={t['id']:i for i,t in enumerate(topic_list)};qs.sort(key=lambda q:(order.get(q['topic'],999),sortkey(q)))
-        for i,q in enumerate(qs,1):q['ordinal']=i;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping')
+        for i,q in enumerate(qs,1):q['ordinal']=i;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release and q['topic_review_status']=='reviewed' else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
         heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in range(1991,2027)]} for t in topic_list]
         for i in range(math.ceil(len(qs)/10)):
             path=subject if i==0 else f'{subject}/page/{i+1}'
@@ -157,7 +163,7 @@ def main():
         # HTML fragments generated by the same safe autoescaped template as static pages.
         records=[]
         for q in qs:
-            fragment=env.get_template('question.html').render(q=q,prefix='../',paper_view=False)
+            fragment=env.get_template('question.html').render(q=q,prefix='../',paper_view=False,preview=not args.release)
             records.append(dict(id=q['question_id'],year=q['year'],marks=q.get('marks'),type=q['display_type'],discrepancy=bool(q['discrepancy_ids']),html=fragment))
             search.append(dict(id=q['question_id'],title=q['question_title'],text=q['question_text']+('\n'+q['transcription']['search'] if q['transcription'] else ''),year=q['year'],subject=titles[subject],type=q['display_type'],url=q['permalink']))
         (out/subject/'index.json').write_text(json.dumps(records,ensure_ascii=False))
@@ -174,7 +180,7 @@ def main():
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     assert collections.Counter(subject_seen)==collections.Counter(seen)==collections.Counter(paper_seen)
-    (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','redrawn_questions':redrawn,'redrawn_by_paper':redrawn_by_paper,'questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
-    print(f'Built PRIVATE PREVIEW: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')
+    (out/'build-report.json').write_text(json.dumps({'mode':'release' if args.release else 'private-preview','redrawn_questions':redrawn,'redrawn_by_paper':redrawn_by_paper,'questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
+    print(f'Built {"RELEASE" if args.release else "PRIVATE PREVIEW"}: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')
     print('\n'.join(issues))
 if __name__=='__main__':main()
