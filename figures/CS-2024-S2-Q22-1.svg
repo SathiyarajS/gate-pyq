@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DFA with two unlabelled states" viewBox="0.00 0.00 328.50 155.00">
+<title>DFA with two unlabelled states</title><desc>The left state is the start state and has a self-loop on 0. On 1 it goes to the right state, which is accepting and has a self-loop on 0. On 1 the right state returns to the left state.</desc><g fill="currentColor" transform="scale(1 1) rotate(0) translate(-5.5 136)">
+<g>
+</g>
+
+<g>
+<ellipse fill="none" stroke="currentColor" cx="100" cy="-60" rx="18" ry="18" />
+</g>
+
+<g>
+<path fill="none" stroke="currentColor" d="M10,-60C30,-60 55,-60 74,-60" />
+<polygon fill="currentColor" stroke="currentColor" points="74,-62.8 82,-60 74,-57.2 74,-62.8" />
+</g>
+
+<g>
+<path fill="none" stroke="currentColor" d="M87,-73C70,-112 120,-116 106,-86" />
+<polygon fill="currentColor" stroke="currentColor" points="108.66,-85.08 104,-78 103.22,-86.44 108.66,-85.08" />
+<text text-anchor="middle" x="88" y="-117.6" font-family="serif" font-size="18">0</text>
+</g>
+
+<g>
+<ellipse fill="none" stroke="currentColor" cx="270" cy="-60" rx="18" ry="18" />
+<ellipse fill="none" stroke="currentColor" cx="270" cy="-60" rx="22" ry="22" />
+</g>
+
+<g>
+<path fill="none" stroke="currentColor" d="M113,-73C145,-106 225,-106 250,-81" />
+<polygon fill="currentColor" stroke="currentColor" points="252.32,-82.64 256,-75 248.36,-78.68 252.32,-82.64" />
+<text text-anchor="middle" x="185" y="-108.6" font-family="serif" font-size="18">1</text>
+</g>
+
+<g>
+<path fill="none" stroke="currentColor" d="M261,-44C230,-12 140,-12 118,-40" />
+<polygon fill="currentColor" stroke="currentColor" points="115.97,-38.06 113,-46 120.27,-41.65 115.97,-38.06" />
+<text text-anchor="middle" x="185" y="9.4" font-family="serif" font-size="18">1</text>
+</g>
+
+<g>
+<path fill="none" stroke="currentColor" d="M270,-82C270,-118 330,-115 293,-74" />
+<polygon fill="currentColor" stroke="currentColor" points="294.94,-71.97 287,-69 291.35,-76.27 294.94,-71.97" />
+<text text-anchor="middle" x="306" y="-112.6" font-family="serif" font-size="18">0</text>
+</g>
+</g>
+</svg>

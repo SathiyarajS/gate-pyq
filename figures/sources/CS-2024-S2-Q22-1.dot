@@ -1,0 +1,17 @@
+// CS-2024-S2 Q22 DFA. Two unlabelled states; the right one is accepting.
+// Pinned node positions and explicit edge splines reproduce the source layout:
+// both 0 self-loops drawn above their states, 1-transitions as upper and lower arcs.
+// Render with: neato -n2 -Tsvg (see CS-2024-S2-first.py).
+digraph DFA {
+ graph [layout=neato, overlap=true, splines=true, bgcolor="transparent", notranslate=true];
+ node [shape=circle, label="", fixedsize=true, width=0.5, height=0.5];
+ edge [fontname="serif", fontsize=18, arrowsize=0.8];
+ start [shape=none, width=0.01, height=0.01, pos="10,60!"];
+ left [pos="100,60!"];
+ right [shape=doublecircle, pos="270,60!"];
+ start -> left [pos="e,82,60 10,60 30,60 55,60 74,60"];
+ left -> right [label="1", lp="185,113", pos="e,256,75 113,73 145,106 225,106 250,81"];
+ right -> left [label="1", lp="185,-5", pos="e,113,46 261,44 230,12 140,12 118,40"];
+ left -> left [label="0", lp="88,122", pos="e,104,78 87,73 70,112 120,116 106,86"];
+ right -> right [label="0", lp="306,117", pos="e,287,69 270,82 270,118 330,115 293,74"];
+}
