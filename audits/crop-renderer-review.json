@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Renderer regression and reviewed crop byte parity, not browser or PDF QA",
+  "legacy_questions_compared": 1815,
+  "legacy_parts_compared": 1876,
+  "legacy_byte_identity": true,
+  "new_batch_questions": 350,
+  "new_batch_parts": 453,
+  "new_batch_reviewed_output_byte_identity": true,
+  "unit_tests_passed": 6,
+  "structural_validation": {
+    "papers": 46,
+    "records": 3406,
+    "status": "passed"
+  },
+  "script_sha256": "1ea43343cc38b620310c310d4285b727943baa16b66d41c47d2425d146d5df80",
+  "tests_sha256": "78b9c355d2f465992d33cd76f9405dad8df00c10b8a80b8bf40f10b983989a2a",
+  "new_transform": "Explicit full-page rigid rotation, source hash preflight retained; six CS-2008 page15 parts independently visually reviewed",
+  "limitations": [
+    "No browser interaction/layout testing",
+    "No PDF rendering",
+    "No original-source completeness or redistribution approval",
+    "No public deployment"
+  ]
+}

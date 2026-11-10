@@ -1,0 +1,729 @@
+{
+  "paper_id": "CS-2007",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "071162975abd323d32585fc92b6cba68b62a182982dbc2f50877963e9eaec13c",
+  "preparation_evidence_sha256": "d1afafc50e75c6132315048565ffbfd79812c7b49528811fa17f065eb5e844c0",
+  "independent_review_evidence_sha256": "ae9155695ac05ba0277e09c9cb52ff6d97e4f9ab464d3032fd3815184b0844ab",
+  "questions": 85,
+  "crop_parts": 105,
+  "verified_questions": 85,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2007",
+    "status": "approved",
+    "reviewer": "independent verify_2007_crop_outputs",
+    "crops_sha256": "071162975abd323d32585fc92b6cba68b62a182982dbc2f50877963e9eaec13c",
+    "source_file": "sources/archive/CS/CS2007.pdf",
+    "source_sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+    "source_archive_member": "CS/CS2007.pdf",
+    "source_mapping_verified": true,
+    "questions": 85,
+    "crop_parts": 105,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "actual_webp_contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "all_output_parts_visually_inspected": true,
+    "render_scale": 3,
+    "webp_quality": 80,
+    "fresh_byte_identical_parts": 105,
+    "byte_check_file": "independent-byte-check.json",
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2007-Q71",
+          "CS-2007-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 18,
+        "source_bboxes": [
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ],
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          62.6667,
+          533.3333,
+          328.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q71",
+          "CS-2007-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 18,
+        "source_bboxes": [
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ],
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          62.6667,
+          533.3333,
+          328.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q72",
+          "CS-2007-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 18,
+        "source_bboxes": [
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ],
+          [
+            43.3333,
+            62.6667,
+            533.3333,
+            328.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          62.6667,
+          533.3333,
+          328.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q74",
+          "CS-2007-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 19,
+        "source_bboxes": [
+          [
+            43.3333,
+            35.3333,
+            533.3333,
+            200.0
+          ],
+          [
+            43.3333,
+            35.3333,
+            533.3333,
+            200.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          35.3333,
+          533.3333,
+          200.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q76",
+          "CS-2007-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 19,
+        "source_bboxes": [
+          [
+            43.3333,
+            360.0,
+            533.3333,
+            404.0
+          ],
+          [
+            43.3333,
+            360.0,
+            533.3333,
+            404.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          360.0,
+          533.3333,
+          404.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q76",
+          "CS-2007-Q77"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 19,
+        "source_bboxes": [
+          [
+            43.3333,
+            404.0,
+            533.3333,
+            499.3333
+          ],
+          [
+            43.3333,
+            404.0,
+            533.3333,
+            499.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          404.0,
+          533.3333,
+          499.3333
+        ],
+        "reason": "Complete preceding linked question retained as prerequisite for the later linked question; identical source region, not an unrelated leak."
+      },
+      {
+        "questions": [
+          "CS-2007-Q78",
+          "CS-2007-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            32.0,
+            533.3333,
+            155.3333
+          ],
+          [
+            43.3333,
+            32.0,
+            533.3333,
+            155.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          32.0,
+          533.3333,
+          155.3333
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q78",
+          "CS-2007-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            157.3333,
+            533.3333,
+            206.6667
+          ],
+          [
+            43.3333,
+            157.3333,
+            533.3333,
+            206.6667
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          157.3333,
+          533.3333,
+          206.6667
+        ],
+        "reason": "Complete preceding linked question retained as prerequisite for the later linked question; identical source region, not an unrelated leak."
+      },
+      {
+        "questions": [
+          "CS-2007-Q80",
+          "CS-2007-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            264.6667,
+            533.3333,
+            365.3333
+          ],
+          [
+            43.3333,
+            264.6667,
+            533.3333,
+            365.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          264.6667,
+          533.3333,
+          365.3333
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q80",
+          "CS-2007-Q81"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            367.3333,
+            533.3333,
+            419.3333
+          ],
+          [
+            43.3333,
+            367.3333,
+            533.3333,
+            419.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          367.3333,
+          533.3333,
+          419.3333
+        ],
+        "reason": "Complete preceding linked question retained as prerequisite for the later linked question; identical source region, not an unrelated leak."
+      },
+      {
+        "questions": [
+          "CS-2007-Q82",
+          "CS-2007-Q82"
+        ],
+        "parts": [
+          1,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ],
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          572.0,
+          533.3333,
+          573.3333
+        ],
+        "reason": "Intentional narrow shared-context overlap: scan skew places the bottom of the numeric reference-string line across the Q82 body top. The expanded shared stem preserves every numeral; duplicate tails belong only to the same shared reference string and are not unrelated content."
+      },
+      {
+        "questions": [
+          "CS-2007-Q82",
+          "CS-2007-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ],
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          503.3333,
+          533.3333,
+          573.3333
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q82",
+          "CS-2007-Q83"
+        ],
+        "parts": [
+          1,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ],
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          572.0,
+          533.3333,
+          573.3333
+        ],
+        "reason": "Intentional narrow shared-context overlap: scan skew places the bottom of the numeric reference-string line across the Q82 body top. The expanded shared stem preserves every numeral; duplicate tails belong only to the same shared reference string and are not unrelated content."
+      },
+      {
+        "questions": [
+          "CS-2007-Q82",
+          "CS-2007-Q83"
+        ],
+        "parts": [
+          2,
+          1
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ],
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          572.0,
+          533.3333,
+          573.3333
+        ],
+        "reason": "Intentional narrow shared-context overlap: scan skew places the bottom of the numeric reference-string line across the Q82 body top. The expanded shared stem preserves every numeral; duplicate tails belong only to the same shared reference string and are not unrelated content."
+      },
+      {
+        "questions": [
+          "CS-2007-Q82",
+          "CS-2007-Q83"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ],
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          572.0,
+          533.3333,
+          630.6667
+        ],
+        "reason": "Complete preceding linked question retained as prerequisite for the later linked question; identical source region, not an unrelated leak."
+      },
+      {
+        "questions": [
+          "CS-2007-Q83",
+          "CS-2007-Q83"
+        ],
+        "parts": [
+          1,
+          2
+        ],
+        "page": 20,
+        "source_bboxes": [
+          [
+            43.3333,
+            503.3333,
+            533.3333,
+            573.3333
+          ],
+          [
+            43.3333,
+            572.0,
+            533.3333,
+            630.6667
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          572.0,
+          533.3333,
+          573.3333
+        ],
+        "reason": "Intentional narrow shared-context overlap: scan skew places the bottom of the numeric reference-string line across the Q82 body top. The expanded shared stem preserves every numeral; duplicate tails belong only to the same shared reference string and are not unrelated content."
+      },
+      {
+        "questions": [
+          "CS-2007-Q84",
+          "CS-2007-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 21,
+        "source_bboxes": [
+          [
+            43.3333,
+            48.0,
+            533.3333,
+            122.0
+          ],
+          [
+            43.3333,
+            48.0,
+            533.3333,
+            122.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          48.0,
+          533.3333,
+          122.0
+        ],
+        "reason": "Identical shared context required by both named questions."
+      },
+      {
+        "questions": [
+          "CS-2007-Q84",
+          "CS-2007-Q85"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 21,
+        "source_bboxes": [
+          [
+            43.3333,
+            122.0,
+            533.3333,
+            234.0
+          ],
+          [
+            43.3333,
+            122.0,
+            533.3333,
+            234.0
+          ]
+        ],
+        "intersection_bbox": [
+          43.3333,
+          122.0,
+          533.3333,
+          234.0
+        ],
+        "reason": "Complete preceding linked question retained as prerequisite for the later linked question; identical source region, not an unrelated leak."
+      }
+    ],
+    "unrelated_overlap_count": 0,
+    "findings": [
+      {
+        "questions": "Q1-Q20",
+        "source_pages": [
+          2,
+          3,
+          4
+        ],
+        "finding": "All numbers, stems and A-D options present. Q5 DAG includes vertices 1-6, directions and complete options. Q9 sigma expression, Q12 powers, Q15 floor/ceiling-style notation and code, and Q16 matching lists preserved. No adjacent questions or page furniture included."
+      },
+      {
+        "questions": "Q21-Q40",
+        "source_pages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "finding": "Logic formulas, factorial fractions, block matrix, all four Q26 poset diagrams and labels, vector superscripts, Newton-Raphson fractions, automata language exponents, Boolean expressions and carry-generator formulas retained. Q36 control table and entire counter circuit including input/output labels and options preserved. Q37 instruction sequence and Q38 postfix expression intact."
+      },
+      {
+        "questions": "Q41-Q60",
+        "source_pages": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "finding": "Complete code blocks Q42/Q44/Q45/Q46/Q51/Q58, including final braces and following prompts/options, retained. Q52 grammar and Q54 instruction definitions complete. Q55 scheduling table, Q57 alloc/request table and Q58 paired process boxes included. Q59 relational-algebra expression and Q60 tuple calculus formula preserved."
+      },
+      {
+        "questions": "Q61-Q70",
+        "source_pages": [
+          15,
+          16,
+          17
+        ],
+        "finding": "Both SQL queries in Q61 and all options retained. Q63 B+ notation, Q64 transaction schedules, Q65 probabilities, Q66 powers/units, Q68 CRC polynomial and binary options, Q69 full fraction/logarithm/ceiling notation and Q70 protocol matching data included. No footer or unrelated content."
+      },
+      {
+        "questions": "Q71-Q75",
+        "source_pages": [
+          18,
+          19
+        ],
+        "finding": "Q71-Q73 each retain the complete shared instruction/operation/word-count table, memory/register initial conditions and decimal-number note plus own body/options. Q74/Q75 each retain the entire shared automaton including initial arrow, loops, accepting states, q3 and all arrow labels, then own body/options."
+      },
+      {
+        "questions": "Q76-Q81,Q84-Q85",
+        "source_pages": [
+          19,
+          20,
+          21
+        ],
+        "finding": "Each linked pair preserves shared context; second item additionally includes complete preceding prerequisite body/options. Huffman probabilities and code options, all CFG productions, cache dimensions/initial conditions, robot move definitions and binomial options preserved. Other linked pairs and END OF QUESTION PAPER heading excluded."
+      },
+      {
+        "source_pages": [
+          1
+        ],
+        "finding": "Cover examined; source contains 21 physical pages, with instructions referring to 24 printed pages including rough work. Review is of the provided canonical source and all 85 questions, not certification of archive or original-paper completeness."
+      },
+      {
+        "questions": "Q82-Q83",
+        "source_pages": [
+          20
+        ],
+        "finding": "Shared reference string verified against full page and focused full-resolution output. Initial stem boundary clipped low numeral pixels. Corrected shared stem extends to source render pixel860 (573.3333 PDF points); body begins at572 PDF points. Exact intentional overlap preserves complete reference data and complete Q82 prompt; Q83 retains Q82 as prerequisite. Final generated parts independently inspected."
+      }
+    ],
+    "review_scope": "Private crop fidelity only. Not answer or transcription verification, original/archive completeness certification, or redistribution permission. No repository edits or push performed."
+  }
+}
