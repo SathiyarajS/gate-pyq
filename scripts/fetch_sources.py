@@ -99,5 +99,43 @@ def main():
           f"failed={manifest['failed']} sha_mismatches={len(mismatches)}")
 
 
+def fetch_archive_members():
+    """Download CS.zip and extract only the members the crop data expects.
+
+    Each member lands at the path recorded in audits/crop-source-map.json
+    (sources/archive/CS/...) and must match its recorded sha256; anything else
+    is discarded. Used by the Pages build so the 2007-2018 papers render as
+    original images without committing the archive to the repository.
+    """
+    src_map = json.load(open(ROOT / "audits/crop-source-map.json"))["sources"]
+    wanted = {v["archive_member"]: (k, v["sha256"]) for k, v in src_map.items() if v.get("archive_member")}
+    if all((ROOT / path).is_file() and sha256(ROOT / path) == digest for path, digest in wanted.values()):
+        print("archive members already present")
+        return 0
+    zpath = ROOT / ".local-source-cache" / "CS.zip"
+    zpath.parent.mkdir(parents=True, exist_ok=True)
+    if not (zpath.exists() and zipfile.is_zipfile(zpath)):
+        subprocess.run([sys.executable, "-m", "gdown", DRIVE_ID, "-O", str(zpath)], check=False)
+    if not (zpath.exists() and zipfile.is_zipfile(zpath)):
+        fetch(f"https://drive.usercontent.google.com/download?id={DRIVE_ID}&export=download&confirm=t", zpath)
+    if not (zpath.exists() and zipfile.is_zipfile(zpath)):
+        print("could not download CS.zip; 2007-2018 questions will use the text fallback", file=sys.stderr)
+        return 1
+    ok = bad = 0
+    with zipfile.ZipFile(zpath) as z:
+        names = set(z.namelist())
+        for member, (path, digest) in wanted.items():
+            if member not in names:
+                print(f"missing member {member}", file=sys.stderr); bad += 1; continue
+            data = z.read(member)
+            if hashlib.sha256(data).hexdigest() != digest:
+                print(f"hash mismatch for {member}; not used", file=sys.stderr); bad += 1; continue
+            dest = ROOT / path; dest.parent.mkdir(parents=True, exist_ok=True); dest.write_bytes(data); ok += 1
+    print(f"archive members restored: {ok} ok, {bad} rejected")
+    return 0 if bad == 0 else 1
+
+
 if __name__ == "__main__":
+    if "--archive-only" in sys.argv:
+        sys.exit(fetch_archive_members())
     main()

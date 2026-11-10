@@ -36,6 +36,11 @@ jobs:
           pip install -r requirements-site.txt
           python -m playwright install --with-deps chromium
           npm ci --ignore-scripts
+      - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
+        continue-on-error: true
+        run: |
+          pip install gdown
+          python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
       - name: Build site (renders question images from sources/)
