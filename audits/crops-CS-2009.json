@@ -1,0 +1,189 @@
+{
+  "paper_id": "CS-2009",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "c2dd847652f17b84bda93f4c57cf80ccce94e73c924f8b52e9c799a78f8c876e",
+  "preparation_evidence_sha256": "1d403b48377e2934be5a5d99629cadaa3976ad6ffd90d327de73bc15032eb245",
+  "independent_review_evidence_sha256": "a9fb21729d4415e5b1f303a1e4c6d55f4ecfd04143cce592879568f4435685cc",
+  "questions": 60,
+  "crop_parts": 73,
+  "verified_questions": 60,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2009",
+    "status": "approved",
+    "reviewer": "independent native reviewer verify_2009_crop_outputs",
+    "crops_sha256": "c2dd847652f17b84bda93f4c57cf80ccce94e73c924f8b52e9c799a78f8c876e",
+    "source_file": "sources/archive/CS/CS2009.pdf",
+    "source_sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+    "questions": 60,
+    "parts": 73,
+    "source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "fresh_byte_identity": {
+      "matched": 73,
+      "mismatched": 0,
+      "method": "Fresh PyMuPDF 3x RGB crop renders encoded with Pillow WebP quality 80; exact byte equality against every existing output and SHA-256 audit value."
+    },
+    "full_page_identity": "All 14 full-page PNGs exactly pixel-match fresh 1.4x canonical PDF rendering.",
+    "contact_identity": "All 13 contact sheets exactly pixel-match reconstruction from audited actual WebP outputs.",
+    "number_mapping": "All 60 IDs map to matching printed/source numbers 1–60 and canonical CS/CS2009.pdf hash; stored source pages occur in their crop parts. No GA section.",
+    "findings": [
+      "Viewed every full source page and every actual WebP output through contact sheets. All own-numbered question bodies and all A–D options retained; no unrelated foreground question, running header/footer or end-of-paper text included.",
+      "Checked Q18 C code and Q20 HTML through their closing braces/tags and options; Q22 composition table, Q24 truth table, Q27 FSM table, Q28 pipeline table, Q30 resource table and Q36 all four hash-table options complete.",
+      "Checked Q32 transition diagram arrows and labels; Q38 weighted graph vertices/edges/weights; Q41 DFA start arrow, accepting circle and transitions; no diagram edges clipped.",
+      "Checked mathematical content including Q23/Q26 quantifiers, Q25 integral limits, Q35 recurrence, Q40 language definitions, Q43 schedules, Q45 relational queries and Q46 modular equations against source.",
+      "All five common-data/linked stems and three prerequisite parts preserve the required dependency chain. Q51/Q52 context crosses physical pages 11–12 correctly.",
+      "Exactly eight cross-question intersections independently enumerated; every one is approved below and no other overlaps exist.",
+      "Source scan has inherent blur and reverse-page show-through. This review approves crop bounds/output fidelity only, not answers, accessible transcription, redistribution rights or complete-original certification. Cover mentions 16 printed pages including rough work; canonical supplied PDF has 14 pages ending after Q60."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2009-Q51",
+          "CS-2009-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "reason": "Both require the identical disk geometry and cylinder/surface/sector numbering definition printed as common data for 51 and 52."
+      },
+      {
+        "questions": [
+          "CS-2009-Q53",
+          "CS-2009-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "reason": "Both require the common subsequence definition, X/Y lengths and zero-based indexing explicitly printed for 53 and 54."
+      },
+      {
+        "questions": [
+          "CS-2009-Q53",
+          "CS-2009-Q54"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 12,
+        "reason": "Q54 explicitly refers to the recursive definition given above. Its prerequisite part intentionally retains the Q53 number, introduction and complete three-case l(i,j) definition, but excludes Q53 choice prompt and all four answer options. This is a content-specific subset, not merely whitespace trimming. On full source page 12 and contact sheet 10, the prerequisite ends below the expr2 condition and above the Q53 choice prompt; the definition is complete and matches faithfully. Q53 part 2 retains its full introduction, definition, choice prompt and options. Approve only this exact rectangle pair and intersection.",
+        "source_bboxes": [
+          [
+            43.571,
+            213.571,
+            560.0,
+            455.0
+          ],
+          [
+            43.571,
+            213.571,
+            560.0,
+            344.286
+          ]
+        ],
+        "intersection_bbox": [
+          43.57099914550781,
+          213.5709991455078,
+          560.0,
+          344.2860107421875
+        ]
+      },
+      {
+        "questions": [
+          "CS-2009-Q55",
+          "CS-2009-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "reason": "Both require the Suppliers/Parts/Catalog relational schema and underlined keys explicitly printed as common data for 55 and 56."
+      },
+      {
+        "questions": [
+          "CS-2009-Q57",
+          "CS-2009-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "reason": "Both require the 1000-bit frames, 10^6 bps duplex link and 25 ms propagation statement explicitly printed for linked questions 57 and 58."
+      },
+      {
+        "questions": [
+          "CS-2009-Q57",
+          "CS-2009-Q58"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 13,
+        "reason": "Q58 explicitly uses l from the earlier part. Repeating Q57 retains the definition, no-time-gap assumption and candidate bit counts required to solve the linked pair."
+      },
+      {
+        "questions": [
+          "CS-2009-Q59",
+          "CS-2009-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "reason": "Both require the binary max-heap array statement explicitly printed for linked questions 59 and 60."
+      },
+      {
+        "questions": [
+          "CS-2009-Q59",
+          "CS-2009-Q60"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "reason": "Q60 explicitly asks for two delete operations on the correct answer to the previous question. Repeating Q59 and its four candidate arrays supplies that prerequisite."
+      }
+    ],
+    "repository_changes": false
+  }
+}

@@ -1,26 +1,28 @@
 {
   "counts": {
-    "page_fallback": 1590,
-    "candidate_questions": 1846,
-    "text_marker_candidate": 328,
-    "overlap_pairs": 7251,
-    "verified_questions": 1560,
-    "pending_visual_review_questions": 1846,
+    "page_fallback": 1400,
+    "candidate_questions": 1591,
+    "text_marker_candidate": 263,
+    "overlap_pairs": 6826,
+    "verified_questions": 1815,
+    "pending_visual_review_questions": 1591,
     "manual_table_boundary_review": 261,
-    "first_pass_reviewed_questions": 1560,
+    "first_pass_reviewed_questions": 1815,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 1846,
+    "pending_first_pass_questions": 1591,
     "manual_full_page_visual_table_boundary_review": 65,
     "manual_visual_table_boundary_review": 65,
     "manual_page_region_review": 195,
     "manual_source_boundary_review": 65,
     "manual_full_source_visual_question_bounds": 65,
-    "manual_full_page_visual_review": 345,
+    "manual_full_page_visual_review": 491,
     "manual_scanned_page_region_review": 65,
     "manual_full_page_table_boundary_review": 65,
     "source_question_body_image_region": 260,
     "manual_full_page_visual_refinement": 65,
-    "manual_full_source_page_review": 65
+    "manual_full_source_page_review": 65,
+    "manual_visual_bounds": 74,
+    "manual_full_source_visual_review": 75
   },
   "papers": {
     "CS-1991": {
@@ -78,16 +80,20 @@
       "candidate": 85
     },
     "CS-2009": {
-      "candidate": 60
+      "verified": 60,
+      "crop_parts": 73
     },
     "CS-2010": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 74
     },
     "CS-2011": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 75
     },
     "CS-2012": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 73
     },
     "CS-2013": {
       "verified": 65,
@@ -189,8 +195,449 @@
   "reviewed_border_overlaps": [
     {
       "questions": [
+        "CS-2009-Q51",
+        "CS-2009-Q52"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 11,
+      "bbox": [
+        32.143,
+        602.143,
+        546.429,
+        680.0
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q53",
+        "CS-2009-Q54"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 12,
+      "bbox": [
+        43.571,
+        133.571,
+        560.0,
+        206.429
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q53",
+        "CS-2009-Q54"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 12,
+      "bbox": [
+        43.571,
+        213.571,
+        560.0,
+        455.0
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q55",
+        "CS-2009-Q56"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 13,
+      "bbox": [
+        24.286,
+        47.857,
+        537.857,
+        143.571
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q57",
+        "CS-2009-Q58"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 13,
+      "bbox": [
+        23.571,
+        526.429,
+        539.286,
+        583.571
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q57",
+        "CS-2009-Q58"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 13,
+      "bbox": [
+        23.571,
+        587.143,
+        539.286,
+        644.286
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q59",
+        "CS-2009-Q60"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 14,
+      "bbox": [
+        41.429,
+        57.143,
+        558.571,
+        102.857
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2009-Q59",
+        "CS-2009-Q60"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 14,
+      "bbox": [
+        41.429,
+        107.857,
+        558.571,
+        192.857
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2009.json"
+    },
+    {
+      "questions": [
+        "CS-2010-Q58",
+        "CS-2010-Q59"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 12,
+      "bbox": [
+        55.714,
+        80.0,
+        556.429,
+        234.286
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2010.json"
+    },
+    {
+      "questions": [
+        "CS-2010-Q60",
+        "CS-2010-Q61"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 12,
+      "bbox": [
+        55.714,
+        405.714,
+        556.429,
+        548.571
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2010.json"
+    },
+    {
+      "questions": [
+        "CS-2010-Q62",
+        "CS-2010-Q63"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 13,
+      "bbox": [
+        55.714,
+        80.714,
+        556.429,
+        281.429
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2010.json"
+    },
+    {
+      "questions": [
+        "CS-2010-Q64",
+        "CS-2010-Q65"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 14,
+      "bbox": [
+        55.714,
+        54.286,
+        556.429,
+        203.571
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2010.json"
+    },
+    {
+      "questions": [
+        "CS-2010-Q64",
+        "CS-2010-Q65"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 14,
+      "bbox": [
+        55.714,
+        245.0,
+        556.429,
+        325.0
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2010.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q58",
+        "CS-2011-Q59"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 14,
+      "bbox": [
+        65.3333,
+        89.3333,
+        561.3333,
+        195.3333
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q60",
+        "CS-2011-Q61"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 14,
+      "bbox": [
+        60.0,
+        298.0,
+        561.3333,
+        595.3333
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q62",
+        "CS-2011-Q63"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 15,
+      "bbox": [
+        50.0,
+        80.0,
+        545.3333,
+        410.6667
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q62",
+        "CS-2011-Q63"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 15,
+      "bbox": [
+        49.3333,
+        413.3333,
+        545.3333,
+        458.6667
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q64",
+        "CS-2011-Q65"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 15,
+      "bbox": [
+        52.0,
+        511.3333,
+        545.3333,
+        662.6667
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2011-Q64",
+        "CS-2011-Q65"
+      ],
+      "parts": [
+        2,
+        2
+      ],
+      "page": 15,
+      "bbox": [
+        50.6667,
+        666.0,
+        545.3333,
+        702.0
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2011.json"
+    },
+    {
+      "questions": [
+        "CS-2012-Q58",
+        "CS-2012-Q59"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 13,
+      "bbox": [
+        52,
+        110,
+        545,
+        385
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2012.json"
+    },
+    {
+      "questions": [
+        "CS-2012-Q60",
+        "CS-2012-Q61"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 14,
+      "bbox": [
+        52,
+        79,
+        545,
+        217
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2012.json"
+    },
+    {
+      "questions": [
+        "CS-2012-Q62",
+        "CS-2012-Q63"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 15,
+      "bbox": [
+        52,
+        110,
+        545,
+        286
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2012.json"
+    },
+    {
+      "questions": [
+        "CS-2012-Q64",
+        "CS-2012-Q65"
+      ],
+      "parts": [
+        1,
+        1
+      ],
+      "page": 15,
+      "bbox": [
+        52,
+        554,
+        545,
+        614
+      ],
+      "reason": "Identical independently reviewed shared context, deliberately repeated for both questions",
+      "review_audit": "audits/crops-CS-2012.json"
+    },
+    {
+      "questions": [
         "CS-2013-Q58",
         "CS-2013-Q59"
+      ],
+      "parts": [
+        1,
+        1
       ],
       "page": 11,
       "bbox": [
@@ -207,6 +654,10 @@
         "CS-2013-Q60",
         "CS-2013-Q61"
       ],
+      "parts": [
+        1,
+        1
+      ],
       "page": 11,
       "bbox": [
         78.667,
@@ -222,6 +673,10 @@
         "CS-2013-Q62",
         "CS-2013-Q63"
       ],
+      "parts": [
+        1,
+        1
+      ],
       "page": 12,
       "bbox": [
         78.667,
@@ -236,6 +691,10 @@
       "questions": [
         "CS-2013-Q64",
         "CS-2013-Q65"
+      ],
+      "parts": [
+        1,
+        1
       ],
       "page": 12,
       "bbox": [

@@ -89,3 +89,7 @@ An explicit --with-reviewed-crops option regenerates approved source crops from 
 ## Additional crop reviews: CS-2013
 
 1,560 questions / 1,581 parts now have independently reviewed source bounds and actual outputs. This batch adds 65 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.
+
+## Additional crop reviews: CS-2012, CS-2011, CS-2010, CS-2009
+
+1,815 questions / 1,876 parts now have independently reviewed source bounds and actual outputs. This batch adds 255 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.
