@@ -32129,21 +32129,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0,
-        348.33,
-        576.0,
-        366.22
+        53.5714,
+        139.2857,
+        297.1429,
+        249.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q2": [
@@ -32151,21 +32151,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0,
-        244.03,
-        576.0,
-        288.97
+        53.5714,
+        249.2857,
+        297.1429,
+        368.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q3": [
@@ -32173,21 +32173,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0,
-        364.22,
-        576.0,
-        398.69
+        53.5714,
+        368.5714,
+        297.1429,
+        477.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q4": [
@@ -32195,22 +32195,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        750.75
+        53.5714,
+        477.8571,
+        297.1429,
+        587.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q5": [
@@ -32218,21 +32217,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0,
-        580.74,
-        576.0,
-        750.75
+        53.5714,
+        587.8571,
+        297.1429,
+        706.4286
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 1,
+      "bbox": [
+        300.0,
+        107.8571,
+        525.0,
+        135.7143
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q6": [
@@ -32240,22 +32259,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        750.75
+        300.0,
+        135.7143,
+        525.0,
+        294.2857
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q7": [
@@ -32263,21 +32281,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0,
-        286.97,
-        576.0,
-        366.22
+        300.0,
+        294.2857,
+        525.0,
+        548.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q8": [
@@ -32285,22 +32303,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 1,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        750.75
+        300.0,
+        548.5714,
+        525.0,
+        707.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 2,
+      "bbox": [
+        53.5714,
+        45.7143,
+        297.1429,
+        233.5714
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q9": [
@@ -32308,21 +32345,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0,
-        229.1,
-        576.0,
-        267.36
+        53.5714,
+        233.5714,
+        297.1429,
+        341.4286
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q10": [
@@ -32330,22 +32367,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        53.5714,
+        341.4286,
+        297.1429,
+        439.2857
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q11": [
@@ -32353,21 +32389,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0,
-        664.63,
-        576.0,
-        748.5
+        53.5714,
+        439.2857,
+        297.1429,
+        578.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q12": [
@@ -32375,21 +32411,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0,
-        571.89,
-        576.0,
-        666.63
+        53.5714,
+        578.5714,
+        297.1429,
+        684.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q13": [
@@ -32397,22 +32433,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        53.5714,
+        684.2857,
+        297.1429,
+        712.1429
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 2,
+      "bbox": [
+        300.0,
+        45.0,
+        525.0,
+        176.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q14": [
@@ -32420,22 +32475,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        300.0,
+        176.4286,
+        525.0,
+        272.1429
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q15": [
@@ -32443,21 +32497,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0,
-        265.36,
-        576.0,
-        573.89
+        300.0,
+        272.1429,
+        525.0,
+        424.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q16": [
@@ -32465,22 +32519,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        300.0,
+        424.2857,
+        525.0,
+        556.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q17": [
@@ -32488,22 +32541,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        300.0,
+        556.4286,
+        525.0,
+        705.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q18": [
@@ -32511,22 +32563,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        45.0,
+        297.1429,
+        169.2857
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q19": [
@@ -32534,21 +32585,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        161.55,
-        576.0,
-        182.09
+        53.5714,
+        169.2857,
+        297.1429,
+        277.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q20": [
@@ -32556,21 +32607,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        271.66,
-        576.0,
-        349.31
+        53.5714,
+        277.8571,
+        297.1429,
+        620.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q21": [
@@ -32578,21 +32629,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        658.23,
-        576.0,
-        681.87
+        53.5714,
+        662.8571,
+        297.1429,
+        713.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 3,
+      "bbox": [
+        300.0,
+        44.2857,
+        525.0,
+        242.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q22": [
@@ -32600,21 +32671,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        236.71,
-        576.0,
-        273.66
+        300.0,
+        242.8571,
+        525.0,
+        356.4286
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q23": [
@@ -32622,21 +32693,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        349.87,
-        576.0,
-        363.66
+        300.0,
+        356.4286,
+        525.0,
+        489.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q24": [
@@ -32644,21 +32715,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        482.62,
-        576.0,
-        497.16
+        300.0,
+        489.2857,
+        525.0,
+        685.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q25": [
@@ -32666,21 +32737,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 3,
       "bbox": [
-        0,
-        679.87,
-        576.0,
-        745.5
+        300.0,
+        685.0,
+        525.0,
+        713.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 4,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        184.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q26": [
@@ -32688,22 +32779,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        184.2857,
+        297.1429,
+        361.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q27": [
@@ -32711,21 +32801,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0,
-        353.95,
-        576.0,
-        505.5
+        53.5714,
+        361.4286,
+        297.1429,
+        512.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q28": [
@@ -32733,21 +32823,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0,
-        505.24,
-        576.0,
-        559.72
+        53.5714,
+        512.1429,
+        297.1429,
+        705.7143
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 4,
+      "bbox": [
+        300.0,
+        44.2857,
+        525.0,
+        59.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q29": [
@@ -32755,21 +32865,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0,
-        53.06,
-        576.0,
-        202.74
+        300.0,
+        59.2857,
+        525.0,
+        207.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q30": [
@@ -32777,21 +32887,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0,
-        200.74,
-        576.0,
-        355.95
+        300.0,
+        207.8571,
+        525.0,
+        355.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q31": [
@@ -32799,22 +32909,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        355.0,
+        525.0,
+        510.7143
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q32": [
@@ -32822,21 +32931,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 4,
       "bbox": [
-        0,
-        503.5,
-        576.0,
-        559.72
+        300.0,
+        510.7143,
+        525.0,
+        700.7143
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q33": [
@@ -32844,21 +32953,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        39.38,
-        576.0,
-        52.11
+        53.5714,
+        44.2857,
+        297.1429,
+        180.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q34": [
@@ -32866,21 +32975,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        171.93,
-        576.0,
-        268.76
+        53.5714,
+        180.0,
+        297.1429,
+        273.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q35": [
@@ -32888,21 +32997,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        266.76,
-        576.0,
-        365.35
+        53.5714,
+        273.5714,
+        297.1429,
+        505.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q36": [
@@ -32910,22 +33019,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        53.5714,
+        505.0,
+        297.1429,
+        611.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q37": [
@@ -32933,21 +33041,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        602.77,
-        576.0,
-        628.11
+        53.5714,
+        611.4286,
+        297.1429,
+        707.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 5,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        139.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q38": [
@@ -32955,22 +33083,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        300.0,
+        139.2857,
+        525.0,
+        367.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q39": [
@@ -32978,21 +33105,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        363.35,
-        576.0,
-        388.85
+        300.0,
+        367.8571,
+        525.0,
+        545.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q40": [
@@ -33000,21 +33127,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 5,
       "bbox": [
-        0,
-        537.6,
-        576.0,
-        594.56
+        300.0,
+        545.0,
+        525.0,
+        702.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 6,
+      "bbox": [
+        53.5714,
+        44.2857,
+        297.1429,
+        71.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q41": [
@@ -33022,21 +33169,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0,
-        67.0,
-        576.0,
-        345.97
+        53.5714,
+        71.4286,
+        297.1429,
+        350.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q42": [
@@ -33044,22 +33191,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        350.0,
+        297.1429,
+        578.5714
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q43": [
@@ -33067,22 +33213,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        578.5714,
+        297.1429,
+        703.5714
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 6,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        172.1429
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q44": [
@@ -33090,22 +33255,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        172.1429,
+        525.0,
+        315.7143
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q45": [
@@ -33113,22 +33277,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        315.7143,
+        525.0,
+        520.7143
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q46": [
@@ -33136,22 +33299,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        520.7143,
+        525.0,
+        700.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q47": [
@@ -33159,22 +33321,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        700.0,
+        525.0,
+        715.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 7,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        271.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q48": [
@@ -33182,22 +33363,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        271.4286,
+        297.1429,
+        451.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q49": [
@@ -33205,21 +33385,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0,
-        444.71,
-        576.0,
-        745.5
+        53.5714,
+        451.4286,
+        297.1429,
+        711.4286
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 7,
+      "bbox": [
+        300.0,
+        44.2857,
+        525.0,
+        74.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q50": [
@@ -33227,21 +33427,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0,
-        68.09,
-        576.0,
-        401.71
+        300.0,
+        74.2857,
+        525.0,
+        272.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q51": [
@@ -33249,22 +33449,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        272.1429,
+        525.0,
+        406.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q52": [
@@ -33272,21 +33471,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0,
-        399.71,
-        576.0,
-        446.71
+        300.0,
+        406.4286,
+        525.0,
+        515.7143
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q53": [
@@ -33294,22 +33493,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        515.7143,
+        525.0,
+        697.1429
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 8,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        127.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q54": [
@@ -33317,21 +33535,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 8,
       "bbox": [
-        0,
-        124.68,
-        576.0,
-        297.85
+        53.5714,
+        127.8571,
+        297.1429,
+        301.4286
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q55": [
@@ -33339,21 +33557,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 8,
       "bbox": [
-        0,
-        295.85,
-        576.0,
-        349.38
+        53.5714,
+        301.4286,
+        297.1429,
+        565.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q56": [
@@ -33361,22 +33579,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        53.5714,
+        565.0,
+        297.1429,
+        707.1429
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 8,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        257.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q57": [
@@ -33384,22 +33621,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        745.5
+        300.0,
+        257.8571,
+        525.0,
+        563.5714
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q58": [
@@ -33407,21 +33643,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 8,
       "bbox": [
-        0,
-        555.6,
-        576.0,
-        745.5
+        300.0,
+        563.5714,
+        525.0,
+        703.5714
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 9,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        60.0
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q59": [
@@ -33429,21 +33685,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0,
-        55.0,
-        576.0,
-        81.45
+        53.5714,
+        60.0,
+        297.1429,
+        227.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q60": [
@@ -33451,21 +33707,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0,
-        219.71,
-        576.0,
-        295.18
+        53.5714,
+        227.1429,
+        297.1429,
+        445.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q61": [
@@ -33473,21 +33729,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0,
-        438.46,
-        576.0,
-        533.42
+        53.5714,
+        445.0,
+        297.1429,
+        707.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 9,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        85.7143
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q62": [
@@ -33495,21 +33771,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0,
-        79.45,
-        576.0,
-        149.72
+        300.0,
+        85.7143,
+        525.0,
+        217.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q63": [
@@ -33517,21 +33793,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0,
-        211.76,
-        576.0,
-        221.71
+        300.0,
+        217.1429,
+        525.0,
+        422.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q64": [
@@ -33539,22 +33815,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        300.0,
+        422.8571,
+        525.0,
+        591.4286
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q65": [
@@ -33562,22 +33837,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        748.5
+        300.0,
+        591.4286,
+        525.0,
+        714.2857
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 10,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        177.1429
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q66": [
@@ -33585,21 +33879,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 10,
       "bbox": [
-        0,
-        171.89,
-        576.0,
-        201.45
+        53.5714,
+        177.1429,
+        297.1429,
+        385.7143
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q67": [
@@ -33607,22 +33901,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        750.0
+        53.5714,
+        385.7143,
+        297.1429,
+        697.1429
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 10,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        205.7143
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q68": [
@@ -33630,21 +33943,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 10,
       "bbox": [
-        0,
-        199.45,
-        576.0,
-        663.14
+        300.0,
+        205.7143,
+        525.0,
+        604.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q69": [
@@ -33652,22 +33965,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        750.0
+        300.0,
+        604.2857,
+        525.0,
+        714.2857
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        360.0
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q70": [
@@ -33675,21 +34007,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0,
-        353.2,
-        576.0,
-        415.92
+        53.5714,
+        360.0,
+        297.1429,
+        500.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q71": [
@@ -33697,22 +34029,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        53.5714,
+        509.2857,
+        297.1429,
+        592.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        53.5714,
+        600.7143,
+        297.1429,
+        685.7143
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q72": [
@@ -33720,22 +34071,61 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        53.5714,
+        509.2857,
+        297.1429,
+        592.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        53.5714,
+        685.7143,
+        297.1429,
+        704.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        120.7143
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q73": [
@@ -33743,22 +34133,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        53.5714,
+        509.2857,
+        297.1429,
+        592.8571
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        120.7143,
+        525.0,
+        217.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q74": [
@@ -33766,22 +34175,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        300.0,
+        232.1429,
+        525.0,
+        350.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        358.5714,
+        525.0,
+        432.1429
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q75": [
@@ -33789,66 +34217,146 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        576.0,
-        747.75
+        300.0,
+        232.1429,
+        525.0,
+        350.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        432.1429,
+        525.0,
+        501.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q76": [
     {
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        514.2857,
+        525.0,
+        680.0
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        38.63,
-        576.0,
-        135.34
+        53.5714,
+        43.5714,
+        297.1429,
+        140.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q77": [
     {
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 11,
+      "bbox": [
+        300.0,
+        514.2857,
+        525.0,
+        680.0
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        133.34,
-        576.0,
-        171.34
+        53.5714,
+        43.5714,
+        297.1429,
+        140.0
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "linked_prerequisite",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "prerequisite_question_id": "CS-2006-Q76",
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        53.5714,
+        140.0,
+        297.1429,
+        273.5714
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q78": [
@@ -33856,21 +34364,61 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        629.64,
-        576.0,
-        748.5
+        53.5714,
+        284.2857,
+        297.1429,
+        624.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        53.5714,
+        636.4286,
+        297.1429,
+        702.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        149.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q79": [
@@ -33878,21 +34426,83 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        292.13,
-        576.0,
-        452.11
+        53.5714,
+        284.2857,
+        297.1429,
+        624.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        53.5714,
+        636.4286,
+        297.1429,
+        702.8571
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "linked_prerequisite",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "prerequisite_question_id": "CS-2006-Q78",
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        149.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "linked_prerequisite",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "prerequisite_question_id": "CS-2006-Q78",
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        300.0,
+        149.2857,
+        525.0,
+        317.1429
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q80": [
@@ -33900,21 +34510,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        597.37,
-        576.0,
-        631.64
+        300.0,
+        329.2857,
+        525.0,
+        592.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        300.0,
+        603.5714,
+        525.0,
+        673.5714
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q81": [
@@ -33922,21 +34552,61 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 12,
       "bbox": [
-        0,
-        335.66,
-        576.0,
-        452.11
+        300.0,
+        329.2857,
+        525.0,
+        592.8571
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 12,
+      "bbox": [
+        300.0,
+        673.5714,
+        525.0,
+        714.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        53.5714,
+        43.5714,
+        297.1429,
+        71.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q82": [
@@ -33944,21 +34614,41 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 13,
       "bbox": [
-        0,
-        506.32,
-        576.0,
-        595.45
+        53.5714,
+        84.2857,
+        297.1429,
+        507.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        53.5714,
+        512.8571,
+        297.1429,
+        619.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q83": [
@@ -33966,20 +34656,82 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 13,
       "bbox": [
-        0,
-        91.69,
-        576.0,
-        146.24
+        53.5714,
+        84.2857,
+        297.1429,
+        507.1429
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "shared_context",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        53.5714,
+        512.8571,
+        297.1429,
+        619.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "linked_prerequisite",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "prerequisite_question_id": "CS-2006-Q82",
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        53.5714,
+        619.2857,
+        297.1429,
+        701.4286
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        300.0,
+        43.5714,
+        525.0,
+        309.2857
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q84": [
@@ -33987,21 +34739,21 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 13,
       "bbox": [
-        0,
-        354.59,
-        576.0,
-        508.32
+        300.0,
+        358.5714,
+        525.0,
+        599.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2006-Q85": [
@@ -34009,21 +34761,42 @@
       "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
       "page": 13,
       "bbox": [
-        0,
-        326.95,
-        576.0,
-        356.59
+        300.0,
+        358.5714,
+        525.0,
+        599.2857
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "linked_prerequisite",
       "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required",
+        "third_party_reproduction",
         "source_parse_warning_check_missing_figures"
-      ]
+      ],
+      "prerequisite_question_id": "CS-2006-Q84",
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
+    },
+    {
+      "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+      "page": 13,
+      "bbox": [
+        300.0,
+        599.2857,
+        525.0,
+        713.5714
+      ],
+      "status": "verified",
+      "method": "manual_column_boundary_review",
+      "review_status": "independent_source_bounds_review_passed",
+      "role": "question",
+      "flags": [
+        "third_party_reproduction",
+        "source_parse_warning_check_missing_figures"
+      ],
+      "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+      "review_audit": "audits/crops-CS-2006.json"
     }
   ],
   "CS-2007-Q1": [
