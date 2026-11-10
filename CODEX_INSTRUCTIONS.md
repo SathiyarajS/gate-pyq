@@ -10,7 +10,7 @@ You (Codex) built the question bank on branch `work/gate-source-audit`. This fil
 
 ## Status on 10 Nov 2026 (read this before anything else)
 
-Phases 1–4 are done. Phase 5 (redraw) has started. Phase 6 is partly done. **All work now lives on branch `release`.** It contains everything from `site` up to `76eea72`, Codex's last push, plus the changes below. Treat `site` as frozen; do not keep working on it.
+Phases 1–4 are done and **live at https://sathiyarajs.github.io/gate-pyq/**. Phase 5 (redraw) has started. Phase 6 is partly done. `release` was merged into **`main`** (PR #1); work on `main` from now on. `site` and `release` are frozen. **`CODEX_HANDOFF.md` is the current task list.**
 
 ### What Claude added on `release`
 

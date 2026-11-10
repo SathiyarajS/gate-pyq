@@ -13,9 +13,7 @@ Do the tasks in CODEX_HANDOFF.md in order. Commit and push after each paper or t
 
 - **The site is built and merged into `main`.** `.github/workflows/pages.yml` deploys it to https://sathiyarajs.github.io/gate-pyq/ on every push to `main`, but only once the owner has made the repo public and set Pages → Source to GitHub Actions.
 - **Every question is on the site:** 3,406 questions in 13 subject folders, 10 per page, with a collapsible Answer, the year in brackets, discrepancies, two PDFs per subject, and all 9 extras (search, filters, practice, full-paper view, report link, topic chart, permalinks, dark mode, print styles).
-- **Question display today:**
-  - 2,396 questions show the original image cropped from the source paper.
-  - 1,010 (2007–2018) show their image only if the build's "Restore 2007-2018 papers" step downloads the official CS.zip. Otherwise they show the text paraphrase.
+- **Question display today:** all 3,406 questions show the original image cropped from the source paper. The 2007–2018 papers are restored from the official CS.zip during each build, hash-checked.
 - **Redrawn questions:**
   - 260 drafts exist (2026 S1/S2, 2025 S1/S2), none verified yet.
   - 130 more drafts are in `handoff/2024-drafts/`.
@@ -25,18 +23,14 @@ Do the tasks in CODEX_HANDOFF.md in order. Commit and push after each paper or t
 
 ## Tasks, in order
 
-### 1. Confirm the first deployment (short)
-1. In the Actions tab, open the latest "Build and deploy site" run on `main`.
-2. Confirm the **Restore 2007-2018 papers** step printed `archive members restored: 10 ok, 0 rejected`.
-   - If it failed, commit the 10 PDFs yourself to `sources/archive/CS/`, at the exact paths in `audits/crop-source-map.json`, and check each sha256 matches.
-   - Never change recorded hashes, and never run `locate_crops.py` to restore sources; it rewrites reviewed crop metadata.
-3. Confirm the **Report size** step shows `_site` under 1 GB, which is GitHub Pages' limit.
-4. Open the live site and spot-check:
-   - one question per subject, including a 2007–2018 one
-   - a PDF download
-   - search, filters and the A–D buttons
-   - a permalink (`/q/<id>/`)
-5. Fix anything broken before moving on.
+### 1. First deployment: already confirmed by Claude
+Run `42805316108` on `main` (commit `c959240`) succeeded and deployed to https://sathiyarajs.github.io/gate-pyq/:
+- `archive members restored: 10 ok, 0 rejected`
+- `3406 questions show the original question image`
+- `Rendered 4351 images`, 26 PDFs, `0 broken internal targets`
+- `_site` is 746 MB
+
+Only a human spot-check of the live pages remains: one question per subject, a PDF, search, filters, the A–D buttons and a permalink. If the owner reports problems, fix them first.
 
 ### 2. Finish the 2024 drafts (`handoff/2024-drafts/`)
 Follow `handoff/2024-drafts/CODEX_HANDOFF.md`. In short:
