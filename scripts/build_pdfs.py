@@ -80,24 +80,84 @@ def document(subject, records, questions_only, release=False):
             '<p class="source-note">Generated '+date.today().isoformat()+' · https://sathiyarajs.github.io/gate-pyq/</p></section>'
             +toc_html+''.join(sections)+'</body></html>')
 
-def pdf_images(out):
+def _gray_png(job):
+    src,target=job
+    from PIL import Image
+    im=Image.open(src).convert('L');w,h=im.size;scale=150/216
+    im=im.resize((max(1,round(w*scale)),max(1,round(h*scale))),Image.LANCZOS)
+    im.quantize(16).save(target,optimize=True)
+
+def pdf_images(out, workers=None):
     """Smaller grayscale copies of the question images, used only inside PDFs.
 
     Site images are 216 DPI WebP; Chromium re-encodes them losslessly, which makes
     each subject PDF ~60 MB. 150 DPI, 16 grey levels, PNG keeps text sharp at a
-    fraction of the size.
+    fraction of the size. Converted in parallel; unchanged images are skipped.
     """
-    from PIL import Image
+    from concurrent.futures import ProcessPoolExecutor
     src=out/'assets/questions';dst=ROOT/'.pdf-images';dst.mkdir(exist_ok=True)
+    jobs=[]
     for f in src.glob('*.webp'):
         target=dst/(f.stem+'.png')
         if target.exists() and target.stat().st_mtime>=f.stat().st_mtime:continue
-        im=Image.open(f).convert('L');w,h=im.size;scale=150/216
-        im=im.resize((max(1,round(w*scale)),max(1,round(h*scale))),Image.LANCZOS)
-        im.quantize(16).save(target,optimize=True)
+        jobs.append((f,target))
+    if jobs:
+        with ProcessPoolExecutor(workers) as pool:list(pool.map(_gray_png,jobs,chunksize=32))
+    print(f'PDF images: converted {len(jobs)}, reused {len(list(src.glob("*.webp")))-len(jobs)}',flush=True)
     return dst
 
+def repack_gray_images(path):
+    """Losslessly shrink the question images Chromium embedded in a PDF.
+
+    Chromium stores every image as 8-bit RGB. The PDF copies have at most 16 grey
+    levels, so each one is rewritten as a 4-bit indexed-grey image with the exact
+    same pixel values (about 30% smaller). Images with colour, transparency or
+    more than 16 levels are left untouched.
+    """
+    import zlib
+    import pymupdf
+    from PIL import Image
+    doc=pymupdf.open(path);count=0
+    for xref in range(1,doc.xref_length()):
+        if doc.xref_get_key(xref,'Subtype')[1]!='/Image' or doc.xref_get_key(xref,'SMask')[0]!='null':continue
+        if doc.xref_get_key(xref,'BitsPerComponent')[1]!='8' or doc.xref_get_key(xref,'Mask')[0]!='null':continue
+        pix=pymupdf.Pixmap(doc,xref)
+        if pix.alpha or pix.n not in (1,3):continue
+        img=Image.frombytes('L' if pix.n==1 else 'RGB',(pix.width,pix.height),pix.samples)
+        if pix.n==3:
+            r,g,b=img.split()
+            if r.tobytes()!=g.tobytes() or r.tobytes()!=b.tobytes():continue
+            img=r
+        levels=[v for v,c in enumerate(img.histogram()) if c]
+        if len(levels)>16:continue
+        lut=[0]*256
+        for i,v in enumerate(levels):lut[v]=i
+        # Palette indices, packed two per byte with each row padded to a whole byte.
+        packed=Image.frombytes('P',img.size,img.point(lut).tobytes()).tobytes('raw','P;4')
+        palette=bytes(levels+[0]*(16-len(levels)))
+        doc.update_stream(xref,zlib.compress(packed,9),compress=False)
+        doc.xref_set_key(xref,'Filter','/FlateDecode');doc.xref_set_key(xref,'DecodeParms','null')
+        doc.xref_set_key(xref,'BitsPerComponent','4')
+        doc.xref_set_key(xref,'ColorSpace','[/Indexed /DeviceGray 15 <'+palette.hex()+'>]')
+        count+=1
+    tmp=path.with_suffix('.repack.pdf');doc.save(tmp,garbage=3,deflate=True);doc.close();tmp.replace(path)
+    return count
+
+GENERATED=re.compile(r'Generated \d{4}-\d{2}-\d{2}')
+
+def cache_key(doc, footer, imgdir, image_hashes, chromium):
+    """Everything that decides a PDF's bytes, except the 'Generated' date on the cover."""
+    import hashlib
+    h=hashlib.sha256()
+    for part in (Path(__file__).read_bytes(),chromium.encode(),footer.encode(),GENERATED.sub('Generated',doc).encode()):
+        h.update(hashlib.sha256(part).digest())
+    for name in sorted(set(re.findall(r'src="'+re.escape(imgdir.as_uri())+r'/([^"]+)"',doc))):
+        h.update(name.encode()+image_hashes(name).encode())
+    return h.hexdigest()
+
 async def run(args):
+    import hashlib, os, shutil
+    from concurrent.futures import ProcessPoolExecutor
     out=ROOT/args.site
     report=json.loads((out/'build-report.json').read_text())
     if not args.preview and not args.release:raise SystemExit('Use --release (public build) or --preview (local draft).')
@@ -112,26 +172,57 @@ async def run(args):
                 (pdfdir/(name+'.html')).write_text(document(subject,records,qo,args.release));count+=1
         print(f'Prepared {count} local print HTML drafts; no PDF rendering claimed.');return
     from playwright.async_api import async_playwright
+    workers=args.jobs or os.cpu_count() or 2
+    imgdir=pdf_images(out,workers)
+    hashes={}
+    def image_hash(name):
+        if name not in hashes:hashes[name]=hashlib.sha256((imgdir/name).read_bytes()).hexdigest()
+        return hashes[name]
+    cache=ROOT/args.cache;cache.mkdir(exist_ok=True)
+    jobs=[]
+    for subject in report['subject_counts']:
+        if args.subject and subject!=args.subject:continue
+        records=json.loads((out/subject/'index.json').read_text())
+        for qo in (False,True):
+            name=subject+('-questions' if qo else '')
+            doc=document(subject,records,qo,args.release)
+            doc=re.sub(r'src="\.\./assets/questions/([^"]+)\.webp"',lambda m:'src="'+(imgdir/(m.group(1)+'.png')).as_uri()+'"',doc)
+            (pdfdir/(name+'.html')).write_text(doc)
+            footer='<div style="font-size:8px;width:100%;text-align:center;color:#666">'+('' if args.release else 'Private working preview · ')+'GATE CS · '+html.escape(TITLES[int(subject[:2])-1])+(' · questions only' if qo else '')+' · <span class="pageNumber"></span> / <span class="totalPages"></span></div>'
+            jobs.append(dict(subject=subject,qo=qo,name=name,doc=doc,footer=footer,entries=len(records)))
     async with async_playwright() as p:
-        browser=await p.chromium.launch(executable_path=args.chromium if args.chromium and Path(args.chromium).is_file() else None,headless=True,args=['--no-sandbox'])
-        page=await browser.new_page();imgdir=pdf_images(out)
-        results=[]
-        for subject in report['subject_counts']:
-            if args.subject and subject!=args.subject:continue
-            records=json.loads((out/subject/'index.json').read_text())
-            for qo in (False,True):
-                name=subject+('-questions' if qo else '')
-                doc=document(subject,records,qo,args.release)
-                doc=re.sub(r'src="\.\./assets/questions/([^"]+)\.webp"',lambda m:'src="'+(imgdir/(m.group(1)+'.png')).as_uri()+'"',doc)
-                htmlpath=pdfdir/(name+'.html')
-                htmlpath.write_text(doc)
-                await page.goto(htmlpath.as_uri(),wait_until='networkidle')
-                await page.evaluate('document.fonts.ready')
-                path=pdfdir/(name+'.pdf')
-                await page.pdf(path=str(path),format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',footer_template='<div style="font-size:8px;width:100%;text-align:center;color:#666">'+('' if args.release else 'Private working preview · ')+'GATE CS · '+html.escape(TITLES[int(subject[:2])-1])+(' · questions only' if qo else '')+' · <span class="pageNumber"></span> / <span class="totalPages"></span></div>',outline=True,tagged=True)
-                results.append({'subject':subject,'questions_only':qo,'entries':len(records),'path':str(path.relative_to(out)),'bytes':path.stat().st_size,'status':'release' if args.release else 'draft_rendered; visual_review_pending'})
-        await browser.close()
+        launch=dict(executable_path=args.chromium if args.chromium and Path(args.chromium).is_file() else None,headless=True,args=['--no-sandbox'])
+        probe=await p.chromium.launch(**launch);chromium=probe.version;await probe.close()
+        todo=[]
+        for job in jobs:
+            job['key']=cache_key(job['doc'],job['footer'],imgdir,image_hash,chromium)
+            keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
+            job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
+            if not job['cached']:todo.append(job)
+        # Largest documents first so the parallel workers finish together.
+        todo.sort(key=lambda j:-len(j['doc']))
+        queue=asyncio.Queue()
+        for job in todo:queue.put_nowait(job)
+        loop=asyncio.get_running_loop()
+        with ProcessPoolExecutor(workers) as pool:
+            async def worker():
+                browser=await p.chromium.launch(**launch);page=await browser.new_page()
+                while not queue.empty():
+                    job=queue.get_nowait();tmp=cache/(job['name']+'.tmp.pdf')
+                    await page.goto((pdfdir/(job['name']+'.html')).as_uri(),wait_until='networkidle')
+                    await page.evaluate('document.fonts.ready')
+                    await page.pdf(path=str(tmp),format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',footer_template=job['footer'],outline=True,tagged=True)
+                    job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
+                    tmp.replace(cache/(job['name']+'.pdf'));(cache/(job['name']+'.key')).write_text(job['key'])
+                await browser.close()
+            await asyncio.gather(*(worker() for _ in range(min(workers,len(todo)))))
+    results=[]
+    for job in jobs:
+        path=pdfdir/(job['name']+'.pdf');shutil.copyfile(cache/(job['name']+'.pdf'),path)
+        # The print HTML points at local file:// images; it is a build input, not a page to publish.
+        if args.release:(pdfdir/(job['name']+'.html')).unlink()
+        results.append({'subject':job['subject'],'questions_only':job['qo'],'entries':job['entries'],'path':str(path.relative_to(out)),'bytes':path.stat().st_size,'cached':job['cached'],'status':'release' if args.release else 'draft_rendered; visual_review_pending'})
     (out/'pdf-build-report.json').write_text(json.dumps(results,indent=2))
-    print(f'Rendered {len(results)} PDFs: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
+    print(f'Rendered {len(todo)} PDFs, reused {len(jobs)-len(todo)} unchanged from cache: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
 if __name__=='__main__':
-    a=argparse.ArgumentParser(description=__doc__);a.add_argument('--preview',action='store_true');a.add_argument('--release',action='store_true');a.add_argument('--site',default='_site');a.add_argument('--subject');a.add_argument('--html-only',action='store_true');a.add_argument('--chromium',default=None,help="Chromium binary; defaults to Playwright's bundled browser");asyncio.run(run(a.parse_args()))
+    a=argparse.ArgumentParser(description=__doc__);a.add_argument('--preview',action='store_true');a.add_argument('--release',action='store_true');a.add_argument('--site',default='_site');a.add_argument('--subject');a.add_argument('--html-only',action='store_true');a.add_argument('--jobs',type=int,default=None,help='Parallel Chromium workers (default: CPU count)');a.add_argument('--cache',default='.pdf-cache',help='Rendered PDFs keyed by content; unchanged subjects are reused');a.add_argument('--chromium',default=None,help="Chromium binary; defaults to Playwright's bundled browser");asyncio.run(run(a.parse_args()))

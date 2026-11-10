@@ -53,8 +53,26 @@ jobs:
         run: python scripts/build_site.py --release
       - name: Build search index
         run: npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
+      # PDFs are keyed by content inside .pdf-cache, so only subjects whose
+      # questions, images or layout changed are re-rendered.
+      - name: Restore rendered PDFs
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .pdf-cache
+            .pdf-images
+          key: pdfs-${{ github.sha }}
+          restore-keys: pdfs-
       - name: Build PDFs (with answers + questions only, per subject)
         run: python scripts/build_pdfs.py --release
+      - name: Save rendered PDFs
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .pdf-cache
+            .pdf-images
+          key: pdfs-${{ hashFiles('.pdf-cache/*.key') }}
+        continue-on-error: true
       - name: Check links
         run: python scripts/check_links.py _site
       - name: Report size
