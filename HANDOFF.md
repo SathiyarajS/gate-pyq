@@ -2,6 +2,8 @@
 
 The site is live at **https://sathiyarajs.github.io/gate-pyq/** and redeploys automatically on every push to `main` (about 20 min). What's left is mostly **redrawing questions** as real text and vector figures, which is long-running work. The owner does **no manual review**; the agent reviews its own work in a *separate* session using screenshots (see "How a paper gets verified").
 
+**Progress at a glance:** [CHECKLIST.md](CHECKLIST.md) lists every task and, per paper, how many questions are drafted, verified and live.
+
 ---
 
 ## 1. One-time setup on your computer
@@ -104,7 +106,7 @@ For each paper:
 4. **Write `data/transcriptions/<paper>.json`** in the format in `docs/TRANSCRIPTIONS.md`, with every entry `status: "draft"`. Record what you checked in `notes`.
 5. **Screenshot and self-check.** Run `python scripts/screenshot_comparisons.py <paper>`. Open every `audits/compare-shots/<paper>/*-desktop.jpg` and `*-mobile-dark.jpg` and fix anything that doesn't match the original on the left. Regenerate and repeat until it all matches.
 6. **Check the solution** against the exact wording. If the old paraphrase lost a detail that changes the answer, fix the solution in `data/questions.json` and the matching `subjects/*.md`, and log it in `DISCREPANCIES.md`. Never change an official key.
-7. **Run the checks:** `python scripts/fix_glued_numbers.py`, `python scripts/validate.py`, `python -m pytest -q tests`, `node tests/test_transcription_math.js`, and `python scripts/update_redrawn_coverage.py`.
+7. **Run the checks:** `python scripts/fix_glued_numbers.py`, `python scripts/validate.py`, `python -m pytest -q tests`, `node tests/test_transcription_math.js`, `python scripts/update_redrawn_coverage.py`, and `python scripts/update_checklist.py` (refreshes the progress table in `CHECKLIST.md`).
 8. **Commit and push** to `main` as `transcribe: <paper> (0/<n> verified)`. Push `audits/transcription-<paper>-draft-review.json` too, but not the screenshots (they're gitignored).
 
 ### 3.3 Independent review (session type C, always a fresh session)
