@@ -85,9 +85,9 @@ Options:
 
 ## Solution
 
-1. For the first association,113+(−111)=2 exactly, then2+7.51=9.51. For the second,−111+7.51=−103.49 rounds to−103 with three significant digits;113+(−103)=10.0.
+1. For the first association,113+(−111)=2 exactly, then 2+7.51=9.51. For the second,−111+7.51=−103.49 rounds to−103 with three significant digits;113+(−103)=10.0.
 
-2. Thus9.51 and10.0, A. Rounding is applied after each operation, not merely at the end.
+2. Thus9.51 and 10.0, A. Rounding is applied after each operation, not merely at the end.
 
 3. Teaching check: Three digits means three significant digits, not three decimal places. The intermediate −103.49 becomes −103, losing 0.49 before the final addition. Floating-point addition is therefore not associative even though exact real-number addition is.
 
@@ -186,7 +186,7 @@ Options:
 
 ## Solution
 
-1. Uniform sampling over [0,1]×[0,2] makes X and Y uniform on their respective intervals. Since p²=X²+Y², E[p²]=E[X²]+E[Y²]=(integral from 0 to1 of x² dx)+(1/2)(integral from 0 to2 of y² dy)=1/3+4/3=5/3, D.
+1. Uniform sampling over [0,1]×[0,2] makes X and Y uniform on their respective intervals. Since p²=X²+Y², E[p²]=E[X²]+E[Y²]=(integral from 0 to 1 of x² dx)+(1/2)(integral from 0 to 2 of y² dy)=1/3+4/3=5/3, D.
 
 2. This asks for E[p²], not the square of E[p].
 

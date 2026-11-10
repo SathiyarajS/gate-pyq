@@ -60,7 +60,7 @@ Options:
 
 1. Approach. Apply the block matrix separately to (v,v) and (v,−v), where Av=λv. This reduces the eight-dimensional eigenvalue calculation to adding and subtracting one from each eigenvalue of A.
 
-2. Derivation and interpretation. For Av=λv, the block vectors (v,v) and (v,−v) are eigenvectors of [[A,I],[I,A]] with eigenvalues λ+1 and λ−1. The eight values are −4,−6,−1,−3,2,0,5,3. Among the options only2 occurs, C.
+2. Derivation and interpretation. For Av=λv, the block vectors (v,v) and (v,−v) are eigenvectors of [[A,I],[I,A]] with eigenvalues λ+1 and λ−1. The eight values are −4,−6,−1,−3,2,0,5,3. Among the options only 2 occurs, C.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.
 

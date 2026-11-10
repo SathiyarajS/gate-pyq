@@ -25,7 +25,7 @@
 
 ## Solution
 
-Let L1 require x lines and L2 require2x. Their development costs are100x and 150x rupees, respectively. Five-year maintenance costs are500000 and 250000. Equating100x+500000=150x+250000 gives x=5000, B.
+Let L1 require x lines and L2 require 2x. Their development costs are 100x and 150x rupees, respectively. Five-year maintenance costs are 500000 and 250000. Equating100x+500000=150x+250000 gives x=5000, B.
 
 The LOC-to-effort conversion must be done separately for each language: x/10000 man-years for L1 versus 2x/10000 for L2. Multiplying by their respective annual development rates produces 100x and 150x. L2 is dearer to develop by 50x but cheaper to maintain by Rs 250000 over five years. Equality therefore occurs when that extra development cost exactly cancels the maintenance saving. At x=5000 both totals are Rs 1000000.
 
@@ -62,7 +62,7 @@ The LOC-to-effort conversion must be done separately for each language: x/10000 
 
 ## Solution
 
-The basic effort formula is a(KLOC)^b. Here KLOC=40000/1000=40, so effort=2.8×40^1.20≈234.23 person-months, approximately the listed234.25, A.
+The basic effort formula is a(KLOC)^b. Here KLOC=40000/1000=40, so effort=2.8×40^1.20≈234.23 person-months, approximately the listed 234.25, A.
 
 COCOMO uses thousands of lines, not raw LOC, as its size input. Substituting 40000 directly would overestimate effort by a factor 1000^1.2. With the correct input, 40^1.2=40×40^0.2≈83.65, and multiplying by 2.8 gives about 234.2. Person-months measure total labor effort, not elapsed calendar months: assigning several people does not make this a schedule estimate without an additional scheduling model.
 
@@ -210,7 +210,7 @@ The denominator e^(-ix) is never zero for real x, so the quotient simplification
 
 ## Solution
 
-For an upper triangular matrix, det(A−λI) is the product of diagonal entries minus λ. Here it is(1−λ)(4−λ)(3−λ), so the eigenvalues are1, 4, 3, A.
+For an upper triangular matrix, det(A−λI) is the product of diagonal entries minus λ. Here it is(1−λ)(4−λ)(3−λ), so the eigenvalues are 1, 4, 3, A.
 
 Subtracting λI preserves triangular form. Expanding the determinant along the first column gives (1-λ) times the determinant of the lower-right 2×2 triangular block, namely (4-λ)(3-λ). Eigenvalues make this characteristic determinant zero. Off-diagonal entries 2,3,7 can affect eigenvectors but not these diagonal roots. The trace check gives 1+4+3=8, equal to the sum of the diagonal entries, and the determinant check gives product 12.
 

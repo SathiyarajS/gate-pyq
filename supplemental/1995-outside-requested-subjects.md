@@ -207,11 +207,11 @@ GateForum’s literal sin(x)/0 is undefined for every nearby x, so it does not d
 
 ## Solution
 
-Complete the square rather than guessing a stationary point: 3−4x+2x²=2(x²−2x)+3=2[(x−1)²−1]+3=2(x−1)²+1. For every real x, the square is nonnegative, so the expression is at least1. At x=1 the square is zero, so the lower bound is attained. Thus1 is the global minimum, and x=1 is the unique minimizer.
+Complete the square rather than guessing a stationary point: 3−4x+2x²=2(x²−2x)+3=2[(x−1)²−1]+3=2(x−1)²+1. For every real x, the square is nonnegative, so the expression is at least 1. At x=1 the square is zero, so the lower bound is attained. Thus1 is the global minimum, and x=1 is the unique minimizer.
 
-As a check, differentiating gives f′(x)=4x−4, whose sole zero is x=1. The second derivative is4>0 everywhere, confirming strict convexity and the minimum. The completed-square proof is stronger than simply solving f′=0: it directly establishes a lower bound over the full domain and proves attainment.
+As a check, differentiating gives f′(x)=4x−4, whose sole zero is x=1. The second derivative is 4>0 everywhere, confirming strict convexity and the minimum. The completed-square proof is stronger than simply solving f′=0: it directly establishes a lower bound over the full domain and proves attainment.
 
-The source does not explicitly specify a domain for x; the conventional real-variable interpretation is used. If x were restricted to integers the same answer still holds because1 is an allowed integer. A different restricted domain excluding1 would need a separate analysis. The requested minimum value is1, whereas x=1 is where that value occurs.
+The source does not explicitly specify a domain for x; the conventional real-variable interpretation is used. If x were restricted to integers the same answer still holds because 1 is an allowed integer. A different restricted domain excluding 1 would need a separate analysis. The requested minimum value is 1, whereas x=1 is where that value occurs.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.
 

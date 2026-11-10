@@ -47,7 +47,7 @@
 
 **Official answer:** Not available; no official key located.
 
-**Independently derived answer:** All real α except5; no exact listed option
+**Independently derived answer:** All real α except 5; no exact listed option
 
 **Paraphrased problem context:** The equations x₁+x₂+2x₃=1, x₁+2x₂+3x₃=2, x₁+4x₂+αx₃=4 have a unique solution. The only possible value(s) of α is/are:
 
@@ -60,7 +60,7 @@
 
 1. Subtract the first equation from the second and third. The remaining coefficient rows are(0,1,1) and(0,3,α−2), so the determinant is α−5.
 2. A unique solution exists exactly when α≠5. At α=5 the third reduced equation is three times the second, including its right side, so solutions are nonunique.
-3. None of the printed choices gives the exhaustive set R minus{5}:0,1,−1 all work but are not the only possibilities, while any real number incorrectly includes5. No official key has been located; this is a source/options discrepancy, not a claimed official-key correction.
+3. None of the printed choices gives the exhaustive set R minus{5}:0,1,−1 all work but are not the only possibilities, while any real number incorrectly includes 5. No official key has been located; this is a source/options discrepancy, not a claimed official-key correction.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.
 
@@ -93,8 +93,8 @@
 
 ## Solution
 
-1. For f(x)=xe^x on[1,2], f″(x)=(x+2)e^x is increasing, with maximum4e². The composite trapezoidal bound is |E_n|≤4e²/(12n²)=e²/(3n²). Requiring this upper bound≤10^−6/3 gives n≥1000e, corresponding to A; an integer subdivision count would be ceil(1000e)=2719.
-2. This is a sufficient worst-derivative bound, not the exact minimum demanded by the wording. Direct high-precision evaluation gives error3.33057431918×10^−7 at n=2046, already within the tolerance and substantially below2719. At n=2045 the error is3.33383240096×10^−7.
+1. For f(x)=xe^x on[1,2], f″(x)=(x+2)e^x is increasing, with maximum 4e². The composite trapezoidal bound is |E_n|≤4e²/(12n²)=e²/(3n²). Requiring this upper bound≤10^−6/3 gives n≥1000e, corresponding to A; an integer subdivision count would be ceil(1000e)=2719.
+2. This is a sufficient worst-derivative bound, not the exact minimum demanded by the wording. Direct high-precision evaluation gives error 3.33057431918×10^−7 at n=2046, already within the tolerance and substantially below 2719. At n=2045 the error is 3.33383240096×10^−7.
 3. Thus A describes the standard error-bound calculation, not a literal minimal integer answer. No official key is asserted.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.

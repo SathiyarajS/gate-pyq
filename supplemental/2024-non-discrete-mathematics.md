@@ -247,7 +247,7 @@ Approach: Pair each point x with its reflection 2−x across the midpoint 1.
 
 Approach: Count outcomes for distinguishable dice, or expose the dice one at a time.
 
-1. Derivation. There are6⁶ equally likely outcomes for six labelled fair dice. All six faces are distinct exactly when the outcome is a permutation of 1 through6, giving6! possibilities. Probability=720/46656=5/324, option B.
+1. Derivation. There are 6⁶ equally likely outcomes for six labelled fair dice. All six faces are distinct exactly when the outcome is a permutation of 1 through 6, giving 6! possibilities. Probability=720/46656=5/324, option B.
 
 2. Explanation and checks. The sequential calculation is (6/6)(5/6)(4/6)(3/6)(2/6)(1/6), because every new die must avoid all previously observed faces. This equals 6!/6^6. The dice may be rolled simultaneously, but labeling them for counting does not change their probabilities. There is only one unordered multiset containing all six faces, yet it corresponds to 720 ordered outcomes, so using 1/6^6 would undercount favorable outcomes.
 
@@ -279,7 +279,7 @@ Approach: Count outcomes for distinguishable dice, or expose the dice one at a t
 
 Approach: Use a bound true for each outcome, which remains true after taking an expectation.
 
-1. Derivation. Since0≤y≤1 and x≥0, pointwise xy≤x. Taking expectations preserves the inequality, giving E[xy]≤E[x], option D. No independence is assumed. If x=y is a fair0/1 variable, E[xy]=1/2>E[x]E[y]=1/4; if y=1−x, E[xy]=0<1/4. These examples rule out universal equality and both fixed comparisons with the product of means.
+1. Derivation. Since0≤y≤1 and x≥0, pointwise xy≤x. Taking expectations preserves the inequality, giving E[xy]≤E[x], option D. No independence is assumed. If x=y is a fair 0/1 variable, E[xy]=1/2>E[x]E[y]=1/4; if y=1−x, E[xy]=0<1/4. These examples rule out universal equality and both fixed comparisons with the product of means.
 
 2. Explanation and checks. Multiplication by a number between zero and one cannot increase a nonnegative quantity, so xy≤x in every outcome; similarly xy≤y. No factorization of expectation is needed. To test the other answers take x equal to 0 or 1 with probability one half each. Choosing y=x makes the variables positively associated, while y=1−x makes them mutually exclusive. Their means remain one half in both examples, yet their product means differ, ruling out any universal product-of-means comparison.
 
@@ -311,7 +311,7 @@ Approach: Use a bound true for each outcome, which remains true after taking an 
 
 Approach: Use the determinant rule for the positive claims and small explicit matrices to refute universal claims.
 
-1. Derivation. A single row swap negates the determinant, proving A. If det(A) is nonzero then det(B)=−det(A) is nonzero as well, proving B. Symmetry is not preserved: swapping rows of diag(1, 2) gives[[0, 2],[1, 0]], which is not symmetric. Zero trace is not preserved: A=[[1, 2],[3,−1]] has trace0, but its row-swapped matrix has trace5. Answer A, B.
+1. Derivation. A single row swap negates the determinant, proving A. If det(A) is nonzero then det(B)=−det(A) is nonzero as well, proving B. Symmetry is not preserved: swapping rows of diag(1, 2) gives[[0, 2],[1, 0]], which is not symmetric. Zero trace is not preserved: A=[[1, 2],[3,−1]] has trace 0, but its row-swapped matrix has trace 5. Answer A, B.
 
 2. Explanation and checks. A row swap is multiplication on the left by an invertible permutation matrix P, so B=PA and B^−1=A^−1 P^−1 whenever A is invertible. This supplies another proof of B. In contrast symmetry would naturally be preserved by applying the same permutation to rows and columns, PAP^T, not by a row permutation alone. Trace invariance also applies to similarity transformations, not arbitrary independent row operations. The two counterexamples in the derivation make these distinctions concrete.
 

@@ -58,7 +58,7 @@ The product determinant identity is valid even for singular matrices. For the ra
 
 Derivation and answer
 
-Determinants multiply, so II is true. The column space of A+B is contained in the sum of the column spaces of A and B, proving rank(A+B)≤rank(A)+rank(B), III. With A=B=I2, rank(AB)=2 differs from 2·2=4, refuting I, while det(A+B)=4 exceeds1+1=2, refuting IV. Thus C.
+Determinants multiply, so II is true. The column space of A+B is contained in the sum of the column spaces of A and B, proving rank(A+B)≤rank(A)+rank(B), III. With A=B=I2, rank(AB)=2 differs from 2·2=4, refuting I, while det(A+B)=4 exceeds 1+1=2, refuting IV. Thus C.
 
 **Verification:** Independent second derivation review passed; [official published key](https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf#page=17) compared. Complete question transcription is not certified.
 

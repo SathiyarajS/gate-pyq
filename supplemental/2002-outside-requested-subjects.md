@@ -19,7 +19,7 @@ Step 1: Count independent rows, not nonzero entries.
 
 Step 2: The row (1,1) spans every row of the matrix, so the row-space dimension is one. Rank cannot be negative; rank two would require two independent rows, while rank zero would require the zero matrix.
 
-Conclusion and qualifications: The first row is nonzero and the second row is zero. There is exactly one linearly independent row, so the rank is1, C.
+Conclusion and qualifications: The first row is nonzero and the second row is zero. There is exactly one linearly independent row, so the rank is 1, C.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.
 
@@ -43,9 +43,9 @@ Conclusion and qualifications: The first row is nonzero and the second row is ze
 
 Step 1: Check what the trapezoidal formula integrates.
 
-Step 2: On [a,b], the approximation is (b−a)(f(a)+f(b))/2. Substituting f(x)=c gives c(b−a), and substituting f(x)=mx+c gives m(b²−a²)/2+c(b−a), both exact integrals. For f(x)=x² on [0,1], it gives1/2 instead of1/3, ruling out degree two.
+Step 2: On [a,b], the approximation is (b−a)(f(a)+f(b))/2. Substituting f(x)=c gives c(b−a), and substituting f(x)=mx+c gives m(b²−a²)/2+c(b−a), both exact integrals. For f(x)=x² on [0,1], it gives 1/2 instead of 1/3, ruling out degree two.
 
-Conclusion and qualifications: The trapezoidal rule integrates the straight line joining the endpoint values. It is exact for every polynomial of degree0 or1, C. A quadratic such as x² already has a nonzero error on a nondegenerate interval.
+Conclusion and qualifications: The trapezoidal rule integrates the straight line joining the endpoint values. It is exact for every polynomial of degree 0 or 1, C. A quadratic such as x² already has a nonzero error on a nondegenerate interval.
 
 **Verification:** Independent second derivation and visual source review passed. No official scoring comparison or complete question transcription is claimed.
 
@@ -69,7 +69,7 @@ Conclusion and qualifications: The trapezoidal rule integrates the straight line
 
 Step 1: Derive the Newton step from the candidate equation.
 
-Step 2: For x²−3=0, derivative2x gives x_next=x−(x²−3)/(2x). Splitting the fraction gives x−x/2+3/(2x)=x/2+3/(2x). A cubic would instead involve a derivative3x² and a2x/3 term, so it cannot produce the displayed iteration.
+Step 2: For x²−3=0, derivative 2x gives x_next=x−(x²−3)/(2x). Splitting the fraction gives x−x/2+3/(2x)=x/2+3/(2x). A cubic would instead involve a derivative 3x² and a2x/3 term, so it cannot produce the displayed iteration.
 
 Conclusion and qualifications: For g(x)=x²−3, Newton’s formula is x−g(x)/g′(x)=x−(x²−3)/(2x)=x/2+3/(2x). This is the displayed iteration, so it solves x²=3, A, with a suitable nonzero initial value.
 

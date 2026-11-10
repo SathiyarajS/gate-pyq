@@ -18,7 +18,7 @@
 
 ## Solution
 
-B is obtained from A by exchanging rows1 and 3, which negates the determinant. Direct elimination gives det(A)=−160 and det(B)=160, so neither is zero or equal. Also det(AB)=det(A)det(B)=−25600, not their sum0. Thus only B. Matrix entries and swapped rows were visually checked.
+B is obtained from A by exchanging rows 1 and 3, which negates the determinant. Direct elimination gives det(A)=−160 and det(B)=160, so neither is zero or equal. Also det(AB)=det(A)det(B)=−25600, not their sum 0. Thus only B. Matrix entries and swapped rows were visually checked.
 
 Teaching detail. A row swap reverses the alternating sign in the determinant definition. It does not depend on the actual values of the other rows, so the visible swap gives the answer immediately. To confirm the exclusions, subtract suitable multiples of row 1 to reduce the determinant to a 3×3 determinant: rows (−7,−10,−13),(−2,−8,−10),(−1,−2,−7) give −160. Determinants multiply under matrix multiplication; they do not add. The explicit nonzero check prevents mistakenly treating A as another true statement.
 
@@ -78,7 +78,7 @@ Teaching detail. A stationary point alone need not be an extremum, so the sign c
 
 ## Solution
 
-The integral is over the symmetric box x∈[−3, 3], y∈[−2, 2], z∈[−1, 1]. The term4x²y is odd in y and integrates to 0 over its symmetric limits. The term−z³ is odd in z and also integrates to 0. Their sum therefore has integral0, already an integer.
+The integral is over the symmetric box x∈[−3, 3], y∈[−2, 2], z∈[−1, 1]. The term 4x²y is odd in y and integrates to 0 over its symmetric limits. The term−z³ is odd in z and also integrates to 0. Their sum therefore has integral 0, already an integer.
 
 Teaching detail. One can integrate in the stated order to verify the symmetry shortcut. The z integral of −z³ is zero, while integrating 4x²y over a z-interval of length 2 gives 8x²y. Integrating this over y from −2 to 2 gives zero for every fixed x, and the remaining x integration stays zero. Oddness is used in the variable whose bounds are symmetric; the fact that x² is even causes no problem. No rounding uncertainty remains because the value is exactly zero.
 

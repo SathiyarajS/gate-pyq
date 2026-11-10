@@ -509,7 +509,7 @@ An inspection is a systematic static review against defect classes and a checkli
 
 1. The method first multiplies each information-domain count by its complexity weight and sums to obtain unadjusted function points. It then multiplies that total by 0.65+0.01 times the sum of the fourteen adjustment ratings. Four plus four factors account for eight ratings, leaving six ratings of value 4.
 
-2. Unadjusted points=30·4+60·5+23·4+8·10+2·7=606. Adjustment sum=4·0+4·3+6·4=36. The factor is 0.65+0.01·36=1.01, giving606·1.01=612.06, within the official612 to 613 range.
+2. Unadjusted points=30·4+60·5+23·4+8·10+2·7=606. Adjustment sum=4·0+4·3+6·4=36. The factor is 0.65+0.01·36=1.01, giving 606·1.01=612.06, within the official 612 to 613 range.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -605,7 +605,7 @@ An inspection is a systematic static review against defect classes and a checkli
 
 1. This is a ∞⁰ form, so neither the base nor the exponent alone determines the answer. Exponential growth dominates logarithmic growth: ln(1+x²)/e^x tends to 0. Continuity of exp then gives exp(0)=1.
 
-2. Take logarithms: ln[(1+x²)^(e^(−x))]=ln(1+x²)/e^x→0. Exponentiating gives limit1, C.
+2. Take logarithms: ln[(1+x²)^(e^(−x))]=ln(1+x²)/e^x→0. Exponentiating gives limit 1, C.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -637,7 +637,7 @@ An inspection is a systematic static review against defect classes and a checkli
 
 1. The fraction 75/100 estimates the detection probability, not the fraction of detected faults that are artificial. First separate the 159 detected faults into 75 artificial and 84 real, then use the common detection-rate assumption only on the real population.
 
-2. The detected seeded fraction is 75/100=0.75. Detected real faults number159−75=84. Under equal detectability, estimated total real faults=84/0.75=112, leaving112−84=28 undetected.
+2. The detected seeded fraction is 75/100=0.75. Detected real faults number 159−75=84. Under equal detectability, estimated total real faults=84/0.75=112, leaving 112−84=28 undetected.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -771,9 +771,9 @@ The shown control-flow graph Y has eight vertically ordered nodes v1,...,v8, edg
 
 ## Solution
 
-1. Treat each compound source-level condition as one decision: X has its first if, the while, and the final if, so complexity4.
+1. Treat each compound source-level condition as one decision: X has its first if, the while, and the final if, so complexity 4.
 
-2. The shown Y graph has 8 vertices and 10 edges, giving E−N+2=4. Serial composition adds complexities minus1, so Z=4+4−1=7. Thus A. Expanding the short-circuit AND into separate predicate nodes would increase X to 5 and Z to 8; the official answer uses source-statement predicate counting rather than that expanded control-flow model.
+2. The shown Y graph has 8 vertices and 10 edges, giving E−N+2=4. Serial composition adds complexities minus 1, so Z=4+4−1=7. Thus A. Expanding the short-circuit AND into separate predicate nodes would increase X to 5 and Z to 8; the official answer uses source-statement predicate counting rather than that expanded control-flow model.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 

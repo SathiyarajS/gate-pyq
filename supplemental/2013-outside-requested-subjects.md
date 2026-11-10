@@ -20,10 +20,10 @@
 
 ## Solution
 
-Let the original columns be u, v, w. Option A has columns u, v+w, u+v. Multilinearity removes repeated-column terms and leaves det(u, w, v)=−det(u, v, w). The other options use determinant-preserving row/column additions or differences. Thus A is the expression not identically equal to the original determinant. If the original determinant happens to be0, its negative also equals it; the question is understood as asking for a general identity, not pointwise inequality for every possible entry.
+Let the original columns be u, v, w. Option A has columns u, v+w, u+v. Multilinearity removes repeated-column terms and leaves det(u, w, v)=−det(u, v, w). The other options use determinant-preserving row/column additions or differences. Thus A is the expression not identically equal to the original determinant. If the original determinant happens to be 0, its negative also equals it; the question is understood as asking for a general identity, not pointwise inequality for every possible entry.
 
 Teaching detail:
-For A, the new columns are u, v+w, u+v, where the old columns are u=(1, 1, 1), v=(x, y, z), w=(x², y², z²). Expanding in columns leaves only det(u, w, v), because every other term repeats u or v. One swap of v and w changes the determinant sign. B merely adds column1 to columns2 and 3. C replaces row1 by r1−r2 and row2 by r2−r3, with row3 retained; D uses r1+r2, r2+r3, r3. The respective row-transformation matrices for C and D are triangular with diagonal1, so both preserve Δ. A is the failed general identity, although −Δ=Δ at singular instances.
+For A, the new columns are u, v+w, u+v, where the old columns are u=(1, 1, 1), v=(x, y, z), w=(x², y², z²). Expanding in columns leaves only det(u, w, v), because every other term repeats u or v. One swap of v and w changes the determinant sign. B merely adds column 1 to columns 2 and 3. C replaces row1 by r1−r2 and row2 by r2−r3, with row3 retained; D uses r1+r2, r2+r3, r3. The respective row-transformation matrices for C and D are triangular with diagonal 1, so both preserve Δ. A is the failed general identity, although −Δ=Δ at singular instances.
 
 **Verification:** Independent second derivation review passed; [official published key](https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf#page=1) compared. Complete question transcription is not certified.
 
@@ -86,10 +86,10 @@ The service workflow publishes a description, lets a client find it, then binds 
 
 ## Solution
 
-For option A, the left limit is(3+3)/3=2, the right limit is 3−1=2, and f(3)=2. All agree. B has limit5 but value 4; C has unequal one-sided limits6 and−1; D is undefined at 3. Hence A.
+For option A, the left limit is(3+3)/3=2, the right limit is 3−1=2, and f(3)=2. All agree. B has limit 5 but value 4; C has unequal one-sided limits 6 and−1; D is undefined at 3. Hence A.
 
 Teaching detail:
-Continuity at a point needs three things: the function value must exist, both one-sided limits must agree, and their common value must equal the function value. A satisfies all three with value 2. B approaches5 but assigns4, a removable discontinuity. C approaches6 from the left and−1 from the right, a jump. D provides no finite value at 3 and its denominator vanishes there, so it cannot meet the continuity test as given.
+Continuity at a point needs three things: the function value must exist, both one-sided limits must agree, and their common value must equal the function value. A satisfies all three with value 2. B approaches 5 but assigns 4, a removable discontinuity. C approaches 6 from the left and−1 from the right, a jump. D provides no finite value at 3 and its denominator vanishes there, so it cannot meet the continuity test as given.
 
 **Verification:** Independent second derivation review passed; [official published key](https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf#page=1) compared. Complete question transcription is not certified.
 
@@ -115,14 +115,14 @@ Continuity at a point needs three things: the function value must exist, both on
 
 **Source access:** Archived official IIT Bombay booklet A. Physical PDF page numbers are used; ORS code A is the matching key column. Booklets B/C/D permute the same questions, not separate sessions.
 
-**Paraphrased problem context:** For x=0,.3,.6,.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3.0, the ordinates are0,.09,.36,.81, 1.44, 2.25, 3.24, 4.41, 5.76, 7.29, 9.00. Approximate the integral from 0 to 3 using the trapezoidal rule. A8.983, B9.003, C9.017, D9.045.
+**Paraphrased problem context:** For x=0,.3,.6,.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3.0, the ordinates are 0,.09,.36,.81, 1.44, 2.25, 3.24, 4.41, 5.76, 7.29, 9.00. Approximate the integral from 0 to 3 using the trapezoidal rule. A8.983, B9.003, C9.017, D9.045.
 
 ## Solution
 
 The spacing is h=.3. The nine interior ordinates sum to 25.65. The composite trapezoidal estimate is .3[(0+9)/2+25.65]=.3×30.15=9.045, D.
 
 Teaching detail:
-Each interval contributes its width times the average of its two endpoint heights. On adding ten intervals of equal width.3, each interior ordinate is counted twice inside the half-weighted sum, while endpoints appear once. Thus use .3[(f(0)+f(3))/2+Σ interior values]. The interior sum .09+.36+.81+1.44+2.25+3.24+4.41+5.76+7.29 is 25.65, giving 9.045. Although these ordinates equal x², the question asks the trapezoidal estimate, not the exact integral9.
+Each interval contributes its width times the average of its two endpoint heights. On adding ten intervals of equal width.3, each interior ordinate is counted twice inside the half-weighted sum, while endpoints appear once. Thus use .3[(f(0)+f(3))/2+Σ interior values]. The interior sum .09+.36+.81+1.44+2.25+3.24+4.41+5.76+7.29 is 25.65, giving 9.045. Although these ordinates equal x², the question asks the trapezoidal estimate, not the exact integral 9.
 
 **Verification:** Independent second derivation review passed; [official published key](https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf#page=1) compared. Complete question transcription is not certified.
 
@@ -148,14 +148,14 @@ Each interval contributes its width times the average of its two endpoint height
 
 **Source access:** Archived official IIT Bombay booklet A. Physical PDF page numbers are used; ORS code A is the matching key column. Booklets B/C/D permute the same questions, not separate sessions.
 
-**Paraphrased problem context:** Two access-graph modules each have4attribute nodes. M1 has 4 methods and M2 has 3; each method accesses2 attributes of its own module. Method m in M1 additionally accesses2 attributes in M2. Move m to M2, keeping attributes fixed. Under access-density cohesion and cross-module access coupling, what changes? A neither; B cohesion rises, coupling falls; C both fall; D both rise. Filled circles in the source are methods, unfilled circles attributes.
+**Paraphrased problem context:** Two access-graph modules each have 4attribute nodes. M1 has 4 methods and M2 has 3; each method accesses 2 attributes of its own module. Method m in M1 additionally accesses 2 attributes in M2. Move m to M2, keeping attributes fixed. Under access-density cohesion and cross-module access coupling, what changes? A neither; B cohesion rises, coupling falls; C both fall; D both rise. Filled circles in the source are methods, unfilled circles attributes.
 
 ## Solution
 
-The diagram shows m accessing two attributes in its own module and two in the other. Moving m exchanges two internal accesses for two external ones in each direction, so the number of cross-module accesses remains2. Every method accesses two of the four attributes of its current module; internal access densities stay8/16=.5 and 6/12=.5 before the move, then6/12=.5 and 8/16=.5 after. Thus average cohesion and coupling are unchanged under this access-based measure, A.
+The diagram shows m accessing two attributes in its own module and two in the other. Moving m exchanges two internal accesses for two external ones in each direction, so the number of cross-module accesses remains 2. Every method accesses two of the four attributes of its current module; internal access densities stay 8/16=.5 and 6/12=.5 before the move, then 6/12=.5 and 8/16=.5 after. Thus average cohesion and coupling are unchanged under this access-based measure, A.
 
 Teaching detail:
-Before moving m, internal accesses total 4×2=8in M1 and 3×2=6in M2; possible method-attribute pairs are4×4=16and3×4=12. Both densities are1/2. After moving m, the method counts exchange, so the two densities remain6/12and8/16. The two accesses from m to M2 become internal, but its two accesses to its old M1 attributes become external. Thus cross-module accesses stay2. The conclusion is tied to this access-graph measure, rather than every possible software cohesion metric.
+Before moving m, internal accesses total 4×2=8in M1 and 3×2=6in M2; possible method-attribute pairs are 4×4=16and3×4=12. Both densities are 1/2. After moving m, the method counts exchange, so the two densities remain 6/12and8/16. The two accesses from m to M2 become internal, but its two accesses to its old M1 attributes become external. Thus cross-module accesses stay 2. The conclusion is tied to this access-graph measure, rather than every possible software cohesion metric.
 
 **Verification:** Independent second derivation review passed; [official published key](https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf#page=2) compared. Complete question transcription is not certified.
 

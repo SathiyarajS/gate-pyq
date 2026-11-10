@@ -26,7 +26,7 @@ Of the 36 equally likely ordered roll pairs, six are ties: (1,1) through (6,6). 
 
 Derivation, answer and qualifications:
 
-A trial ties with probability6/36=1/6 and is decisive with probability5/6. Winning first on trial3 requires two ties then a decisive roll, probability(1/6)²(5/6)=5/216≈0.023148, rounded0.023.
+A trial ties with probability 6/36=1/6 and is decisive with probability 5/6. Winning first on trial 3 requires two ties then a decisive roll, probability(1/6)²(5/6)=5/216≈0.023148, rounded 0.023.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -62,7 +62,7 @@ The derivative of the inner argument x² is 2x, so the factor x dx is half of du
 
 Derivation, answer and qualifications:
 
-Substitute u=x², du=2x dx. The integral is(1/2)sin(x²) evaluated at 0 andπ/4, hence(1/2)sin((3.14/4)²)≈0.288979, rounded0.289.
+Substitute u=x², du=2x dx. The integral is(1/2)sin(x²) evaluated at 0 andπ/4, hence(1/2)sin((3.14/4)²)≈0.288979, rounded 0.289.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -98,7 +98,7 @@ Write out the matrix to make the outer-product order explicit: A=[[1,1],[2,2]]. 
 
 Derivation, answer and qualifications:
 
-A=uv^T has rank1. Its nonzero eigenvalue is v^Tu=1+2=3, since Au=u(v^Tu)=3u. The other eigenvalue is 0, so the largest is 3.
+A=uv^T has rank 1. Its nonzero eigenvalue is v^Tu=1+2=3, since Au=u(v^Tu)=3u. The other eigenvalue is 0, so the largest is 3.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 

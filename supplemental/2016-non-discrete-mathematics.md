@@ -116,7 +116,7 @@ The characteristic polynomial of a real matrix has real coefficients. Therefore 
 
 ## Solution
 
-f(x)+f(−x) isolates twice the even-degree part of f, whose highest degree is 10. Differentiating gives g(x)−g(−x), and the nonzero degree10 leading term becomes degree9. Therefore9.
+f(x)+f(−x) isolates twice the even-degree part of f, whose highest degree is 10. Differentiating gives g(x)−g(−x), and the nonzero degree 10 leading term becomes degree 9. Therefore9.
 
 Write f(x)=Σa_k x^k. Adding f(−x) cancels odd powers and doubles even powers; a10 is therefore nonzero and all higher even coefficients vanish. The derivative difference cancels derivative terms from odd original powers and doubles those from even original powers. Even a higher odd degree of f cannot affect the answer.
 
@@ -148,7 +148,7 @@ Write f(x)=Σa_k x^k. Adding f(−x) cancels odd powers and doubles even powers;
 
 ## Solution
 
-I fails for an inconsistent underdetermined system, for example0x+0y=1. II fails for a consistent overdetermined system, for example x=1 and 2x=2. III holds, for example the identity coefficient matrix with any right-hand side. Thus only III, C.
+I fails for an inconsistent underdetermined system, for example 0x+0y=1. II fails for a consistent overdetermined system, for example x=1 and 2x=2. III holds, for example the identity coefficient matrix with any right-hand side. Thus only III, C.
 
 Compare ranks, not just numbers of equations: solvability requires rank(A)=rank([A|b]). Having extra variables permits free variables only after consistency is established. Having extra equations can still be consistent when those equations are redundant. The existential wording in III needs only one example, such as x1=…=xn=0.
 

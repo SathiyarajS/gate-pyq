@@ -18,7 +18,7 @@
 
 ## Solution
 
-For an exponential lifetime with rateλ, E[X]=1/λ and P(X>t)=e^(−λt). Therefore P(X>E[X])=e^(−1)≈0.367879, rounding to 0.37, within the official0.35–0.39 range. The result is the same if parameter2 is expressed as a scale rather than rate.
+For an exponential lifetime with rateλ, E[X]=1/λ and P(X>t)=e^(−λt). Therefore P(X>E[X])=e^(−1)≈0.367879, rounding to 0.37, within the official 0.35–0.39 range. The result is the same if parameter2 is expressed as a scale rather than rate.
 
 With rate λ=2 the mean is 1/2, so integrate the density: ∫_(1/2)^∞ 2e^(−2x)dx=e^(−1). Equivalently use the survival function. If the printed 'parameter 2' were interpreted as scale θ=2, the mean would be 2 and survival at that mean would still be e^(−2/2)=e^(−1). This invariant removes the rate-versus-scale convention issue for this particular question.
 
@@ -168,7 +168,7 @@ Among an imagined 1000 transmissions, 100 are H and 900 are L. Expected received
 
 ## Solution
 
-For X~Binomial(1000, 0.4), variance is np(1−p)=1000·0.4·0.6=240. Standard deviation is√240≈15.4919, or15.49 to two decimals, within the official15.00–16.00 range.
+For X~Binomial(1000, 0.4), variance is np(1−p)=1000·0.4·0.6=240. Standard deviation is√240≈15.4919, or 15.49 to two decimals, within the official 15.00–16.00 range.
 
 Write X as the sum of 1000 independent Bernoulli indicators. Each has variance p(1−p)=0.24; independence makes variances add. Standard deviations do not add directly. Taking the square root only after the variance sum produces the requested units, number of heads.
 
@@ -198,7 +198,7 @@ Write X as the sum of 1000 independent Bernoulli indicators. Each has variance p
 
 ## Solution
 
-The nullspace is contained in the span of one nonzero vector, so its dimension is at most1. A4×5 matrix has rank at most4 and therefore nullity at least1. Hence nullity=1 and rank=5−1=4.
+The nullspace is contained in the span of one nonzero vector, so its dimension is at most 1. A4×5 matrix has rank at most 4 and therefore nullity at least 1. Hence nullity=1 and rank=5−1=4.
 
 Rank-nullity applies to the five-column linear map: rank+nullity=5. The statement only says every solution lies in the given line, not explicitly that every point on the line is a solution. Nevertheless the 4-row rank bound forces a nonzero nullspace, completing that missing direction and ruling out nullity zero.
 
@@ -258,7 +258,7 @@ The mean value theorem needs continuity on the closed interval and differentiabi
 
 ## Solution
 
-Attempting A first gives expected marks0.8·10+(0.8·0.5)·20=16. Attempting B first gives 0.5·20+(0.5·0.8)·10=14. The product terms use the stated independence. Hence A then B maximizes the expectation at 16, D.
+Attempting A first gives expected marks 0.8·10+(0.8·0.5)·20=16. Attempting B first gives 0.5·20+(0.5·0.8)·10=14. The product terms use the stated independence. Hence A then B maximizes the expectation at 16, D.
 
 Alternatively enumerate outcomes for A first: probability 0.2 earns 0; probability 0.8×0.5 earns 10; probability 0.8×0.5 earns 30. Expectation is 4+12=16. For B first, 0.5 earns zero, 0.5×0.2 earns 20 and 0.5×0.8 earns 30, totaling 2+12=14. Expected individual question value alone does not determine the order.
 
@@ -288,7 +288,7 @@ Alternatively enumerate outcomes for A first: probability 0.2 earns 0; probabili
 
 ## Solution
 
-Let Rk be the number of red balls after k draws and N=r+b. Given Rk, the expected red count after one more draw is Rk+Rk/(N+k). Therefore E[R_(k+1)/(N+k+1)|Rk]=Rk/(N+k). The expected red proportion remains r/N through all trials. The probability of red on trial4 is E[R3/(N+3)]=r/(r+b), A.
+Let Rk be the number of red balls after k draws and N=r+b. Given Rk, the expected red count after one more draw is Rk+Rk/(N+k). Therefore E[R_(k+1)/(N+k+1)|Rk]=Rk/(N+k). The expected red proportion remains r/N through all trials. The probability of red on trial 4 is E[R3/(N+3)]=r/(r+b), A.
 
 A direct check on the second draw already shows the pattern: (r/N)((r+1)/(N+1))+(b/N)(r/(N+1))=r/N. Reinforcement makes successive colors dependent, but leaves the marginal probability unchanged. Option D is the probability that all four draws are red, which is stronger than only the fourth being red.
 
@@ -318,7 +318,7 @@ A direct check on the second draw already shows the pattern: (r/N)((r+1)/(N+1))+
 
 ## Solution
 
-The displayed operation is the standard inner product. Pairwise orthogonal nonzero vectors are linearly independent: dotting a zero linear combination with any member forces its coefficient to vanish. In dimension10 there can be at most10 such vectors. The ten standard basis vectors attain that bound, so 10, B.
+The displayed operation is the standard inner product. Pairwise orthogonal nonzero vectors are linearly independent: dotting a zero linear combination with any member forces its coefficient to vanish. In dimension 10 there can be at most 10 such vectors. The ten standard basis vectors attain that bound, so 10, B.
 
 If Σαi vi=0, dot with vj. Orthogonality removes every term except αj||vj||². Nonzero vj implies its squared norm is positive, hence αj=0. This is linear independence, so dimension bounds the set. Nonzero is essential: the zero vector is orthogonal to everything but would not contribute an independent direction.
 

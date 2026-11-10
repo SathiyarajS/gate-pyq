@@ -150,7 +150,7 @@
 
 1. Method and setup. Anchor the distinctive matches first: the spiral model organizes work around risk, whereas waterfall divides work into fixed sequential phases. Evolutionary development permits specifications to grow with successive versions. Component reuse may require adapting desired requirements to available components.
 
-2. Work through the result and its assumptions. Waterfall fixes sequential stages(d); evolution permits incremental specifications(a); reusable components can force requirement compromises(b); spiral development explicitly treats risk(c). The mapping1-d, 2-a, 3-b, 4-c is B.
+2. Work through the result and its assumptions. Waterfall fixes sequential stages(d); evolution permits incremental specifications(a); reusable components can force requirement compromises(b); spiral development explicitly treats risk(c). The mapping 1-d, 2-a, 3-b, 4-c is B.
 
 **Verification:** Independent second derivation review passed; [official published key](https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view) compared. Complete question transcription is not certified.
 
@@ -246,7 +246,7 @@
 
 1. Set up the reasoning. Expand the product conceptually as rows (2,18,10), (-4,-36,-20), and (7,63,35). Each row is a scalar multiple of (1,9,5).
 
-2. Derive the result. The matrix is the outer product of a 3-vector and a row3-vector, so its rank is 1. A3×3 rank-deficient matrix has determinant0.
+2. Derive the result. The matrix is the outer product of a 3-vector and a row3-vector, so its rank is 1. A3×3 rank-deficient matrix has determinant 0.
 
 3. Check the interpretation. A determinant is zero whenever rows are linearly dependent. There is no need to expand nine cofactors, and det(uvᵀ) is not a product of ordinary determinants of the nonsquare factors.
 
@@ -348,7 +348,7 @@
 
 1. Set up the reasoning. Use x(k+1)=xk-f(xk)/f′(xk), where f′(x)=2.25x²-4x-2. Evaluate exact values at the first two iterates to detect a possible cycle.
 
-2. Derive the result. Let f(x)=0.75x³−2x²−2x+4, with f′(x)=2.25x²−4x−2. At x=2, f=−2 and f′=−1, so the next iterate is 0. At0, f=4 and f′=−2, so the next is 2. The sequence cycles2, 0, 2, 0,...; x3=0 but it never converges to a root. Only I holds, A.
+2. Derive the result. Let f(x)=0.75x³−2x²−2x+4, with f′(x)=2.25x²−4x−2. At x=2, f=−2 and f′=−1, so the next iterate is 0. At0, f=4 and f′=−2, so the next is 2. The sequence cycles 2, 0, 2, 0,...; x3=0 but it never converges to a root. Only I holds, A.
 
 3. Check the interpretation. At x=2 the next point is 0, and at x=0 the next point is 2. Neither is a root because their function values are -2 and 4. Returning to the same point after two iterations establishes repetition forever, not convergence.
 
