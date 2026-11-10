@@ -8,6 +8,83 @@ You (Codex) built the question bank on branch `work/gate-source-audit`. This fil
 
 ---
 
+## Status on 10 Nov 2026 (read this before anything else)
+
+Phases 1–4 are done. Phase 5 (redraw) has started. Phase 6 is partly done. **All work now lives on branch `release`.** It contains everything from `site` up to `76eea72`, Codex's last push, plus the changes below. Treat `site` as frozen; do not keep working on it.
+
+### What Claude added on `release`
+
+- **Public release build.** `python scripts/build_site.py --release` builds the public site.
+  - No preview banner and no `noindex` tag.
+  - PDF download links on every subject page.
+  - Every question whose source PDF is in `sources/` shows its original image; the rest fall back to the paraphrase and are listed on the About page.
+  - The fail-closed `--preview` path is unchanged, and templates default to preview mode.
+- **Year labels.** Labels now read `(GATE 2026 Set 1, Q17)`. Previously they showed the exam-shift number (`(GATE 2026 3, Q17)`).
+- **Practice controls.** A–D buttons for MCQ, toggle buttons plus Check for MSQ, and a number box for NAT. The missing "1 mark" option in the marks filter was also added.
+- **Image trimming.** `scripts/render_crops.py` trims the empty answer-box area below questions in 2022+ papers (about 200 images). Only blank rows at the bottom are removed; crop metadata is unchanged.
+- **PDFs.** `python scripts/build_pdfs.py --release` produces:
+  - a cover, a contents page by topic, and bookmarks per topic and question
+  - questions that flow continuously instead of one per page
+  - 150 DPI greyscale images (about 14 MB per subject PDF instead of 57 MB)
+  - a footer showing the subject and page number
+- **Missing spaces.** `scripts/fix_glued_numbers.py` restored the space in about 610 places such as "costs7n" → "costs 7n", in both `data/questions.json` and the markdown. It skips identifiers (`log2`, `top1`, `wants1`, `print1`, `binary32`, …) and code, and it is idempotent: if `data/questions.json` conflicts in a merge, take the other side and re-run it.
+- **Deployment.** `.github/workflows/pages.yml` runs on PRs to `main` (build and checks) and on push to `main` (build and deploy). Each run:
+  1. restores the 2007–2018 papers from the official CS.zip (hash-checked, `scripts/fetch_sources.py --archive-only`)
+  2. validates the data
+  3. builds the site
+  4. builds the Pagefind index
+  5. builds the 26 PDFs
+  6. runs the link check (`scripts/check_links.py`)
+  7. deploys
+- **Handoff integration.**
+  - The CS-2025-S2 checkpoint from Codex's handoff is applied (65 drafts, 8 SVGs, Q12 option D corrected to e−1).
+  - The unfinished CS-2024 drafts and review notes are preserved in `handoff/2024-drafts/` (see its README).
+- **Tests and checks.** All 31 Python tests, the KaTeX check and `validate.py` pass.
+
+### Still to do, in order
+
+1. **Owner (not you):**
+   - make the repo public
+   - set Settings → Pages → Source to **GitHub Actions**
+   - merge the PR from `release` into `main`; the merge publishes the site
+2. **Check the first deploy.** Open the workflow log and confirm that the "Restore 2007-2018 papers" step printed `10 ok, 0 rejected`, and that `du` reports the site under 1 GB.
+   - If the Google Drive download fails in CI, commit the 10 PDFs yourself to `sources/archive/CS/`, at the exact paths and sha256 in `audits/crop-source-map.json`.
+   - Never run `locate_crops.py` to restore sources.
+3. **Phase 5 redraw.** This is the main remaining work. Current state:
+   - 260 drafts exist (2026 S1/S2, 2025 S1/S2), all `status: draft`
+   - 130 more drafts are in `handoff/2024-drafts/`
+   - about 3,016 questions have no draft yet
+
+   For each paper, newest first:
+   1. Integrate or prepare drafts: extract text for typed PDFs; OCR, then correct line by line, for scanned PDFs.
+   2. Make the figures through the pinned DOT or hand-written SVG route.
+   3. Generate `scripts/compare_transcription.py <paper>`.
+   4. Run a separate review pass.
+   5. Ask the owner to visually check that paper's comparison page.
+   6. Only then set `status: "verified"` with the full `verification` metadata required by `docs/TRANSCRIPTIONS.md`.
+   7. Commit with `transcribe: <paper> (<n>/<total> verified)`.
+
+   For the 2024 papers, first apply `handoff/2024-drafts/review-fixes/`. Then regenerate CS-2024-S2 Q22 through DOT, and inspect every CS-2024-S2 Q36–65 figure as an image. Codex did not finish that check.
+4. **Phase 6 leftovers:**
+   - shorten README.md (a short "Website" section was added at the top; the long caveats can move to `QUALITY.md`)
+   - move the one-off `scripts/check_*.py` into `scripts/checks/`, updating any references in `audits/`
+5. **Known small issues:**
+   - "Recorded options (source verification pending)" shows raw text for some older questions.
+   - `subjects/*.md` are not regenerated from `data/questions.json`; keep both in sync when you edit either.
+
+### Build locally
+
+```sh
+pip install -r requirements-site.txt && python -m playwright install chromium && npm ci --ignore-scripts
+python scripts/fetch_sources.py --archive-only   # optional: 2007-2018 images
+python scripts/build_site.py --release
+npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
+python scripts/build_pdfs.py --release           # about 20 min for all 26 PDFs
+python scripts/check_links.py _site
+```
+
+---
+
 ## 0. Current state (read first)
 
 - **Source of truth:** `data/questions.json` holds 3,406 records, one per original numbered item, across 46 papers listed in `data/papers.json`. Fields used below: `question_id`, `paper_id`, `source_question_number`, `subject`, `question_title`, `question_text` (a paraphrase, not verbatim), `question_type`, `marks`, `official_answer`, `derived_answer`, `solution`, `verification_status`, `discrepancy_ids`, `source_url`, `source_page`, `source_pages`, `source_archive_member`, `key_url`, `key_page`, `exclusion_reason`.

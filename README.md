@@ -1,5 +1,19 @@
 # GATE CSE Previous Year Questions (1991–2026)
 
+## Website
+
+**https://sathiyarajs.github.io/gate-pyq/** (live once the repository is public and GitHub Pages is enabled)
+
+- 3,406 questions from 46 CS papers, sorted into 13 subjects and grouped by topic, 10 per page.
+- Each question shows the original from the exam paper, with its year and paper in brackets. A collapsible **Answer** gives the official key (or a note that none was found), our worked solution, and any discrepancy.
+- Every subject has two PDF downloads: one with answers, and one with questions only plus an answer index.
+- The site has search, filters, a practice mode, bookmarks, full-paper mock tests and dark mode.
+- To report a mistake, use **Report issue** on any question.
+
+To build the site locally, see "Build locally" in [CODEX_INSTRUCTIONS.md](CODEX_INSTRUCTIONS.md). The site rebuilds and redeploys automatically on every push to `main`.
+
+## About the data
+
 Work in progress: 3406 source-numbered entries across 46 CS papers, with 3168 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; The formerly missing 1993 state diagram now has a conditional third-party reconstruction; original fidelity remains unverified. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1716 entries have no located official key, including the conditional third-party diagram reconstruction; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
 
 ## Subjects
