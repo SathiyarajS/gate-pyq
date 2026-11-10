@@ -1,0 +1,978 @@
+{
+  "CS-2025-S2-Q1": {
+    "stem": "Despite his initial hesitation, Rehman’s _________ to contribute to the success of the project never wavered.\n\nSelect the most appropriate option to complete the above sentence.",
+    "options": {
+      "A": "ambivalence",
+      "B": "satisfaction",
+      "C": "resolve",
+      "D": "revolve"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q2": {
+    "stem": "Bird : Nest :: Bee : _______\n\nSelect the correct option to complete the analogy.",
+    "options": {
+      "A": "Kennel",
+      "B": "Hammock",
+      "C": "Hive",
+      "D": "Lair"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q3": {
+    "stem": "If $Pe^x = Qe^{-x}$ for all real values of $x$, which one of the following statements is true?",
+    "options": {
+      "A": "$P=Q=0$",
+      "B": "$P=Q=1$",
+      "C": "$P=1;\\ Q=-1$",
+      "D": "$\\frac{P}{Q}=0$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      3
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q4": {
+    "stem": "The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube? Note: The figures shown are representative.",
+    "options": {},
+    "figures": [
+      "figures/CS-2025-S2-Q4-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      4
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending. All four option drawings and their labels A–D are included in the single SVG; empty textual options avoid duplicate labels.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q5": {
+    "stem": "Let $p_1$ and $p_2$ denote two arbitrary prime numbers. Which one of the following statements is correct for all values of $p_1$ and $p_2$?",
+    "options": {
+      "A": "$p_1+p_2$ is not a prime number.",
+      "B": "$p_1p_2$ is not a prime number.",
+      "C": "$p_1+p_2+1$ is a prime number.",
+      "D": "$p_1p_2+1$ is a prime number."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      5
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q6": {
+    "stem": "Based only on the conversation below, identify the logically correct inference: “Even if I had known that you were in the hospital, I would not have gone there to see you”, Ramya told Josephine.",
+    "options": {
+      "A": "Ramya knew that Josephine was in the hospital.",
+      "B": "Ramya did not know that Josephine was in the hospital.",
+      "C": "Ramya and Josephine were once close friends; but now, they are not.",
+      "D": "Josephine was in the hospital due to an injury to her leg."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      6
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q7": {
+    "stem": "If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH ?",
+    "options": {
+      "A": "CEADP",
+      "B": "IDBFC",
+      "C": "JGIBC",
+      "D": "IBCEC"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q8": {
+    "stem": "Which one of the following options is correct for the given data in the table?\n\n| Iteration ($i$) | 0 | 1 | 2 | 3 |\n| --- | --- | --- | --- | --- |\n| Input ($I$) | 20 | $-4$ | 10 | 15 |\n| Output ($X$) | 20 | 16 | 26 | 41 |\n| Output ($Y$) | 20 | $-80$ | $-800$ | $-12000$ |",
+    "options": {
+      "A": "$X(i)=X(i-1)+I(i);\\quad Y(i)=Y(i-1)I(i);\\quad i>0$",
+      "B": "$X(i)=X(i-1)I(i);\\quad Y(i)=Y(i-1)+I(i);\\quad i>0$",
+      "C": "$X(i)=X(i-1)I(i);\\quad Y(i)=Y(i-1)I(i);\\quad i>0$",
+      "D": "$X(i)=X(i-1)+I(i);\\quad Y(i)=Y(i-1)I(i-1);\\quad i>0$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q9": {
+    "stem": "In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square. What is the area (in cm$^2$) of the rectangle PLMN? Note: The figure shown is representative.",
+    "options": {
+      "A": "$2\\sqrt{2}$",
+      "B": "2",
+      "C": "8",
+      "D": "4"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q9-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q10": {
+    "stem": "The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? Note: The figure shown is representative.",
+    "options": {
+      "A": "Bridges on P, Q, and T",
+      "B": "Bridges on P, Q, S, and T",
+      "C": "Bridges on Q, R, T, and V",
+      "D": "Bridges on P, Q, S, U, and V"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q10-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      10
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q11": {
+    "stem": "If $A=\\begin{pmatrix}1&2\\\\2&-1\\end{pmatrix}$, then which ONE of the following is $A^8$ ?",
+    "options": {
+      "A": "$\\begin{pmatrix}25&0\\\\0&25\\end{pmatrix}$",
+      "B": "$\\begin{pmatrix}125&0\\\\0&125\\end{pmatrix}$",
+      "C": "$\\begin{pmatrix}625&0\\\\0&625\\end{pmatrix}$",
+      "D": "$\\begin{pmatrix}3125&0\\\\0&3125\\end{pmatrix}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q12": {
+    "stem": "The value of $x$ such that $x>1$, satisfying the equation $\\int_1^x t\\ln t\\,dt=\\frac{1}{4}$ is",
+    "options": {
+      "A": "$\\sqrt{e}$",
+      "B": "$e$",
+      "C": "$e^2$",
+      "D": "$e-1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q13": {
+    "stem": "Consider a binary tree $T$ in which every node has either zero or two children.\nLet $n>0$ be the number of nodes in $T$.\n\nWhich ONE of the following is the number of nodes in $T$ that have exactly two children?",
+    "options": {
+      "A": "$\\frac{n-2}{2}$",
+      "B": "$\\frac{n-1}{2}$",
+      "C": "$\\frac{n}{2}$",
+      "D": "$\\frac{n+1}{2}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      12
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q14": {
+    "stem": "Let $L$, $M$, and $N$ be non-singular matrices of order 3 satisfying the equations\n\n$L^2=L^{-1}$, $M=L^8$ and $N=L^2$.\n\nWhich ONE of the following is the value of the determinant of $(M-N)$?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q15": {
+    "stem": "Let $P(x)$ be an arbitrary predicate over the domain of natural numbers.\n\nWhich ONE of the following statements is TRUE?",
+    "options": {
+      "A": "$(P(0)\\land(\\forall x\\ [P(x)\\Rightarrow P(x+1)]))\\Rightarrow(\\forall x\\ P(x))$",
+      "B": "$(P(0)\\land(\\forall x\\ [P(x)\\Rightarrow P(x-1)]))\\Rightarrow(\\forall x\\ P(x))$",
+      "C": "$(P(1000)\\land(\\forall x\\ [P(x)\\Rightarrow P(x-1)]))\\Rightarrow(\\forall x\\ P(x))$",
+      "D": "$(P(1000)\\land(\\forall x\\ [P(x)\\Rightarrow P(x+1)]))\\Rightarrow(\\forall x\\ P(x))$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q16": {
+    "stem": "Consider the following statements:\n\n(i) Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address.\n\n(ii) A single TCP segment from a sender S to a receiver R cannot carry both data from S to R and acknowledgement for a segment from R to S.\n\nWhich ONE of the following is CORRECT?",
+    "options": {
+      "A": "Both (i) and (ii) are TRUE",
+      "B": "(i) is TRUE and (ii) is FALSE",
+      "C": "(i) is FALSE and (ii) is TRUE",
+      "D": "Both (i) and (ii) are FALSE"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      14
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q17": {
+    "stem": "Consider the routing protocols given in **List I** and the names given in **List II**:\n\n| List I | List II |\n| --- | --- |\n| (i) Distance vector routing | (a) Bellman-Ford |\n| (ii) Link state routing | (b) Dijkstra |\n\nFor matching of items in **List I** with those in **List II**, which ONE of the following options is CORRECT?",
+    "options": {
+      "A": "(i) – (a) and (ii) – (b)",
+      "B": "(i) – (a) and (ii) – (a)",
+      "C": "(i) – (b) and (ii) – (a)",
+      "D": "(i) – (b) and (ii) – (b)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q18": {
+    "stem": "A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X. Which ONE of the following is NOT a possible candidate for X?",
+    "options": {
+      "A": "Internet Control Message Protocol (ICMP)",
+      "B": "Internet Group Management Protocol (IGMP)",
+      "C": "Open Shortest Path First (OSPF)",
+      "D": "Routing Information Protocol (RIP)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q19": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\nvoid stringcopy(char *, char *);\nint main(){\n    char a[30] = \"@#Hello World!\";\n    stringcopy(a, a + 2);\n    printf(\"%s\\n\", a);\n    return 0;\n}\nvoid stringcopy(char *s, char *t) {\n    while(*t)\n        *s++ = *t++;\n}\n```\n\nWhich ONE of the following will be the output of the program?",
+    "options": {
+      "A": "`@#Hello World!`",
+      "B": "`Hello World!`",
+      "C": "`ello World!`",
+      "D": "`Hello World!d!`"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q20": {
+    "stem": "Consider an unordered list of $N$ distinct integers.\n\nWhat is the minimum number of element comparisons required to find an integer in the list that is NOT the largest in the list?",
+    "options": {
+      "A": "1",
+      "B": "$N-1$",
+      "C": "$N$",
+      "D": "$2N-1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q21": {
+    "stem": "Consider the following statements about the use of backpatching in a compiler for intermediate code generation:\n\n(I) Backpatching can be used to generate code for Boolean expression in one pass.\n\n(II) Backpatching can be used to generate code for flow-of-control statements in one pass.\n\nWhich ONE of the following options is CORRECT?",
+    "options": {
+      "A": "Only (I) is correct.",
+      "B": "Only (II) is correct.",
+      "C": "Both (I) and (II) are correct.",
+      "D": "Neither (I) nor (II) is correct."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q22": {
+    "stem": "Given the following syntax directed translation rules:\n\nRule 1: $R\\to AB\\ \\{B.i=R.i-1; A.i=B.i; R.i=A.i+1;\\}$\n\nRule 2: $P\\to CD\\ \\{P.i=C.i+D.i; D.i=C.i+2;\\}$\n\nRule 3: $Q\\to EF\\ \\{Q.i=E.i+F.i;\\}$\n\nWhich ONE is the CORRECT option among the following?",
+    "options": {
+      "A": "Rule 1 is S-attributed and L-attributed; Rule 2 is S-attributed and not L-attributed; Rule 3 is neither S-attributed nor L-attributed",
+      "B": "Rule 1 is neither S-attributed nor L-attributed; Rule 2 is S-attributed and L-attributed; Rule 3 is S-attributed and L-attributed",
+      "C": "Rule 1 is neither S-attributed nor L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed",
+      "D": "Rule 1 is S-attributed and not L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q23": {
+    "stem": "Consider a network that uses Ethernet and IPv4. Assume that IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of 1500 bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDP segment is 7488 bytes. Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment including IPv4 header?",
+    "options": {
+      "A": "5 fragments, 1488 bytes",
+      "B": "6 fragments, 88 bytes",
+      "C": "6 fragments, 108 bytes",
+      "D": "6 fragments, 116 bytes"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q24": {
+    "stem": "Which ONE of the following languages is accepted by a deterministic pushdown automaton?",
+    "options": {
+      "A": "Any regular language.",
+      "B": "Any context-free language.",
+      "C": "Any language accepted by a non-deterministic pushdown automaton.",
+      "D": "Any decidable language."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q25": {
+    "stem": "Let $G_1$, $G_2$ be Context Free Grammars (CFGs) and $R$ be a regular expression. For a grammar $G$, let $L(G)$ denote the language generated by $G$.\n\nWhich ONE among the following questions is decidable?",
+    "options": {
+      "A": "Is $L(G_1)=L(G_2)$?",
+      "B": "Is $L(G_1)\\cap L(G_2)=\\emptyset$?",
+      "C": "Is $L(G_1)=L(R)$?",
+      "D": "Is $L(G_1)=\\emptyset$?"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q26": {
+    "stem": "Processes $P1$, $P2$, $P3$, $P4$ arrive in that order at times 0, 1, 2, and 8 milliseconds respectively, and have execution times of 10, 13, 6, and 9 milliseconds respectively. Shortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling policy. Ignore context switching times. Which ONE of the following correctly gives the average turnaround time of the four processes in milliseconds?",
+    "options": {
+      "A": "22",
+      "B": "15",
+      "C": "37",
+      "D": "19"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q27": {
+    "stem": "An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account $A$ attempted simultaneous transfers of Rs. 10000 each from account $A$ to account $B$. Both transactions read the same value, Rs. 11000, as the initial balance in $A$ and were allowed to go through. $B$ was credited Rs. 10000 twice. $A$ was debited only once and ended up with a balance of Rs. 1000. Which of the following properties is/are certain to have been violated by the system?",
+    "options": {
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q28": {
+    "stem": "Which of the following is/are part of an Instruction Set Architecture of a processor?",
+    "options": {
+      "A": "The size of the cache memory",
+      "B": "The clock frequency of the processor",
+      "C": "The number of cache memory levels",
+      "D": "The total number of registers"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q29": {
+    "stem": "Which of the following statements regarding Breadth First Search (BFS) and Depth First Search (DFS) on an undirected simple graph $G$ is/are TRUE?",
+    "options": {
+      "A": "A DFS tree of $G$ is a Shortest Path tree of $G$.",
+      "B": "Every non-tree edge of $G$ with respect to a DFS tree is a forward/back edge.",
+      "C": "If $(u,v)$ is a non-tree edge of $G$ with respect to a BFS tree, then the distances from the source vertex $s$ to $u$ and $v$ in the BFS tree are within $\\pm1$ of each other.",
+      "D": "Both BFS and DFS can be used to find the connected components of $G$."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      23
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q30": {
+    "stem": "Consider the two lists **List I** and **List II** given below:\n\n| List I | List II |\n| --- | --- |\n| (i) Context free languages | (a) Closed under union |\n| (ii) Recursive languages | (b) Not closed under complementation |\n| (iii) Regular languages | (c) Closed under intersection |\n\nFor matching of items in **List I** with those in **List II**, which of the following option(s) is/are CORRECT?",
+    "options": {
+      "A": "(i) – (a), (ii) – (b), and (iii) – (c)",
+      "B": "(i) – (b), (ii) – (a), and (iii) – (c)",
+      "C": "(i) – (b), (ii) – (c), and (iii) – (a)",
+      "D": "(i) – (a), (ii) – (c), and (iii) – (b)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      24
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q31": {
+    "stem": "Consider the following logic circuit diagram.\n\nWhich is/are the CORRECT option(s) for the output function $F$?",
+    "options": {
+      "A": "$\\overline{XY}$",
+      "B": "$\\overline{X}+\\overline{Y}+X\\overline{Y}$",
+      "C": "$\\overline{XY}+\\overline{X}+X\\overline{Y}$",
+      "D": "$X+\\overline{Y}$"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q31-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q32": {
+    "stem": "The following two signed 2’s complement numbers (multiplicand M and multiplier Q) are being multiplied using Booth’s algorithm:\n\nM: 1100 1101 1110 1101 and Q: 1010 0100 1010 1010\n\nThe total number of addition and subtraction operations to be performed is ___________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q33": {
+    "stem": "```c\n    int x=126,y=105;\n    do {\n         if(x>y) x=x-y;\n         else y=y-x;\n    } while(x!=y);\n\n    printf(\"%d\",x);\n```\n\nThe output of the given C code segment is ________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q34": {
+    "stem": "In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q35": {
+    "stem": "Suppose the values 10, −4, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let $T$ be the resulting binary search tree. The number of edges in the path from the node containing 19 to the root node of $T$ is ___________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Preparer manually inspected canonical physical source page line by line; independent source and production-rendered comparison review pending.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q36": {
+    "stem": "Suppose we are transmitting frames between two nodes using Stop-and-Wait protocol. The frame size is 3000 bits. The transmission rate of the channel is 2000 bps (bits/second) and the propagation delay between the two nodes is 100 milliseconds. Assume that the processing times at the source and destination are negligible. Also, assume that the size of the acknowledgement packet is negligible. Which ONE of the following most accurately gives the channel utilization for the above scenario in percentage?",
+    "options": {
+      "A": "88.23",
+      "B": "93.75",
+      "C": "85.44",
+      "D": "66.67"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q37": {
+    "stem": "Let $G$ be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant $\\alpha$ is added to the weight of every edge.\n\nWhich ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths (SPs) in $G$ before and after the edge weight update?",
+    "options": {
+      "A": "Every MST remains an MST, and every SP remains an SP.",
+      "B": "MSTs need not remain MSTs, and every SP remains an SP.",
+      "C": "Every MST remains an MST, and SPs need not remain SPs.",
+      "D": "MSTs need not remain MSTs, and SPs need not remain SPs."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q38": {
+    "stem": "A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures:\n\nP: Unsorted doubly linked list with pointers to the head node and tail node of the list.\n\nQ: Min-heap implemented using an array.\n\nR: Binary Search Tree.\n\nWhich ONE of the following options gives the worst-case time complexities for meld operation on instances of size $n$ of these data structures?",
+    "options": {
+      "A": "P: $\\Theta(1)$, Q: $\\Theta(n)$, R: $\\Theta(n)$",
+      "B": "P: $\\Theta(1)$, Q: $\\Theta(n\\log n)$, R: $\\Theta(n)$",
+      "C": "P: $\\Theta(n)$, Q: $\\Theta(n\\log n)$, R: $\\Theta(n^2)$",
+      "D": "P: $\\Theta(1)$, Q: $\\Theta(n)$, R: $\\Theta(n\\log n)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q39": {
+    "stem": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block. Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+    "options": {
+      "A": "64 KB and 4 KB",
+      "B": "128 KB and 16 KB",
+      "C": "64 KB and 8 KB",
+      "D": "128 KB and 6 KB"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q40": {
+    "stem": "Given a Context-Free Grammar $G$ as follows:\n\n$$S\\rightarrow Aa\\mid bAc\\mid dc\\mid bda$$\n\n$$A\\rightarrow d$$\n\nWhich ONE of the following statements is TRUE?",
+    "options": {
+      "A": "$G$ is neither LALR(1) nor SLR(1)",
+      "B": "$G$ is CLR(1), not LALR(1)",
+      "C": "$G$ is LALR(1), not SLR(1)",
+      "D": "$G$ is LALR(1), also SLR(1)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q41": {
+    "stem": "An array $A$ of length $n$ with distinct elements is said to be bitonic if there is an index $1\\leq i\\leq n$ such that $A[1..i]$ is sorted in the non-decreasing order and $A[i+1..n]$ is sorted in the non-increasing order.\n\nWhich ONE of the following represents the best possible asymptotic bound for the worst-case number of comparisons by an algorithm that searches for an element in a bitonic array $A$?",
+    "options": {
+      "A": "$\\Theta(n)$",
+      "B": "$\\Theta(1)$",
+      "C": "$\\Theta(\\log^2 n)$",
+      "D": "$\\Theta(\\log n)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q42": {
+    "stem": "Let $\\mathcal{F}$ be the set of all functions from $\\{1,\\ldots,n\\}$ to $\\{0,1\\}$. Define the binary relation $\\preccurlyeq$ on $\\mathcal{F}$ as follows:\n\n$\\forall f,g\\in\\mathcal{F},\\quad f\\preccurlyeq g$ if and only if $\\forall x\\in\\{1,\\ldots,n\\},\\ f(x)\\leq g(x)$, where $0\\leq1$.\n\nWhich of the following statement(s) is/are TRUE?",
+    "options": {
+      "A": "$\\preccurlyeq$ is a symmetric relation",
+      "B": "$(\\mathcal{F},\\preccurlyeq)$ is a partial order",
+      "C": "$(\\mathcal{F},\\preccurlyeq)$ is a lattice",
+      "D": "$\\preccurlyeq$ is an equivalence relation"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q43": {
+    "stem": "Given the following Karnaugh Map for a Boolean function $F(w,x,y,z)$:\n\nWhich one or more of the following Boolean expression(s) represent(s) $F$?",
+    "options": {
+      "A": "$\\bar{w}\\bar{x}\\bar{y}\\bar{z}+w\\bar{x}\\bar{y}\\bar{z}+\\bar{w}\\bar{x}y\\bar{z}+w\\bar{x}y\\bar{z}+xz$",
+      "B": "$\\bar{w}\\bar{x}\\bar{y}\\bar{z}+\\bar{w}\\bar{x}y\\bar{z}+w\\bar{x}yz+xz$",
+      "C": "$\\bar{w}\\bar{x}\\bar{y}\\bar{z}+w\\bar{x}\\bar{y}\\bar{z}+w\\bar{x}\\bar{y}z+xz$",
+      "D": "$\\bar{x}\\bar{z}+xz$"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q43-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q44": {
+    "stem": "Consider a system of linear equations $PX=Q$ where $P\\in\\mathbb{R}^{3\\times3}$ and $\\mathrm{Q}\\in\\mathbb{R}^{3\\times1}$. Suppose $P$ has an LU decomposition, $P=LU$, where\n\n$$L=\\begin{bmatrix}1&0&0\\\\l_{21}&1&0\\\\l_{31}&l_{32}&1\\end{bmatrix}\\quad\\text{and}\\quad U=\\begin{bmatrix}u_{11}&u_{12}&u_{13}\\\\0&u_{22}&u_{23}\\\\0&0&u_{33}\\end{bmatrix}.$$\n\nWhich of the following statement(s) is/are TRUE?",
+    "options": {
+      "A": "The system $PX=Q$ can be solved by first solving $LY=Q$ and then $UX=Y$.",
+      "B": "If $P$ is invertible, then both $L$ and $U$ are invertible.",
+      "C": "If $P$ is singular, then at least one of the diagonal elements of $U$ is zero.",
+      "D": "If $P$ is symmetric, then both $L$ and $U$ are symmetric."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q45": {
+    "stem": "Consider a stack data structure into which we can PUSH and POP records. Assume that each record pushed in the stack has a positive integer key and that all keys are distinct.\n\nWe wish to augment the stack data structure with an $O(1)$ time MIN operation that returns a pointer to the record with smallest key present in the stack\n\n1) without deleting the corresponding record, and\n2) without increasing the complexities of the standard stack operations.\n\nWhich one or more of the following approach(es) can achieve it?",
+    "options": {
+      "A": "Keep with every record in the stack, a pointer to the record with the smallest key below it.",
+      "B": "Keep a pointer to the record with the smallest key in the stack.",
+      "C": "Keep an auxiliary array in which the key values of the records in the stack are maintained in sorted order.",
+      "D": "Keep a Min-Heap in which the key values of the records in the stack are maintained."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q46": {
+    "stem": "Consider the following relational schema along with all the functional dependencies that hold on them.\n\n$R1(A,B,C,D,E):\\{D\\rightarrow E,\\ EA\\rightarrow B,\\ EB\\rightarrow C\\}$\n\n$R2(A,B,C,D):\\{A\\rightarrow D,\\ A\\rightarrow B,\\ C\\rightarrow A\\}$\n\nWhich of the following statement(s) is/are TRUE?",
+    "options": {
+      "A": "R1 is in 3NF",
+      "B": "R2 is in 3NF",
+      "C": "R1 is NOT in 3NF",
+      "D": "R2 is NOT in 3NF"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q47": {
+    "stem": "Consider a demand paging system with three frames, and the following page reference string: 1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows initially and after each reference (from left to right):\n\nThe *-marked references cause page replacements.\n\nWhich one or more of the following could be the page replacement policy/policies in use?",
+    "options": {
+      "A": "Least Recently Used page replacement policy",
+      "B": "Least Frequently Used page replacement policy",
+      "C": "Most Frequently Used page replacement policy",
+      "D": "Optimal page replacement policy"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q47-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q48": {
+    "stem": "$P=\\{P_1,P_2,P_3,P_4\\}$ consists of all active processes in an operating system.\n$R=\\{R_1,R_2,R_3,R_4\\}$ consists of single instances of distinct types of resources in the system.\n\nThe resource allocation graph has the following assignment and claim edges.\n\nAssignment edges: $R_1\\rightarrow P_1,\\ R_2\\rightarrow P_2,\\ R_3\\rightarrow P_3,\\ R_4\\rightarrow P_4$ (the assignment edge $R_1\\rightarrow P_1$ means resource $R_1$ is assigned to process $P_1$, and so on for others)\n\nClaim edges: $P_1\\rightarrow R_2,\\ P_2\\rightarrow R_3,\\ P_3\\rightarrow R_1,\\ P_2\\rightarrow R_4,\\ P_4\\rightarrow R_2$ (the claim edge $P_1\\rightarrow R_2$ means process $P_1$ is waiting for resource $R_2$, and so on for others)\n\nWhich of the following statement(s) is/are CORRECT?",
+    "options": {
+      "A": "Aborting $P_1$ makes the system deadlock free.",
+      "B": "Aborting $P_3$ makes the system deadlock free.",
+      "C": "Aborting $P_2$ makes the system deadlock free.",
+      "D": "Aborting $P_1$ and $P_4$ makes the system deadlock free."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q49": {
+    "stem": "Three floating point numbers $X$, $Y$, and $Z$ are stored in three registers $\\mathrm{R_X}$, $\\mathrm{R_Y}$, and $\\mathrm{R_Z}$, respectively in IEEE 754 single precision format as given below in hexadecimal:\n\n$\\mathrm{R_X}=\\mathrm{0xC1100000}$, $\\mathrm{R_Y}=\\mathrm{0x40C00000}$, and $\\mathrm{R_Z}=\\mathrm{0x41400000}$\n\nWhich of the following option(s) is/are CORRECT?",
+    "options": {
+      "A": "$4(X+Y)+Z=0$",
+      "B": "$2Y-Z=0$",
+      "C": "$4X+3Z=0$",
+      "D": "$X+Y+Z=0$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      38
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q50": {
+    "stem": "Which of the following Boolean algebraic equation(s) is/are CORRECT?",
+    "options": {
+      "A": "$\\bar{A}BC+A\\bar{B}\\bar{C}+\\bar{A}\\bar{B}\\bar{C}+A\\bar{B}C+ABC=BC+\\bar{B}\\bar{C}+\\bar{A}\\bar{B}$",
+      "B": "$AB+\\bar{A}C+BC=AB+\\bar{A}C$",
+      "C": "$(A+C)(\\bar{A}+B)=AB+\\bar{A}C$",
+      "D": "$\\overline{(A+\\bar{B}+\\bar{D})(C+D)(\\bar{A}+C+D)(A+B+\\bar{D})}=\\bar{A}D+\\bar{C}\\bar{D}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      38
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q51": {
+    "stem": "Consider two grammars $G_1$ and $G_2$ with the production rules given below:\n\n$$\\begin{aligned}G_1: S&\\rightarrow if\\ E\\ then\\ S\\mid if\\ E\\ then\\ S\\ else\\ S\\mid a\\\\E&\\rightarrow b\\\\G_2: S&\\rightarrow if\\ E\\ then\\ S\\mid M\\\\M&\\rightarrow if\\ E\\ then\\ M\\ else\\ S\\mid c\\\\E&\\rightarrow b\\end{aligned}$$\n\nwhere $if,then,else,a,b,c$ are the terminals.\n\nWhich of the following option(s) is/are CORRECT?",
+    "options": {
+      "A": "$G_1$ is not $LL(1)$ and $G_2$ is $LL(1)$.",
+      "B": "$G_1$ is $LL(1)$ and $G_2$ is not $LL(1)$.",
+      "C": "$G_1$ and $G_2$ are not $LL(1)$.",
+      "D": "$G_1$ and $G_2$ are ambiguous."
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      39
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q52": {
+    "stem": "Let $\\Sigma=\\{a,b,c\\}$. For $x\\in\\Sigma^*$, and $\\alpha\\in\\Sigma$, let $\\#_\\alpha(x)$ denote the number of occurrences of $\\alpha$ in $x$.\n\nWhich one or more of the following option(s) define(s) regular language(s)?",
+    "options": {
+      "A": "$\\{a^mb^n\\mid m,n\\geq0\\}$",
+      "B": "$\\{a,b\\}^*\\cap\\{a^mb^nc^{m-n}\\mid m\\geq n\\geq0\\}$",
+      "C": "$\\{w\\mid w\\in\\{a,b\\}^*,\\#_a(w)\\equiv2\\ (\\mathrm{mod}\\ 7),\\text{ and }\\#_b(w)\\equiv3\\ (\\mathrm{mod}\\ 9)\\}$",
+      "D": "$\\{w\\mid w\\in\\{a,b\\}^*,\\#_a(w)\\equiv2\\ (\\mathrm{mod}\\ 7),\\text{ and }\\#_a(w)=\\#_b(w)\\}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      40
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q53": {
+    "stem": "Consider the database transactions T1 and T2, and data items X and Y. Which of the schedule(s) is/are conflict serializable?",
+    "options": {
+      "A": "R1(X), W2(X), W1(Y), W2(Y), R1(X), W1(X), COMMIT(T2), COMMIT(T1)",
+      "B": "W2(X), R1(X), W2(Y), W1(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1)",
+      "C": "R1(X), W1(Y), W2(X), W2(Y), R1(X), W1(X), COMMIT(T1), COMMIT(T2)",
+      "D": "W2(X), R1(X), W1(Y), W2(Y), R1(X), COMMIT(T2), W1(X), COMMIT(T1)"
+    },
+    "figures": [
+      "figures/CS-2025-S2-Q53-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      41
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q54": {
+    "stem": "Consider the following relational schema:\n\nStudents ($\\underline{\\text{rollno: integer}}$, name: string, age: integer, cgpa: real)\n\nCourses ($\\underline{\\text{courseno: integer}}$, cname: string, credits: integer)\n\nEnrolled ($\\underline{\\text{rollno: integer}}$, $\\underline{\\text{courseno: integer}}$, grade: string)\n\nWhich of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in course number (i.e., courseno) 1470?",
+    "options": {
+      "A": "```sql\nSELECT S.name\nFROM Students S\nWHERE EXISTS (SELECT * FROM Enrolled E\n              WHERE E.courseno = 1470\n                      AND E.rollno = S.rollno);\n```",
+      "B": "```sql\nSELECT S.name\nFROM Students S\nWHERE SIZEOF (SELECT * FROM Enrolled E\n              WHERE E.courseno = 1470\n                      AND E.rollno = S.rollno) > 0;\n```",
+      "C": "```sql\nSELECT S.name\nFROM Students S\nWHERE  0 < (SELECT COUNT(*)\n            FROM Enrolled E\n            WHERE E.courseno = 1470\n                      AND E.rollno = S.rollno);\n```",
+      "D": "```sql\nSELECT S.name\nFROM Students S NATURAL JOIN Enrolled E\nWHERE E.courseno = 1470;\n```"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      42
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q55": {
+    "stem": "Given a computing system with two levels of cache (L1 and L2) and a main memory. The first level (L1) cache access time is 1 nanosecond (ns) and the “hit rate” for L1 cache is 90% while the processor is accessing the data from L1 cache. Whereas, for the second level (L2) cache, the “hit rate” is 80% and the “miss penalty” for transferring data from L2 cache to L1 cache is 10 ns. The “miss penalty” for the data to be transferred from main memory to L2 cache is 100 ns. Then the average memory access time in this system in nanoseconds is ___________ . (rounded off to one decimal place)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      43
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q56": {
+    "stem": "A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250, respectively, in nanoseconds. The delay of an inter-stage latch is 10 nanoseconds. Assume that there are no pipeline stalls due to branches and other hazards. The time taken to process 1000 instructions in microseconds is __________ . (rounded off to two decimal places)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      43
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q57": {
+    "stem": "In a B$^+$- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes:\n\nA = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20*, 22*, 25*, 26*)\n\nThe *-marked keys signify that these are data entries in a leaf.\n\nAssume that a pointer between keys $k_1$ and $k_2$ points to a subtree containing keys in $[k_1,k_2)$, and that when a leaf is created, the smallest key in it is copied up into its parent.\n\nA record with key value 23 is inserted into the B$^+$- tree.\n\nThe smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      43
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q58": {
+    "stem": "A computer system supports a logical address space of $2^{32}$ bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a $b$-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. The value of $b$ is ___________ . (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      44
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q59": {
+    "stem": "Consider the following algorithm `someAlgo` that takes an undirected graph $G$ as input.\n\n`someAlgo`($G$)\n\n1. Let $v$ be any vertex in $G$. Run BFS on $G$ starting at $v$. Let $u$ be a vertex in $G$ at maximum distance from $v$ as given by the BFS.\n2. Run BFS on $G$ again with $u$ as the starting vertex. Let $z$ be the vertex at maximum distance from $u$ as given by the BFS.\n3. Output the distance between $u$ and $z$ in $G$.\n\nThe output of `someAlgo`($T$) for the tree shown in the given figure is ___________. (Answer in integer)",
+    "options": {},
+    "figures": [
+      "figures/CS-2025-S2-Q59-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      44
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q60": {
+    "stem": "Let $\\Sigma=\\{1,2,3,4\\}$. For $x\\in\\Sigma^*$, let $prod(x)$ be the product of symbols in $x$ modulo 7. We take $prod(\\epsilon)=1$, where $\\epsilon$ is the null string.\n\nFor example, $prod(124)=(1\\times2\\times4)\\bmod7=1$.\n\nDefine $L=\\{x\\in\\Sigma^*\\mid prod(x)=2\\}$.\n\nThe number of states in a minimum state DFA for $L$ is ___________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      45
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q61": {
+    "stem": "An application executes $6.4\\times10^8$ number of instructions in 6.3 seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is _________. (rounded off to one decimal place)\n\n| Instruction type | Clock cycles required per instruction (CPI) | Number of instructions executed |\n| --- | --- | --- |\n| Branch | 2 | $2.25\\times10^8$ |\n| Load | 5 | $1.20\\times10^8$ |\n| Store | 4 | $1.65\\times10^8$ |\n| Arithmetic | 3 | $1.30\\times10^8$ |",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      45
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q62": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\n\nint main(){\n\n     int a;\n\n     int arr[5] = {30,50,10};\n\n     int *ptr;\n\n     ptr = &arr[0] + 1;\n\n     a = *ptr;\n\n     (*ptr)++;\n\n     ptr++;\n\n     printf(\"%d\", a + (*ptr) + arr[1]);\n\n     return 0;\n\n}\n```\n\nThe output of the above program is ___________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      46
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q63": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\n\nint g(int n) {\n    return (n+10);\n}\n\nint f(int n) {\n    return g(n*2);\n}\n\nint main() {\n    int sum, n;\n    sum=0;\n    for (n=1; n<3; n++)\n        sum += g(f(n));\n    printf (\"%d\", sum);\n    return 0;\n\n}\n```\n\nThe output of the given C program is ________. (Answer in integer)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      47
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q64": {
+    "stem": "A quadratic polynomial $(x-\\alpha)(x-\\beta)$ over complex numbers is said to be square invariant if $(x-\\alpha)(x-\\beta)=(x-\\alpha^2)(x-\\beta^2)$. Suppose from the set of all square invariant quadratic polynomials we choose one at random.\n\nThe probability that the roots of the chosen polynomial are equal is __________. (rounded off to one decimal place)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      47
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "CS-2025-S2-Q65": {
+    "stem": "The unit interval (0,1) is divided at a point chosen uniformly distributed over (0,1) in $\\mathbb{R}$ into two disjoint subintervals. The expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      48
+    ],
+    "notes": "Preparer visually checked physical source page, wording, option order and mathematical content. Awaiting independent source/figure review and manual user production-rendered comparison.",
+    "source_sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  }
+}
