@@ -1,0 +1,29 @@
+{
+  "scope": "Source/paraphrase observations discovered during crop review. These are unresolved follow-ups, not answer changes or original-source certification.",
+  "findings": [
+    {
+      "question_id": "CS-1995-Q48",
+      "finding": "Source transition table differs from current paraphrase: source A/input1→D,0 and D/input0→C,0. Independent visual crop review confirms visible source table.",
+      "next_step": "Verify against an original paper and reconcile paraphrase/solution before transcription certification.",
+      "crop_review": "audits/crops-CS-1995.json"
+    },
+    {
+      "question_id": "CS-1995-Q72",
+      "finding": "Blurred source register glyph resembles U/G while current paraphrase uses B; reading is not settled.",
+      "next_step": "Resolve from a better source; do not silently change code or answer.",
+      "crop_review": "audits/crops-CS-1995.json"
+    },
+    {
+      "question_id": "CS-1997-Q100",
+      "finding": "INVOLVED eno,pno appear underlined in available reproduction, while current paraphrase says no primary key is visibly underlined.",
+      "next_step": "Recheck source key semantics and solution during transcription verification.",
+      "crop_review": "audits/crops-CS-1997.json"
+    },
+    {
+      "question_id": "CS-1998-Q59",
+      "finding": "Available reproduction visibly says four implication gates; current paraphrase says this reproduction omits the number.",
+      "next_step": "Reconcile the source-description statement; retain existing zero-input discrepancy until separately verified.",
+      "crop_review": "audits/crops-CS-1998.json"
+    }
+  ]
+}

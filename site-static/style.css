@@ -7,4 +7,4 @@
 
 .search-facets{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}.search-facets label{font-size:.8rem;min-width:0}.search-facets select{display:block;max-width:100%;width:100%}.math-source{overflow-wrap:anywhere}.katex-display{max-width:100%;overflow-x:auto;overflow-y:hidden}.math-unsupported{border-bottom:1px dotted var(--muted)}
 
-.original-source figure{margin:16px 0}.original-source img{display:block;width:100%;height:auto;background:white;border:1px solid var(--line)}.original-source figcaption{font-size:.75rem;color:var(--muted);margin-top:6px}
+.original-source figure{margin:16px 0}.original-source .original-crop-link{display:block;width:100%;max-width:820px}.original-source img{display:block;width:100%;max-width:820px;height:auto;background:white;border:1px solid var(--line)}.original-source figcaption{font-size:.75rem;color:var(--muted);margin-top:6px}

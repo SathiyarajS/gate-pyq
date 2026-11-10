@@ -33,7 +33,7 @@ In the current execution environment, Chromium fails at socket creation, includi
 
 ## Original question pipeline
 
-`data/crops.json` contains draft crop candidates, not approved source images. `scripts/render_crops.py` refuses drafts unless a local QA run explicitly enables them. Full-page fallbacks, overlaps, shared stems, continuation pages and parser warnings need visual inspection before approval. Runtime source paths belong in the ignored `.local-source-cache` directory, not public manifests.
+`data/crops.json` now contains independently reviewed available-source bounds for all 3,406 question records. `scripts/render_crops.py` still refuses any future draft unless a local QA run explicitly enables it. Shared stems and prerequisites are preserved through documented overlap exceptions. Source omissions, blur and parser warnings remain explicit limitations rather than reconstructed content. Runtime source paths belong in the ignored `.local-source-cache` directory, not public manifests.
 
 Original paper availability does not establish permission to republish every paper or image. Keep source provenance and distribution permissions distinct from mathematical correctness and visual verification.
 
@@ -45,7 +45,7 @@ No command above changes repository visibility, Pages settings, workflow permiss
 
 ## Verified crop metadata
 
-2,925 question crop records across 40 papers have independent boundary review. Generated images remain local, not published by these text checkpoints. After resolving sources locally, `python scripts/render_crops.py --question CS-2026-S2-Q1` demonstrates the verified rendering path. The remaining 481 questions are draft and require review. The preview still uses clearly labelled paraphrases until complete source presentation and rights gates are satisfied.
+3,406 question crop records across 46 papers have independent boundary review. Generated images remain local, not published by these text checkpoints. After resolving sources locally, `python scripts/render_crops.py --question CS-2026-S2-Q1` demonstrates the verified rendering path. All 3,406 question crop records have completed independent source-boundary and output review. Original-source omissions, transcription, browser/PDF acceptance and redistribution gates remain separate. The preview still uses clearly labelled paraphrases until complete source presentation and rights gates are satisfied.
 
 ## Optional original-source images in a local preview
 

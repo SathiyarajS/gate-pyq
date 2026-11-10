@@ -1,0 +1,8513 @@
+{
+  "paper_id": "CS-1991",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "c4d4995a8a13d42249b8bad333f2a56c10eeeb71ca978db6ffef20920625b4cc",
+  "preparation_evidence_sha256": "ffa1177116ff3543bea754b1f1e5447022f13745518df0b8a54d85c0d52e2449",
+  "independent_review_evidence_sha256": "d8170821490b1fb17404b60aa6c44042450572fd1833282774bb4191ac30d339",
+  "questions": 71,
+  "crop_parts": 150,
+  "verified_questions": 71,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1991",
+    "status": "approved",
+    "review_scope": "Independent crop-boundary and actual-output review of available reproduced content only.",
+    "crops_sha256": "c4d4995a8a13d42249b8bad333f2a56c10eeeb71ca978db6ffef20920625b4cc",
+    "canonical_json_sha256": "a981c22afb51a89e38e8e42d9dabdb1ab74ba780f3b7c4fadebf560f4408686b",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+    "source_sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "questions": 71,
+    "crop_parts": 150,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      "contact-01.png",
+      "contact-02.png",
+      "contact-03.png",
+      "contact-04.png",
+      "contact-05.png",
+      "contact-06.png",
+      "contact-07.png",
+      "contact-08.png",
+      "contact-09.png",
+      "contact-10.png",
+      "contact-11.png",
+      "contact-12.png",
+      "contact-13.png",
+      "contact-14.png",
+      "contact-15.png",
+      "contact-16.png",
+      "contact-17.png",
+      "contact-18.png",
+      "contact-19.png",
+      "contact-20.png",
+      "contact-21.png",
+      "contact-22.png",
+      "contact-23.png",
+      "contact-24.png",
+      "contact-25.png",
+      "contact-26.png",
+      "contact-27.png"
+    ],
+    "fresh_render": {
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80,
+      "byte_identical_parts": 150,
+      "mismatches": 0
+    },
+    "findings": [
+      "All 71 repository records map by printed number and available full content to the source; all 150 parts and all 27 actual WebP contact sheets inspected.",
+      "Q6 Pascal final constants and Q67 formula closing mark retained after author widened those boxes; corrected contacts 02 and 26 independently reopened.",
+      "No unrelated adjacent question bodies, page headers, footers or external answer annotations found in final bounds. All available options, diagrams, code and continuations retained.",
+      "All 239 independently recomputed intersections are identical shared boxes. Printed Q1-Q4 answer-mode directions are necessary for their leaf records. Shared CPU specifications, initial registers, programs, grammar, process code, database schema and tree figure are retained without neighboring leaf tasks.",
+      "Q54 part 2 is necessarily repeated as Q55 part 2 because printed Q10(c) explicitly asks for the grammar obtained in Q10(b). Q48-Q50 and Q51-Q52 repeat only their common code and intact inline selector instruction sentence, whose shared wording cannot be separated into standalone leaf prompts without rewriting source.",
+      "Paraphrases include interpretation or recovered context not necessarily present in reproduction; their substantive correctness is outside crop review. Source grammar, formula and program blur/omissions remain unchanged."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q2"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q3"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q1",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q3"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q2",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q3",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q4",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q5",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q6",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q7",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q8",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q9",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q10",
+          "CS-1991-Q11"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q10",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q10",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q10",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q10",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q11",
+          "CS-1991-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q11",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q11",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q11",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q12",
+          "CS-1991-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q12",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q12",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q13",
+          "CS-1991-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q13",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q14",
+          "CS-1991-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ],
+          [
+            53.3333,
+            152.0,
+            280.0,
+            186.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          152.0,
+          280.0,
+          186.0
+        ],
+        "reason": "Q1 shared fill-in instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q16",
+          "CS-1991-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q16",
+          "CS-1991-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q16",
+          "CS-1991-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q17",
+          "CS-1991-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q17",
+          "CS-1991-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q18",
+          "CS-1991-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ],
+          [
+            53.3333,
+            326.6667,
+            280.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          326.6667,
+          280.0,
+          374.0
+        ],
+        "reason": "Q2 shared matching instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q20",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q21",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q22",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q23",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q24",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q25",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q26",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q27",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q28",
+          "CS-1991-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q28",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q28",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q28",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q28",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q29",
+          "CS-1991-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q29",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q29",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q29",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q30",
+          "CS-1991-Q31"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q30",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q30",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q31",
+          "CS-1991-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q31",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q32",
+          "CS-1991-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ],
+          [
+            300.0,
+            631.3333,
+            524.6667,
+            693.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          631.3333,
+          524.6667,
+          693.3333
+        ],
+        "reason": "Q3 shared multiple-correct instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q34",
+          "CS-1991-Q35"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q34",
+          "CS-1991-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q34",
+          "CS-1991-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q35",
+          "CS-1991-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q35",
+          "CS-1991-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q36",
+          "CS-1991-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ],
+          [
+            300.0,
+            688.6667,
+            524.6667,
+            715.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          688.6667,
+          524.6667,
+          715.3333
+        ],
+        "reason": "Q4 shared short-answer instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q43",
+          "CS-1991-Q44"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 5,
+        "source_bboxes": [
+          [
+            300.0,
+            621.3333,
+            524.6667,
+            702.6667
+          ],
+          [
+            300.0,
+            621.3333,
+            524.6667,
+            702.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          621.3333,
+          524.6667,
+          702.6667
+        ],
+        "reason": "Q7 shared CPU and fetch specification"
+      },
+      {
+        "questions": [
+          "CS-1991-Q43",
+          "CS-1991-Q44"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            71.3333
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            71.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.0,
+          71.3333
+        ],
+        "reason": "Q7 shared operand-field specification"
+      },
+      {
+        "questions": [
+          "CS-1991-Q45",
+          "CS-1991-Q46"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            214.6667,
+            280.0,
+            378.0
+          ],
+          [
+            53.3333,
+            214.6667,
+            280.0,
+            378.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          214.6667,
+          280.0,
+          378.0
+        ],
+        "reason": "Q8(a) shared memory timings and CPU specification"
+      },
+      {
+        "questions": [
+          "CS-1991-Q45",
+          "CS-1991-Q46"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            418.0,
+            280.0,
+            512.0
+          ],
+          [
+            53.3333,
+            418.0,
+            280.0,
+            512.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          418.0,
+          280.0,
+          512.0
+        ],
+        "reason": "Q8(a) initial registers apply separately to both instructions"
+      },
+      {
+        "questions": [
+          "CS-1991-Q48",
+          "CS-1991-Q49"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ],
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          226.0,
+          524.6667,
+          398.0
+        ],
+        "reason": "Q9(a) shared full pseudocode"
+      },
+      {
+        "questions": [
+          "CS-1991-Q48",
+          "CS-1991-Q50"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ],
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          226.0,
+          524.6667,
+          398.0
+        ],
+        "reason": "Q9(a) shared full pseudocode"
+      },
+      {
+        "questions": [
+          "CS-1991-Q48",
+          "CS-1991-Q49"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ],
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          400.6667,
+          524.6667,
+          456.0
+        ],
+        "reason": "Q9(a) shared output request and inline value/reference/name selectors, inseparable printed sentence"
+      },
+      {
+        "questions": [
+          "CS-1991-Q48",
+          "CS-1991-Q50"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ],
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          400.6667,
+          524.6667,
+          456.0
+        ],
+        "reason": "Q9(a) shared output request and inline value/reference/name selectors, inseparable printed sentence"
+      },
+      {
+        "questions": [
+          "CS-1991-Q49",
+          "CS-1991-Q50"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ],
+          [
+            300.0,
+            226.0,
+            524.6667,
+            398.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          226.0,
+          524.6667,
+          398.0
+        ],
+        "reason": "Q9(a) shared full pseudocode"
+      },
+      {
+        "questions": [
+          "CS-1991-Q49",
+          "CS-1991-Q50"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ],
+          [
+            300.0,
+            400.6667,
+            524.6667,
+            456.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          400.6667,
+          524.6667,
+          456.0
+        ],
+        "reason": "Q9(a) shared output request and inline value/reference/name selectors, inseparable printed sentence"
+      },
+      {
+        "questions": [
+          "CS-1991-Q51",
+          "CS-1991-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            462.6667,
+            524.6667,
+            513.3333
+          ],
+          [
+            300.0,
+            462.6667,
+            524.6667,
+            513.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          462.6667,
+          524.6667,
+          513.3333
+        ],
+        "reason": "Q9(b) shared output request and inline static/dynamic selectors"
+      },
+      {
+        "questions": [
+          "CS-1991-Q51",
+          "CS-1991-Q52"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            516.0,
+            524.6667,
+            673.3333
+          ],
+          [
+            300.0,
+            516.0,
+            524.6667,
+            673.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          516.0,
+          524.6667,
+          673.3333
+        ],
+        "reason": "Q9(b) shared full pseudocode"
+      },
+      {
+        "questions": [
+          "CS-1991-Q53",
+          "CS-1991-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.0,
+          159.3333
+        ],
+        "reason": "Q10 shared grammar, binary operators, start symbol"
+      },
+      {
+        "questions": [
+          "CS-1991-Q53",
+          "CS-1991-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.0,
+          159.3333
+        ],
+        "reason": "Q10 shared grammar, binary operators, start symbol"
+      },
+      {
+        "questions": [
+          "CS-1991-Q54",
+          "CS-1991-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.0,
+            159.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.0,
+          159.3333
+        ],
+        "reason": "Q10 shared grammar, binary operators, start symbol"
+      },
+      {
+        "questions": [
+          "CS-1991-Q54",
+          "CS-1991-Q55"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            247.3333,
+            280.0,
+            390.0
+          ],
+          [
+            53.3333,
+            247.3333,
+            280.0,
+            390.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          247.3333,
+          280.0,
+          390.0
+        ],
+        "reason": "Q10(b) necessary parentheses request; prerequisite for Q10(c)"
+      },
+      {
+        "questions": [
+          "CS-1991-Q56",
+          "CS-1991-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            454.0,
+            280.0,
+            701.3333
+          ],
+          [
+            53.3333,
+            454.0,
+            280.0,
+            701.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          454.0,
+          280.0,
+          701.3333
+        ],
+        "reason": "Q11 shared process scheme including full reproduced code"
+      },
+      {
+        "questions": [
+          "CS-1991-Q58",
+          "CS-1991-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q58",
+          "CS-1991-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q58",
+          "CS-1991-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q58",
+          "CS-1991-Q59"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            305.3333,
+            524.6667,
+            345.3333
+          ],
+          [
+            300.0,
+            305.3333,
+            524.6667,
+            345.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          305.3333,
+          524.6667,
+          345.3333
+        ],
+        "reason": "Q12(a) shared SQL instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q59",
+          "CS-1991-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q59",
+          "CS-1991-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q60",
+          "CS-1991-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ],
+          [
+            300.0,
+            190.0,
+            524.6667,
+            302.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          190.0,
+          524.6667,
+          302.0
+        ],
+        "reason": "Q12 shared database schema"
+      },
+      {
+        "questions": [
+          "CS-1991-Q60",
+          "CS-1991-Q61"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            524.6667,
+            524.6667,
+            553.3333
+          ],
+          [
+            300.0,
+            524.6667,
+            524.6667,
+            553.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          524.6667,
+          524.6667,
+          553.3333
+        ],
+        "reason": "Q12(b) shared algebraic instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q63",
+          "CS-1991-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ],
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          86.6667,
+          280.0,
+          104.0
+        ],
+        "reason": "Q14 shared tree instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q63",
+          "CS-1991-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ],
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          86.6667,
+          280.0,
+          104.0
+        ],
+        "reason": "Q14 shared tree instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q63",
+          "CS-1991-Q64"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ],
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          300.0,
+          280.0,
+          416.0
+        ],
+        "reason": "Q14 shared complete tree figure"
+      },
+      {
+        "questions": [
+          "CS-1991-Q63",
+          "CS-1991-Q65"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ],
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          300.0,
+          280.0,
+          416.0
+        ],
+        "reason": "Q14 shared complete tree figure"
+      },
+      {
+        "questions": [
+          "CS-1991-Q64",
+          "CS-1991-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ],
+          [
+            53.3333,
+            86.6667,
+            280.0,
+            104.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          86.6667,
+          280.0,
+          104.0
+        ],
+        "reason": "Q14 shared tree instruction"
+      },
+      {
+        "questions": [
+          "CS-1991-Q64",
+          "CS-1991-Q65"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ],
+          [
+            53.3333,
+            300.0,
+            280.0,
+            416.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          300.0,
+          280.0,
+          416.0
+        ],
+        "reason": "Q14 shared complete tree figure"
+      }
+    ],
+    "unapproved_overlap_pairs": [],
+    "parse_warnings": "syntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct\nsyntax error: cannot find XObject resource 'Fm0'\nencountered syntax errors; page may not be correct",
+    "limitations": "Available third-party reproduction only. Existing missing Fm0 parser warnings, blurry code/formulas/figures and source omissions preserved. No reconstructed content, original-completeness, transcription, answer, numbering or redistribution-rights certification.",
+    "render_verification": [
+      {
+        "question_id": "CS-1991-Q1",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q1",
+        "part": 2,
+        "sha256": "dcadceabf776cfb6be8b6118eacbe26cd4c9e1f64b6de94b662435c632b67750"
+      },
+      {
+        "question_id": "CS-1991-Q2",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q2",
+        "part": 2,
+        "sha256": "5593191473e0ca2acd402809bacb44513a037212c212f04adba5e453c3d74025"
+      },
+      {
+        "question_id": "CS-1991-Q3",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q3",
+        "part": 2,
+        "sha256": "95d5efb95dc18a131cb284172a37b22ff89ba63438daceede18d607e0aa03f21"
+      },
+      {
+        "question_id": "CS-1991-Q4",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q4",
+        "part": 2,
+        "sha256": "66d4a2ca2478de1f2123e9684571f37eee9cae240ed31333d60f4ebab8d2b9a6"
+      },
+      {
+        "question_id": "CS-1991-Q5",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q5",
+        "part": 2,
+        "sha256": "646018897252d35ebeea64d3b1a09cd846b10b89a27d307f3df1c955cf118f96"
+      },
+      {
+        "question_id": "CS-1991-Q6",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q6",
+        "part": 2,
+        "sha256": "a75804bb42f484b49bc99d931e61008c5b222249aac172cf0bc5aa82c9be70af"
+      },
+      {
+        "question_id": "CS-1991-Q7",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q7",
+        "part": 2,
+        "sha256": "9c9ea132fe8139340f714e097722dfcad6f6bc0c3f7d1437972ac550e4d2c5ee"
+      },
+      {
+        "question_id": "CS-1991-Q8",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q8",
+        "part": 2,
+        "sha256": "a5df2ec4ba2e242a6c80f5c075d997ac74ae8ce76d87155fcd0621e721501bd9"
+      },
+      {
+        "question_id": "CS-1991-Q9",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q9",
+        "part": 2,
+        "sha256": "f00f5b8edf016cade5524207d78c82d0638022ff00d0db3fa44e48e2ee12ec40"
+      },
+      {
+        "question_id": "CS-1991-Q10",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q10",
+        "part": 2,
+        "sha256": "1c784090bb0971c884dbcf1adf241f186b84fc2c598ec1a1f6aa8ec7341d2820"
+      },
+      {
+        "question_id": "CS-1991-Q11",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q11",
+        "part": 2,
+        "sha256": "2f1cc3eb8abcf328da867cb04eec096233084d12b36a283bff95975af2baf955"
+      },
+      {
+        "question_id": "CS-1991-Q11",
+        "part": 3,
+        "sha256": "20e465cd1dd078777c406f300c223d186ab7e40e9f87cfcb9a3dcb4cfae339af"
+      },
+      {
+        "question_id": "CS-1991-Q12",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q12",
+        "part": 2,
+        "sha256": "cff6b1ccb68ab20f0b142622761190fe30e2e95c57a9b08e0f24b096c59ab8dc"
+      },
+      {
+        "question_id": "CS-1991-Q13",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q13",
+        "part": 2,
+        "sha256": "0ccf59508a2dcaf7d80f12f9f8d317b5519b24ec583f3ac96e09661557ea4648"
+      },
+      {
+        "question_id": "CS-1991-Q14",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q14",
+        "part": 2,
+        "sha256": "4cf88c3d86ec1da52a5a796cef4c01abafd99c0707d2141c60c6ab95b861a5a4"
+      },
+      {
+        "question_id": "CS-1991-Q15",
+        "part": 1,
+        "sha256": "90fabf6d09e5ce2601371c8934111bd274673d959cb9b32de8e1878ecfdd5be6"
+      },
+      {
+        "question_id": "CS-1991-Q15",
+        "part": 2,
+        "sha256": "8fe6a28130dfe3af658ccdeffe02e532a1228bdbe2b7253740db5aef338fe6a7"
+      },
+      {
+        "question_id": "CS-1991-Q16",
+        "part": 1,
+        "sha256": "ed6b855aecd52f653752b0b54be6380b21b927b35405c1d186d78f09ea04de5a"
+      },
+      {
+        "question_id": "CS-1991-Q16",
+        "part": 2,
+        "sha256": "b13be55fe83fc9c0d91cece0726651df60e77baecfab8521ae42f4e543659880"
+      },
+      {
+        "question_id": "CS-1991-Q17",
+        "part": 1,
+        "sha256": "ed6b855aecd52f653752b0b54be6380b21b927b35405c1d186d78f09ea04de5a"
+      },
+      {
+        "question_id": "CS-1991-Q17",
+        "part": 2,
+        "sha256": "1fb0388d26d2a357e40702a00c95b94d92facd6821a8c4ed90f721500817fc26"
+      },
+      {
+        "question_id": "CS-1991-Q17",
+        "part": 3,
+        "sha256": "7d2465d4fb4ac8a805f9bdd647fbd9ae975c3f18b79a491771b31073ddb071ef"
+      },
+      {
+        "question_id": "CS-1991-Q18",
+        "part": 1,
+        "sha256": "ed6b855aecd52f653752b0b54be6380b21b927b35405c1d186d78f09ea04de5a"
+      },
+      {
+        "question_id": "CS-1991-Q18",
+        "part": 2,
+        "sha256": "58e45e16754a8b75d219381526b841ce62c88c19e9c10c1ae5048d9d19912c07"
+      },
+      {
+        "question_id": "CS-1991-Q19",
+        "part": 1,
+        "sha256": "ed6b855aecd52f653752b0b54be6380b21b927b35405c1d186d78f09ea04de5a"
+      },
+      {
+        "question_id": "CS-1991-Q19",
+        "part": 2,
+        "sha256": "9e8ab93a92c053c7110514af901a67712a781b167db4186eee866b2054c3cc3f"
+      },
+      {
+        "question_id": "CS-1991-Q20",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q20",
+        "part": 2,
+        "sha256": "878e81066a26175c6e6b5eedd51c5fb2c18f33df032764591f28e849347a3bbb"
+      },
+      {
+        "question_id": "CS-1991-Q21",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q21",
+        "part": 2,
+        "sha256": "057d57f72122f332c231911bd48b3835f273fe06329b68d9e58370ba5e09f046"
+      },
+      {
+        "question_id": "CS-1991-Q22",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q22",
+        "part": 2,
+        "sha256": "c4d454f379e380f93e3463f4fad831e083d7e795d2e77c09f6b144baaa4fb20d"
+      },
+      {
+        "question_id": "CS-1991-Q23",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q23",
+        "part": 2,
+        "sha256": "c386bb5363b51a2cf25c1da78a49416d8f47a9e3ad166e93283f9892d98797b8"
+      },
+      {
+        "question_id": "CS-1991-Q24",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q24",
+        "part": 2,
+        "sha256": "b87f3f63b14c9abbbbede05c6be870e7357fc6245cf3536648957530a324de3a"
+      },
+      {
+        "question_id": "CS-1991-Q24",
+        "part": 3,
+        "sha256": "8d5b581ca84b9761e6a4498a3e9515be233d28d7ade69485945eefdd31fd5735"
+      },
+      {
+        "question_id": "CS-1991-Q25",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q25",
+        "part": 2,
+        "sha256": "2fa9bc65fea806355f920d4cdc7bd9777d4bcc72d64d6c876040cea09212d0f7"
+      },
+      {
+        "question_id": "CS-1991-Q26",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q26",
+        "part": 2,
+        "sha256": "f595bcc0765cba2d1bf7123ba615a2c8359937aea672c8046c050e6f2f034476"
+      },
+      {
+        "question_id": "CS-1991-Q27",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q27",
+        "part": 2,
+        "sha256": "2be003c191386ff8a76efe5e4368b41ebaf79007f0aedd81d2d75c8d0c14fc31"
+      },
+      {
+        "question_id": "CS-1991-Q27",
+        "part": 3,
+        "sha256": "8f2fed4c0dcebb921ddb608674b0f4e9346cdd5ae079e44acd9d2111190209a1"
+      },
+      {
+        "question_id": "CS-1991-Q28",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q28",
+        "part": 2,
+        "sha256": "9c35e620de303232baec1740ebbc76835d6179d793d1467109c18129bc7a9b05"
+      },
+      {
+        "question_id": "CS-1991-Q29",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q29",
+        "part": 2,
+        "sha256": "38eb0b5024f24caf93007501c75a5cc866bbd4b5e15a602ccb963eee7991a861"
+      },
+      {
+        "question_id": "CS-1991-Q30",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q30",
+        "part": 2,
+        "sha256": "144b0119da72c0f7706038d5c98d00f55a873e492a420848a4fd7cca5bb8b33b"
+      },
+      {
+        "question_id": "CS-1991-Q30",
+        "part": 3,
+        "sha256": "b5b10f7a68760b0b2b8fac7c46195e942d3bad26d46e509b5e8c53eb7d8f670a"
+      },
+      {
+        "question_id": "CS-1991-Q31",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q31",
+        "part": 2,
+        "sha256": "0c67a957b168ddc2128c04488c84ffc35515ffb4346469f511d324cd32e7f8af"
+      },
+      {
+        "question_id": "CS-1991-Q32",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q32",
+        "part": 2,
+        "sha256": "76f707e68522f4950bf75d62daa54276b19f1cd58eb3b7ef5d8d68af2f5ff9c7"
+      },
+      {
+        "question_id": "CS-1991-Q33",
+        "part": 1,
+        "sha256": "bb0b0e4a11066757f73e6238263652218301da167a5226559c3ed43dd4c99825"
+      },
+      {
+        "question_id": "CS-1991-Q33",
+        "part": 2,
+        "sha256": "a6bdc66947ec17acb6886362414e1a15b7a0b4ffc1effca8b2ad29c280fcf1f1"
+      },
+      {
+        "question_id": "CS-1991-Q34",
+        "part": 1,
+        "sha256": "1085158f118a56e67b35fa759e8cb7f045d2614351c832b5d85107f03080bd14"
+      },
+      {
+        "question_id": "CS-1991-Q34",
+        "part": 2,
+        "sha256": "762dc4492f17cb441ccaf68e69f037155315c22668ab354a40d58247e633e81d"
+      },
+      {
+        "question_id": "CS-1991-Q35",
+        "part": 1,
+        "sha256": "1085158f118a56e67b35fa759e8cb7f045d2614351c832b5d85107f03080bd14"
+      },
+      {
+        "question_id": "CS-1991-Q35",
+        "part": 2,
+        "sha256": "8ed816493d08727020a18ad34b784a76e59474d523b24f609ffd16aaa95f1ccf"
+      },
+      {
+        "question_id": "CS-1991-Q36",
+        "part": 1,
+        "sha256": "1085158f118a56e67b35fa759e8cb7f045d2614351c832b5d85107f03080bd14"
+      },
+      {
+        "question_id": "CS-1991-Q36",
+        "part": 2,
+        "sha256": "835f9fc99f82ef97a8d19c4a130b62bfb8313de68394628f8ee130acdfd81343"
+      },
+      {
+        "question_id": "CS-1991-Q37",
+        "part": 1,
+        "sha256": "1085158f118a56e67b35fa759e8cb7f045d2614351c832b5d85107f03080bd14"
+      },
+      {
+        "question_id": "CS-1991-Q37",
+        "part": 2,
+        "sha256": "15c70fb35a52953c5fbc1526e5f1cf85dc933fe3a043f9613a1b2338bbb89ea0"
+      },
+      {
+        "question_id": "CS-1991-Q38",
+        "part": 1,
+        "sha256": "b1e5429fcf5c218915d93c54d738431e697dd246dcae40f9751076c0a537dd36"
+      },
+      {
+        "question_id": "CS-1991-Q39",
+        "part": 1,
+        "sha256": "88c9785ad5400647c2863b2614348b87103059de28956dad2c7022040df54cc6"
+      },
+      {
+        "question_id": "CS-1991-Q39",
+        "part": 2,
+        "sha256": "1e51c330f6c22895e037705a38e3c7e84a684ebc21f9d63824fe554004c54cd4"
+      },
+      {
+        "question_id": "CS-1991-Q40",
+        "part": 1,
+        "sha256": "825c3335f2cbd9856cc14f1931297c7e364b64e01fecdd5a29fc7615a0f9b0b1"
+      },
+      {
+        "question_id": "CS-1991-Q41",
+        "part": 1,
+        "sha256": "1c372d2ec059ee64db3db649326be082e4a1d5861d715c77d9f358aaa7cfed14"
+      },
+      {
+        "question_id": "CS-1991-Q42",
+        "part": 1,
+        "sha256": "8fb58230f35d6a94b965e3d65a4913db244a3a7d881ff23a968a3c7f6a611bfd"
+      },
+      {
+        "question_id": "CS-1991-Q43",
+        "part": 1,
+        "sha256": "33442989515037b18afe18637bd4d2a244d1891a674e16237a532ba3796725a7"
+      },
+      {
+        "question_id": "CS-1991-Q43",
+        "part": 2,
+        "sha256": "09b137f9e6d0608ff26fa8085bec1ef9f633ac6f1a7aed67c4ce9abf5d707b60"
+      },
+      {
+        "question_id": "CS-1991-Q43",
+        "part": 3,
+        "sha256": "ae0b27b30b9b0af9f8b01e976ae07e0cea5d61e9cde285fdd718103f5d310cb9"
+      },
+      {
+        "question_id": "CS-1991-Q44",
+        "part": 1,
+        "sha256": "33442989515037b18afe18637bd4d2a244d1891a674e16237a532ba3796725a7"
+      },
+      {
+        "question_id": "CS-1991-Q44",
+        "part": 2,
+        "sha256": "09b137f9e6d0608ff26fa8085bec1ef9f633ac6f1a7aed67c4ce9abf5d707b60"
+      },
+      {
+        "question_id": "CS-1991-Q44",
+        "part": 3,
+        "sha256": "08e81db531aa75bbe0398708554390203d1de22420c177fdd18b5d4e23b0bf02"
+      },
+      {
+        "question_id": "CS-1991-Q45",
+        "part": 1,
+        "sha256": "04f911f065c08d457591557d440aa78cf20cd6cd1c7179e09d3c73f44d983eed"
+      },
+      {
+        "question_id": "CS-1991-Q45",
+        "part": 2,
+        "sha256": "5051a12a5ac514068a7fc52ac46b001c89cfd26f3238611ef769e7a1b8c87568"
+      },
+      {
+        "question_id": "CS-1991-Q45",
+        "part": 3,
+        "sha256": "124bb7f51c8643d1daecf7e7363901d3ed639b236b19ef059c2a2ebd43fe757c"
+      },
+      {
+        "question_id": "CS-1991-Q46",
+        "part": 1,
+        "sha256": "04f911f065c08d457591557d440aa78cf20cd6cd1c7179e09d3c73f44d983eed"
+      },
+      {
+        "question_id": "CS-1991-Q46",
+        "part": 2,
+        "sha256": "d96c0a358466456f8afa3cd5feb08825843323cd0e85e3e6ebdf5f63b7bf662d"
+      },
+      {
+        "question_id": "CS-1991-Q46",
+        "part": 3,
+        "sha256": "124bb7f51c8643d1daecf7e7363901d3ed639b236b19ef059c2a2ebd43fe757c"
+      },
+      {
+        "question_id": "CS-1991-Q47",
+        "part": 1,
+        "sha256": "6f48cf5264c1cab886a227e6a8d9da961c4151b9a4e190c469d1dd121d7fe653"
+      },
+      {
+        "question_id": "CS-1991-Q47",
+        "part": 2,
+        "sha256": "0043242a33fd8c0031bd4a95ee6fa9f23ea866d5f0e70825a2601ffdda1dc601"
+      },
+      {
+        "question_id": "CS-1991-Q48",
+        "part": 1,
+        "sha256": "ddf1e882f1f5613331b85a32d919300506d233e593aa3c685a40c375110500b5"
+      },
+      {
+        "question_id": "CS-1991-Q48",
+        "part": 2,
+        "sha256": "92f70074001e453545308c64a35d621ada152e9931fcf222753a1ee84f2fc392"
+      },
+      {
+        "question_id": "CS-1991-Q49",
+        "part": 1,
+        "sha256": "ddf1e882f1f5613331b85a32d919300506d233e593aa3c685a40c375110500b5"
+      },
+      {
+        "question_id": "CS-1991-Q49",
+        "part": 2,
+        "sha256": "92f70074001e453545308c64a35d621ada152e9931fcf222753a1ee84f2fc392"
+      },
+      {
+        "question_id": "CS-1991-Q50",
+        "part": 1,
+        "sha256": "ddf1e882f1f5613331b85a32d919300506d233e593aa3c685a40c375110500b5"
+      },
+      {
+        "question_id": "CS-1991-Q50",
+        "part": 2,
+        "sha256": "92f70074001e453545308c64a35d621ada152e9931fcf222753a1ee84f2fc392"
+      },
+      {
+        "question_id": "CS-1991-Q51",
+        "part": 1,
+        "sha256": "1f3b6c7d370439033a043946c6325d34d1122bec0c957dd67c8c72f60d9e3fad"
+      },
+      {
+        "question_id": "CS-1991-Q51",
+        "part": 2,
+        "sha256": "c0d5c465f74d1558cfbf6dcf515a80ecba3654654a75b83f7ced1a11b9a46b00"
+      },
+      {
+        "question_id": "CS-1991-Q52",
+        "part": 1,
+        "sha256": "1f3b6c7d370439033a043946c6325d34d1122bec0c957dd67c8c72f60d9e3fad"
+      },
+      {
+        "question_id": "CS-1991-Q52",
+        "part": 2,
+        "sha256": "c0d5c465f74d1558cfbf6dcf515a80ecba3654654a75b83f7ced1a11b9a46b00"
+      },
+      {
+        "question_id": "CS-1991-Q53",
+        "part": 1,
+        "sha256": "ce658403d128f94056b8a1270f400f619cfdc18e44edcec74b1f41806c27d6c7"
+      },
+      {
+        "question_id": "CS-1991-Q53",
+        "part": 2,
+        "sha256": "8e9b891ced2b04c8c99090119f3387a8952944ba39b3b7378943e613735bef18"
+      },
+      {
+        "question_id": "CS-1991-Q54",
+        "part": 1,
+        "sha256": "ce658403d128f94056b8a1270f400f619cfdc18e44edcec74b1f41806c27d6c7"
+      },
+      {
+        "question_id": "CS-1991-Q54",
+        "part": 2,
+        "sha256": "794391b4f75a48511313ff1a0d29917e9985809dc860e87c34a879e9d5880f78"
+      },
+      {
+        "question_id": "CS-1991-Q55",
+        "part": 1,
+        "sha256": "ce658403d128f94056b8a1270f400f619cfdc18e44edcec74b1f41806c27d6c7"
+      },
+      {
+        "question_id": "CS-1991-Q55",
+        "part": 2,
+        "sha256": "794391b4f75a48511313ff1a0d29917e9985809dc860e87c34a879e9d5880f78"
+      },
+      {
+        "question_id": "CS-1991-Q55",
+        "part": 3,
+        "sha256": "2e85431bf6642f3928bb12ef3c88ec1d22f78da9ac73ff03b52986991eb7a95f"
+      },
+      {
+        "question_id": "CS-1991-Q56",
+        "part": 1,
+        "sha256": "508440a9fbda317dc50806fe00c7b71f08e0521623821f92ae723323af6e3eea"
+      },
+      {
+        "question_id": "CS-1991-Q56",
+        "part": 2,
+        "sha256": "01d8fcfdd9a2350ae37ec645712a9c125ae29a2d9dc39c7e95449f07a288ce77"
+      },
+      {
+        "question_id": "CS-1991-Q57",
+        "part": 1,
+        "sha256": "508440a9fbda317dc50806fe00c7b71f08e0521623821f92ae723323af6e3eea"
+      },
+      {
+        "question_id": "CS-1991-Q57",
+        "part": 2,
+        "sha256": "808e875568c926dbe32f249d14214fee708014184440e29c2efa7031b62e7220"
+      },
+      {
+        "question_id": "CS-1991-Q58",
+        "part": 1,
+        "sha256": "f8290c81057777969756159910dc08de37de8bc0a55e7a0acfd1144cdc3aebb6"
+      },
+      {
+        "question_id": "CS-1991-Q58",
+        "part": 2,
+        "sha256": "aada36da60a0b7926df731c9daf1036e52f0a24ca800d80626409f7ceefbc289"
+      },
+      {
+        "question_id": "CS-1991-Q58",
+        "part": 3,
+        "sha256": "3e38a96d41c888334a881339df4cdfb436764c6905f8187c6fb29dd92746770e"
+      },
+      {
+        "question_id": "CS-1991-Q59",
+        "part": 1,
+        "sha256": "f8290c81057777969756159910dc08de37de8bc0a55e7a0acfd1144cdc3aebb6"
+      },
+      {
+        "question_id": "CS-1991-Q59",
+        "part": 2,
+        "sha256": "aada36da60a0b7926df731c9daf1036e52f0a24ca800d80626409f7ceefbc289"
+      },
+      {
+        "question_id": "CS-1991-Q59",
+        "part": 3,
+        "sha256": "343191b47a14cd94645366be3b48307160ea0e6f6e8d502e04c298cf70df543f"
+      },
+      {
+        "question_id": "CS-1991-Q60",
+        "part": 1,
+        "sha256": "f8290c81057777969756159910dc08de37de8bc0a55e7a0acfd1144cdc3aebb6"
+      },
+      {
+        "question_id": "CS-1991-Q60",
+        "part": 2,
+        "sha256": "b91b45423c2a9b91c9cc979170208490a9ef0cf7a70370cb07d440620428d6cc"
+      },
+      {
+        "question_id": "CS-1991-Q60",
+        "part": 3,
+        "sha256": "ca3732a6c23c700a681dbbc8d9caa1abce9fe32526d66c097eedf6566f5f7605"
+      },
+      {
+        "question_id": "CS-1991-Q61",
+        "part": 1,
+        "sha256": "f8290c81057777969756159910dc08de37de8bc0a55e7a0acfd1144cdc3aebb6"
+      },
+      {
+        "question_id": "CS-1991-Q61",
+        "part": 2,
+        "sha256": "b91b45423c2a9b91c9cc979170208490a9ef0cf7a70370cb07d440620428d6cc"
+      },
+      {
+        "question_id": "CS-1991-Q61",
+        "part": 3,
+        "sha256": "bd1d7a71fbbe9ea7d2eb8466af08aef8aebdfa022c1582b1a7588c41a1f15f15"
+      },
+      {
+        "question_id": "CS-1991-Q62",
+        "part": 1,
+        "sha256": "b4692af02edd406fec71da45d7981b5405a6009410968b551af852dc267096b5"
+      },
+      {
+        "question_id": "CS-1991-Q62",
+        "part": 2,
+        "sha256": "1f43a4e35483453f248e63ac52ca5cbdad953a150ab37c7816373b71415ec4f5"
+      },
+      {
+        "question_id": "CS-1991-Q63",
+        "part": 1,
+        "sha256": "6c0f9b179566a661608d946dcacaa1c57ef5265313b020fce885257a9829f45e"
+      },
+      {
+        "question_id": "CS-1991-Q63",
+        "part": 2,
+        "sha256": "f4257f9fc17d4158d73d5b639f49719560c3e114c6a895787506c276a0bda7a7"
+      },
+      {
+        "question_id": "CS-1991-Q63",
+        "part": 3,
+        "sha256": "16c3a9543a8a1368351456c386e523b197ca5e8a3bd99ff2c949a1ab145467ad"
+      },
+      {
+        "question_id": "CS-1991-Q64",
+        "part": 1,
+        "sha256": "6c0f9b179566a661608d946dcacaa1c57ef5265313b020fce885257a9829f45e"
+      },
+      {
+        "question_id": "CS-1991-Q64",
+        "part": 2,
+        "sha256": "70ab3e3e0e4cf3ff9cdc4284d7ba66cf4eac70bbe0aed128b6cc8bf71792a27f"
+      },
+      {
+        "question_id": "CS-1991-Q64",
+        "part": 3,
+        "sha256": "16c3a9543a8a1368351456c386e523b197ca5e8a3bd99ff2c949a1ab145467ad"
+      },
+      {
+        "question_id": "CS-1991-Q65",
+        "part": 1,
+        "sha256": "6c0f9b179566a661608d946dcacaa1c57ef5265313b020fce885257a9829f45e"
+      },
+      {
+        "question_id": "CS-1991-Q65",
+        "part": 2,
+        "sha256": "ee64badd2721513adc541cade667493ca7b641e8e69b9c57b055e45bb00705d7"
+      },
+      {
+        "question_id": "CS-1991-Q65",
+        "part": 3,
+        "sha256": "16c3a9543a8a1368351456c386e523b197ca5e8a3bd99ff2c949a1ab145467ad"
+      },
+      {
+        "question_id": "CS-1991-Q66",
+        "part": 1,
+        "sha256": "0be69ed74032c441de3653de08b48612d2fb33e8f474d9e7894aaea4513f6798"
+      },
+      {
+        "question_id": "CS-1991-Q67",
+        "part": 1,
+        "sha256": "a046e97709921d2e31903b55be1480243d516d583c77d8b7471f1e32f03e8e2a"
+      },
+      {
+        "question_id": "CS-1991-Q67",
+        "part": 2,
+        "sha256": "c0102ae25f3b2095281f454f8854e6476584033f374e71d1c2154b08b1dc7a11"
+      },
+      {
+        "question_id": "CS-1991-Q68",
+        "part": 1,
+        "sha256": "512e1ddf6ff81f54a89f2b189db7da1bf41be4ac8e8be2f94230079b44922f31"
+      },
+      {
+        "question_id": "CS-1991-Q69",
+        "part": 1,
+        "sha256": "6c5e2452ab0f19697928be1ce25f9d28caf5828498d363a5153996b004048506"
+      },
+      {
+        "question_id": "CS-1991-Q70",
+        "part": 1,
+        "sha256": "ef41ed520da22ea2f553d9b4c34c8646f8d71138799a5539627ecd84c503f6c1"
+      },
+      {
+        "question_id": "CS-1991-Q71",
+        "part": 1,
+        "sha256": "defefbbe59e0efa49076691d304eb3dd312b94dd56404fac40055c8b707900ad"
+      }
+    ]
+  }
+}

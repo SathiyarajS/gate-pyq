@@ -1,0 +1,9726 @@
+{
+  "paper_id": "CS-1992",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "f8bdaf029c956e8659618504af240d47088ad4838584ed3f98d973db87247291",
+  "preparation_evidence_sha256": "8ddb58ef76c79b173faacaf6eac58ec303f7f98b42f0693f1046ef12b0af856c",
+  "independent_review_evidence_sha256": "f567b24af72ebeb0cde24714baba09ce2057a57edca2b278bd5516a513d8db4f",
+  "questions": 69,
+  "crop_parts": 134,
+  "verified_questions": 69,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1992",
+    "status": "approved",
+    "reviewer": "independent verify_1992_crop_outputs",
+    "reviewed_on": "2026-11-10",
+    "crops_sha256": "f8bdaf029c956e8659618504af240d47088ad4838584ed3f98d973db87247291",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+    "source_sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "questions": 69,
+    "crop_parts": 134,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      "contacts/01.jpg",
+      "contacts/02.jpg",
+      "contacts/03.jpg",
+      "contacts/04.jpg",
+      "contacts/05.jpg",
+      "contacts/06.jpg",
+      "contacts/07.jpg",
+      "contacts/08.jpg",
+      "contacts/09.jpg",
+      "contacts/10.jpg",
+      "contacts/11.jpg",
+      "contacts/12.jpg"
+    ],
+    "fresh_render": {
+      "command": "python gate-pyq/scripts/render_crops.py --allow-draft --crops 1992-preparation/crops.json --output 1992-preparation/independent-render",
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80,
+      "byte_identical_parts": 134,
+      "mismatches": 0,
+      "image_hashes": "independent-image-hashes.json"
+    },
+    "findings": [
+      "Independently opened all nine full source-page images and twelve contact sheets covering all 69 records and 134 actual renderer-produced WEBP parts; compared printed labels, complete available stems, choices, diagrams, tables, code and final task lines. No clipping or unrelated neighboring subpart leakage found.",
+      "All 69 IDs match records.json; each printed_question_number was compared against its source item. Normalized numbering does not replace the printed subpart labels in the images.",
+      "Fresh renderer output at 3x and WEBP quality 80 is byte-identical to every reviewed output. Exact source hash and proposal hash match the assignment.",
+      "All 293 geometric overlap pairs independently recomputed and reconciled against explicit audit entries; every pair has identical bounds. No nonidentical overlaps exist. All repeated regions are shared instructions, common stems or the specifically necessary memory component table.",
+      "Q1–Q10 share fill-in instructions (45 pairs); Q11–Q30 share multiple-correct instructions (190); Q31–Q38 share short-answer instructions (28); Q32–Q35 additionally share two-pass assembler stem (6). Independent bodies remain separate, including side-by-side printed 3(ii.a/b).",
+      "Q44/Q45 share the memory-system specification and the component table (2 pairs). Table speed information is necessary for EERAM timing, while the separate Q44 design request is excluded from Q45. Q46/Q47 share complete function code and positive-n condition (1 pair), retaining only their own separate task lines.",
+      "Q49–Q52 share the constant-time set representation stem and concluding pictorial/routine/initialization requirements (12 pairs); Q59–Q61 share redundancy stem and one-line-answer instruction (6); Q67–Q69 share proof instruction (3). None of these shared regions contains neighboring independent tasks.",
+      "Source defects remain unchanged: missing L/R prefixes in Q23 choices, missing connective in Q65 assertion (2), malformed Q27 identities, ambiguous Q26 association, repeated two-address wording in Q6, RAM 6K and mHz in Q44/Q45, and function-code ambiguity in Q46/Q47. Source blur and in-body watermark artifacts are not repaired. Website footers are excluded."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q2"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q3"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q1",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q3"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q2",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q4"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q3",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q5"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q4",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q5",
+          "CS-1992-Q6"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q5",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q5",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q5",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q5",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q6",
+          "CS-1992-Q7"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q6",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q6",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q6",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q7",
+          "CS-1992-Q8"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q7",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q7",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q8",
+          "CS-1992-Q9"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q8",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q9",
+          "CS-1992-Q10"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            108,
+            548,
+            126
+          ],
+          [
+            86,
+            108,
+            548,
+            126
+          ]
+        ],
+        "intersection": [
+          86,
+          108,
+          548,
+          126
+        ],
+        "reason": "Shared printed Q1 fill-in instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q12"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q16"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q11",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q13"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q16"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q12",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q14"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q16"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q13",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q16"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q14",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q16"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q15",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q17"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q16",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q18"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q17",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q19"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q18",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q20"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q19",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q21"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q20",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q22"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q21",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q22",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q24"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q23",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q25"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q24",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q25",
+          "CS-1992-Q26"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q25",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q25",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q25",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q25",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q26",
+          "CS-1992-Q27"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q26",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q26",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q26",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q27",
+          "CS-1992-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q27",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q27",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q28",
+          "CS-1992-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q28",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q29",
+          "CS-1992-Q30"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 1,
+        "source_bboxes": [
+          [
+            86,
+            597,
+            548,
+            626
+          ],
+          [
+            86,
+            597,
+            548,
+            626
+          ]
+        ],
+        "intersection": [
+          86,
+          597,
+          548,
+          626
+        ],
+        "reason": "Shared printed Q2 multiple-correct instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q32"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q34"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q31",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q33"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q33"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q34"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q34"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q32",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q34"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q34"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q33",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q34",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q34",
+          "CS-1992-Q35"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            122,
+            670,
+            548,
+            703
+          ],
+          [
+            122,
+            670,
+            548,
+            703
+          ]
+        ],
+        "intersection": [
+          122,
+          670,
+          548,
+          703
+        ],
+        "reason": "Shared printed 3(ii) two-pass assembler pass-number stem."
+      },
+      {
+        "questions": [
+          "CS-1992-Q34",
+          "CS-1992-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q34",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q34",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q35",
+          "CS-1992-Q36"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q35",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q35",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q36",
+          "CS-1992-Q37"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q36",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q37",
+          "CS-1992-Q38"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            86,
+            484,
+            548,
+            500
+          ],
+          [
+            86,
+            484,
+            548,
+            500
+          ]
+        ],
+        "intersection": [
+          86,
+          484,
+          548,
+          500
+        ],
+        "reason": "Shared printed Q3 short-answer instruction."
+      },
+      {
+        "questions": [
+          "CS-1992-Q44",
+          "CS-1992-Q45"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 5,
+        "source_bboxes": [
+          [
+            86,
+            638,
+            548,
+            695
+          ],
+          [
+            86,
+            638,
+            548,
+            695
+          ]
+        ],
+        "intersection": [
+          86,
+          638,
+          548,
+          695
+        ],
+        "reason": "Shared printed Q6 address-bus and required memory/devices specification."
+      },
+      {
+        "questions": [
+          "CS-1992-Q44",
+          "CS-1992-Q45"
+        ],
+        "parts": [
+          3,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            144,
+            112,
+            548,
+            178
+          ],
+          [
+            144,
+            112,
+            548,
+            178
+          ]
+        ],
+        "intersection": [
+          144,
+          112,
+          548,
+          178
+        ],
+        "reason": "Q6(a) component table is a prerequisite for Q6(b), retained separately without Q6(a) design request."
+      },
+      {
+        "questions": [
+          "CS-1992-Q46",
+          "CS-1992-Q47"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            234,
+            548,
+            477
+          ],
+          [
+            86,
+            234,
+            548,
+            477
+          ]
+        ],
+        "intersection": [
+          86,
+          234,
+          548,
+          477
+        ],
+        "reason": "Shared printed Q7 function code and positive-integer assumption."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q50"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q50"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q51"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q51"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q49",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q50",
+          "CS-1992-Q51"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q50",
+          "CS-1992-Q51"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q50",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q50",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q51",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            655,
+            548,
+            699
+          ],
+          [
+            86,
+            655,
+            548,
+            699
+          ]
+        ],
+        "intersection": [
+          86,
+          655,
+          548,
+          699
+        ],
+        "reason": "Shared printed Q9 set representation and constant-time requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q51",
+          "CS-1992-Q52"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            122,
+            161,
+            548,
+            205
+          ],
+          [
+            122,
+            161,
+            548,
+            205
+          ]
+        ],
+        "intersection": [
+          122,
+          161,
+          548,
+          205
+        ],
+        "reason": "Shared printed Q9 pictorial-example, English-language routine and initialization requirements."
+      },
+      {
+        "questions": [
+          "CS-1992-Q59",
+          "CS-1992-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            83,
+            548,
+            101
+          ],
+          [
+            86,
+            83,
+            548,
+            101
+          ]
+        ],
+        "intersection": [
+          86,
+          83,
+          548,
+          101
+        ],
+        "reason": "Shared printed Q13(a) redundancy-reduction question."
+      },
+      {
+        "questions": [
+          "CS-1992-Q59",
+          "CS-1992-Q60"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            122,
+            149,
+            548,
+            165
+          ],
+          [
+            122,
+            149,
+            548,
+            165
+          ]
+        ],
+        "intersection": [
+          122,
+          149,
+          548,
+          165
+        ],
+        "reason": "Shared printed Q13(a) one-line-answer requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q59",
+          "CS-1992-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            83,
+            548,
+            101
+          ],
+          [
+            86,
+            83,
+            548,
+            101
+          ]
+        ],
+        "intersection": [
+          86,
+          83,
+          548,
+          101
+        ],
+        "reason": "Shared printed Q13(a) redundancy-reduction question."
+      },
+      {
+        "questions": [
+          "CS-1992-Q59",
+          "CS-1992-Q61"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            122,
+            149,
+            548,
+            165
+          ],
+          [
+            122,
+            149,
+            548,
+            165
+          ]
+        ],
+        "intersection": [
+          122,
+          149,
+          548,
+          165
+        ],
+        "reason": "Shared printed Q13(a) one-line-answer requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q60",
+          "CS-1992-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            83,
+            548,
+            101
+          ],
+          [
+            86,
+            83,
+            548,
+            101
+          ]
+        ],
+        "intersection": [
+          86,
+          83,
+          548,
+          101
+        ],
+        "reason": "Shared printed Q13(a) redundancy-reduction question."
+      },
+      {
+        "questions": [
+          "CS-1992-Q60",
+          "CS-1992-Q61"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            122,
+            149,
+            548,
+            165
+          ],
+          [
+            122,
+            149,
+            548,
+            165
+          ]
+        ],
+        "intersection": [
+          122,
+          149,
+          548,
+          165
+        ],
+        "reason": "Shared printed Q13(a) one-line-answer requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q67",
+          "CS-1992-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            630,
+            548,
+            647
+          ],
+          [
+            86,
+            630,
+            548,
+            647
+          ]
+        ],
+        "intersection": [
+          86,
+          630,
+          548,
+          647
+        ],
+        "reason": "Shared printed Q16 truth-value and proof requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q67",
+          "CS-1992-Q69"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            630,
+            548,
+            647
+          ],
+          [
+            86,
+            630,
+            548,
+            647
+          ]
+        ],
+        "intersection": [
+          86,
+          630,
+          548,
+          647
+        ],
+        "reason": "Shared printed Q16 truth-value and proof requirement."
+      },
+      {
+        "questions": [
+          "CS-1992-Q68",
+          "CS-1992-Q69"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            86,
+            630,
+            548,
+            647
+          ],
+          [
+            86,
+            630,
+            548,
+            647
+          ]
+        ],
+        "intersection": [
+          86,
+          630,
+          548,
+          647
+        ],
+        "reason": "Shared printed Q16 truth-value and proof requirement."
+      }
+    ],
+    "mapping_checked": [
+      {
+        "question_id": "CS-1992-Q1",
+        "printed_question_number": "1(i)"
+      },
+      {
+        "question_id": "CS-1992-Q2",
+        "printed_question_number": "1(ii)"
+      },
+      {
+        "question_id": "CS-1992-Q3",
+        "printed_question_number": "1(iii)"
+      },
+      {
+        "question_id": "CS-1992-Q4",
+        "printed_question_number": "1(iv)"
+      },
+      {
+        "question_id": "CS-1992-Q5",
+        "printed_question_number": "1(v)"
+      },
+      {
+        "question_id": "CS-1992-Q6",
+        "printed_question_number": "1(vi)"
+      },
+      {
+        "question_id": "CS-1992-Q7",
+        "printed_question_number": "1(vii)"
+      },
+      {
+        "question_id": "CS-1992-Q8",
+        "printed_question_number": "1(viii)"
+      },
+      {
+        "question_id": "CS-1992-Q9",
+        "printed_question_number": "1(ix)"
+      },
+      {
+        "question_id": "CS-1992-Q10",
+        "printed_question_number": "1(x)"
+      },
+      {
+        "question_id": "CS-1992-Q11",
+        "printed_question_number": "2(i)"
+      },
+      {
+        "question_id": "CS-1992-Q12",
+        "printed_question_number": "2(ii)"
+      },
+      {
+        "question_id": "CS-1992-Q13",
+        "printed_question_number": "2(iii)"
+      },
+      {
+        "question_id": "CS-1992-Q14",
+        "printed_question_number": "2(iv)"
+      },
+      {
+        "question_id": "CS-1992-Q15",
+        "printed_question_number": "2(v)"
+      },
+      {
+        "question_id": "CS-1992-Q16",
+        "printed_question_number": "2(vi)"
+      },
+      {
+        "question_id": "CS-1992-Q17",
+        "printed_question_number": "2(vii)"
+      },
+      {
+        "question_id": "CS-1992-Q18",
+        "printed_question_number": "2(viii)"
+      },
+      {
+        "question_id": "CS-1992-Q19",
+        "printed_question_number": "2(ix)"
+      },
+      {
+        "question_id": "CS-1992-Q20",
+        "printed_question_number": "2(x)"
+      },
+      {
+        "question_id": "CS-1992-Q21",
+        "printed_question_number": "2(xi)"
+      },
+      {
+        "question_id": "CS-1992-Q22",
+        "printed_question_number": "2(xii)"
+      },
+      {
+        "question_id": "CS-1992-Q23",
+        "printed_question_number": "2(xiii)"
+      },
+      {
+        "question_id": "CS-1992-Q24",
+        "printed_question_number": "2(xiv)"
+      },
+      {
+        "question_id": "CS-1992-Q25",
+        "printed_question_number": "2(xv)"
+      },
+      {
+        "question_id": "CS-1992-Q26",
+        "printed_question_number": "2(xvi)"
+      },
+      {
+        "question_id": "CS-1992-Q27",
+        "printed_question_number": "2(xvii)"
+      },
+      {
+        "question_id": "CS-1992-Q28",
+        "printed_question_number": "2(xviii)"
+      },
+      {
+        "question_id": "CS-1992-Q29",
+        "printed_question_number": "2(xix)"
+      },
+      {
+        "question_id": "CS-1992-Q30",
+        "printed_question_number": "2(xx)"
+      },
+      {
+        "question_id": "CS-1992-Q31",
+        "printed_question_number": "3(i)"
+      },
+      {
+        "question_id": "CS-1992-Q32",
+        "printed_question_number": "3(ii.a)"
+      },
+      {
+        "question_id": "CS-1992-Q33",
+        "printed_question_number": "3(ii.b)"
+      },
+      {
+        "question_id": "CS-1992-Q34",
+        "printed_question_number": "3(ii.c)"
+      },
+      {
+        "question_id": "CS-1992-Q35",
+        "printed_question_number": "3(ii.d)"
+      },
+      {
+        "question_id": "CS-1992-Q36",
+        "printed_question_number": "3(iii)"
+      },
+      {
+        "question_id": "CS-1992-Q37",
+        "printed_question_number": "3(iv)"
+      },
+      {
+        "question_id": "CS-1992-Q38",
+        "printed_question_number": "3(v)"
+      },
+      {
+        "question_id": "CS-1992-Q39",
+        "printed_question_number": "4(a)"
+      },
+      {
+        "question_id": "CS-1992-Q40",
+        "printed_question_number": "4(b)"
+      },
+      {
+        "question_id": "CS-1992-Q41",
+        "printed_question_number": "4(c)"
+      },
+      {
+        "question_id": "CS-1992-Q42",
+        "printed_question_number": "5(a)"
+      },
+      {
+        "question_id": "CS-1992-Q43",
+        "printed_question_number": "5(b)"
+      },
+      {
+        "question_id": "CS-1992-Q44",
+        "printed_question_number": "6(a)"
+      },
+      {
+        "question_id": "CS-1992-Q45",
+        "printed_question_number": "6(b)"
+      },
+      {
+        "question_id": "CS-1992-Q46",
+        "printed_question_number": "7(a)"
+      },
+      {
+        "question_id": "CS-1992-Q47",
+        "printed_question_number": "7(b)"
+      },
+      {
+        "question_id": "CS-1992-Q48",
+        "printed_question_number": "8"
+      },
+      {
+        "question_id": "CS-1992-Q49",
+        "printed_question_number": "9(i)"
+      },
+      {
+        "question_id": "CS-1992-Q50",
+        "printed_question_number": "9(ii)"
+      },
+      {
+        "question_id": "CS-1992-Q51",
+        "printed_question_number": "9(iii)"
+      },
+      {
+        "question_id": "CS-1992-Q52",
+        "printed_question_number": "9(iv)"
+      },
+      {
+        "question_id": "CS-1992-Q53",
+        "printed_question_number": "10(a)"
+      },
+      {
+        "question_id": "CS-1992-Q54",
+        "printed_question_number": "10(b)"
+      },
+      {
+        "question_id": "CS-1992-Q55",
+        "printed_question_number": "11(a)"
+      },
+      {
+        "question_id": "CS-1992-Q56",
+        "printed_question_number": "11(b)"
+      },
+      {
+        "question_id": "CS-1992-Q57",
+        "printed_question_number": "12(a)"
+      },
+      {
+        "question_id": "CS-1992-Q58",
+        "printed_question_number": "12(b)"
+      },
+      {
+        "question_id": "CS-1992-Q59",
+        "printed_question_number": "13(a.i)"
+      },
+      {
+        "question_id": "CS-1992-Q60",
+        "printed_question_number": "13(a.ii)"
+      },
+      {
+        "question_id": "CS-1992-Q61",
+        "printed_question_number": "13(a.iii)"
+      },
+      {
+        "question_id": "CS-1992-Q62",
+        "printed_question_number": "13(b)"
+      },
+      {
+        "question_id": "CS-1992-Q63",
+        "printed_question_number": "14(a)"
+      },
+      {
+        "question_id": "CS-1992-Q64",
+        "printed_question_number": "14(b)"
+      },
+      {
+        "question_id": "CS-1992-Q65",
+        "printed_question_number": "15(a)"
+      },
+      {
+        "question_id": "CS-1992-Q66",
+        "printed_question_number": "15(b)"
+      },
+      {
+        "question_id": "CS-1992-Q67",
+        "printed_question_number": "16(i)"
+      },
+      {
+        "question_id": "CS-1992-Q68",
+        "printed_question_number": "16(ii)"
+      },
+      {
+        "question_id": "CS-1992-Q69",
+        "printed_question_number": "16(iii)"
+      }
+    ],
+    "limitations": "Approval certifies crop geometry and faithful preservation of available mapped GFG/Examrace reproduction content only. It does not certify completeness or fidelity of an original official paper, answers, transcriptions, redistribution rights, publication readiness or any source omission repair. No repository changes or push were made."
+  }
+}

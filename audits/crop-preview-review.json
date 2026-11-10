@@ -1,13 +1,32 @@
 {
-  "image_references_checked": 7362,
-  "unique_parts": 2454,
-  "links_dimensions_lazy_passed": true,
-  "browser_tested": false,
-  "reviewed_question_checkpoint": 2250,
-  "reviewed_part_checkpoint": 2454,
-  "full_preview_build_passed": true,
-  "limitations": [
-    "Static links, dimensions and lazy-loading attributes checked; no browser interaction/layout test",
-    "No PDF rendering or deployment"
-  ]
+  "status": "passed",
+  "questions": 3406,
+  "papers": 46,
+  "reviewed_image_parts": 4351,
+  "pending_crop_reviews": 0,
+  "source_files_hash_checked": 40,
+  "all_review_audit_files_exist": true,
+  "full_crop_enabled_private_build": true,
+  "subject_question_unique_coverage": 3406,
+  "image_references_checked": 13053,
+  "unique_image_parts_checked": 4351,
+  "full_size_links_dimensions_lazy_alt_checked": true,
+  "collapsed_paraphrase_blocks_checked": 10218,
+  "copied_image_byte_identity": true,
+  "this_session_reviewed_output_parts_byte_compared": 3103,
+  "this_session_byte_identical_parts": 3102,
+  "independently_approved_watermark_only_render_variance": [
+    "CS-2017-S2-Q7-1.webp"
+  ],
+  "render_variance_audit": "audits/crop-render-variance-review.json",
+  "legacy_output_parts_previously_byte_compared": 1876,
+  "unit_tests_passed": 10,
+  "search_records": 3406,
+  "search_and_practice_static_checks_passed": true,
+  "print_html_drafts": 26,
+  "pdf_rendering": "not_performed",
+  "browser_interaction_and_layout": "not_performed",
+  "deployment": "not_performed",
+  "scope": "Available-source crop fidelity and static rendering, not original-source completeness, answers, verified transcriptions or redistribution rights.",
+  "data_crops_sha256": "b912f95392ad7eb79843eb986eb3275af8137e08d144192b02cb7f7d483f624b"
 }
