@@ -49799,21 +49799,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 27,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        389.74,
+        585.0,
+        501.23
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 1,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q2": [
@@ -49821,21 +49818,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 27,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        621.59,
+        585.0,
+        714.75
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 2,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q3": [
@@ -49843,21 +49837,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 28,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        24.0,
+        585.0,
+        72.87
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 3,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q4": [
@@ -49865,21 +49856,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 28,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        193.23,
+        585.0,
+        365.81
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 4,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q5": [
@@ -49887,21 +49875,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 28,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        486.17,
+        585.0,
+        550.31
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 5,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q6": [
@@ -49909,21 +49894,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 28,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        712.68,
+        585.0,
+        817.29
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 6,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q7": [
@@ -49931,21 +49913,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 29,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        116.36,
+        585.0,
+        381.33
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 7,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q8": [
@@ -49953,43 +49932,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 29,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        501.7,
+        585.0,
+        649.84
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 8,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q9": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 29,
+      "page": 30,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        160.43
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 9,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q10": [
@@ -49997,21 +49970,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 30,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        280.79,
+        585.0,
+        360.21
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 10,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q11": [
@@ -50019,21 +49989,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 30,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        610.13,
+        585.0,
+        821.65
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 11,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q12": [
@@ -50041,21 +50008,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 31,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        130.36,
+        585.0,
+        186.1
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 12,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q13": [
@@ -50063,21 +50027,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 31,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        300.11,
+        585.0,
+        423.05
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 13,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q14": [
@@ -50085,21 +50046,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 31,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        543.41,
+        585.0,
+        600.68
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 14,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q15": [
@@ -50107,21 +50065,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 31,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        714.68,
+        585.0,
+        781.11
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 15,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q16": [
@@ -50129,21 +50084,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 32,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        82.0,
+        585.0,
+        164.47
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 16,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q17": [
@@ -50151,21 +50103,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 32,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        284.83,
+        585.0,
+        353.56
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 17,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q18": [
@@ -50173,21 +50122,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 32,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        467.56,
+        585.0,
+        558.43
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 18,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q19": [
@@ -50195,21 +50141,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 32,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        672.43,
+        585.0,
+        740.39
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 19,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q20": [
@@ -50217,21 +50160,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 33,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        40.0,
+        585.0,
+        199.59
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 20,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q21": [
@@ -50239,21 +50179,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 33,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        319.96,
+        585.0,
+        519.26
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 21,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q22": [
@@ -50261,21 +50198,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 33,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        639.62,
+        585.0,
+        729.73
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 22,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q23": [
@@ -50283,21 +50217,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 34,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        40.0,
+        585.0,
+        98.8
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 23,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q24": [
@@ -50305,21 +50236,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 34,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        212.8,
+        585.0,
+        401.41
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 24,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q25": [
@@ -50327,43 +50255,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 34,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        515.41,
+        585.0,
+        636.06
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 25,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q26": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 34,
+      "page": 35,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        152.8
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 26,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q27": [
@@ -50371,21 +50293,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 35,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        273.16,
+        585.0,
+        459.48
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 27,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q28": [
@@ -50393,21 +50312,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 35,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        579.84,
+        585.0,
+        740.2
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 28,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q29": [
@@ -50415,21 +50331,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 36,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        40.0,
+        585.0,
+        198.83
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 29,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q30": [
@@ -50437,21 +50350,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 36,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        319.2,
+        585.0,
+        400.14
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 30,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q31": [
@@ -50459,43 +50369,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 36,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        520.49,
+        585.0,
+        659.47
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 31,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q32": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 36,
+      "page": 37,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        269.63
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 32,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q33": [
@@ -50503,21 +50407,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 37,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        383.63,
+        585.0,
+        492.06
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 33,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q34": [
@@ -50525,43 +50426,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 37,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        612.42,
+        585.0,
+        713.22
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 34,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q35": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 37,
+      "page": 38,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        120.72
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 35,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q36": [
@@ -50569,43 +50464,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 38,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        283.08,
+        585.0,
+        629.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 36,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q37": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 38,
+      "page": 39,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        177.99
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 37,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q38": [
@@ -50613,21 +50502,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 39,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        298.35,
+        585.0,
+        451.43
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 38,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q39": [
@@ -50635,21 +50521,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 39,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        571.8,
+        585.0,
+        749.72
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 39,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q40": [
@@ -50657,21 +50540,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 40,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        59.09,
+        585.0,
+        211.81
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 40,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q41": [
@@ -50679,21 +50559,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 40,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        332.17,
+        585.0,
+        458.17
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 41,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q42": [
@@ -50701,43 +50578,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 40,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        578.54,
+        585.0,
+        664.06
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 42,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q43": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 40,
+      "page": 41,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        101.63
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 43,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q44": [
@@ -50745,21 +50616,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 41,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        215.63,
+        585.0,
+        520.31
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 44,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q45": [
@@ -50767,43 +50635,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 41,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        640.67,
+        585.0,
+        707.87
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 45,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q46": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 41,
+      "page": 42,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        145.16
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 46,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q47": [
@@ -50811,64 +50673,56 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 42,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        265.52,
+        585.0,
+        532.78
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 47,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q48": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 42,
+      "page": 43,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        232.21
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 48,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q49": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 43,
+      "page": 44,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        523.15
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 49,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q50": [
@@ -50876,20 +50730,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 44,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        643.51,
+        585.0,
+        771.03
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 50,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q51": [
@@ -50897,20 +50749,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 45,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        78.18,
+        585.0,
+        599.73
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 51,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q52": [
@@ -50918,20 +50768,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 46,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        448.31
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 52,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q53": [
@@ -50939,21 +50787,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 47,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        284.9
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 53,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q54": [
@@ -50961,21 +50806,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 47,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        398.9,
+        585.0,
+        663.87
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 54,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q55": [
@@ -50983,21 +50825,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 48,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        85.6
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 55,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q56": [
@@ -51005,21 +50844,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 48,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        199.6,
+        585.0,
+        353.85
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 56,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q57": [
@@ -51027,21 +50863,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 48,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        474.21,
+        585.0,
+        634.57
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 57,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q58": [
@@ -51049,21 +50882,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 48,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        748.56,
+        585.0,
+        821.87
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 58,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q59": [
@@ -51071,21 +50901,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 49,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        124.0,
+        585.0,
+        196.54
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 59,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q60": [
@@ -51093,21 +50920,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 49,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        310.54,
+        585.0,
+        519.01
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 60,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q61": [
@@ -51115,21 +50939,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 49,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        639.37,
+        585.0,
+        781.4
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 61,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q62": [
@@ -51137,21 +50958,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 50,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        97.27,
+        585.0,
+        221.74
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 62,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q63": [
@@ -51159,21 +50977,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 50,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        342.1,
+        585.0,
+        460.46
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 63,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q64": [
@@ -51181,21 +50996,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 50,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        580.82,
+        585.0,
+        692.31
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 64,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S2-Q65": [
@@ -51203,20 +51015,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 51,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        111.56
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 65,
+      "review_audit": "audits/crops-CS-2015-S2.json"
     }
   ],
   "CS-2015-S3-Q1": [
@@ -51224,21 +51034,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 53,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        389.74,
+        585.0,
+        455.41
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 1,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q2": [
@@ -51246,43 +51053,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 53,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        575.78,
+        585.0,
+        667.41
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 2,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q3": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 53,
+      "page": 54,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        103.16
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 3,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q4": [
@@ -51290,21 +51091,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 54,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        223.53,
+        585.0,
+        315.16
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 4,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q5": [
@@ -51312,21 +51110,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 54,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        435.52,
+        585.0,
+        488.21
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 5,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q6": [
@@ -51334,21 +51129,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 54,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        650.56,
+        585.0,
+        806.34
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 6,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q7": [
@@ -51356,21 +51148,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 55,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        116.36,
+        585.0,
+        333.23
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 7,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q8": [
@@ -51378,21 +51167,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 55,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        453.59,
+        585.0,
+        797.98
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 8,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q9": [
@@ -51400,21 +51186,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 56,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        96.0,
+        585.0,
+        291.48
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 9,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q10": [
@@ -51422,21 +51205,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 56,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        411.85,
+        585.0,
+        592.06
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 10,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q11": [
@@ -51444,21 +51224,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 57,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        24.0,
+        585.0,
+        255.37
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 11,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q12": [
@@ -51466,21 +51243,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 57,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        375.74,
+        585.0,
+        500.97
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 12,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q13": [
@@ -51488,21 +51262,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 57,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        621.33,
+        585.0,
+        786.27
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 13,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q14": [
@@ -51510,21 +51281,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 58,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        97.27,
+        585.0,
+        167.52
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 14,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q15": [
@@ -51532,21 +51300,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 58,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        287.89,
+        585.0,
+        416.94
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 15,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q16": [
@@ -51554,21 +51319,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 58,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        537.29,
+        585.0,
+        781.65
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 16,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q17": [
@@ -51576,21 +51338,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 59,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        97.27,
+        585.0,
+        327.12
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 17,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q18": [
@@ -51598,43 +51357,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 59,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        441.12,
+        585.0,
+        648.82
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 18,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q19": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 59,
+      "page": 60,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        165.01
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 19,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q20": [
@@ -51642,21 +51395,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 60,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        285.37,
+        585.0,
+        512.93
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 20,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q21": [
@@ -51664,43 +51414,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 60,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        633.29,
+        585.0,
+        679.11
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 21,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q22": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 60,
+      "page": 61,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        60.4
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 22,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q23": [
@@ -51708,21 +51452,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 61,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        174.4,
+        585.0,
+        324.07
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 23,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q24": [
@@ -51730,21 +51471,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 61,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        444.42,
+        585.0,
+        526.13
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 24,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q25": [
@@ -51752,43 +51490,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 61,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        646.49,
+        585.0,
+        699.18
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 25,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q26": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 61,
+      "page": 62,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        194.03
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 26,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q27": [
@@ -51796,21 +51528,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 62,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        314.39,
+        585.0,
+        392.28
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 27,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q28": [
@@ -51818,43 +51547,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 62,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        512.64,
+        585.0,
+        592.06
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 28,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q29": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 62,
+      "page": 63,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        261.23
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 29,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q30": [
@@ -51862,43 +51585,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 63,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        381.59,
+        585.0,
+        496.9
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 30,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q31": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 63,
+      "page": 64,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        377.3
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 31,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q32": [
@@ -51906,21 +51623,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 64,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        497.66,
+        585.0,
+        567.91
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 32,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q33": [
@@ -51928,21 +51642,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 64,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        688.27,
+        585.0,
+        769.98
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 33,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q34": [
@@ -51950,21 +51661,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 65,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        68.0,
+        585.0,
+        180.25
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 34,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q35": [
@@ -51972,21 +51680,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 65,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        300.61,
+        585.0,
+        393.07
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 35,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q36": [
@@ -51994,43 +51699,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 65,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        555.43,
+        585.0,
+        694.41
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 36,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q37": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 65,
+      "page": 66,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        100.87
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 37,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q38": [
@@ -52038,21 +51737,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 66,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        221.23,
+        585.0,
+        441.15
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 38,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q39": [
@@ -52060,43 +51756,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 66,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        561.51,
+        585.0,
+        620.31
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 39,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q40": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 66,
+      "page": 67,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        229.92
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 40,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q41": [
@@ -52104,43 +51794,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 67,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        350.29,
+        585.0,
+        554.17
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 41,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q42": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 67,
+      "page": 68,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        339.88
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 42,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q43": [
@@ -52148,43 +51832,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 68,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        453.88,
+        585.0,
+        663.11
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 43,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q44": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 68,
+      "page": 69,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        141.34
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 44,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q45": [
@@ -52192,21 +51870,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 69,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        261.7,
+        585.0,
+        542.71
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 45,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q46": [
@@ -52214,43 +51889,37 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 69,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        663.08,
+        585.0,
+        710.42
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 46,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q47": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 69,
+      "page": 70,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        119.96
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 47,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q48": [
@@ -52258,64 +51927,56 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 70,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        233.96,
+        585.0,
+        388.97
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 48,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q49": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 70,
+      "page": 71,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        405.55
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 49,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q50": [
     {
       "file": "sources/archive/CS/CS2015.pdf",
-      "page": 71,
+      "page": 72,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        479.62
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 50,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q51": [
@@ -52323,21 +51984,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 73,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        384.17
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 51,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q52": [
@@ -52345,21 +52003,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 73,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        504.53,
+        585.0,
+        726.74
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 52,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q53": [
@@ -52367,21 +52022,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 74,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        40.0,
+        585.0,
+        382.1
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 53,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q54": [
@@ -52389,21 +52041,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 74,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        496.1,
+        585.0,
+        724.42
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 54,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q55": [
@@ -52411,21 +52060,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 75,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        24.0,
+        585.0,
+        93.49
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 55,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q56": [
@@ -52433,21 +52079,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 75,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        207.49,
+        585.0,
+        302.94
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 56,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q57": [
@@ -52455,21 +52098,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 75,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        416.94,
+        585.0,
+        629.22
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 57,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q58": [
@@ -52477,21 +52117,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 76,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        624.71
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 58,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q59": [
@@ -52499,21 +52136,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 76,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        745.07,
+        585.0,
+        799.29
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 59,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q60": [
@@ -52521,21 +52155,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 77,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        96.0,
+        585.0,
+        186.11
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 60,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q61": [
@@ -52543,21 +52174,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 77,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        306.47,
+        585.0,
+        380.54
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 61,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q62": [
@@ -52565,21 +52193,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 77,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        494.53,
+        585.0,
+        548.75
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 62,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q63": [
@@ -52587,21 +52212,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 78,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        232.21
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 63,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q64": [
@@ -52609,21 +52231,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 78,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        346.21,
+        585.0,
+        537.88
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 64,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2015-S3-Q65": [
@@ -52631,20 +52250,18 @@
       "file": "sources/archive/CS/CS2015.pdf",
       "page": 79,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        10.0,
+        585.0,
+        219.99
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+      "printed_question_number": 65,
+      "review_audit": "audits/crops-CS-2015-S3.json"
     }
   ],
   "CS-2016-S1-Q1": [
@@ -56617,21 +56234,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 23,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        110.57000732421875,
+        585.0,
+        187.69000244140625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 56,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q2": [
@@ -56639,21 +56255,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 23,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        295.25,
+        585.0,
+        353.8800048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 57,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q3": [
@@ -56661,21 +56276,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 23,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        461.4399719238281,
+        585.0,
+        547.3399658203125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 58,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q4": [
@@ -56683,21 +56297,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 23,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        645.9000244140625,
+        585.0,
+        733.2000122070312
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 59,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q5": [
@@ -56705,21 +56318,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 24,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        81.0,
+        585.0,
+        158.94000244140625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 60,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q6": [
@@ -56727,21 +56339,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 24,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        233.51002502441406,
+        585.0,
+        355.7400207519531
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 61,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q7": [
@@ -56749,21 +56360,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 24,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        417.29998779296875,
+        585.0,
+        538.010009765625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 62,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q8": [
@@ -56771,21 +56381,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 24,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        599.5799560546875,
+        585.0,
+        673.8399658203125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 63,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q9": [
@@ -56793,21 +56402,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 24,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        735.4099731445312,
+        585.0,
+        799.5499877929688
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 64,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q10": [
@@ -56815,20 +56423,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 25,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        77.56002807617188,
+        585.0,
+        416.3900146484375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 65,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q11": [
@@ -56836,20 +56444,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 2,
       "bbox": [
-        0,
-        37.5,
-        595.0,
-        842.0
+        9.599456787109375,
+        73.93231201171875,
+        584.5994873046875,
+        148.06231689453125
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 1,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q12": [
@@ -56857,21 +56465,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        204.56002807617188,
+        585.0,
+        441.21002197265625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 2,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q13": [
@@ -56879,21 +56486,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 2,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        506.7699890136719,
+        585.0,
+        806.8699951171875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 3,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q14": [
@@ -56901,21 +56507,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        76.0,
+        585.0,
+        232.82000732421875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 4,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q15": [
@@ -56923,21 +56528,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        302.3900451660156,
+        585.0,
+        565.7900390625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 5,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q16": [
@@ -56945,21 +56549,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 3,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        646.3499755859375,
+        585.0,
+        793.75
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 6,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q17": [
@@ -56967,21 +56570,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        76.99998474121094,
+        585.0,
+        225.47998046875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 7,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q18": [
@@ -56989,21 +56591,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        319.0500183105469,
+        585.0,
+        449.21002197265625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 8,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q19": [
@@ -57011,21 +56612,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 4,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        548.77001953125,
+        585.0,
+        778.6400146484375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 9,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q20": [
@@ -57033,21 +56633,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        44.000030517578125,
+        585.0,
+        189.72003173828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 10,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q21": [
@@ -57055,21 +56654,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        251.2899932861328,
+        585.0,
+        354.67999267578125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 11,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q22": [
@@ -57077,21 +56675,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        416.25,
+        585.0,
+        569.22998046875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 12,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q23": [
@@ -57099,21 +56696,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 5,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        630.7900390625,
+        585.0,
+        816.8800048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 13,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q24": [
@@ -57121,21 +56717,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        90.57000732421875,
+        585.0,
+        366.2300109863281
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 14,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q25": [
@@ -57143,21 +56738,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 6,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        499.78997802734375,
+        585.0,
+        743.9299926757812
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 15,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q26": [
@@ -57165,21 +56759,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.921234130859375,
+        74.6160888671875,
+        585.9212646484375,
+        227.6160888671875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 16,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q27": [
@@ -57187,21 +56780,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        315.57000732421875,
+        585.0,
+        487.0
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 17,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q28": [
@@ -57209,21 +56801,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 7,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        586.56005859375,
+        585.0,
+        787.4100341796875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 18,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q29": [
@@ -57231,21 +56822,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        96.00003051757812,
+        585.0,
+        389.46002197265625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 19,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q30": [
@@ -57253,21 +56843,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 8,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        505.0200500488281,
+        585.0,
+        555.1700439453125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 20,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q31": [
@@ -57275,21 +56864,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        64.00003051757812,
+        585.0,
+        460.21002197265625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 21,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q32": [
@@ -57297,21 +56885,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        547.77001953125,
+        585.0,
+        666.1300048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 22,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q33": [
@@ -57319,21 +56906,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 9,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        741.6900024414062,
+        585.0,
+        791.0499877929688
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 23,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q34": [
@@ -57341,21 +56927,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        75.56004333496094,
+        585.0,
+        120.85003662109375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 24,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q35": [
@@ -57363,21 +56948,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        220.41001892089844,
+        585.0,
+        266.71002197265625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 25,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q36": [
@@ -57385,21 +56969,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        377.27996826171875,
+        585.0,
+        535.8499755859375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 26,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q37": [
@@ -57407,21 +56990,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 10,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        666.4100341796875,
+        585.0,
+        805.3900146484375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 27,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q38": [
@@ -57429,21 +57011,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        99.56999206542969,
+        585.0,
+        220.54998779296875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 28,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q39": [
@@ -57451,21 +57032,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        340.1099853515625,
+        585.0,
+        461.3699951171875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 29,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q40": [
@@ -57473,21 +57053,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 11,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        585.9300537109375,
+        585.0,
+        731.780029296875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 30,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q41": [
@@ -57495,21 +57074,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 12,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        77.00003051757812,
+        585.0,
+        341.8600158691406
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 31,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q42": [
@@ -57517,21 +57095,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 12,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        438.41998291015625,
+        585.0,
+        792.0899658203125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 32,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q43": [
@@ -57539,21 +57116,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        65.0,
+        585.0,
+        271.07000732421875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 33,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q44": [
@@ -57561,21 +57137,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        354.6400146484375,
+        585.0,
+        536.3200073242188
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 34,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q45": [
@@ -57583,21 +57158,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 13,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        624.8800048828125,
+        585.0,
+        816.0800170898438
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 35,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q46": [
@@ -57605,21 +57179,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        65.0,
+        585.0,
+        154.1300048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 36,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q47": [
@@ -57627,21 +57200,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        205.69003295898438,
+        585.0,
+        509.83001708984375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 37,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q48": [
@@ -57649,21 +57221,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 14,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        559.4000244140625,
+        585.0,
+        825.4200439453125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 38,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q49": [
@@ -57671,20 +57242,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 15,
       "bbox": [
-        0,
-        47.24,
-        595.0,
-        842.0
+        10.0,
+        95.55999755859375,
+        585.0,
+        333.30999755859375
       ],
-      "status": "draft",
-      "method": "text_marker_candidate",
-      "number_detected": true,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 39,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q50": [
@@ -57692,21 +57263,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 15,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        488.8700256347656,
+        585.0,
+        761.5800170898438
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 40,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q51": [
@@ -57714,21 +57284,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 16,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        106.0,
+        585.0,
+        281.8800048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 41,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q52": [
@@ -57736,21 +57305,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 16,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        417.4400329589844,
+        585.0,
+        735.77001953125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 42,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q53": [
@@ -57758,20 +57326,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 17,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        94.00003051757812,
+        585.0,
+        584.52001953125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 43,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q54": [
@@ -57779,21 +57347,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 18,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        12.763717651367188,
+        77.56900024414062,
+        587.7637329101562,
+        219.66900634765625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 44,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q55": [
@@ -57801,21 +57368,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 18,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        345.55999755859375,
+        585.0,
+        595.6799926757812
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 45,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q56": [
@@ -57823,21 +57389,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 19,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        80.0,
+        585.0,
+        648.1300048828125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 46,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q57": [
@@ -57845,21 +57410,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 19,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        730.68994140625,
+        585.0,
+        793.5399169921875
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 47,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q58": [
@@ -57867,21 +57431,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 20,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        92.56999206542969,
+        585.0,
+        138.989990234375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 48,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q59": [
@@ -57889,21 +57452,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 20,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        242.5500030517578,
+        585.0,
+        288.30999755859375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 49,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q60": [
@@ -57911,21 +57473,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 20,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        391.8700256347656,
+        585.0,
+        617.27001953125
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 50,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q61": [
@@ -57933,21 +57494,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 21,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        98.00003051757812,
+        585.0,
+        310.4000244140625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 51,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q62": [
@@ -57955,21 +57515,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 21,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        428.9599914550781,
+        585.0,
+        497.1499938964844
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 52,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q63": [
@@ -57977,21 +57536,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 21,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        607.7099609375,
+        585.0,
+        668.0599365234375
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 53,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q64": [
@@ -57999,21 +57557,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 22,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        92.0,
+        585.0,
+        411.19000244140625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 54,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2017-S2-Q65": [
@@ -58021,21 +57578,20 @@
       "file": "sources/archive/CS/CS2-2017.pdf",
       "page": 22,
       "bbox": [
-        0.0,
-        0.0,
-        595.0,
-        842.0
+        10.0,
+        532.75,
+        585.0,
+        779.4000244140625
       ],
-      "status": "draft",
-      "method": "page_fallback",
-      "number_detected": false,
-      "flags": [
-        "visual_review_required",
-        "header_footer_unreviewed",
-        "figure_completeness_unreviewed",
-        "full_page_fallback",
-        "overlap_review_required"
-      ]
+      "status": "verified",
+      "method": "source_question_body_image_region",
+      "review_status": "independent_source_bounds_review_passed",
+      "flags": [],
+      "source_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+      "printed_question_number": 55,
+      "number_in_crop": false,
+      "number_mapping": "External printed header excluded with scoring; CS printed 1–55 maps to normalized Q11–Q65, GA printed 56–65 maps to normalized Q1–Q10.",
+      "review_audit": "audits/crops-CS-2017-S2.json"
     }
   ],
   "CS-2018-Q1": [

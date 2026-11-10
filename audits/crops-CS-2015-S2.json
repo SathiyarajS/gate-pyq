@@ -1,0 +1,2432 @@
+{
+  "paper_id": "CS-2015-S2",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "8d232367a5a29e55927ca155b9e1564860ae832aaf5406aed84c734b84b7c6c8",
+  "preparation_evidence_sha256": "40cccd86a4f09222ab4972a93616c37acb5a216439a07c361a0361a456fe98fa",
+  "independent_review_evidence_sha256": "676b32f4ae555636ed7b2ca0fdc7f2d3709dc09600a71fb906f519e6b40a80a7",
+  "questions": 65,
+  "crop_parts": 65,
+  "verified_questions": 65,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2015-S2",
+    "status": "independent_visual_review_passed",
+    "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+    "crops_sha256": "8d232367a5a29e55927ca155b9e1564860ae832aaf5406aed84c734b84b7c6c8",
+    "preparer_audit_sha256": "40cccd86a4f09222ab4972a93616c37acb5a216439a07c361a0361a456fe98fa",
+    "question_count": 65,
+    "crop_parts": 65,
+    "source_pages_visually_inspected": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "source_question_pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "outputs": [
+      {
+        "question_id": "CS-2015-S2-Q1",
+        "page": 27,
+        "bbox": [
+          10.0,
+          389.74,
+          585.0,
+          501.23
+        ],
+        "file": "images/CS-2015-S2-Q1-1.webp",
+        "dimensions_px": [
+          1725,
+          335
+        ],
+        "output_sha256": "9911b505dfaa70503aa7042b5d0047f6bdb4fe62dad2d945a18c000b9cb8e1b8",
+        "header": {
+          "page": 27,
+          "bbox": [
+            12.0,
+            377.47998046875,
+            202.00001525878906,
+            390.80999755859375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          146
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q2",
+        "page": 27,
+        "bbox": [
+          10.0,
+          621.59,
+          585.0,
+          714.75
+        ],
+        "file": "images/CS-2015-S2-Q2-1.webp",
+        "dimensions_px": [
+          1725,
+          281
+        ],
+        "output_sha256": "010ec8f6ed7e95c3f86eb0cb97e29abcfff4cfcbb2b529fc6e86647a85bfa277",
+        "header": {
+          "page": 27,
+          "bbox": [
+            12.0,
+            609.3299560546875,
+            202.00001525878906,
+            622.6599731445312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          122
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q3",
+        "page": 28,
+        "bbox": [
+          10.0,
+          24.0,
+          585.0,
+          72.87
+        ],
+        "file": "images/CS-2015-S2-Q3-1.webp",
+        "dimensions_px": [
+          1725,
+          147
+        ],
+        "output_sha256": "c05bfbda83daf3a228ff004ea6e6c38f8679146fd1b8f7d34907a5ce7b96ccf1",
+        "header": {
+          "page": 28,
+          "bbox": [
+            12.0,
+            11.739999771118164,
+            202.00001525878906,
+            25.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          64
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q4",
+        "page": 28,
+        "bbox": [
+          10.0,
+          193.23,
+          585.0,
+          365.81
+        ],
+        "file": "images/CS-2015-S2-Q4-1.webp",
+        "dimensions_px": [
+          1725,
+          519
+        ],
+        "output_sha256": "ca4323e2814b8f4cb9301ccdf6369fb2c20afd6febe36165819fd3be4e332c25",
+        "header": {
+          "page": 28,
+          "bbox": [
+            12.0,
+            180.96998596191406,
+            202.00001525878906,
+            194.29998779296875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          226
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q5",
+        "page": 28,
+        "bbox": [
+          10.0,
+          486.17,
+          585.0,
+          550.31
+        ],
+        "file": "images/CS-2015-S2-Q5-1.webp",
+        "dimensions_px": [
+          1725,
+          193
+        ],
+        "output_sha256": "2d56a5a6e2afff94570a8011149532cc6bf214d1d5d9fbba53e15c69b2e7972b",
+        "header": {
+          "page": 28,
+          "bbox": [
+            12.0,
+            473.9100036621094,
+            202.00001525878906,
+            487.2400207519531
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          84
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q6",
+        "page": 28,
+        "bbox": [
+          10.0,
+          712.68,
+          585.0,
+          817.29
+        ],
+        "file": "images/CS-2015-S2-Q6-1.webp",
+        "dimensions_px": [
+          1725,
+          314
+        ],
+        "output_sha256": "5fa8ec7b248af5e956a466db462a6efa6c1636fbf8882d93f4ade7400734fd8f",
+        "header": {
+          "page": 28,
+          "bbox": [
+            12.0,
+            700.4099731445312,
+            202.00001525878906,
+            713.739990234375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          137
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q7",
+        "page": 29,
+        "bbox": [
+          10.0,
+          116.36,
+          585.0,
+          381.33
+        ],
+        "file": "images/CS-2015-S2-Q7-1.webp",
+        "dimensions_px": [
+          1725,
+          795
+        ],
+        "output_sha256": "6d311e9e3355b1fcfbb559ddf56ebf16f2271028cb4e309f0c18382b44a91ae0",
+        "header": {
+          "page": 29,
+          "bbox": [
+            12.0,
+            104.09998321533203,
+            202.00001525878906,
+            117.42998504638672
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          347
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q8",
+        "page": 29,
+        "bbox": [
+          10.0,
+          501.7,
+          585.0,
+          649.84
+        ],
+        "file": "images/CS-2015-S2-Q8-1.webp",
+        "dimensions_px": [
+          1725,
+          445
+        ],
+        "output_sha256": "625716aff1a0f6068b0f9894619481b87ce84def4ab39d55dd082d2da059177b",
+        "header": {
+          "page": 29,
+          "bbox": [
+            12.0,
+            489.44000244140625,
+            198.6699981689453,
+            502.77001953125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          194
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q9",
+        "page": 30,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          160.43
+        ],
+        "file": "images/CS-2015-S2-Q9-1.webp",
+        "dimensions_px": [
+          1725,
+          452
+        ],
+        "output_sha256": "fb28fb072704c46e35979dd0f6dd9a7bc52f4f4da78db48cfe4515a5d4e7358d",
+        "header": {
+          "page": 29,
+          "bbox": [
+            12.0,
+            751.5799560546875,
+            202.00001525878906,
+            764.9099731445312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          197
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q10",
+        "page": 30,
+        "bbox": [
+          10.0,
+          280.79,
+          585.0,
+          360.21
+        ],
+        "file": "images/CS-2015-S2-Q10-1.webp",
+        "dimensions_px": [
+          1725,
+          239
+        ],
+        "output_sha256": "651fe6736a0aaeaeb4d5a0b030aa70894eebb89c085cc70bff111d04831e9337",
+        "header": {
+          "page": 30,
+          "bbox": [
+            12.0,
+            268.52996826171875,
+            207.0,
+            281.8599853515625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          104
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q11",
+        "page": 30,
+        "bbox": [
+          10.0,
+          610.13,
+          585.0,
+          821.65
+        ],
+        "file": "images/CS-2015-S2-Q11-1.webp",
+        "dimensions_px": [
+          1725,
+          635
+        ],
+        "output_sha256": "25f816d3215d6a50b11664203979ad2e0da593963ec40c63dccdbc416e41d32d",
+        "header": {
+          "page": 30,
+          "bbox": [
+            12.0,
+            597.8699951171875,
+            207.0,
+            611.2000122070312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          277
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q12",
+        "page": 31,
+        "bbox": [
+          10.0,
+          130.36,
+          585.0,
+          186.1
+        ],
+        "file": "images/CS-2015-S2-Q12-1.webp",
+        "dimensions_px": [
+          1725,
+          168
+        ],
+        "output_sha256": "be01c7990eb636fce57bc70cf5c0e6683b576211ba855bb8eebad8524a4a80b3",
+        "header": {
+          "page": 31,
+          "bbox": [
+            12.0,
+            118.09998321533203,
+            203.6699981689453,
+            131.42999267578125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          73
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q13",
+        "page": 31,
+        "bbox": [
+          10.0,
+          300.11,
+          585.0,
+          423.05
+        ],
+        "file": "images/CS-2015-S2-Q13-1.webp",
+        "dimensions_px": [
+          1725,
+          370
+        ],
+        "output_sha256": "6dc1141a4deab03dcd0aea4408b21785b4c77e14d17f4791699209e42511fb99",
+        "header": {
+          "page": 31,
+          "bbox": [
+            12.0,
+            287.8399658203125,
+            207.0,
+            301.16998291015625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          161
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q14",
+        "page": 31,
+        "bbox": [
+          10.0,
+          543.41,
+          585.0,
+          600.68
+        ],
+        "file": "images/CS-2015-S2-Q14-1.webp",
+        "dimensions_px": [
+          1725,
+          173
+        ],
+        "output_sha256": "8440c4db5ea6c7c6013a995d47b151f226d44aeddf136af5ccdff523a65ce8bc",
+        "header": {
+          "page": 31,
+          "bbox": [
+            12.0,
+            531.1500244140625,
+            203.6699981689453,
+            544.4800415039062
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          75
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q15",
+        "page": 31,
+        "bbox": [
+          10.0,
+          714.68,
+          585.0,
+          781.11
+        ],
+        "file": "images/CS-2015-S2-Q15-1.webp",
+        "dimensions_px": [
+          1725,
+          200
+        ],
+        "output_sha256": "2a5ce3fe72bec3d56ef940775043f97f5887d097cb5dcd5cf9f9e80f03814d5a",
+        "header": {
+          "page": 31,
+          "bbox": [
+            12.0,
+            702.4199829101562,
+            203.6699981689453,
+            715.75
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          87
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q16",
+        "page": 32,
+        "bbox": [
+          10.0,
+          82.0,
+          585.0,
+          164.47
+        ],
+        "file": "images/CS-2015-S2-Q16-1.webp",
+        "dimensions_px": [
+          1725,
+          248
+        ],
+        "output_sha256": "2699cfac3806dece638953f1246bd10fa7071a7ad35b995a590762ab9c7b334e",
+        "header": {
+          "page": 32,
+          "bbox": [
+            12.0,
+            69.73999786376953,
+            207.0,
+            83.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          108
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q17",
+        "page": 32,
+        "bbox": [
+          10.0,
+          284.83,
+          585.0,
+          353.56
+        ],
+        "file": "images/CS-2015-S2-Q17-1.webp",
+        "dimensions_px": [
+          1725,
+          207
+        ],
+        "output_sha256": "18bfb05a3b25f5c57ffa8329b84408794bac695edb5037f3f3c8ed3d107862cf",
+        "header": {
+          "page": 32,
+          "bbox": [
+            12.0,
+            272.57000732421875,
+            203.6699981689453,
+            285.9000244140625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          90
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q18",
+        "page": 32,
+        "bbox": [
+          10.0,
+          467.56,
+          585.0,
+          558.43
+        ],
+        "file": "images/CS-2015-S2-Q18-1.webp",
+        "dimensions_px": [
+          1725,
+          274
+        ],
+        "output_sha256": "dd2984c638d004b68b276ac2c294b658cf846cc1c828119350b02be7c768c80b",
+        "header": {
+          "page": 32,
+          "bbox": [
+            12.0,
+            455.29998779296875,
+            203.6699981689453,
+            468.6300048828125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          119
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q19",
+        "page": 32,
+        "bbox": [
+          10.0,
+          672.43,
+          585.0,
+          740.39
+        ],
+        "file": "images/CS-2015-S2-Q19-1.webp",
+        "dimensions_px": [
+          1725,
+          205
+        ],
+        "output_sha256": "c444327f4927a7c10b2252ed588a677c8376f7c1fb8a8d44e63c0c622f28900c",
+        "header": {
+          "page": 32,
+          "bbox": [
+            12.0,
+            660.1699829101562,
+            203.6699981689453,
+            673.5
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          89
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q20",
+        "page": 33,
+        "bbox": [
+          10.0,
+          40.0,
+          585.0,
+          199.59
+        ],
+        "file": "images/CS-2015-S2-Q20-1.webp",
+        "dimensions_px": [
+          1725,
+          479
+        ],
+        "output_sha256": "c0da3dfd7af716ed664d40c324f998a46f3a7c914c952a5ee1cfd44f8d068da5",
+        "header": {
+          "page": 33,
+          "bbox": [
+            12.0,
+            27.739999771118164,
+            207.0,
+            41.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          209
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q21",
+        "page": 33,
+        "bbox": [
+          10.0,
+          319.96,
+          585.0,
+          519.26
+        ],
+        "file": "images/CS-2015-S2-Q21-1.webp",
+        "dimensions_px": [
+          1725,
+          599
+        ],
+        "output_sha256": "c24188cb69720f4d2c070aaadb491b2a17bff5fcbff858c15dd8e9f59f7c06a3",
+        "header": {
+          "page": 33,
+          "bbox": [
+            12.0,
+            307.70001220703125,
+            207.0,
+            321.030029296875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          261
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q22",
+        "page": 33,
+        "bbox": [
+          10.0,
+          639.62,
+          585.0,
+          729.73
+        ],
+        "file": "images/CS-2015-S2-Q22-1.webp",
+        "dimensions_px": [
+          1725,
+          272
+        ],
+        "output_sha256": "4bac1df6ed6135ff16134b8fd7eefc4d1885d3bdd1ddcaa578a5e8f389098c64",
+        "header": {
+          "page": 33,
+          "bbox": [
+            12.0,
+            627.3599853515625,
+            207.0,
+            640.6900024414062
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          118
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q23",
+        "page": 34,
+        "bbox": [
+          10.0,
+          40.0,
+          585.0,
+          98.8
+        ],
+        "file": "images/CS-2015-S2-Q23-1.webp",
+        "dimensions_px": [
+          1725,
+          177
+        ],
+        "output_sha256": "94964513d0a9f9087a60dc673397e2f13de3f7ed1b52a63641caa256a22d34f6",
+        "header": {
+          "page": 34,
+          "bbox": [
+            12.0,
+            27.739999771118164,
+            203.6699981689453,
+            41.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          77
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q24",
+        "page": 34,
+        "bbox": [
+          10.0,
+          212.8,
+          585.0,
+          401.41
+        ],
+        "file": "images/CS-2015-S2-Q24-1.webp",
+        "dimensions_px": [
+          1725,
+          567
+        ],
+        "output_sha256": "f9a95cf6b818250fd5ed9878353cc996daf14867c0ef67f8f011549523ed39b4",
+        "header": {
+          "page": 34,
+          "bbox": [
+            12.0,
+            200.5399932861328,
+            203.6699981689453,
+            213.8699951171875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          247
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q25",
+        "page": 34,
+        "bbox": [
+          10.0,
+          515.41,
+          585.0,
+          636.06
+        ],
+        "file": "images/CS-2015-S2-Q25-1.webp",
+        "dimensions_px": [
+          1725,
+          363
+        ],
+        "output_sha256": "5e96725c07da7914e3da5ed9d643a5b81f297f7a659a6977dc94e74f3480f7fa",
+        "header": {
+          "page": 34,
+          "bbox": [
+            12.0,
+            503.1500244140625,
+            207.0,
+            516.4800415039062
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          158
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q26",
+        "page": 35,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          152.8
+        ],
+        "file": "images/CS-2015-S2-Q26-1.webp",
+        "dimensions_px": [
+          1725,
+          429
+        ],
+        "output_sha256": "ab692af2dae81d778f63d41d7de662781d6ca2cef7a0e32968f5f2b634756042",
+        "header": {
+          "page": 34,
+          "bbox": [
+            12.0,
+            744.1599731445312,
+            207.0,
+            757.489990234375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          187
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q27",
+        "page": 35,
+        "bbox": [
+          10.0,
+          273.16,
+          585.0,
+          459.48
+        ],
+        "file": "images/CS-2015-S2-Q27-1.webp",
+        "dimensions_px": [
+          1725,
+          560
+        ],
+        "output_sha256": "97356350bb26e9a06e24f46527cd24866f73d91dd8d47152b9a9024a545bfbf7",
+        "header": {
+          "page": 35,
+          "bbox": [
+            12.0,
+            260.89996337890625,
+            207.0,
+            274.22998046875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          244
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q28",
+        "page": 35,
+        "bbox": [
+          10.0,
+          579.84,
+          585.0,
+          740.2
+        ],
+        "file": "images/CS-2015-S2-Q28-1.webp",
+        "dimensions_px": [
+          1725,
+          482
+        ],
+        "output_sha256": "14419f34324c8bf93635fa1df4b6835afab3a652207394118ba152cbd5c5d1e9",
+        "header": {
+          "page": 35,
+          "bbox": [
+            12.0,
+            567.5799560546875,
+            207.0,
+            580.9099731445312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          210
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q29",
+        "page": 36,
+        "bbox": [
+          10.0,
+          40.0,
+          585.0,
+          198.83
+        ],
+        "file": "images/CS-2015-S2-Q29-1.webp",
+        "dimensions_px": [
+          1725,
+          477
+        ],
+        "output_sha256": "9f935b81bcede4fadb2933fca0552de48bd589bd842e27b94f055e361ad283e8",
+        "header": {
+          "page": 36,
+          "bbox": [
+            12.0,
+            27.739999771118164,
+            207.0,
+            41.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          208
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q30",
+        "page": 36,
+        "bbox": [
+          10.0,
+          319.2,
+          585.0,
+          400.14
+        ],
+        "file": "images/CS-2015-S2-Q30-1.webp",
+        "dimensions_px": [
+          1725,
+          244
+        ],
+        "output_sha256": "82c0023481fa6656b8e7197532c324638405435db7933343a67b48c20fee4d5f",
+        "header": {
+          "page": 36,
+          "bbox": [
+            12.0,
+            306.92999267578125,
+            207.0,
+            320.260009765625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          106
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q31",
+        "page": 36,
+        "bbox": [
+          10.0,
+          520.49,
+          585.0,
+          659.47
+        ],
+        "file": "images/CS-2015-S2-Q31-1.webp",
+        "dimensions_px": [
+          1725,
+          418
+        ],
+        "output_sha256": "2a4f9bd01ba8eee8bde4f47b246b70367fff9b9c4682dddf58303f125f299fef",
+        "header": {
+          "page": 36,
+          "bbox": [
+            12.0,
+            508.239990234375,
+            207.0,
+            521.5700073242188
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          182
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q32",
+        "page": 37,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          269.63
+        ],
+        "file": "images/CS-2015-S2-Q32-1.webp",
+        "dimensions_px": [
+          1725,
+          779
+        ],
+        "output_sha256": "ca560aef955c698dabbdecf5ade5406eb7803885b6cbfb3ff3db89fe0cef7c3c",
+        "header": {
+          "page": 36,
+          "bbox": [
+            12.0,
+            767.5799560546875,
+            203.6699981689453,
+            780.9099731445312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          340
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q33",
+        "page": 37,
+        "bbox": [
+          10.0,
+          383.63,
+          585.0,
+          492.06
+        ],
+        "file": "images/CS-2015-S2-Q33-1.webp",
+        "dimensions_px": [
+          1725,
+          327
+        ],
+        "output_sha256": "968c97377005f95fae2f0857c20c5fa9ad3dcc4ba0815b603c5263f3caaa4276",
+        "header": {
+          "page": 37,
+          "bbox": [
+            12.0,
+            371.3699951171875,
+            207.0,
+            384.70001220703125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          142
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q34",
+        "page": 37,
+        "bbox": [
+          10.0,
+          612.42,
+          585.0,
+          713.22
+        ],
+        "file": "images/CS-2015-S2-Q34-1.webp",
+        "dimensions_px": [
+          1725,
+          303
+        ],
+        "output_sha256": "459ac1b9893e042f0df6fa03d92d916da394a5d4b52851760cc8a5065dca15bb",
+        "header": {
+          "page": 37,
+          "bbox": [
+            12.0,
+            600.1599731445312,
+            203.6699981689453,
+            613.489990234375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          132
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q35",
+        "page": 38,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          120.72
+        ],
+        "file": "images/CS-2015-S2-Q35-1.webp",
+        "dimensions_px": [
+          1725,
+          333
+        ],
+        "output_sha256": "f8f450ac08a94390d5ed3e13fbcf6b6685b71ddfe564fd1a9df05a7d354134f0",
+        "header": {
+          "page": 37,
+          "bbox": [
+            12.0,
+            814.9599609375,
+            207.0,
+            828.2899780273438
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          145
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q36",
+        "page": 38,
+        "bbox": [
+          10.0,
+          283.08,
+          585.0,
+          629.0
+        ],
+        "file": "images/CS-2015-S2-Q36-1.webp",
+        "dimensions_px": [
+          1725,
+          1038
+        ],
+        "output_sha256": "a3dfcf92e12e4c2c5776607a75c68d0382e81123e6008b9994fed51e07dc5fec",
+        "header": {
+          "page": 38,
+          "bbox": [
+            12.0,
+            270.82000732421875,
+            207.0,
+            284.1500244140625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          453
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q37",
+        "page": 39,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          177.99
+        ],
+        "file": "images/CS-2015-S2-Q37-1.webp",
+        "dimensions_px": [
+          1725,
+          504
+        ],
+        "output_sha256": "a57edf44f7ff71e36149a6267f281b66363b09a6a05a3ce6c6ed6d4805372fcf",
+        "header": {
+          "page": 38,
+          "bbox": [
+            12.0,
+            737.0999755859375,
+            207.0,
+            750.4299926757812
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          220
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q38",
+        "page": 39,
+        "bbox": [
+          10.0,
+          298.35,
+          585.0,
+          451.43
+        ],
+        "file": "images/CS-2015-S2-Q38-1.webp",
+        "dimensions_px": [
+          1725,
+          460
+        ],
+        "output_sha256": "41cfa4182c3c2a5cb392373f6ede912fda68afb4d3cac22399d1d75cd84d25cb",
+        "header": {
+          "page": 39,
+          "bbox": [
+            12.0,
+            286.0999755859375,
+            207.0,
+            299.42999267578125
+          ]
+        },
+        "body_source_pixels": [
+          1048,
+          279
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q39",
+        "page": 39,
+        "bbox": [
+          10.0,
+          571.8,
+          585.0,
+          749.72
+        ],
+        "file": "images/CS-2015-S2-Q39-1.webp",
+        "dimensions_px": [
+          1725,
+          535
+        ],
+        "output_sha256": "b35cffb64c2e7d6da9a6bbcd90d4a8583f1b92e69a82a94cb40c3eedcfd37f9d",
+        "header": {
+          "page": 39,
+          "bbox": [
+            12.0,
+            559.530029296875,
+            207.0,
+            572.8600463867188
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          233
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q40",
+        "page": 40,
+        "bbox": [
+          10.0,
+          59.09,
+          585.0,
+          211.81
+        ],
+        "file": "images/CS-2015-S2-Q40-1.webp",
+        "dimensions_px": [
+          1725,
+          459
+        ],
+        "output_sha256": "d25f70eb9870e3f2d63310d5e7a6a040aacb8523846a3ad834c5f8f7944a69cd",
+        "header": {
+          "page": 40,
+          "bbox": [
+            12.0,
+            46.83002471923828,
+            207.0,
+            60.16002655029297
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          200
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q41",
+        "page": 40,
+        "bbox": [
+          10.0,
+          332.17,
+          585.0,
+          458.17
+        ],
+        "file": "images/CS-2015-S2-Q41-1.webp",
+        "dimensions_px": [
+          1725,
+          379
+        ],
+        "output_sha256": "6016814362d85315fe50f33bfa80dcd7a9e2ed4aa932ae94a7c9dfe7843f917f",
+        "header": {
+          "page": 40,
+          "bbox": [
+            12.0,
+            319.9100036621094,
+            207.0,
+            333.2400207519531
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          165
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q42",
+        "page": 40,
+        "bbox": [
+          10.0,
+          578.54,
+          585.0,
+          664.06
+        ],
+        "file": "images/CS-2015-S2-Q42-1.webp",
+        "dimensions_px": [
+          1725,
+          258
+        ],
+        "output_sha256": "2df499bf0cb40a856ec30b38970493dd502b6b8024be340e3966299122a66c6e",
+        "header": {
+          "page": 40,
+          "bbox": [
+            12.0,
+            566.27001953125,
+            203.6699981689453,
+            579.6000366210938
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          112
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q43",
+        "page": 41,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          101.63
+        ],
+        "file": "images/CS-2015-S2-Q43-1.webp",
+        "dimensions_px": [
+          1725,
+          275
+        ],
+        "output_sha256": "6c3673cb3f7dd735b45fc48298e3f1a04f83b45d39b489297494bb67714d2015",
+        "header": {
+          "page": 40,
+          "bbox": [
+            12.0,
+            765.7999877929688,
+            203.6699981689453,
+            779.1300048828125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          120
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q44",
+        "page": 41,
+        "bbox": [
+          10.0,
+          215.63,
+          585.0,
+          520.31
+        ],
+        "file": "images/CS-2015-S2-Q44-1.webp",
+        "dimensions_px": [
+          1725,
+          915
+        ],
+        "output_sha256": "e95f26fcb20b96b534878d66b5985c709999d28edba217bfa913b48456f0cbc1",
+        "header": {
+          "page": 41,
+          "bbox": [
+            12.0,
+            203.37001037597656,
+            207.0,
+            216.70001220703125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          399
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q45",
+        "page": 41,
+        "bbox": [
+          10.0,
+          640.67,
+          585.0,
+          707.87
+        ],
+        "file": "images/CS-2015-S2-Q45-1.webp",
+        "dimensions_px": [
+          1725,
+          202
+        ],
+        "output_sha256": "667d03fd0e318da3855fe965ba796108dd125cb69eea8b2f35092cc938d72097",
+        "header": {
+          "page": 41,
+          "bbox": [
+            12.0,
+            628.4199829101562,
+            203.6699981689453,
+            641.75
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          88
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q46",
+        "page": 42,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          145.16
+        ],
+        "file": "images/CS-2015-S2-Q46-1.webp",
+        "dimensions_px": [
+          1725,
+          406
+        ],
+        "output_sha256": "9d833362b9b690a6fa6834692ff7c1a688b2f743a76a26f5027e7822f7ab364c",
+        "header": {
+          "page": 41,
+          "bbox": [
+            12.0,
+            809.6099853515625,
+            207.0,
+            822.9400024414062
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          177
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q47",
+        "page": 42,
+        "bbox": [
+          10.0,
+          265.52,
+          585.0,
+          532.78
+        ],
+        "file": "images/CS-2015-S2-Q47-1.webp",
+        "dimensions_px": [
+          1725,
+          803
+        ],
+        "output_sha256": "a3a647ebdc586bdfc8369f4bdac3ed5853eff20f638764b9182680f27eda0612",
+        "header": {
+          "page": 42,
+          "bbox": [
+            12.0,
+            253.26002502441406,
+            207.0,
+            266.59002685546875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          350
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q48",
+        "page": 43,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          232.21
+        ],
+        "file": "images/CS-2015-S2-Q48-1.webp",
+        "dimensions_px": [
+          1725,
+          667
+        ],
+        "output_sha256": "a8ecfb180918219844f2bbc5a2d32080209a1efa6b0444f40144d32aaa5e596c",
+        "header": {
+          "page": 42,
+          "bbox": [
+            12.0,
+            640.8900146484375,
+            203.6699981689453,
+            654.2200317382812
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          291
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q49",
+        "page": 44,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          523.15
+        ],
+        "file": "images/CS-2015-S2-Q49-1.webp",
+        "dimensions_px": [
+          1725,
+          1540
+        ],
+        "output_sha256": "bf2b524321e3a312ead520a8c0c78064bad22c3633784272e635ad93ad6803f2",
+        "header": {
+          "page": 43,
+          "bbox": [
+            12.0,
+            333.95001220703125,
+            207.0,
+            347.280029296875
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          672
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q50",
+        "page": 44,
+        "bbox": [
+          10.0,
+          643.51,
+          585.0,
+          771.03
+        ],
+        "file": "images/CS-2015-S2-Q50-1.webp",
+        "dimensions_px": [
+          1725,
+          384
+        ],
+        "output_sha256": "b30ebbdccdb5914408110eeec862f027fac8536655da685e54737f4be153e609",
+        "header": {
+          "page": 44,
+          "bbox": [
+            12.0,
+            631.25,
+            207.0,
+            644.5800170898438
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          167
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q51",
+        "page": 45,
+        "bbox": [
+          10.0,
+          78.18,
+          585.0,
+          599.73
+        ],
+        "file": "images/CS-2015-S2-Q51-1.webp",
+        "dimensions_px": [
+          1725,
+          1566
+        ],
+        "output_sha256": "8aa2374f700631549f6430b1fdb00f1ca15d9413968498b425f8a283e3702083",
+        "header": {
+          "page": 45,
+          "bbox": [
+            12.0,
+            65.91999053955078,
+            207.0,
+            79.24999237060547
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          683
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q52",
+        "page": 46,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          448.31
+        ],
+        "file": "images/CS-2015-S2-Q52-1.webp",
+        "dimensions_px": [
+          1725,
+          1315
+        ],
+        "output_sha256": "4d778bf55fad1f05409c770ef7d556b694f30f9e8ecb611171a631f7abd7a211",
+        "header": {
+          "page": 45,
+          "bbox": [
+            12.0,
+            707.8299560546875,
+            203.6699981689453,
+            721.1599731445312
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          574
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q53",
+        "page": 47,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          284.9
+        ],
+        "file": "images/CS-2015-S2-Q53-1.webp",
+        "dimensions_px": [
+          1725,
+          825
+        ],
+        "output_sha256": "0c05b6d0d41b25b4816d8739055416998cdf0045b7b9bcd10dd3e69dbbfd161f",
+        "header": {
+          "page": 46,
+          "bbox": [
+            12.0,
+            550.0499877929688,
+            203.6699981689453,
+            563.3800048828125
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          360
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q54",
+        "page": 47,
+        "bbox": [
+          10.0,
+          398.9,
+          585.0,
+          663.87
+        ],
+        "file": "images/CS-2015-S2-Q54-1.webp",
+        "dimensions_px": [
+          1725,
+          796
+        ],
+        "output_sha256": "ab51783ce4a802b9ce912c41b678bb1c59053b2f17256526c7f2c6958e774590",
+        "header": {
+          "page": 47,
+          "bbox": [
+            12.0,
+            386.6399841308594,
+            207.0,
+            399.9700012207031
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          347
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q55",
+        "page": 48,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          85.6
+        ],
+        "file": "images/CS-2015-S2-Q55-1.webp",
+        "dimensions_px": [
+          1725,
+          227
+        ],
+        "output_sha256": "df98049f706042de9e2a30bd877748f56d2d3fec1ed95c85e4326286cf19b751",
+        "header": {
+          "page": 47,
+          "bbox": [
+            12.0,
+            771.97998046875,
+            203.6699981689453,
+            785.3099975585938
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          99
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q56",
+        "page": 48,
+        "bbox": [
+          10.0,
+          199.6,
+          585.0,
+          353.85
+        ],
+        "file": "images/CS-2015-S2-Q56-1.webp",
+        "dimensions_px": [
+          1725,
+          464
+        ],
+        "output_sha256": "d08aae81d28efac77e6b0fd4a259e9eb550e20b849f846b14fdef659bd3f49bd",
+        "header": {
+          "page": 48,
+          "bbox": [
+            12.0,
+            187.33998107910156,
+            207.0,
+            200.66998291015625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          202
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q57",
+        "page": 48,
+        "bbox": [
+          10.0,
+          474.21,
+          585.0,
+          634.57
+        ],
+        "file": "images/CS-2015-S2-Q57-1.webp",
+        "dimensions_px": [
+          1725,
+          482
+        ],
+        "output_sha256": "db2d04eda395cd96a39cd60cca9c485f0ef16ef400cef69341c382fbd8716687",
+        "header": {
+          "page": 48,
+          "bbox": [
+            12.0,
+            461.9499816894531,
+            203.6699981689453,
+            475.2799987792969
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          210
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q58",
+        "page": 48,
+        "bbox": [
+          10.0,
+          748.56,
+          585.0,
+          821.87
+        ],
+        "file": "images/CS-2015-S2-Q58-1.webp",
+        "dimensions_px": [
+          1725,
+          221
+        ],
+        "output_sha256": "3c268d009530a0a77309044cdc06bd68119bb88584f01e5bb1bb70b7969c7256",
+        "header": {
+          "page": 48,
+          "bbox": [
+            12.0,
+            736.3099975585938,
+            203.6699981689453,
+            749.6400146484375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          96
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q59",
+        "page": 49,
+        "bbox": [
+          10.0,
+          124.0,
+          585.0,
+          196.54
+        ],
+        "file": "images/CS-2015-S2-Q59-1.webp",
+        "dimensions_px": [
+          1725,
+          218
+        ],
+        "output_sha256": "c1a73727b372dce25e86a29095239433aabd02c7ca7e3b00eecdd56d296e0bbd",
+        "header": {
+          "page": 49,
+          "bbox": [
+            12.0,
+            111.73999786376953,
+            203.6699981689453,
+            125.06999969482422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          95
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q60",
+        "page": 49,
+        "bbox": [
+          10.0,
+          310.54,
+          585.0,
+          519.01
+        ],
+        "file": "images/CS-2015-S2-Q60-1.webp",
+        "dimensions_px": [
+          1725,
+          627
+        ],
+        "output_sha256": "a412de3894515d02408198ca51ba3f9a93646b783dd7f06825979ebdcf5b620b",
+        "header": {
+          "page": 49,
+          "bbox": [
+            12.0,
+            298.27996826171875,
+            207.0,
+            311.6099853515625
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          273
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q61",
+        "page": 49,
+        "bbox": [
+          10.0,
+          639.37,
+          585.0,
+          781.4
+        ],
+        "file": "images/CS-2015-S2-Q61-1.webp",
+        "dimensions_px": [
+          1725,
+          427
+        ],
+        "output_sha256": "b58c83dba51be270fc94543fcc8b6b6ea068b45e0cfb68f63191bb4fcf68fa0b",
+        "header": {
+          "page": 49,
+          "bbox": [
+            12.0,
+            627.1099853515625,
+            207.0,
+            640.4400024414062
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          186
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q62",
+        "page": 50,
+        "bbox": [
+          10.0,
+          97.27,
+          585.0,
+          221.74
+        ],
+        "file": "images/CS-2015-S2-Q62-1.webp",
+        "dimensions_px": [
+          1725,
+          375
+        ],
+        "output_sha256": "f4b4f797a6d9c5b0f92a8cb62fd17d48c21516002fc0370a533ca2a4739da132",
+        "header": {
+          "page": 50,
+          "bbox": [
+            12.0,
+            85.01001739501953,
+            207.0,
+            98.34001922607422
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          163
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q63",
+        "page": 50,
+        "bbox": [
+          10.0,
+          342.1,
+          585.0,
+          460.46
+        ],
+        "file": "images/CS-2015-S2-Q63-1.webp",
+        "dimensions_px": [
+          1725,
+          356
+        ],
+        "output_sha256": "b9ceecebb05b208854cecb4c39e3ba1fd5f1f4ca8845f3f25577c61ca8cbe425",
+        "header": {
+          "page": 50,
+          "bbox": [
+            12.0,
+            329.8399963378906,
+            207.0,
+            343.1700134277344
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          155
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q64",
+        "page": 50,
+        "bbox": [
+          10.0,
+          580.82,
+          585.0,
+          692.31
+        ],
+        "file": "images/CS-2015-S2-Q64-1.webp",
+        "dimensions_px": [
+          1725,
+          335
+        ],
+        "output_sha256": "40ccb6e97fefcc342dd045bbf12c0e724a469f3a71bdc8c3c0bb441a9db6da2d",
+        "header": {
+          "page": 50,
+          "bbox": [
+            12.0,
+            568.5599975585938,
+            207.0,
+            581.8900146484375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          146
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      },
+      {
+        "question_id": "CS-2015-S2-Q65",
+        "page": 51,
+        "bbox": [
+          10.0,
+          10.0,
+          585.0,
+          111.56
+        ],
+        "file": "images/CS-2015-S2-Q65-1.webp",
+        "dimensions_px": [
+          1725,
+          305
+        ],
+        "output_sha256": "e198f51e48f330706e137be607a86c680684510382b086aa96e3d90a0d232575",
+        "header": {
+          "page": 50,
+          "bbox": [
+            12.0,
+            800.4099731445312,
+            203.6699981689453,
+            813.739990234375
+          ]
+        },
+        "body_source_pixels": [
+          753,
+          133
+        ],
+        "visual_status": "passed",
+        "fresh_render_byte_identity": true,
+        "bounds_and_printed_number_verified": true
+      }
+    ],
+    "contact_sheets": [
+      {
+        "file": "contact-01.png",
+        "sha256": "4288436efb6846d4a09706fa07665dd60fc7c0b84645c63265dddc78aae26b14",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-02.png",
+        "sha256": "e6d437bcec9f9f4fda61904b4cfbbfaa365b3a0ab06c203bf59991ccd3255937",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-03.png",
+        "sha256": "51ec70cd4d988b742381495ecb944b5f50f588c84706b3b05e9c4a37b4169d90",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-04.png",
+        "sha256": "37235bff6945168883f0db2d3a372f9fd9ccc0883f58ab179c7dec194b6e891d",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-05.png",
+        "sha256": "c3c4dc64536542a230f304a6f97edfb1864d301e20f4d6361fb07a091190e654",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-06.png",
+        "sha256": "a15d97cd0e8a4945d2b5a51f5d2e75f686f14a59004cc82571420ace15366bde",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-07.png",
+        "sha256": "138fcbb5c14552df1b689423b7776097fd4be8f220c695c8a41792c5e598d634",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-08.png",
+        "sha256": "027f046edaccb6544d06501aa82685a41a08576a9468927f24be08260c466683",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-09.png",
+        "sha256": "9f94ea4570db7de2d021e0cab868d82a0f8e126bcdc899a03be66c87fcbd42f1",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-10.png",
+        "sha256": "006af18e9a1b150471e4394eb97d26f6e6b59a70efc06842886c2d2bfe36ed51",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-11.png",
+        "sha256": "435a5a42b6e6f4c57b8bf5558a5573f726eaf5f36483c608c3ace23c75a66bd3",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-12.png",
+        "sha256": "a4161c4947c21da83913d2a01282daf7899fc5e625ccae8f15db594353332d76",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-13.png",
+        "sha256": "6b2812681c91fe53118faf6cf1e44c735b94aac2ad38807da440960671dac723",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-14.png",
+        "sha256": "dc7a5836b27f67887ad439bb3fa4052fbbc1989d1b00ee70a13026a7b985e29c",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-15.png",
+        "sha256": "f205d71e9af6583ad05e999b175d95f646667c1804e104a8d839138c76e6f1de",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-16.png",
+        "sha256": "f107d2f8b30cccb3419087671ef33ab099fe45792f4ff7043619d866de13bf1d",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      },
+      {
+        "file": "contact-17.png",
+        "sha256": "3a82582ff1fd78dfc522b77e7bed97c2420af357839c9b1645bc64c78821ae88",
+        "pixels_verified_against_outputs": true,
+        "visual_status": "passed"
+      }
+    ],
+    "source_page_checks": [
+      {
+        "page": 26,
+        "sha256": "0c27a86a24b99cbc8b87b0e121e0234b634110acb8d75f7b93bd2746af7e9f88",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 27,
+        "sha256": "f0a854f38fb341b88e7dbd8f1a7275afc82d2dcab92b0ae9989d1fa0b87b7ed5",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 28,
+        "sha256": "b652159615440f862bc14f848f5ecc0d2a65d992d81bcc934a2610d5bcb88928",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 29,
+        "sha256": "7be86e902fac6adea84ddfb14f9ae636a42fa3ca96a48db16aae36abf598318f",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 30,
+        "sha256": "800ebbec2f751880c89bf02d0dafaf905cacee3a9caffe5cc0bebb34f7f3b126",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 31,
+        "sha256": "f5e6527f7fed6a6fe483a151ca22634abf23d45f9938a5e171f1c9fc0b6984db",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 32,
+        "sha256": "e32d336530075092fcec43962758f46d4b5483646878f25491ba1d900ead07e5",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 33,
+        "sha256": "cbb1d6a029a90b0daf640b67b1430dde402b6279c52a5025d8daf065efd8f4ad",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 34,
+        "sha256": "86cf3e0b4bc3a80041f385a8ed3be9aa3cf887e072fad956ce9393fb7fcb9669",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 35,
+        "sha256": "d99e6faa23cef964b6aafa10c5a0bfe994a0199dbbd762c9ae02e542c5ae668a",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 36,
+        "sha256": "ba032596a357782a8812026c5e7a4608a9fa59752c07e72b970dadf6aeeda89b",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 37,
+        "sha256": "3e11b917feb4f1f02e94852914f5105d5db0140b2d98eee2528f7e392b98a5ba",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 38,
+        "sha256": "76939f1ebba07274e35c2950c4592520c84a9b41991c52b01e9057787da1c843",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 39,
+        "sha256": "962d595a14b4a629b19ae18b340bf685858f4d7b98cff1356c001a5e018d6237",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 40,
+        "sha256": "d0cd8dc6d87277f369fb7e3c0fa868e29f60f9b74a5a1df6b336ca3f40c1478d",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 41,
+        "sha256": "fdf8097eede8aa0bb4d4f82def692a1c07f8d287f70d9ab32086b2bdb5a3b147",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 42,
+        "sha256": "babf1642c8cf2d602acc6d3be87b4575827c718e426cd398c8261ba0863e7d97",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 43,
+        "sha256": "fb1bfaaecdf1055c216a7e6e3b2022646d2d0b4b3dd45817d13ffb8f9bf47b17",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 44,
+        "sha256": "25751565f74e015999109351804edf4fea42733c4c31a6ff46dbcca774eb887a",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 45,
+        "sha256": "0cafc857fc4e73b343476b0fc63d0087f9c1776508bcc424a156228ef4eb9fc7",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 46,
+        "sha256": "a6fa75a8b98e4093b16b549048ec47e0d9f536c1059715da67da0cd659c5c672",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 47,
+        "sha256": "f159c9fd1051eb1c3203265abbe9b09c742479ff3f988fa6883d4b781af922a2",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 48,
+        "sha256": "0d218c49e6d7ee394b1c5078fd978827d72ba297806ef24234c4730743ee7152",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 49,
+        "sha256": "5af29a6829b0f55fc09383edbeda38358104138965d323ea4287b784977091d9",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 50,
+        "sha256": "55d6324f74161a647afeb10d61ced2c75b1ea023e45f641e5693a268f74f7125",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 51,
+        "sha256": "732c7d06089ca26adda6302f4cee4cdf364ac7dcb234337febf5f1e5b9448e9e",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      },
+      {
+        "page": 52,
+        "sha256": "3f38b183332d11556444fe5d2ef4f3b1fde152add2d7fc39822a2423b73ee07b",
+        "fresh_render_pixel_identity": true,
+        "visual_status": "passed"
+      }
+    ],
+    "notes": [
+      "Independent inspection of every source page and all 65 actual WEBP outputs through pixel-verified contact sheets found complete stems, options, formulae, code, diagrams and tables. No bounds changes required.",
+      "External colored scoring and Correct Answer fields excluded. Printed question numbers verified using header page/bbox metadata, including headers on preceding pages. Body-region method retains source raster fidelity.",
+      "No shared stems or multi-page body images found. Native source wording and typography retained; this review does not certify answer correctness, original-source authority, or redistribution rights."
+    ]
+  }
+}
