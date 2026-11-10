@@ -1,25 +1,26 @@
 {
   "counts": {
     "page_fallback": 1841,
-    "candidate_questions": 2301,
-    "text_marker_candidate": 532,
-    "overlap_pairs": 7704,
-    "verified_questions": 1105,
-    "pending_visual_review_questions": 2301,
+    "candidate_questions": 2171,
+    "text_marker_candidate": 402,
+    "overlap_pairs": 7622,
+    "verified_questions": 1235,
+    "pending_visual_review_questions": 2171,
     "manual_table_boundary_review": 261,
-    "first_pass_reviewed_questions": 1105,
+    "first_pass_reviewed_questions": 1235,
     "independent_visual_review_pending_questions": 0,
-    "pending_first_pass_questions": 2301,
+    "pending_first_pass_questions": 2171,
     "manual_full_page_visual_table_boundary_review": 65,
     "manual_visual_table_boundary_review": 65,
     "manual_page_region_review": 195,
     "manual_source_boundary_review": 65,
     "manual_full_source_visual_question_bounds": 65,
-    "manual_full_page_visual_review": 142,
+    "manual_full_page_visual_review": 207,
     "manual_scanned_page_region_review": 65,
     "manual_full_page_table_boundary_review": 65,
     "source_question_body_image_region": 65,
-    "manual_full_page_visual_refinement": 65
+    "manual_full_page_visual_refinement": 65,
+    "manual_full_source_page_review": 65
   },
   "papers": {
     "CS-1991": {
@@ -92,10 +93,12 @@
       "candidate": 65
     },
     "CS-2014-S1": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2014-S2": {
-      "candidate": 65
+      "verified": 65,
+      "crop_parts": 65
     },
     "CS-2014-S3": {
       "candidate": 65

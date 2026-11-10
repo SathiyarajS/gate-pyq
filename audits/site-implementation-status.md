@@ -73,3 +73,7 @@ An explicit --with-reviewed-crops option regenerates approved source crops from 
 ## Additional 2015–2017 crop reviews
 
 1,105 questions / 1,118 parts now have independently reviewed source crop bounds and outputs. This batch adds 2017 CS1, both 2016 papers and 2015 CS1. Answers, main, Pages, workflows and source binaries are unchanged.
+
+## Additional 2014 CS1 and CS2 crop reviews
+
+1,235 questions / 1,248 parts now have independently reviewed source crop bounds and outputs. This batch adds 130 questions from 2014 CS1 and CS2. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.
