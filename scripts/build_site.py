@@ -6,6 +6,8 @@ from urllib.parse import quote, urlparse
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from transcription import load_paper, resolve
 TITLES = ['Digital Logic','Computer Organization & Architecture','Programming in C','Data Structures','Algorithms','Theory of Computation','Compiler Design','Operating Systems','Database Management Systems','Computer Networks','General Aptitude','Discrete Mathematics','Engineering Mathematics & Other Topics']
 
 def load(path, default=None):
@@ -53,6 +55,7 @@ def main():
     out=(ROOT/args.output).resolve()
     if out == ROOT or ROOT not in out.parents: raise SystemExit('Output must be a subdirectory of repository')
     questions=load(ROOT/'data/questions.json'); papers=load(ROOT/'data/papers.json'); topics=load(ROOT/'data/topics.json',{}); ds=discrepancies()
+    transcriptions={p['paper_id']:load_paper(ROOT,p['paper_id']) for p in papers}
     pmap={p['paper_id']:p for p in papers}; groups=collections.defaultdict(list); issues=[]
     seen=set()
     for q in questions:
@@ -70,6 +73,7 @@ def main():
         for did in q['discrepancy_ids']:
             if did not in ds: raise SystemExit('Missing discrepancy row: '+did)
             q['discrepancies'].append(ds[did])
+        q['transcription']=resolve(ROOT,q,transcriptions[q['paper_id']])
         q['options_data']=q.get('options') or q.get('question_options') or None
         # Options are never invented. A paraphrase often omits the original option set.
         q['practice_key']=str(q['official_answer']) if q['official_answer'] is not None else ''
@@ -87,8 +91,9 @@ def main():
         if status!='reviewed':nonreviewed_topics.append(q['question_id'])
     if nonreviewed_topics:
         issues.append(f"Topic grouping: {topic_review_counts['reviewed']} reviewed, {topic_review_counts['candidate']} candidate, {len(nonreviewed_topics)-topic_review_counts['candidate']} other or missing; {len(nonreviewed_topics)} assignments require review.")
-    # Preview intentionally does not publish unverified crops or transcriptions.
-    issues.append('Original question crops and redraw verification are not yet complete; all displayed question text is a paraphrase preview.')
+    redrawn=sum(bool(q['transcription']) for q in questions)
+    redrawn_by_paper={p['paper_id']:sum(bool(q['transcription']) for q in questions if q['paper_id']==p['paper_id']) for p in papers}
+    issues.append(f'{redrawn}/{len(questions)} questions have accepted independent transcription-review metadata. Other questions retain reviewed crops where enabled, otherwise paraphrases. Publication and full visual QA remain blocked.')
     katex_dir=ROOT/'node_modules/katex/dist'
     has_math=(katex_dir/'katex.min.js').is_file() and (katex_dir/'katex.min.css').is_file()
     if not has_math:issues.append('Mathematical typesetting assets are unavailable; explicit LaTeX is preserved as text. Run npm ci to provision pinned local assets.')
@@ -125,7 +130,7 @@ def main():
     def render(path,**ctx):
         target=out/path/'index.html';target.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*len(Path(path).parts) if path else './'
-        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=True,has_math=has_math,**ctx))
+        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=True,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
     def sortkey(q):return (-q['year'],q['paper_id'],tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
     search=[];canonical={};subject_seen=[];paper_seen=[]
     for subject,qs in sorted(groups.items()):
@@ -154,7 +159,7 @@ def main():
         for q in qs:
             fragment=env.get_template('question.html').render(q=q,prefix='../',paper_view=False)
             records.append(dict(id=q['question_id'],year=q['year'],marks=q.get('marks'),type=q['display_type'],discrepancy=bool(q['discrepancy_ids']),html=fragment))
-            search.append(dict(id=q['question_id'],title=q['question_title'],text=q['question_text'],year=q['year'],subject=titles[subject],type=q['display_type'],url=q['permalink']))
+            search.append(dict(id=q['question_id'],title=q['question_title'],text=q['question_text']+('\n'+q['transcription']['search'] if q['transcription'] else ''),year=q['year'],subject=titles[subject],type=q['display_type'],url=q['permalink']))
         (out/subject/'index.json').write_text(json.dumps(records,ensure_ascii=False))
     for paper in papers:
         qs=[q for q in questions if q['paper_id']==paper['paper_id']];qs.sort(key=lambda q:tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
@@ -169,7 +174,7 @@ def main():
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     assert collections.Counter(subject_seen)==collections.Counter(seen)==collections.Counter(paper_seen)
-    (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
+    (out/'build-report.json').write_text(json.dumps({'mode':'private-preview','redrawn_questions':redrawn,'redrawn_by_paper':redrawn_by_paper,'questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
     print(f'Built PRIVATE PREVIEW: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')
     print('\n'.join(issues))
 if __name__=='__main__':main()
