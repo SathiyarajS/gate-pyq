@@ -1,11 +1,13 @@
 {
-  "scope": "Source/paraphrase observations discovered during crop review. These are unresolved follow-ups, not answer changes or original-source certification.",
+  "scope": "Source/paraphrase observations discovered during crop review. Resolution status is recorded per finding; these do not certify original-source fidelity.",
   "findings": [
     {
       "question_id": "CS-1995-Q48",
-      "finding": "Source transition table differs from current paraphrase: source A/input1→D,0 and D/input0→C,0. Independent visual crop review confirms visible source table.",
-      "next_step": "Verify against an original paper and reconcile paraphrase/solution before transcription certification.",
-      "crop_review": "audits/crops-CS-1995.json"
+      "finding": "Source transition table differs from earlier paraphrase: source A/input1→D,0 and D/input0→C,0. Independent visual crop review confirms visible source table.",
+      "next_step": "Paraphrase and solution corrected after independent visual checks of GFG p5 and GateForum p9; official original fidelity remains unverified.",
+      "crop_review": "audits/crops-CS-1995.json",
+      "status": "corrected_against_two_reproductions",
+      "resolution_audit": "audits/CS-1995-Q48-transition-correction.json"
     },
     {
       "question_id": "CS-1995-Q72",
