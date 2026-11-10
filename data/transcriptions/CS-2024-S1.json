@@ -126,7 +126,7 @@
     "checked_pages": [
       6
     ],
-    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. The renderer places figures after the whole stem; in the source the figure sits after the first sentence. Chart redrawn in outline (currentColor) without the source fill colours; every label and percentage copied.",
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. The renderer places figures after the whole stem; in the source the figure sits after the first sentence. Chart redrawn in outline (currentColor) without the source fill colours; every label and percentage copied. Figure label styling 2026-11-10 (claude-code-sweep-2026-11-10): Chart title set in bold as printed. SVG edited directly; its sha256 differs from the one recorded in the draft-review audit, see post_review_changes.",
     "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
   },
   "CS-2024-S1-Q9": {

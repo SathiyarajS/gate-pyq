@@ -118,6 +118,19 @@
       "sha256_after": {
         "data/transcriptions/CS-2026-S1.json": "6efdf06586d18dfc0356878e93a76d3e9ecb2858d61f78de8dd93a1e8ad2d3e9"
       }
+    },
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Figure label styling (bold/italic) matched to the source typography.",
+      "entries_changed": [
+        "CS-2026-S1-Q37"
+      ],
+      "note": "The sha256 map above is left as recorded; these files differ from it and need the independent review (HANDOFF 3.3). Entries remain draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2026-S1.json": "86c8a1eb8e5c0a5b229095a05cb75d18db07da4920d1ece4d8f7d6b4bd175da7",
+        "figures/CS-2026-S1-Q37-1.svg": "0f3f9d2b74f31ee52b096a130197749612898548161d690a3ef8a38a23cdc68e"
+      }
     }
   ]
 }

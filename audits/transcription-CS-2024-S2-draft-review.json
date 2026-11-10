@@ -91,5 +91,21 @@
     "mobile_390_dark": "all 65 questions inspected on reduced-scale contact sheets for dark-theme contrast, figure visibility and overflow",
     "mobile_small_text": "figure text renders small at 390 px in: Q61 (instruction formats), Q14 tables scroll horizontally"
   },
-  "site_css_change": "site-static/style.css: display maths scrolls horizontally inside its own box; table cells no longer break words mid-word (affects all papers)."
+  "site_css_change": "site-static/style.css: display maths scrolls horizontally inside its own box; table cells no longer break words mid-word (affects all papers).",
+  "post_review_changes": [
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Figure label styling (bold/italic) matched to the source typography.",
+      "entries_changed": [
+        "CS-2024-S2-Q8"
+      ],
+      "note": "The sha256 map above is left as recorded; these files differ from it and need the independent review (HANDOFF 3.3). Entries remain draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2024-S2.json": "5c70cc2195b69b625184f5ff0703609d14c74bb7795ea1a368b027ef07b497f5",
+        "figures/CS-2024-S2-Q8-1.svg": "0a70c9542bbe425fe369afa35a5b9fdcc8df143fb488605974ccd23c8a6316e4",
+        "figures/CS-2024-S2-Q8-2.svg": "1fbb887218057011d5383ed646e101828b0f7d51db081c7e7bcf5fc4c0dd0e32"
+      }
+    }
+  ]
 }
