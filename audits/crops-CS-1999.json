@@ -1,0 +1,3649 @@
+{
+  "paper_id": "CS-1999",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "108a0c66d716dd2026b262680189ed2fc0b53e593c4e3db85f69ac66071d5811",
+  "preparation_evidence_sha256": "2bf0186fe4b5040eb1f37a3f06d9695ce2ef52829c342a32d6be3712754e3600",
+  "independent_review_evidence_sha256": "5564355f20a206e469e41277df4aa2ebc4a39aa8b31d916f3982d6c3725a438e",
+  "questions": 88,
+  "crop_parts": 145,
+  "verified_questions": 88,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1999",
+    "status": "approved",
+    "scope": "Crop boundaries and faithful rendering of available third-party source only. Not original completeness, transcription, answers, keys, or distribution rights.",
+    "crops_sha256": "108a0c66d716dd2026b262680189ed2fc0b53e593c4e3db85f69ac66071d5811",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+    "source_sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "questions": 88,
+    "crop_parts": 145,
+    "full_source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "actual_output_contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "fresh_render_byte_identity": {
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80,
+      "parts_tested": 145,
+      "matches": 145,
+      "mismatches": 0
+    },
+    "findings": [
+      "Independently inspected all nine full page renders and all 25 actual-output contact sheets; all 88 records and 145 parts are represented.",
+      "Objectives Q1–Q50 preserve stems, options, diagrams and cross-column/page continuations: Q5, Q9, Q15, Q20, Q30, Q38, Q44 and Q49. No section instructions or header/footer text intrude.",
+      "Descriptive printed groups 51–70 correctly map to normalized Q51–Q88, including split (i)/(ii) cut alternatives, parameter passing cases, architecture leaves and SQL leaves. Stored printed_question_number labels 3–22 differ from reproduction labels; no metadata correction or original numbering certification is implied.",
+      "All available relevant source content is retained. Detached marks for Q53/Q55, Q56/Q57, Q73 and Q81 remain separate parts. Q55 retains explicitly referenced preceding proofs, and Q66 retains the explicitly referenced termination result.",
+      "All 34 positive-area overlaps were independently recomputed and checked visually. Every overlap is an identical rectangle for a shared parent label, common definition/figure/program, shared marks, or explicit prerequisite. No other overlaps or unrelated sibling-question leaks were found.",
+      "The full graph is preserved for Q56–Q59; shared HALTS/FUNNY code, parameter program, assembly comments, segmented paging assumptions and EMP/DEPT relations are present for their dependent leaves.",
+      "Q71 table and Q78/Q79 assembly comments approach the right page border; the retained border sliver is acceptable to preserve visible content.",
+      "Native blur, compressed formulas, Q64 unclear/missing grammar radix point, Q81–Q83 216 exponent appearance and other source notation damage are preserved without reconstruction.",
+      "Source SHA-256 matches canonical crop-source-map and preparation audit. All 145 images freshly rendered at 3x WEBP quality 80 match both saved image bytes and recorded hashes."
+    ],
+    "limitations": [
+      "MuPDF reports missing Fm0 XObject resources. Available rendered content can be reviewed, but missing resources prevent certifying that it contains all original exam material.",
+      "Third-party reproduction provenance and original completeness remain unresolved. Approval is crop-boundary approval only."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1999-Q51",
+          "CS-1999-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            433.3333,
+            280.0,
+            448.6667
+          ],
+          [
+            53.3333,
+            433.3333,
+            280.0,
+            448.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          433.3333,
+          280.0,
+          448.6667
+        ],
+        "reason": "Printed parent label 51 shared by independent relation subparts 1 and 2."
+      },
+      {
+        "questions": [
+          "CS-1999-Q53",
+          "CS-1999-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ],
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "reason": "Common finite group, subgroup and coset definition for printed group 52(a–c)."
+      },
+      {
+        "questions": [
+          "CS-1999-Q53",
+          "CS-1999-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ],
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "reason": "Common finite group, subgroup and coset definition for printed group 52(a–c)."
+      },
+      {
+        "questions": [
+          "CS-1999-Q53",
+          "CS-1999-Q55"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            690.6667,
+            280.0,
+            707.3333
+          ],
+          [
+            53.3333,
+            690.6667,
+            280.0,
+            707.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          690.6667,
+          280.0,
+          707.3333
+        ],
+        "reason": "Printed 52(c) explicitly says use the above: preserve the equal-size and equal-or-disjoint prerequisite, including its marks, separately."
+      },
+      {
+        "questions": [
+          "CS-1999-Q53",
+          "CS-1999-Q55"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            500.0,
+            46.0,
+            523.3333,
+            57.3333
+          ],
+          [
+            500.0,
+            46.0,
+            523.3333,
+            57.3333
+          ]
+        ],
+        "intersection": [
+          500.0,
+          46.0,
+          523.3333,
+          57.3333
+        ],
+        "reason": "Printed 52(c) explicitly says use the above: preserve the equal-size and equal-or-disjoint prerequisite, including its marks, separately."
+      },
+      {
+        "questions": [
+          "CS-1999-Q54",
+          "CS-1999-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ],
+          [
+            53.3333,
+            650.0,
+            280.0,
+            690.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "reason": "Common finite group, subgroup and coset definition for printed group 52(a–c)."
+      },
+      {
+        "questions": [
+          "CS-1999-Q54",
+          "CS-1999-Q55"
+        ],
+        "parts": [
+          2,
+          4
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            58.0,
+            526.0,
+            111.3333
+          ],
+          [
+            300.0,
+            58.0,
+            526.0,
+            111.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          58.0,
+          526.0,
+          111.3333
+        ],
+        "reason": "Printed 52(c) explicitly says use the above: preserve the equal-size and equal-or-disjoint prerequisite, including its marks, separately."
+      },
+      {
+        "questions": [
+          "CS-1999-Q56",
+          "CS-1999-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q56",
+          "CS-1999-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q56",
+          "CS-1999-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q56",
+          "CS-1999-Q57"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            375.3333,
+            526.0,
+            401.3333
+          ],
+          [
+            300.0,
+            375.3333,
+            526.0,
+            401.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          375.3333,
+          526.0,
+          401.3333
+        ],
+        "reason": "Printed 53(a) shared question asking which listed edge set is a cut; (i) and (ii) are separate normalized records."
+      },
+      {
+        "questions": [
+          "CS-1999-Q56",
+          "CS-1999-Q57"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            500.0,
+            432.0,
+            523.3333,
+            446.0
+          ],
+          [
+            500.0,
+            432.0,
+            523.3333,
+            446.0
+          ]
+        ],
+        "intersection": [
+          500.0,
+          432.0,
+          523.3333,
+          446.0
+        ],
+        "reason": "One printed marks label applies to both 53(a)(i) and (ii); retain the shared label separately."
+      },
+      {
+        "questions": [
+          "CS-1999-Q57",
+          "CS-1999-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q57",
+          "CS-1999-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q58",
+          "CS-1999-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ],
+          [
+            300.0,
+            157.3333,
+            526.0,
+            374.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "reason": "Common printed group 53 cut/min-cut definitions and graph, retained separately for the graph questions and generic min-cut proof."
+      },
+      {
+        "questions": [
+          "CS-1999-Q60",
+          "CS-1999-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            554.6667,
+            526.0,
+            568.6667
+          ],
+          [
+            300.0,
+            554.6667,
+            526.0,
+            568.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          554.6667,
+          526.0,
+          568.6667
+        ],
+        "reason": "Printed parent label 54 shared by regular-language subparts a and b."
+      },
+      {
+        "questions": [
+          "CS-1999-Q65",
+          "CS-1999-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            332.6667,
+            280.0,
+            502.6667
+          ],
+          [
+            53.3333,
+            332.6667,
+            280.0,
+            502.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          332.6667,
+          280.0,
+          502.6667
+        ],
+        "reason": "Shared HALTS/FUNNY definition."
+      },
+      {
+        "questions": [
+          "CS-1999-Q65",
+          "CS-1999-Q66"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            503.3333,
+            280.0,
+            542.0
+          ],
+          [
+            53.3333,
+            503.3333,
+            280.0,
+            542.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          503.3333,
+          280.0,
+          542.0
+        ],
+        "reason": "Printed 58(b) explicitly says use (a); preserve termination prerequisite separately."
+      },
+      {
+        "questions": [
+          "CS-1999-Q67",
+          "CS-1999-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            622.6667,
+            280.0,
+            636.6667
+          ],
+          [
+            53.3333,
+            622.6667,
+            280.0,
+            636.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          622.6667,
+          280.0,
+          636.6667
+        ],
+        "reason": "Printed parent label 59 shared by independent algorithm subparts."
+      },
+      {
+        "questions": [
+          "CS-1999-Q69",
+          "CS-1999-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            213.3333,
+            526.0,
+            228.0
+          ],
+          [
+            300.0,
+            213.3333,
+            526.0,
+            228.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          213.3333,
+          526.0,
+          228.0
+        ],
+        "reason": "Printed parent label 60 shared by binary-tree and min-heap subparts."
+      },
+      {
+        "questions": [
+          "CS-1999-Q72",
+          "CS-1999-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            592.6667,
+            526.0,
+            608.0
+          ],
+          [
+            300.0,
+            592.6667,
+            526.0,
+            608.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          592.6667,
+          526.0,
+          608.0
+        ],
+        "reason": "Printed parent label 62 shared by propositional-logic subparts."
+      },
+      {
+        "questions": [
+          "CS-1999-Q74",
+          "CS-1999-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ],
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "reason": "Common printed 63 parameter-passing question introduction."
+      },
+      {
+        "questions": [
+          "CS-1999-Q74",
+          "CS-1999-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ],
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "reason": "Common printed 63 parameter-passing question introduction."
+      },
+      {
+        "questions": [
+          "CS-1999-Q74",
+          "CS-1999-Q75"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ],
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "reason": "Common printed 63 program and group marks required by all three parameter-passing cases."
+      },
+      {
+        "questions": [
+          "CS-1999-Q74",
+          "CS-1999-Q76"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ],
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "reason": "Common printed 63 program and group marks required by all three parameter-passing cases."
+      },
+      {
+        "questions": [
+          "CS-1999-Q75",
+          "CS-1999-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ],
+          [
+            53.3333,
+            58.6667,
+            280.0,
+            96.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "reason": "Common printed 63 parameter-passing question introduction."
+      },
+      {
+        "questions": [
+          "CS-1999-Q75",
+          "CS-1999-Q76"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ],
+          [
+            53.3333,
+            144.0,
+            280.0,
+            231.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "reason": "Common printed 63 program and group marks required by all three parameter-passing cases."
+      },
+      {
+        "questions": [
+          "CS-1999-Q78",
+          "CS-1999-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            644.6667,
+            280.0,
+            709.3333
+          ],
+          [
+            53.3333,
+            644.6667,
+            280.0,
+            709.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          644.6667,
+          280.0,
+          709.3333
+        ],
+        "reason": "Common printed 65 assembly program introduction."
+      },
+      {
+        "questions": [
+          "CS-1999-Q78",
+          "CS-1999-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            44.0,
+            528.0,
+            144.0
+          ],
+          [
+            300.0,
+            44.0,
+            528.0,
+            144.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          44.0,
+          528.0,
+          144.0
+        ],
+        "reason": "Common assembly instructions and comments required by both initial-value cases."
+      },
+      {
+        "questions": [
+          "CS-1999-Q81",
+          "CS-1999-Q82"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ],
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "reason": "Common printed 67 segmented-paging architecture and table-entry assumptions required by all three leaves."
+      },
+      {
+        "questions": [
+          "CS-1999-Q81",
+          "CS-1999-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ],
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "reason": "Common printed 67 segmented-paging architecture and table-entry assumptions required by all three leaves."
+      },
+      {
+        "questions": [
+          "CS-1999-Q82",
+          "CS-1999-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ],
+          [
+            300.0,
+            488.6667,
+            526.0,
+            648.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "reason": "Common printed 67 segmented-paging architecture and table-entry assumptions required by all three leaves."
+      },
+      {
+        "questions": [
+          "CS-1999-Q84",
+          "CS-1999-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            316.6667,
+            280.0,
+            330.0
+          ],
+          [
+            53.3333,
+            316.6667,
+            280.0,
+            330.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          316.6667,
+          280.0,
+          330.0
+        ],
+        "reason": "Printed parent label 68 shared by TSET and producer/consumer subparts."
+      },
+      {
+        "questions": [
+          "CS-1999-Q87",
+          "CS-1999-Q88"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            399.3333,
+            526.0,
+            470.6667
+          ],
+          [
+            300.0,
+            399.3333,
+            526.0,
+            470.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          399.3333,
+          526.0,
+          470.6667
+        ],
+        "reason": "Common printed 70 EMP/DEPT relation definitions and SQL instruction."
+      }
+    ],
+    "source_number_mapping": {
+      "CS-1999-Q1": {
+        "stored_printed_question_number": "1.1",
+        "visible_reproduction_group": "1",
+        "description": "A consequence of the mean"
+      },
+      "CS-1999-Q2": {
+        "stored_printed_question_number": "1.2",
+        "visible_reproduction_group": "2",
+        "description": "Counting binary relations"
+      },
+      "CS-1999-Q3": {
+        "stored_printed_question_number": "1.3",
+        "visible_reproduction_group": "3",
+        "description": "Separated ones in binary strings"
+      },
+      "CS-1999-Q4": {
+        "stored_printed_question_number": "1.4",
+        "visible_reproduction_group": "4",
+        "description": "DFA for a fixed binary length"
+      },
+      "CS-1999-Q5": {
+        "stored_printed_question_number": "1.5",
+        "visible_reproduction_group": "5",
+        "description": "Context-free closure properties"
+      },
+      "CS-1999-Q6": {
+        "stored_printed_question_number": "1.6",
+        "visible_reproduction_group": "6",
+        "description": "Two PDA acceptance conventions"
+      },
+      "CS-1999-Q7": {
+        "stored_printed_question_number": "1.7",
+        "visible_reproduction_group": "7",
+        "description": "Which gate expression is not inversion"
+      },
+      "CS-1999-Q8": {
+        "stored_printed_question_number": "1.8",
+        "visible_reproduction_group": "8",
+        "description": "Karnaugh-map simplification"
+      },
+      "CS-1999-Q9": {
+        "stored_printed_question_number": "1.9",
+        "visible_reproduction_group": "9",
+        "description": "Matching OS abstractions and hardware"
+      },
+      "CS-1999-Q10": {
+        "stored_printed_question_number": "1.10",
+        "visible_reproduction_group": "10",
+        "description": "Seek-based disk throughput"
+      },
+      "CS-1999-Q11": {
+        "stored_printed_question_number": "1.11",
+        "visible_reproduction_group": "11",
+        "description": "Entering the operating system"
+      },
+      "CS-1999-Q12": {
+        "stored_printed_question_number": "1.12",
+        "visible_reproduction_group": "12",
+        "description": "Stable sorting"
+      },
+      "CS-1999-Q13": {
+        "stored_printed_question_number": "1.13",
+        "visible_reproduction_group": "13",
+        "description": "Minimum swaps for sign partition"
+      },
+      "CS-1999-Q14": {
+        "stored_printed_question_number": "1.14",
+        "visible_reproduction_group": "14",
+        "description": "Second bottom-up merge pass"
+      },
+      "CS-1999-Q15": {
+        "stored_printed_question_number": "1.15",
+        "visible_reproduction_group": "15",
+        "description": "Articulation points in two joined triangles"
+      },
+      "CS-1999-Q16": {
+        "stored_printed_question_number": "1.16",
+        "visible_reproduction_group": "16",
+        "description": "Multiplications for a power of two"
+      },
+      "CS-1999-Q17": {
+        "stored_printed_question_number": "1.17",
+        "visible_reproduction_group": "17",
+        "description": "Relative parser power"
+      },
+      "CS-1999-Q18": {
+        "stored_printed_question_number": "1.18",
+        "visible_reproduction_group": "18",
+        "description": "Bounds on join cardinality"
+      },
+      "CS-1999-Q19": {
+        "stored_printed_question_number": "1.19",
+        "visible_reproduction_group": "19",
+        "description": "Conjunction in tuple calculus"
+      },
+      "CS-1999-Q20": {
+        "stored_printed_question_number": "1.20",
+        "visible_reproduction_group": "20",
+        "description": "Booth recoding of a negative integer"
+      },
+      "CS-1999-Q21": {
+        "stored_printed_question_number": "1.21",
+        "visible_reproduction_group": "21",
+        "description": "Array-multiplier critical path"
+      },
+      "CS-1999-Q22": {
+        "stored_printed_question_number": "1.22",
+        "visible_reproduction_group": "22",
+        "description": "Two-way set-associative mapping"
+      },
+      "CS-1999-Q23": {
+        "stored_printed_question_number": "1.23",
+        "visible_reproduction_group": "23",
+        "description": "Newton convergence conditions"
+      },
+      "CS-1999-Q24": {
+        "stored_printed_question_number": "1.24",
+        "visible_reproduction_group": "24",
+        "description": "Candidate key from a dependency chain"
+      },
+      "CS-1999-Q25": {
+        "stored_printed_question_number": "1.25",
+        "visible_reproduction_group": "25",
+        "description": "B-tree versus B-plus-tree uses"
+      },
+      "CS-1999-Q26": {
+        "stored_printed_question_number": "2.1",
+        "visible_reproduction_group": "26",
+        "description": "Checking event probabilities"
+      },
+      "CS-1999-Q27": {
+        "stored_printed_question_number": "2.2",
+        "visible_reproduction_group": "27",
+        "description": "Dividing indistinguishable flowers"
+      },
+      "CS-1999-Q28": {
+        "stored_printed_question_number": "2.3",
+        "visible_reproduction_group": "28",
+        "description": "Recognizing a lattice"
+      },
+      "CS-1999-Q29": {
+        "stored_printed_question_number": "2.4",
+        "visible_reproduction_group": "29",
+        "description": "False context-free closure claims"
+      },
+      "CS-1999-Q30": {
+        "stored_printed_question_number": "2.5",
+        "visible_reproduction_group": "30",
+        "description": "Restricting a language to terminating programs"
+      },
+      "CS-1999-Q31": {
+        "stored_printed_question_number": "2.6",
+        "visible_reproduction_group": "31",
+        "description": "Serializability of an interleaving"
+      },
+      "CS-1999-Q32": {
+        "stored_printed_question_number": "2.7",
+        "visible_reproduction_group": "32",
+        "description": "Normal forms after cyclic dependencies"
+      },
+      "CS-1999-Q33": {
+        "stored_printed_question_number": "2.8",
+        "visible_reproduction_group": "33",
+        "description": "Steady state of a feedback circuit"
+      },
+      "CS-1999-Q34": {
+        "stored_printed_question_number": "2.9",
+        "visible_reproduction_group": "34",
+        "description": "Functionally complete component sets"
+      },
+      "CS-1999-Q35": {
+        "stored_printed_question_number": "2.10",
+        "visible_reproduction_group": "35",
+        "description": "Hardware support for protected multitasking"
+      },
+      "CS-1999-Q36": {
+        "stored_printed_question_number": "2.11",
+        "visible_reproduction_group": "36",
+        "description": "Benefits of virtual memory"
+      },
+      "CS-1999-Q37": {
+        "stored_printed_question_number": "2.12",
+        "visible_reproduction_group": "37",
+        "description": "What a context switch does not normally require"
+      },
+      "CS-1999-Q38": {
+        "stored_printed_question_number": "2.13",
+        "visible_reproduction_group": "38",
+        "description": "Dynamic scope through a caller"
+      },
+      "CS-1999-Q39": {
+        "stored_printed_question_number": "2.14",
+        "visible_reproduction_group": "39",
+        "description": "Blank-insensitive FORTRAN tokenization"
+      },
+      "CS-1999-Q40": {
+        "stored_printed_question_number": "2.15",
+        "visible_reproduction_group": "40",
+        "description": "Both left and right recursion"
+      },
+      "CS-1999-Q41": {
+        "stored_printed_question_number": "2.16",
+        "visible_reproduction_group": "41",
+        "description": "Ripple addition components"
+      },
+      "CS-1999-Q42": {
+        "stored_printed_question_number": "2.17",
+        "visible_reproduction_group": "42",
+        "description": "Signed representations of zero"
+      },
+      "CS-1999-Q43": {
+        "stored_printed_question_number": "2.18",
+        "visible_reproduction_group": "43",
+        "description": "Purposes of RAID"
+      },
+      "CS-1999-Q44": {
+        "stored_printed_question_number": "2.19",
+        "visible_reproduction_group": "44",
+        "description": "Control-unit speed ordering"
+      },
+      "CS-1999-Q45": {
+        "stored_printed_question_number": "2.20",
+        "visible_reproduction_group": "45",
+        "description": "Optimal merge cost"
+      },
+      "CS-1999-Q46": {
+        "stored_printed_question_number": "2.21",
+        "visible_reproduction_group": "46",
+        "description": "Matching recurrence growth"
+      },
+      "CS-1999-Q47": {
+        "stored_printed_question_number": "2.22",
+        "visible_reproduction_group": "47",
+        "description": "Typical RISC characteristics"
+      },
+      "CS-1999-Q48": {
+        "stored_printed_question_number": "2.23",
+        "visible_reproduction_group": "48",
+        "description": "Addressing modes versus implementability"
+      },
+      "CS-1999-Q49": {
+        "stored_printed_question_number": "2.24",
+        "visible_reproduction_group": "49",
+        "description": "Recursive median function and ties"
+      },
+      "CS-1999-Q50": {
+        "stored_printed_question_number": "2.25",
+        "visible_reproduction_group": "50",
+        "description": "SQL myths"
+      },
+      "CS-1999-Q51": {
+        "stored_printed_question_number": "3(a)",
+        "visible_reproduction_group": "51",
+        "description": "Flaw in symmetry–transitivity proof"
+      },
+      "CS-1999-Q52": {
+        "stored_printed_question_number": "3(b)",
+        "visible_reproduction_group": "51",
+        "description": "Symmetric transitive nonreflexive relation"
+      },
+      "CS-1999-Q53": {
+        "stored_printed_question_number": "4(a)",
+        "visible_reproduction_group": "52",
+        "description": "Cardinality of a left coset"
+      },
+      "CS-1999-Q54": {
+        "stored_printed_question_number": "4(b)",
+        "visible_reproduction_group": "52",
+        "description": "Cosets coincide or are disjoint"
+      },
+      "CS-1999-Q55": {
+        "stored_printed_question_number": "4(c)",
+        "visible_reproduction_group": "52",
+        "description": "Lagrange theorem from cosets"
+      },
+      "CS-1999-Q56": {
+        "stored_printed_question_number": "5(a)(i)",
+        "visible_reproduction_group": "53",
+        "description": "First proposed edge cut"
+      },
+      "CS-1999-Q57": {
+        "stored_printed_question_number": "5(a)(ii)",
+        "visible_reproduction_group": "53",
+        "description": "Second proposed edge cut"
+      },
+      "CS-1999-Q58": {
+        "stored_printed_question_number": "5(b)",
+        "visible_reproduction_group": "53",
+        "description": "Minimum cut of the six-vertex graph"
+      },
+      "CS-1999-Q59": {
+        "stored_printed_question_number": "5(c)",
+        "visible_reproduction_group": "53",
+        "description": "Edge lower bound from edge connectivity"
+      },
+      "CS-1999-Q60": {
+        "stored_printed_question_number": "6(a)",
+        "visible_reproduction_group": "54",
+        "description": "Regular union does not determine a summand"
+      },
+      "CS-1999-Q61": {
+        "stored_printed_question_number": "6(b)",
+        "visible_reproduction_group": "54",
+        "description": "Decide strict inclusion of automaton languages"
+      },
+      "CS-1999-Q62": {
+        "stored_printed_question_number": "7",
+        "visible_reproduction_group": "55",
+        "description": "The marked copy language is not context-free"
+      },
+      "CS-1999-Q63": {
+        "stored_printed_question_number": "8",
+        "visible_reproduction_group": "56",
+        "description": "Optimal decision tree for three matrix minima"
+      },
+      "CS-1999-Q64": {
+        "stored_printed_question_number": "9",
+        "visible_reproduction_group": "57",
+        "description": "Synthesized attributes for binary fractions"
+      },
+      "CS-1999-Q65": {
+        "stored_printed_question_number": "10(a)",
+        "visible_reproduction_group": "58",
+        "description": "Termination of the diagonal function"
+      },
+      "CS-1999-Q66": {
+        "stored_printed_question_number": "10(b)",
+        "visible_reproduction_group": "58",
+        "description": "Diagonal contradiction for a halting decider"
+      },
+      "CS-1999-Q67": {
+        "stored_printed_question_number": "11(a)",
+        "visible_reproduction_group": "59",
+        "description": "Harmonic recurrence and its cost model"
+      },
+      "CS-1999-Q68": {
+        "stored_printed_question_number": "11(b)",
+        "visible_reproduction_group": "59",
+        "description": "Constant-time insertion using payload exchange"
+      },
+      "CS-1999-Q69": {
+        "stored_printed_question_number": "12(a)",
+        "visible_reproduction_group": "60",
+        "description": "Leaves equal full nodes plus one"
+      },
+      "CS-1999-Q70": {
+        "stored_printed_question_number": "12(b)",
+        "visible_reproduction_group": "60",
+        "description": "Min-heap insertion and root deletion: two source orders"
+      },
+      "CS-1999-Q71": {
+        "stored_printed_question_number": "13",
+        "visible_reproduction_group": "61",
+        "description": "Schedule variable-duration pipeline stages"
+      },
+      "CS-1999-Q72": {
+        "stored_printed_question_number": "14(a)",
+        "visible_reproduction_group": "62",
+        "description": "Refute a claimed tautology"
+      },
+      "CS-1999-Q73": {
+        "stored_printed_question_number": "14(b)",
+        "visible_reproduction_group": "62",
+        "description": "Prove disjunction preserves tautology"
+      },
+      "CS-1999-Q74": {
+        "stored_printed_question_number": "15(i)",
+        "visible_reproduction_group": "63",
+        "description": "Trace call by value"
+      },
+      "CS-1999-Q75": {
+        "stored_printed_question_number": "15(ii)",
+        "visible_reproduction_group": "63",
+        "description": "Trace reference passing with an expression"
+      },
+      "CS-1999-Q76": {
+        "stored_printed_question_number": "15(iii)",
+        "visible_reproduction_group": "63",
+        "description": "Expose copy-restore aliasing"
+      },
+      "CS-1999-Q77": {
+        "stored_printed_question_number": "16",
+        "visible_reproduction_group": "64",
+        "description": "Draw activation stacks and static links"
+      },
+      "CS-1999-Q78": {
+        "stored_printed_question_number": "17(a)",
+        "visible_reproduction_group": "65",
+        "description": "Trace the population-count loop"
+      },
+      "CS-1999-Q79": {
+        "stored_printed_question_number": "17(b)",
+        "visible_reproduction_group": "65",
+        "description": "Prove population-count behavior"
+      },
+      "CS-1999-Q80": {
+        "stored_printed_question_number": "18",
+        "visible_reproduction_group": "66",
+        "description": "Wire a decoded 2K-by-8 memory"
+      },
+      "CS-1999-Q81": {
+        "stored_printed_question_number": "19(a)",
+        "visible_reproduction_group": "67",
+        "description": "Size a one-page segment page table"
+      },
+      "CS-1999-Q82": {
+        "stored_printed_question_number": "19(b)",
+        "visible_reproduction_group": "67",
+        "description": "Split the direct-mapped TLB address"
+      },
+      "CS-1999-Q83": {
+        "stored_printed_question_number": "19(c)",
+        "visible_reproduction_group": "67",
+        "description": "Allocate page-entry aging bits"
+      },
+      "CS-1999-Q84": {
+        "stored_printed_question_number": "20(a)",
+        "visible_reproduction_group": "68",
+        "description": "Implement a test-and-set spinlock"
+      },
+      "CS-1999-Q85": {
+        "stored_printed_question_number": "20(b)",
+        "visible_reproduction_group": "68",
+        "description": "Exhibit a lost wakeup deadlock"
+      },
+      "CS-1999-Q86": {
+        "stored_printed_question_number": "21",
+        "visible_reproduction_group": "69",
+        "description": "Bound records stored at B-tree leaves"
+      },
+      "CS-1999-Q87": {
+        "stored_printed_question_number": "22(a)",
+        "visible_reproduction_group": "70",
+        "description": "Query high-paid Calcutta employees"
+      },
+      "CS-1999-Q88": {
+        "stored_printed_question_number": "22(b)",
+        "visible_reproduction_group": "70",
+        "description": "Count high-paid staff in every department"
+      }
+    },
+    "assets": [
+      {
+        "question_id": "CS-1999-Q1",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          238.0,
+          280.0,
+          376.6667
+        ],
+        "sha256": "7e9934272a8440db3d6a40b30bee4d5a35bd08d567e3fdf332d21319a503e598",
+        "width": 680,
+        "height": 416
+      },
+      {
+        "question_id": "CS-1999-Q2",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          377.3333,
+          280.0,
+          467.3333
+        ],
+        "sha256": "f9d2124d747cb9314c9697d1e305ce10b48120c215923eeb8517889e338fe1f4",
+        "width": 680,
+        "height": 270
+      },
+      {
+        "question_id": "CS-1999-Q3",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          468.0,
+          280.0,
+          581.3333
+        ],
+        "sha256": "0115c6650a987f030dc622bc7fbe7c97afe80bde04f5ed81d23d8530d659a4eb",
+        "width": 680,
+        "height": 340
+      },
+      {
+        "question_id": "CS-1999-Q4",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          582.0,
+          280.0,
+          704.0
+        ],
+        "sha256": "74c4200ea2591d3118698ed80db0dd5672792dff7a8d8f66f15536fc91ee3b5d",
+        "width": 680,
+        "height": 366
+      },
+      {
+        "question_id": "CS-1999-Q5",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          704.6667,
+          280.0,
+          720.0
+        ],
+        "sha256": "27062882c0fc26bf5b7337062873f604187ff8efa0216623770e09008a94a6ae",
+        "width": 680,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q5",
+        "part": 2,
+        "page": 1,
+        "bbox": [
+          300.0,
+          100.0,
+          526.0,
+          160.0
+        ],
+        "sha256": "d0894342281522599742811e20087993e5a04d9183d94b964b72b4c170602d9d",
+        "width": 678,
+        "height": 180
+      },
+      {
+        "question_id": "CS-1999-Q6",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.0,
+          160.0,
+          526.0,
+          285.3333
+        ],
+        "sha256": "f9f692c0093ed8ea0d3cc579f77d4749cf680e9c17f19f5dec7f95b0be656b44",
+        "width": 678,
+        "height": 376
+      },
+      {
+        "question_id": "CS-1999-Q7",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.0,
+          285.3333,
+          526.0,
+          370.6667
+        ],
+        "sha256": "eabe2baae87af66ebf496295450fdfc51d7e1d7f0fd2ecfc01eda3a4861ec173",
+        "width": 678,
+        "height": 256
+      },
+      {
+        "question_id": "CS-1999-Q8",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.0,
+          371.3333,
+          526.0,
+          572.0
+        ],
+        "sha256": "0a85f7fcbe1416ff914a1eecda9352352adf7394c5326ac7c82c0167ec87b6cd",
+        "width": 678,
+        "height": 602
+      },
+      {
+        "question_id": "CS-1999-Q9",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.0,
+          572.6667,
+          526.0,
+          709.3333
+        ],
+        "sha256": "d780db3ae4184572ab31560b0f9abc89cda0445c7f4221ad7d8b80de9919f2e5",
+        "width": 678,
+        "height": 410
+      },
+      {
+        "question_id": "CS-1999-Q9",
+        "part": 2,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.0,
+          162.6667
+        ],
+        "sha256": "0904740f5eae6e00dd42b1191791c25c24769447be12112c4f7561a4bc8dcd82",
+        "width": 680,
+        "height": 358
+      },
+      {
+        "question_id": "CS-1999-Q10",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          163.3333,
+          280.0,
+          264.0
+        ],
+        "sha256": "a4ed86c6700964d7fc61353e1eec5441d8bd3806f5f57fe1ac7e1f55896d9358",
+        "width": 680,
+        "height": 302
+      },
+      {
+        "question_id": "CS-1999-Q11",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          264.6667,
+          280.0,
+          338.6667
+        ],
+        "sha256": "8d244c1334c8e7542281c559f92efa9fe6ccac6b2f53a2cb8ecc21089ce23064",
+        "width": 680,
+        "height": 222
+      },
+      {
+        "question_id": "CS-1999-Q12",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          339.3333,
+          280.0,
+          426.0
+        ],
+        "sha256": "611b63e36ee887b56cef9302061f219bb156b8af3eca1f6b69ba282b7726f220",
+        "width": 680,
+        "height": 260
+      },
+      {
+        "question_id": "CS-1999-Q13",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          426.6667,
+          280.0,
+          550.6667
+        ],
+        "sha256": "a8660c76e7dc113b16a13580a17b90bd2394f5c8d12ec94bd63c4a6b9740614c",
+        "width": 680,
+        "height": 372
+      },
+      {
+        "question_id": "CS-1999-Q14",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          550.6667,
+          280.0,
+          690.6667
+        ],
+        "sha256": "1e4992d1a03fd86567dcc43705c225218eab5269b7af1c7981bfaea251255709",
+        "width": 680,
+        "height": 420
+      },
+      {
+        "question_id": "CS-1999-Q15",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          690.6667,
+          280.0,
+          716.6667
+        ],
+        "sha256": "db2a911b4533b451c81479ed8917c20377ade2a579c17071342037ea6e3c385c",
+        "width": 680,
+        "height": 78
+      },
+      {
+        "question_id": "CS-1999-Q15",
+        "part": 2,
+        "page": 2,
+        "bbox": [
+          300.0,
+          45.3333,
+          526.0,
+          187.3333
+        ],
+        "sha256": "d7eeb6feeff3ff65dc3a8930a064795a6abef15bae3d702f47fb9cfb9319217c",
+        "width": 678,
+        "height": 426
+      },
+      {
+        "question_id": "CS-1999-Q16",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.0,
+          187.3333,
+          526.0,
+          292.0
+        ],
+        "sha256": "69fb45e980e4d8164da7befeeecb0baba81f63600fe3c551ac50f3c7853dada0",
+        "width": 678,
+        "height": 314
+      },
+      {
+        "question_id": "CS-1999-Q17",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.0,
+          292.0,
+          526.0,
+          378.0
+        ],
+        "sha256": "9399b96a4b656e24b9766b469b4c3a3aa794d615f602b0c84d64c00e054b6853",
+        "width": 678,
+        "height": 258
+      },
+      {
+        "question_id": "CS-1999-Q18",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.0,
+          378.0,
+          526.0,
+          490.0
+        ],
+        "sha256": "0a0ec922b9511d41958aca9fefa6f56caccedfabda9bcf43190ddb1731978311",
+        "width": 678,
+        "height": 336
+      },
+      {
+        "question_id": "CS-1999-Q19",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.0,
+          490.0,
+          526.0,
+          636.6667
+        ],
+        "sha256": "844edd5f1f303267c75a7f2f23c411c988ad84beb82e5182a842fecf5e787b8b",
+        "width": 678,
+        "height": 440
+      },
+      {
+        "question_id": "CS-1999-Q20",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.0,
+          636.6667,
+          526.0,
+          706.6667
+        ],
+        "sha256": "2f6bd6765f90f16b048beac0b497839f38933c83060ccf64e0379ffbb0c3b1fb",
+        "width": 678,
+        "height": 210
+      },
+      {
+        "question_id": "CS-1999-Q20",
+        "part": 2,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.0,
+          58.6667
+        ],
+        "sha256": "91c5bfeb64df10599dffaa5fca134efab16c9eafb5c7462b87448166e6da9514",
+        "width": 680,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q21",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          58.6667,
+          280.0,
+          158.6667
+        ],
+        "sha256": "31be2de69beb399ca4628e15bfe1150573da220657b61cdacba7288f481c98c9",
+        "width": 680,
+        "height": 300
+      },
+      {
+        "question_id": "CS-1999-Q22",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          159.3333,
+          280.0,
+          280.0
+        ],
+        "sha256": "d0653c64af99ab77f8a7c84fc813dc16c8bbdc1ebd716fc93330e50186ebb2a8",
+        "width": 680,
+        "height": 362
+      },
+      {
+        "question_id": "CS-1999-Q23",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          280.0,
+          280.0,
+          404.0
+        ],
+        "sha256": "d795d8878dfd9faedb8db39b79108f7a0356c0d8cb9718e38f6ca92ed63b950c",
+        "width": 680,
+        "height": 372
+      },
+      {
+        "question_id": "CS-1999-Q24",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          404.0,
+          280.0,
+          520.0
+        ],
+        "sha256": "aa1eab77d547085d6ac3f6aeec9fb81a2d955181384df1645e91efc3423b2b16",
+        "width": 680,
+        "height": 348
+      },
+      {
+        "question_id": "CS-1999-Q25",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          520.0,
+          280.0,
+          631.3333
+        ],
+        "sha256": "b8ac926bc8ad7931831d0dcef4371e43411afb9693796505ac87e78a101a6251",
+        "width": 680,
+        "height": 334
+      },
+      {
+        "question_id": "CS-1999-Q26",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.0,
+          126.6667,
+          526.0,
+          248.6667
+        ],
+        "sha256": "1f01b852d0891798057dc9e4dce72c1af7d861e6e9821833f5faf329e114f24c",
+        "width": 678,
+        "height": 366
+      },
+      {
+        "question_id": "CS-1999-Q27",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.0,
+          249.3333,
+          526.0,
+          360.6667
+        ],
+        "sha256": "32364f7a8fb5627eb1207b15fbc8af63e3c5e9c4394a747d3de068044d9d05ae",
+        "width": 678,
+        "height": 334
+      },
+      {
+        "question_id": "CS-1999-Q28",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.0,
+          361.3333,
+          526.0,
+          497.3333
+        ],
+        "sha256": "d4cadd03945ebee014ac9a5dc686d83f66d0b7e47018aa141e28e3beb5352e66",
+        "width": 678,
+        "height": 408
+      },
+      {
+        "question_id": "CS-1999-Q29",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.0,
+          497.3333,
+          526.0,
+          596.6667
+        ],
+        "sha256": "e2dbc71385b09df81de586d3746bf2b093ccdca251a29cd86f9425b85aa0df5d",
+        "width": 678,
+        "height": 298
+      },
+      {
+        "question_id": "CS-1999-Q30",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.0,
+          596.6667,
+          526.0,
+          710.0
+        ],
+        "sha256": "4d5b03ae7ef75f4eca7693727aca4b59b824f4a91be513bc612580dc3868bff0",
+        "width": 678,
+        "height": 340
+      },
+      {
+        "question_id": "CS-1999-Q30",
+        "part": 2,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.0,
+          130.0
+        ],
+        "sha256": "337861c63c5419342338ed7e266b532b08ad7c65aa5fc8ccf552f5d8f1c0c9fa",
+        "width": 680,
+        "height": 260
+      },
+      {
+        "question_id": "CS-1999-Q31",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          130.0,
+          280.0,
+          380.6667
+        ],
+        "sha256": "29eb6c57426d2ade1f47196ef4e95255ad89e8dfb0e5b6cc5650a5507c6c539f",
+        "width": 680,
+        "height": 752
+      },
+      {
+        "question_id": "CS-1999-Q32",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          380.6667,
+          280.0,
+          508.0
+        ],
+        "sha256": "a11608d96ec55deea67bea6617c5e5b2f7a5e91c3ac91d364512790a150aca42",
+        "width": 680,
+        "height": 382
+      },
+      {
+        "question_id": "CS-1999-Q33",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          508.0,
+          280.0,
+          710.0
+        ],
+        "sha256": "5cee06e42386dd430071e40b4a40e4423903ffb514aa949c593d3bf438046f75",
+        "width": 680,
+        "height": 606
+      },
+      {
+        "question_id": "CS-1999-Q34",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.0,
+          44.0,
+          526.0,
+          157.3333
+        ],
+        "sha256": "1ed855dda5f7a1302f3f637f84ce3333ae2e395eb26a6724ff5fed4088d3d6ff",
+        "width": 678,
+        "height": 340
+      },
+      {
+        "question_id": "CS-1999-Q35",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.0,
+          157.3333,
+          526.0,
+          267.3333
+        ],
+        "sha256": "8848b9253300a5720cfb40272758c3333c74333c0f62e49e39c91e1e6167524a",
+        "width": 678,
+        "height": 330
+      },
+      {
+        "question_id": "CS-1999-Q36",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.0,
+          267.3333,
+          526.0,
+          415.3333
+        ],
+        "sha256": "569b4609808401ca660926e233f543533b496c8ef40063154af4a7e6fd3758f5",
+        "width": 678,
+        "height": 444
+      },
+      {
+        "question_id": "CS-1999-Q37",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.0,
+          415.3333,
+          526.0,
+          574.0
+        ],
+        "sha256": "1e3fb6354481b8e2f166a69b662a7d336631a92731d7e004a6a5b5adf4ce3674",
+        "width": 678,
+        "height": 476
+      },
+      {
+        "question_id": "CS-1999-Q38",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.0,
+          574.0,
+          526.0,
+          700.0
+        ],
+        "sha256": "ad7cf44a5ca886170c4f5275d81c87e2eea0c974de7fc16ba9b7d4d52ca087e2",
+        "width": 678,
+        "height": 378
+      },
+      {
+        "question_id": "CS-1999-Q38",
+        "part": 2,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.0,
+          119.3333
+        ],
+        "sha256": "b5188ffd5e82a2999f21c69e981efd4da3316ecbc4a74f9032ca006707630c20",
+        "width": 680,
+        "height": 228
+      },
+      {
+        "question_id": "CS-1999-Q39",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          119.3333,
+          280.0,
+          207.3333
+        ],
+        "sha256": "fd5c3d52299d2a6b2fcd3c1abed77a0bb63cc11f80fac47c2acaaba553a1f92c",
+        "width": 680,
+        "height": 264
+      },
+      {
+        "question_id": "CS-1999-Q40",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          208.0,
+          280.0,
+          317.3333
+        ],
+        "sha256": "3ed855b62a77c606ba2c2e6e1036327b2aac649fc2420a849519f9a9a975be9d",
+        "width": 680,
+        "height": 328
+      },
+      {
+        "question_id": "CS-1999-Q41",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          317.3333,
+          280.0,
+          406.6667
+        ],
+        "sha256": "2965a68b6491269080692d5e07d8be2d0ed88d4088e2c130abc4f8a5c4a68835",
+        "width": 680,
+        "height": 268
+      },
+      {
+        "question_id": "CS-1999-Q42",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          406.6667,
+          280.0,
+          480.6667
+        ],
+        "sha256": "ce257b733c1e4e617d36c7953fda732dc9d8163915ca6e86185cb37c4088a2a1",
+        "width": 680,
+        "height": 222
+      },
+      {
+        "question_id": "CS-1999-Q43",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          480.6667,
+          280.0,
+          570.0
+        ],
+        "sha256": "098356091640cce71767273e0417a3b7c95b0b4ba89a8d2fa29297a36b8facb4",
+        "width": 680,
+        "height": 268
+      },
+      {
+        "question_id": "CS-1999-Q44",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          570.0,
+          280.0,
+          690.0
+        ],
+        "sha256": "9b33cfcde106f905e5abab6972ab67f701b047bfd48fd10f92c31449b3613871",
+        "width": 680,
+        "height": 360
+      },
+      {
+        "question_id": "CS-1999-Q44",
+        "part": 2,
+        "page": 5,
+        "bbox": [
+          300.0,
+          43.3333,
+          526.0,
+          161.3333
+        ],
+        "sha256": "4a60819159e277833cdbe575eed0019fa4f72d6d4e0f96cb5a49484f204692f9",
+        "width": 678,
+        "height": 354
+      },
+      {
+        "question_id": "CS-1999-Q45",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.0,
+          161.3333,
+          526.0,
+          289.3333
+        ],
+        "sha256": "7b0eb1c8843081f066a9452a281d9b83ab547a6fc0c2727d48a0686e29006e07",
+        "width": 678,
+        "height": 384
+      },
+      {
+        "question_id": "CS-1999-Q46",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.0,
+          289.3333,
+          526.0,
+          422.6667
+        ],
+        "sha256": "7d86d825ccb920bec3af92676ae7f0ebc18fbd42c0a24e97281872b22a8a431d",
+        "width": 678,
+        "height": 400
+      },
+      {
+        "question_id": "CS-1999-Q47",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.0,
+          422.6667,
+          526.0,
+          537.3333
+        ],
+        "sha256": "3019fa949abf9ad61130aca5ff62e92b454a019d1ff9f9c8369250f2f33fd653",
+        "width": 678,
+        "height": 344
+      },
+      {
+        "question_id": "CS-1999-Q48",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.0,
+          537.3333,
+          526.0,
+          673.3333
+        ],
+        "sha256": "00a71b38baa4bb636161495bf6be5b41299bdd7631f5eeeae91301b99fa58017",
+        "width": 678,
+        "height": 408
+      },
+      {
+        "question_id": "CS-1999-Q49",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.0,
+          673.3333,
+          526.0,
+          700.0
+        ],
+        "sha256": "4760b3860e0cd264528a0266be590e5f73a465d6a6360cf60cc692a33916e40e",
+        "width": 678,
+        "height": 80
+      },
+      {
+        "question_id": "CS-1999-Q49",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          45.3333,
+          280.0,
+          187.3333
+        ],
+        "sha256": "8fd7a9e346a17ea8501e3048aae0146ef48b19613cc6c81f8283ae2370dc9b89",
+        "width": 680,
+        "height": 426
+      },
+      {
+        "question_id": "CS-1999-Q50",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          187.3333,
+          280.0,
+          300.0
+        ],
+        "sha256": "9476f523052b02fb9569ab92a1c57e2f3d626e144d6118478fbc4dfa43f9bf04",
+        "width": 680,
+        "height": 338
+      },
+      {
+        "question_id": "CS-1999-Q51",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          433.3333,
+          280.0,
+          448.6667
+        ],
+        "sha256": "6a62059b0902400130e517f4e8427405cbc26361861f417fd4a0aab77c976370",
+        "width": 680,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q51",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          449.3333,
+          280.0,
+          594.6667
+        ],
+        "sha256": "302217279a92b7388baf4aace2c0edff80ec9d812333c7af675260dff224c7e7",
+        "width": 680,
+        "height": 436
+      },
+      {
+        "question_id": "CS-1999-Q52",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          433.3333,
+          280.0,
+          448.6667
+        ],
+        "sha256": "6a62059b0902400130e517f4e8427405cbc26361861f417fd4a0aab77c976370",
+        "width": 680,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q52",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          594.6667,
+          280.0,
+          648.6667
+        ],
+        "sha256": "e7eb06678ec5da595453dec054990659d3377a8f410faf80ee70990ad18e5665",
+        "width": 680,
+        "height": 162
+      },
+      {
+        "question_id": "CS-1999-Q53",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "sha256": "4e62b27d3deeb5b11c2f9adbc0ba5ab63f98bb0f868e334e8aae08ce7b7045b9",
+        "width": 680,
+        "height": 120
+      },
+      {
+        "question_id": "CS-1999-Q53",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          690.6667,
+          280.0,
+          707.3333
+        ],
+        "sha256": "c30185242dd24d0ee8ca4bfd255a44c81578cbad06693bd822d669c77571d5a5",
+        "width": 680,
+        "height": 50
+      },
+      {
+        "question_id": "CS-1999-Q53",
+        "part": 3,
+        "page": 6,
+        "bbox": [
+          500.0,
+          46.0,
+          523.3333,
+          57.3333
+        ],
+        "sha256": "534a5907e841f115c095e6a4f553201fd58f06b8878f0c94cf354a85d7586778",
+        "width": 70,
+        "height": 34
+      },
+      {
+        "question_id": "CS-1999-Q54",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "sha256": "4e62b27d3deeb5b11c2f9adbc0ba5ab63f98bb0f868e334e8aae08ce7b7045b9",
+        "width": 680,
+        "height": 120
+      },
+      {
+        "question_id": "CS-1999-Q54",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          58.0,
+          526.0,
+          111.3333
+        ],
+        "sha256": "9b994bbd243a53b65118383cb75f84ea238bb983450d5d0d8fcb513a2aae1d3b",
+        "width": 678,
+        "height": 160
+      },
+      {
+        "question_id": "CS-1999-Q55",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          650.0,
+          280.0,
+          690.0
+        ],
+        "sha256": "4e62b27d3deeb5b11c2f9adbc0ba5ab63f98bb0f868e334e8aae08ce7b7045b9",
+        "width": 680,
+        "height": 120
+      },
+      {
+        "question_id": "CS-1999-Q55",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          690.6667,
+          280.0,
+          707.3333
+        ],
+        "sha256": "c30185242dd24d0ee8ca4bfd255a44c81578cbad06693bd822d669c77571d5a5",
+        "width": 680,
+        "height": 50
+      },
+      {
+        "question_id": "CS-1999-Q55",
+        "part": 3,
+        "page": 6,
+        "bbox": [
+          500.0,
+          46.0,
+          523.3333,
+          57.3333
+        ],
+        "sha256": "534a5907e841f115c095e6a4f553201fd58f06b8878f0c94cf354a85d7586778",
+        "width": 70,
+        "height": 34
+      },
+      {
+        "question_id": "CS-1999-Q55",
+        "part": 4,
+        "page": 6,
+        "bbox": [
+          300.0,
+          58.0,
+          526.0,
+          111.3333
+        ],
+        "sha256": "9b994bbd243a53b65118383cb75f84ea238bb983450d5d0d8fcb513a2aae1d3b",
+        "width": 678,
+        "height": 160
+      },
+      {
+        "question_id": "CS-1999-Q55",
+        "part": 5,
+        "page": 6,
+        "bbox": [
+          300.0,
+          113.3333,
+          526.0,
+          154.0
+        ],
+        "sha256": "3bc4a5d93ab7b734fdffb27306900ce249efc3c052e2fb1f321811e5ca0c5378",
+        "width": 678,
+        "height": 122
+      },
+      {
+        "question_id": "CS-1999-Q56",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "sha256": "7a076fc13582498d82a0d27c0068522058b48ce4c591f0bf0ec53839c11a856a",
+        "width": 678,
+        "height": 650
+      },
+      {
+        "question_id": "CS-1999-Q56",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          375.3333,
+          526.0,
+          401.3333
+        ],
+        "sha256": "7fcbc550db837700c7a5b774fe62c220bf2da1966ccfb47b5484225f4d5996a7",
+        "width": 678,
+        "height": 78
+      },
+      {
+        "question_id": "CS-1999-Q56",
+        "part": 3,
+        "page": 6,
+        "bbox": [
+          300.0,
+          402.0,
+          526.0,
+          416.6667
+        ],
+        "sha256": "00b3dbee10acbd1464130b64a4926320dd29cbcdac7f07ba6ec8295f521907fa",
+        "width": 678,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q56",
+        "part": 4,
+        "page": 6,
+        "bbox": [
+          500.0,
+          432.0,
+          523.3333,
+          446.0
+        ],
+        "sha256": "24b91124888b5874d766c760a6631216dea711241fc9fc561fd28ca4843419e6",
+        "width": 70,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q57",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "sha256": "7a076fc13582498d82a0d27c0068522058b48ce4c591f0bf0ec53839c11a856a",
+        "width": 678,
+        "height": 650
+      },
+      {
+        "question_id": "CS-1999-Q57",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          375.3333,
+          526.0,
+          401.3333
+        ],
+        "sha256": "7fcbc550db837700c7a5b774fe62c220bf2da1966ccfb47b5484225f4d5996a7",
+        "width": 678,
+        "height": 78
+      },
+      {
+        "question_id": "CS-1999-Q57",
+        "part": 3,
+        "page": 6,
+        "bbox": [
+          300.0,
+          417.3333,
+          526.0,
+          431.3333
+        ],
+        "sha256": "6787d824edfdf75857be94a99779901509ac0d42f497bd893ea0257ad31f755d",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q57",
+        "part": 4,
+        "page": 6,
+        "bbox": [
+          500.0,
+          432.0,
+          523.3333,
+          446.0
+        ],
+        "sha256": "24b91124888b5874d766c760a6631216dea711241fc9fc561fd28ca4843419e6",
+        "width": 70,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q58",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "sha256": "7a076fc13582498d82a0d27c0068522058b48ce4c591f0bf0ec53839c11a856a",
+        "width": 678,
+        "height": 650
+      },
+      {
+        "question_id": "CS-1999-Q58",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          447.3333,
+          526.0,
+          486.6667
+        ],
+        "sha256": "d0f232426b162b4545a0b8ebaee9022c0016cf7687f5dbb92b91de9fb4447e14",
+        "width": 678,
+        "height": 118
+      },
+      {
+        "question_id": "CS-1999-Q59",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          157.3333,
+          526.0,
+          374.0
+        ],
+        "sha256": "7a076fc13582498d82a0d27c0068522058b48ce4c591f0bf0ec53839c11a856a",
+        "width": 678,
+        "height": 650
+      },
+      {
+        "question_id": "CS-1999-Q59",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          489.3333,
+          526.0,
+          554.0
+        ],
+        "sha256": "81cdb7ca3cae955653cafe7616ace03311bd5b7b31546ffda6c26728195eaafb",
+        "width": 678,
+        "height": 194
+      },
+      {
+        "question_id": "CS-1999-Q60",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          554.6667,
+          526.0,
+          568.6667
+        ],
+        "sha256": "964ead0095b68773e6c2ef855c0ab5b56ab918524a2319a86f43375c5f6b3ac3",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q60",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          570.0,
+          526.0,
+          636.0
+        ],
+        "sha256": "44562f5e76254c65d408e82837ac5025cc09ea3290eaf35f26e6bd76ecd014ab",
+        "width": 678,
+        "height": 198
+      },
+      {
+        "question_id": "CS-1999-Q61",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.0,
+          554.6667,
+          526.0,
+          568.6667
+        ],
+        "sha256": "964ead0095b68773e6c2ef855c0ab5b56ab918524a2319a86f43375c5f6b3ac3",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q61",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.0,
+          637.3333,
+          526.0,
+          692.6667
+        ],
+        "sha256": "f4acd4c93fa8f43a0024b9109f6bbc490da1c089df061b8af4f9d2178285287b",
+        "width": 678,
+        "height": 166
+      },
+      {
+        "question_id": "CS-1999-Q62",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          42.6667,
+          280.0,
+          100.0
+        ],
+        "sha256": "7372378249343b58c9554edd09f864433f0344e3c35fd7911b349a71d2e3d022",
+        "width": 680,
+        "height": 172
+      },
+      {
+        "question_id": "CS-1999-Q63",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          100.6667,
+          280.0,
+          191.3333
+        ],
+        "sha256": "3ad9f7468bdf6e5ece11cf7dae35f047cca7455cd413cfb0413a62257586e108",
+        "width": 680,
+        "height": 272
+      },
+      {
+        "question_id": "CS-1999-Q64",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          191.3333,
+          280.0,
+          332.0
+        ],
+        "sha256": "42c5e477ed7a69ade39b87763ca21fdfc6ac990e36b919b9b4ce173b6748120a",
+        "width": 680,
+        "height": 422
+      },
+      {
+        "question_id": "CS-1999-Q65",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          332.6667,
+          280.0,
+          502.6667
+        ],
+        "sha256": "c7cfc1d60ed137f995746ba11ae1f588bb1477f6d2916dfce2152b6d0cc4281d",
+        "width": 680,
+        "height": 510
+      },
+      {
+        "question_id": "CS-1999-Q65",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          503.3333,
+          280.0,
+          542.0
+        ],
+        "sha256": "b5374ce2cfc907b65edb0bdd35725fa34740f89e8e7470c2cdff9e8aa38c77dd",
+        "width": 680,
+        "height": 116
+      },
+      {
+        "question_id": "CS-1999-Q66",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          332.6667,
+          280.0,
+          502.6667
+        ],
+        "sha256": "c7cfc1d60ed137f995746ba11ae1f588bb1477f6d2916dfce2152b6d0cc4281d",
+        "width": 680,
+        "height": 510
+      },
+      {
+        "question_id": "CS-1999-Q66",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          503.3333,
+          280.0,
+          542.0
+        ],
+        "sha256": "b5374ce2cfc907b65edb0bdd35725fa34740f89e8e7470c2cdff9e8aa38c77dd",
+        "width": 680,
+        "height": 116
+      },
+      {
+        "question_id": "CS-1999-Q66",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          543.3333,
+          280.0,
+          621.3333
+        ],
+        "sha256": "af6e3d787a25c1868a709a29fc050ed6d8ac101b97c115260cfde6c41c25c274",
+        "width": 680,
+        "height": 234
+      },
+      {
+        "question_id": "CS-1999-Q67",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          622.6667,
+          280.0,
+          636.6667
+        ],
+        "sha256": "0b98dd1f245a1ced36ccae00baf36972b11f255475cb8e0a2547ba9c1c8f10a4",
+        "width": 680,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q67",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          637.3333,
+          280.0,
+          716.0
+        ],
+        "sha256": "855768be2841326f233865417ed469e5931648c8ada39d2e60e460410f91d0b0",
+        "width": 680,
+        "height": 236
+      },
+      {
+        "question_id": "CS-1999-Q67",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          300.0,
+          44.6667,
+          526.0,
+          145.3333
+        ],
+        "sha256": "0a84a36154ae03bdecffbd32aea150dd7c5182878ca11f6f53cd0b68c006e5cb",
+        "width": 678,
+        "height": 302
+      },
+      {
+        "question_id": "CS-1999-Q68",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          622.6667,
+          280.0,
+          636.6667
+        ],
+        "sha256": "0b98dd1f245a1ced36ccae00baf36972b11f255475cb8e0a2547ba9c1c8f10a4",
+        "width": 680,
+        "height": 42
+      },
+      {
+        "question_id": "CS-1999-Q68",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.0,
+          146.6667,
+          526.0,
+          212.6667
+        ],
+        "sha256": "ca0c3cf2ba4e2f67334ca89ae89d856038117663aa754f5135eb7964b21e66fc",
+        "width": 678,
+        "height": 198
+      },
+      {
+        "question_id": "CS-1999-Q69",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.0,
+          213.3333,
+          526.0,
+          228.0
+        ],
+        "sha256": "07370744d475ce24f83e57ba42a4fb8820d6986ed246bfe015f3c32c96e52f91",
+        "width": 678,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q69",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.0,
+          229.3333,
+          526.0,
+          319.3333
+        ],
+        "sha256": "d0874cdff3c345ebb603853704b732c50b98836149c5f63dfac7dc0a5b7a405d",
+        "width": 678,
+        "height": 270
+      },
+      {
+        "question_id": "CS-1999-Q70",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.0,
+          213.3333,
+          526.0,
+          228.0
+        ],
+        "sha256": "07370744d475ce24f83e57ba42a4fb8820d6986ed246bfe015f3c32c96e52f91",
+        "width": 678,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q70",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.0,
+          320.0,
+          526.0,
+          398.0
+        ],
+        "sha256": "bfadcc358df7bbdea2d793f74adac838ec6073a865e31f899ff411e3d177f62e",
+        "width": 678,
+        "height": 234
+      },
+      {
+        "question_id": "CS-1999-Q71",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.0,
+          398.0,
+          528.0,
+          592.0
+        ],
+        "sha256": "b12ace2cbbce809ef9fa76765e9d33d688230ba8ca4cbc06c3d36912469cfb8a",
+        "width": 684,
+        "height": 582
+      },
+      {
+        "question_id": "CS-1999-Q72",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.0,
+          592.6667,
+          526.0,
+          608.0
+        ],
+        "sha256": "ce3863134f77253ed7bd3ba0fc8db2ff7482124fbb404634c5a126829b1ec7dd",
+        "width": 678,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q72",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.0,
+          609.3333,
+          526.0,
+          666.0
+        ],
+        "sha256": "b9710998f757b46c88da95de2894bce20d48cf10c5d4b9a18213166bca8ed8de",
+        "width": 678,
+        "height": 170
+      },
+      {
+        "question_id": "CS-1999-Q73",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.0,
+          592.6667,
+          526.0,
+          608.0
+        ],
+        "sha256": "ce3863134f77253ed7bd3ba0fc8db2ff7482124fbb404634c5a126829b1ec7dd",
+        "width": 678,
+        "height": 46
+      },
+      {
+        "question_id": "CS-1999-Q73",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.0,
+          666.6667,
+          526.0,
+          709.3333
+        ],
+        "sha256": "3e5f1d66c5595832638c1220d34e7b6340db083ab95c817a7cc04448403fca5e",
+        "width": 678,
+        "height": 128
+      },
+      {
+        "question_id": "CS-1999-Q73",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          253.3333,
+          44.6667,
+          276.6667,
+          57.3333
+        ],
+        "sha256": "bd63d39b53ac1b84ca55512e0f6e41f4a0c0a1326e9f6d1a555d21cd526ebba2",
+        "width": 70,
+        "height": 38
+      },
+      {
+        "question_id": "CS-1999-Q74",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "sha256": "365b09b230295c5f5f35183438c621048fdfc2d910c7f069ca1e02a6774e5bd6",
+        "width": 680,
+        "height": 114
+      },
+      {
+        "question_id": "CS-1999-Q74",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          98.0,
+          280.0,
+          112.6667
+        ],
+        "sha256": "08786efe1c3687f71823f919567b0ba907ecc2e489dca8eeb7d4bd2547228277",
+        "width": 680,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q74",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "sha256": "b0217aecc5bea74efe9b1c0d5c1a5594366d4f4f490d0fbdf4f92cee021de369",
+        "width": 680,
+        "height": 262
+      },
+      {
+        "question_id": "CS-1999-Q75",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "sha256": "365b09b230295c5f5f35183438c621048fdfc2d910c7f069ca1e02a6774e5bd6",
+        "width": 680,
+        "height": 114
+      },
+      {
+        "question_id": "CS-1999-Q75",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          113.3333,
+          280.0,
+          128.0
+        ],
+        "sha256": "ebae60c8167b55b0cb54a5ca36caf1814e9b956aa96240cd224a3ffb6d719e0e",
+        "width": 680,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q75",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "sha256": "b0217aecc5bea74efe9b1c0d5c1a5594366d4f4f490d0fbdf4f92cee021de369",
+        "width": 680,
+        "height": 262
+      },
+      {
+        "question_id": "CS-1999-Q76",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          58.6667,
+          280.0,
+          96.6667
+        ],
+        "sha256": "365b09b230295c5f5f35183438c621048fdfc2d910c7f069ca1e02a6774e5bd6",
+        "width": 680,
+        "height": 114
+      },
+      {
+        "question_id": "CS-1999-Q76",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          128.6667,
+          280.0,
+          143.3333
+        ],
+        "sha256": "1cd3f5532c7bfc4db1a4fa4b8124d6130f2fb4cdf45384a0be46ea9e005d0702",
+        "width": 680,
+        "height": 44
+      },
+      {
+        "question_id": "CS-1999-Q76",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          144.0,
+          280.0,
+          231.3333
+        ],
+        "sha256": "b0217aecc5bea74efe9b1c0d5c1a5594366d4f4f490d0fbdf4f92cee021de369",
+        "width": 680,
+        "height": 262
+      },
+      {
+        "question_id": "CS-1999-Q77",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          233.3333,
+          280.0,
+          644.0
+        ],
+        "sha256": "451e4555f426711f07f409e275ce3d2927b8d66289c885d68168d93fec942704",
+        "width": 680,
+        "height": 1232
+      },
+      {
+        "question_id": "CS-1999-Q78",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          644.6667,
+          280.0,
+          709.3333
+        ],
+        "sha256": "38deaca2babc8b9feb9f68b339006d2b4394291616e18c39a36016e3e805c8e6",
+        "width": 680,
+        "height": 194
+      },
+      {
+        "question_id": "CS-1999-Q78",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          300.0,
+          44.0,
+          528.0,
+          144.0
+        ],
+        "sha256": "f9ef3f52173cef86f797d8b7a07a7247bffbbb7e9a5b47444a42a769ccd09d0d",
+        "width": 684,
+        "height": 300
+      },
+      {
+        "question_id": "CS-1999-Q78",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          300.0,
+          144.0,
+          526.0,
+          208.6667
+        ],
+        "sha256": "69ceb584fe7c95c6268fdfc929880297e8b1b43ff291b912a7df8a3be3c4befd",
+        "width": 678,
+        "height": 194
+      },
+      {
+        "question_id": "CS-1999-Q79",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          644.6667,
+          280.0,
+          709.3333
+        ],
+        "sha256": "38deaca2babc8b9feb9f68b339006d2b4394291616e18c39a36016e3e805c8e6",
+        "width": 680,
+        "height": 194
+      },
+      {
+        "question_id": "CS-1999-Q79",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          300.0,
+          44.0,
+          528.0,
+          144.0
+        ],
+        "sha256": "f9ef3f52173cef86f797d8b7a07a7247bffbbb7e9a5b47444a42a769ccd09d0d",
+        "width": 684,
+        "height": 300
+      },
+      {
+        "question_id": "CS-1999-Q79",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          300.0,
+          209.3333,
+          526.0,
+          275.3333
+        ],
+        "sha256": "ddb580d768d1bff6e463cdf109654aeeb4aafc67dcc56bd255a76bc197ee2537",
+        "width": 678,
+        "height": 198
+      },
+      {
+        "question_id": "CS-1999-Q80",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          300.0,
+          276.0,
+          526.0,
+          488.0
+        ],
+        "sha256": "c5d4a1bf76712aefe7432ff115beff02d4054d717d2d8abc049e537ee38da0af",
+        "width": 678,
+        "height": 636
+      },
+      {
+        "question_id": "CS-1999-Q81",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "sha256": "272c82ed5c02c6415eeff0625b6022329ee198018c95de4bb07d480fe09ede27",
+        "width": 678,
+        "height": 480
+      },
+      {
+        "question_id": "CS-1999-Q81",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          300.0,
+          650.0,
+          526.0,
+          713.3333
+        ],
+        "sha256": "1b30c91496ef5187b192862be2045b85904e5d677925f48bf8711109060bed7f",
+        "width": 678,
+        "height": 190
+      },
+      {
+        "question_id": "CS-1999-Q81",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          253.3333,
+          44.6667,
+          276.6667,
+          57.3333
+        ],
+        "sha256": "afea52ad8c36524cc40679c54f5d311069727a5d476a9aae6087a80fa6fe032d",
+        "width": 70,
+        "height": 38
+      },
+      {
+        "question_id": "CS-1999-Q82",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "sha256": "272c82ed5c02c6415eeff0625b6022329ee198018c95de4bb07d480fe09ede27",
+        "width": 678,
+        "height": 480
+      },
+      {
+        "question_id": "CS-1999-Q82",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          59.3333,
+          280.0,
+          210.6667
+        ],
+        "sha256": "bfdee5b2297c4ddc75950597bee56a58e8dd67576bc309376269f23c7524d264",
+        "width": 680,
+        "height": 454
+      },
+      {
+        "question_id": "CS-1999-Q83",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          300.0,
+          488.6667,
+          526.0,
+          648.6667
+        ],
+        "sha256": "272c82ed5c02c6415eeff0625b6022329ee198018c95de4bb07d480fe09ede27",
+        "width": 678,
+        "height": 480
+      },
+      {
+        "question_id": "CS-1999-Q83",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          211.3333,
+          280.0,
+          316.6667
+        ],
+        "sha256": "5b83c547cb247d78a0188b33f3ef0c4fae073c7ce5b98993eff487fabb494fbd",
+        "width": 680,
+        "height": 316
+      },
+      {
+        "question_id": "CS-1999-Q84",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          316.6667,
+          280.0,
+          330.0
+        ],
+        "sha256": "54f484d8c29e03b5c3a8b233b84ab429f0ee959b569a56113d2d7f09c3931e86",
+        "width": 680,
+        "height": 40
+      },
+      {
+        "question_id": "CS-1999-Q84",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          330.0,
+          280.0,
+          463.3333
+        ],
+        "sha256": "f94987193d87732bca00cc0e8bd7e3d3bdd800bd1c9315127ca599aaa568c87d",
+        "width": 680,
+        "height": 400
+      },
+      {
+        "question_id": "CS-1999-Q85",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          316.6667,
+          280.0,
+          330.0
+        ],
+        "sha256": "54f484d8c29e03b5c3a8b233b84ab429f0ee959b569a56113d2d7f09c3931e86",
+        "width": 680,
+        "height": 40
+      },
+      {
+        "question_id": "CS-1999-Q85",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          464.0,
+          280.0,
+          553.3333
+        ],
+        "sha256": "38f263a7c46f45f4fc62b5386e9d4ed30ed15125d654d0df4bb670f85d3d62d8",
+        "width": 680,
+        "height": 268
+      },
+      {
+        "question_id": "CS-1999-Q85",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          300.0,
+          43.3333,
+          526.0,
+          280.0
+        ],
+        "sha256": "af0aff4bc08872df4125d982a239b48f45773209ddee7ee269f1728a20b35871",
+        "width": 678,
+        "height": 710
+      },
+      {
+        "question_id": "CS-1999-Q86",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.0,
+          280.6667,
+          526.0,
+          398.6667
+        ],
+        "sha256": "a84e7a62aca32a29cd84462513a1583b815a2f200108503ecb174127dbcfa2d3",
+        "width": 678,
+        "height": 354
+      },
+      {
+        "question_id": "CS-1999-Q87",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.0,
+          399.3333,
+          526.0,
+          470.6667
+        ],
+        "sha256": "e4e323b5e84338e8c745801a4e0a78c74b4c92570ed7e782a12af8d6cf0f2de2",
+        "width": 678,
+        "height": 214
+      },
+      {
+        "question_id": "CS-1999-Q87",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          300.0,
+          471.3333,
+          526.0,
+          537.3333
+        ],
+        "sha256": "b3e633050af7ceae3af984a04cb9376958a7a41c706df15e960ffa99c2c1a3c2",
+        "width": 678,
+        "height": 198
+      },
+      {
+        "question_id": "CS-1999-Q88",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.0,
+          399.3333,
+          526.0,
+          470.6667
+        ],
+        "sha256": "e4e323b5e84338e8c745801a4e0a78c74b4c92570ed7e782a12af8d6cf0f2de2",
+        "width": 678,
+        "height": 214
+      },
+      {
+        "question_id": "CS-1999-Q88",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          300.0,
+          538.0,
+          526.0,
+          591.3333
+        ],
+        "sha256": "3b0b6b6d522315c4aa68428d5f4fab559a18ddd3ecd22e61a23d2e966a61eeaf",
+        "width": 678,
+        "height": 160
+      }
+    ]
+  }
+}

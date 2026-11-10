@@ -107,3 +107,7 @@ The 2008 skew correction adds opt-in rigid full-page rotation with explicit coor
 ## Additional crop reviews: CS-2003, CS-2002, CS-2001
 
 2,540 questions / 2,932 parts now have independently reviewed source bounds and actual outputs. This batch adds 290 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.
+
+## Additional crop reviews: CS-2000, CS-1999, CS-1998, CS-1997
+
+2,925 questions / 3,575 parts now have independently reviewed source bounds and actual outputs. This batch adds 385 questions. Answers, main, Pages, workflows and source binaries are unchanged. Browser QA and redistribution rights remain unverified.

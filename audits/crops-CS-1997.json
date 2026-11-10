@@ -1,0 +1,3924 @@
+{
+  "paper_id": "CS-1997",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "c1b076f83101a0cd9bb5c7f58562324ca4e49e97280605c8588588403d9c2b2b",
+  "preparation_evidence_sha256": "2ea45e3fa77e1c50b1990b4cdd5effbeb1412026855dc61bd12b3f625e427b52",
+  "independent_review_evidence_sha256": "e42dd5da7b2e7f58c4951ebe7d750853af5d169adbbca718e9e2c2a5b10d544d",
+  "questions": 101,
+  "crop_parts": 176,
+  "verified_questions": 101,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1997",
+    "status": "approved",
+    "review_scope": "Crop bounds and available rendered reproduction only; not original completeness, transcription, answers, numbering authenticity or rights certification.",
+    "crops_sha256": "c1b076f83101a0cd9bb5c7f58562324ca4e49e97280605c8588588403d9c2b2b",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+    "source_sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "question_count": 101,
+    "part_count": 176,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fresh_render_byte_identity_count": 176,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1997-Q51",
+          "CS-1997-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.6667,
+            118.6667,
+            524.6667,
+            194.0
+          ],
+          [
+            300.6667,
+            118.6667,
+            524.6667,
+            194.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          118.6667,
+          524.6667,
+          194.0
+        ],
+        "reason": "GFG51 common D flip-flop, port address, data bit and power-on clear specification."
+      },
+      {
+        "questions": [
+          "CS-1997-Q54",
+          "CS-1997-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.6667,
+            672.0,
+            524.6667,
+            713.3333
+          ],
+          [
+            300.6667,
+            672.0,
+            524.6667,
+            713.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          672.0,
+          524.6667,
+          713.3333
+        ],
+        "reason": "GFG53 graph coordinate and edge-weight definition spans pages 6–7; both spanning-tree prompts need it. Missing y adjacency bound remains as reproduced."
+      },
+      {
+        "questions": [
+          "CS-1997-Q54",
+          "CS-1997-Q55"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.6667,
+            116.6667
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.6667,
+            116.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.6667,
+          116.6667
+        ],
+        "reason": "GFG53 graph coordinate and edge-weight definition spans pages 6–7; both spanning-tree prompts need it. Missing y adjacency bound remains as reproduced."
+      },
+      {
+        "questions": [
+          "CS-1997-Q56",
+          "CS-1997-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ],
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "reason": "GFG54 shared complete recursive Pascal program."
+      },
+      {
+        "questions": [
+          "CS-1997-Q56",
+          "CS-1997-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ],
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "reason": "GFG54 shared complete recursive Pascal program."
+      },
+      {
+        "questions": [
+          "CS-1997-Q56",
+          "CS-1997-Q57"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            510.6667,
+            280.6667,
+            535.3333
+          ],
+          [
+            53.3333,
+            510.6667,
+            280.6667,
+            535.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          510.6667,
+          280.6667,
+          535.3333
+        ],
+        "reason": "GFG54(a) value-parameter assumption applies to both (i) output and (ii) call count."
+      },
+      {
+        "questions": [
+          "CS-1997-Q57",
+          "CS-1997-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ],
+          [
+            53.3333,
+            237.3333,
+            280.6667,
+            510.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "reason": "GFG54 shared complete recursive Pascal program."
+      },
+      {
+        "questions": [
+          "CS-1997-Q59",
+          "CS-1997-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            606.6667,
+            280.6667,
+            622.6667
+          ],
+          [
+            53.3333,
+            606.6667,
+            280.6667,
+            622.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          606.6667,
+          280.6667,
+          622.6667
+        ],
+        "reason": "GFG55 shared grammar heading, productions and symbol/string definition across columns."
+      },
+      {
+        "questions": [
+          "CS-1997-Q59",
+          "CS-1997-Q60"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            240.0
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            240.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          240.0
+        ],
+        "reason": "GFG55 shared grammar heading, productions and symbol/string definition across columns."
+      },
+      {
+        "questions": [
+          "CS-1997-Q61",
+          "CS-1997-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ],
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "reason": "GFG56 shared hash-table probability model and initial conditions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q61",
+          "CS-1997-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ],
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "reason": "GFG56 shared hash-table probability model and initial conditions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q62",
+          "CS-1997-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ],
+          [
+            300.6667,
+            384.6667,
+            524.6667,
+            470.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "reason": "GFG56 shared hash-table probability model and initial conditions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q64",
+          "CS-1997-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ],
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "reason": "GFG57 shared one-to-one function domain, codomain and integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q64",
+          "CS-1997-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ],
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "reason": "GFG57 shared one-to-one function domain, codomain and integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q65",
+          "CS-1997-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ],
+          [
+            300.6667,
+            605.3333,
+            524.6667,
+            642.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "reason": "GFG57 shared one-to-one function domain, codomain and integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q67",
+          "CS-1997-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            95.3333,
+            280.6667,
+            145.3333
+          ],
+          [
+            53.3333,
+            95.3333,
+            280.6667,
+            145.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          95.3333,
+          280.6667,
+          145.3333
+        ],
+        "reason": "GFG58 shared reflexive/transitive relation and definition of F."
+      },
+      {
+        "questions": [
+          "CS-1997-Q69",
+          "CS-1997-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ],
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "reason": "GFG59 shared recursive function, binomial identity and positive-integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q69",
+          "CS-1997-Q71"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ],
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "reason": "GFG59 shared recursive function, binomial identity and positive-integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q70",
+          "CS-1997-Q71"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ],
+          [
+            53.3333,
+            254.0,
+            280.6667,
+            474.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "reason": "GFG59 shared recursive function, binomial identity and positive-integer assumptions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q72",
+          "CS-1997-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            572.0,
+            280.6667,
+            684.0
+          ],
+          [
+            53.3333,
+            572.0,
+            280.6667,
+            684.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          572.0,
+          280.6667,
+          684.0
+        ],
+        "reason": "GFG60 shared size-balanced-tree, depth and height definitions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q75",
+          "CS-1997-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ],
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "reason": "GFG62 shared duplicate-removal code is prerequisite for GFG63(a–c); faint S2 remains source-native."
+      },
+      {
+        "questions": [
+          "CS-1997-Q75",
+          "CS-1997-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ],
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "reason": "GFG62 shared duplicate-removal code is prerequisite for GFG63(a–c); faint S2 remains source-native."
+      },
+      {
+        "questions": [
+          "CS-1997-Q75",
+          "CS-1997-Q76"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ],
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "reason": "GFG63 shared list length n >= 2 assumption for its three prompts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q75",
+          "CS-1997-Q77"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ],
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "reason": "GFG63 shared list length n >= 2 assumption for its three prompts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q76",
+          "CS-1997-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ],
+          [
+            53.3333,
+            153.3333,
+            280.6667,
+            460.0
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "reason": "GFG62 shared duplicate-removal code is prerequisite for GFG63(a–c); faint S2 remains source-native."
+      },
+      {
+        "questions": [
+          "CS-1997-Q76",
+          "CS-1997-Q77"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ],
+          [
+            53.3333,
+            460.0,
+            280.6667,
+            483.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "reason": "GFG63 shared list length n >= 2 assumption for its three prompts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q78",
+          "CS-1997-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ],
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q78",
+          "CS-1997-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ],
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q78",
+          "CS-1997-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q78",
+          "CS-1997-Q80"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q79",
+          "CS-1997-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ],
+          [
+            53.3333,
+            616.6667,
+            280.6667,
+            707.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q79",
+          "CS-1997-Q80"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            82.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "reason": "GFG64 B+-tree order, key/child limits and depth/height definitions span columns and apply to all subparts."
+      },
+      {
+        "questions": [
+          "CS-1997-Q86",
+          "CS-1997-Q87"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            167.3333,
+            524.6667,
+            374.6667
+          ],
+          [
+            300.6667,
+            167.3333,
+            524.6667,
+            374.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          167.3333,
+          524.6667,
+          374.6667
+        ],
+        "reason": "GFG70 common finite-state-machine transition/output table."
+      },
+      {
+        "questions": [
+          "CS-1997-Q88",
+          "CS-1997-Q89"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            497.3333,
+            524.6667,
+            514.6667
+          ],
+          [
+            300.6667,
+            497.3333,
+            524.6667,
+            514.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          497.3333,
+          524.6667,
+          514.6667
+        ],
+        "reason": "GFG71 common Boolean function; source overbars retained without interpretation."
+      },
+      {
+        "questions": [
+          "CS-1997-Q90",
+          "CS-1997-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ],
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "reason": "GFG72 shared floating-point format and operands A and B."
+      },
+      {
+        "questions": [
+          "CS-1997-Q90",
+          "CS-1997-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ],
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "reason": "GFG72 shared floating-point format and operands A and B."
+      },
+      {
+        "questions": [
+          "CS-1997-Q91",
+          "CS-1997-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ],
+          [
+            300.6667,
+            598.6667,
+            524.6667,
+            712.0
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "reason": "GFG72 shared floating-point format and operands A and B."
+      },
+      {
+        "questions": [
+          "CS-1997-Q91",
+          "CS-1997-Q92"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            53.3333,
+            72.0,
+            280.6667,
+            104.6667
+          ],
+          [
+            53.3333,
+            72.0,
+            280.6667,
+            104.6667
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          72.0,
+          280.6667,
+          104.6667
+        ],
+        "reason": "GFG72(c) explicitly asks error in the addition operation in (b), so the (b) prompt is a prerequisite retained separately."
+      },
+      {
+        "questions": [
+          "CS-1997-Q94",
+          "CS-1997-Q95"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ],
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "reason": "GFG74 common file, device transfer/access and CPU processing specification."
+      },
+      {
+        "questions": [
+          "CS-1997-Q94",
+          "CS-1997-Q96"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ],
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "reason": "GFG74 common file, device transfer/access and CPU processing specification."
+      },
+      {
+        "questions": [
+          "CS-1997-Q94",
+          "CS-1997-Q95"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ],
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "reason": "GFG74 trailing negligible buffer-to-local-copy-time assumption governs all three timing cases."
+      },
+      {
+        "questions": [
+          "CS-1997-Q94",
+          "CS-1997-Q96"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ],
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "reason": "GFG74 trailing negligible buffer-to-local-copy-time assumption governs all three timing cases."
+      },
+      {
+        "questions": [
+          "CS-1997-Q95",
+          "CS-1997-Q96"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ],
+          [
+            300.6667,
+            282.6667,
+            524.6667,
+            423.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "reason": "GFG74 common file, device transfer/access and CPU processing specification."
+      },
+      {
+        "questions": [
+          "CS-1997-Q95",
+          "CS-1997-Q96"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ],
+          [
+            300.6667,
+            582.0,
+            524.6667,
+            618.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "reason": "GFG74 trailing negligible buffer-to-local-copy-time assumption governs all three timing cases."
+      },
+      {
+        "questions": [
+          "CS-1997-Q97",
+          "CS-1997-Q98"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            53.3333,
+            43.3333,
+            280.6667,
+            453.3333
+          ],
+          [
+            53.3333,
+            43.3333,
+            280.6667,
+            453.3333
+          ]
+        ],
+        "intersection": [
+          53.3333,
+          43.3333,
+          280.6667,
+          453.3333
+        ],
+        "reason": "GFG75 shared timestamp/resource allocation, restart and release rules."
+      },
+      {
+        "questions": [
+          "CS-1997-Q99",
+          "CS-1997-Q100"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "reason": "GFG76 shared relational schema, underlined attributes and explanatory definitions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q99",
+          "CS-1997-Q101"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "reason": "GFG76 shared relational schema, underlined attributes and explanatory definitions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q100",
+          "CS-1997-Q101"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.6667,
+            205.3333
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "reason": "GFG76 shared relational schema, underlined attributes and explanatory definitions."
+      },
+      {
+        "questions": [
+          "CS-1997-Q100",
+          "CS-1997-Q101"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.6667,
+            351.3333,
+            524.6667,
+            432.6667
+          ],
+          [
+            300.6667,
+            351.3333,
+            524.6667,
+            432.6667
+          ]
+        ],
+        "intersection": [
+          300.6667,
+          351.3333,
+          524.6667,
+          432.6667
+        ],
+        "reason": "GFG76(b) shared instruction to interpret each following relational expression in at most 15 words."
+      }
+    ],
+    "unexpected_overlap_count": 0,
+    "nonidentical_overlap_count": 0,
+    "parts": [
+      {
+        "question_id": "CS-1997-Q1",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          218.6667,
+          280.6667,
+          342.6667
+        ],
+        "image": "CS-1997-Q1-1.webp",
+        "sha256": "bb7593f3a878d6b52672bfceb5a28040ba7600b83c6cdb2c0b735a0e90f6793d"
+      },
+      {
+        "question_id": "CS-1997-Q2",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          342.6667,
+          280.6667,
+          449.3333
+        ],
+        "image": "CS-1997-Q2-1.webp",
+        "sha256": "4796ea97c47d5c3a1ca9d07888083099b390aa6f7311d0230522ace5462b6fc7"
+      },
+      {
+        "question_id": "CS-1997-Q3",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          449.3333,
+          280.6667,
+          586.6667
+        ],
+        "image": "CS-1997-Q3-1.webp",
+        "sha256": "f383b1e5007cd9be20f86f0f4e742a826bf643d42e495f3350cd3bdc6b0b73ce"
+      },
+      {
+        "question_id": "CS-1997-Q4",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          586.6667,
+          280.6667,
+          660.0
+        ],
+        "image": "CS-1997-Q4-1.webp",
+        "sha256": "175b9a64d3697de6dd36e1defa085749af9f3fcc3a39fbc1680ab723c9eca1c4"
+      },
+      {
+        "question_id": "CS-1997-Q5",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          53.3333,
+          660.0,
+          280.6667,
+          713.3333
+        ],
+        "image": "CS-1997-Q5-1.webp",
+        "sha256": "9e5b0eb75d090ff8c7f2dcaec2b115be193ca1ccd26affbcbdcbb19c852a8855"
+      },
+      {
+        "question_id": "CS-1997-Q5",
+        "part": 2,
+        "page": 1,
+        "bbox": [
+          300.6667,
+          97.3333,
+          524.6667,
+          271.3333
+        ],
+        "image": "CS-1997-Q5-2.webp",
+        "sha256": "1177baf2492d0ed4ea7d928bd12a97818d65324a331c1177521a2208ec170f8c"
+      },
+      {
+        "question_id": "CS-1997-Q6",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.6667,
+          271.3333,
+          524.6667,
+          429.3333
+        ],
+        "image": "CS-1997-Q6-1.webp",
+        "sha256": "2e79167494e1cbaa8e44ef12e8e85d8393586cc2516766ad31a4ed2363554156"
+      },
+      {
+        "question_id": "CS-1997-Q7",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.6667,
+          429.3333,
+          524.6667,
+          516.6667
+        ],
+        "image": "CS-1997-Q7-1.webp",
+        "sha256": "08ad0f8cc7aeed3cc90a75091531ab38c3eeb7716c40a6edfb79c32a1a2ce8a8"
+      },
+      {
+        "question_id": "CS-1997-Q8",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.6667,
+          516.6667,
+          524.6667,
+          662.6667
+        ],
+        "image": "CS-1997-Q8-1.webp",
+        "sha256": "81634bcb5f495b27586db45d942f194ebc074cd71088c0d0d02bbb6c92706bf7"
+      },
+      {
+        "question_id": "CS-1997-Q9",
+        "part": 1,
+        "page": 1,
+        "bbox": [
+          300.6667,
+          662.6667,
+          524.6667,
+          714.0
+        ],
+        "image": "CS-1997-Q9-1.webp",
+        "sha256": "dd9cc605fee865a7bb14121b0485dcf1b6bf92a56ea4d2d10bd3a262fb2cf439"
+      },
+      {
+        "question_id": "CS-1997-Q9",
+        "part": 2,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          153.3333
+        ],
+        "image": "CS-1997-Q9-2.webp",
+        "sha256": "9bbf8903f9c29a79b657ed0889bd779f1b4fea71b48b9b53413d21121408a1ff"
+      },
+      {
+        "question_id": "CS-1997-Q10",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          153.3333,
+          280.6667,
+          216.6667
+        ],
+        "image": "CS-1997-Q10-1.webp",
+        "sha256": "a75034e5e4fb3f1de4b075b6620c59f1aec6aec2fb7b4525eebc458be0116e6a"
+      },
+      {
+        "question_id": "CS-1997-Q11",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          321.3333,
+          280.6667,
+          400.0
+        ],
+        "image": "CS-1997-Q11-1.webp",
+        "sha256": "55eaa2af19f5c4bf9d3664fc0812050db2239f2866a4712b9082ba5b27ad684a"
+      },
+      {
+        "question_id": "CS-1997-Q12",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          400.0,
+          280.6667,
+          485.3333
+        ],
+        "image": "CS-1997-Q12-1.webp",
+        "sha256": "394f15bc866ca9bbf198c28c4647931e59a24754fd88a733034e4a649bc33d77"
+      },
+      {
+        "question_id": "CS-1997-Q13",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          485.3333,
+          280.6667,
+          596.0
+        ],
+        "image": "CS-1997-Q13-1.webp",
+        "sha256": "d23b4bd8d534f21208c10cca8767b03542c2d0c35666d98709b12c40f7a2293c"
+      },
+      {
+        "question_id": "CS-1997-Q14",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          53.3333,
+          596.0,
+          280.6667,
+          706.6667
+        ],
+        "image": "CS-1997-Q14-1.webp",
+        "sha256": "3fdd0b06ccb3067fbc721d552b9de648df8e7965465bc5ef998a2a19cab88783"
+      },
+      {
+        "question_id": "CS-1997-Q14",
+        "part": 2,
+        "page": 2,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          153.3333
+        ],
+        "image": "CS-1997-Q14-2.webp",
+        "sha256": "14888b9649e24a26c1545522c9f5d833aed379594c17ffc43f06422686d49bb9"
+      },
+      {
+        "question_id": "CS-1997-Q15",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.6667,
+          153.3333,
+          524.6667,
+          276.6667
+        ],
+        "image": "CS-1997-Q15-1.webp",
+        "sha256": "79712e9ac12c92af10dea8ac035aa31530f01b5dee478d2819784a5e52d9c11b"
+      },
+      {
+        "question_id": "CS-1997-Q16",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.6667,
+          384.6667,
+          524.6667,
+          494.0
+        ],
+        "image": "CS-1997-Q16-1.webp",
+        "sha256": "2ea07f99e75286a48779367ff340f73bc2befb6b55a6e662226c532d39713e36"
+      },
+      {
+        "question_id": "CS-1997-Q17",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.6667,
+          494.0,
+          524.6667,
+          589.3333
+        ],
+        "image": "CS-1997-Q17-1.webp",
+        "sha256": "382773791336b5dc2c19ab660b06e28f54327e50135fec762a9fc8a7f2977d61"
+      },
+      {
+        "question_id": "CS-1997-Q18",
+        "part": 1,
+        "page": 2,
+        "bbox": [
+          300.6667,
+          589.3333,
+          524.6667,
+          711.3333
+        ],
+        "image": "CS-1997-Q18-1.webp",
+        "sha256": "d1543d5c5d8206043b8f2185ea3075ed4edfa0ff25dc09ef9736953ce74507b5"
+      },
+      {
+        "question_id": "CS-1997-Q18",
+        "part": 2,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          82.6667
+        ],
+        "image": "CS-1997-Q18-2.webp",
+        "sha256": "028ad1c756e75a69390947c63aa4d769cd84fd3e329611ee9bd48565e4e82cfa"
+      },
+      {
+        "question_id": "CS-1997-Q19",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          82.6667,
+          280.6667,
+          171.3333
+        ],
+        "image": "CS-1997-Q19-1.webp",
+        "sha256": "165853f793f698bca310dd01458eaa8ed055e34f036a398df48009e5916d8e41"
+      },
+      {
+        "question_id": "CS-1997-Q20",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          171.3333,
+          280.6667,
+          282.0
+        ],
+        "image": "CS-1997-Q20-1.webp",
+        "sha256": "466fb256cba2c3263c36534767797dc6fc196b098f8e38d5d72fa4f148b53f08"
+      },
+      {
+        "question_id": "CS-1997-Q21",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          282.0,
+          280.6667,
+          501.3333
+        ],
+        "image": "CS-1997-Q21-1.webp",
+        "sha256": "97edde97a8e14413870ed0e718268d430a042532a70acb4ef5aaa3f8e83e92ce"
+      },
+      {
+        "question_id": "CS-1997-Q22",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          501.3333,
+          280.6667,
+          588.0
+        ],
+        "image": "CS-1997-Q22-1.webp",
+        "sha256": "068fc27a311dd20d93dd217ec31ac0f52b12f3c420532c7fffb25460ea216485"
+      },
+      {
+        "question_id": "CS-1997-Q23",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          53.3333,
+          588.0,
+          280.6667,
+          698.6667
+        ],
+        "image": "CS-1997-Q23-1.webp",
+        "sha256": "986eb09da2311582597287f57a2ce882ee1d338ae9c860b0647c860c7d07d2d6"
+      },
+      {
+        "question_id": "CS-1997-Q23",
+        "part": 2,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "image": "CS-1997-Q23-2.webp",
+        "sha256": "233a7ef01995900b36e135b5c1b555910905772c7172a1507873b9b1b666efc1"
+      },
+      {
+        "question_id": "CS-1997-Q24",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          82.0,
+          524.6667,
+          155.3333
+        ],
+        "image": "CS-1997-Q24-1.webp",
+        "sha256": "f34829045145dcbef61e536542c587a7774ad78d3322ff77cffeef0fdb02b745"
+      },
+      {
+        "question_id": "CS-1997-Q25",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          155.3333,
+          524.6667,
+          230.0
+        ],
+        "image": "CS-1997-Q25-1.webp",
+        "sha256": "99f4e603f8e28e1b950462420e920e841436061dc98e50dde2a8605c973226a5"
+      },
+      {
+        "question_id": "CS-1997-Q26",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          338.6667,
+          524.6667,
+          429.3333
+        ],
+        "image": "CS-1997-Q26-1.webp",
+        "sha256": "b2bd75436aa6032ba02bbebee0e8754b14ceb15c76378906ed4269fc39e92497"
+      },
+      {
+        "question_id": "CS-1997-Q27",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          429.3333,
+          524.6667,
+          553.3333
+        ],
+        "image": "CS-1997-Q27-1.webp",
+        "sha256": "dd22073e7787120c3af2b7b23fbfe331ba0276d865d26674ef18b47f398246a5"
+      },
+      {
+        "question_id": "CS-1997-Q28",
+        "part": 1,
+        "page": 3,
+        "bbox": [
+          300.6667,
+          553.3333,
+          524.6667,
+          710.6667
+        ],
+        "image": "CS-1997-Q28-1.webp",
+        "sha256": "27b227cecea2b6a5a40cc80bd05d3264ea5aebc3247d078281f15232203e5ca6"
+      },
+      {
+        "question_id": "CS-1997-Q29",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          131.3333
+        ],
+        "image": "CS-1997-Q29-1.webp",
+        "sha256": "6af2532c23bfe8f250e688954c6f65903298cd77ae1bb4fdb5edd0ef3e36131d"
+      },
+      {
+        "question_id": "CS-1997-Q30",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          131.3333,
+          280.6667,
+          240.6667
+        ],
+        "image": "CS-1997-Q30-1.webp",
+        "sha256": "7c9b1d81432a27d0fd6624f8f8ad9d56ee82c4424d3fbc8332c6a848fccee24d"
+      },
+      {
+        "question_id": "CS-1997-Q31",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          240.6667,
+          280.6667,
+          366.6667
+        ],
+        "image": "CS-1997-Q31-1.webp",
+        "sha256": "5ddb6ea39dbaef2db71bf5173859122e83b7055f705c9ddf0eb0efd87a3a7789"
+      },
+      {
+        "question_id": "CS-1997-Q32",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          366.6667,
+          280.6667,
+          501.3333
+        ],
+        "image": "CS-1997-Q32-1.webp",
+        "sha256": "63f7f46a6f3ba4f1b8cc457c06665f09bf3fa99cb34c2c4dd72320551d3a69dc"
+      },
+      {
+        "question_id": "CS-1997-Q33",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          53.3333,
+          501.3333,
+          280.6667,
+          630.6667
+        ],
+        "image": "CS-1997-Q33-1.webp",
+        "sha256": "01be0fce0cfe6ed28a814829cdcfaf0079cadbf1f3a1f3eaf120edacc7df2c7e"
+      },
+      {
+        "question_id": "CS-1997-Q33",
+        "part": 2,
+        "page": 4,
+        "bbox": [
+          300.6667,
+          49.3333,
+          524.6667,
+          244.0
+        ],
+        "image": "CS-1997-Q33-2.webp",
+        "sha256": "8ead8d35a0843c912e385e2039a7143f4e031d2b888143c05b9524c1c29e179f"
+      },
+      {
+        "question_id": "CS-1997-Q34",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.6667,
+          244.0,
+          524.6667,
+          354.6667
+        ],
+        "image": "CS-1997-Q34-1.webp",
+        "sha256": "eb0dd8325c3397c85a9251338bee6597f5517dcd32a8c5b48bfe68d3e9c1a839"
+      },
+      {
+        "question_id": "CS-1997-Q35",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.6667,
+          354.6667,
+          524.6667,
+          542.0
+        ],
+        "image": "CS-1997-Q35-1.webp",
+        "sha256": "5768cc490138c802f9721de36a4d4b28bbd772b031e69389c057f1dea300b297"
+      },
+      {
+        "question_id": "CS-1997-Q36",
+        "part": 1,
+        "page": 4,
+        "bbox": [
+          300.6667,
+          652.0,
+          524.6667,
+          710.0
+        ],
+        "image": "CS-1997-Q36-1.webp",
+        "sha256": "aef9154501cd0f705840984200f1c0c6c592dd567e404ff0b881b4d4ef8a6111"
+      },
+      {
+        "question_id": "CS-1997-Q36",
+        "part": 2,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          44.0,
+          280.6667,
+          82.6667
+        ],
+        "image": "CS-1997-Q36-2.webp",
+        "sha256": "141650ae16d0bec44d2fb9b3a4567e236cfd238c1ba32709160d92959ce33553"
+      },
+      {
+        "question_id": "CS-1997-Q37",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          82.6667,
+          280.6667,
+          218.6667
+        ],
+        "image": "CS-1997-Q37-1.webp",
+        "sha256": "15bab483e0e683da01fb8c525360e4e7625cdf599a0719ad6c0c1278c0e4a897"
+      },
+      {
+        "question_id": "CS-1997-Q38",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          218.6667,
+          280.6667,
+          366.6667
+        ],
+        "image": "CS-1997-Q38-1.webp",
+        "sha256": "f83608bfa2a03188f9ad37867e9bf2a7d0c0a21e8cf18f4aa88a0f5a1a70205a"
+      },
+      {
+        "question_id": "CS-1997-Q39",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          366.6667,
+          280.6667,
+          448.0
+        ],
+        "image": "CS-1997-Q39-1.webp",
+        "sha256": "39f2f2fb3d04818ea3a6a84c8d64538c57a0ade7d1bcf46e7fb0d4d68c4e1429"
+      },
+      {
+        "question_id": "CS-1997-Q40",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          53.3333,
+          448.0,
+          280.6667,
+          658.6667
+        ],
+        "image": "CS-1997-Q40-1.webp",
+        "sha256": "f56ee7d223ba5427eae716b10b5ccf3c146ab76bbb0114e20e74883186a1a08c"
+      },
+      {
+        "question_id": "CS-1997-Q41",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          96.0,
+          524.6667,
+          192.6667
+        ],
+        "image": "CS-1997-Q41-1.webp",
+        "sha256": "f635b194b31bbe6225da8b89b81493a00336e376d4bf93ea43bd413fb9f9aa9f"
+      },
+      {
+        "question_id": "CS-1997-Q42",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          192.6667,
+          524.6667,
+          296.6667
+        ],
+        "image": "CS-1997-Q42-1.webp",
+        "sha256": "97724c4e406772c9b9d5b76b7e95578e9e770ca9a3343a23daf8c72caa96de94"
+      },
+      {
+        "question_id": "CS-1997-Q43",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          296.6667,
+          524.6667,
+          370.6667
+        ],
+        "image": "CS-1997-Q43-1.webp",
+        "sha256": "4db72c0ce296b7ff19a8d3af665ae9636014d4130a2ae6c19eb80182265594d1"
+      },
+      {
+        "question_id": "CS-1997-Q44",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          370.6667,
+          524.6667,
+          469.3333
+        ],
+        "image": "CS-1997-Q44-1.webp",
+        "sha256": "3ae2b662497158ae596dc879842bb271103c9a678350388e2ca0f0e31b016e1d"
+      },
+      {
+        "question_id": "CS-1997-Q45",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          469.3333,
+          524.6667,
+          605.3333
+        ],
+        "image": "CS-1997-Q45-1.webp",
+        "sha256": "4b4321b46ed23846d10be1f16c2b35e4b45cbdafb7f95f1219bd3d2ed55e5b1c"
+      },
+      {
+        "question_id": "CS-1997-Q46",
+        "part": 1,
+        "page": 5,
+        "bbox": [
+          300.6667,
+          605.3333,
+          524.6667,
+          718.6667
+        ],
+        "image": "CS-1997-Q46-1.webp",
+        "sha256": "9deb5355ca31aa73f7987cdcd25d1a033de1589fecf16978c257eced695ab451"
+      },
+      {
+        "question_id": "CS-1997-Q46",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          72.0
+        ],
+        "image": "CS-1997-Q46-2.webp",
+        "sha256": "c60e76185355ba76347b450eec914c53c3d8788d2a970441afae6db6c7363697"
+      },
+      {
+        "question_id": "CS-1997-Q47",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          72.0,
+          280.6667,
+          182.0
+        ],
+        "image": "CS-1997-Q47-1.webp",
+        "sha256": "2145eab98ff7f77dab4570667231cd5bfe4b2a2fda6a0d2d44692fed7c845b47"
+      },
+      {
+        "question_id": "CS-1997-Q48",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          182.0,
+          280.6667,
+          391.3333
+        ],
+        "image": "CS-1997-Q48-1.webp",
+        "sha256": "920397d10d29d35d09b84f696aa5ed6dbdae757abe747c168cc51dacfbc976b7"
+      },
+      {
+        "question_id": "CS-1997-Q49",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          391.3333,
+          280.6667,
+          564.0
+        ],
+        "image": "CS-1997-Q49-1.webp",
+        "sha256": "843b1767c43652aa6d75fa2becafcb7c112576ea91f11c41ba72745f3ef24128"
+      },
+      {
+        "question_id": "CS-1997-Q50",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          53.3333,
+          564.0,
+          280.6667,
+          713.3333
+        ],
+        "image": "CS-1997-Q50-1.webp",
+        "sha256": "df47bd6b105551806410fb2ff8218cb07f865ec50521ec2f857763fa6540ec91"
+      },
+      {
+        "question_id": "CS-1997-Q50",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          118.6667
+        ],
+        "image": "CS-1997-Q50-2.webp",
+        "sha256": "9080678fa76ec7a37bb82107dc597efc2994b0b4e2a2cea7f924058d5b4cdd42"
+      },
+      {
+        "question_id": "CS-1997-Q51",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          118.6667,
+          524.6667,
+          194.0
+        ],
+        "image": "CS-1997-Q51-1.webp",
+        "sha256": "94f2b193be8d246f6e3b37d3e3c02dee65ea53fbf9edcbfecb42e14370a9d668"
+      },
+      {
+        "question_id": "CS-1997-Q51",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          194.0,
+          524.6667,
+          264.6667
+        ],
+        "image": "CS-1997-Q51-2.webp",
+        "sha256": "2ebc7503b0be4fa1feb9f06a0c063e9014d15eab8b522a13ee685cf7a4a98aef"
+      },
+      {
+        "question_id": "CS-1997-Q52",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          118.6667,
+          524.6667,
+          194.0
+        ],
+        "image": "CS-1997-Q52-1.webp",
+        "sha256": "94f2b193be8d246f6e3b37d3e3c02dee65ea53fbf9edcbfecb42e14370a9d668"
+      },
+      {
+        "question_id": "CS-1997-Q52",
+        "part": 2,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          264.6667,
+          524.6667,
+          326.6667
+        ],
+        "image": "CS-1997-Q52-2.webp",
+        "sha256": "33edd1ec864afbbbdbaf47019efe2db38cadc2e07f13f730653c7d6191560057"
+      },
+      {
+        "question_id": "CS-1997-Q53",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          326.6667,
+          524.6667,
+          672.0
+        ],
+        "image": "CS-1997-Q53-1.webp",
+        "sha256": "ceaecdb76a72c8e76a16aebb7a42d8712cda380c74064a1e0aaae8721fa1ddab"
+      },
+      {
+        "question_id": "CS-1997-Q54",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          672.0,
+          524.6667,
+          713.3333
+        ],
+        "image": "CS-1997-Q54-1.webp",
+        "sha256": "73a3db1029a4bae42fe9a119e9465b38ab1f0235f9446220804580bf32d24ff2"
+      },
+      {
+        "question_id": "CS-1997-Q54",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          116.6667
+        ],
+        "image": "CS-1997-Q54-2.webp",
+        "sha256": "97fd52ab18395b8a345064228bae12c4b5d5b414f8157fe5a1fb1700a1500f28"
+      },
+      {
+        "question_id": "CS-1997-Q54",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          116.6667,
+          280.6667,
+          176.6667
+        ],
+        "image": "CS-1997-Q54-3.webp",
+        "sha256": "61a043994fef3a55b6ac658fd495ba09d359170c939ea82b9b836ea101938b42"
+      },
+      {
+        "question_id": "CS-1997-Q55",
+        "part": 1,
+        "page": 6,
+        "bbox": [
+          300.6667,
+          672.0,
+          524.6667,
+          713.3333
+        ],
+        "image": "CS-1997-Q55-1.webp",
+        "sha256": "73a3db1029a4bae42fe9a119e9465b38ab1f0235f9446220804580bf32d24ff2"
+      },
+      {
+        "question_id": "CS-1997-Q55",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          116.6667
+        ],
+        "image": "CS-1997-Q55-2.webp",
+        "sha256": "97fd52ab18395b8a345064228bae12c4b5d5b414f8157fe5a1fb1700a1500f28"
+      },
+      {
+        "question_id": "CS-1997-Q55",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          176.6667,
+          280.6667,
+          237.3333
+        ],
+        "image": "CS-1997-Q55-3.webp",
+        "sha256": "e62a124d9d6dbc719ab03eb27c330da132ba2e4f156d72fafdb5f1be6271e9b3"
+      },
+      {
+        "question_id": "CS-1997-Q56",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "image": "CS-1997-Q56-1.webp",
+        "sha256": "f94796c866a9546a7816481d9fe13a5a1a2fffea9b81e39461e2d1825ee1c778"
+      },
+      {
+        "question_id": "CS-1997-Q56",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          510.6667,
+          280.6667,
+          535.3333
+        ],
+        "image": "CS-1997-Q56-2.webp",
+        "sha256": "7c242f796c455f084ddf89ccec25c550d38be6a1c078d66a7e9bad0d10ab7108"
+      },
+      {
+        "question_id": "CS-1997-Q56",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          535.3333,
+          280.6667,
+          556.6667
+        ],
+        "image": "CS-1997-Q56-3.webp",
+        "sha256": "5b62dfe3ba9a91198609ed9946697fc8f8f9a875f03438f24de831bb43836d64"
+      },
+      {
+        "question_id": "CS-1997-Q57",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "image": "CS-1997-Q57-1.webp",
+        "sha256": "f94796c866a9546a7816481d9fe13a5a1a2fffea9b81e39461e2d1825ee1c778"
+      },
+      {
+        "question_id": "CS-1997-Q57",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          510.6667,
+          280.6667,
+          535.3333
+        ],
+        "image": "CS-1997-Q57-2.webp",
+        "sha256": "7c242f796c455f084ddf89ccec25c550d38be6a1c078d66a7e9bad0d10ab7108"
+      },
+      {
+        "question_id": "CS-1997-Q57",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          556.6667,
+          280.6667,
+          570.6667
+        ],
+        "image": "CS-1997-Q57-3.webp",
+        "sha256": "6615c98a03e16116bdb1129bb1650957543e3281b2d0dfd96fb0a8c6c74153f7"
+      },
+      {
+        "question_id": "CS-1997-Q58",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          237.3333,
+          280.6667,
+          510.6667
+        ],
+        "image": "CS-1997-Q58-1.webp",
+        "sha256": "f94796c866a9546a7816481d9fe13a5a1a2fffea9b81e39461e2d1825ee1c778"
+      },
+      {
+        "question_id": "CS-1997-Q58",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          570.6667,
+          280.6667,
+          606.6667
+        ],
+        "image": "CS-1997-Q58-2.webp",
+        "sha256": "bb6246512719c169c0817fac6f93339a539fa4c1911063201a507a96ca9eb6e9"
+      },
+      {
+        "question_id": "CS-1997-Q59",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          606.6667,
+          280.6667,
+          622.6667
+        ],
+        "image": "CS-1997-Q59-1.webp",
+        "sha256": "236edfc87ced1092a133987b5c70fb8a54856b45dccf8480196b8ffef51521ac"
+      },
+      {
+        "question_id": "CS-1997-Q59",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          240.0
+        ],
+        "image": "CS-1997-Q59-2.webp",
+        "sha256": "3de7941c257e593e1e7ff459d1b073798d8b85b727b0ce883dbaec5429d56dba"
+      },
+      {
+        "question_id": "CS-1997-Q59",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          240.0,
+          524.6667,
+          277.3333
+        ],
+        "image": "CS-1997-Q59-3.webp",
+        "sha256": "479a6ac56f0d81573bd6b6d2a7cb6d14ad55347740cf302db17038df5f61f62a"
+      },
+      {
+        "question_id": "CS-1997-Q60",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          53.3333,
+          606.6667,
+          280.6667,
+          622.6667
+        ],
+        "image": "CS-1997-Q60-1.webp",
+        "sha256": "236edfc87ced1092a133987b5c70fb8a54856b45dccf8480196b8ffef51521ac"
+      },
+      {
+        "question_id": "CS-1997-Q60",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          240.0
+        ],
+        "image": "CS-1997-Q60-2.webp",
+        "sha256": "3de7941c257e593e1e7ff459d1b073798d8b85b727b0ce883dbaec5429d56dba"
+      },
+      {
+        "question_id": "CS-1997-Q60",
+        "part": 3,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          277.3333,
+          524.6667,
+          312.6667
+        ],
+        "image": "CS-1997-Q60-3.webp",
+        "sha256": "adcd5f6596c3e77783e1eeaa5059ab3b606b1120b16b231822ab5e60138dba1b"
+      },
+      {
+        "question_id": "CS-1997-Q61",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "image": "CS-1997-Q61-1.webp",
+        "sha256": "1d3c7b57e916e639442563ee289c8c3c62008ab7024cba9bb3c2329e4891ff32"
+      },
+      {
+        "question_id": "CS-1997-Q61",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          470.6667,
+          524.6667,
+          518.0
+        ],
+        "image": "CS-1997-Q61-2.webp",
+        "sha256": "a194638b5a8c7ebe7406ef45f34e5f7eeb52edff10c5dbc282d836b3a94cdd36"
+      },
+      {
+        "question_id": "CS-1997-Q62",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "image": "CS-1997-Q62-1.webp",
+        "sha256": "1d3c7b57e916e639442563ee289c8c3c62008ab7024cba9bb3c2329e4891ff32"
+      },
+      {
+        "question_id": "CS-1997-Q62",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          518.0,
+          524.6667,
+          567.3333
+        ],
+        "image": "CS-1997-Q62-2.webp",
+        "sha256": "feedc99de041e64cb530dd295a3b78aeb7942d5dbb38a0649d49dac24f09b40e"
+      },
+      {
+        "question_id": "CS-1997-Q63",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          384.6667,
+          524.6667,
+          470.6667
+        ],
+        "image": "CS-1997-Q63-1.webp",
+        "sha256": "1d3c7b57e916e639442563ee289c8c3c62008ab7024cba9bb3c2329e4891ff32"
+      },
+      {
+        "question_id": "CS-1997-Q63",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          567.3333,
+          524.6667,
+          605.3333
+        ],
+        "image": "CS-1997-Q63-2.webp",
+        "sha256": "aadda15b93567c84647cd493dd2e8bb06d8918034368e822dfff1bffffad2145"
+      },
+      {
+        "question_id": "CS-1997-Q64",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "image": "CS-1997-Q64-1.webp",
+        "sha256": "035819d000e6104817696d7bc6c4461d80d7a4b4014a53d0c2b2077edc65794f"
+      },
+      {
+        "question_id": "CS-1997-Q64",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          642.0,
+          524.6667,
+          676.6667
+        ],
+        "image": "CS-1997-Q64-2.webp",
+        "sha256": "ac75d62d5ae8863149072b82cbe9235bd0410fd98b9174d50122ee0e1efc6b87"
+      },
+      {
+        "question_id": "CS-1997-Q65",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "image": "CS-1997-Q65-1.webp",
+        "sha256": "035819d000e6104817696d7bc6c4461d80d7a4b4014a53d0c2b2077edc65794f"
+      },
+      {
+        "question_id": "CS-1997-Q65",
+        "part": 2,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          676.6667,
+          524.6667,
+          706.6667
+        ],
+        "image": "CS-1997-Q65-2.webp",
+        "sha256": "c3c18f5323183a7e901acfdfe6091a74c2d4cb4262127f98b3d1054023c10ff6"
+      },
+      {
+        "question_id": "CS-1997-Q65",
+        "part": 3,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          57.3333
+        ],
+        "image": "CS-1997-Q65-3.webp",
+        "sha256": "6605ac2c97f97a3395590f65a6b29a113b9650f4540d48bce3220ee42035ee67"
+      },
+      {
+        "question_id": "CS-1997-Q66",
+        "part": 1,
+        "page": 7,
+        "bbox": [
+          300.6667,
+          605.3333,
+          524.6667,
+          642.0
+        ],
+        "image": "CS-1997-Q66-1.webp",
+        "sha256": "035819d000e6104817696d7bc6c4461d80d7a4b4014a53d0c2b2077edc65794f"
+      },
+      {
+        "question_id": "CS-1997-Q66",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          57.3333,
+          280.6667,
+          95.3333
+        ],
+        "image": "CS-1997-Q66-2.webp",
+        "sha256": "dd2ad2a2671f62e341c165199820936bcead1fa6065044cf917982f987129e57"
+      },
+      {
+        "question_id": "CS-1997-Q67",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          95.3333,
+          280.6667,
+          145.3333
+        ],
+        "image": "CS-1997-Q67-1.webp",
+        "sha256": "7de011d65793a744c16d8ee30c973df57575b2a9afc2291b2bd1b2429e5c0f2e"
+      },
+      {
+        "question_id": "CS-1997-Q67",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          145.3333,
+          280.6667,
+          182.6667
+        ],
+        "image": "CS-1997-Q67-2.webp",
+        "sha256": "31fb6b64a0753e759051317fbc133c77deae7018816e9f25f56a17b06f83989b"
+      },
+      {
+        "question_id": "CS-1997-Q68",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          95.3333,
+          280.6667,
+          145.3333
+        ],
+        "image": "CS-1997-Q68-1.webp",
+        "sha256": "7de011d65793a744c16d8ee30c973df57575b2a9afc2291b2bd1b2429e5c0f2e"
+      },
+      {
+        "question_id": "CS-1997-Q68",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          182.6667,
+          280.6667,
+          254.0
+        ],
+        "image": "CS-1997-Q68-2.webp",
+        "sha256": "1b9b3564281391e446bb7f582077393c791f0f5393873e11c1e28679f96e0065"
+      },
+      {
+        "question_id": "CS-1997-Q69",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "image": "CS-1997-Q69-1.webp",
+        "sha256": "5ed8157efa7ace034cd6672e450d0797ea2304f8a87440662af96e07266b0d02"
+      },
+      {
+        "question_id": "CS-1997-Q69",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          474.6667,
+          280.6667,
+          498.6667
+        ],
+        "image": "CS-1997-Q69-2.webp",
+        "sha256": "586fc55a87d96284ffd23f2c22bb3f5011474a13e3eee775ed131b390c20e1c6"
+      },
+      {
+        "question_id": "CS-1997-Q70",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "image": "CS-1997-Q70-1.webp",
+        "sha256": "5ed8157efa7ace034cd6672e450d0797ea2304f8a87440662af96e07266b0d02"
+      },
+      {
+        "question_id": "CS-1997-Q70",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          498.6667,
+          280.6667,
+          523.3333
+        ],
+        "image": "CS-1997-Q70-2.webp",
+        "sha256": "f78142d05155e12d50e8b49e0bc4d7bbd92a59ffa082bd54cc182398e9fe05a3"
+      },
+      {
+        "question_id": "CS-1997-Q71",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          254.0,
+          280.6667,
+          474.6667
+        ],
+        "image": "CS-1997-Q71-1.webp",
+        "sha256": "5ed8157efa7ace034cd6672e450d0797ea2304f8a87440662af96e07266b0d02"
+      },
+      {
+        "question_id": "CS-1997-Q71",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          523.3333,
+          280.6667,
+          572.0
+        ],
+        "image": "CS-1997-Q71-2.webp",
+        "sha256": "bfaf30c0992719eed6bdce7d12bfd0284dc1b1eae1c74688b08cf163795ef5eb"
+      },
+      {
+        "question_id": "CS-1997-Q72",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          572.0,
+          280.6667,
+          684.0
+        ],
+        "image": "CS-1997-Q72-1.webp",
+        "sha256": "f6165cd751a02acc4ce2c1add247460ae396941d01377289876ce10a65e40bb4"
+      },
+      {
+        "question_id": "CS-1997-Q72",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          94.0
+        ],
+        "image": "CS-1997-Q72-2.webp",
+        "sha256": "879834b0c06b0f2562e0fb35ae972300827fded3df9e284ced739635e077584d"
+      },
+      {
+        "question_id": "CS-1997-Q73",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          53.3333,
+          572.0,
+          280.6667,
+          684.0
+        ],
+        "image": "CS-1997-Q73-1.webp",
+        "sha256": "f6165cd751a02acc4ce2c1add247460ae396941d01377289876ce10a65e40bb4"
+      },
+      {
+        "question_id": "CS-1997-Q73",
+        "part": 2,
+        "page": 8,
+        "bbox": [
+          300.6667,
+          94.0,
+          524.6667,
+          158.0
+        ],
+        "image": "CS-1997-Q73-2.webp",
+        "sha256": "f7eb0d46edbfc1a17fe4118b21d7041680caae3db175a535fd29b2ca80da7bad"
+      },
+      {
+        "question_id": "CS-1997-Q74",
+        "part": 1,
+        "page": 8,
+        "bbox": [
+          300.6667,
+          158.0,
+          524.6667,
+          628.0
+        ],
+        "image": "CS-1997-Q74-1.webp",
+        "sha256": "2b69da6eae29782dbfd7d50a0b85168bbc5c3bd1286e3d5d0799f2cf5ba88219"
+      },
+      {
+        "question_id": "CS-1997-Q74",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          56.0,
+          280.6667,
+          153.3333
+        ],
+        "image": "CS-1997-Q74-2.webp",
+        "sha256": "ac2b24b8c5a78c788edc41c9328bc0275d2a6bba543e8f7d654a22249641f367"
+      },
+      {
+        "question_id": "CS-1997-Q75",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "image": "CS-1997-Q75-1.webp",
+        "sha256": "03a45f48b8d567fd123d0043e85e51c777b08a773fc61e2d232a0bbb53c86989"
+      },
+      {
+        "question_id": "CS-1997-Q75",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "image": "CS-1997-Q75-2.webp",
+        "sha256": "22dda762032906999c9da306dab8ad97dce492a0ed849a3634ca0ed789364e76"
+      },
+      {
+        "question_id": "CS-1997-Q75",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          483.3333,
+          280.6667,
+          521.3333
+        ],
+        "image": "CS-1997-Q75-3.webp",
+        "sha256": "5de4aa83e78c6c40736f1fb420f976b27ed0622d0bdd70661d6b8ddc4564d76d"
+      },
+      {
+        "question_id": "CS-1997-Q76",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "image": "CS-1997-Q76-1.webp",
+        "sha256": "03a45f48b8d567fd123d0043e85e51c777b08a773fc61e2d232a0bbb53c86989"
+      },
+      {
+        "question_id": "CS-1997-Q76",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "image": "CS-1997-Q76-2.webp",
+        "sha256": "22dda762032906999c9da306dab8ad97dce492a0ed849a3634ca0ed789364e76"
+      },
+      {
+        "question_id": "CS-1997-Q76",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          521.3333,
+          280.6667,
+          570.0
+        ],
+        "image": "CS-1997-Q76-3.webp",
+        "sha256": "b2267f18dc94a52c8d7ab67eed4dcde51eeaa8d1702f9205134a06c3642959c8"
+      },
+      {
+        "question_id": "CS-1997-Q77",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          153.3333,
+          280.6667,
+          460.0
+        ],
+        "image": "CS-1997-Q77-1.webp",
+        "sha256": "03a45f48b8d567fd123d0043e85e51c777b08a773fc61e2d232a0bbb53c86989"
+      },
+      {
+        "question_id": "CS-1997-Q77",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          460.0,
+          280.6667,
+          483.3333
+        ],
+        "image": "CS-1997-Q77-2.webp",
+        "sha256": "22dda762032906999c9da306dab8ad97dce492a0ed849a3634ca0ed789364e76"
+      },
+      {
+        "question_id": "CS-1997-Q77",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          570.0,
+          280.6667,
+          616.6667
+        ],
+        "image": "CS-1997-Q77-3.webp",
+        "sha256": "c3d782730ddcb411b5566d479822f1713c14025955ee82c3cc3b8559f9aa975b"
+      },
+      {
+        "question_id": "CS-1997-Q78",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "image": "CS-1997-Q78-1.webp",
+        "sha256": "035b365ae92db254a2de4144b2d6ef709f9d0ad56a869dca0a63a1d807f91ffa"
+      },
+      {
+        "question_id": "CS-1997-Q78",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "image": "CS-1997-Q78-2.webp",
+        "sha256": "20e555ea2700a5cfde2182d85dc9a08818d91b0be2c2b7bba78e032d8709e6b3"
+      },
+      {
+        "question_id": "CS-1997-Q78",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          82.0,
+          524.6667,
+          131.3333
+        ],
+        "image": "CS-1997-Q78-3.webp",
+        "sha256": "c2ce8ef31313a94226e0c8d55c3a198bb5f61521cc590973cb807e78c7f5f032"
+      },
+      {
+        "question_id": "CS-1997-Q79",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "image": "CS-1997-Q79-1.webp",
+        "sha256": "035b365ae92db254a2de4144b2d6ef709f9d0ad56a869dca0a63a1d807f91ffa"
+      },
+      {
+        "question_id": "CS-1997-Q79",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "image": "CS-1997-Q79-2.webp",
+        "sha256": "20e555ea2700a5cfde2182d85dc9a08818d91b0be2c2b7bba78e032d8709e6b3"
+      },
+      {
+        "question_id": "CS-1997-Q79",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          131.3333,
+          524.6667,
+          179.3333
+        ],
+        "image": "CS-1997-Q79-3.webp",
+        "sha256": "3e2b79346377d0166f2a74c1fd6f278193767e73d5a50960da2bcb5a1932c84a"
+      },
+      {
+        "question_id": "CS-1997-Q80",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          53.3333,
+          616.6667,
+          280.6667,
+          707.3333
+        ],
+        "image": "CS-1997-Q80-1.webp",
+        "sha256": "035b365ae92db254a2de4144b2d6ef709f9d0ad56a869dca0a63a1d807f91ffa"
+      },
+      {
+        "question_id": "CS-1997-Q80",
+        "part": 2,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          82.0
+        ],
+        "image": "CS-1997-Q80-2.webp",
+        "sha256": "20e555ea2700a5cfde2182d85dc9a08818d91b0be2c2b7bba78e032d8709e6b3"
+      },
+      {
+        "question_id": "CS-1997-Q80",
+        "part": 3,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          179.3333,
+          524.6667,
+          228.6667
+        ],
+        "image": "CS-1997-Q80-3.webp",
+        "sha256": "10e60199cf3bc191bbf30ab0f03980b4806cae931049c38ad0ecaa0ef20220e1"
+      },
+      {
+        "question_id": "CS-1997-Q81",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          228.6667,
+          524.6667,
+          304.0
+        ],
+        "image": "CS-1997-Q81-1.webp",
+        "sha256": "a2f0b069633544eeb7f597c7978f2d1d1869801aae43191568678e6f1d566e0c"
+      },
+      {
+        "question_id": "CS-1997-Q82",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          304.0,
+          524.6667,
+          412.6667
+        ],
+        "image": "CS-1997-Q82-1.webp",
+        "sha256": "97b5f85ef33209e0a5776eba1df0f11bad4a1167fad745c549abe1d5266475da"
+      },
+      {
+        "question_id": "CS-1997-Q83",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          412.6667,
+          524.6667,
+          524.0
+        ],
+        "image": "CS-1997-Q83-1.webp",
+        "sha256": "f106f2a0ccc564c662371dd7e058bf75c5105e0257ee1f32d17882373c72807d"
+      },
+      {
+        "question_id": "CS-1997-Q84",
+        "part": 1,
+        "page": 9,
+        "bbox": [
+          300.6667,
+          524.0,
+          524.6667,
+          699.3333
+        ],
+        "image": "CS-1997-Q84-1.webp",
+        "sha256": "84cc926edd58c4e10df2a3e73a3ffe242c2630fa086022539af1aa687a78af66"
+      },
+      {
+        "question_id": "CS-1997-Q84",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          167.3333
+        ],
+        "image": "CS-1997-Q84-2.webp",
+        "sha256": "c7f6700c2b07bd44bc7e2783c0f6685ad50563674429f3d7c72ea5378c0620f7"
+      },
+      {
+        "question_id": "CS-1997-Q85",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          53.3333,
+          167.3333,
+          280.6667,
+          713.3333
+        ],
+        "image": "CS-1997-Q85-1.webp",
+        "sha256": "99a02c5da4d0d0169b65604505eacc7b93e09516e0a9da1fbbf25d0c11eaa3fc"
+      },
+      {
+        "question_id": "CS-1997-Q85",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          167.3333
+        ],
+        "image": "CS-1997-Q85-2.webp",
+        "sha256": "b9f3f68d12173cf38e299061709b573597540054e35b3d1d4f0ebe3910cdccc7"
+      },
+      {
+        "question_id": "CS-1997-Q86",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          167.3333,
+          524.6667,
+          374.6667
+        ],
+        "image": "CS-1997-Q86-1.webp",
+        "sha256": "0ae3e2f1b75139be66a8fb1a2a746974bf9937df5ea9b9440402d84bed1898da"
+      },
+      {
+        "question_id": "CS-1997-Q86",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          374.6667,
+          524.6667,
+          412.0
+        ],
+        "image": "CS-1997-Q86-2.webp",
+        "sha256": "e57bd4c418fb486bbd55c7d42dcf3f51f64fbde58336394637d41930e0818fe1"
+      },
+      {
+        "question_id": "CS-1997-Q87",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          167.3333,
+          524.6667,
+          374.6667
+        ],
+        "image": "CS-1997-Q87-1.webp",
+        "sha256": "0ae3e2f1b75139be66a8fb1a2a746974bf9937df5ea9b9440402d84bed1898da"
+      },
+      {
+        "question_id": "CS-1997-Q87",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          412.0,
+          524.6667,
+          497.3333
+        ],
+        "image": "CS-1997-Q87-2.webp",
+        "sha256": "0815dbefe45849d3c8f61d18a347d7307dab5d9d2f92de38835440255f602f16"
+      },
+      {
+        "question_id": "CS-1997-Q88",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          497.3333,
+          524.6667,
+          514.6667
+        ],
+        "image": "CS-1997-Q88-1.webp",
+        "sha256": "929b79616ee428c50f0505262a90ad3c37eb43fb64c80b8695f712b4e90c0a69"
+      },
+      {
+        "question_id": "CS-1997-Q88",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          514.6667,
+          524.6667,
+          551.3333
+        ],
+        "image": "CS-1997-Q88-2.webp",
+        "sha256": "a2f5af9afeeb625e10be5137be875428cee54dcebcee9beb0917ae07a801ba70"
+      },
+      {
+        "question_id": "CS-1997-Q89",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          497.3333,
+          524.6667,
+          514.6667
+        ],
+        "image": "CS-1997-Q89-1.webp",
+        "sha256": "929b79616ee428c50f0505262a90ad3c37eb43fb64c80b8695f712b4e90c0a69"
+      },
+      {
+        "question_id": "CS-1997-Q89",
+        "part": 2,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          551.3333,
+          524.6667,
+          598.6667
+        ],
+        "image": "CS-1997-Q89-2.webp",
+        "sha256": "d1a066fde72de2d5727b41b04e02b0d64a901247888c13f5ca332c12f589f8dd"
+      },
+      {
+        "question_id": "CS-1997-Q90",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "image": "CS-1997-Q90-1.webp",
+        "sha256": "4fed2f660c786f5366edda2ac5bb9f11762e2e16303a626ff8d2116b143f25fd"
+      },
+      {
+        "question_id": "CS-1997-Q90",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          53.3333,
+          38.6667,
+          280.6667,
+          72.0
+        ],
+        "image": "CS-1997-Q90-2.webp",
+        "sha256": "0850e51bb237a0ff1520da2ce53e3c1fad584234cdb03cd0d143acc584ce1487"
+      },
+      {
+        "question_id": "CS-1997-Q91",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "image": "CS-1997-Q91-1.webp",
+        "sha256": "4fed2f660c786f5366edda2ac5bb9f11762e2e16303a626ff8d2116b143f25fd"
+      },
+      {
+        "question_id": "CS-1997-Q91",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          53.3333,
+          72.0,
+          280.6667,
+          104.6667
+        ],
+        "image": "CS-1997-Q91-2.webp",
+        "sha256": "5b89e06ac403d0f28e1d3cf368b9b2013d8bf73040c7136a6dcf49864a22d066"
+      },
+      {
+        "question_id": "CS-1997-Q92",
+        "part": 1,
+        "page": 10,
+        "bbox": [
+          300.6667,
+          598.6667,
+          524.6667,
+          712.0
+        ],
+        "image": "CS-1997-Q92-1.webp",
+        "sha256": "4fed2f660c786f5366edda2ac5bb9f11762e2e16303a626ff8d2116b143f25fd"
+      },
+      {
+        "question_id": "CS-1997-Q92",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          53.3333,
+          72.0,
+          280.6667,
+          104.6667
+        ],
+        "image": "CS-1997-Q92-2.webp",
+        "sha256": "5b89e06ac403d0f28e1d3cf368b9b2013d8bf73040c7136a6dcf49864a22d066"
+      },
+      {
+        "question_id": "CS-1997-Q92",
+        "part": 3,
+        "page": 11,
+        "bbox": [
+          53.3333,
+          104.6667,
+          280.6667,
+          149.3333
+        ],
+        "image": "CS-1997-Q92-3.webp",
+        "sha256": "0a90c97f4ff2c0bc6deb6a60b801e8c4ff5b97124326755c0854522899d552ad"
+      },
+      {
+        "question_id": "CS-1997-Q93",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          53.3333,
+          149.3333,
+          280.6667,
+          542.0
+        ],
+        "image": "CS-1997-Q93-1.webp",
+        "sha256": "d5205247438a36da52750d4d09b74088ed7d9cb2a36a926a5bbba3c3ae49b5ac"
+      },
+      {
+        "question_id": "CS-1997-Q93",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          38.6667,
+          524.6667,
+          282.6667
+        ],
+        "image": "CS-1997-Q93-2.webp",
+        "sha256": "c16b435e28880b5e38e4d9b64c033088c75335c805e9dbec2c7990acb9e3a03b"
+      },
+      {
+        "question_id": "CS-1997-Q94",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "image": "CS-1997-Q94-1.webp",
+        "sha256": "eaea4361f8e455775ddb39c1684ff9954bac7b428e7dd3f38f9a1046ff181d6f"
+      },
+      {
+        "question_id": "CS-1997-Q94",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          423.3333,
+          524.6667,
+          466.0
+        ],
+        "image": "CS-1997-Q94-2.webp",
+        "sha256": "8c50f309db6a86b436013c17c19aff023f68e7440e112634e7e8f54765fef23f"
+      },
+      {
+        "question_id": "CS-1997-Q94",
+        "part": 3,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "image": "CS-1997-Q94-3.webp",
+        "sha256": "1f784ec38c841d055fc483013784f80e1098d836402b64fe5179cbd3b8d59e45"
+      },
+      {
+        "question_id": "CS-1997-Q95",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "image": "CS-1997-Q95-1.webp",
+        "sha256": "eaea4361f8e455775ddb39c1684ff9954bac7b428e7dd3f38f9a1046ff181d6f"
+      },
+      {
+        "question_id": "CS-1997-Q95",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          466.0,
+          524.6667,
+          518.6667
+        ],
+        "image": "CS-1997-Q95-2.webp",
+        "sha256": "81fbdbc8b1cb647516e67a7ba339ca9265beca3809fbd3b3c6800610ef026f74"
+      },
+      {
+        "question_id": "CS-1997-Q95",
+        "part": 3,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "image": "CS-1997-Q95-3.webp",
+        "sha256": "1f784ec38c841d055fc483013784f80e1098d836402b64fe5179cbd3b8d59e45"
+      },
+      {
+        "question_id": "CS-1997-Q96",
+        "part": 1,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          282.6667,
+          524.6667,
+          423.3333
+        ],
+        "image": "CS-1997-Q96-1.webp",
+        "sha256": "eaea4361f8e455775ddb39c1684ff9954bac7b428e7dd3f38f9a1046ff181d6f"
+      },
+      {
+        "question_id": "CS-1997-Q96",
+        "part": 2,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          518.6667,
+          524.6667,
+          582.0
+        ],
+        "image": "CS-1997-Q96-2.webp",
+        "sha256": "c8c6e114fc9f6c073c57401333e7ad11d58741d4a7a59d3cff4b7b1f5d515f02"
+      },
+      {
+        "question_id": "CS-1997-Q96",
+        "part": 3,
+        "page": 11,
+        "bbox": [
+          300.6667,
+          582.0,
+          524.6667,
+          618.6667
+        ],
+        "image": "CS-1997-Q96-3.webp",
+        "sha256": "1f784ec38c841d055fc483013784f80e1098d836402b64fe5179cbd3b8d59e45"
+      },
+      {
+        "question_id": "CS-1997-Q97",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          453.3333
+        ],
+        "image": "CS-1997-Q97-1.webp",
+        "sha256": "74857782807135d881fa82bb2123a6091f29f453852ebc61928e7326288f62e8"
+      },
+      {
+        "question_id": "CS-1997-Q97",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          53.3333,
+          453.3333,
+          280.6667,
+          500.6667
+        ],
+        "image": "CS-1997-Q97-2.webp",
+        "sha256": "0d35ebb8ac4f363f31c9c5816ccab64c66fd0a76b64cd2f3a0062195f2702b5c"
+      },
+      {
+        "question_id": "CS-1997-Q98",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          53.3333,
+          43.3333,
+          280.6667,
+          453.3333
+        ],
+        "image": "CS-1997-Q98-1.webp",
+        "sha256": "74857782807135d881fa82bb2123a6091f29f453852ebc61928e7326288f62e8"
+      },
+      {
+        "question_id": "CS-1997-Q98",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          53.3333,
+          500.6667,
+          280.6667,
+          528.0
+        ],
+        "image": "CS-1997-Q98-2.webp",
+        "sha256": "70c1fa7dc383aca4ef1420fb48e80b56eb7aaea73065063f4fa923feeb2d1adf"
+      },
+      {
+        "question_id": "CS-1997-Q99",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "image": "CS-1997-Q99-1.webp",
+        "sha256": "5ab938c6b7b54f38a0c1f92b039590230afda21ef926e77980197cc264b718c0"
+      },
+      {
+        "question_id": "CS-1997-Q99",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          205.3333,
+          524.6667,
+          351.3333
+        ],
+        "image": "CS-1997-Q99-2.webp",
+        "sha256": "37ab599610b9512e6497518e94a39501b02b78461e43179a2e23a3442abe14cb"
+      },
+      {
+        "question_id": "CS-1997-Q100",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "image": "CS-1997-Q100-1.webp",
+        "sha256": "5ab938c6b7b54f38a0c1f92b039590230afda21ef926e77980197cc264b718c0"
+      },
+      {
+        "question_id": "CS-1997-Q100",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          351.3333,
+          524.6667,
+          432.6667
+        ],
+        "image": "CS-1997-Q100-2.webp",
+        "sha256": "40ea54cf9e549ff876979d44a381f94864f876aa6d16208c6d07313054f2a12f"
+      },
+      {
+        "question_id": "CS-1997-Q100",
+        "part": 3,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          432.6667,
+          524.6667,
+          474.0
+        ],
+        "image": "CS-1997-Q100-3.webp",
+        "sha256": "d0e73237084745d6453e6e364d92d44a6d1499e32246cf25ad47d0747f0bbeb3"
+      },
+      {
+        "question_id": "CS-1997-Q101",
+        "part": 1,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          43.3333,
+          524.6667,
+          205.3333
+        ],
+        "image": "CS-1997-Q101-1.webp",
+        "sha256": "5ab938c6b7b54f38a0c1f92b039590230afda21ef926e77980197cc264b718c0"
+      },
+      {
+        "question_id": "CS-1997-Q101",
+        "part": 2,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          351.3333,
+          524.6667,
+          432.6667
+        ],
+        "image": "CS-1997-Q101-2.webp",
+        "sha256": "40ea54cf9e549ff876979d44a381f94864f876aa6d16208c6d07313054f2a12f"
+      },
+      {
+        "question_id": "CS-1997-Q101",
+        "part": 3,
+        "page": 12,
+        "bbox": [
+          300.6667,
+          474.0,
+          524.6667,
+          553.3333
+        ],
+        "image": "CS-1997-Q101-3.webp",
+        "sha256": "3c46fed5d416bc40ae2a4eaee9da17dbe0475d78119aaa50bce05054bee1ad9c"
+      }
+    ],
+    "findings": [
+      "All 12 full source pages and all 176 actual final WEBP80 parts in 11 contact sheets independently viewed. All available visible question bodies, options, diagrams, code, continuation labels and printed subpart prompts are preserved. Section instructions, frames and unrelated neighboring question bodies are excluded.",
+      "Canonical PDF hash checked against preparer and source map; fresh 3x RGB PyMuPDF renders encoded WEBP quality80 are byte-identical for every final output. Final crop hash confirmed unchanged.",
+      "Descriptive mapping checked against records and visual source. Q51–52 map GFG51(a,b); Q53 GFG52; Q54–55 GFG53; Q56–58 GFG54; Q59–60 GFG55; Q61–63 GFG56; Q64–66 GFG57; Q67–68 GFG58; Q69–71 GFG59; Q72–73 GFG60; Q74 GFG61; Q75–77 GFG62 shared code plus GFG63(a,b,c); Q78–80 GFG64; Q81–85 GFG65–69; Q86–87 GFG70; Q88–89 GFG71; Q90–92 GFG72; Q93 GFG73; Q94–96 GFG74; Q97–98 GFG75; Q99–101 GFG76(a,b(i),b(ii)). Numbering remains reproduced/record mapping, not certified original numbering.",
+      "49 overlaps independently enumerated and individually approved with explicit parts and rationale. All are identical shared/prerequisite boxes. No nonidentical or unexplained overlaps.",
+      "MuPDF missing Fm0 XObject warnings recur during fresh render. This third-party reproduction cannot certify complete original source content. Visible raster blur and speckling, especially Q75–77 S2 code and Q85 nesting program, persist unchanged and are not corrected or declared fully legible.",
+      "Q54–55 source graph adjacency statement lacks the y-coordinate bound. Q28 initial condition, Q40 minterms, grammar variants and Boolean notation remain literal. No paraphrase-derived repair performed.",
+      "Q92 retains (b) addition prompt explicitly required by (c). Q94–96 each preserve final negligible-copy-time assumption. Q65 page-8 orphaned (2) mark retained.",
+      "Q99–101 schema visibly appears to underline INVOLVED eno,pno, conflicting with normalized record note that no key is visibly underlined; flagged for later semantic review, no records altered. Q101 malformed relational notation and alias note retained literally."
+    ]
+  }
+}
