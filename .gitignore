@@ -20,3 +20,7 @@ _site-crop-preview/
 
 # PDF-only downscaled question images
 .pdf-images/
+
+# Local agent prompts and review screenshots
+.agent-prompt-*
+audits/compare-shots/

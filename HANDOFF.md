@@ -1,0 +1,167 @@
+# Handoff: remaining work (for Codex or Claude Code on your own computer)
+
+The site is live at **https://sathiyarajs.github.io/gate-pyq/** and redeploys automatically on every push to `main` (about 20 min). What's left is mostly **redrawing questions** as real text and vector figures, which is long-running work. The owner does **no manual review**; the agent reviews its own work in a *separate* session using screenshots (see "How a paper gets verified").
+
+---
+
+## 1. One-time setup on your computer
+
+You need git, Python 3.12, Node.js 20+, Graphviz (`dot`) and Tesseract OCR.
+
+| | macOS (Homebrew) | Ubuntu / WSL |
+|---|---|---|
+| Tools | `brew install python@3.12 node graphviz tesseract` | `sudo apt install python3.12-venv nodejs npm graphviz tesseract-ocr` |
+
+Then run:
+
+```sh
+git clone https://github.com/SathiyarajS/gate-pyq.git
+cd gate-pyq
+python3.12 -m venv .venv && . .venv/bin/activate
+pip install -r requirements-site.txt gdown pytesseract
+python -m playwright install chromium
+npm ci --ignore-scripts
+python scripts/fetch_sources.py --archive-only     # restores the 2007–2018 papers (hash-checked)
+python scripts/validate.py && python -m pytest -q tests && node tests/test_transcription_math.js
+```
+
+On Windows, run all of this inside WSL.
+
+You don't need to read the rest of this file yourself. The agent reads it automatically: `AGENTS.md` (Codex) and `CLAUDE.md` (Claude Code) point here.
+
+---
+
+## 2. Prompts to paste
+
+Start every prompt from the `gate-pyq` folder with the virtual environment active.
+
+**A. Finish the 2024 drafts (do this first, once)**
+```
+Read HANDOFF.md and do task 3.1 (finish the CS-2024-S1 and CS-2024-S2 drafts).
+Do not mark anything verified. Commit and push to main when done.
+```
+
+**B. Transcribe the next paper (repeat; one paper per session)**
+```
+Read HANDOFF.md. Do task 3.2 for the next paper in the "Order" list that has no
+data/transcriptions/<paper>.json yet. Transcribe all its questions as drafts,
+generate its comparison screenshots, self-check them, commit and push to main.
+Do not mark anything verified.
+```
+
+**C. Review a drafted paper (repeat; must be a NEW session, never the one that transcribed it)**
+```
+Read HANDOFF.md. Do task 3.3 (independent review) for the newest paper whose
+data/transcriptions/<paper>.json still has draft entries and that you did not
+transcribe in this session. Commit and push to main.
+```
+
+**D. Optional unattended loop.** This runs the agent with full permissions inside this folder, so only use it in this repo.
+
+```sh
+# Codex CLI
+while true; do codex exec --full-auto "$(cat .agent-prompt-B)"; codex exec --full-auto "$(cat .agent-prompt-C)"; done
+# Claude Code
+while true; do claude -p "$(cat .agent-prompt-B)" --dangerously-skip-permissions; claude -p "$(cat .agent-prompt-C)" --dangerously-skip-permissions; done
+```
+
+Save prompts B and C to `.agent-prompt-B` and `.agent-prompt-C` first; these files are gitignored. Stop the loop with Ctrl-C. Each call is a fresh session, so the review is always done by a different session than the transcription.
+
+---
+
+## 3. Tasks
+
+### 3.1 Finish the 2024 drafts (`handoff/2024-drafts/`)
+Follow `handoff/2024-drafts/CODEX_HANDOFF.md` and apply `handoff/2024-drafts/review-fixes/`. In short:
+- Restore emphasis in S1 Q22, Q30 and Q34. Keep `[sic]` on the typographic quotes in S1 Q18/Q19 and add a narrow discrepancy note without changing the answer.
+- Reclassify S1 Q42's BASE-CASE discrepancy as `question-error` instead of duplicating it.
+- Add spaces before "will" in S2 Q33 options B and D, and restore the listed emphasis and paragraphs. The Q33 typography note must not imply the function definition fails to compile.
+- Regenerate the S2 Q22 DFA through Graphviz DOT with pinned positions.
+- Check S2 Q8's second pie-chart title in the screenshots.
+- Inspect every S2 Q36–65 figure as an image; this was never done. Add a qualification to S2 Q36 for its printed typographic quotes and en-dash.
+- Move generator scripts into `figures/sources/` with unique names (`CS-2024-S1-first.py`, …) and confirm the regenerated SVGs match the reviewed ones.
+- Write `data/transcriptions/CS-2024-S1.json` and `CS-2024-S2.json` (all `status: "draft"`) and `audits/transcription-<paper>-draft-review.json`, following the CS-2025-S1 example.
+- Commit one paper per commit: `transcribe: CS-2024-S1 (0/65 verified)`.
+
+### 3.2 Transcribe a paper (session type B)
+
+**Order** (newest first; ✓ = drafts already exist):
+CS-2026-S2 ✓, CS-2026-S1 ✓, CS-2025-S2 ✓, CS-2025-S1 ✓, CS-2024-S2, CS-2024-S1, CS-2023, CS-2022, CS-2021-S2, CS-2021-S1, CS-2020, CS-2019, CS-2018, CS-2017-S2, CS-2017-S1, CS-2016-S2, CS-2016-S1, CS-2015-S3, CS-2015-S2, CS-2015-S1, CS-2014-S3, CS-2014-S2, CS-2014-S1, CS-2013, CS-2012, CS-2011, CS-2010, CS-2009, CS-2008, CS-2007, CS-2006 … CS-1991.
+
+For each paper:
+1. **Find each question's source.** Questions are listed in `data/questions.json` (filter by `paper_id`), and each one's page and bounding box in the original PDF are in `data/crops.json`. Render the crops with `python scripts/render_crops.py --question <id> …`; the images go to `site-assets/q/`.
+2. **Write the exact text.** Copy the wording, numbers, variable names and option order exactly.
+   - **Typed PDFs** (1991–2006, 2013, 2022–2026 S1): extract the text with PyMuPDF from the crop's bounding box, then correct it line by line against the crop image.
+   - **Scanned PDFs** (2007–2012, 2014–2021, 2025 S2): OCR the crop image with Tesseract, then correct every line against the image. Never keep OCR text unchecked.
+   - Maths goes in `$…$` or `$$…$$` (KaTeX). Code goes in fenced blocks with exact indentation. Tables are Markdown tables.
+   - Keep obvious source typos and mark them `[sic]`, with a `question-error` row in `DISCREPANCIES.md`.
+   - Shared "common data" stems are stored once (see `shared_context` and `docs/TRANSCRIPTIONS.md`).
+3. **Redraw the figures as SVG** in `figures/<question_id>-<n>.svg`, with the generator or `.dot` source in `figures/sources/`.
+   - Use `currentColor` for strokes and text so dark mode works, real `<text>` labels (at least 12 px), and a `viewBox` with no fixed width.
+   - Graphs, trees and automata: Graphviz DOT, with pinned positions when the layout matters.
+   - Circuits, timing diagrams and memory layouts: hand-written SVG.
+   - Copy every label, weight, arrow, start/accept marker and gate exactly, and add nothing.
+4. **Write `data/transcriptions/<paper>.json`** in the format in `docs/TRANSCRIPTIONS.md`, with every entry `status: "draft"`. Record what you checked in `notes`.
+5. **Screenshot and self-check.** Run `python scripts/screenshot_comparisons.py <paper>`. Open every `audits/compare-shots/<paper>/*-desktop.jpg` and `*-mobile-dark.jpg` and fix anything that doesn't match the original on the left. Regenerate and repeat until it all matches.
+6. **Check the solution** against the exact wording. If the old paraphrase lost a detail that changes the answer, fix the solution in `data/questions.json` and the matching `subjects/*.md`, and log it in `DISCREPANCIES.md`. Never change an official key.
+7. **Run the checks:** `python scripts/fix_glued_numbers.py`, `python scripts/validate.py`, `python -m pytest -q tests`, `node tests/test_transcription_math.js`, and `python scripts/update_redrawn_coverage.py`.
+8. **Commit and push** to `main` as `transcribe: <paper> (0/<n> verified)`. Push `audits/transcription-<paper>-draft-review.json` too, but not the screenshots (they're gitignored).
+
+### 3.3 Independent review (session type C, always a fresh session)
+
+Nothing reaches the site until this step passes.
+
+1. Run `git pull`, then `python scripts/screenshot_comparisons.py <paper>`.
+2. For **every** question, open both screenshots and compare the redraw on the right with the original on the left, item by item: every word, number, symbol, sub- and superscript, option letter and order, code character, table cell, figure label, edge, arrow and marker. Also check the full source page around the crop for anything the crop missed.
+3. Check that the existing solution and answer still match the exact wording.
+4. **If anything is wrong:** fix it, re-screenshot and re-check. Leave that question as `draft` if it can't be made exact, for example because the source is illegible; log a `figure-missing` or `question-error` row.
+5. **If everything is exactly right,** set the entry's status to verified and add:
+   ```json
+   "status": "verified",
+   "verified_on": "<today, YYYY-MM-DD>",
+   "verification": {
+     "method": "independent-visual-comparison",
+     "transcriber": "<name of the session/tool that wrote the draft, from git log>",
+     "reviewer": "<this session, e.g. claude-code-review-2026-11-12 or codex-review-2026-11-12>",
+     "solution_checked": true,
+     "rendered_comparison_checked": true
+   }
+   ```
+   Put in `notes` what you compared, and the commit whose screenshots you reviewed. Fill in these fields only for checks you actually did. `reviewer` must differ from `transcriber`, and the build rejects entries where they match.
+6. Run the checks from 3.2 step 7. Commit and push as `review: <paper> (<verified>/<n> verified)`. The next deploy shows verified questions as redrawn text; the others keep their original image.
+
+### 3.4 Clean-up (any time; small)
+- **README.md:** keep the "Website" section and move the long caveats paragraph to `QUALITY.md`.
+- **Scripts:** move the one-off `scripts/check_*.py` into `scripts/checks/`, fixing any paths in `audits/` that reference them.
+- **Older questions:** "Recorded options (source verification pending)" shows raw text for some of them. Render it as a list, or drop it once that paper is verified.
+
+### 3.5 Missing official keys (optional)
+1,716 entries (1991–2010) have no official key. If an official IIT/GATE key for one of those years turns up, record it exactly as printed and log any disagreement with our answers in `DISCREPANCIES.md`.
+
+---
+
+## 4. Preview locally (optional)
+
+```sh
+python scripts/build_site.py --release && npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
+python -m http.server -d _site 8000      # open http://localhost:8000
+python scripts/build_pdfs.py --release   # 26 PDFs into _site/pdf (a few minutes)
+```
+
+## 5. Rules
+- Work on `main` (or short branches merged by PR). Never force-push. `git pull` before you start and verify each push landed.
+- Do not change repository settings (visibility, Pages, permissions).
+- Keep `data/questions.json` in its compact one-line format: `json.dumps(..., ensure_ascii=False, separators=(",", ":"))`.
+- Never edit `data/crops.json` and never run `scripts/locate_crops.py`; crop boundaries are already reviewed. Never change a recorded sha256 to make a different file pass.
+- Never invent question text, options, figures or official keys. If something can't be read, keep it `draft` and log it.
+- Before every push, run `python scripts/validate.py`, `python -m pytest -q tests` and `node tests/test_transcription_math.js`.
+
+## 6. Current state (10 Nov 2026)
+- **Questions:** 3,406 from 46 CS papers (1991–2026), in 13 subject folders. Every question shows its original image; the answers, solutions and 470+ discrepancy notes are live. Two PDFs per subject.
+- **Redraws:**
+  - Drafts exist for CS-2026-S1/S2 and CS-2025-S1/S2 (260 questions), none verified.
+  - CS-2024 drafts are in `handoff/2024-drafts/`.
+  - About 3,016 questions have nothing yet.
+- **Checks:** `scripts/validate.py`, 31 unit tests and the KaTeX check pass on `main`.
+- **Background:** `CODEX_INSTRUCTIONS.md` has the full original spec and history. `docs/TRANSCRIPTIONS.md` defines the transcription format and verification rules.
+- **If a browser won't run locally:** pushing transcription changes to `main` also triggers `.github/workflows/review-shots.yml`, which publishes the same screenshots to the `review-shots` branch (`git fetch origin review-shots`).

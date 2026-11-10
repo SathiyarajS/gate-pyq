@@ -44,7 +44,12 @@ checking the existing solution still matches. `rendered_comparison_checked`
 requires reviewing the actual production-rendered comparison for every question,
 including typeset math, tables, options and inline vector figures. JSON/source
 checks and SVG structural inspection alone do not satisfy it. If browser review
-is blocked, retain draft status even after source-level review. Structural validation cannot
+is blocked, retain draft status even after source-level review. The production-rendered
+comparison can be reviewed from screenshots: `python scripts/screenshot_comparisons.py <paper>`
+writes `audits/compare-shots/<paper>/<id>-desktop.jpg` and `-mobile-dark.jpg` (original crop
+beside the rendered entry), and `.github/workflows/review-shots.yml` publishes the same images
+to the `review-shots` branch. Inspecting every screenshot for every question satisfies
+`rendered_comparison_checked`; see HANDOFF.md §3.3. Structural validation cannot
 establish that this review actually happened. Review metadata and notes remain
 auditable in the comparison page. Unknown metadata fields are retained in the
 source but do not grant display approval.
