@@ -161,7 +161,7 @@ class TranscriptionTests(unittest.TestCase):
         env.filters['rich'] = build_site.rich
         q = dict(self.q, transcription=self.resolve(), display_type='MCQ', practice_key='B', subject_dir='test', number='1', ordinal=1, year=2026, marks=1, discrepancy_ids=[], permalink='q/CS-X-Q1/', report='#', question_title='Title', topic_title='Topic', question_text='Paraphrase', official_answer='B', derived_answer='B', solution='Solution', discrepancies=[], original_crops=[], source_link='https://example.org/paper')
         result = env.get_template('question.html').render(q=q,prefix='../')
-        self.assertIn('Verified transcription',result)
+        self.assertIn('Redrawn question',result)
         self.assertIn('<summary>View original</summary>',result)
         self.assertIn('<details class="text-version">',result)
         self.assertIn('<details class="answer"',result)
