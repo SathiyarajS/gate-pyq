@@ -92,6 +92,12 @@ class TranscriptionTests(unittest.TestCase):
         self.assertIn('<code>a|b</code>', result)
         self.assertIn('<td>a|b</td>', result)
 
+    def test_escaped_asterisks_are_literal(self):
+        result = str(t.rich(r'C = (20\*, 22\*, 25\*) and *x* with $a\*b$', True))
+        self.assertIn('C = (20*, 22*, 25*) and <em>x</em>', result)
+        self.assertNotIn('<em>, 22', result)
+        self.assertIn(r'data-math="a\*b"', result)
+
     def test_display_math_stays_inside_table_cells(self):
         for expression in ('$$x$$', r'\[x\]'):
             result = str(t.rich('| Expression |\n| --- |\n| ' + expression + ' |', True))
@@ -126,6 +132,11 @@ class TranscriptionTests(unittest.TestCase):
         self.assertIn('<text', result)
         self.assertIn('currentColor', result)
         self.assertNotIn('<img', result)
+
+    def test_svg_font_style_values(self):
+        ok = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>T</title><text x="1" y="20" font-size="12" font-style="{}">a</text></svg>'
+        self.assertIn('font-style="italic"', str(self.svg(ok.format('italic'))))
+        with self.assertRaises(ValueError): self.svg(ok.format('expression(x)'))
 
     def test_svg_forbidden_elements_attributes_colors_and_sizes(self):
         bad = ['<script>alert(1)</script>', '<foreignObject/>', '<image href="https://example.org/x"/>', '<g onclick="x"/>', '<style>@import "x";</style>', '<g style="fill:url(x)"/>', '<path fill="red"/>', '<text font-size="8">x</text>', '<g font-size="2"><text>x</text></g>', '<use href="#x"/>', '<g><image href="data:image/png,x"/></g>', '<path marker-end="url(https://example.org/x)"/>', '<path stroke="url(#x)"/>', '<animate/>']

@@ -18,7 +18,10 @@ Minimal draft:
 Use the actual corpus question ID and physical source pages. Options preserve
 stored order, never inferred or sorted. The renderer supports escaped text,
 inline/display LaTeX, fenced code, inline code, bold/italic, simple lists, and
-Markdown tables. Raw HTML, including HTML tables, is displayed literally;
+Markdown tables. In prose, `\|` is a literal pipe inside a table cell and `\*`
+is a literal asterisk (for example `20\*` for a starred key), so neither is read
+as markup. Figure SVGs may use `font-style="italic"` for labels the source
+prints in italics. Raw HTML, including HTML tables, is displayed literally;
 merged-cell tables must be safely represented in a figure or kept draft pending
 a structured-table extension. Legacy paraphrases/solutions retain their existing
 math handling, including literal single-dollar end-markers. Only explicit

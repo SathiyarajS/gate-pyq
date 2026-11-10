@@ -29,10 +29,11 @@ def inline(text, single_dollar=False):
             display = token.startswith(('\\[', '$$'))
             result.append('<span class="math-source" data-math="' + html.escape(token[size:-size], quote=True) + '" data-display="' + str(display).lower() + '">' + html.escape(token) + '</span>')
         else:
-            safe = html.escape(token.replace(r'\|', '|'))
+            # \* is a literal asterisk (e.g. "20\*" marking a key), kept out of emphasis.
+            safe = html.escape(token.replace(r'\|', '|').replace(r'\*', '\x00'))
             safe = re.sub(r'\*\*([^*\n]+)\*\*', r'<strong>\1</strong>', safe)
             safe = re.sub(r'(?<!\*)\*([^*\n]+)\*(?!\*)', r'<em>\1</em>', safe)
-            result.append(safe)
+            result.append(safe.replace('\x00', '*'))
     return ''.join(result)
 
 
@@ -92,7 +93,7 @@ def rich(value, single_dollar=False):
 
 
 SVG_TAGS = {'svg', 'g', 'path', 'line', 'polyline', 'polygon', 'rect', 'circle', 'ellipse', 'text', 'tspan', 'title', 'desc', 'defs', 'marker'}
-SVG_ATTRS = {'viewBox', 'xmlns', 'role', 'aria-label', 'id', 'd', 'x', 'y', 'x1', 'y1', 'x2', 'y2', 'dx', 'dy', 'cx', 'cy', 'r', 'rx', 'ry', 'points', 'width', 'height', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-dasharray', 'fill-rule', 'text-anchor', 'dominant-baseline', 'font-size', 'font-family', 'font-weight', 'transform', 'opacity', 'fill-opacity', 'stroke-opacity', 'marker-start', 'marker-mid', 'marker-end', 'markerWidth', 'markerHeight', 'refX', 'refY', 'orient', 'markerUnits', 'preserveAspectRatio'}
+SVG_ATTRS = {'viewBox', 'xmlns', 'role', 'aria-label', 'id', 'd', 'x', 'y', 'x1', 'y1', 'x2', 'y2', 'dx', 'dy', 'cx', 'cy', 'r', 'rx', 'ry', 'points', 'width', 'height', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-dasharray', 'fill-rule', 'text-anchor', 'dominant-baseline', 'font-size', 'font-family', 'font-weight', 'font-style', 'transform', 'opacity', 'fill-opacity', 'stroke-opacity', 'marker-start', 'marker-mid', 'marker-end', 'markerWidth', 'markerHeight', 'refX', 'refY', 'orient', 'markerUnits', 'preserveAspectRatio'}
 
 
 def safe_svg(root, name):
@@ -121,6 +122,8 @@ def safe_svg(root, name):
             if attr not in SVG_ATTRS: raise ValueError('Unsupported SVG attribute: ' + attr)
             if attr in ('fill', 'stroke') and value not in ('currentColor', 'none'):
                 raise ValueError('SVG colors must be currentColor or none')
+            if attr == 'font-style' and value not in ('normal', 'italic', 'oblique'):
+                raise ValueError('Unsupported SVG font-style')
             if attr == 'id':
                 if not re.fullmatch(r'[A-Za-z][A-Za-z0-9_-]*', value) or value in ids: raise ValueError('Invalid SVG id')
                 ids.add(value)
