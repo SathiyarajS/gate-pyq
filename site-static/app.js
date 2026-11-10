@@ -28,7 +28,7 @@ document.addEventListener('click',async event=>{const b=event.target.closest('bu
   else input=(article.querySelector('.attempt-input')?.value||'').trim().toUpperCase();
   const result=check(key,input,type);article.querySelector('.answer').open=true;
   if(result!==null)article.querySelectorAll('.choice.picked,.choice[aria-pressed="true"]').forEach(c=>c.classList.add(result?'right':'wrong'));
-  article.querySelector('.attempt-result').textContent=result===null?(input?'No official key to check against — compare with our answer below.':'Answer shown below.'):(result?'Correct — matches the official key.':'Not quite — the official key is shown below.');
+  article.querySelector('.attempt-result').textContent=result===null?(input?'No official key to check against — compare with our answer below.':'Answer shown below.'):(result?(article.dataset.keySource==='derived'?'Correct — matches our answer (no official key located).':'Correct — matches the official key.'):(article.dataset.keySource==='derived'?'Not quite — our answer (no official key located) is shown below.':'Not quite — the official key is shown below.'));
   save(article,{attempted:true,result,input});}
 });hydrate();
 const form=document.querySelector('#filters');if(form){let records=null,page=1,filtered=[];const original=document.querySelector('#questions').innerHTML;

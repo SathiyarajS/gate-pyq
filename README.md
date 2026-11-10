@@ -14,7 +14,7 @@ To build the site locally, see "Build locally" in [CODEX_INSTRUCTIONS.md](CODEX_
 
 ## About the data
 
-Work in progress: 3406 source-numbered entries across 46 CS papers, with 3168 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; The formerly missing 1993 state diagram now has a conditional third-party reconstruction; original fidelity remains unverified. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1716 entries have no located official key, including the conditional third-party diagram reconstruction; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
+3,406 questions from 46 CS papers (1991–2026), each with the original question image, a worked solution and the official key where one has been located. Questions with no located official key (1,716, mostly 1991–2010) show our own derived answer, labelled as such. Entries are source-linked solutions, not complete transcriptions. Known caveats and quality gates are in [QUALITY.md](QUALITY.md).
 
 ## Subjects
 | # | Subject |

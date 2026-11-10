@@ -43,6 +43,12 @@ jobs:
           python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
+      - name: Cache rendered question images
+        uses: actions/cache@v4
+        with:
+          path: site-assets/q
+          key: question-images-${{ hashFiles('data/crops.json', 'audits/crop-source-map.json', 'scripts/render_crops.py') }}
+          restore-keys: question-images-
       - name: Build site (renders question images from sources/)
         run: python scripts/build_site.py --release
       - name: Build search index

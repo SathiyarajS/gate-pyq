@@ -51,3 +51,7 @@ Legacy leaves are not all separately marked questions. Source variants, ambiguou
 Answer review, official-key comparison, explanation depth, source accessibility and full collection coverage are distinct checks. The full 36-year deliverable remains incomplete.
 
 Actual source navigation: [SOURCE_ACCESS.md](SOURCE_ACCESS.md) distinguishes direct/archived PDFs from ZIP/member/page routes and lists the 19 explicitly pending local artwork entries. This is access guidance, not a complete-original or reuse-permission certificate.
+
+## Data caveats (moved from README.md)
+
+Work in progress: 3406 source-numbered entries across 46 CS papers, with 3168 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; The formerly missing 1993 state diagram now has a conditional third-party reconstruction; original fidelity remains unverified. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1716 entries have no located official key, including the conditional third-party diagram reconstruction; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.

@@ -42,6 +42,31 @@ def rich(value):
             result.extend('<p>'+inline_math(p).replace('\n','<br>')+'</p>' for p in chunk.split('\n\n') if p.strip())
     return Markup(''.join(result))
 
+def solution(value):
+    """Solution text: like rich(), plus numbered steps and '- ' notes laid out as steps and lists."""
+    chunks = re.split(r'(```[^\n]*\n.*?```)', str(value or ''), flags=re.S)
+    result = []
+    for chunk in chunks:
+        if chunk.startswith('```'):
+            result.append('<pre><code>'+html.escape(chunk.split('\n',1)[-1].removesuffix('```'))+'</code></pre>')
+            continue
+        for para in chunk.split('\n\n'):
+            if not para.strip(): continue
+            lines, buf, items = para.strip('\n').split('\n'), [], []
+            def flush_text():
+                if not buf: return
+                body = inline_math('\n'.join(buf)).replace('\n','<br>'); buf.clear()
+                step = re.match(r'(\d{1,2})[.)]\s+(.*)', body, flags=re.S)
+                result.append('<p class="step"><span class="n">'+step[1]+'.</span> '+step[2]+'</p>' if step else '<p>'+body+'</p>')
+            def flush_items():
+                if items: result.append('<ul>'+''.join('<li>'+inline_math(i)+'</li>' for i in items)+'</ul>'); items.clear()
+            for line in lines:
+                m = re.match(r'-\s+(\S.*)', line)
+                if m: flush_text(); items.append(m[1])
+                else: flush_items(); buf.append(line)
+            flush_items(); flush_text()
+    return Markup(''.join(result))
+
 def discrepancies():
     rows={}
     for line in (ROOT/'DISCREPANCIES.md').read_text().splitlines():
@@ -76,6 +101,10 @@ def main():
         q['options_data']=q.get('options') or q.get('question_options') or None
         # Options are never invented. A paraphrase often omits the original option set.
         q['practice_key']=str(q['official_answer']) if q['official_answer'] is not None else ''
+        q['key_source']='official' if q['practice_key'] else ''
+        if not q['practice_key'] and q.get('verification_status')=='independently_solved' and re.fullmatch(r'[A-Z](;[A-Z])*|-?\d+(\.\d+)?( to -?\d+(\.\d+)?)?',str(q.get('derived_answer') or '')):
+            # No official key: practise against our own derived answer, labelled as such. Never for open discrepancies or conditional answers.
+            q['practice_key']=str(q['derived_answer']);q['key_source']='derived'
         key_letters=re.findall(r'[A-Z]',q['practice_key']) if re.fullmatch(r'[A-Z](;[A-Z])*',q['practice_key']) else []
         last=max(['D']+key_letters);q['choices']=[chr(c) for c in range(ord('A'),ord(last)+1)]
         q['permalink']='q/'+q['question_id']+'/'
@@ -130,7 +159,7 @@ def main():
         shutil.copytree(katex_dir,out/'assets/vendor/katex',dirs_exist_ok=True)
         shutil.copy2(ROOT/'node_modules/katex/LICENSE',out/'assets/vendor/katex/LICENSE')
     shutil.copytree(ROOT/'site-static',out/'assets',dirs_exist_ok=True)
-    env=Environment(loader=FileSystemLoader(ROOT/'templates/site'),autoescape=select_autoescape(['html']));env.filters['rich']=rich
+    env=Environment(loader=FileSystemLoader(ROOT/'templates/site'),autoescape=select_autoescape(['html']));env.filters['rich']=rich;env.filters['solution']=solution
     counts={s:len(qs) for s,qs in groups.items()};titles={s:TITLES[int(s[:2])-1] for s in groups}
     cards=[dict(slug=s,title=titles[s],count=counts[s],topics=len(topics.get(s,{}).get('topics',[]))) for s in sorted(groups)]
     def render(path,**ctx):

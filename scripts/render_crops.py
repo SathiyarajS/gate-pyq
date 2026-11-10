@@ -127,12 +127,20 @@ def main():
             jobs.append((qid,n,crop,page))
     output=Path(args.output);output.mkdir(parents=True,exist_ok=True)
     previous=output/'manifest.json'
-    assets=json.loads(previous.read_text()) if args.question and previous.exists() else {}
+    old=json.loads(previous.read_text()) if previous.exists() else {}
+    assets=dict(old) if args.question else {}
     for qid in selected:assets.pop(qid,None)
+    # An image is reused only when its content key matches: source PDF hash, crop record, scale and this script's code.
+    code=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    rendered=reused=0
     for qid,n,crop,page in jobs:
+        key=hashlib.sha256(json.dumps([sources[crop['file']]['sha256'],crop,args.scale,code],sort_keys=True).encode()).hexdigest()
+        prev=next((e for e in old.get(qid,[]) if e.get('key')==key and e.get('index')==n and (output/e['file']).is_file()),None)
+        if prev:
+            assets.setdefault(qid,[]).append(prev);reused+=1;continue
         img=trim_blank_tail(render_crop(page,crop,args.scale),qid);name=f'{qid}-{n}.webp'
         try:img.save(output/name,'WEBP',quality=80)
         except (KeyError,OSError):name=f'{qid}-{n}.png';img.save(output/name,'PNG')
-        assets.setdefault(qid,[]).append({'file':name,'width':img.width,'height':img.height,'status':crop['status'],'page':crop['page']})
-    (output/'manifest.json').write_text(json.dumps(assets,indent=2)+'\n');print(f'Rendered {len(jobs)} images for {len(assets)} questions')
+        assets.setdefault(qid,[]).append({'file':name,'width':img.width,'height':img.height,'status':crop['status'],'page':crop['page'],'index':n,'key':key});rendered+=1
+    (output/'manifest.json').write_text(json.dumps(assets,indent=2)+'\n');print(f'Rendered {rendered} images, reused {reused} cached, for {len(assets)} questions')
 if __name__=='__main__':main()

@@ -43,7 +43,7 @@ class QuestionTemplateTests(unittest.TestCase):
     def render(self, crops, prefix='../../'):
         env = Environment(loader=FileSystemLoader(ROOT / 'templates/site'),
                           autoescape=select_autoescape(['html']))
-        env.filters['rich'] = builder.rich
+        env.filters['rich'] = builder.rich; env.filters['solution'] = builder.solution
         q = dict(question_id='CS-2026-Q1', display_type='MCQ', practice_key='B',
                  subject_dir='test', number='1', ordinal=1, year=2026, session='CS1',
                  marks=1, discrepancy_ids=[], permalink='q/CS-2026-Q1/', report='#',
@@ -72,23 +72,22 @@ class QuestionTemplateTests(unittest.TestCase):
                     self.assertEqual((attrs['width'], attrs['height'], attrs['loading']), ('1200', '600', 'lazy'))
                     self.assertIn('Paraphrase (not verbatim): Compare "A" < B & C.', attrs['alt'])
 
-    def test_crop_paraphrase_collapsed_and_searchable_without_affecting_answers(self):
+    def test_crop_paraphrase_hidden_but_searchable_without_affecting_answers(self):
         doc = self.render([dict(file='q.webp', width=1200, height=600, page=1)])
-        details, = doc.find('details', 'text-version')
-        self.assertNotIn('open', details['attrs'])
-        summary = next(n for n in doc.find('summary') if details in n['parents'])
-        self.assertEqual(summary['text'], 'Text version (paraphrase)')
+        self.assertFalse(doc.find('details', 'text-version'))
         text, = doc.find('div', 'paraphrase')
-        self.assertIn(details, text['parents'])
+        self.assertIn('search-text', text['attrs']['class'])
+        self.assertEqual(text['attrs']['aria-hidden'], 'true')
         self.assertIn('data-pagefind-body', text['attrs'])
         self.assertFalse(any('data-pagefind-ignore' in n['attrs'] for n in text['parents']))
-        self.assertLess(doc.nodes.index(doc.find('section', 'original-source')[0]), doc.nodes.index(details))
+        self.assertLess(doc.nodes.index(doc.find('section', 'original-source')[0]), doc.nodes.index(text))
         answer, = doc.find('details', 'answer')
         self.assertNotIn('open', answer['attrs'])
         self.assertIn('data-pagefind-ignore', answer['attrs'])
-        self.assertNotIn(details, answer['parents'])
-        self.assertNotIn(details, doc.find('div', 'practice')[0]['parents'])
+        self.assertNotIn(text, answer['parents'])
+        self.assertNotIn(text, doc.find('div', 'practice')[0]['parents'])
         self.assertIn('not a certified transcription', doc.find('section', 'original-source')[0]['text'])
+        self.assertRegex((ROOT / 'site-static/style.css').read_text(), r'\.search-text\{[^}]*clip')
 
     def test_no_crop_preview_remains_visible(self):
         doc = self.render([])
