@@ -1,0 +1,13 @@
+{
+  "entry_count": 3406,
+  "requested_subject_entries": 3168,
+  "depth_reviewed": 3406,
+  "placeholder_question_contexts": [],
+  "notes": [
+    "Observed coverage is not certified original-paper completeness.",
+    "Legacy subparts are separate entries, not all independently marked questions.",
+    "Source wording and scoring can remain qualified despite reviewed explanations.",
+    "Publication state is independently verified; this is a local quality snapshot."
+  ],
+  "essential_context_note": "All 101 essential question contexts for 2002 were independently source-reviewed; no placeholder-only question_text remains."
+}

@@ -1,0 +1,517 @@
+{
+  "paper_id": "CS-2011",
+  "review_status": "passed_with_explicit_limitations",
+  "reviewer": "independent source and explanatory-depth reviewer",
+  "reviewed_record_count": 65,
+  "source_pdf": "/workspace/shared/gate2011-research/paper.pdf",
+  "key_pdf": "/workspace/shared/gate2011-research/key.pdf",
+  "visually_inspected_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "official_key_pages": [
+    1,
+    2
+  ],
+  "key_column": "Code A",
+  "baseline_protected_fields_preserved": true,
+  "json_markdown_context_and_solution_consistency": true,
+  "material_issues": [],
+  "edits_made": [],
+  "checks": {
+    "supplied_checker": "python /workspace/shared/contributions/check_cs2011_expanded.py",
+    "exit_code": 0,
+    "checks_include": [
+      "65 records and 100 marks",
+      "All protected baseline fields unchanged",
+      "Every baseline solution retained verbatim as prefix",
+      "Source PDF SHA-256 matches",
+      "Code A key matches 65/65",
+      "Executable counting/cache/DMA/counter/dilution checks",
+      "Kruskal MST comparison for n=3..30",
+      "Separate JSON/Markdown exact stem and solution consistency check 65/65"
+    ]
+  },
+  "limits": [
+    "This is a source-faithful essential paraphrase edition with structural diagram descriptions, not a verbatim or facsimile edition.",
+    "Archived official Code A key matched; final-revision status is not established.",
+    "Existing caveats remain essential, especially Q5 antonym overlap, Q7 inverse-dose toxicity interpretation, Q32 literal C defects, Q35 contiguous-run semantics, Q40 characterization-versus-implication wording, Q42 integer overflow, and Q49 indexing cost-model assumptions.",
+    "Supplied checker emits an AUTHOR REVIEW sentence; the independent visual inspection reported here was performed separately on all question-bearing pages and both key pages.",
+    "Expanded records retain pending depth_review metadata for parent integration; this separate audit covers the current artifact hashes. No repository, external document or Page was changed."
+  ],
+  "artifact_sha256": {
+    "cs-2011-expanded.json": "0e4c01dda904a49cd98d6aa8009a686e82a33ef7c9c6a08e2857fed9badf58cf",
+    "cs-2011-expanded.md": "4e02d50ee257392e31dd25f0b2f59708fadcc252fdb0f4106934e5c528706a6c"
+  },
+  "records": [
+    {
+      "question_id": "CS-2011-Q1",
+      "printed_question_number": "56",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Synonym and all distractor meanings distinguished."
+    },
+    {
+      "question_id": "CS-2011-Q2",
+      "printed_question_number": "57",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Logarithm identities tested; positivity/common-base and special-value caveat retained."
+    },
+    {
+      "question_id": "CS-2011-Q3",
+      "printed_question_number": "58",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Gerund complement explained without denying grammatical obligation reading."
+    },
+    {
+      "question_id": "CS-2011-Q4",
+      "printed_question_number": "59",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Parallel contextual adjectives distinguish restrained."
+    },
+    {
+      "question_id": "CS-2011-Q5",
+      "printed_question_number": "60",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Official D preserved alongside split/separate lexical ambiguity."
+    },
+    {
+      "question_id": "CS-2011-Q6",
+      "printed_question_number": "61",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Passage purpose distinguishes coping from causes of death."
+    },
+    {
+      "question_id": "CS-2011-Q7",
+      "printed_question_number": "62",
+      "source_page": 17,
+      "status": "pass",
+      "finding": "All bubble coordinates/diameters checked; inverse-dose model and literal-axis conflict retained."
+    },
+    {
+      "question_id": "CS-2011-Q8",
+      "printed_question_number": "63",
+      "source_page": 17,
+      "status": "pass",
+      "finding": "Global positive-domain minimum justified by AM–GM and calculus."
+    },
+    {
+      "question_id": "CS-2011-Q9",
+      "printed_question_number": "64",
+      "source_page": 17,
+      "status": "pass",
+      "finding": "Truck-day equations and integer ceiling explicit."
+    },
+    {
+      "question_id": "CS-2011-Q10",
+      "printed_question_number": "65",
+      "source_page": 17,
+      "status": "pass",
+      "finding": "Three replacement steps and dilution arithmetic explicit."
+    },
+    {
+      "question_id": "CS-2011-Q11",
+      "printed_question_number": "1",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Scanner token recognition distinguished from parsing."
+    },
+    {
+      "question_id": "CS-2011-Q12",
+      "printed_question_number": "2",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Layer-four identity limitation and conventional HTTP-port assumption retained."
+    },
+    {
+      "question_id": "CS-2011-Q13",
+      "printed_question_number": "3",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Conditional sample space correctly distinguishes HT and TH."
+    },
+    {
+      "question_id": "CS-2011-Q14",
+      "printed_question_number": "4",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Protocol mapping and browser/server distinction explained."
+    },
+    {
+      "question_id": "CS-2011-Q15",
+      "printed_question_number": "5",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "All development/maintenance table values reproduced; break-even costs verified."
+    },
+    {
+      "question_id": "CS-2011-Q16",
+      "printed_question_number": "6",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Conventional mode/context-switch cost comparison qualified."
+    },
+    {
+      "question_id": "CS-2011-Q17",
+      "printed_question_number": "7",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "COCOMO KLOC conversion and effort-versus-time distinction explained."
+    },
+    {
+      "question_id": "CS-2011-Q18",
+      "printed_question_number": "8",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Language-recognition power distinguished from efficiency."
+    },
+    {
+      "question_id": "CS-2011-Q19",
+      "printed_question_number": "9",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Static HTML mechanisms contrasted with reading current client clock."
+    },
+    {
+      "question_id": "CS-2011-Q20",
+      "printed_question_number": "10",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Requirements/design distinction qualified for real contracts."
+    },
+    {
+      "question_id": "CS-2011-Q21",
+      "printed_question_number": "11",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Protective interrupt priority reasoned from urgency."
+    },
+    {
+      "question_id": "CS-2011-Q22",
+      "printed_question_number": "12",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Joint accounts invalidate student key; superkey augmentation explained."
+    },
+    {
+      "question_id": "CS-2011-Q23",
+      "printed_question_number": "13",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "All four gate drawings reconstructed; truth tables and bridge wiring correct."
+    },
+    {
+      "question_id": "CS-2011-Q24",
+      "printed_question_number": "14",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Boolean simplification uses common-factor identities correctly."
+    },
+    {
+      "question_id": "CS-2011-Q25",
+      "printed_question_number": "15",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "State-count lower bound and nine-bit realization explained."
+    },
+    {
+      "question_id": "CS-2011-Q26",
+      "printed_question_number": "16",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Per-thread stack/register state and shared address-space distinction correct."
+    },
+    {
+      "question_id": "CS-2011-Q27",
+      "printed_question_number": "17",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "K4/cube diagrams faithfully described; source K3 typo retained."
+    },
+    {
+      "question_id": "CS-2011-Q28",
+      "printed_question_number": "18",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Variance identity, nonnegativity and constant-variable boundary explained."
+    },
+    {
+      "question_id": "CS-2011-Q29",
+      "printed_question_number": "19",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Regular-token recognition distinguished from nested parsing."
+    },
+    {
+      "question_id": "CS-2011-Q30",
+      "printed_question_number": "20",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Fault units/probability conversion and rounding-model caveat retained."
+    },
+    {
+      "question_id": "CS-2011-Q31",
+      "printed_question_number": "21",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Base-plus-displacement characterized with source terminology caveat."
+    },
+    {
+      "question_id": "CS-2011-Q32",
+      "printed_question_number": "22",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Literal Char capitalization and intermediate out-of-bounds pointer arithmetic retained; intended ASCII suffix separate."
+    },
+    {
+      "question_id": "CS-2011-Q33",
+      "printed_question_number": "23",
+      "source_page": 6,
+      "status": "pass",
+      "finding": "All four tree shapes reproduced; completeness and heap-order tests explained."
+    },
+    {
+      "question_id": "CS-2011-Q34",
+      "printed_question_number": "24",
+      "source_page": 6,
+      "status": "pass",
+      "finding": "Complement closure and explicit nonregular counterexample distinguish all choices."
+    },
+    {
+      "question_id": "CS-2011-Q35",
+      "printed_question_number": "25",
+      "source_page": 6,
+      "status": "pass",
+      "finding": "Recurrence/order reconstructed; contiguous-run versus subsequence caveat demonstrated."
+    },
+    {
+      "question_id": "CS-2011-Q36",
+      "printed_question_number": "26",
+      "source_page": 7,
+      "status": "pass",
+      "finding": "Three languages reproduced; pumping argument and TM recognition explanation supplied."
+    },
+    {
+      "question_id": "CS-2011-Q37",
+      "printed_question_number": "27",
+      "source_page": 7,
+      "status": "pass",
+      "finding": "All four parse trees encoded accurately; precedence then associativity applied."
+    },
+    {
+      "question_id": "CS-2011-Q38",
+      "printed_question_number": "28",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "All program instructions retained; branch count and DMA denominator correct."
+    },
+    {
+      "question_id": "CS-2011-Q39",
+      "printed_question_number": "29",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Fixed ordered-tree inorder assignment gives existence and uniqueness."
+    },
+    {
+      "question_id": "CS-2011-Q40",
+      "printed_question_number": "30",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Divisor predicate interpreted exactly; necessary-consequence ambiguity retained."
+    },
+    {
+      "question_id": "CS-2011-Q41",
+      "printed_question_number": "31",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Complex exponential and real/imaginary integration checks agree."
+    },
+    {
+      "question_id": "CS-2011-Q42",
+      "printed_question_number": "32",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "SQL recurrence, early rows and fixed-width overflow caveat preserved."
+    },
+    {
+      "question_id": "CS-2011-Q43",
+      "printed_question_number": "33",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "Positive affine transformation and tie conventions explained."
+    },
+    {
+      "question_id": "CS-2011-Q44",
+      "printed_question_number": "34",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "Ordered without-replacement sample space and four favorable pairs correct."
+    },
+    {
+      "question_id": "CS-2011-Q45",
+      "printed_question_number": "35",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "SRTF event timeline and all three waiting times correct."
+    },
+    {
+      "question_id": "CS-2011-Q46",
+      "printed_question_number": "36",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "Expression tree reproduced exactly; register lower bound and explicit three-register schedule correct."
+    },
+    {
+      "question_id": "CS-2011-Q47",
+      "printed_question_number": "37",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "All four growth functions and logarithmic comparisons correct."
+    },
+    {
+      "question_id": "CS-2011-Q48",
+      "printed_question_number": "38",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "All five matrix-chain costs correct; optimal 19000 derivation explicit."
+    },
+    {
+      "question_id": "CS-2011-Q49",
+      "printed_question_number": "39",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "Equality versus range index tradeoff and nonuniversal performance caveat retained."
+    },
+    {
+      "question_id": "CS-2011-Q50",
+      "printed_question_number": "40",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Triangular matrix entries/options correct; determinant/trace checks supplied."
+    },
+    {
+      "question_id": "CS-2011-Q51",
+      "printed_question_number": "41",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Stage/register delays reconstructed; steady-state versus latency and output-register caveat retained."
+    },
+    {
+      "question_id": "CS-2011-Q52",
+      "printed_question_number": "42",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Positive-multiple unary language excludes epsilon; n+1-state construction and distinguishability correct."
+    },
+    {
+      "question_id": "CS-2011-Q53",
+      "printed_question_number": "43",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Cache address partition and valid/dirty metadata count correct."
+    },
+    {
+      "question_id": "CS-2011-Q54",
+      "printed_question_number": "44",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Disk rpm conversion, half-turn latency and repeated seek count correct."
+    },
+    {
+      "question_id": "CS-2011-Q55",
+      "printed_question_number": "45",
+      "source_page": 12,
+      "status": "pass",
+      "finding": "All DFA transitions/final states including nondeterministic distractor C reproduced; minimality witnesses explicit."
+    },
+    {
+      "question_id": "CS-2011-Q56",
+      "printed_question_number": "46",
+      "source_page": 12,
+      "status": "pass",
+      "finding": "SQL projections and all table rows retained; natural-join multiplicities correct."
+    },
+    {
+      "question_id": "CS-2011-Q57",
+      "printed_question_number": "47",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "All six test rows and four equivalence classes reproduced; redundant options explained."
+    },
+    {
+      "question_id": "CS-2011-Q58",
+      "printed_question_number": "48",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Recursive code reproduced; decimal digit-sum stack unrolled correctly."
+    },
+    {
+      "question_id": "CS-2011-Q59",
+      "printed_question_number": "49",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Recursive code repeated for standalone access; binary digit-sum trace correct."
+    },
+    {
+      "question_id": "CS-2011-Q60",
+      "printed_question_number": "50",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "D-flip-flop wiring visually traced, including bridge crossings; simultaneous update correct."
+    },
+    {
+      "question_id": "CS-2011-Q61",
+      "printed_question_number": "51",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Same counter wiring retained; reset cycle has exactly four states."
+    },
+    {
+      "question_id": "CS-2011-Q62",
+      "printed_question_number": "52",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Network edges, five vectors and synchronous update rule retained; next vector correct."
+    },
+    {
+      "question_id": "CS-2011-Q63",
+      "printed_question_number": "53",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Linked previous-round context explicit; stale N4 advertisement and cost 10 correct."
+    },
+    {
+      "question_id": "CS-2011-Q64",
+      "printed_question_number": "54",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Graph rule/sample edges/options faithful; cut-property proof yields full MST."
+    },
+    {
+      "question_id": "CS-2011-Q65",
+      "printed_question_number": "55",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Linked graph context repeated; unique tree path and weighted sum 31 correct."
+    }
+  ]
+}

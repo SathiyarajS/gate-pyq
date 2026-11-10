@@ -1,0 +1,2476 @@
+{
+  "year": 1995,
+  "provenance_status": "Secondary-only; official paper/key fidelity and completeness unverified",
+  "sources": [
+    {
+      "id": "gfg",
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+      "pages": 8,
+      "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+      "provenance": "Secondary reproduction; original official fidelity and completeness unverified",
+      "key_status": "No verified official key"
+    },
+    {
+      "id": "gateforum",
+      "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs1995.pdf",
+      "pages": 16,
+      "sha256": "1d530a2885df74d6eeae0c662d04fa73ad0004ef9f0bfbdf07a8c0ca0b1fb075",
+      "provenance": "Secondary reproduction; original official fidelity and completeness unverified",
+      "key_status": "No verified official key"
+    }
+  ],
+  "count_policy": "75 content groups: 50 objectives + 5 regular Section A groups + 20 Section B groups. 91 leaves: 50 objectives + 8 regular A leaves + 33 B leaves. Printed nested 17(a)(i)/(ii) are separate leaves. Unlabelled multiple outputs/code blanks stay together.",
+  "marks": {
+    "section_a_heading_total": 100,
+    "section_a_one_mark_items": 25,
+    "section_a_two_mark_items": 25,
+    "section_a_objective_total": 75,
+    "section_a_regular_total_by_subtraction": 25,
+    "section_a_regular_group_marks": null,
+    "section_b_heading_total": 50,
+    "section_b_required_groups": 10,
+    "section_b_offered_groups": 20,
+    "section_b_group_marks": 5,
+    "negative_marking": "Not established",
+    "individual_descriptive_subpart_marks": "Unknown except explicit GFG 26(a)=3; unsplit B groups carry 5"
+  },
+  "splits": [
+    {
+      "section": "A objectives",
+      "normalized_range": [
+        1,
+        50
+      ]
+    },
+    {
+      "section": "Mixed regular A and B",
+      "printed_group_range": [
+        3,
+        17
+      ],
+      "normalized_range": [
+        51,
+        76
+      ]
+    },
+    {
+      "section": "B",
+      "printed_group_range": [
+        18,
+        27
+      ],
+      "normalized_range": [
+        77,
+        91
+      ]
+    }
+  ],
+  "verification_scope": "All GFG descriptive pages 5–8 visually inspected. GateForum descriptive pages examined with OCR and targeted visual checks of pp9,11,13–15. Objective page boundaries checked using OCR and rasters; not a full option-by-option equivalence audit. Page references are physical PDF pages; ranges may include shared stem pages. No solutions copied or authored.",
+  "discrepancies": [
+    {
+      "question": "1.10",
+      "note": "GateForum p2 has visibly malformed grammar symbols/nonterminal labels. GFG p1 has a different-looking reproduction. Authors must inspect both rasters, preserve uncertainty, and not infer grammar solely from OCR."
+    },
+    {
+      "question": "1.12",
+      "note": "GateForum p2 omits codeword 101010, which GFG p2 includes between 010101 and 000111."
+    },
+    {
+      "question": "1.14",
+      "note": "GateForum p3 asks what information needs to be included; GFG p2 asks what need NOT be included. The missing negation materially changes the MCQ."
+    },
+    {
+      "question": "1.19",
+      "note": "GateForum p3 option (c) says R is reflexive and hence not an equivalence relation; GFG p2 says R is NOT reflexive. This is a material option transcription discrepancy."
+    },
+    {
+      "question": "3",
+      "note": "GateForum p9 prints malformed Y := abs(bA-b); GFG p6 prints Y := abs(A-B). Both give A=5CH and B=92H; OCR may misread H as 14."
+    },
+    {
+      "question": "7(b)",
+      "note": "GateForum p11 visibly prints denominator 0 in sin(x)/0, while GFG p6 prints x. Treat as reproduction discrepancy, not a literal common limit."
+    },
+    {
+      "question": "8",
+      "note": "GateForum p11 renders grammar minus symbols as low underscores in Expr -> _Expr and ExprTail -> _Expr. GFG p6 shows minus signs. Preserve the grammar and token convention explicitly."
+    },
+    {
+      "question": "14(b)",
+      "note": "GateForum p13 prints 360 rpm; GFG p7 prints 3600 rpm. This changes the requested transfer rate by a factor of ten; do not silently merge variants."
+    },
+    {
+      "question": "15(a)",
+      "note": "Both rasters retain complement bars on A and B in Z = complement(A) + complement(B) + C. Plain extracted text loses these bars."
+    },
+    {
+      "question": "16(c)",
+      "note": "Neither reproduction supplies memory contents for the search program. Final HL cannot be assigned one fixed value without stating a match/no-match condition. This is a source sufficiency caveat, not an extra leaf."
+    },
+    {
+      "question": "18",
+      "note": "GateForum p14 declares RAM but uses REM; GFG p8 declares REM. All three code blanks A/B/C are unlabelled suboutputs of one printed group, retained as one leaf."
+    },
+    {
+      "question": "19",
+      "note": "GateForum pp14–15 prints V(c) after S4 and repeats P(j); P(j); P(k) before S9. GFG p8 prints V(e) after S4 and only P(j); P(k) before S9. These are material synchronization variants."
+    },
+    {
+      "question": "22",
+      "note": "GateForum p15 omits the drawn A–B edge while leaving its weight 2 in the diagram. GFG p8 clearly draws A–B with weight 2. Do not treat the detached number as an additional graph item."
+    },
+    {
+      "question": "26(a)",
+      "note": "GFG p8 explicitly prints (3) after part (a); GateForum p16 omits this allocation. Part (b) has no printed mark. Preserve the observed 3 and leave (b) null."
+    },
+    {
+      "question": "marks",
+      "note": "GFG section A heading is 100 marks; its objectives total 75. The remaining 25 across original 3–7 is arithmetic only, not a verified per-group allocation. Section B heading is 50 marks and says answer any TEN of 20 offered groups, supporting 5 per group. No negative-marking instruction established."
+    }
+  ],
+  "groups": [
+    {
+      "group_ordinal": 1,
+      "section": "A",
+      "printed_id": "1.1",
+      "marks": 1,
+      "leaf_ordinals": [
+        1
+      ]
+    },
+    {
+      "group_ordinal": 2,
+      "section": "A",
+      "printed_id": "1.2",
+      "marks": 1,
+      "leaf_ordinals": [
+        2
+      ]
+    },
+    {
+      "group_ordinal": 3,
+      "section": "A",
+      "printed_id": "1.3",
+      "marks": 1,
+      "leaf_ordinals": [
+        3
+      ]
+    },
+    {
+      "group_ordinal": 4,
+      "section": "A",
+      "printed_id": "1.4",
+      "marks": 1,
+      "leaf_ordinals": [
+        4
+      ]
+    },
+    {
+      "group_ordinal": 5,
+      "section": "A",
+      "printed_id": "1.5",
+      "marks": 1,
+      "leaf_ordinals": [
+        5
+      ]
+    },
+    {
+      "group_ordinal": 6,
+      "section": "A",
+      "printed_id": "1.6",
+      "marks": 1,
+      "leaf_ordinals": [
+        6
+      ]
+    },
+    {
+      "group_ordinal": 7,
+      "section": "A",
+      "printed_id": "1.7",
+      "marks": 1,
+      "leaf_ordinals": [
+        7
+      ]
+    },
+    {
+      "group_ordinal": 8,
+      "section": "A",
+      "printed_id": "1.8",
+      "marks": 1,
+      "leaf_ordinals": [
+        8
+      ]
+    },
+    {
+      "group_ordinal": 9,
+      "section": "A",
+      "printed_id": "1.9",
+      "marks": 1,
+      "leaf_ordinals": [
+        9
+      ]
+    },
+    {
+      "group_ordinal": 10,
+      "section": "A",
+      "printed_id": "1.10",
+      "marks": 1,
+      "leaf_ordinals": [
+        10
+      ]
+    },
+    {
+      "group_ordinal": 11,
+      "section": "A",
+      "printed_id": "1.11",
+      "marks": 1,
+      "leaf_ordinals": [
+        11
+      ]
+    },
+    {
+      "group_ordinal": 12,
+      "section": "A",
+      "printed_id": "1.12",
+      "marks": 1,
+      "leaf_ordinals": [
+        12
+      ]
+    },
+    {
+      "group_ordinal": 13,
+      "section": "A",
+      "printed_id": "1.13",
+      "marks": 1,
+      "leaf_ordinals": [
+        13
+      ]
+    },
+    {
+      "group_ordinal": 14,
+      "section": "A",
+      "printed_id": "1.14",
+      "marks": 1,
+      "leaf_ordinals": [
+        14
+      ]
+    },
+    {
+      "group_ordinal": 15,
+      "section": "A",
+      "printed_id": "1.15",
+      "marks": 1,
+      "leaf_ordinals": [
+        15
+      ]
+    },
+    {
+      "group_ordinal": 16,
+      "section": "A",
+      "printed_id": "1.16",
+      "marks": 1,
+      "leaf_ordinals": [
+        16
+      ]
+    },
+    {
+      "group_ordinal": 17,
+      "section": "A",
+      "printed_id": "1.17",
+      "marks": 1,
+      "leaf_ordinals": [
+        17
+      ]
+    },
+    {
+      "group_ordinal": 18,
+      "section": "A",
+      "printed_id": "1.18",
+      "marks": 1,
+      "leaf_ordinals": [
+        18
+      ]
+    },
+    {
+      "group_ordinal": 19,
+      "section": "A",
+      "printed_id": "1.19",
+      "marks": 1,
+      "leaf_ordinals": [
+        19
+      ]
+    },
+    {
+      "group_ordinal": 20,
+      "section": "A",
+      "printed_id": "1.20",
+      "marks": 1,
+      "leaf_ordinals": [
+        20
+      ]
+    },
+    {
+      "group_ordinal": 21,
+      "section": "A",
+      "printed_id": "1.21",
+      "marks": 1,
+      "leaf_ordinals": [
+        21
+      ]
+    },
+    {
+      "group_ordinal": 22,
+      "section": "A",
+      "printed_id": "1.22",
+      "marks": 1,
+      "leaf_ordinals": [
+        22
+      ]
+    },
+    {
+      "group_ordinal": 23,
+      "section": "A",
+      "printed_id": "1.23",
+      "marks": 1,
+      "leaf_ordinals": [
+        23
+      ]
+    },
+    {
+      "group_ordinal": 24,
+      "section": "A",
+      "printed_id": "1.24",
+      "marks": 1,
+      "leaf_ordinals": [
+        24
+      ]
+    },
+    {
+      "group_ordinal": 25,
+      "section": "A",
+      "printed_id": "1.25",
+      "marks": 1,
+      "leaf_ordinals": [
+        25
+      ]
+    },
+    {
+      "group_ordinal": 26,
+      "section": "A",
+      "printed_id": "2.1",
+      "marks": 2,
+      "leaf_ordinals": [
+        26
+      ]
+    },
+    {
+      "group_ordinal": 27,
+      "section": "A",
+      "printed_id": "2.2",
+      "marks": 2,
+      "leaf_ordinals": [
+        27
+      ]
+    },
+    {
+      "group_ordinal": 28,
+      "section": "A",
+      "printed_id": "2.3",
+      "marks": 2,
+      "leaf_ordinals": [
+        28
+      ]
+    },
+    {
+      "group_ordinal": 29,
+      "section": "A",
+      "printed_id": "2.4",
+      "marks": 2,
+      "leaf_ordinals": [
+        29
+      ]
+    },
+    {
+      "group_ordinal": 30,
+      "section": "A",
+      "printed_id": "2.5",
+      "marks": 2,
+      "leaf_ordinals": [
+        30
+      ]
+    },
+    {
+      "group_ordinal": 31,
+      "section": "A",
+      "printed_id": "2.6",
+      "marks": 2,
+      "leaf_ordinals": [
+        31
+      ]
+    },
+    {
+      "group_ordinal": 32,
+      "section": "A",
+      "printed_id": "2.7",
+      "marks": 2,
+      "leaf_ordinals": [
+        32
+      ]
+    },
+    {
+      "group_ordinal": 33,
+      "section": "A",
+      "printed_id": "2.8",
+      "marks": 2,
+      "leaf_ordinals": [
+        33
+      ]
+    },
+    {
+      "group_ordinal": 34,
+      "section": "A",
+      "printed_id": "2.9",
+      "marks": 2,
+      "leaf_ordinals": [
+        34
+      ]
+    },
+    {
+      "group_ordinal": 35,
+      "section": "A",
+      "printed_id": "2.10",
+      "marks": 2,
+      "leaf_ordinals": [
+        35
+      ]
+    },
+    {
+      "group_ordinal": 36,
+      "section": "A",
+      "printed_id": "2.11",
+      "marks": 2,
+      "leaf_ordinals": [
+        36
+      ]
+    },
+    {
+      "group_ordinal": 37,
+      "section": "A",
+      "printed_id": "2.12",
+      "marks": 2,
+      "leaf_ordinals": [
+        37
+      ]
+    },
+    {
+      "group_ordinal": 38,
+      "section": "A",
+      "printed_id": "2.13",
+      "marks": 2,
+      "leaf_ordinals": [
+        38
+      ]
+    },
+    {
+      "group_ordinal": 39,
+      "section": "A",
+      "printed_id": "2.14",
+      "marks": 2,
+      "leaf_ordinals": [
+        39
+      ]
+    },
+    {
+      "group_ordinal": 40,
+      "section": "A",
+      "printed_id": "2.15",
+      "marks": 2,
+      "leaf_ordinals": [
+        40
+      ]
+    },
+    {
+      "group_ordinal": 41,
+      "section": "A",
+      "printed_id": "2.16",
+      "marks": 2,
+      "leaf_ordinals": [
+        41
+      ]
+    },
+    {
+      "group_ordinal": 42,
+      "section": "A",
+      "printed_id": "2.17",
+      "marks": 2,
+      "leaf_ordinals": [
+        42
+      ]
+    },
+    {
+      "group_ordinal": 43,
+      "section": "A",
+      "printed_id": "2.18",
+      "marks": 2,
+      "leaf_ordinals": [
+        43
+      ]
+    },
+    {
+      "group_ordinal": 44,
+      "section": "A",
+      "printed_id": "2.19",
+      "marks": 2,
+      "leaf_ordinals": [
+        44
+      ]
+    },
+    {
+      "group_ordinal": 45,
+      "section": "A",
+      "printed_id": "2.20",
+      "marks": 2,
+      "leaf_ordinals": [
+        45
+      ]
+    },
+    {
+      "group_ordinal": 46,
+      "section": "A",
+      "printed_id": "2.21",
+      "marks": 2,
+      "leaf_ordinals": [
+        46
+      ]
+    },
+    {
+      "group_ordinal": 47,
+      "section": "A",
+      "printed_id": "2.22",
+      "marks": 2,
+      "leaf_ordinals": [
+        47
+      ]
+    },
+    {
+      "group_ordinal": 48,
+      "section": "A",
+      "printed_id": "2.23",
+      "marks": 2,
+      "leaf_ordinals": [
+        48
+      ]
+    },
+    {
+      "group_ordinal": 49,
+      "section": "A",
+      "printed_id": "2.24",
+      "marks": 2,
+      "leaf_ordinals": [
+        49
+      ]
+    },
+    {
+      "group_ordinal": 50,
+      "section": "A",
+      "printed_id": "2.25",
+      "marks": 2,
+      "leaf_ordinals": [
+        50
+      ]
+    },
+    {
+      "group_ordinal": 51,
+      "section": "A",
+      "printed_id": "3",
+      "marks": null,
+      "leaf_ordinals": [
+        51
+      ]
+    },
+    {
+      "group_ordinal": 52,
+      "section": "A",
+      "printed_id": "4",
+      "marks": null,
+      "leaf_ordinals": [
+        52,
+        53
+      ]
+    },
+    {
+      "group_ordinal": 53,
+      "section": "A",
+      "printed_id": "5",
+      "marks": null,
+      "leaf_ordinals": [
+        54,
+        55
+      ]
+    },
+    {
+      "group_ordinal": 54,
+      "section": "A",
+      "printed_id": "6",
+      "marks": null,
+      "leaf_ordinals": [
+        56
+      ]
+    },
+    {
+      "group_ordinal": 55,
+      "section": "A",
+      "printed_id": "7",
+      "marks": null,
+      "leaf_ordinals": [
+        57,
+        58
+      ]
+    },
+    {
+      "group_ordinal": 56,
+      "section": "B",
+      "printed_id": "8",
+      "marks": 5,
+      "leaf_ordinals": [
+        59
+      ]
+    },
+    {
+      "group_ordinal": 57,
+      "section": "B",
+      "printed_id": "9",
+      "marks": 5,
+      "leaf_ordinals": [
+        60,
+        61
+      ]
+    },
+    {
+      "group_ordinal": 58,
+      "section": "B",
+      "printed_id": "10",
+      "marks": 5,
+      "leaf_ordinals": [
+        62,
+        63
+      ]
+    },
+    {
+      "group_ordinal": 59,
+      "section": "B",
+      "printed_id": "11",
+      "marks": 5,
+      "leaf_ordinals": [
+        64
+      ]
+    },
+    {
+      "group_ordinal": 60,
+      "section": "B",
+      "printed_id": "12",
+      "marks": 5,
+      "leaf_ordinals": [
+        65
+      ]
+    },
+    {
+      "group_ordinal": 61,
+      "section": "B",
+      "printed_id": "13",
+      "marks": 5,
+      "leaf_ordinals": [
+        66
+      ]
+    },
+    {
+      "group_ordinal": 62,
+      "section": "B",
+      "printed_id": "14",
+      "marks": 5,
+      "leaf_ordinals": [
+        67,
+        68
+      ]
+    },
+    {
+      "group_ordinal": 63,
+      "section": "B",
+      "printed_id": "15",
+      "marks": 5,
+      "leaf_ordinals": [
+        69,
+        70
+      ]
+    },
+    {
+      "group_ordinal": 64,
+      "section": "B",
+      "printed_id": "16",
+      "marks": 5,
+      "leaf_ordinals": [
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "group_ordinal": 65,
+      "section": "B",
+      "printed_id": "17",
+      "marks": 5,
+      "leaf_ordinals": [
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "group_ordinal": 66,
+      "section": "B",
+      "printed_id": "18",
+      "marks": 5,
+      "leaf_ordinals": [
+        77
+      ]
+    },
+    {
+      "group_ordinal": 67,
+      "section": "B",
+      "printed_id": "19",
+      "marks": 5,
+      "leaf_ordinals": [
+        78
+      ]
+    },
+    {
+      "group_ordinal": 68,
+      "section": "B",
+      "printed_id": "20",
+      "marks": 5,
+      "leaf_ordinals": [
+        79
+      ]
+    },
+    {
+      "group_ordinal": 69,
+      "section": "B",
+      "printed_id": "21",
+      "marks": 5,
+      "leaf_ordinals": [
+        80,
+        81
+      ]
+    },
+    {
+      "group_ordinal": 70,
+      "section": "B",
+      "printed_id": "22",
+      "marks": 5,
+      "leaf_ordinals": [
+        82
+      ]
+    },
+    {
+      "group_ordinal": 71,
+      "section": "B",
+      "printed_id": "23",
+      "marks": 5,
+      "leaf_ordinals": [
+        83
+      ]
+    },
+    {
+      "group_ordinal": 72,
+      "section": "B",
+      "printed_id": "24",
+      "marks": 5,
+      "leaf_ordinals": [
+        84
+      ]
+    },
+    {
+      "group_ordinal": 73,
+      "section": "B",
+      "printed_id": "25",
+      "marks": 5,
+      "leaf_ordinals": [
+        85,
+        86
+      ]
+    },
+    {
+      "group_ordinal": 74,
+      "section": "B",
+      "printed_id": "26",
+      "marks": 5,
+      "leaf_ordinals": [
+        87,
+        88
+      ]
+    },
+    {
+      "group_ordinal": 75,
+      "section": "B",
+      "printed_id": "27",
+      "marks": 5,
+      "leaf_ordinals": [
+        89,
+        90,
+        91
+      ]
+    }
+  ],
+  "items": [
+    {
+      "normalized_ordinal": 1,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "1",
+      "printed_id": "1.1",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 1,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 2,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "2",
+      "printed_id": "1.2",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 2,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 3,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "3",
+      "printed_id": "1.3",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 3,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 4,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "4",
+      "printed_id": "1.4",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 4,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 5,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "5",
+      "printed_id": "1.5",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 5,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 6,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "6",
+      "printed_id": "1.6",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 6,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 7,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "7",
+      "printed_id": "1.7",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1,
+        2
+      ],
+      "gfg_question": 7,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 8,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "8",
+      "printed_id": "1.8",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 8,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 9,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "9",
+      "printed_id": "1.9",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 9,
+      "gfg_pages": [
+        1
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 10,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "10",
+      "printed_id": "1.10",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 10,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 11,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "11",
+      "printed_id": "1.11",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 11,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 12,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "12",
+      "printed_id": "1.12",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 12,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 13,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "13",
+      "printed_id": "1.13",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2,
+        3
+      ],
+      "gfg_question": 13,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 14,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "14",
+      "printed_id": "1.14",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 14,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 15,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "15",
+      "printed_id": "1.15",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 15,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 16,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "16",
+      "printed_id": "1.16",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 16,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 17,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "17",
+      "printed_id": "1.17",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 17,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 18,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "18",
+      "printed_id": "1.18",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 18,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 19,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "19",
+      "printed_id": "1.19",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 19,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 20,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "20",
+      "printed_id": "1.20",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 20,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 21,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "21",
+      "printed_id": "1.21",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 21,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 22,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "22",
+      "printed_id": "1.22",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 22,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 23,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "23",
+      "printed_id": "1.23",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 23,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 24,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "24",
+      "printed_id": "1.24",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 24,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 25,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "25",
+      "printed_id": "1.25",
+      "marks": 1,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 25,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 26,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "1",
+      "printed_id": "2.1",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 26,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 27,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "2",
+      "printed_id": "2.2",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4,
+        5
+      ],
+      "gfg_question": 27,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 28,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "3",
+      "printed_id": "2.3",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 28,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 29,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "4",
+      "printed_id": "2.4",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 29,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 30,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "5",
+      "printed_id": "2.5",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 30,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 31,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "6",
+      "printed_id": "2.6",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 31,
+      "gfg_pages": [
+        3
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 32,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "7",
+      "printed_id": "2.7",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 32,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 33,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "8",
+      "printed_id": "2.8",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 33,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 34,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "9",
+      "printed_id": "2.9",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 34,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 35,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "10",
+      "printed_id": "2.10",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 35,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 36,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "11",
+      "printed_id": "2.11",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 36,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 37,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "12",
+      "printed_id": "2.12",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 37,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 38,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "13",
+      "printed_id": "2.13",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 38,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 39,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "14",
+      "printed_id": "2.14",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 39,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 40,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "15",
+      "printed_id": "2.15",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 40,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 41,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "16",
+      "printed_id": "2.16",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 41,
+      "gfg_pages": [
+        4
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 42,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "17",
+      "printed_id": "2.17",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 42,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 43,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "18",
+      "printed_id": "2.18",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 43,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 44,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "19",
+      "printed_id": "2.19",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 44,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 45,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "20",
+      "printed_id": "2.20",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 45,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 46,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "21",
+      "printed_id": "2.21",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 46,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 47,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "22",
+      "printed_id": "2.22",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 47,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 48,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "23",
+      "printed_id": "2.23",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 48,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 49,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "24",
+      "printed_id": "2.24",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 49,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 50,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "25",
+      "printed_id": "2.25",
+      "marks": 2,
+      "source_group_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 50,
+      "gfg_pages": [
+        5
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 51,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": null,
+      "printed_id": "3",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 51,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 52,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "a",
+      "printed_id": "4(a)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 52,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 53,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "b",
+      "printed_id": "4(b)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 52,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 54,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "a",
+      "printed_id": "5(a)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10,
+        11
+      ],
+      "gfg_question": 53,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 55,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "b",
+      "printed_id": "5(b)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10,
+        11
+      ],
+      "gfg_question": 53,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 56,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": null,
+      "printed_id": "6",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 54,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 57,
+      "section": "A",
+      "printed_question": 7,
+      "printed_subpart": "a",
+      "printed_id": "7(a)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 55,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 58,
+      "section": "A",
+      "printed_question": 7,
+      "printed_subpart": "b",
+      "printed_id": "7(b)",
+      "marks": null,
+      "source_group_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 55,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 59,
+      "section": "B",
+      "printed_question": 8,
+      "printed_subpart": null,
+      "printed_id": "8",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 56,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 60,
+      "section": "B",
+      "printed_question": 9,
+      "printed_subpart": "a",
+      "printed_id": "9(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 57,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 61,
+      "section": "B",
+      "printed_question": 9,
+      "printed_subpart": "b",
+      "printed_id": "9(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 57,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 62,
+      "section": "B",
+      "printed_question": 10,
+      "printed_subpart": "a",
+      "printed_id": "10(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11,
+        12
+      ],
+      "gfg_question": 58,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 63,
+      "section": "B",
+      "printed_question": 10,
+      "printed_subpart": "b",
+      "printed_id": "10(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 58,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 64,
+      "section": "B",
+      "printed_question": 11,
+      "printed_subpart": null,
+      "printed_id": "11",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 59,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 65,
+      "section": "B",
+      "printed_question": 12,
+      "printed_subpart": null,
+      "printed_id": "12",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 60,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 66,
+      "section": "B",
+      "printed_question": 13,
+      "printed_subpart": null,
+      "printed_id": "13",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 61,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 67,
+      "section": "B",
+      "printed_question": 14,
+      "printed_subpart": "a",
+      "printed_id": "14(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12,
+        13
+      ],
+      "gfg_question": 62,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 68,
+      "section": "B",
+      "printed_question": 14,
+      "printed_subpart": "b",
+      "printed_id": "14(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 62,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 69,
+      "section": "B",
+      "printed_question": 15,
+      "printed_subpart": "a",
+      "printed_id": "15(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 63,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 70,
+      "section": "B",
+      "printed_question": 15,
+      "printed_subpart": "b",
+      "printed_id": "15(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 63,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 71,
+      "section": "B",
+      "printed_question": 16,
+      "printed_subpart": "a",
+      "printed_id": "16(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 72,
+      "section": "B",
+      "printed_question": 16,
+      "printed_subpart": "b",
+      "printed_id": "16(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 73,
+      "section": "B",
+      "printed_question": 16,
+      "printed_subpart": "c",
+      "printed_id": "16(c)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 74,
+      "section": "B",
+      "printed_question": 17,
+      "printed_subpart": "a.i",
+      "printed_id": "17(a.i)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 65,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 75,
+      "section": "B",
+      "printed_question": 17,
+      "printed_subpart": "a.ii",
+      "printed_id": "17(a.ii)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 65,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 76,
+      "section": "B",
+      "printed_question": 17,
+      "printed_subpart": "b",
+      "printed_id": "17(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14
+      ],
+      "gfg_question": 65,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 77,
+      "section": "B",
+      "printed_question": 18,
+      "printed_subpart": null,
+      "printed_id": "18",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14
+      ],
+      "gfg_question": 66,
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 78,
+      "section": "B",
+      "printed_question": 19,
+      "printed_subpart": null,
+      "printed_id": "19",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14,
+        15
+      ],
+      "gfg_question": 67,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 79,
+      "section": "B",
+      "printed_question": 20,
+      "printed_subpart": null,
+      "printed_id": "20",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 68,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 80,
+      "section": "B",
+      "printed_question": 21,
+      "printed_subpart": "a",
+      "printed_id": "21(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 69,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 81,
+      "section": "B",
+      "printed_question": 21,
+      "printed_subpart": "b",
+      "printed_id": "21(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 69,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 82,
+      "section": "B",
+      "printed_question": 22,
+      "printed_subpart": null,
+      "printed_id": "22",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 70,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 83,
+      "section": "B",
+      "printed_question": 23,
+      "printed_subpart": null,
+      "printed_id": "23",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 71,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 84,
+      "section": "B",
+      "printed_question": 24,
+      "printed_subpart": null,
+      "printed_id": "24",
+      "marks": 5,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 72,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 85,
+      "section": "B",
+      "printed_question": 25,
+      "printed_subpart": "a",
+      "printed_id": "25(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 73,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 86,
+      "section": "B",
+      "printed_question": 25,
+      "printed_subpart": "b",
+      "printed_id": "25(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 73,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 87,
+      "section": "B",
+      "printed_question": 26,
+      "printed_subpart": "a",
+      "printed_id": "26(a)",
+      "marks": 3,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 74,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": "GFG prints 3 marks for part (a); part (b) marks are not printed, so no inferred allocation is stored."
+    },
+    {
+      "normalized_ordinal": 88,
+      "section": "B",
+      "printed_question": 26,
+      "printed_subpart": "b",
+      "printed_id": "26(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 74,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": "GFG prints 3 marks for part (a); part (b) marks are not printed, so no inferred allocation is stored."
+    },
+    {
+      "normalized_ordinal": 89,
+      "section": "B",
+      "printed_question": 27,
+      "printed_subpart": "a",
+      "printed_id": "27(a)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 75,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 90,
+      "section": "B",
+      "printed_question": 27,
+      "printed_subpart": "b",
+      "printed_id": "27(b)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 75,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 91,
+      "section": "B",
+      "printed_question": 27,
+      "printed_subpart": "c",
+      "printed_id": "27(c)",
+      "marks": null,
+      "source_group_marks": 5,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 75,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    }
+  ]
+}

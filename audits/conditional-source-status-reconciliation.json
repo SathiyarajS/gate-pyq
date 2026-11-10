@@ -1,0 +1,22 @@
+[
+  {
+    "question_id": "CS-2006-Q39",
+    "field": "verification_status",
+    "old": "independently_solved",
+    "new": "conditional_source_interpretation"
+  },
+  {
+    "question_id": "CS-2006-Q39",
+    "field": "discrepancy_ids",
+    "old": [],
+    "new": [
+      "CS-2006-Q39-overbar-scope"
+    ]
+  },
+  {
+    "question_id": "CS-2008-Q60",
+    "field": "verification_status",
+    "old": "independently_solved",
+    "new": "conditional_source_interpretation"
+  }
+]

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1050" viewBox="0 0 980 1050" role="img" aria-labelledby="title desc">
+<title id="title">GATE 2019 CS, General Aptitude Q10: four hostel allocation plans</title>
+<desc id="desc">Accessible reconstruction of official page 3. All four plans have identical room boundaries and occupancy. North points upper-left, east upper-right, south lower-right, west lower-left. Gray rooms are occupied. Detailed room-by-room description and all option placements are in question.md. Dimensions are drawing coordinates only; the source supplies no architectural dimensions.</desc>
+<rect width="980" height="1050" fill="white"/>
+<style>text {font-family:serif;font-size:23px;fill:black} rect.room {stroke:black;stroke-width:2} .occupied{fill:#bfbfbf} .vacant{fill:white}</style>
+<g transform="translate(35,55)" role="group" aria-label="Option A"><text x="0" y="-18">(A)</text>
+<rect class="room vacant" x="0" y="0" width="60" height="84"><title>Row 1, column 1: washroom</title></rect>
+<text x="30.0" y="50.0" text-anchor="middle">WR</text>
+<rect class="room occupied" x="60" y="0" width="60" height="84"><title>Row 1, column 2: occupied</title></rect>
+<rect class="room occupied" x="120" y="0" width="60" height="84"><title>Row 1, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="0" width="60" height="84"><title>Row 1, column 4: occupied</title></rect>
+<rect class="room occupied" x="240" y="0" width="60" height="84"><title>Row 1, column 5: occupied</title></rect>
+<rect class="room vacant" x="300" y="0" width="60" height="84"><title>Row 1, column 6: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="0" y="84" width="60" height="84"><title>Row 2, column 1: occupied</title></rect>
+<rect class="room occupied" x="300" y="84" width="60" height="84"><title>Row 2, column 6: occupied</title></rect>
+<rect class="room vacant" x="0" y="168" width="60" height="84"><title>Row 3, column 1: vacant assigned to Z</title></rect>
+<text x="30.0" y="218.0" text-anchor="middle">Z</text>
+<rect class="room occupied" x="0" y="252" width="60" height="84"><title>Row 4, column 1: occupied</title></rect>
+<rect class="room vacant" x="300" y="252" width="60" height="84"><title>Row 4, column 6: vacant, unlabelled</title></rect>
+<rect class="room vacant" x="0" y="336" width="60" height="84"><title>Row 5, column 1: washroom</title></rect>
+<text x="30.0" y="386.0" text-anchor="middle">WR</text>
+<rect class="room vacant" x="60" y="336" width="60" height="84"><title>Row 5, column 2: vacant assigned to X</title></rect>
+<text x="90.0" y="386.0" text-anchor="middle">X</text>
+<rect class="room occupied" x="120" y="336" width="60" height="84"><title>Row 5, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="336" width="60" height="84"><title>Row 5, column 4: occupied</title></rect>
+<rect class="room vacant" x="240" y="336" width="60" height="84"><title>Row 5, column 5: vacant assigned to Y</title></rect>
+<text x="270.0" y="386.0" text-anchor="middle">Y</text>
+<rect class="room occupied" x="300" y="336" width="60" height="84"><title>Row 5, column 6: occupied</title></rect>
+<rect class="room vacant" x="360" y="0" width="60" height="168"/><text transform="translate(397,84) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="360" y="252" width="60" height="168"/><text transform="translate(397,336) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="300" y="168" width="120" height="84"/><text x="360" y="218" text-anchor="middle">Entrance</text>
+<path d="M 110,135 L 245,270 M 245,135 L 110,270" fill="none" stroke="black" stroke-width="2"/><text x="73" y="127">N</text><text x="251" y="143">E</text><text x="73" y="310">W</text><text x="251" y="310">S</text></g>
+<g transform="translate(525,55)" role="group" aria-label="Option B"><text x="0" y="-18">(B)</text>
+<rect class="room vacant" x="0" y="0" width="60" height="84"><title>Row 1, column 1: washroom</title></rect>
+<text x="30.0" y="50.0" text-anchor="middle">WR</text>
+<rect class="room occupied" x="60" y="0" width="60" height="84"><title>Row 1, column 2: occupied</title></rect>
+<rect class="room occupied" x="120" y="0" width="60" height="84"><title>Row 1, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="0" width="60" height="84"><title>Row 1, column 4: occupied</title></rect>
+<rect class="room occupied" x="240" y="0" width="60" height="84"><title>Row 1, column 5: occupied</title></rect>
+<rect class="room vacant" x="300" y="0" width="60" height="84"><title>Row 1, column 6: vacant assigned to X</title></rect>
+<text x="330.0" y="50.0" text-anchor="middle">X</text>
+<rect class="room occupied" x="0" y="84" width="60" height="84"><title>Row 2, column 1: occupied</title></rect>
+<rect class="room occupied" x="300" y="84" width="60" height="84"><title>Row 2, column 6: occupied</title></rect>
+<rect class="room vacant" x="0" y="168" width="60" height="84"><title>Row 3, column 1: vacant assigned to Z</title></rect>
+<text x="30.0" y="218.0" text-anchor="middle">Z</text>
+<rect class="room occupied" x="0" y="252" width="60" height="84"><title>Row 4, column 1: occupied</title></rect>
+<rect class="room vacant" x="300" y="252" width="60" height="84"><title>Row 4, column 6: vacant assigned to Y</title></rect>
+<text x="330.0" y="302.0" text-anchor="middle">Y</text>
+<rect class="room vacant" x="0" y="336" width="60" height="84"><title>Row 5, column 1: washroom</title></rect>
+<text x="30.0" y="386.0" text-anchor="middle">WR</text>
+<rect class="room vacant" x="60" y="336" width="60" height="84"><title>Row 5, column 2: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="120" y="336" width="60" height="84"><title>Row 5, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="336" width="60" height="84"><title>Row 5, column 4: occupied</title></rect>
+<rect class="room vacant" x="240" y="336" width="60" height="84"><title>Row 5, column 5: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="300" y="336" width="60" height="84"><title>Row 5, column 6: occupied</title></rect>
+<rect class="room vacant" x="360" y="0" width="60" height="168"/><text transform="translate(397,84) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="360" y="252" width="60" height="168"/><text transform="translate(397,336) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="300" y="168" width="120" height="84"/><text x="360" y="218" text-anchor="middle">Entrance</text>
+<path d="M 110,135 L 245,270 M 245,135 L 110,270" fill="none" stroke="black" stroke-width="2"/><text x="73" y="127">N</text><text x="251" y="143">E</text><text x="73" y="310">W</text><text x="251" y="310">S</text></g>
+<g transform="translate(35,545)" role="group" aria-label="Option C"><text x="0" y="-18">(C)</text>
+<rect class="room vacant" x="0" y="0" width="60" height="84"><title>Row 1, column 1: washroom</title></rect>
+<text x="30.0" y="50.0" text-anchor="middle">WR</text>
+<rect class="room occupied" x="60" y="0" width="60" height="84"><title>Row 1, column 2: occupied</title></rect>
+<rect class="room occupied" x="120" y="0" width="60" height="84"><title>Row 1, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="0" width="60" height="84"><title>Row 1, column 4: occupied</title></rect>
+<rect class="room occupied" x="240" y="0" width="60" height="84"><title>Row 1, column 5: occupied</title></rect>
+<rect class="room vacant" x="300" y="0" width="60" height="84"><title>Row 1, column 6: vacant assigned to Z</title></rect>
+<text x="330.0" y="50.0" text-anchor="middle">Z</text>
+<rect class="room occupied" x="0" y="84" width="60" height="84"><title>Row 2, column 1: occupied</title></rect>
+<rect class="room occupied" x="300" y="84" width="60" height="84"><title>Row 2, column 6: occupied</title></rect>
+<rect class="room vacant" x="0" y="168" width="60" height="84"><title>Row 3, column 1: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="0" y="252" width="60" height="84"><title>Row 4, column 1: occupied</title></rect>
+<rect class="room vacant" x="300" y="252" width="60" height="84"><title>Row 4, column 6: vacant assigned to Y</title></rect>
+<text x="330.0" y="302.0" text-anchor="middle">Y</text>
+<rect class="room vacant" x="0" y="336" width="60" height="84"><title>Row 5, column 1: washroom</title></rect>
+<text x="30.0" y="386.0" text-anchor="middle">WR</text>
+<rect class="room vacant" x="60" y="336" width="60" height="84"><title>Row 5, column 2: vacant assigned to X</title></rect>
+<text x="90.0" y="386.0" text-anchor="middle">X</text>
+<rect class="room occupied" x="120" y="336" width="60" height="84"><title>Row 5, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="336" width="60" height="84"><title>Row 5, column 4: occupied</title></rect>
+<rect class="room vacant" x="240" y="336" width="60" height="84"><title>Row 5, column 5: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="300" y="336" width="60" height="84"><title>Row 5, column 6: occupied</title></rect>
+<rect class="room vacant" x="360" y="0" width="60" height="168"/><text transform="translate(397,84) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="360" y="252" width="60" height="168"/><text transform="translate(397,336) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="300" y="168" width="120" height="84"/><text x="360" y="218" text-anchor="middle">Entrance</text>
+<path d="M 110,135 L 245,270 M 245,135 L 110,270" fill="none" stroke="black" stroke-width="2"/><text x="73" y="127">N</text><text x="251" y="143">E</text><text x="73" y="310">W</text><text x="251" y="310">S</text></g>
+<g transform="translate(525,545)" role="group" aria-label="Option D"><text x="0" y="-18">(D)</text>
+<rect class="room vacant" x="0" y="0" width="60" height="84"><title>Row 1, column 1: washroom</title></rect>
+<text x="30.0" y="50.0" text-anchor="middle">WR</text>
+<rect class="room occupied" x="60" y="0" width="60" height="84"><title>Row 1, column 2: occupied</title></rect>
+<rect class="room occupied" x="120" y="0" width="60" height="84"><title>Row 1, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="0" width="60" height="84"><title>Row 1, column 4: occupied</title></rect>
+<rect class="room occupied" x="240" y="0" width="60" height="84"><title>Row 1, column 5: occupied</title></rect>
+<rect class="room vacant" x="300" y="0" width="60" height="84"><title>Row 1, column 6: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="0" y="84" width="60" height="84"><title>Row 2, column 1: occupied</title></rect>
+<rect class="room occupied" x="300" y="84" width="60" height="84"><title>Row 2, column 6: occupied</title></rect>
+<rect class="room vacant" x="0" y="168" width="60" height="84"><title>Row 3, column 1: vacant, unlabelled</title></rect>
+<rect class="room occupied" x="0" y="252" width="60" height="84"><title>Row 4, column 1: occupied</title></rect>
+<rect class="room vacant" x="300" y="252" width="60" height="84"><title>Row 4, column 6: vacant assigned to Y</title></rect>
+<text x="330.0" y="302.0" text-anchor="middle">Y</text>
+<rect class="room vacant" x="0" y="336" width="60" height="84"><title>Row 5, column 1: washroom</title></rect>
+<text x="30.0" y="386.0" text-anchor="middle">WR</text>
+<rect class="room vacant" x="60" y="336" width="60" height="84"><title>Row 5, column 2: vacant assigned to X</title></rect>
+<text x="90.0" y="386.0" text-anchor="middle">X</text>
+<rect class="room occupied" x="120" y="336" width="60" height="84"><title>Row 5, column 3: occupied</title></rect>
+<rect class="room occupied" x="180" y="336" width="60" height="84"><title>Row 5, column 4: occupied</title></rect>
+<rect class="room vacant" x="240" y="336" width="60" height="84"><title>Row 5, column 5: vacant assigned to Z</title></rect>
+<text x="270.0" y="386.0" text-anchor="middle">Z</text>
+<rect class="room occupied" x="300" y="336" width="60" height="84"><title>Row 5, column 6: occupied</title></rect>
+<rect class="room vacant" x="360" y="0" width="60" height="168"/><text transform="translate(397,84) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="360" y="252" width="60" height="168"/><text transform="translate(397,336) rotate(-90)" text-anchor="middle">Garden</text>
+<rect class="room vacant" x="300" y="168" width="120" height="84"/><text x="360" y="218" text-anchor="middle">Entrance</text>
+<path d="M 110,135 L 245,270 M 245,135 L 110,270" fill="none" stroke="black" stroke-width="2"/><text x="73" y="127">N</text><text x="251" y="143">E</text><text x="73" y="310">W</text><text x="251" y="310">S</text></g>
+<text x="35" y="1000" style="font-size:18px">Gray = already occupied; WR = washroom. Schematic: no dimensions supplied in source.</text>
+<text x="35" y="1028" style="font-size:16px">Source: official GATE 2019 CS paper, General Aptitude Set-6, page 3. Accessible redraw.</text>
+</svg>

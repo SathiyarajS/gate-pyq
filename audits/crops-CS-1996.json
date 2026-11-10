@@ -1,0 +1,1233 @@
+{
+  "paper_id": "CS-1996",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "fa1b9cca4926221ab9ce3b8ebf099d2f41b60bd0a1c5dbcb1cbbd43055597a0c",
+  "preparation_evidence_sha256": "0fb734012a1feec83cf64dea2189b063290829ff8791145428d2cbc33cc92a42",
+  "independent_review_evidence_sha256": "1f7026a128cd678f8504e88fceb4f6a403e376d2103adc3c5c59d813f5bc11cd",
+  "questions": 95,
+  "crop_parts": 153,
+  "verified_questions": 95,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1996",
+    "status": "approved",
+    "review_scope": "Independent crop-bounds and actual-output review of all available reproduced question content, not original completeness or answer/transcription certification.",
+    "crops_sha256": "fa1b9cca4926221ab9ce3b8ebf099d2f41b60bd0a1c5dbcb1cbbd43055597a0c",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+    "source_sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+    "questions": 95,
+    "crop_parts": 153,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "fresh_render_byte_identical_parts": 153,
+    "render_scale": 3,
+    "webp_quality": 80,
+    "source_page_preview_pixel_identity": true,
+    "contact_sheet_pixel_identity": true,
+    "record_mapping_checked": true,
+    "unexplained_overlaps": 0,
+    "unrelated_question_leaks_found": 0,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1996-Q14",
+          "CS-1996-Q15"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 2,
+        "source_bboxes": [
+          [
+            300.6667,
+            318.0,
+            524.0,
+            544.6667
+          ],
+          [
+            300.6667,
+            366.6667,
+            524.0,
+            482.6667
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          366.6667,
+          524.0,
+          482.6667
+        ],
+        "reason": "Q15 explicitly depends on Q14 tree; preserve diagram alone as prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1996-Q52",
+          "CS-1996-Q53"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q52",
+          "CS-1996-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q52",
+          "CS-1996-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q52",
+          "CS-1996-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q53",
+          "CS-1996-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q53",
+          "CS-1996-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q53",
+          "CS-1996-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q54",
+          "CS-1996-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q54",
+          "CS-1996-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q55",
+          "CS-1996-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ],
+          [
+            53.3333,
+            620.0,
+            280.0,
+            670.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          620.0,
+          280.0,
+          670.0
+        ],
+        "reason": "Shared BST-search stem; each probe sequence is isolated."
+      },
+      {
+        "questions": [
+          "CS-1996-Q58",
+          "CS-1996-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            279.3333,
+            524.0,
+            430.6667
+          ],
+          [
+            300.6667,
+            279.3333,
+            524.0,
+            430.6667
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          279.3333,
+          524.0,
+          430.6667
+        ],
+        "reason": "Shared output-port program."
+      },
+      {
+        "questions": [
+          "CS-1996-Q60",
+          "CS-1996-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ],
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          487.3333,
+          524.0,
+          669.3333
+        ],
+        "reason": "Shared LRU system, initial list and reference sequence."
+      },
+      {
+        "questions": [
+          "CS-1996-Q60",
+          "CS-1996-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ],
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          487.3333,
+          524.0,
+          669.3333
+        ],
+        "reason": "Shared LRU system, initial list and reference sequence."
+      },
+      {
+        "questions": [
+          "CS-1996-Q61",
+          "CS-1996-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ],
+          [
+            300.6667,
+            487.3333,
+            524.0,
+            669.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          487.3333,
+          524.0,
+          669.3333
+        ],
+        "reason": "Shared LRU system, initial list and reference sequence."
+      },
+      {
+        "questions": [
+          "CS-1996-Q63",
+          "CS-1996-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            123.3333,
+            280.0,
+            177.3333
+          ],
+          [
+            53.3333,
+            123.3333,
+            280.0,
+            177.3333
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          123.3333,
+          280.0,
+          177.3333
+        ],
+        "reason": "Shared function-space equivalence relation."
+      },
+      {
+        "questions": [
+          "CS-1996-Q68",
+          "CS-1996-Q69"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            572.0,
+            280.0,
+            676.0
+          ],
+          [
+            53.3333,
+            572.0,
+            280.0,
+            676.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          572.0,
+          280.0,
+          676.0
+        ],
+        "reason": "Shared automata and final-state legend; part (a) is a prerequisite for part (b)."
+      },
+      {
+        "questions": [
+          "CS-1996-Q68",
+          "CS-1996-Q69"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.6667,
+            46.6667,
+            524.0,
+            116.6667
+          ],
+          [
+            300.6667,
+            46.6667,
+            524.0,
+            116.6667
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          46.6667,
+          524.0,
+          116.6667
+        ],
+        "reason": "Shared automata and final-state legend; part (a) is a prerequisite for part (b)."
+      },
+      {
+        "questions": [
+          "CS-1996-Q68",
+          "CS-1996-Q69"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.6667,
+            116.6667,
+            524.0,
+            184.0
+          ],
+          [
+            300.6667,
+            116.6667,
+            524.0,
+            184.0
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          116.6667,
+          524.0,
+          184.0
+        ],
+        "reason": "Shared automata and final-state legend; part (a) is a prerequisite for part (b)."
+      },
+      {
+        "questions": [
+          "CS-1996-Q68",
+          "CS-1996-Q69"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.6667,
+            249.3333,
+            524.0,
+            276.0
+          ],
+          [
+            300.6667,
+            184.0,
+            524.0,
+            276.0
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          249.3333,
+          524.0,
+          276.0
+        ],
+        "reason": "Shared automata and final-state legend; part (a) is a prerequisite for part (b)."
+      },
+      {
+        "questions": [
+          "CS-1996-Q71",
+          "CS-1996-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.6667,
+            508.0,
+            527.3333,
+            580.0
+          ],
+          [
+            300.6667,
+            508.0,
+            527.3333,
+            580.0
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          508.0,
+          527.3333,
+          580.0
+        ],
+        "reason": "Shared partially sorted array definition."
+      },
+      {
+        "questions": [
+          "CS-1996-Q73",
+          "CS-1996-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            167.3333,
+            280.0,
+            242.6667
+          ],
+          [
+            53.3333,
+            167.3333,
+            280.0,
+            242.6667
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          167.3333,
+          280.0,
+          242.6667
+        ],
+        "reason": "Shared hash function and insertion sequence."
+      },
+      {
+        "questions": [
+          "CS-1996-Q75",
+          "CS-1996-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            273.3333,
+            280.0,
+            326.0
+          ],
+          [
+            53.3333,
+            273.3333,
+            280.0,
+            326.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          273.3333,
+          280.0,
+          326.0
+        ],
+        "reason": "Shared complete-graph definition."
+      },
+      {
+        "questions": [
+          "CS-1996-Q77",
+          "CS-1996-Q78"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ],
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          358.0,
+          280.0,
+          536.0
+        ],
+        "reason": "Shared weighted directed graph and start vertex."
+      },
+      {
+        "questions": [
+          "CS-1996-Q77",
+          "CS-1996-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ],
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          358.0,
+          280.0,
+          536.0
+        ],
+        "reason": "Shared weighted directed graph and start vertex."
+      },
+      {
+        "questions": [
+          "CS-1996-Q78",
+          "CS-1996-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ],
+          [
+            53.3333,
+            358.0,
+            280.0,
+            536.0
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          358.0,
+          280.0,
+          536.0
+        ],
+        "reason": "Shared weighted directed graph and start vertex."
+      },
+      {
+        "questions": [
+          "CS-1996-Q81",
+          "CS-1996-Q82"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.6667,
+            196.6667,
+            524.0,
+            250.0
+          ],
+          [
+            300.6667,
+            196.6667,
+            524.0,
+            250.0
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          196.6667,
+          524.0,
+          250.0
+        ],
+        "reason": "Shared pseudo-Pascal program and question stem, isolated parameter modes."
+      },
+      {
+        "questions": [
+          "CS-1996-Q81",
+          "CS-1996-Q82"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.6667,
+            275.3333,
+            524.0,
+            414.0
+          ],
+          [
+            300.6667,
+            275.3333,
+            524.0,
+            414.0
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          275.3333,
+          524.0,
+          414.0
+        ],
+        "reason": "Shared pseudo-Pascal program and question stem, isolated parameter modes."
+      },
+      {
+        "questions": [
+          "CS-1996-Q85",
+          "CS-1996-Q86"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.3333,
+            229.3333,
+            280.0,
+            366.6667
+          ],
+          [
+            53.3333,
+            229.3333,
+            280.0,
+            366.6667
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          229.3333,
+          280.0,
+          366.6667
+        ],
+        "reason": "Shared Banker tables and system state."
+      },
+      {
+        "questions": [
+          "CS-1996-Q87",
+          "CS-1996-Q88"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.3333,
+            435.3333,
+            280.0,
+            537.3333
+          ],
+          [
+            53.3333,
+            435.3333,
+            280.0,
+            537.3333
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          435.3333,
+          280.0,
+          537.3333
+        ],
+        "reason": "Shared disk allocation layout."
+      },
+      {
+        "questions": [
+          "CS-1996-Q89",
+          "CS-1996-Q90"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.3333,
+            592.0,
+            280.0,
+            685.3333
+          ],
+          [
+            53.3333,
+            592.0,
+            280.0,
+            685.3333
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          592.0,
+          280.0,
+          685.3333
+        ],
+        "reason": "Shared circuit and state-label definition; preceding instruction retained for grammatical completeness."
+      },
+      {
+        "questions": [
+          "CS-1996-Q89",
+          "CS-1996-Q90"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.3333,
+            685.3333,
+            280.0,
+            716.6667
+          ],
+          [
+            53.3333,
+            685.3333,
+            280.0,
+            716.6667
+          ]
+        ],
+        "intersection_bbox": [
+          53.3333,
+          685.3333,
+          280.0,
+          716.6667
+        ],
+        "reason": "Shared circuit and state-label definition; preceding instruction retained for grammatical completeness."
+      },
+      {
+        "questions": [
+          "CS-1996-Q89",
+          "CS-1996-Q90"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            43.3333,
+            524.0,
+            185.3333
+          ],
+          [
+            300.6667,
+            43.3333,
+            524.0,
+            185.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          43.3333,
+          524.0,
+          185.3333
+        ],
+        "reason": "Shared circuit and state-label definition; preceding instruction retained for grammatical completeness."
+      },
+      {
+        "questions": [
+          "CS-1996-Q92",
+          "CS-1996-Q93"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            390.6667,
+            524.0,
+            477.3333
+          ],
+          [
+            300.6667,
+            390.6667,
+            524.0,
+            477.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          390.6667,
+          524.0,
+          477.3333
+        ],
+        "reason": "Shared memory hierarchy; minimum-size task is prerequisite to chosen-size average."
+      },
+      {
+        "questions": [
+          "CS-1996-Q92",
+          "CS-1996-Q93"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            477.3333,
+            524.0,
+            529.3333
+          ],
+          [
+            300.6667,
+            477.3333,
+            524.0,
+            529.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          477.3333,
+          524.0,
+          529.3333
+        ],
+        "reason": "Shared memory hierarchy; minimum-size task is prerequisite to chosen-size average."
+      },
+      {
+        "questions": [
+          "CS-1996-Q94",
+          "CS-1996-Q95"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.6667,
+            568.6667,
+            524.0,
+            685.3333
+          ],
+          [
+            300.6667,
+            568.6667,
+            524.0,
+            685.3333
+          ]
+        ],
+        "intersection_bbox": [
+          300.6667,
+          568.6667,
+          524.0,
+          685.3333
+        ],
+        "reason": "Shared relational schema and explain-query instruction."
+      }
+    ],
+    "overlap_pair_count": 36,
+    "findings": [
+      "All 95 normalized records map to their respective available reproduced stems, options, figures, continuations and split subparts. Source ordinals 1–76 differ intentionally from normalized numbering.",
+      "All 153 rendered parts preserve available relevant content without unrelated adjacent question material. Page furniture and section instructions are excluded.",
+      "Q15 retains only the prerequisite Q14 tree. Q68/Q69 retain both automata and final-state legend, with Q69 retaining prerequisite part (a). Q90 retains circuit, state-label instruction and legend. Q93 retains the minimum-size prerequisite.",
+      "Q70 and the Q71/Q72 definition preserve right-edge content at their expanded bounds.",
+      "All 36 geometric overlap pairs are justified shared content or prerequisites, including nonidentical Q14/Q15 and Q68/Q69 part 4 intersections.",
+      "Independently rerendered every part at 3x WEBP quality 80: all bytes match delivered images. All viewed source-page PNGs and contact sheets also match fresh renders/composition."
+    ],
+    "limitations": [
+      "Source reproduces ordinal 1–76, while normalized questions are Q1–95; split subparts are mapped by their full content. Original completeness remains unverified.",
+      "Embedded raster reproduction is inherently blurred, especially formula blocks, code and tiny tables. No invention or reconstruction.",
+      "Existing source defects remain: Q33 duplicates intersection option, Q52 source probe differs from paraphrase, Q58/59 CPU label 8052 vs 8085-style code, Q60–62 only three resident pages, Q70 incomplete PDA transition specification, Q71/72 limited quantifier, Q73/74 case mismatch, Q77–79 graph-label variation, Q87/88 addressing ambiguity, Q92/93 timing ambiguity. Consult records and existing discrepancies; these crops do not resolve them."
+    ],
+    "source_parse_warning": "cannot find XObject resource 'Fm0'; encountered syntax errors; page may not be correct",
+    "original_source_verified": false,
+    "source_provenance": "third_party_reproduction",
+    "answer_or_transcription_certification": false
+  }
+}

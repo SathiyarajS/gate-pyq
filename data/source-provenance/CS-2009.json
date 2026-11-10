@@ -1,0 +1,14 @@
+{
+  "year": 2009,
+  "path": "/workspace/shared/gate-old-readiness/2009.pdf",
+  "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+  "pages": 14,
+  "questions": 60,
+  "marks": 100,
+  "end_of_questions": 14,
+  "archive_member": "CS/CS2009.pdf",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "archive_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "key_status": "No official key located; no appended key observed at paper end. Secondary GATE CSE index claims no official key released, not independently established.",
+  "scope": "PDF parse, cover and end-page visual inspection; not full question transcription audit."
+}

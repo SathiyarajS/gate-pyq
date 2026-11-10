@@ -1,0 +1,806 @@
+{
+  "paper_id": "CS-1993",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "e1e78be7dccc5a86aec4d095a97ef20e667c46e45c35af009a844a35eb844a10",
+  "preparation_evidence_sha256": "f9188b1eff441aebb62624f74020b5a60c3b776c91a54c993807e21d084e2642",
+  "independent_review_evidence_sha256": "a93101bde55146645da4e0eac6789b489f0c84f31a62648f9bdfc2836926464f",
+  "questions": 70,
+  "crop_parts": 105,
+  "verified_questions": 70,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1993",
+    "status": "approved",
+    "review_scope": "Crop mapping, bounds, available-source question content, shared prerequisites and actual 3x WebP80 outputs only.",
+    "crops_sha256": "e1e78be7dccc5a86aec4d095a97ef20e667c46e45c35af009a844a35eb844a10",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+    "source_sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+    "questions_reviewed": 70,
+    "crop_parts_reviewed": 105,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      "contacts/01.png",
+      "contacts/02.png",
+      "contacts/03.png",
+      "contacts/04.png",
+      "contacts/05.png",
+      "contacts/06.png",
+      "contacts/07.png",
+      "contacts/08.png",
+      "contacts/09.png"
+    ],
+    "fresh_render_byte_identical_parts": 105,
+    "contact_sheet_pixel_identity_verified": true,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1993-Q22",
+          "CS-1993-Q23"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 5,
+        "source_bboxes": [
+          [
+            86,
+            174,
+            550,
+            204
+          ],
+          [
+            86,
+            174,
+            550,
+            204
+          ]
+        ],
+        "intersection": [
+          86.0,
+          174.0,
+          550.0,
+          204.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_conversion_stem / shared_conversion_stem"
+      },
+      {
+        "questions": [
+          "CS-1993-Q27",
+          "CS-1993-Q28"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            367
+          ],
+          [
+            86,
+            85,
+            550,
+            367
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          367.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_pascal_program / shared_pascal_program"
+      },
+      {
+        "questions": [
+          "CS-1993-Q27",
+          "CS-1993-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            367
+          ],
+          [
+            86,
+            85,
+            550,
+            367
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          367.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_pascal_program / shared_pascal_program"
+      },
+      {
+        "questions": [
+          "CS-1993-Q28",
+          "CS-1993-Q29"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            367
+          ],
+          [
+            86,
+            85,
+            550,
+            367
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          367.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_pascal_program / shared_pascal_program"
+      },
+      {
+        "questions": [
+          "CS-1993-Q45",
+          "CS-1993-Q46"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            86,
+            207,
+            550,
+            387
+          ],
+          [
+            86,
+            207,
+            550,
+            387
+          ]
+        ],
+        "intersection": [
+          86.0,
+          207.0,
+          550.0,
+          387.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_instruction_format / shared_instruction_format"
+      },
+      {
+        "questions": [
+          "CS-1993-Q56",
+          "CS-1993-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            84,
+            550,
+            104
+          ],
+          [
+            86,
+            84,
+            550,
+            104
+          ]
+        ],
+        "intersection": [
+          86.0,
+          84.0,
+          550.0,
+          104.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_8085_stem / shared_8085_stem"
+      },
+      {
+        "questions": [
+          "CS-1993-Q56",
+          "CS-1993-Q57"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            136,
+            550,
+            253
+          ],
+          [
+            86,
+            136,
+            550,
+            253
+          ]
+        ],
+        "intersection": [
+          86.0,
+          136.0,
+          550.0,
+          253.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_8085_program / shared_8085_program"
+      },
+      {
+        "questions": [
+          "CS-1993-Q58",
+          "CS-1993-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            262,
+            550,
+            351
+          ],
+          [
+            86,
+            262,
+            550,
+            351
+          ]
+        ],
+        "intersection": [
+          86.0,
+          262.0,
+          550.0,
+          351.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_page_reference_stem / shared_page_reference_stem"
+      },
+      {
+        "questions": [
+          "CS-1993-Q58",
+          "CS-1993-Q59"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            383,
+            550,
+            402
+          ],
+          [
+            86,
+            383,
+            550,
+            402
+          ]
+        ],
+        "intersection": [
+          86.0,
+          383.0,
+          550.0,
+          402.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_initially_empty_assumption / shared_initially_empty_assumption"
+      },
+      {
+        "questions": [
+          "CS-1993-Q61",
+          "CS-1993-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            633,
+            550,
+            697
+          ],
+          [
+            86,
+            633,
+            550,
+            697
+          ]
+        ],
+        "intersection": [
+          86.0,
+          633.0,
+          550.0,
+          697.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_intro / shared_relational_intro"
+      },
+      {
+        "questions": [
+          "CS-1993-Q61",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            633,
+            550,
+            697
+          ],
+          [
+            86,
+            633,
+            550,
+            697
+          ]
+        ],
+        "intersection": [
+          86.0,
+          633.0,
+          550.0,
+          697.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_intro / shared_relational_intro"
+      },
+      {
+        "questions": [
+          "CS-1993-Q61",
+          "CS-1993-Q62"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            185
+          ],
+          [
+            86,
+            85,
+            550,
+            185
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          185.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_schema / shared_relational_schema"
+      },
+      {
+        "questions": [
+          "CS-1993-Q61",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            185
+          ],
+          [
+            86,
+            85,
+            550,
+            185
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          185.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_schema / shared_relational_schema"
+      },
+      {
+        "questions": [
+          "CS-1993-Q62",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            86,
+            633,
+            550,
+            697
+          ],
+          [
+            86,
+            633,
+            550,
+            697
+          ]
+        ],
+        "intersection": [
+          86.0,
+          633.0,
+          550.0,
+          697.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_intro / shared_relational_intro"
+      },
+      {
+        "questions": [
+          "CS-1993-Q62",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            85,
+            550,
+            185
+          ],
+          [
+            86,
+            85,
+            550,
+            185
+          ]
+        ],
+        "intersection": [
+          86.0,
+          85.0,
+          550.0,
+          185.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_relational_schema / shared_relational_schema"
+      },
+      {
+        "questions": [
+          "CS-1993-Q62",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            251,
+            550,
+            314
+          ],
+          [
+            86,
+            251,
+            550,
+            314
+          ]
+        ],
+        "intersection": [
+          86.0,
+          251.0,
+          550.0,
+          314.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_functional_dependencies / shared_functional_dependencies"
+      },
+      {
+        "questions": [
+          "CS-1993-Q62",
+          "CS-1993-Q63"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            314,
+            550,
+            330
+          ],
+          [
+            86,
+            314,
+            550,
+            330
+          ]
+        ],
+        "intersection": [
+          86.0,
+          314.0,
+          550.0,
+          330.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: question / prerequisite_3NF_question"
+      },
+      {
+        "questions": [
+          "CS-1993-Q64",
+          "CS-1993-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            372,
+            550,
+            439
+          ],
+          [
+            86,
+            372,
+            550,
+            439
+          ]
+        ],
+        "intersection": [
+          86.0,
+          372.0,
+          550.0,
+          439.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_pascal_language / shared_pascal_language"
+      },
+      {
+        "questions": [
+          "CS-1993-Q64",
+          "CS-1993-Q65"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            439,
+            550,
+            480
+          ],
+          [
+            86,
+            439,
+            550,
+            480
+          ]
+        ],
+        "intersection": [
+          86.0,
+          439.0,
+          550.0,
+          480.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: question / prerequisite_CFG_task"
+      },
+      {
+        "questions": [
+          "CS-1993-Q66",
+          "CS-1993-Q67"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            574,
+            550,
+            593
+          ],
+          [
+            86,
+            574,
+            550,
+            593
+          ]
+        ],
+        "intersection": [
+          86.0,
+          574.0,
+          550.0,
+          593.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_stack_stem / shared_stack_stem"
+      },
+      {
+        "questions": [
+          "CS-1993-Q66",
+          "CS-1993-Q67"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 14,
+        "source_bboxes": [
+          [
+            86,
+            593,
+            550,
+            670
+          ],
+          [
+            86,
+            593,
+            550,
+            670
+          ]
+        ],
+        "intersection": [
+          86.0,
+          593.0,
+          550.0,
+          670.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: question / prerequisite_procedure_definition_and_call"
+      },
+      {
+        "questions": [
+          "CS-1993-Q69",
+          "CS-1993-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "source_bboxes": [
+          [
+            86,
+            147,
+            550,
+            174
+          ],
+          [
+            86,
+            147,
+            550,
+            174
+          ]
+        ],
+        "intersection": [
+          86.0,
+          147.0,
+          550.0,
+          174.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: shared_semigroup_stem / shared_semigroup_stem"
+      },
+      {
+        "questions": [
+          "CS-1993-Q69",
+          "CS-1993-Q70"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 15,
+        "source_bboxes": [
+          [
+            86,
+            174,
+            550,
+            195
+          ],
+          [
+            86,
+            174,
+            550,
+            195
+          ]
+        ],
+        "intersection": [
+          86.0,
+          174.0,
+          550.0,
+          195.0
+        ],
+        "reason": "Reviewed deliberate common context or preceding prerequisite: question / prerequisite_commuting_product"
+      }
+    ],
+    "findings": [
+      "All 70 normalized records map to the printed source items and subparts; 105 crop parts preserve available content without unrelated adjacent questions, section instructions or footers.",
+      "Q6 and Q51 page continuations are complete. Q47 table left border is retained.",
+      "Shared conversion stem, PARAM program, instruction format, 8085 code, initially-empty page-reference assumption and relational introduction/schema are preserved. Q63 retains Q62(a); Q65 retains grammar task; Q67 retains procedure/call; Q70 retains commuting-product prerequisite.",
+      "All 23 overlaps were independently recomputed and visually accepted as shared context or necessary prerequisites; all have identical paired source bounds.",
+      "Q19 printed 6.2 has no state-machine diagram in this source; no recovered substitute is introduced. Existing provenance and sufficient-versus-iff caveats remain.",
+      "Q37 printed 8.1 option (e) and Q55 printed 19 lower wires are clipped by the source itself. Their available pixels are preserved, not reconstructed.",
+      "Source jumps from group 2 to group 6; missing groups 3–5 remain unresolved. Source typos, malformed expressions, blur and program defects remain uncorrected.",
+      "Record Q6 has no source_pages field despite continuing to physical page 2. Crop mapping correctly includes pages 1 and 2; record metadata was not edited."
+    ],
+    "original_source_verified": false,
+    "original_completeness_certified": false,
+    "answer_recertification": false,
+    "transcription_certification": false,
+    "redistribution_permission_certification": false,
+    "repository_changes": false
+  }
+}

@@ -1,0 +1,1975 @@
+{
+  "paper_id": "CS-2002",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "36f7ec71db8f14d8a2a6bafa5c939fe231bb1fab7a5d29ab8b95f22e2a79bab1",
+  "preparation_evidence_sha256": "b25263fbe7a3a3b30e1b8d67fbe02b9aae52dbdacba004323ded62954bfb2454",
+  "independent_review_evidence_sha256": "29cc963be85d6bcf5b491eac720090ba27d5d270f18c48a165f1d121019db5c7",
+  "questions": 101,
+  "crop_parts": 190,
+  "verified_questions": 101,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2002",
+    "status": "approved",
+    "review_scope": "Crop bounds and mapping fidelity to available visible third-party reproduction only.",
+    "crops_sha256": "36f7ec71db8f14d8a2a6bafa5c939fe231bb1fab7a5d29ab8b95f22e2a79bab1",
+    "source_sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+    "question_count": 101,
+    "crop_parts": 190,
+    "source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      "contact-1.png",
+      "contact-2.png",
+      "contact-3.png",
+      "contact-4.png",
+      "contact-5.png",
+      "contact-6.png",
+      "contact-7.png",
+      "contact-8.png",
+      "contact-9.png",
+      "contact-10.png",
+      "contact-11.png",
+      "contact-12.png",
+      "contact-13.png",
+      "contact-14.png",
+      "contact-15.png",
+      "contact-16.png",
+      "contact-17.png",
+      "contact-18.png",
+      "contact-19.png",
+      "contact-20.png",
+      "contact-21.png",
+      "contact-22.png",
+      "contact-23.png",
+      "contact-24.png"
+    ],
+    "fresh_byte_identity": {
+      "webp_3x_quality80_identical": 190,
+      "full_source_render_pixel_identical": 10,
+      "contact_sheet_pixel_identical": 24,
+      "canonical_record_hash_matches": 101,
+      "manifest_and_crop_source_map_match": true
+    },
+    "findings": [
+      "Independently inspected all ten complete source pages, then every part in 24 actual WebP-derived contact sheets. Complete available question bodies, options, diagrams, code, tables, prompt endings and continuations are retained without unrelated question leakage.",
+      "Canonical identifiers Q1-Q101 match the 101 stored records. Reproduction numbering 1-50 corresponds to stored 1.1-1.25 and 2.1-2.25; reproduction 51-70 and letter/roman subparts correspond to stored 3-22. Detailed mapping recorded below. No identifiers were painted onto source images.",
+      "Q15, Q25, Q27, Q31, Q36, Q41, Q46 and Q50 retain their split options or tables; Q56, Q63-Q64, Q67-Q68, Q73, Q79-Q81, Q85 and Q89-Q91 retain their cross-column or page continuations.",
+      "Q26 deliberately includes the decorative right border because its circuit output label extends across that border. The label is not clipped.",
+      "All 71 inter-question positive-area overlaps were independently recomputed and reviewed. They are exact shared-heading, stem, figure, code or required prerequisite rectangles. No nonidentical or unrelated overlaps occur. Explicit question/part approvals are below.",
+      "Freshly rendered every crop from the canonical source using 3x PyMuPDF and Pillow WebP quality 80; all 190 file bytes match the reviewed files and stored audit SHA256 values. Rebuilt contact sheets match the viewed PNG pixels, and all ten viewed source-page PNGs match fresh full-page 2x renders."
+    ],
+    "limitations": [
+      "Low-quality third-party scanned reproduction with imperfect OCR and missing Fm0 XObject parser warnings on every page. Approval is not original-paper completeness, source correctness, official-answer verification, accessible transcription, or redistribution permission.",
+      "Q29 duplicate A/D choice is retained; Q27 enable convention and Q39 overlapping choices are not repaired.",
+      "Q62 (reproduced 55b) has an absent or illegible input-count numeral after each with. The crop includes the entire available prompt and circuit; no numeral is invented.",
+      "Q67-Q68 (reproduced 58) cache-capacity digit is degraded and resembles S in the available image. It is preserved, not interpreted as a certified numeral.",
+      "Q99-Q101 (reproduced 70) final grammar terminal appears di but is ambiguous. All available grammar lines remain intact without repair.",
+      "General section instructions and decorative page headers/footers are excluded, except the Q26 border needed to retain the diagram label."
+    ],
+    "descriptive_number_mapping": [
+      {
+        "question_id": "CS-2002-Q1",
+        "stored_printed_question_number": "1.1",
+        "reproduction_number": "1",
+        "title": "Rank of a two by two matrix"
+      },
+      {
+        "question_id": "CS-2002-Q2",
+        "stored_printed_question_number": "1.2",
+        "reproduction_number": "2",
+        "title": "Exactness of the trapezoidal rule"
+      },
+      {
+        "question_id": "CS-2002-Q3",
+        "stored_printed_question_number": "1.3",
+        "reproduction_number": "3",
+        "title": "Recurrence on powers of two"
+      },
+      {
+        "question_id": "CS-2002-Q4",
+        "stored_printed_question_number": "1.4",
+        "reproduction_number": "4",
+        "title": "Chromatic number of a cycle"
+      },
+      {
+        "question_id": "CS-2002-Q5",
+        "stored_printed_question_number": "1.5",
+        "reproduction_number": "5",
+        "title": "Worst-case search in a linked list"
+      },
+      {
+        "question_id": "CS-2002-Q6",
+        "stored_printed_question_number": "1.6",
+        "reproduction_number": "6",
+        "title": "A multiplicative matrix group"
+      },
+      {
+        "question_id": "CS-2002-Q7",
+        "stored_printed_question_number": "1.7",
+        "reproduction_number": "7",
+        "title": "Pushdown automaton with bounded stack"
+      },
+      {
+        "question_id": "CS-2002-Q8",
+        "stored_printed_question_number": "1.8",
+        "reproduction_number": "8",
+        "title": "Formalizing an unless condition"
+      },
+      {
+        "question_id": "CS-2002-Q9",
+        "stored_printed_question_number": "1.9",
+        "reproduction_number": "9",
+        "title": "Interrupt acknowledge and an injected call"
+      },
+      {
+        "question_id": "CS-2002-Q10",
+        "stored_printed_question_number": "1.10",
+        "reproduction_number": "10",
+        "title": "Program counter during instruction execution"
+      },
+      {
+        "question_id": "CS-2002-Q11",
+        "stored_printed_question_number": "1.11",
+        "reproduction_number": "11",
+        "title": "Start and stop bits in serial transmission"
+      },
+      {
+        "question_id": "CS-2002-Q12",
+        "stored_printed_question_number": "1.12",
+        "reproduction_number": "12",
+        "title": "Minimizing the four-variable Karnaugh map"
+      },
+      {
+        "question_id": "CS-2002-Q13",
+        "stored_printed_question_number": "1.13",
+        "reproduction_number": "13",
+        "title": "Instruction information versus storage"
+      },
+      {
+        "question_id": "CS-2002-Q14",
+        "stored_printed_question_number": "1.14",
+        "reproduction_number": "14",
+        "title": "Binary representation of a quarter"
+      },
+      {
+        "question_id": "CS-2002-Q15",
+        "stored_printed_question_number": "1.15",
+        "reproduction_number": "15",
+        "title": "Twos-complement representation of negative fifteen"
+      },
+      {
+        "question_id": "CS-2002-Q16",
+        "stored_printed_question_number": "1.16",
+        "reproduction_number": "16",
+        "title": "Purpose of sign extension"
+      },
+      {
+        "question_id": "CS-2002-Q17",
+        "stored_printed_question_number": "1.17",
+        "reproduction_number": "17",
+        "title": "Activation records and actual calls"
+      },
+      {
+        "question_id": "CS-2002-Q18",
+        "stored_printed_question_number": "1.18",
+        "reproduction_number": "18",
+        "title": "Copy-restore and reference parameters"
+      },
+      {
+        "question_id": "CS-2002-Q19",
+        "stored_printed_question_number": "1.19",
+        "reproduction_number": "19",
+        "title": "Functional-dependency redundancy after BCNF"
+      },
+      {
+        "question_id": "CS-2002-Q20",
+        "stored_printed_question_number": "1.20",
+        "reproduction_number": "20",
+        "title": "Relational algebra and safe calculus"
+      },
+      {
+        "question_id": "CS-2002-Q21",
+        "stored_printed_question_number": "1.21",
+        "reproduction_number": "21",
+        "title": "Overflow when adding opposite signs"
+      },
+      {
+        "question_id": "CS-2002-Q22",
+        "stored_printed_question_number": "1.22",
+        "reproduction_number": "22",
+        "title": "Nonpreemptive scheduling policy"
+      },
+      {
+        "question_id": "CS-2002-Q23",
+        "stored_printed_question_number": "1.23",
+        "reproduction_number": "23",
+        "title": "Optimal replacement victim"
+      },
+      {
+        "question_id": "CS-2002-Q24",
+        "stored_printed_question_number": "1.24",
+        "reproduction_number": "24",
+        "title": "Absolute addressing"
+      },
+      {
+        "question_id": "CS-2002-Q25",
+        "stored_printed_question_number": "1.25",
+        "reproduction_number": "25",
+        "title": "Maximum edges of a simple undirected graph"
+      },
+      {
+        "question_id": "CS-2002-Q26",
+        "stored_printed_question_number": "2.1",
+        "reproduction_number": "26",
+        "title": "Solving for a NAND-network input"
+      },
+      {
+        "question_id": "CS-2002-Q27",
+        "stored_printed_question_number": "2.2",
+        "reproduction_number": "27",
+        "title": "Multiplexer with an enable input"
+      },
+      {
+        "question_id": "CS-2002-Q28",
+        "stored_printed_question_number": "2.3",
+        "reproduction_number": "28",
+        "title": "Composition of an implication-like function"
+      },
+      {
+        "question_id": "CS-2002-Q29",
+        "stored_printed_question_number": "2.4",
+        "reproduction_number": "29",
+        "title": "Auxiliary carry and carry in an 8085 sum"
+      },
+      {
+        "question_id": "CS-2002-Q30",
+        "stored_printed_question_number": "2.5",
+        "reproduction_number": "30",
+        "title": "Meaning of the Mealy-machine output"
+      },
+      {
+        "question_id": "CS-2002-Q31",
+        "stored_printed_question_number": "2.6",
+        "reproduction_number": "31",
+        "title": "Pipeline performance hazards"
+      },
+      {
+        "question_id": "CS-2002-Q32",
+        "stored_printed_question_number": "2.7",
+        "reproduction_number": "32",
+        "title": "Horizontal microinstruction encoding"
+      },
+      {
+        "question_id": "CS-2002-Q33",
+        "stored_printed_question_number": "2.8",
+        "reproduction_number": "33",
+        "title": "Address of an element of a C array"
+      },
+      {
+        "question_id": "CS-2002-Q34",
+        "stored_printed_question_number": "2.9",
+        "reproduction_number": "34",
+        "title": "Leaves in a full ternary tree"
+      },
+      {
+        "question_id": "CS-2002-Q35",
+        "stored_printed_question_number": "2.10",
+        "reproduction_number": "35",
+        "title": "Random sampling search with replacement"
+      },
+      {
+        "question_id": "CS-2002-Q36",
+        "stored_printed_question_number": "2.11",
+        "reproduction_number": "36",
+        "title": "Repeated square-root recursion"
+      },
+      {
+        "question_id": "CS-2002-Q37",
+        "stored_printed_question_number": "2.12",
+        "reproduction_number": "37",
+        "title": "Height of a weight-balanced binary tree"
+      },
+      {
+        "question_id": "CS-2002-Q38",
+        "stored_printed_question_number": "2.13",
+        "reproduction_number": "38",
+        "title": "Automaton for lengths divisible by three"
+      },
+      {
+        "question_id": "CS-2002-Q39",
+        "stored_printed_question_number": "2.14",
+        "reproduction_number": "39",
+        "title": "Complement closure and overlapping answer choices"
+      },
+      {
+        "question_id": "CS-2002-Q40",
+        "stored_printed_question_number": "2.15",
+        "reproduction_number": "40",
+        "title": "Identifying a Newton iteration"
+      },
+      {
+        "question_id": "CS-2002-Q41",
+        "stored_printed_question_number": "2.16",
+        "reproduction_number": "41",
+        "title": "Both coin outcomes appearing"
+      },
+      {
+        "question_id": "CS-2002-Q42",
+        "stored_printed_question_number": "2.17",
+        "reproduction_number": "42",
+        "title": "Properties of the empty binary relation"
+      },
+      {
+        "question_id": "CS-2002-Q43",
+        "stored_printed_question_number": "2.18",
+        "reproduction_number": "43",
+        "title": "Context dependence in C programs"
+      },
+      {
+        "question_id": "CS-2002-Q44",
+        "stored_printed_question_number": "2.19",
+        "reproduction_number": "44",
+        "title": "Stack space for expression evaluation"
+      },
+      {
+        "question_id": "CS-2002-Q45",
+        "stored_printed_question_number": "2.20",
+        "reproduction_number": "45",
+        "title": "Dynamic-library search risks"
+      },
+      {
+        "question_id": "CS-2002-Q46",
+        "stored_printed_question_number": "2.21",
+        "reproduction_number": "46",
+        "title": "Features of multiprogramming"
+      },
+      {
+        "question_id": "CS-2002-Q47",
+        "stored_printed_question_number": "2.22",
+        "reproduction_number": "47",
+        "title": "Capacity under indexed allocation"
+      },
+      {
+        "question_id": "CS-2002-Q48",
+        "stored_printed_question_number": "2.23",
+        "reproduction_number": "48",
+        "title": "Maximum fanout of a B-plus-tree node"
+      },
+      {
+        "question_id": "CS-2002-Q49",
+        "stored_printed_question_number": "2.24",
+        "reproduction_number": "49",
+        "title": "Testing which decomposition is in BCNF"
+      },
+      {
+        "question_id": "CS-2002-Q50",
+        "stored_printed_question_number": "2.25",
+        "reproduction_number": "50",
+        "title": "What a relation instance proves about dependencies"
+      },
+      {
+        "question_id": "CS-2002-Q51",
+        "stored_printed_question_number": "3(a)",
+        "reproduction_number": "51(a)",
+        "title": "Count binary relations on a finite set"
+      },
+      {
+        "question_id": "CS-2002-Q52",
+        "stored_printed_question_number": "3(b)",
+        "reproduction_number": "51(b)",
+        "title": "Count self-maps of a finite set"
+      },
+      {
+        "question_id": "CS-2002-Q53",
+        "stored_printed_question_number": "3(c)",
+        "reproduction_number": "51(c)",
+        "title": "Compare relation and function counts"
+      },
+      {
+        "question_id": "CS-2002-Q54",
+        "stored_printed_question_number": "4(a)",
+        "reproduction_number": "52(a)",
+        "title": "Complete a relation to an equivalence relation"
+      },
+      {
+        "question_id": "CS-2002-Q55",
+        "stored_printed_question_number": "4(b)",
+        "reproduction_number": "52(b)",
+        "title": "Draw the two-element power-set lattice"
+      },
+      {
+        "question_id": "CS-2002-Q56",
+        "stored_printed_question_number": "5(a)",
+        "reproduction_number": "53(a)",
+        "title": "Read eigenvalues from an upper-triangular matrix"
+      },
+      {
+        "question_id": "CS-2002-Q57",
+        "stored_printed_question_number": "5(b)(i)",
+        "reproduction_number": "53(b)(i)",
+        "title": "Classify an idempotent biconditional"
+      },
+      {
+        "question_id": "CS-2002-Q58",
+        "stored_printed_question_number": "5(b)(ii)",
+        "reproduction_number": "53(b)(ii)",
+        "title": "Classify a disjunction-to-operand implication"
+      },
+      {
+        "question_id": "CS-2002-Q59",
+        "stored_printed_question_number": "5(b)(iii)",
+        "reproduction_number": "53(b)(iii)",
+        "title": "Classify a conjunction with a negated disjunction"
+      },
+      {
+        "question_id": "CS-2002-Q60",
+        "stored_printed_question_number": "6",
+        "reproduction_number": "54",
+        "title": "Enumerate binary trees with fixed preorder"
+      },
+      {
+        "question_id": "CS-2002-Q61",
+        "stored_printed_question_number": "7(a)",
+        "reproduction_number": "55(a)",
+        "title": "Implement a Boolean function using one complement"
+      },
+      {
+        "question_id": "CS-2002-Q62",
+        "stored_printed_question_number": "7(b)",
+        "reproduction_number": "55(b)",
+        "title": "Transform the circuit into six NAND gates"
+      },
+      {
+        "question_id": "CS-2002-Q63",
+        "stored_printed_question_number": "8(a)",
+        "reproduction_number": "56(a)",
+        "title": "Trace the registered three-bit adder"
+      },
+      {
+        "question_id": "CS-2002-Q64",
+        "stored_printed_question_number": "8(b)",
+        "reproduction_number": "56(b)",
+        "title": "Identify the pipelined arithmetic circuit"
+      },
+      {
+        "question_id": "CS-2002-Q65",
+        "stored_printed_question_number": "9(a)",
+        "reproduction_number": "57(a)",
+        "title": "Encode a value in a custom hexadecimal float"
+      },
+      {
+        "question_id": "CS-2002-Q66",
+        "stored_printed_question_number": "9(b)",
+        "reproduction_number": "57(b)",
+        "title": "Find the custom hexadecimal float maximum"
+      },
+      {
+        "question_id": "CS-2002-Q67",
+        "stored_printed_question_number": "10(a)",
+        "reproduction_number": "58(a)",
+        "title": "Find array elements that conflict in a direct-mapped cache"
+      },
+      {
+        "question_id": "CS-2002-Q68",
+        "stored_printed_question_number": "10(b)",
+        "reproduction_number": "58(b)",
+        "title": "Count reverse-scan cache misses"
+      },
+      {
+        "question_id": "CS-2002-Q69",
+        "stored_printed_question_number": "11",
+        "reproduction_number": "59",
+        "title": "Complete the recursive Towers of Hanoi function"
+      },
+      {
+        "question_id": "CS-2002-Q70",
+        "stored_printed_question_number": "12(a)",
+        "reproduction_number": "60(a)",
+        "title": "Initialize all-pairs shortest-path distances"
+      },
+      {
+        "question_id": "CS-2002-Q71",
+        "stored_printed_question_number": "12(b)",
+        "reproduction_number": "60(b)",
+        "title": "Complete the Floyd–Warshall update for the given loop order"
+      },
+      {
+        "question_id": "CS-2002-Q72",
+        "stored_printed_question_number": "12(c)",
+        "reproduction_number": "60(c)",
+        "title": "Determine the all-pairs algorithm running time"
+      },
+      {
+        "question_id": "CS-2002-Q73",
+        "stored_printed_question_number": "13(a)",
+        "reproduction_number": "61(a)",
+        "title": "Ordered sums of two positive integers"
+      },
+      {
+        "question_id": "CS-2002-Q74",
+        "stored_printed_question_number": "13(b)",
+        "reproduction_number": "61(b)",
+        "title": "Ordered sums of three positive integers"
+      },
+      {
+        "question_id": "CS-2002-Q75",
+        "stored_printed_question_number": "13(c)",
+        "reproduction_number": "61(c)",
+        "title": "Ordered positive compositions into k parts"
+      },
+      {
+        "question_id": "CS-2002-Q76",
+        "stored_printed_question_number": "14(a)",
+        "reproduction_number": "62(a)",
+        "title": "Reduction machine: simulate a fixed computation"
+      },
+      {
+        "question_id": "CS-2002-Q77",
+        "stored_printed_question_number": "14(b)",
+        "reproduction_number": "62(b)",
+        "title": "Reduction machine: output after the simulation halts"
+      },
+      {
+        "question_id": "CS-2002-Q78",
+        "stored_printed_question_number": "14(c)",
+        "reproduction_number": "62(c)",
+        "title": "Correctness of the all-input halting reduction"
+      },
+      {
+        "question_id": "CS-2002-Q79",
+        "stored_printed_question_number": "15(a)(i)",
+        "reproduction_number": "63(a)(i)",
+        "title": "Interviewed students receiving no offer"
+      },
+      {
+        "question_id": "CS-2002-Q80",
+        "stored_printed_question_number": "15(a)(ii)",
+        "reproduction_number": "63(a)(ii)",
+        "title": "Offers from every interviewed company"
+      },
+      {
+        "question_id": "CS-2002-Q81",
+        "stored_printed_question_number": "15(b)",
+        "reproduction_number": "63(b)",
+        "title": "Degree programs with offers to over five students"
+      },
+      {
+        "question_id": "CS-2002-Q82",
+        "stored_printed_question_number": "16(a)",
+        "reproduction_number": "64(a)",
+        "title": "Lossless decomposition through a common determinant"
+      },
+      {
+        "question_id": "CS-2002-Q83",
+        "stored_printed_question_number": "16(b)",
+        "reproduction_number": "64(b)",
+        "title": "Dependency preservation after decomposition"
+      },
+      {
+        "question_id": "CS-2002-Q84",
+        "stored_printed_question_number": "16(c)",
+        "reproduction_number": "64(c)",
+        "title": "Highest normal form of the decomposed relations"
+      },
+      {
+        "question_id": "CS-2002-Q85",
+        "stored_printed_question_number": "17(a)",
+        "reproduction_number": "65(a)",
+        "title": "Key-dependent search cost in B-trees and B+ trees"
+      },
+      {
+        "question_id": "CS-2002-Q86",
+        "stored_printed_question_number": "17(b)(i)",
+        "reproduction_number": "65(b)(i)",
+        "title": "Self-join view before insertion"
+      },
+      {
+        "question_id": "CS-2002-Q87",
+        "stored_printed_question_number": "17(b)(ii)",
+        "reproduction_number": "65(b)(ii)",
+        "title": "Incremental self-join view after two inserted tuples"
+      },
+      {
+        "question_id": "CS-2002-Q88",
+        "stored_printed_question_number": "18(a)",
+        "reproduction_number": "66(a)",
+        "title": "Process states with non-preemptive scheduling"
+      },
+      {
+        "question_id": "CS-2002-Q89",
+        "stored_printed_question_number": "18(b)(i)",
+        "reproduction_number": "66(b)(i)",
+        "title": "Test-and-set lock entry and exit"
+      },
+      {
+        "question_id": "CS-2002-Q90",
+        "stored_printed_question_number": "18(b)(ii)",
+        "reproduction_number": "66(b)(ii)",
+        "title": "Progress guarantees of a test-and-set spinlock"
+      },
+      {
+        "question_id": "CS-2002-Q91",
+        "stored_printed_question_number": "18(b)(iii)",
+        "reproduction_number": "66(b)(iii)",
+        "title": "Why non-atomic test-and-set fails mutual exclusion"
+      },
+      {
+        "question_id": "CS-2002-Q92",
+        "stored_printed_question_number": "19(a)",
+        "reproduction_number": "67(a)",
+        "title": "Two-level address translation with equal index widths"
+      },
+      {
+        "question_id": "CS-2002-Q93",
+        "stored_printed_question_number": "19(b)",
+        "reproduction_number": "67(b)",
+        "title": "Entries per page-table page"
+      },
+      {
+        "question_id": "CS-2002-Q94",
+        "stored_printed_question_number": "19(c)",
+        "reproduction_number": "67(c)",
+        "title": "Page-table bits available for metadata"
+      },
+      {
+        "question_id": "CS-2002-Q95",
+        "stored_printed_question_number": "20(a)",
+        "reproduction_number": "68(a)",
+        "title": "Single-producer single-consumer semaphore blanks"
+      },
+      {
+        "question_id": "CS-2002-Q96",
+        "stored_printed_question_number": "20(b)",
+        "reproduction_number": "68(b)",
+        "title": "Mutex additions for multiple producers and consumers"
+      },
+      {
+        "question_id": "CS-2002-Q97",
+        "stored_printed_question_number": "21(a)",
+        "reproduction_number": "69(a)",
+        "title": "Four-state NFA for strings ending in abb"
+      },
+      {
+        "question_id": "CS-2002-Q98",
+        "stored_printed_question_number": "21(b)",
+        "reproduction_number": "69(b)",
+        "title": "Four-state DFA for strings ending in abb"
+      },
+      {
+        "question_id": "CS-2002-Q99",
+        "stored_printed_question_number": "22(a)",
+        "reproduction_number": "70(a)",
+        "title": "All parse trees for i+j*k in an ambiguous grammar"
+      },
+      {
+        "question_id": "CS-2002-Q100",
+        "stored_printed_question_number": "22(b)",
+        "reproduction_number": "70(b)",
+        "title": "Operator precedence in the ambiguous expression grammar"
+      },
+      {
+        "question_id": "CS-2002-Q101",
+        "stored_printed_question_number": "22(c)",
+        "reproduction_number": "70(c)",
+        "title": "An unambiguous LALR(1) expression grammar"
+      }
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2002-Q51",
+          "CS-2002-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          360.5,
+          524.0,
+          412.0
+        ],
+        "reason": "The definition of A, Nr and Nf is required by each of reproduced 51(a-c)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q51",
+          "CS-2002-Q53"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          360.5,
+          524.0,
+          412.0
+        ],
+        "reason": "The definition of A, Nr and Nf is required by each of reproduced 51(a-c)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q52",
+          "CS-2002-Q53"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          360.5,
+          524.0,
+          412.0
+        ],
+        "reason": "The definition of A, Nr and Nf is required by each of reproduced 51(a-c)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q54",
+          "CS-2002-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          501.0,
+          524.0,
+          516.5
+        ],
+        "reason": "The common printed 52 heading identifies sibling parts (a) and (b)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q56",
+          "CS-2002-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q56",
+          "CS-2002-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q56",
+          "CS-2002-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q57",
+          "CS-2002-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q57",
+          "CS-2002-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q57",
+          "CS-2002-Q58"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "bbox": [
+          52.0,
+          112.5,
+          278.0,
+          191.0
+        ],
+        "reason": "The classification instruction and connective definitions apply to all three logic formulas in 53(b)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q57",
+          "CS-2002-Q59"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "bbox": [
+          52.0,
+          112.5,
+          278.0,
+          191.0
+        ],
+        "reason": "The classification instruction and connective definitions apply to all three logic formulas in 53(b)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q58",
+          "CS-2002-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "bbox": [
+          300.0,
+          655.0,
+          524.0,
+          669.0
+        ],
+        "reason": "The common printed 53 heading identifies matrix part (a) and logic parts (b)(i-iii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q58",
+          "CS-2002-Q59"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "bbox": [
+          52.0,
+          112.5,
+          278.0,
+          191.0
+        ],
+        "reason": "The classification instruction and connective definitions apply to all three logic formulas in 53(b)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q61",
+          "CS-2002-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "bbox": [
+          52.0,
+          300.0,
+          278.0,
+          314.5
+        ],
+        "reason": "The common printed 55 heading identifies both circuit subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q63",
+          "CS-2002-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "bbox": [
+          52.0,
+          569.0,
+          278.0,
+          697.5
+        ],
+        "reason": "The register and input definitions and loading convention apply to both circuit subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q63",
+          "CS-2002-Q64"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "bbox": [
+          300.0,
+          44.0,
+          524.0,
+          192.5
+        ],
+        "reason": "The continuation assumption and complete register circuit are needed by both 56(a) and 56(b)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q63",
+          "CS-2002-Q64"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "bbox": [
+          300.0,
+          194.5,
+          524.0,
+          303.5
+        ],
+        "reason": "The input sequences and initial register contents are context for identifying the circuit in 56(b), so its linked 56(a) input block is intentionally retained."
+      },
+      {
+        "questions": [
+          "CS-2002-Q65",
+          "CS-2002-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "bbox": [
+          300.0,
+          321.5,
+          524.0,
+          502.5
+        ],
+        "reason": "The hexadecimal floating-point format and layout are needed by both value and maximum questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q67",
+          "CS-2002-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "bbox": [
+          300.0,
+          636.0,
+          524.0,
+          700.0
+        ],
+        "reason": "The array declaration, element size, start address and cache setup apply to both cache questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q67",
+          "CS-2002-Q68"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          36.0,
+          278.0,
+          58.5
+        ],
+        "reason": "The continued cache size and block size apply to both 58(a) and (b); the degraded capacity digit is preserved."
+      },
+      {
+        "questions": [
+          "CS-2002-Q70",
+          "CS-2002-Q71"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          289.0,
+          278.0,
+          432.0
+        ],
+        "reason": "Both algorithm templates and graph definitions are common to initialization, update and complexity prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q70",
+          "CS-2002-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          289.0,
+          278.0,
+          432.0
+        ],
+        "reason": "Both algorithm templates and graph definitions are common to initialization, update and complexity prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q71",
+          "CS-2002-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          289.0,
+          278.0,
+          432.0
+        ],
+        "reason": "Both algorithm templates and graph definitions are common to initialization, update and complexity prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q73",
+          "CS-2002-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          528.0,
+          278.0,
+          540.0
+        ],
+        "reason": "The common printed 61 heading identifies all three composition subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q73",
+          "CS-2002-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          528.0,
+          278.0,
+          540.0
+        ],
+        "reason": "The common printed 61 heading identifies all three composition subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q74",
+          "CS-2002-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          52.0,
+          528.0,
+          278.0,
+          540.0
+        ],
+        "reason": "The common printed 61 heading identifies all three composition subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q76",
+          "CS-2002-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          191.5,
+          524.0,
+          318.5
+        ],
+        "reason": "The undecidability reduction setup and M/M-prime definitions apply to all three proof steps."
+      },
+      {
+        "questions": [
+          "CS-2002-Q76",
+          "CS-2002-Q78"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          191.5,
+          524.0,
+          318.5
+        ],
+        "reason": "The undecidability reduction setup and M/M-prime definitions apply to all three proof steps."
+      },
+      {
+        "questions": [
+          "CS-2002-Q77",
+          "CS-2002-Q78"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          191.5,
+          524.0,
+          318.5
+        ],
+        "reason": "The undecidability reduction setup and M/M-prime definitions apply to all three proof steps."
+      },
+      {
+        "questions": [
+          "CS-2002-Q79",
+          "CS-2002-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          412.5,
+          524.0,
+          599.0
+        ],
+        "reason": "The placement database schema and meanings are common to the three query prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q79",
+          "CS-2002-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          412.5,
+          524.0,
+          599.0
+        ],
+        "reason": "The placement database schema and meanings are common to the three query prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q79",
+          "CS-2002-Q80"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          44.0,
+          278.0,
+          119.5
+        ],
+        "reason": "The continued relation meanings and underlined-key convention are common database context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q79",
+          "CS-2002-Q81"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          44.0,
+          278.0,
+          119.5
+        ],
+        "reason": "The continued relation meanings and underlined-key convention are common database context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q79",
+          "CS-2002-Q80"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          121.5,
+          278.0,
+          161.5
+        ],
+        "reason": "The permitted relational-algebra operators apply to both 63(a)(i) and (ii), but not the SQL-only sibling."
+      },
+      {
+        "questions": [
+          "CS-2002-Q80",
+          "CS-2002-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "bbox": [
+          300.0,
+          412.5,
+          524.0,
+          599.0
+        ],
+        "reason": "The placement database schema and meanings are common to the three query prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q80",
+          "CS-2002-Q81"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          44.0,
+          278.0,
+          119.5
+        ],
+        "reason": "The continued relation meanings and underlined-key convention are common database context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q82",
+          "CS-2002-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          336.0,
+          278.0,
+          409.0
+        ],
+        "reason": "The relation, dependencies and decomposition define all three normal-form questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q82",
+          "CS-2002-Q84"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          336.0,
+          278.0,
+          409.0
+        ],
+        "reason": "The relation, dependencies and decomposition define all three normal-form questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q83",
+          "CS-2002-Q84"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          336.0,
+          278.0,
+          409.0
+        ],
+        "reason": "The relation, dependencies and decomposition define all three normal-form questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q85",
+          "CS-2002-Q86"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          522.0,
+          278.0,
+          538.0
+        ],
+        "reason": "The printed 65 heading identifies the search-cost and SQL-view siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q85",
+          "CS-2002-Q87"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          522.0,
+          278.0,
+          538.0
+        ],
+        "reason": "The printed 65 heading identifies the search-cost and SQL-view siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q86",
+          "CS-2002-Q87"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          52.0,
+          522.0,
+          278.0,
+          538.0
+        ],
+        "reason": "The printed 65 heading identifies the search-cost and SQL-view siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q86",
+          "CS-2002-Q87"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          137.5,
+          524.0,
+          232.5
+        ],
+        "reason": "The SQL view definition applies to both initial and incrementally updated views."
+      },
+      {
+        "questions": [
+          "CS-2002-Q86",
+          "CS-2002-Q87"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          235.0,
+          524.0,
+          359.0
+        ],
+        "reason": "The initial R table in 65(b)(i) is required to calculate the additional tuples in 65(b)(ii)."
+      },
+      {
+        "questions": [
+          "CS-2002-Q88",
+          "CS-2002-Q89"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q88",
+          "CS-2002-Q90"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q88",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q90"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q90"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          521.0,
+          524.0,
+          644.0
+        ],
+        "reason": "The TEST-AND-SET definition is required by all synchronization subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          521.0,
+          524.0,
+          644.0
+        ],
+        "reason": "The TEST-AND-SET definition is required by all synchronization subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q90"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          645.0,
+          524.0,
+          699.0
+        ],
+        "reason": "The fill-in entry/exit instruction establishes the referenced solution for the subsequent progress and non-atomicity questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          645.0,
+          524.0,
+          699.0
+        ],
+        "reason": "The fill-in entry/exit instruction establishes the referenced solution for the subsequent progress and non-atomicity questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q90"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          42.0,
+          278.0,
+          174.5
+        ],
+        "reason": "The mutex and complete entry/exit templates are the referenced solution in 66(b)(ii-iii); keeping them is necessary prerequisite context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q89",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          42.0,
+          278.0,
+          174.5
+        ],
+        "reason": "The mutex and complete entry/exit templates are the referenced solution in 66(b)(ii-iii); keeping them is necessary prerequisite context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q90",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          402.5,
+          524.0,
+          418.0
+        ],
+        "reason": "The printed 66 heading identifies the process-state and synchronization siblings."
+      },
+      {
+        "questions": [
+          "CS-2002-Q90",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          521.0,
+          524.0,
+          644.0
+        ],
+        "reason": "The TEST-AND-SET definition is required by all synchronization subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q90",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 9,
+        "bbox": [
+          300.0,
+          645.0,
+          524.0,
+          699.0
+        ],
+        "reason": "The fill-in entry/exit instruction establishes the referenced solution for the subsequent progress and non-atomicity questions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q90",
+          "CS-2002-Q91"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          42.0,
+          278.0,
+          174.5
+        ],
+        "reason": "The mutex and complete entry/exit templates are the referenced solution in 66(b)(ii-iii); keeping them is necessary prerequisite context."
+      },
+      {
+        "questions": [
+          "CS-2002-Q92",
+          "CS-2002-Q93"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          269.5,
+          278.0,
+          381.5
+        ],
+        "reason": "The address width, page size, split and entry size define all three page-table subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q92",
+          "CS-2002-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          269.5,
+          278.0,
+          381.5
+        ],
+        "reason": "The address width, page size, split and entry size define all three page-table subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q93",
+          "CS-2002-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          269.5,
+          278.0,
+          381.5
+        ],
+        "reason": "The address width, page size, split and entry size define all three page-table subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q95",
+          "CS-2002-Q96"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          52.0,
+          507.0,
+          278.0,
+          702.5
+        ],
+        "reason": "The shared buffer declarations and producer code are needed for both fill-in and multiple-producer extensions."
+      },
+      {
+        "questions": [
+          "CS-2002-Q95",
+          "CS-2002-Q96"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          59.0,
+          524.0,
+          144.5
+        ],
+        "reason": "The consumer continuation is needed for both synchronization subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q97",
+          "CS-2002-Q98"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          266.0,
+          524.0,
+          293.0
+        ],
+        "reason": "The automaton state-count requirement and regular expression apply to both NFA and DFA prompts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q99",
+          "CS-2002-Q100"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          329.5,
+          524.0,
+          344.5
+        ],
+        "reason": "The printed 70 heading identifies all three grammar subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q99",
+          "CS-2002-Q101"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          329.5,
+          524.0,
+          344.5
+        ],
+        "reason": "The printed 70 heading identifies all three grammar subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q99",
+          "CS-2002-Q100"
+        ],
+        "parts": [
+          3,
+          2
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          384.5,
+          524.0,
+          435.5
+        ],
+        "reason": "The same expression grammar is needed for parse trees, precedence and unambiguous-grammar prompts; its ambiguous final terminal is preserved."
+      },
+      {
+        "questions": [
+          "CS-2002-Q99",
+          "CS-2002-Q101"
+        ],
+        "parts": [
+          3,
+          2
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          384.5,
+          524.0,
+          435.5
+        ],
+        "reason": "The same expression grammar is needed for parse trees, precedence and unambiguous-grammar prompts; its ambiguous final terminal is preserved."
+      },
+      {
+        "questions": [
+          "CS-2002-Q100",
+          "CS-2002-Q101"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          329.5,
+          524.0,
+          344.5
+        ],
+        "reason": "The printed 70 heading identifies all three grammar subparts."
+      },
+      {
+        "questions": [
+          "CS-2002-Q100",
+          "CS-2002-Q101"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "bbox": [
+          300.0,
+          384.5,
+          524.0,
+          435.5
+        ],
+        "reason": "The same expression grammar is needed for parse trees, precedence and unambiguous-grammar prompts; its ambiguous final terminal is preserved."
+      }
+    ],
+    "unrelated_overlap_count": 0,
+    "nonidentical_overlap_count": 0,
+    "changes_required": [],
+    "byte_check_artifact": "independent-byte-check.json"
+  }
+}

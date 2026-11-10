@@ -1,0 +1,15 @@
+{
+  "year": 1998,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/1998-gfg.pdf",
+  "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+  "pages": "8",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "79 with descriptive subparts",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "questions": 100,
+  "content_groups": 80,
+  "inventory_scope": "Observed 55 objectives and 45 descriptive leaves across 25 groups; original official completeness unverified"
+}

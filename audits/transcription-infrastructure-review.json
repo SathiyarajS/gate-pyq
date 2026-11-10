@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-10",
+  "scope": "Independent static/code review of verified-only transcription infrastructure, not browser or PDF visual approval",
+  "status": "static_checks_passed_visual_review_pending",
+  "sha256": {
+    "scripts/transcription.py": "672be9572eddcabdc7a0fc98627b0f729e5eba51514aa5bc371fad77b17c02aa",
+    "scripts/build_site.py": "f2a10434db4dfad8de1a03031c2ac5308fc74f7071f3c9afafbc223c06b2f5ff",
+    "scripts/compare_transcription.py": "368584ac126d9de0f7834515ab4ddb9e5eea771ffeaa9afc6cd0c81974a9e7f5",
+    "scripts/build_pdfs.py": "3de3dd95280545520e367b3a74d9dc30f970f4647433d0b0ffccf3d174d2b151",
+    "scripts/update_redrawn_coverage.py": "af2e6e2458676544c06b231f2a2bd381833df15c578d55591154b6d367b80485",
+    "templates/site/question.html": "7293187b2f51bf55c7851018b40871b545f42a33a64f74cdb2c5ab7a161f8a49",
+    "templates/site/page.html": "3ea18b0415de1a715b6af0099d0a59f8babb83633e871beba0e7ee0b0fa53f62",
+    "site-static/style.css": "ed79645bfa1a6e28361f8673318fe30eafc94f26f9f3cb9fc98b91e8fe635289",
+    "tests/test_transcription.py": "5d0328233860383727cc96d62b022f9012f523157b8bc3526064711e7c243db2",
+    "docs/TRANSCRIPTIONS.md": "76cda7fc89569f2300bad9259b7ddcb787d0235be7c271b3157d987f4ca2d477",
+    "COVERAGE.md": "8910d6e99a9e86af6eb712ae4c27b07695a7a76c3c61be756cc9b7ce57d31a4e",
+    "tests/test_transcription_math.js": "ccda8c16d238915366a6811e734e89010d88ceff5add48ec1865bf3e10f6dffd"
+  },
+  "checks": {
+    "python_unit_tests": 31,
+    "katex_static_regressions": "passed independently",
+    "structural_validation": "46 papers, 3406 records",
+    "full_static_site": "Independently rebuilt after installing 65 draft entries: 3406 questions,46 papers,13 subjects;0 accepted transcriptions;draft fallback preserved",
+    "print_html": "26 drafts generated; actual PDFs not rendered",
+    "browser_visual": "not performed; execution restricted"
+  },
+  "closed_review_findings": [
+    "Preserve pipes inside math/code table cells, including display math",
+    "Preserve explicit ordered-list numbering",
+    "Require reviewed context references when source metadata declares shared context",
+    "Require rendered_comparison_checked as an explicit verification gate",
+    "Include integration tests in direct unittest invocation"
+  ],
+  "current_verified_transcriptions": 0,
+  "release_gate": "unchanged, fail-closed",
+  "limitations": [
+    "Code tests do not certify source text or figure fidelity.",
+    "Drafts do not replace original crops.",
+    "Every transcription requires independent actual rendered comparison review before verified status.",
+    "Browser interaction, viewport screenshots and actual PDF rendering remain unperformed."
+  ]
+}

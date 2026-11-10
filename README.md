@@ -1,6 +1,20 @@
-# GATE CSE Previous Year Questions (1990–2025)
+# GATE CSE Previous Year Questions (1991–2026)
 
-Complete, verified collection of the previous 36 years of GATE CS/IT questions with solutions, organised by subject.
+## Website
+
+**https://sathiyarajs.github.io/gate-pyq/** (live once the repository is public and GitHub Pages is enabled)
+
+- 3,406 questions from 46 CS papers, sorted into 13 subjects and grouped by topic, 10 per page.
+- Each question shows the original from the exam paper, with its year and paper in brackets. A collapsible **Answer** gives the official key (or a note that none was found), our worked solution, and any discrepancy.
+- Every subject has two PDF downloads: one with answers, and one with questions only plus an answer index.
+- The site has search, filters, a practice mode, bookmarks, full-paper mock tests and dark mode.
+- To report a mistake, use **Report issue** on any question.
+
+To build the site locally, see "Build locally" in [CODEX_INSTRUCTIONS.md](CODEX_INSTRUCTIONS.md). The site rebuilds and redeploys automatically on every push to `main`.
+
+## About the data
+
+Work in progress: 3406 source-numbered entries across 46 CS papers, with 3168 in the requested subjects and 238 supplemental entries. Available derivations have independent second review; The formerly missing 1993 state diagram now has a conditional third-party reconstruction; original fidelity remains unverified. Available relevant figures were visually inspected. Official scoring fields reconcile where a key was located; 1716 entries have no located official key, including the conditional third-party diagram reconstruction; the others have independent derivations. Wording/model issues are disclosed. Entries are source-linked solutions, not complete question transcriptions. Legacy entries identified as third-party reproductions have unverified original-source fidelity/completeness. The 36-year collection is not complete.
 
 ## Subjects
 | # | Subject |
@@ -19,16 +33,34 @@ Complete, verified collection of the previous 36 years of GATE CS/IT questions w
 | 12 | [Discrete Mathematics](subjects/12-discrete-mathematics) |
 
 ## Ground rules
-1. **No missing questions.** Each year/paper (including multiple sets, e.g. 2014–2026 sets, and CS/IT papers where applicable) is reconciled against the official paper's question count. Counts live in each subject's coverage tracker; a year is only "done" when documented == official.
+1. **No missing questions.** Each year/paper (including multiple sets, e.g. 2014–2026 sessions) is reconciled against the official paper's question count. Paper-level counts and source status live in `data/papers.json`. Every numbered item must be accounted for, including items outside the requested subjects. A paper is complete only after source reconciliation and independent solution review.
 2. **No wrong answers.** Every solution is derived independently and compared with the official answer key (including revised/final keys). Mismatch → resolve or log as a discrepancy; never silently pick one.
 3. **Discrepancies are always recorded**: question errors, ambiguity, missing figures, key changes, disputed keys, bonus/dropped questions. Each is in the question's `Discrepancy` field and indexed in [DISCREPANCIES.md](DISCREPANCIES.md).
 4. Questions are uncategorised-by-subject cross-cutting? Assign to the single best-fit subject; note cross-references.
-5. Questions are reproduced verbatim (incl. code, tables, figures) with marks and type (MCQ/MSQ/NAT).
+5. Preserve source wording, code, tables and figures faithfully where permitted, with marks and actual historical question format. Do not copy third-party explanations; write solutions independently.
 
 ## Scope assumption
-"Previous 36 years" = **1990–2025**. Adjust the range in the subject trackers if you want a different window (e.g. 1987 onward).
+"Previous 36 years" = **1991–2026**, inclusive, following the current working scope. Separate historical IT papers are not silently included; their inclusion requires an explicit scope decision.
 
 ## Workflow
 Per subject/year: collect official paper + key → add questions via [template](templates/question.md) → solve and verify → update tracker → log discrepancies → commit (`<subject>: <year> done`).
 
 Sources of truth: official GATE papers/keys (IIT organising institute sites, gate.iitk.ac.in archives). Third-party sites (e.g. GATE Overflow) may be used for cross-checking only.
+
+
+## Current status and quality gates
+
+The repository is scaffolding, not a complete question bank. Unknown counts remain null; they must not be reported as zero questions in a paper. An empty discrepancy log does not mean no discrepancies exist.
+
+`data/papers.json` lists 46 candidate CS papers for 36 years. Session inventory is provisional until reconciled against source papers. General Aptitude is included where present (from 2010); earlier years are not missing GA. Separate IT papers and non-discrete engineering mathematics require explicit scope handling. Every source question must receive either an included subject or a documented exclusion reason so omitted material cannot disappear silently.
+
+Run `python 3 scripts/validate.py` to check record structure. Run `python 3 scripts/validate.py --require-complete` for the release gate; it intentionally fails until every paper, question, source and solution has been verified. Passing structural validation alone is not evidence of answer correctness.
+
+For each question, record a unique ID, paper/session ID, source question number, source page, subject, preserved question and figure references, independent solution, derived answer, exact official answer or accepted range, key revision, verification status, and discrepancy IDs. An unavailable official key must remain explicitly unverified. See `data/README.md`.
+
+
+Detailed step-by-step expansion and a separate explanation-quality audit are in progress. Existing answer reviews do not certify explanatory depth; see [QUALITY.md](QUALITY.md).
+
+Explanation-depth review: 3406 entries have independently reviewed teaching expansions; 0 remain pending. This is separate from answer review and complete question/source access. See [QUALITY.md](QUALITY.md).
+
+Actual source navigation: [SOURCE_ACCESS.md](SOURCE_ACCESS.md) distinguishes direct/archived PDFs from ZIP/member/page routes and lists the 19 explicitly pending local artwork entries. This is access guidance, not a complete-original or reuse-permission certificate.

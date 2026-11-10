@@ -1,0 +1,211 @@
+{
+  "paper_id": "CS-2004",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "52fb1362cb4be555e3ce20f2269cac5ae0b943092664186ca13d70297011727a",
+  "preparation_evidence_sha256": "1176559171ec27e353b9b0800e58fef616d565b03ad6943edc5feb14ade5cc8b",
+  "independent_review_evidence_sha256": "84d0b2d3dfe06e4b097fa0d170196ec9a919f2c0520cf14ea1c0875e23ead48b",
+  "questions": 90,
+  "crop_parts": 116,
+  "verified_questions": 90,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2004",
+    "status": "approved",
+    "scope": "Independent crop-boundary and actual-output fidelity review of visible canonical third-party reproduction only. Not transcription, original completeness, answer or publication-rights certification.",
+    "crops_sha256": "52fb1362cb4be555e3ce20f2269cac5ae0b943092664186ca13d70297011727a",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+    "source_sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "questions_reviewed": 90,
+    "crop_parts_reviewed": 116,
+    "full_source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "actual_output_contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "fresh_render_verification": {
+      "canonical_source_hash_matches_source_map_manifest_and_all_90_records": true,
+      "all_12_source_page_pixels_match_fresh_1_5x_render": true,
+      "all_116_output_bytes_match_fresh_3x_WEBP_quality80": true,
+      "all_20_contact_sheet_pixels_match_reconstruction_from_actual_outputs": true
+    },
+    "findings": [
+      "Every numbered item Q1–Q90 was compared with the full page and actual output; stems, options, code, tables, diagrams and visible notation are retained. No unrelated question content or source page headers/footers observed in outputs.",
+      "Column/page continuations preserve reading order for Q4, Q12, Q15, Q20, Q34, Q36, Q39, Q43, Q46, Q49, Q53, Q59, Q66, Q70, Q74, Q79, Q83 and Q88, including short isolated option continuations.",
+      "Shared data for Q56/Q57 contains the full two-column network text and network diagram; Q63/Q64 each retain the complete two-column CPU program introduction and instruction table. Exactly four identical shared-context overlaps are approved; no others found.",
+      "Diagrams and tables checked in Q34, Q36, Q37, Q44, Q46, Q48, Q55, Q61, Q67, Q72, Q77 and Q86; graph edges, arrows, node circles, boundary labels and all four Q37 heap diagrams remain inside bounds.",
+      "Native source ambiguity is preserved, including Q3 option b missing a visible comparison sign, malformed host notation in shared Q56/Q57 context, blurred code/diagram labels and Q79 formula options. No inferred repairs or reconstruction performed.",
+      "Fresh rendering reproduces missing XObject Fm0 warnings. Visible source content is preserved, but the warning and third-party provenance preclude any claim that missing original content has been excluded."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2004-Q56",
+          "CS-2004-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            52.6667,
+            652.0,
+            281.3333,
+            709.3333
+          ],
+          [
+            52.6667,
+            652.0,
+            281.3333,
+            709.3333
+          ]
+        ],
+        "intersection": [
+          52.6667,
+          652.0,
+          281.3333,
+          709.3333
+        ],
+        "reason": "Identical network common-data introduction and its continuation/diagram are required by both Q56 and Q57."
+      },
+      {
+        "questions": [
+          "CS-2004-Q56",
+          "CS-2004-Q57"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            43.3333,
+            523.3333,
+            219.3333
+          ],
+          [
+            300.0,
+            43.3333,
+            523.3333,
+            219.3333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          43.3333,
+          523.3333,
+          219.3333
+        ],
+        "reason": "Identical network common-data introduction and its continuation/diagram are required by both Q56 and Q57."
+      },
+      {
+        "questions": [
+          "CS-2004-Q63",
+          "CS-2004-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            52.6667,
+            620.6667,
+            281.3333,
+            674.6667
+          ],
+          [
+            52.6667,
+            620.6667,
+            281.3333,
+            674.6667
+          ]
+        ],
+        "intersection": [
+          52.6667,
+          620.6667,
+          281.3333,
+          674.6667
+        ],
+        "reason": "Identical CPU-program common-data introduction and instruction table are required by both Q63 and Q64."
+      },
+      {
+        "questions": [
+          "CS-2004-Q63",
+          "CS-2004-Q64"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            43.3333,
+            523.3333,
+            98.6667
+          ],
+          [
+            300.0,
+            43.3333,
+            523.3333,
+            98.6667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          43.3333,
+          523.3333,
+          98.6667
+        ],
+        "reason": "Identical CPU-program common-data introduction and instruction table are required by both Q63 and Q64."
+      }
+    ],
+    "unapproved_overlap_pairs": [],
+    "corrections_required": [],
+    "limitations": [
+      "Source reports missing XObject Fm0 on all 12 pages. Visible content preserved; missing original content cannot be excluded.",
+      "Source scan is blurry, especially code, small diagram labels and formulas. No reconstruction or inferred corrections.",
+      "No original-paper completeness, answer recertification, transcription or rights certification."
+    ]
+  }
+}

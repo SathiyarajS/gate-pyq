@@ -1,4 +1,4 @@
-# Algorithms — GATE PYQ (1990–2025)
+# Algorithms — GATE PYQ (1991–2026)
 
 Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.md](../../templates/question.md) for each question.
 
@@ -6,39 +6,42 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 
 | Year | Official question count | Documented | Verified (2nd pass) | Discrepancies |
 |------|------------------------|------------|---------------------|---------------|
-| 1990 | ? | 0 | ☐ | 0 |
-| 1991 | ? | 0 | ☐ | 0 |
-| 1992 | ? | 0 | ☐ | 0 |
-| 1993 | ? | 0 | ☐ | 0 |
-| 1994 | ? | 0 | ☐ | 0 |
-| 1995 | ? | 0 | ☐ | 0 |
-| 1996 | ? | 0 | ☐ | 0 |
-| 1997 | ? | 0 | ☐ | 0 |
-| 1998 | ? | 0 | ☐ | 0 |
-| 1999 | ? | 0 | ☐ | 0 |
-| 2000 | ? | 0 | ☐ | 0 |
-| 2001 | ? | 0 | ☐ | 0 |
-| 2002 | ? | 0 | ☐ | 0 |
-| 2003 | ? | 0 | ☐ | 0 |
-| 2004 | ? | 0 | ☐ | 0 |
-| 2005 | ? | 0 | ☐ | 0 |
-| 2006 | ? | 0 | ☐ | 0 |
-| 2007 | ? | 0 | ☐ | 0 |
-| 2008 | ? | 0 | ☐ | 0 |
-| 2009 | ? | 0 | ☐ | 0 |
-| 2010 | ? | 0 | ☐ | 0 |
-| 2011 | ? | 0 | ☐ | 0 |
-| 2012 | ? | 0 | ☐ | 0 |
-| 2013 | ? | 0 | ☐ | 0 |
-| 2014 | ? | 0 | ☐ | 0 |
-| 2015 | ? | 0 | ☐ | 0 |
-| 2016 | ? | 0 | ☐ | 0 |
-| 2017 | ? | 0 | ☐ | 0 |
-| 2018 | ? | 0 | ☐ | 0 |
-| 2019 | ? | 0 | ☐ | 0 |
-| 2020 | ? | 0 | ☐ | 0 |
-| 2021 | ? | 0 | ☐ | 0 |
-| 2022 | ? | 0 | ☐ | 0 |
-| 2023 | ? | 0 | ☐ | 0 |
-| 2024 | ? | 0 | ☐ | 0 |
-| 2025 | ? | 0 | ☐ | 0 |
+| 1991 | ? | 6 (source-linked entries) | ☐ | 2 |
+| 1992 | ? | 7 (source-linked entries) | ☐ | 4 |
+| 1993 | ? | 3 (source-linked entries) | ☐ | 3 |
+| 1994 | ? | 8 (source-linked entries) | ☐ | 3 |
+| 1995 | ? | 7 (source-linked entries) | ☐ | 3 |
+| 1996 | ? | 9 (source-linked entries) | ☐ | 4 |
+| 1997 | ? | 6 (source-linked entries) | ☐ | 3 |
+| 1998 | ? | 3 (source-linked entries) | ☐ | 1 |
+| 1999 | ? | 8 (source-linked entries) | ☐ | 1 |
+| 2000 | ? | 11 (source-linked entries) | ☐ | 2 |
+| 2001 | ? | 7 (source-linked entries) | ☐ | 0 |
+| 2002 | ? | 6 (source-linked entries) | ☐ | 1 |
+| 2003 | ? | 10 (source-linked entries) | ☐ | 1 |
+| 2004 | ? | 8 (source-linked entries) | ☐ | 0 |
+| 2005 | ? | 11 (source-linked entries) | ☐ | 0 |
+| 2006 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2007 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2008 | ? | 10 (source-linked entries) | ☐ | 3 |
+| 2009 | ? | 8 (source-linked entries) | ☐ | 0 |
+| 2010 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2011 | ? | 5 (source-linked entries) | ☐ | 0 |
+| 2012 | ? | 5 (source-linked entries) | ☐ | 2 |
+| 2013 | ? | 5 (source-linked entries) | ☐ | 0 |
+| 2014 | ? | 12 (source-linked entries) | ☐ | 0 |
+| 2015 | ? | 13 (source-linked entries) | ☐ | 1 |
+| 2016 | ? | 12 (source-linked entries) | ☐ | 1 |
+| 2017 | ? | 9 (source-linked entries) | ☐ | 0 |
+| 2018 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2019 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2020 | ? | 4 (source-linked entries) | ☐ | 1 |
+| 2021 | ? | 13 (source-linked entries) | ☐ | 2 |
+| 2022 | ? | 2 (source-linked entries) | ☐ | 0 |
+| 2023 | ? | 4 (source-linked entries) | ☐ | 0 |
+| 2024 | ? | 8 (source-linked entries) | ☐ | 1 |
+| 2025 | ? | 10 (source-linked entries) | ☐ | 0 |
+
+| 2026 | ? | 10 (source-linked entries) | ☐ | 0 |
+
+Counts are subject-specific and remain unknown until all sessions are classified. Zero documented is not zero expected. Entries match the published key; transcription, final-key revision and full second review remain incomplete.

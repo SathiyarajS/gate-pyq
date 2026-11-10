@@ -1,0 +1,13 @@
+// Editable topology/layout companion; generate.py supplies final allowlisted SVG.
+digraph DFA {
+  graph [layout=neato];
+  node [shape=circle, label="", fixedsize=true, width=0.5];
+  start [shape=point, pos="0,0!"];
+  left [pos="1,0!"];
+  right [shape=doublecircle,pos="3,0!"];
+  start -> left;
+  left -> left [label="0"];
+  right -> right [label="0"];
+  left -> right [label="1"];
+  right -> left [label="1"];
+}

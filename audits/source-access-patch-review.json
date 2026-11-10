@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "records": 3406,
+  "route_variants": {
+    "indirect_official_linked_zip": 15,
+    "archived_official_pdf": 3,
+    "live_official_pdf": 12
+  },
+  "route_entries": {
+    "indirect_official_linked_zip": 1010,
+    "archived_official_pdf": 195,
+    "live_official_pdf": 780
+  },
+  "panels_checked": 1985,
+  "baseline_field_changes": {
+    "question_text_status": 661,
+    "original_source_access": 1985,
+    "source_transcription_verification_scope": 279,
+    "diagram_accessibility": 1,
+    "artwork_access_audit": 19
+  },
+  "solution_markdown_differences_after_removing_panels": [
+    "subjects/11-general-aptitude/2019.md"
+  ],
+  "idempotent_rebuild": true,
+  "route_provenance_matches_audit": true,
+  "source_access_relative_links_resolve": true,
+  "external_writes": false,
+  "limits": "Navigation validated against unchanged existing provenance and supplied audit, not a fresh visual inspection of 1,985 original questions or fresh network fetch. Unknown artwork is not classified as missing.",
+  "legacy_transcription_scope_clarifications_verified": 279
+}

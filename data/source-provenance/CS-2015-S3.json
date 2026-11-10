@@ -1,0 +1,19 @@
+{
+  "paper_id": "CS-2015-S3",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "folder_url": "https://drive.google.com/drive/folders/1sV6FgtOUDl_PGjc36Zdc0eJwK1zZ_2OF",
+  "zip_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "member": "CS/CS2015.pdf",
+  "body_physical_pages": "53\u201379; divider52",
+  "numbering": "GA1\u201310 followed by CS11\u201365; normalized ordinal equals printed number",
+  "key": "Inline annotated official answers, including Q17 interval612 to613 and Q36 interval308 to310. Single numeric answers preserved without invented tolerances.",
+  "alternate_archived_official": "https://web.archive.org/web/20170712123626id_/http://www.gate.iitg.ac.in:80/2015answers/CS_S07.pdf",
+  "alternate_mapping": "S07 pages1\u201327 correspond to member pages53\u201379; NAT labels/values compared and matched.",
+  "final_revision_verified": false,
+  "source_sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+  "source_page_note": "Question label can appear at bottom of preceding page; links may point to label or substantive content page.",
+  "exam_date": "2015-02-08",
+  "exam_shift": 1,
+  "archive_variant_label": "SESSION - 3",
+  "session_note": "Original annotated cover states date and shift, not a numeric exam-session identifier. S1/S2/S3 are retained as archive variant labels; official_session is null."
+}

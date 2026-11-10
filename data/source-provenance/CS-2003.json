@@ -1,0 +1,30 @@
+{
+  "year": 2003,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/2003-gfg.pdf",
+  "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+  "pages": "13",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "90",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "reproduction_instructions": {
+    "objective_items": 90,
+    "marks": 150,
+    "one_mark": "1\u201330",
+    "two_marks": "31\u201390",
+    "verified_from": "2003-gateforum-p1.png"
+  },
+  "questions": 90,
+  "inventory_scope": "Observed reproduced questions1\u201390 only; original official completeness unverified",
+  "alternate_reproduction": {
+    "year": 2003,
+    "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs2003.pdf",
+    "path": "/workspace/shared/gate1991-2006-research/2003-gateforum.pdf",
+    "sha256": "976eac4758a3670041e1b24cec549680a9ab9edc4c9910a91b433d045590aa38",
+    "pages": "25",
+    "provenance": "Third-party GateForum reproduction hosted on personal Wordpress; not official, rights notice present, use only source reference and independent solutions"
+  },
+  "count_and_marks": "90 observed reproduced questions, Q1\u201330 one mark and Q31\u201390 two marks, total150. Original official completeness unverified."
+}

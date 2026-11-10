@@ -1,0 +1,118 @@
+<svg viewBox="0.00 0.00 483.00 185.50" xmlns="http://www.w3.org/2000/svg">
+<title>Weighted undirected graph</title><g transform="scale(1 1) rotate(0) translate(4 181.5)">
+<title>G</title>
+<g>
+<title>a</title>
+<ellipse fill="none" stroke="currentColor" cx="17.5" cy="-87.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="17.5" y="-82.5" font-family="serif" font-size="20.00">a</text>
+</g>
+
+<g>
+<title>b</title>
+<ellipse fill="none" stroke="currentColor" cx="127.5" cy="-157.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="127.5" y="-152.5" font-family="serif" font-size="20.00">b</text>
+</g>
+
+<g>
+<title>a--b</title>
+<path fill="none" stroke="currentColor" d="M32.34,-96.94C53.33,-110.3 91.49,-134.59 112.55,-147.99" />
+<text text-anchor="middle" x="67.42" y="-128.05" font-family="serif" font-size="18.00">1</text>
+</g>
+
+<g>
+<title>f</title>
+<ellipse fill="none" stroke="currentColor" cx="127.5" cy="-17.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="127.5" y="-12.5" font-family="serif" font-size="20.00">f</text>
+</g>
+
+<g>
+<title>a--f</title>
+<path fill="none" stroke="currentColor" d="M32.34,-78.06C53.33,-64.7 91.49,-40.41 112.55,-27.01" />
+<text text-anchor="middle" x="67.42" y="-58.15" font-family="serif" font-size="18.00">1</text>
+</g>
+
+<g>
+<title>g</title>
+<ellipse fill="none" stroke="currentColor" cx="237.5" cy="-87.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="237.5" y="-82.5" font-family="serif" font-size="20.00">g</text>
+</g>
+
+<g>
+<title>a--g</title>
+<path fill="none" stroke="currentColor" d="M35.13,-87.5C76.32,-87.5 178.51,-87.5 219.78,-87.5" />
+<text text-anchor="middle" x="122.43" y="-93.1" font-family="serif" font-size="18.00">2</text>
+</g>
+
+<g>
+<title>c</title>
+<ellipse fill="none" stroke="currentColor" cx="347.5" cy="-157.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="347.5" y="-152.5" font-family="serif" font-size="20.00">c</text>
+</g>
+
+<g>
+<title>b--c</title>
+<path fill="none" stroke="currentColor" d="M145.13,-157.5C186.32,-157.5 288.51,-157.5 329.78,-157.5" />
+<text text-anchor="middle" x="232.43" y="-163.1" font-family="serif" font-size="18.00">3</text>
+</g>
+
+<g>
+<title>b--g</title>
+<path fill="none" stroke="currentColor" d="M142.34,-148.06C163.33,-134.7 201.49,-110.41 222.55,-97.01" />
+<text text-anchor="middle" x="177.42" y="-128.15" font-family="serif" font-size="18.00">2</text>
+</g>
+
+<g>
+<title>d</title>
+<ellipse fill="none" stroke="currentColor" cx="457.5" cy="-87.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="457.5" y="-82.5" font-family="serif" font-size="20.00">d</text>
+</g>
+
+<g>
+<title>c--d</title>
+<path fill="none" stroke="currentColor" d="M362.34,-148.06C383.33,-134.7 421.49,-110.41 442.55,-97.01" />
+<text text-anchor="middle" x="397.42" y="-128.15" font-family="serif" font-size="18.00">1</text>
+</g>
+
+<g>
+<title>c--g</title>
+<path fill="none" stroke="currentColor" d="M332.66,-148.06C311.67,-134.7 273.51,-110.41 252.45,-97.01" />
+<text text-anchor="middle" x="287.58" y="-128.15" font-family="serif" font-size="18.00">2</text>
+</g>
+
+<g>
+<title>e</title>
+<ellipse fill="none" stroke="currentColor" cx="347.5" cy="-17.5" rx="17.5" ry="17.5" />
+<text text-anchor="middle" x="347.5" y="-12.5" font-family="serif" font-size="20.00">e</text>
+</g>
+
+<g>
+<title>d--e</title>
+<path fill="none" stroke="currentColor" d="M442.66,-78.06C421.67,-64.7 383.51,-40.41 362.45,-27.01" />
+<text text-anchor="middle" x="397.58" y="-58.15" font-family="serif" font-size="18.00">1</text>
+</g>
+
+<g>
+<title>d--g</title>
+<path fill="none" stroke="currentColor" d="M439.87,-87.5C398.68,-87.5 296.49,-87.5 255.22,-87.5" />
+<text text-anchor="middle" x="342.57" y="-93.1" font-family="serif" font-size="18.00">2</text>
+</g>
+
+<g>
+<title>e--f</title>
+<path fill="none" stroke="currentColor" d="M329.87,-17.5C288.68,-17.5 186.49,-17.5 145.22,-17.5" />
+<text text-anchor="middle" x="232.57" y="-23.1" font-family="serif" font-size="18.00">3</text>
+</g>
+
+<g>
+<title>e--g</title>
+<path fill="none" stroke="currentColor" d="M332.66,-26.94C311.67,-40.3 273.51,-64.59 252.45,-77.99" />
+<text text-anchor="middle" x="287.58" y="-58.05" font-family="serif" font-size="18.00">2</text>
+</g>
+
+<g>
+<title>f--g</title>
+<path fill="none" stroke="currentColor" d="M142.34,-26.94C163.33,-40.3 201.49,-64.59 222.55,-77.99" />
+<text text-anchor="middle" x="177.42" y="-58.05" font-family="serif" font-size="18.00">2</text>
+</g>
+</g>
+</svg>

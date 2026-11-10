@@ -1,0 +1,628 @@
+{
+  "paper_id": "CS-2010",
+  "status": "pass_with_retained_source_and_model_qualifications",
+  "reviewer": "independent native reviewer review_2010_solution_depth",
+  "review_scope": "All 65 essential question paraphrases, four-option sets, code, figure replacements, shared data and full teaching solutions reviewed against baseline and visually rendered PDF pages 2–16. No external writes or repository edits.",
+  "source_pdf": "/tmp/gate-2010-CS.pdf",
+  "source_pdf_sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+  "reviewed_contribution_hashes": {
+    "cs-2010-expanded.json": "4eb43f66ecddb04ce4a9c042995d92d122d0da41db4c38858d8c1add2beb796a",
+    "cs-2010-expanded.md": "49c956618cc9e6e13af5a7edae3913c175d445e1147f04942620d1712d087c88"
+  },
+  "author_checker": {
+    "path": "/workspace/shared/contributions/check_cs_2010_expanded.py",
+    "result": "PASS",
+    "independently_executed": true
+  },
+  "independent_checks": {
+    "all65_unique_ids_and_printed_numbers": true,
+    "null_official_keys": true,
+    "derived_answers_preserved": true,
+    "markdown_json_question_and_solution_agreement": true,
+    "original_pdf_hash_matches_provenance": true,
+    "Q38_graphical_sequences": true,
+    "Q41_NOR_all_assignments": true,
+    "Q44_weight_recurrence_exhaustive_small": true,
+    "Q45_recursive_result": true,
+    "Q49_regex_even_parity": true,
+    "Q50_L4_decomposition": true,
+    "Q51_NFA_construction": true,
+    "Q57_masks": true
+  },
+  "material_findings": [],
+  "contribution_edits": [],
+  "retained_qualifications": [
+    "No official answer key located; official_answer and key_url remain null for all 65. This audit validates independent derivations, not official scoring.",
+    "Q56 (printed 46): source is faint in odd-branch resource subscripts. R(n−i), R(n−i−2) is a qualified interpretation, not a newly certain transcription. The printed i−2<n guard remains unchanged; source_transcription_verified remains false.",
+    "Q17 parallel refresh; Q24 heap-style allocation; Q28 internal-node versus leaf occupancy; Q33 atomic sequential consistency; Q35 qualitative RR response-time comparison; Q43 single shared unpipelined PO stage; Q44 empty-subsequence convention; Q47 no constant folding and register reuse; Q53 set relational semantics; Q55 progress and binary saturation; Q58–59 serialized cache-transfer model remain explicit.",
+    "Question text is essential paraphrase, not claimed verbatim transcription. Reading passage Q8 preserves the source argument and stance. All figure replacements preserve needed wiring, labels, weights, state and shared data."
+  ],
+  "per_question": [
+    {
+      "question_id": "CS-2010-Q1",
+      "printed_question_number": "56",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q2",
+      "printed_question_number": "57",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q3",
+      "printed_question_number": "58",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q4",
+      "printed_question_number": "59",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q5",
+      "printed_question_number": "60",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q6",
+      "printed_question_number": "61",
+      "source_page": 15,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q7",
+      "printed_question_number": "62",
+      "source_page": 16,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q8",
+      "printed_question_number": "63",
+      "source_page": 16,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q9",
+      "printed_question_number": "64",
+      "source_page": 16,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q10",
+      "printed_question_number": "65",
+      "source_page": 16,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q11",
+      "printed_question_number": "1",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q12",
+      "printed_question_number": "2",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q13",
+      "printed_question_number": "3",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q14",
+      "printed_question_number": "4",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q15",
+      "printed_question_number": "5",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q16",
+      "printed_question_number": "6",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q17",
+      "printed_question_number": "7",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q18",
+      "printed_question_number": "8",
+      "source_page": 2,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q19",
+      "printed_question_number": "9",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q20",
+      "printed_question_number": "10",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q21",
+      "printed_question_number": "11",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q22",
+      "printed_question_number": "12",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q23",
+      "printed_question_number": "13",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q24",
+      "printed_question_number": "14",
+      "source_page": 3,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q25",
+      "printed_question_number": "15",
+      "source_page": 4,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q26",
+      "printed_question_number": "16",
+      "source_page": 4,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q27",
+      "printed_question_number": "17",
+      "source_page": 4,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q28",
+      "printed_question_number": "18",
+      "source_page": 4,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q29",
+      "printed_question_number": "19",
+      "source_page": 4,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q30",
+      "printed_question_number": "20",
+      "source_page": 5,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q31",
+      "printed_question_number": "21",
+      "source_page": 5,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q32",
+      "printed_question_number": "22",
+      "source_page": 5,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q33",
+      "printed_question_number": "23",
+      "source_page": 5,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q34",
+      "printed_question_number": "24",
+      "source_page": 5,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q35",
+      "printed_question_number": "25",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q36",
+      "printed_question_number": "26",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q37",
+      "printed_question_number": "27",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q38",
+      "printed_question_number": "28",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q39",
+      "printed_question_number": "29",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q40",
+      "printed_question_number": "30",
+      "source_page": 6,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q41",
+      "printed_question_number": "31",
+      "source_page": 7,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q42",
+      "printed_question_number": "32",
+      "source_page": 7,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q43",
+      "printed_question_number": "33",
+      "source_page": 8,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q44",
+      "printed_question_number": "34",
+      "source_page": 8,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q45",
+      "printed_question_number": "35",
+      "source_page": 8,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q46",
+      "printed_question_number": "36",
+      "source_page": 9,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q47",
+      "printed_question_number": "37",
+      "source_page": 9,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q48",
+      "printed_question_number": "38",
+      "source_page": 9,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q49",
+      "printed_question_number": "39",
+      "source_page": 9,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q50",
+      "printed_question_number": "40",
+      "source_page": 10,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q51",
+      "printed_question_number": "41",
+      "source_page": 10,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q52",
+      "printed_question_number": "42",
+      "source_page": 10,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q53",
+      "printed_question_number": "43",
+      "source_page": 10,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q54",
+      "printed_question_number": "44",
+      "source_page": 11,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q55",
+      "printed_question_number": "45",
+      "source_page": 11,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q56",
+      "printed_question_number": "46",
+      "source_page": 11,
+      "source_visual_review": "qualified_pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass_with_recorded_source_reading"
+    },
+    {
+      "question_id": "CS-2010-Q57",
+      "printed_question_number": "47",
+      "source_page": 11,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q58",
+      "printed_question_number": "48",
+      "source_page": 12,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q59",
+      "printed_question_number": "49",
+      "source_page": 12,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q60",
+      "printed_question_number": "50",
+      "source_page": 12,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q61",
+      "printed_question_number": "51",
+      "source_page": 12,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q62",
+      "printed_question_number": "52",
+      "source_page": 13,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q63",
+      "printed_question_number": "53",
+      "source_page": 13,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q64",
+      "printed_question_number": "54",
+      "source_page": 14,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    },
+    {
+      "question_id": "CS-2010-Q65",
+      "printed_question_number": "55",
+      "source_page": 14,
+      "source_visual_review": "pass",
+      "solution_depth_review": "pass",
+      "options_review": "pass",
+      "derived_answer_review": "pass"
+    }
+  ],
+  "metadata_note": "Contribution pending review fields were intentionally not changed; this independent audit is the evidence for the parent to apply final status. Existing historical independent_review fields remain untouched."
+}

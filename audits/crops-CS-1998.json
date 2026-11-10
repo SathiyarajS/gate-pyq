@@ -1,0 +1,2607 @@
+{
+  "paper_id": "CS-1998",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "38eacc554e9f885a37c6c040374f4fe329aa67cbb4ba46a105f6c23539b1bcec",
+  "preparation_evidence_sha256": "8838e3c2df3fed4a92211095919ea2657e3ed731c57a628e0bc9afe5187e5ad1",
+  "independent_review_evidence_sha256": "ba5706933ec836dd62e3016df3a921e4050c1f3062de5cf35da3a81769f61db6",
+  "questions": 100,
+  "crop_parts": 149,
+  "verified_questions": 100,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1998",
+    "status": "approved",
+    "scope": "Independent crop-bounds and available canonical-render fidelity only. Not original completeness, transcription, answer or rights certification.",
+    "crops_sha256": "38eacc554e9f885a37c6c040374f4fe329aa67cbb4ba46a105f6c23539b1bcec",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+    "source_sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "questions": 100,
+    "crop_parts": 149,
+    "full_source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_output_contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1998-Q56",
+          "CS-1998-Q57"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 5,
+        "source_bboxes": [
+          [
+            300.6667,
+            684.6667,
+            524.6667,
+            698.6667
+          ],
+          [
+            300.6667,
+            684.6667,
+            524.6667,
+            698.6667
+          ]
+        ],
+        "intersection": [
+          300.66668701171875,
+          684.6666870117188,
+          524.6666870117188,
+          698.6666870117188
+        ],
+        "reason": "Shared printed 56 heading; separate a and b bodies."
+      },
+      {
+        "questions": [
+          "CS-1998-Q59",
+          "CS-1998-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            304.6667,
+            280.6667,
+            412.0
+          ],
+          [
+            53.3333,
+            304.6667,
+            280.6667,
+            412.0
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          304.66668701171875,
+          280.66668701171875,
+          412.0
+        ],
+        "reason": "Implication truth definition and diagram in a are prerequisite for functional completeness b; source has no parent numeral."
+      },
+      {
+        "questions": [
+          "CS-1998-Q61",
+          "CS-1998-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            438.0,
+            280.6667,
+            450.6667
+          ],
+          [
+            53.3333,
+            438.0,
+            280.6667,
+            450.6667
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          438.0,
+          280.66668701171875,
+          450.66668701171875
+        ],
+        "reason": "Shared printed 58 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q63",
+          "CS-1998-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.3333,
+            563.3333,
+            280.6667,
+            575.3333
+          ],
+          [
+            53.3333,
+            563.3333,
+            280.6667,
+            575.3333
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          563.3333129882812,
+          280.66668701171875,
+          575.3333129882812
+        ],
+        "reason": "Shared printed 59 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q65",
+          "CS-1998-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.6667,
+            414.6667,
+            524.6667,
+            428.6667
+          ],
+          [
+            300.6667,
+            414.6667,
+            524.6667,
+            428.6667
+          ]
+        ],
+        "intersection": [
+          300.66668701171875,
+          414.66668701171875,
+          524.6666870117188,
+          428.66668701171875
+        ],
+        "reason": "Shared printed 60 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q68",
+          "CS-1998-Q69"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.6667,
+            584.6667,
+            524.6667,
+            597.3333
+          ],
+          [
+            300.6667,
+            584.6667,
+            524.6667,
+            597.3333
+          ]
+        ],
+        "intersection": [
+          300.66668701171875,
+          584.6666870117188,
+          524.6666870117188,
+          597.3333129882812
+        ],
+        "reason": "Shared printed 62 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q70",
+          "CS-1998-Q71"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ],
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          150.6667022705078,
+          226.0,
+          190.0
+        ],
+        "reason": "Shared set A and partition Pi1 for relation, graph and partition refinement prompts."
+      },
+      {
+        "questions": [
+          "CS-1998-Q70",
+          "CS-1998-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ],
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          150.6667022705078,
+          226.0,
+          190.0
+        ],
+        "reason": "Shared set A and partition Pi1 for relation, graph and partition refinement prompts."
+      },
+      {
+        "questions": [
+          "CS-1998-Q71",
+          "CS-1998-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ],
+          [
+            42.6667,
+            150.6667,
+            226.0,
+            190.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          150.6667022705078,
+          226.0,
+          190.0
+        ],
+        "reason": "Shared set A and partition Pi1 for relation, graph and partition refinement prompts."
+      },
+      {
+        "questions": [
+          "CS-1998-Q73",
+          "CS-1998-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ],
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          314.0,
+          226.0,
+          353.33331298828125
+        ],
+        "reason": "Common semigroup and noncommutativity assumptions required by each proof."
+      },
+      {
+        "questions": [
+          "CS-1998-Q73",
+          "CS-1998-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ],
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          314.0,
+          226.0,
+          353.33331298828125
+        ],
+        "reason": "Common semigroup and noncommutativity assumptions required by each proof."
+      },
+      {
+        "questions": [
+          "CS-1998-Q74",
+          "CS-1998-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ],
+          [
+            42.6667,
+            314.0,
+            226.0,
+            353.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          314.0,
+          226.0,
+          353.33331298828125
+        ],
+        "reason": "Common semigroup and noncommutativity assumptions required by each proof."
+      },
+      {
+        "questions": [
+          "CS-1998-Q76",
+          "CS-1998-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            430.0,
+            226.0,
+            548.6667
+          ],
+          [
+            42.6667,
+            430.0,
+            226.0,
+            548.6667
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          430.0,
+          226.0,
+          548.6666870117188
+        ],
+        "reason": "Complete shared PDA definition and transitions required by language and working descriptions."
+      },
+      {
+        "questions": [
+          "CS-1998-Q78",
+          "CS-1998-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ],
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          599.3333129882812,
+          226.0,
+          611.3333129882812
+        ],
+        "reason": "Shared printed 66 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q78",
+          "CS-1998-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ],
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          599.3333129882812,
+          226.0,
+          611.3333129882812
+        ],
+        "reason": "Shared printed 66 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q78",
+          "CS-1998-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ],
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          611.3333129882812,
+          226.0,
+          714.0
+        ],
+        "reason": "Grammar in a explicitly needed by b, whose language is referenced by c; retained prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1998-Q78",
+          "CS-1998-Q80"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ],
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          611.3333129882812,
+          226.0,
+          714.0
+        ],
+        "reason": "Grammar in a explicitly needed by b, whose language is referenced by c; retained prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1998-Q79",
+          "CS-1998-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ],
+          [
+            42.6667,
+            599.3333,
+            226.0,
+            611.3333
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          599.3333129882812,
+          226.0,
+          611.3333129882812
+        ],
+        "reason": "Shared printed 66 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q79",
+          "CS-1998-Q80"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ],
+          [
+            42.6667,
+            611.3333,
+            226.0,
+            714.0
+          ]
+        ],
+        "intersection": [
+          42.66669845581055,
+          611.3333129882812,
+          226.0,
+          714.0
+        ],
+        "reason": "Grammar in a explicitly needed by b, whose language is referenced by c; retained prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1998-Q79",
+          "CS-1998-Q80"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            243.3333,
+            44.0,
+            424.6667,
+            98.6667
+          ],
+          [
+            243.3333,
+            44.0,
+            424.6667,
+            98.6667
+          ]
+        ],
+        "intersection": [
+          243.3332977294922,
+          44.0,
+          424.66668701171875,
+          98.66670227050781
+        ],
+        "reason": "Part b defines L2 queried by ambiguity part c."
+      },
+      {
+        "questions": [
+          "CS-1998-Q81",
+          "CS-1998-Q82"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            243.3333,
+            110.6667,
+            424.6667,
+            124.0
+          ],
+          [
+            243.3333,
+            110.6667,
+            424.6667,
+            124.0
+          ]
+        ],
+        "intersection": [
+          243.3332977294922,
+          110.66670227050781,
+          424.66668701171875,
+          124.0
+        ],
+        "reason": "Shared printed 67 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q81",
+          "CS-1998-Q82"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            243.3333,
+            124.0,
+            424.6667,
+            187.3333
+          ],
+          [
+            243.3333,
+            124.0,
+            424.6667,
+            187.3333
+          ]
+        ],
+        "intersection": [
+          243.3332977294922,
+          124.0,
+          424.66668701171875,
+          187.3332977294922
+        ],
+        "reason": "Part a supplies pulse-measurement hardware and TTL assumptions required by dependent 8085 program b."
+      },
+      {
+        "questions": [
+          "CS-1998-Q86",
+          "CS-1998-Q87"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            243.3333,
+            540.0,
+            424.6667,
+            552.6667
+          ],
+          [
+            243.3333,
+            540.0,
+            424.6667,
+            552.6667
+          ]
+        ],
+        "intersection": [
+          243.3332977294922,
+          540.0,
+          424.66668701171875,
+          552.6666870117188
+        ],
+        "reason": "Shared printed 71 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q89",
+          "CS-1998-Q90"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            94.0,
+            280.6667,
+            106.6667
+          ],
+          [
+            53.3333,
+            94.0,
+            280.6667,
+            106.6667
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          94.0,
+          280.66668701171875,
+          106.66670227050781
+        ],
+        "reason": "Shared printed 73 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q91",
+          "CS-1998-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            156.0,
+            280.6667,
+            168.6667
+          ],
+          [
+            53.3333,
+            156.0,
+            280.6667,
+            168.6667
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          156.0,
+          280.66668701171875,
+          168.6667022705078
+        ],
+        "reason": "Shared printed 74 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q94",
+          "CS-1998-Q95"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            442.6667,
+            280.6667,
+            454.6667
+          ],
+          [
+            53.3333,
+            442.6667,
+            280.6667,
+            454.6667
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          442.66668701171875,
+          280.66668701171875,
+          454.66668701171875
+        ],
+        "reason": "Shared printed 76 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q96",
+          "CS-1998-Q97"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.3333,
+            652.6667,
+            280.6667,
+            666.6667
+          ],
+          [
+            53.3333,
+            652.6667,
+            280.6667,
+            666.6667
+          ]
+        ],
+        "intersection": [
+          53.33330154418945,
+          652.6666870117188,
+          280.66668701171875,
+          666.6666870117188
+        ],
+        "reason": "Shared printed 77 heading; individual bodies retained separately."
+      },
+      {
+        "questions": [
+          "CS-1998-Q98",
+          "CS-1998-Q99"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.6667,
+            267.3333,
+            524.6667,
+            352.6667
+          ],
+          [
+            300.6667,
+            267.3333,
+            524.6667,
+            352.6667
+          ]
+        ],
+        "intersection": [
+          300.66668701171875,
+          267.33331298828125,
+          524.6666870117188,
+          352.66668701171875
+        ],
+        "reason": "Common relation attributes and original primary key required by both normal-form prompts."
+      }
+    ],
+    "unexpected_overlap_pairs": [],
+    "fresh_byte_identity": {
+      "tested": 149,
+      "matched": 149,
+      "render": "PyMuPDF 3x RGB alpha=False, PIL WEBP quality80"
+    },
+    "findings": [
+      "Independently opened all eight full pages and all seven contact sheets containing every actual output. Own labels, complete available stems/options/code/tables/graphs and multipart reading order retained. No unrelated question, section instructions or page decoration leaks observed.",
+      "Objective normalized Q1-Q55 preserve printed 1-55. Continuations Q5, Q17, Q30, Q41, Q47 and Q51 inspected across columns/pages. Descriptive mapping independently matched source topics and visible labels to records; detailed mappings attached.",
+      "Q56/Q57 share heading on page 5 and separate a/b bodies on page 6. Q58 is printed 57 DFA. Q59/Q60 are following implication a/b without parent numeral; no invented number added. Printed 58 onward maps by subpart content rather than normalized ordinal.",
+      "Q63 SQL continuation, Q69 complete two-component graph, Q88 traversal continuation and Q96/Q97 bodies across columns retain all available content. Shared and prerequisite overlaps explicitly checked individually; all 28 are identical rectangles, with no nonidentical or unexpected overlaps.",
+      "Canonical source SHA matches repository source map and all 100 record source hashes. Fresh independent 3x WEBP80 rendering of every part is byte-identical to reviewed files.",
+      "Source emits missing XObject Fm0 warnings. This review covers only visible available rendering; original completeness and possible missing objects remain unverified.",
+      "Q86 / printed 71(a) refers to a linked-list figure absent from the full canonical page. Its visible pointer code is retained, with no reconstructed figure.",
+      "Native blur and ambiguous symbols retained, including regex Q9/Q12, Q42 bars and map order, Q54 algebra, Q64 table, Q65 constant sign, Q76/Q77 PDA, Q79 language and Q93 decimal notation. No semantic correction inferred.",
+      "Q66 integral viewed at full output resolution: upper and lower limits retained after boundary at y478 points. Adjacent cubic remains separate.",
+      "Q59 canonical text visibly says only four implication gates, contrary to paraphrase claim that GFG omitted the count. This inconsistency is reported without editing source or answer.",
+      "No repository edits, publication or push performed."
+    ],
+    "record_mapping": [
+      {
+        "question_id": "CS-1998-Q1",
+        "normalized_printed_question_number": "1.1",
+        "actual_reproduction_label": "1",
+        "title": "Exactly one odd die result"
+      },
+      {
+        "question_id": "CS-1998-Q2",
+        "normalized_printed_question_number": "1.2",
+        "actual_reproduction_label": "2",
+        "title": "Consistency of simultaneous equations"
+      },
+      {
+        "question_id": "CS-1998-Q3",
+        "normalized_printed_question_number": "1.3",
+        "actual_reproduction_label": "3",
+        "title": "Requirement for bisection"
+      },
+      {
+        "question_id": "CS-1998-Q4",
+        "normalized_printed_question_number": "1.4",
+        "actual_reproduction_label": "4",
+        "title": "Continuity of absolute value"
+      },
+      {
+        "question_id": "CS-1998-Q5",
+        "normalized_printed_question_number": "1.5",
+        "actual_reproduction_label": "5",
+        "title": "Converse of only-if implication"
+      },
+      {
+        "question_id": "CS-1998-Q6",
+        "normalized_printed_question_number": "1.6",
+        "actual_reproduction_label": "6",
+        "title": "Largest equivalence relation"
+      },
+      {
+        "question_id": "CS-1998-Q7",
+        "normalized_printed_question_number": "1.7",
+        "actual_reproduction_label": "7",
+        "title": "Union and intersection of equivalences"
+      },
+      {
+        "question_id": "CS-1998-Q8",
+        "normalized_printed_question_number": "1.8",
+        "actual_reproduction_label": "8",
+        "title": "Counting all functions"
+      },
+      {
+        "question_id": "CS-1998-Q9",
+        "normalized_printed_question_number": "1.9",
+        "actual_reproduction_label": "9",
+        "title": "Equivalent regular-expression groupings"
+      },
+      {
+        "question_id": "CS-1998-Q10",
+        "normalized_printed_question_number": "1.10",
+        "actual_reproduction_label": "10",
+        "title": "Recognizable numerical languages"
+      },
+      {
+        "question_id": "CS-1998-Q11",
+        "normalized_printed_question_number": "1.11",
+        "actual_reproduction_label": "11",
+        "title": "Limits of nondeterminism"
+      },
+      {
+        "question_id": "CS-1998-Q12",
+        "normalized_printed_question_number": "1.12",
+        "actual_reproduction_label": "12",
+        "title": "Testing a word against four regexes"
+      },
+      {
+        "question_id": "CS-1998-Q13",
+        "normalized_printed_question_number": "1.13",
+        "actual_reproduction_label": "13",
+        "title": "Repeated XOR parity"
+      },
+      {
+        "question_id": "CS-1998-Q14",
+        "normalized_printed_question_number": "1.14",
+        "actual_reproduction_label": "14",
+        "title": "Multiplexer select width"
+      },
+      {
+        "question_id": "CS-1998-Q15",
+        "normalized_printed_question_number": "1.15",
+        "actual_reproduction_label": "15",
+        "title": "TTL high-level voltage"
+      },
+      {
+        "question_id": "CS-1998-Q16",
+        "normalized_printed_question_number": "1.16",
+        "actual_reproduction_label": "16",
+        "title": "Serial framing and minimum baud"
+      },
+      {
+        "question_id": "CS-1998-Q17",
+        "normalized_printed_question_number": "1.17",
+        "actual_reproduction_label": "17",
+        "title": "Interpreting an eight-bit octal pattern"
+      },
+      {
+        "question_id": "CS-1998-Q18",
+        "normalized_printed_question_number": "1.18",
+        "actual_reproduction_label": "18",
+        "title": "Interrupt-priority policy"
+      },
+      {
+        "question_id": "CS-1998-Q19",
+        "normalized_printed_question_number": "1.19",
+        "actual_reproduction_label": "19",
+        "title": "Relocation without modifying instructions"
+      },
+      {
+        "question_id": "CS-1998-Q20",
+        "normalized_printed_question_number": "1.20",
+        "actual_reproduction_label": "20",
+        "title": "Instruction-boundary interrupt checks"
+      },
+      {
+        "question_id": "CS-1998-Q21",
+        "normalized_printed_question_number": "1.21",
+        "actual_reproduction_label": "21",
+        "title": "All-pairs shortest paths"
+      },
+      {
+        "question_id": "CS-1998-Q22",
+        "normalized_printed_question_number": "1.22",
+        "actual_reproduction_label": "22",
+        "title": "Matching algorithm costs"
+      },
+      {
+        "question_id": "CS-1998-Q23",
+        "normalized_printed_question_number": "1.23",
+        "actual_reproduction_label": "23",
+        "title": "Counting substring occurrences"
+      },
+      {
+        "question_id": "CS-1998-Q24",
+        "normalized_printed_question_number": "1.24",
+        "actual_reproduction_label": "24",
+        "title": "Tree facts and traversal uniqueness"
+      },
+      {
+        "question_id": "CS-1998-Q25",
+        "normalized_printed_question_number": "1.25",
+        "actual_reproduction_label": "25",
+        "title": "Resident loading support"
+      },
+      {
+        "question_id": "CS-1998-Q26",
+        "normalized_printed_question_number": "1.26",
+        "actual_reproduction_label": "26",
+        "title": "Parser grammar-class inclusion"
+      },
+      {
+        "question_id": "CS-1998-Q27",
+        "normalized_printed_question_number": "1.27",
+        "actual_reproduction_label": "27",
+        "title": "Where type checking occurs"
+      },
+      {
+        "question_id": "CS-1998-Q28",
+        "normalized_printed_question_number": "1.28",
+        "actual_reproduction_label": "28",
+        "title": "Relocation constants for concatenated modules"
+      },
+      {
+        "question_id": "CS-1998-Q29",
+        "normalized_printed_question_number": "1.29",
+        "actual_reproduction_label": "29",
+        "title": "A spooled device"
+      },
+      {
+        "question_id": "CS-1998-Q30",
+        "normalized_printed_question_number": "1.30",
+        "actual_reproduction_label": "30",
+        "title": "Timing-dependent shared computation"
+      },
+      {
+        "question_id": "CS-1998-Q31",
+        "normalized_printed_question_number": "1.31",
+        "actual_reproduction_label": "31",
+        "title": "Net semaphore updates"
+      },
+      {
+        "question_id": "CS-1998-Q32",
+        "normalized_printed_question_number": "1.32",
+        "actual_reproduction_label": "32",
+        "title": "Deadlock-free tape-drive bound"
+      },
+      {
+        "question_id": "CS-1998-Q33",
+        "normalized_printed_question_number": "1.33",
+        "actual_reproduction_label": "33",
+        "title": "Equijoin and intersection"
+      },
+      {
+        "question_id": "CS-1998-Q34",
+        "normalized_printed_question_number": "1.34",
+        "actual_reproduction_label": "34",
+        "title": "A practical normalization target"
+      },
+      {
+        "question_id": "CS-1998-Q35",
+        "normalized_printed_question_number": "1.35",
+        "actual_reproduction_label": "35",
+        "title": "Identifying a sorted index"
+      },
+      {
+        "question_id": "CS-1998-Q36",
+        "normalized_printed_question_number": "2.1",
+        "actual_reproduction_label": "36",
+        "title": "Rank from dependent rows"
+      },
+      {
+        "question_id": "CS-1998-Q37",
+        "normalized_printed_question_number": "2.2",
+        "actual_reproduction_label": "37",
+        "title": "A factor of a symbolic determinant"
+      },
+      {
+        "question_id": "CS-1998-Q38",
+        "normalized_printed_question_number": "2.3",
+        "actual_reproduction_label": "38",
+        "title": "Relation with a missing diagonal"
+      },
+      {
+        "question_id": "CS-1998-Q39",
+        "normalized_printed_question_number": "2.4",
+        "actual_reproduction_label": "39",
+        "title": "Three-language inclusion-exclusion"
+      },
+      {
+        "question_id": "CS-1998-Q40",
+        "normalized_printed_question_number": "2.5",
+        "actual_reproduction_label": "40",
+        "title": "Minimum DFA remembering equal final bits"
+      },
+      {
+        "question_id": "CS-1998-Q41",
+        "normalized_printed_question_number": "2.6",
+        "actual_reproduction_label": "41",
+        "title": "False regular-language subset claim"
+      },
+      {
+        "question_id": "CS-1998-Q42",
+        "normalized_printed_question_number": "2.7",
+        "actual_reproduction_label": "42",
+        "title": "A map with binary-ordered columns"
+      },
+      {
+        "question_id": "CS-1998-Q43",
+        "normalized_printed_question_number": "2.8",
+        "actual_reproduction_label": "43",
+        "title": "Commutative but nonassociative operator"
+      },
+      {
+        "question_id": "CS-1998-Q44",
+        "normalized_printed_question_number": "2.9",
+        "actual_reproduction_label": "44",
+        "title": "Low-level floppy formatting"
+      },
+      {
+        "question_id": "CS-1998-Q45",
+        "normalized_printed_question_number": "2.10",
+        "actual_reproduction_label": "45",
+        "title": "8086 physical address space"
+      },
+      {
+        "question_id": "CS-1998-Q46",
+        "normalized_printed_question_number": "2.11",
+        "actual_reproduction_label": "46",
+        "title": "Leaves in a full n-ary tree"
+      },
+      {
+        "question_id": "CS-1998-Q47",
+        "normalized_printed_question_number": "2.12",
+        "actual_reproduction_label": "47",
+        "title": "Nested recursion yielding91"
+      },
+      {
+        "question_id": "CS-1998-Q48",
+        "normalized_printed_question_number": "2.13",
+        "actual_reproduction_label": "48",
+        "title": "Two reference-parameter function calls"
+      },
+      {
+        "question_id": "CS-1998-Q49",
+        "normalized_printed_question_number": "2.14",
+        "actual_reproduction_label": "49",
+        "title": "Row-major array address"
+      },
+      {
+        "question_id": "CS-1998-Q50",
+        "normalized_printed_question_number": "2.15",
+        "actual_reproduction_label": "50",
+        "title": "Constant-time access to lexical ancestors"
+      },
+      {
+        "question_id": "CS-1998-Q51",
+        "normalized_printed_question_number": "2.16",
+        "actual_reproduction_label": "51",
+        "title": "Maximum resident overlay path"
+      },
+      {
+        "question_id": "CS-1998-Q52",
+        "normalized_printed_question_number": "2.17",
+        "actual_reproduction_label": "52",
+        "title": "Round-robin waiting-time constraint"
+      },
+      {
+        "question_id": "CS-1998-Q53",
+        "normalized_printed_question_number": "2.18",
+        "actual_reproduction_label": "53",
+        "title": "Amortized page-fault cost"
+      },
+      {
+        "question_id": "CS-1998-Q54",
+        "normalized_printed_question_number": "2.19",
+        "actual_reproduction_label": "54",
+        "title": "Moving selections across projections"
+      },
+      {
+        "question_id": "CS-1998-Q55",
+        "normalized_printed_question_number": "2.20",
+        "actual_reproduction_label": "55",
+        "title": "Binary versus character storage"
+      },
+      {
+        "question_id": "CS-1998-Q56",
+        "normalized_printed_question_number": "3(a)",
+        "actual_reproduction_label": "56(a)",
+        "title": "Two friends miss each other"
+      },
+      {
+        "question_id": "CS-1998-Q57",
+        "normalized_printed_question_number": "3(b)",
+        "actual_reproduction_label": "56(b)",
+        "title": "Regular expression for constrained zeros"
+      },
+      {
+        "question_id": "CS-1998-Q58",
+        "normalized_printed_question_number": "4",
+        "actual_reproduction_label": "57",
+        "title": "Minimal DFA for multiples of five"
+      },
+      {
+        "question_id": "CS-1998-Q59",
+        "normalized_printed_question_number": "5(a)",
+        "actual_reproduction_label": "unnumbered implication(a)",
+        "title": "Four implication gates for XOR"
+      },
+      {
+        "question_id": "CS-1998-Q60",
+        "normalized_printed_question_number": "5(b)",
+        "actual_reproduction_label": "unnumbered implication(b)",
+        "title": "Functional completeness of implication"
+      },
+      {
+        "question_id": "CS-1998-Q61",
+        "normalized_printed_question_number": "6(a)",
+        "actual_reproduction_label": "58(a)",
+        "title": "Solve an affine recurrence"
+      },
+      {
+        "question_id": "CS-1998-Q62",
+        "normalized_printed_question_number": "6(b)",
+        "actual_reproduction_label": "58(b)",
+        "title": "Eliminate indirect and direct left recursion"
+      },
+      {
+        "question_id": "CS-1998-Q63",
+        "normalized_printed_question_number": "7(a)",
+        "actual_reproduction_label": "59(a)",
+        "title": "Students liking a served ice cream"
+      },
+      {
+        "question_id": "CS-1998-Q64",
+        "normalized_printed_question_number": "7(b)",
+        "actual_reproduction_label": "59(b)",
+        "title": "Best-fit completion timeline"
+      },
+      {
+        "question_id": "CS-1998-Q65",
+        "normalized_printed_question_number": "8(a)",
+        "actual_reproduction_label": "60(a)",
+        "title": "Local extrema of a cubic"
+      },
+      {
+        "question_id": "CS-1998-Q66",
+        "normalized_printed_question_number": "8(b)",
+        "actual_reproduction_label": "60(b)",
+        "title": "Integral of an odd function"
+      },
+      {
+        "question_id": "CS-1998-Q67",
+        "normalized_printed_question_number": "9",
+        "actual_reproduction_label": "61",
+        "title": "Gaussian elimination operation count"
+      },
+      {
+        "question_id": "CS-1998-Q68",
+        "normalized_printed_question_number": "10(a)",
+        "actual_reproduction_label": "62(a)",
+        "title": "Induction for polygon diagonals"
+      },
+      {
+        "question_id": "CS-1998-Q69",
+        "normalized_printed_question_number": "10(b)",
+        "actual_reproduction_label": "62(b)",
+        "title": "Repeated powers of a cycle relation"
+      },
+      {
+        "question_id": "CS-1998-Q70",
+        "normalized_printed_question_number": "11(a)",
+        "actual_reproduction_label": "63(a)",
+        "title": "Equivalence relation from a partition"
+      },
+      {
+        "question_id": "CS-1998-Q71",
+        "normalized_printed_question_number": "11(b)",
+        "actual_reproduction_label": "63(b)",
+        "title": "Draw the equivalence relation graph"
+      },
+      {
+        "question_id": "CS-1998-Q72",
+        "normalized_printed_question_number": "11(c)",
+        "actual_reproduction_label": "63(c)",
+        "title": "Partition refinement Hasse diagram"
+      },
+      {
+        "question_id": "CS-1998-Q73",
+        "normalized_printed_question_number": "12(a)",
+        "actual_reproduction_label": "64(a)",
+        "title": "Semigroup idempotence"
+      },
+      {
+        "question_id": "CS-1998-Q74",
+        "normalized_printed_question_number": "12(b)",
+        "actual_reproduction_label": "64(b)",
+        "title": "Semigroup sandwich identity"
+      },
+      {
+        "question_id": "CS-1998-Q75",
+        "normalized_printed_question_number": "12(c)",
+        "actual_reproduction_label": "64(c)",
+        "title": "Semigroup middle-factor elimination"
+      },
+      {
+        "question_id": "CS-1998-Q76",
+        "normalized_printed_question_number": "13(a)",
+        "actual_reproduction_label": "65(a)",
+        "title": "PDA language with source variants"
+      },
+      {
+        "question_id": "CS-1998-Q77",
+        "normalized_printed_question_number": "13(b)",
+        "actual_reproduction_label": "65(b)",
+        "title": "Explain the PDA stack behavior"
+      },
+      {
+        "question_id": "CS-1998-Q78",
+        "normalized_printed_question_number": "14(a)",
+        "actual_reproduction_label": "66(a)",
+        "title": "Language of an unequal-count grammar"
+      },
+      {
+        "question_id": "CS-1998-Q79",
+        "normalized_printed_question_number": "14(b)",
+        "actual_reproduction_label": "66(b)",
+        "title": "Extend the grammar in four rules"
+      },
+      {
+        "question_id": "CS-1998-Q80",
+        "normalized_printed_question_number": "14(c)",
+        "actual_reproduction_label": "66(c)",
+        "title": "Is the four-run language inherently ambiguous?"
+      },
+      {
+        "question_id": "CS-1998-Q81",
+        "normalized_printed_question_number": "15(a)",
+        "actual_reproduction_label": "67(a)",
+        "title": "Pulse-width measurement hardware"
+      },
+      {
+        "question_id": "CS-1998-Q82",
+        "normalized_printed_question_number": "15(b)",
+        "actual_reproduction_label": "67(b)",
+        "title": "8085 timer readout program"
+      },
+      {
+        "question_id": "CS-1998-Q83",
+        "normalized_printed_question_number": "16",
+        "actual_reproduction_label": "68",
+        "title": "Synchronous 1-4-2-3 counter"
+      },
+      {
+        "question_id": "CS-1998-Q84",
+        "normalized_printed_question_number": "17",
+        "actual_reproduction_label": "69",
+        "title": "Floppy read-time assumptions"
+      },
+      {
+        "question_id": "CS-1998-Q85",
+        "normalized_printed_question_number": "18",
+        "actual_reproduction_label": "70",
+        "title": "Cache loop hit ratio"
+      },
+      {
+        "question_id": "CS-1998-Q86",
+        "normalized_printed_question_number": "19(a)",
+        "actual_reproduction_label": "71(a)",
+        "title": "Linked-list source variant"
+      },
+      {
+        "question_id": "CS-1998-Q87",
+        "normalized_printed_question_number": "19(b)",
+        "actual_reproduction_label": "71(b)",
+        "title": "Postfix conversion"
+      },
+      {
+        "question_id": "CS-1998-Q88",
+        "normalized_printed_question_number": "20",
+        "actual_reproduction_label": "72",
+        "title": "Reconstruct traversal tree"
+      },
+      {
+        "question_id": "CS-1998-Q89",
+        "normalized_printed_question_number": "21(a)",
+        "actual_reproduction_label": "73(a)",
+        "title": "Minimum AVL recurrence"
+      },
+      {
+        "question_id": "CS-1998-Q90",
+        "normalized_printed_question_number": "21(b)",
+        "actual_reproduction_label": "73(b)",
+        "title": "Minimum AVL height eight"
+      },
+      {
+        "question_id": "CS-1998-Q91",
+        "normalized_printed_question_number": "22(a)",
+        "actual_reproduction_label": "74(a)",
+        "title": "Bounded identifier regex"
+      },
+      {
+        "question_id": "CS-1998-Q92",
+        "normalized_printed_question_number": "22(b)",
+        "actual_reproduction_label": "74(b)",
+        "title": "LL(1) parsing table"
+      },
+      {
+        "question_id": "CS-1998-Q93",
+        "normalized_printed_question_number": "23",
+        "actual_reproduction_label": "75",
+        "title": "Fractional binary attributes"
+      },
+      {
+        "question_id": "CS-1998-Q94",
+        "normalized_printed_question_number": "24(a)",
+        "actual_reproduction_label": "76(a)",
+        "title": "Minimum average job response"
+      },
+      {
+        "question_id": "CS-1998-Q95",
+        "normalized_printed_question_number": "24(b)",
+        "actual_reproduction_label": "76(b)",
+        "title": "Fork-join precedence program"
+      },
+      {
+        "question_id": "CS-1998-Q96",
+        "normalized_printed_question_number": "25(a)",
+        "actual_reproduction_label": "77(a)",
+        "title": "Free-list versus bitmap storage"
+      },
+      {
+        "question_id": "CS-1998-Q97",
+        "normalized_printed_question_number": "25(b)",
+        "actual_reproduction_label": "77(b)",
+        "title": "Contiguous file disk address"
+      },
+      {
+        "question_id": "CS-1998-Q98",
+        "normalized_printed_question_number": "26(a)",
+        "actual_reproduction_label": "78(a)",
+        "title": "Single-key normalization assumptions"
+      },
+      {
+        "question_id": "CS-1998-Q99",
+        "normalized_printed_question_number": "26(b)",
+        "actual_reproduction_label": "78(b)",
+        "title": "Composite-key normalization"
+      },
+      {
+        "question_id": "CS-1998-Q100",
+        "normalized_printed_question_number": "27",
+        "actual_reproduction_label": "79",
+        "title": "Courses with all prerequisites completed"
+      }
+    ],
+    "output_checks": [
+      {
+        "file": "CS-1998-Q1-1.webp",
+        "sha256": "014ac45b7baac19b9d44e15af1232dfa283d480e0adde2c021ccdab09de68576",
+        "width": 682,
+        "height": 450,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q2-1.webp",
+        "sha256": "89b6571b49f30f3fc76c7db289b0015543a951bdf85443a6745159bef374bee6",
+        "width": 682,
+        "height": 332,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q3-1.webp",
+        "sha256": "81a4c22c307d384163a1ba23cbbb443cf7f75ea343f3b47554b0c212bb8c2a67",
+        "width": 682,
+        "height": 370,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q4-1.webp",
+        "sha256": "4d815071301e1c3dcffcf5d43f1ec043be3a601769d882e7a81526eb22e871ee",
+        "width": 682,
+        "height": 222,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q5-1.webp",
+        "sha256": "e5e1c28ab7bf3aa85d0f8a9e1391849311ed3ec7bc8899c8d4e444fe9781dd3f",
+        "width": 682,
+        "height": 72,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q5-2.webp",
+        "sha256": "e0687240650f2b726da8c51dbd71d7823363f348053a8050285450d2455c1b55",
+        "width": 672,
+        "height": 190,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q6-1.webp",
+        "sha256": "00b144bae273efa6c595b2095978f5c39dcd7dd35e1727e69c9ec40c7d74bf00",
+        "width": 672,
+        "height": 258,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q7-1.webp",
+        "sha256": "4af79d4867f50721f7d34251d802608ff0a09c2f54c547f53756df341f2ec64a",
+        "width": 672,
+        "height": 410,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q8-1.webp",
+        "sha256": "85a0513808055a22b77ea36130b43d7950f2ea63724443758a7f5cba242b4c18",
+        "width": 672,
+        "height": 226,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q9-1.webp",
+        "sha256": "ab37fbca2eeae5c31c5098cfc988c87663f3e86cec6509b63e10239505c0a8cf",
+        "width": 672,
+        "height": 296,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q10-1.webp",
+        "sha256": "37cc3e46b7ab209313ad39c6b4e2218df754ea631a8d447128a3f929c360e74a",
+        "width": 672,
+        "height": 418,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q11-1.webp",
+        "sha256": "624e6d73efb8f5b98e8e7a82f24e10e91a931c7de07d1d489cb65063ba35c3e8",
+        "width": 682,
+        "height": 554,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q12-1.webp",
+        "sha256": "18294f6dc55b8326dae3f6498e4a8974079f62ba1e2aef2d74b38d6c446f42aa",
+        "width": 682,
+        "height": 222,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q13-1.webp",
+        "sha256": "a259ac20ca71256bd4cfd0cfb26407ae6b9e18182f8b3586af4ca5417240b96f",
+        "width": 682,
+        "height": 258,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q14-1.webp",
+        "sha256": "c76a78ed4126108beab3c73f0c750085ded626112712370aa1e3e5520c72ce22",
+        "width": 682,
+        "height": 222,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q15-1.webp",
+        "sha256": "247fc589c9b648f1f7787f8c75770a32a5787dbafaecb9844ac73d94d1399898",
+        "width": 682,
+        "height": 218,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q16-1.webp",
+        "sha256": "c02e05d2872c7caa05c2fdd0c60567ca37036d657ac3ca5e27fb8abffb474323",
+        "width": 682,
+        "height": 332,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q17-1.webp",
+        "sha256": "f8513718a50eae91c00643220989dc61cd043f6f37a195393796408cfe880a18",
+        "width": 682,
+        "height": 184,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q17-2.webp",
+        "sha256": "7a4eb23454c23d5adab073a31317edde753771f48c01e90167a9025a0221ea13",
+        "width": 672,
+        "height": 112,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q18-1.webp",
+        "sha256": "4f7a64d3638242c55be90edf0ea320a68ebf9b6de1916dc17d8ca821f5115a4c",
+        "width": 672,
+        "height": 222,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q19-1.webp",
+        "sha256": "2683843002d76eebd8fa9ecc7db0fa2a782185b57186b0ad7830ea265334d34b",
+        "width": 672,
+        "height": 254,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q20-1.webp",
+        "sha256": "c35d76f02ac9954596d501c02c773bebb04b8f67245fa536c0a3be09f6e55547",
+        "width": 672,
+        "height": 334,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q21-1.webp",
+        "sha256": "3b61b31e2cdd4ba6d8e9a512a65755a83286473b7fa07ee45097869680b83517",
+        "width": 672,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q22-1.webp",
+        "sha256": "23d16fdd4781eeeb7d451af0ebad4d473ba3368e5de524f6031e83fa3c07d8cb",
+        "width": 672,
+        "height": 552,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q23-1.webp",
+        "sha256": "82434cf1af914c9520f873dbe39b7cfe689d072f0e18f7b466ea3ab3f7a3b49e",
+        "width": 672,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q24-1.webp",
+        "sha256": "9e97a4e45967d601ffb29c0ecbb7be325b1c3b945b54648dd475405e6ab5a009",
+        "width": 682,
+        "height": 412,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q25-1.webp",
+        "sha256": "64b5809be51f8b1539d01e0df11a3238061e53609b66799ea2cf0dcfdbc1af79",
+        "width": 682,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q26-1.webp",
+        "sha256": "4127ca67be3b8f748554b4c7aa6ea70fad85aaced1a8248ca1fa68ea5215aa2a",
+        "width": 682,
+        "height": 328,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q27-1.webp",
+        "sha256": "ecf755193070a29064b7a47abec6e11dd07d5c36c2e3c4806748540c1a82f06d",
+        "width": 682,
+        "height": 186,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q28-1.webp",
+        "sha256": "a0bd97f95133f0056c39f7b70104f9152d54cab5b15ffba960d1d98fb1aeea4f",
+        "width": 682,
+        "height": 292,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q29-1.webp",
+        "sha256": "ed9a37e815a111a0583daa5177a3c046160b694c261fc126508408d99e35ce6f",
+        "width": 682,
+        "height": 368,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q30-1.webp",
+        "sha256": "28789409295086c79484d9ac40af1203e23bf33d66af4c9750b508ed92295b66",
+        "width": 682,
+        "height": 144,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q30-2.webp",
+        "sha256": "abb6f4d8ae0d703c57439f0b41b3044d9a8ebf17fad2eda71cf890eac5d8a978",
+        "width": 672,
+        "height": 114,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q31-1.webp",
+        "sha256": "610154a2d3a3d5a53b92248e982fb84231c4bbad5bbc411d3f28ac3e48a52b4a",
+        "width": 672,
+        "height": 332,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q32-1.webp",
+        "sha256": "7057ec4804375f4ec054d66f34ada5cf202a7595db49e195a24f61b4a155f1bf",
+        "width": 672,
+        "height": 330,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q33-1.webp",
+        "sha256": "4b93cd620cccea5066a04ac195d9fbc0d0e9147e2e5a89eaffe3dbc53bc52f12",
+        "width": 672,
+        "height": 302,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q34-1.webp",
+        "sha256": "110ca4ba55d3d08a9615947c57226f0527f0111362002cb960857e019d7ed42b",
+        "width": 672,
+        "height": 220,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q35-1.webp",
+        "sha256": "1c99735bf6b5e51fb256d6b1cbc9d480d314940daf43918385b481c2c654e1ee",
+        "width": 672,
+        "height": 548,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q36-1.webp",
+        "sha256": "da0ecced519ce90b6016cb3a8a048d5e316280387f154ff5fb66166b026de893",
+        "width": 682,
+        "height": 330,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q37-1.webp",
+        "sha256": "0a9bd6d0060998a5c1babc3882c6aca6486c074cbcfda4b8920fd0bc58e70bfe",
+        "width": 682,
+        "height": 372,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q38-1.webp",
+        "sha256": "37abc25235b8cc6919d9688b0b6b7e2c9a291c57ebf109ef1a28ae13dd9cb26a",
+        "width": 682,
+        "height": 296,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q39-1.webp",
+        "sha256": "4989a8e641e4b5dd82430fde90688f760d6ec5aa4594b80367ca4f784cc5792d",
+        "width": 682,
+        "height": 442,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q40-1.webp",
+        "sha256": "26382a5f936b48eb71dc1091d9ab4864c332a58feddbde9c7b17bb5fc932e3ee",
+        "width": 682,
+        "height": 332,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q41-1.webp",
+        "sha256": "a7d92494b444a0e74615bbeb8f10c62fdc398414249bacf6ed624c8082d06a67",
+        "width": 682,
+        "height": 72,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q41-2.webp",
+        "sha256": "68f0b14c4402994d8024f62e78b9ca31cabdede3c2c06ce6e79dfcda6035d7c0",
+        "width": 672,
+        "height": 264,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q42-1.webp",
+        "sha256": "01e9fe6864f1b5c4369a5f06de1cb4c14347688224655ef3d10147587e19ffb8",
+        "width": 672,
+        "height": 430,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q43-1.webp",
+        "sha256": "52553a7eb8a88655c54407113a30d4308564060f6a0dfc7f2465382d390f4258",
+        "width": 672,
+        "height": 222,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q44-1.webp",
+        "sha256": "e3275f317d7638f25af6b08f0f351c2a195eaa3bfa0e9594aa1853e8de9d5ff2",
+        "width": 672,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q45-1.webp",
+        "sha256": "b9fb49b805f47c569de396edd4d2b49a40fc2e589d90f4189a7eb6bb5f0d4cc1",
+        "width": 672,
+        "height": 184,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q46-1.webp",
+        "sha256": "281b5b98c7ec28b086234005a86ac897752ce776795cd527fc9d3784f326ded4",
+        "width": 672,
+        "height": 334,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q47-1.webp",
+        "sha256": "bd91b6a6a1ae8f23021c38d13b59b5402bc2f6e4b04eaa60bb1986402d2ae315",
+        "width": 672,
+        "height": 324,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q47-2.webp",
+        "sha256": "8970480dab59d986ed524d066342a15ca3259a42ce70d7ddc65f1c79ee4562d6",
+        "width": 682,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q48-1.webp",
+        "sha256": "914add1b959dd0f72791eeb2efc1539eb0026b0f2ff2c6312cd7ee0f7e6d87cf",
+        "width": 682,
+        "height": 744,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q49-1.webp",
+        "sha256": "ed8e73e67239bffaa1e5c17314a774b2903ddd0f389f65b581d63c651f28e3a5",
+        "width": 682,
+        "height": 438,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q50-1.webp",
+        "sha256": "4c284c2ba42bcba8ee373f767c5fc00aaf10c0fe2f40d39eb178738dc7618469",
+        "width": 682,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q51-1.webp",
+        "sha256": "870f3cc3cf5b1e0c96af7df5966c5e8412fe672ab887d928ff96cc177162e9bf",
+        "width": 682,
+        "height": 470,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q51-2.webp",
+        "sha256": "eaf56cd2e05c08307b9cc82065f411694a21b540495f74faeed0c2ec5a71d00e",
+        "width": 672,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q52-1.webp",
+        "sha256": "76d273baad04ad636305e8e8515fa89b429b818a492d2368a186187a6b5bc8ff",
+        "width": 672,
+        "height": 620,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q53-1.webp",
+        "sha256": "5b207be8e9670790049f9cf8d199671bed9f0e81961c6c63fb35821ee78d04fe",
+        "width": 672,
+        "height": 444,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q54-1.webp",
+        "sha256": "3334beaa4626114aa01c0c41fe0d87248d0bd799fed701476b73f9a58bb33994",
+        "width": 672,
+        "height": 420,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q55-1.webp",
+        "sha256": "89b668f03ed78d1bce28b29dc38525b09fb080a1605f2a99a981f6aede6b2765",
+        "width": 672,
+        "height": 362,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q56-1.webp",
+        "sha256": "7c0fd362bb02923b4c7b98bd7e0d7a4b49ad67a70990f13061d8e1ea207b1e50",
+        "width": 672,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q56-2.webp",
+        "sha256": "3b0bf13968747350151df3cf58bb90ba925b654805a54dbeedd6bf0838c8c70b",
+        "width": 682,
+        "height": 338,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q57-1.webp",
+        "sha256": "7c0fd362bb02923b4c7b98bd7e0d7a4b49ad67a70990f13061d8e1ea207b1e50",
+        "width": 672,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q57-2.webp",
+        "sha256": "56b8cbf054681155acf0344505b97a5b7f56d1ea0b1a18605e3d3fdedd2a8f29",
+        "width": 682,
+        "height": 184,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q58-1.webp",
+        "sha256": "06448ecd63cc809fe99d44e001e07b8a238a05ff01f6bb55d4e4d412041a8cf9",
+        "width": 682,
+        "height": 262,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q59-1.webp",
+        "sha256": "5d0ae75a98728f9125598f45ac697350b317fb478ac58e8d87a067c212982a4d",
+        "width": 682,
+        "height": 322,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q60-1.webp",
+        "sha256": "5d0ae75a98728f9125598f45ac697350b317fb478ac58e8d87a067c212982a4d",
+        "width": 682,
+        "height": 322,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q60-2.webp",
+        "sha256": "89633b921102435445b7333ec3d0b2670c66dd0a6fff011ebd8a8c90f0cd9ad3",
+        "width": 682,
+        "height": 78,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q61-1.webp",
+        "sha256": "74a286cdfaf3262b289a89a6a9f0397a7694ed8d3b8359fa9c728e947a5a461c",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q61-2.webp",
+        "sha256": "b5c9386bb55149b5680a0f53f428a3af361459801e4acc4dfec6752a7c986a6a",
+        "width": 682,
+        "height": 112,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q62-1.webp",
+        "sha256": "74a286cdfaf3262b289a89a6a9f0397a7694ed8d3b8359fa9c728e947a5a461c",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q62-2.webp",
+        "sha256": "08c8b85f1a751d447f68a31cf5d91bdad5a6e6699a183fe4b4db1233ae2291a5",
+        "width": 682,
+        "height": 226,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q63-1.webp",
+        "sha256": "5f62d501f80025c70a2eadb9c097cc1490004d314a2d7a3a4ef4b247edfb3b3e",
+        "width": 682,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q63-2.webp",
+        "sha256": "d7854ed151aae693fa9dfb5f7618b4369962c09ceeffd033c9fdbacb8fc8486d",
+        "width": 682,
+        "height": 406,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q63-3.webp",
+        "sha256": "1f208dbde217f77a02f10ceeb4175baab564d2e2907b9583487f88ab9bd2c3b2",
+        "width": 672,
+        "height": 226,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q64-1.webp",
+        "sha256": "5f62d501f80025c70a2eadb9c097cc1490004d314a2d7a3a4ef4b247edfb3b3e",
+        "width": 682,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q64-2.webp",
+        "sha256": "3651f6cf4d274cfbf41ad0c7ae28af0a97a272ec2e41682d62c083af8bbebaef",
+        "width": 672,
+        "height": 324,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q65-1.webp",
+        "sha256": "dbe8fb89fca533a24986061b711c6fdf30af83d90c180b8c13a3957f26140c76",
+        "width": 672,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q65-2.webp",
+        "sha256": "744b4dbf86179b792fdc479f1fafba0afffebcc65a0b58794be61e7f620ddf31",
+        "width": 672,
+        "height": 148,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q66-1.webp",
+        "sha256": "dbe8fb89fca533a24986061b711c6fdf30af83d90c180b8c13a3957f26140c76",
+        "width": 672,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q66-2.webp",
+        "sha256": "490087ada4f2db52f2caddfa06b0b92bfc6dc5b2fcb09d738a8b7a798a14ddc2",
+        "width": 672,
+        "height": 100,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q67-1.webp",
+        "sha256": "ebeeb2847473006d68d68039d74ac4799eaf83a596822f31b06d8311eef2b07b",
+        "width": 672,
+        "height": 220,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q68-1.webp",
+        "sha256": "a07cf77ae601daba05f693b019f470263a8a080becb4d8893daa8aab50bb26af",
+        "width": 672,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q68-2.webp",
+        "sha256": "473e3134e70ba3f25724efb8a00ab5201eb8946fea12229d423ae8ba585c90bf",
+        "width": 672,
+        "height": 198,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q69-1.webp",
+        "sha256": "a07cf77ae601daba05f693b019f470263a8a080becb4d8893daa8aab50bb26af",
+        "width": 672,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q69-2.webp",
+        "sha256": "a360e040f7c6f904fca60c595dd8e9a76ee71e3942bf6d13b07053671fddff38",
+        "width": 672,
+        "height": 112,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q69-3.webp",
+        "sha256": "ef2754eee427b5f4f86ce53116be32842927f5f0b3382485cd01a01f94ecbb59",
+        "width": 550,
+        "height": 320,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q70-1.webp",
+        "sha256": "700e993cd87479eb12ea4dd78fdb19e48e12a8ff5aed3f0393b8fca4c19d713b",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q70-2.webp",
+        "sha256": "a5ed801e4c086361695aade07b9c635a7537bf339d87804209a4bb9a249413b4",
+        "width": 550,
+        "height": 76,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q71-1.webp",
+        "sha256": "700e993cd87479eb12ea4dd78fdb19e48e12a8ff5aed3f0393b8fca4c19d713b",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q71-2.webp",
+        "sha256": "4f72ab954b5ad321b86036db084823e95589c9f16d0422a0b5a49050dc2b1656",
+        "width": 550,
+        "height": 78,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q72-1.webp",
+        "sha256": "700e993cd87479eb12ea4dd78fdb19e48e12a8ff5aed3f0393b8fca4c19d713b",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q72-2.webp",
+        "sha256": "11d554083262f6e77667507cb6f1bde52491f99bf85afc4440f6c86d6b5e5356",
+        "width": 550,
+        "height": 218,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q73-1.webp",
+        "sha256": "61db4a364ce6765b2418facd6458a2aabcfcdef16078bbd21e2d0ea348c292ad",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q73-2.webp",
+        "sha256": "baf37bc8b79bb879051307d79a45f6a1f94b6e2e5839e828ac6112a3658a1cbc",
+        "width": 550,
+        "height": 76,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q74-1.webp",
+        "sha256": "61db4a364ce6765b2418facd6458a2aabcfcdef16078bbd21e2d0ea348c292ad",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q74-2.webp",
+        "sha256": "60123855f162a0c6e0128896b6552a184e53ecb572edf6636c653006b1757f4f",
+        "width": 550,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q75-1.webp",
+        "sha256": "61db4a364ce6765b2418facd6458a2aabcfcdef16078bbd21e2d0ea348c292ad",
+        "width": 550,
+        "height": 118,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q75-2.webp",
+        "sha256": "ccea989206091e50510df7dcc158656a8d43c7c4195bc01d2e91be4d0a1243b9",
+        "width": 550,
+        "height": 80,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q76-1.webp",
+        "sha256": "5ad0ed1d3e670024372780eff22cec3bf2ef5004ae5d5c8c40f2dbdcf7e36a90",
+        "width": 550,
+        "height": 356,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q76-2.webp",
+        "sha256": "e006d81522ec24ebe5d5a135ae8faa41811f450c4ada4e287332a69add3402c1",
+        "width": 550,
+        "height": 76,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q77-1.webp",
+        "sha256": "5ad0ed1d3e670024372780eff22cec3bf2ef5004ae5d5c8c40f2dbdcf7e36a90",
+        "width": 550,
+        "height": 356,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q77-2.webp",
+        "sha256": "a002ae2b7ca94ef6e26f6f64ad483f8ec7ef881cfcf553bbd2d83481b92618a8",
+        "width": 550,
+        "height": 76,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q78-1.webp",
+        "sha256": "b9d00ebb0b3c5823d627875740e0fcf73ecba6359293e51f3d944e514a571470",
+        "width": 550,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q78-2.webp",
+        "sha256": "a42fc1aab8529fdeccfdb30f2bafccbd90b9cc3d0160995b98e051601293fea2",
+        "width": 550,
+        "height": 308,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q79-1.webp",
+        "sha256": "b9d00ebb0b3c5823d627875740e0fcf73ecba6359293e51f3d944e514a571470",
+        "width": 550,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q79-2.webp",
+        "sha256": "a42fc1aab8529fdeccfdb30f2bafccbd90b9cc3d0160995b98e051601293fea2",
+        "width": 550,
+        "height": 308,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q79-3.webp",
+        "sha256": "312d44685089cf33505cb034931285bf01a06146ef4a637f4e630fab74319594",
+        "width": 544,
+        "height": 164,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q80-1.webp",
+        "sha256": "b9d00ebb0b3c5823d627875740e0fcf73ecba6359293e51f3d944e514a571470",
+        "width": 550,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q80-2.webp",
+        "sha256": "a42fc1aab8529fdeccfdb30f2bafccbd90b9cc3d0160995b98e051601293fea2",
+        "width": 550,
+        "height": 308,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q80-3.webp",
+        "sha256": "312d44685089cf33505cb034931285bf01a06146ef4a637f4e630fab74319594",
+        "width": 544,
+        "height": 164,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q80-4.webp",
+        "sha256": "75b7413a6700a039591e544466dd36004148855b4385994fc2f4f8c14699d0e5",
+        "width": 544,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q81-1.webp",
+        "sha256": "34a69e0c59f1174fdfa54acb0fcabdd4070d9c591d2240b662d09691208d2fb5",
+        "width": 544,
+        "height": 40,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q81-2.webp",
+        "sha256": "530f3884b4293f74d63f61ca14d84b015ff97c99e4b9c4db07bf595e430da83d",
+        "width": 544,
+        "height": 190,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q82-1.webp",
+        "sha256": "34a69e0c59f1174fdfa54acb0fcabdd4070d9c591d2240b662d09691208d2fb5",
+        "width": 544,
+        "height": 40,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q82-2.webp",
+        "sha256": "530f3884b4293f74d63f61ca14d84b015ff97c99e4b9c4db07bf595e430da83d",
+        "width": 544,
+        "height": 190,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q82-3.webp",
+        "sha256": "ea063dc15d799be19c71472af26184281709578f01dba36d1add6ecea234a76a",
+        "width": 544,
+        "height": 152,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q83-1.webp",
+        "sha256": "7f5c5d2d0b36d8a4728fc05e9877884f438500b31707e1fb73ae1d631ae9dc6f",
+        "width": 544,
+        "height": 112,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q84-1.webp",
+        "sha256": "c9a356bb8afb6ddb863cc77e3735b3ffc57cfa47d6ef43a0566bd44c3dc16263",
+        "width": 544,
+        "height": 340,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q85-1.webp",
+        "sha256": "9b00895e226105270c5e0f683b790518f6e4ff7f59ea3359add2733b2cb9b543",
+        "width": 544,
+        "height": 454,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q86-1.webp",
+        "sha256": "11e603c1ffb46aed85bd9a80f5560838022fb1593e1f68cab6ffde33287db49a",
+        "width": 544,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q86-2.webp",
+        "sha256": "8690bd45da92baeb7d80aed11d3d127ecd3b15718d96ab78b6e6c3df563e5085",
+        "width": 544,
+        "height": 312,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q87-1.webp",
+        "sha256": "11e603c1ffb46aed85bd9a80f5560838022fb1593e1f68cab6ffde33287db49a",
+        "width": 544,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q87-2.webp",
+        "sha256": "c191f64e5c7467f3e337ce56ac0d759ba03b90c229f759de860e302320942380",
+        "width": 544,
+        "height": 114,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q88-1.webp",
+        "sha256": "3e5dfaa60ae8cb2a0d58ff008fc5633bc8de2593d9cb328dec9a160680e06e68",
+        "width": 544,
+        "height": 80,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q88-2.webp",
+        "sha256": "6c7462b2ab6d588fd5496af5a08e6af9e512443be04fda636d2feaa0c39bafb6",
+        "width": 682,
+        "height": 150,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q89-1.webp",
+        "sha256": "f7e1a4ea1700bd2b9ee387ea3674d7e4ab19a3554565647b4ce3d327a0b39788",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q89-2.webp",
+        "sha256": "5bd24aca8767c20f79552fe46cf0c55503999d6c54cc349bbb0a630655335d09",
+        "width": 682,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q90-1.webp",
+        "sha256": "f7e1a4ea1700bd2b9ee387ea3674d7e4ab19a3554565647b4ce3d327a0b39788",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q90-2.webp",
+        "sha256": "0b352a407374e763771c1d54e025a4b9a5981b1ea832e561214e5a84c29fbea0",
+        "width": 682,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q91-1.webp",
+        "sha256": "8e7a898e4f75381b2feed607181bec57dafc8aac51b5fa78de5b332544b087d2",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q91-2.webp",
+        "sha256": "6f0bfe93473d26a6acd56118b7544b949c5eeb41f4a24982391193774529d163",
+        "width": 682,
+        "height": 184,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q92-1.webp",
+        "sha256": "8e7a898e4f75381b2feed607181bec57dafc8aac51b5fa78de5b332544b087d2",
+        "width": 682,
+        "height": 38,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q92-2.webp",
+        "sha256": "4261cfcc81a3a40aeea93cd24ca7552b1d5571bb2eaf95cf789883c6fb328ca5",
+        "width": 682,
+        "height": 226,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q93-1.webp",
+        "sha256": "c85e0120a99c374a216864637fe862d2032ce1903c8aa592ce23fbc0782146b7",
+        "width": 682,
+        "height": 412,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q94-1.webp",
+        "sha256": "87091f7459d23ee09e4cb14d287fdfc042a20e81db7114a5984d14cd3a8fdbfc",
+        "width": 682,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q94-2.webp",
+        "sha256": "e1963bcee7b9fef135efe21c719fd45dfd9adec0dbd3df6af99b7b1161f32558",
+        "width": 682,
+        "height": 148,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q95-1.webp",
+        "sha256": "87091f7459d23ee09e4cb14d287fdfc042a20e81db7114a5984d14cd3a8fdbfc",
+        "width": 682,
+        "height": 36,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q95-2.webp",
+        "sha256": "919e42cef154ab2ea2a54be20112aca13a7ed7e12fd2c9e356b7efc9199d0a37",
+        "width": 682,
+        "height": 446,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q96-1.webp",
+        "sha256": "8bf095f26b5f186978e9dad30591fd73ab9da41345d18937c2fa7d7df3ba0e95",
+        "width": 682,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q96-2.webp",
+        "sha256": "3b24736bf0808f6718347aba152bfc15f58e3512f5041a9218ed842cbcada615",
+        "width": 672,
+        "height": 224,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q97-1.webp",
+        "sha256": "8bf095f26b5f186978e9dad30591fd73ab9da41345d18937c2fa7d7df3ba0e95",
+        "width": 682,
+        "height": 42,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q97-2.webp",
+        "sha256": "4bd6b4a14ddc9826b24201fe80a5937a8f73e388e94706fe518cb422cfb57735",
+        "width": 672,
+        "height": 446,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q98-1.webp",
+        "sha256": "ffd3bcc863fa66704bd25c6bd97b222c49137157cbefcc9ba8452b5cd43177dc",
+        "width": 672,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q98-2.webp",
+        "sha256": "cbb1a45f3d90b20a4cf8272de9b912245a91700520f541d981f89f6377efa715",
+        "width": 672,
+        "height": 74,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q99-1.webp",
+        "sha256": "ffd3bcc863fa66704bd25c6bd97b222c49137157cbefcc9ba8452b5cd43177dc",
+        "width": 672,
+        "height": 256,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q99-2.webp",
+        "sha256": "1ecee7101b2905e5d00cfd26a51e5fdfb74b3551b6f0ba037260c7daa915be75",
+        "width": 672,
+        "height": 220,
+        "fresh_byte_identical": true
+      },
+      {
+        "file": "CS-1998-Q100-1.webp",
+        "sha256": "17efa51ede3374a28399565d1d37241e6a8f7cbb427ae88ba5250e57f79a4aa7",
+        "width": 672,
+        "height": 622,
+        "fresh_byte_identical": true
+      }
+    ]
+  }
+}

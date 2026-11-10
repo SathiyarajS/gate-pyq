@@ -1,0 +1,492 @@
+{
+  "paper_id": "CS-2017-S2",
+  "status": "passed_after_minor_transcription_fix",
+  "coverage": 65,
+  "reviewer": "independent depth/source reviewer",
+  "method": "Independent reading and reasoning for every expanded question and solution; visual comparison of original standalone problem pages 2–25 and key pages 1–2; reran supplied checker and separate protected-field/Markdown consistency checks.",
+  "source_pdf": "/workspace/shared/gate2017/CS2.pdf",
+  "key_pdf": "/workspace/shared/gate2017/CS2-key.pdf",
+  "visual_evidence_directory": "/workspace/shared/gate2017/cs2review",
+  "protected_metadata": "All baseline fields outside allowed expansion fields unchanged, including answers, discrepancy IDs, source/key URLs and pages, provenance and existing independent-review keys. Standalone page coordinates kept separate.",
+  "checker": "check_cs2_2017_expanded.py passes after fix; output cs2-2017-expanded-check-results.txt",
+  "json_markdown_consistency": "Every question_text and solution appears identically in Markdown.",
+  "material_issues": [],
+  "minor_fixes": [
+    {
+      "question_id": "CS-2017-S2-Q52",
+      "printed_question": "42",
+      "source_page": 16,
+      "field": "question_text option A",
+      "before": "A:(Q1Q0,¬Q1Q0).",
+      "after": "A:(Q1Q0,¬Q1¬Q0).",
+      "reason": "Source visually shows separate complement bars on both Q1 and Q0 in T0. Correct option B and solution unchanged.",
+      "files": [
+        "cs2-2017-expanded.json",
+        "cs2-2017-expanded.md",
+        "build_cs2_2017_expanded.py"
+      ]
+    }
+  ],
+  "promotion_note": "Expanded contribution retains pending status fields for parent-controlled promotion; this audit records fresh review completion. No repository or Page edits.",
+  "questions": [
+    {
+      "question_id": "CS-2017-S2-Q1",
+      "printed_question_number": "56",
+      "archived_pdf_page": 23,
+      "status": "pass",
+      "review": "Synonym meanings compared; yielding/resistant contrast."
+    },
+    {
+      "question_id": "CS-2017-S2-Q2",
+      "printed_question_number": "57",
+      "archived_pdf_page": 23,
+      "status": "pass",
+      "review": "Adjective + enough syntax checked."
+    },
+    {
+      "question_id": "CS-2017-S2-Q3",
+      "printed_question_number": "58",
+      "archived_pdf_page": 23,
+      "status": "pass",
+      "review": "Combined ordering X<Z<V<W<Y."
+    },
+    {
+      "question_id": "CS-2017-S2-Q4",
+      "printed_question_number": "59",
+      "archived_pdf_page": 23,
+      "status": "pass",
+      "review": "3m+11(20-m)=100 gives 15."
+    },
+    {
+      "question_id": "CS-2017-S2-Q5",
+      "printed_question_number": "60",
+      "archived_pdf_page": 24,
+      "status": "pass",
+      "review": "12 matching unordered pairs of 45."
+    },
+    {
+      "question_id": "CS-2017-S2-Q6",
+      "printed_question_number": "61",
+      "archived_pdf_page": 24,
+      "status": "pass",
+      "review": "Passage and options faithful essential paraphrase; seemingly signals distance, not deductive ranking."
+    },
+    {
+      "question_id": "CS-2017-S2-Q7",
+      "printed_question_number": "62",
+      "archived_pdf_page": 24,
+      "status": "pass",
+      "review": "Both possible sampled-fruit cases determine all labels."
+    },
+    {
+      "question_id": "CS-2017-S2-Q8",
+      "printed_question_number": "63",
+      "archived_pdf_page": 24,
+      "status": "pass",
+      "review": "Cubed leading-digit bounds stay between 10^89 and 10^90."
+    },
+    {
+      "question_id": "CS-2017-S2-Q9",
+      "printed_question_number": "64",
+      "archived_pdf_page": 24,
+      "status": "pass",
+      "review": "Intermediate-value existence plus strictly increasing derivative excludes third root."
+    },
+    {
+      "question_id": "CS-2017-S2-Q10",
+      "printed_question_number": "65",
+      "archived_pdf_page": 25,
+      "status": "pass",
+      "review": "Contour diagram inspected: R tightest; essential textual reconstruction sufficient for comparison."
+    },
+    {
+      "question_id": "CS-2017-S2-Q11",
+      "printed_question_number": "1",
+      "archived_pdf_page": 2,
+      "status": "pass",
+      "review": "Hex/binary/octal grouping and decimal cross-check agree."
+    },
+    {
+      "question_id": "CS-2017-S2-Q12",
+      "printed_question_number": "2",
+      "archived_pdf_page": 2,
+      "status": "pass",
+      "review": "Static storage, lost malloc pointer, pointer array, register hint correctly matched with caveats."
+    },
+    {
+      "question_id": "CS-2017-S2-Q13",
+      "printed_question_number": "3",
+      "archived_pdf_page": 2,
+      "status": "pass",
+      "review": "Four time bounds matched; Hanoi recurrence and operation counts explained."
+    },
+    {
+      "question_id": "CS-2017-S2-Q14",
+      "printed_question_number": "4",
+      "archived_pdf_page": 3,
+      "status": "pass",
+      "review": "CFL union and regular difference closure; intersection counterexample and De Morgan argument valid."
+    },
+    {
+      "question_id": "CS-2017-S2-Q15",
+      "printed_question_number": "5",
+      "archived_pdf_page": 3,
+      "status": "pass",
+      "review": "Compiler phase input/output order checked against all options."
+    },
+    {
+      "question_id": "CS-2017-S2-Q16",
+      "printed_question_number": "6",
+      "archived_pdf_page": 3,
+      "status": "pass",
+      "review": "SLR subset LALR subset canonical LR grammar hierarchy correct."
+    },
+    {
+      "question_id": "CS-2017-S2-Q17",
+      "printed_question_number": "7",
+      "archived_pdf_page": 4,
+      "status": "pass",
+      "review": "Shared address space versus per-thread execution state correctly distinguished."
+    },
+    {
+      "question_id": "CS-2017-S2-Q18",
+      "printed_question_number": "8",
+      "archived_pdf_page": 4,
+      "status": "pass",
+      "review": "External versus internal fragmentation distinguished."
+    },
+    {
+      "question_id": "CS-2017-S2-Q19",
+      "printed_question_number": "9",
+      "archived_pdf_page": 4,
+      "status": "pass",
+      "review": "RIP UDP distance-vector; OSPF directly over IP and link-state."
+    },
+    {
+      "question_id": "CS-2017-S2-Q20",
+      "printed_question_number": "10",
+      "archived_pdf_page": 5,
+      "status": "pass",
+      "review": "Derivative and integral independently give R=4/pi, S=0."
+    },
+    {
+      "question_id": "CS-2017-S2-Q21",
+      "printed_question_number": "11",
+      "archived_pdf_page": 5,
+      "status": "pass",
+      "review": "Only-if translation A; all valuations establish A/B semantic duplication, caveat preserved."
+    },
+    {
+      "question_id": "CS-2017-S2-Q22",
+      "printed_question_number": "12",
+      "archived_pdf_page": 5,
+      "status": "pass",
+      "review": "All 32 source bits checked; significand 1.8515625 times 2^-3 gives 0.2314453125, nearest C."
+    },
+    {
+      "question_id": "CS-2017-S2-Q23",
+      "printed_question_number": "13",
+      "archived_pdf_page": 5,
+      "status": "pass",
+      "review": "Circular links and enqueue/dequeue constant-time pointer updates verified."
+    },
+    {
+      "question_id": "CS-2017-S2-Q24",
+      "printed_question_number": "14",
+      "archived_pdf_page": 6,
+      "status": "pass",
+      "review": "Alias trace leaves x=1, y=0."
+    },
+    {
+      "question_id": "CS-2017-S2-Q25",
+      "printed_question_number": "15",
+      "archived_pdf_page": 6,
+      "status": "pass",
+      "review": "All eight graph edges visually checked; BFS D feasible and layer violations reject others."
+    },
+    {
+      "question_id": "CS-2017-S2-Q26",
+      "printed_question_number": "16",
+      "archived_pdf_page": 7,
+      "status": "pass",
+      "review": "Grammar generates a^(k+n)b^n with k>=1 and n>=0; converse established."
+    },
+    {
+      "question_id": "CS-2017-S2-Q27",
+      "printed_question_number": "17",
+      "archived_pdf_page": 7,
+      "status": "pass",
+      "review": "Many-to-one total participation intended answer; nullable foreign-key alternative explicitly retained."
+    },
+    {
+      "question_id": "CS-2017-S2-Q28",
+      "printed_question_number": "18",
+      "archived_pdf_page": 7,
+      "status": "pass",
+      "review": "Linux default/bidirectional peer interpretation retained separately from alternate sendto destinations."
+    },
+    {
+      "question_id": "CS-2017-S2-Q29",
+      "printed_question_number": "19",
+      "archived_pdf_page": 8,
+      "status": "pass",
+      "review": "All table rows/actions checked; deletion sets T2 foreign key NULL without deleting its primary-key row."
+    },
+    {
+      "question_id": "CS-2017-S2-Q30",
+      "printed_question_number": "20",
+      "archived_pdf_page": 8,
+      "status": "pass",
+      "review": "IPv4 maximum options 40 bytes minus 3-byte RR overhead holds 9 addresses."
+    },
+    {
+      "question_id": "CS-2017-S2-Q31",
+      "printed_question_number": "21",
+      "archived_pdf_page": 9,
+      "status": "pass",
+      "review": "Every relation pair and Hasse edge checked; only incomparable pairs have meet a and join e."
+    },
+    {
+      "question_id": "CS-2017-S2-Q32",
+      "printed_question_number": "22",
+      "archived_pdf_page": 9,
+      "status": "pass",
+      "review": "Matrices visually compared; sum row dependence plus nonzero minor prove rank 2."
+    },
+    {
+      "question_id": "CS-2017-S2-Q33",
+      "printed_question_number": "23",
+      "archived_pdf_page": 9,
+      "status": "pass",
+      "review": "Handshaking upper bound 16 plus explicit simple graph construction proves attainability."
+    },
+    {
+      "question_id": "CS-2017-S2-Q34",
+      "printed_question_number": "24",
+      "archived_pdf_page": 10,
+      "status": "pass",
+      "review": "Root sum and product both force base 8."
+    },
+    {
+      "question_id": "CS-2017-S2-Q35",
+      "printed_question_number": "25",
+      "archived_pdf_page": 10,
+      "status": "pass",
+      "review": "8-state complete DFA construction and shortest distinguishing continuation lengths prove minimality."
+    },
+    {
+      "question_id": "CS-2017-S2-Q36",
+      "printed_question_number": "26",
+      "archived_pdf_page": 10,
+      "status": "pass",
+      "review": "Conditional probabilities and inclusion-exclusion give 4/5."
+    },
+    {
+      "question_id": "CS-2017-S2-Q37",
+      "printed_question_number": "27",
+      "archived_pdf_page": 10,
+      "status": "pass",
+      "review": "All complement bars checked; C simplifies to not-x AND y, unlike stated x AND not-y."
+    },
+    {
+      "question_id": "CS-2017-S2-Q38",
+      "printed_question_number": "28",
+      "archived_pdf_page": 11,
+      "status": "pass",
+      "review": "Zero groups with dont-cares yield minimum POS; all constrained assignments checked."
+    },
+    {
+      "question_id": "CS-2017-S2-Q39",
+      "printed_question_number": "29",
+      "archived_pdf_page": 11,
+      "status": "pass",
+      "review": "Conditional L2 miss rate model explicitly stated; quadratic gives 1/9 and 1/18."
+    },
+    {
+      "question_id": "CS-2017-S2-Q40",
+      "printed_question_number": "30",
+      "archived_pdf_page": 11,
+      "status": "pass",
+      "review": "Log substitution gives binary recurrence with Theta(log n) total work, not just depth."
+    },
+    {
+      "question_id": "CS-2017-S2-Q41",
+      "printed_question_number": "31",
+      "archived_pdf_page": 12,
+      "status": "pass",
+      "review": "Probability-generating-function derivative at 1 gives N beta."
+    },
+    {
+      "question_id": "CS-2017-S2-Q42",
+      "printed_question_number": "32",
+      "archived_pdf_page": 12,
+      "status": "pass",
+      "review": "All four grammars checked; both direct left recursions removed only in C."
+    },
+    {
+      "question_id": "CS-2017-S2-Q43",
+      "printed_question_number": "33",
+      "archived_pdf_page": 13,
+      "status": "pass",
+      "review": "Table maximum P3=5 confirmed; safety sequence P3,P1,P2 verified."
+    },
+    {
+      "question_id": "CS-2017-S2-Q44",
+      "printed_question_number": "34",
+      "archived_pdf_page": 13,
+      "status": "pass",
+      "review": "Six Hamming distances 3,3,4,4,3,3 imply one guaranteed correctable error."
+    },
+    {
+      "question_id": "CS-2017-S2-Q45",
+      "printed_question_number": "35",
+      "archived_pdf_page": 13,
+      "status": "pass",
+      "review": "Byte and distance unit conversions give 400 ms and 50 ms."
+    },
+    {
+      "question_id": "CS-2017-S2-Q46",
+      "printed_question_number": "36",
+      "archived_pdf_page": 14,
+      "status": "pass",
+      "review": "Preorder BST reconstructed; postorder B and all options checked."
+    },
+    {
+      "question_id": "CS-2017-S2-Q47",
+      "printed_question_number": "37",
+      "archived_pdf_page": 14,
+      "status": "pass",
+      "review": "Initialization, invariant, decreasing remainder and unsigned underflow guard verified."
+    },
+    {
+      "question_id": "CS-2017-S2-Q48",
+      "printed_question_number": "38",
+      "archived_pdf_page": 14,
+      "status": "pass",
+      "review": "Exact inner count ceil((n-1)/i); harmonic summation and unit-cost caveat correct."
+    },
+    {
+      "question_id": "CS-2017-S2-Q49",
+      "printed_question_number": "39",
+      "archived_pdf_page": 15,
+      "status": "pass",
+      "review": "Every epsilon-NFA table cell checked; successive epsilon-closed state sets produce C."
+    },
+    {
+      "question_id": "CS-2017-S2-Q50",
+      "printed_question_number": "40",
+      "archived_pdf_page": 15,
+      "status": "pass",
+      "review": "Unary prime pumping proof, CFL grammar, inverse homomorphism and DPDA arguments valid."
+    },
+    {
+      "question_id": "CS-2017-S2-Q51",
+      "printed_question_number": "41",
+      "archived_pdf_page": 16,
+      "status": "pass",
+      "review": "Decidability classes correct; marking algorithm distinguishes CFG emptiness from universality."
+    },
+    {
+      "question_id": "CS-2017-S2-Q52",
+      "printed_question_number": "42",
+      "archived_pdf_page": 16,
+      "status": "pass",
+      "review": "Next-state table checked; XOR excitation requirements yield B. Option A missing Q0 complement repaired."
+    },
+    {
+      "question_id": "CS-2017-S2-Q53",
+      "printed_question_number": "43",
+      "archived_pdf_page": 17,
+      "status": "pass",
+      "review": "Source code and forward/backward traces checked; final fourth entry 3, termination explained."
+    },
+    {
+      "question_id": "CS-2017-S2-Q54",
+      "printed_question_number": "44",
+      "archived_pdf_page": 18,
+      "status": "pass",
+      "review": "Conflict graph count independently checked: 1+53=54 of 70 interleavings."
+    },
+    {
+      "question_id": "CS-2017-S2-Q55",
+      "printed_question_number": "45",
+      "archived_pdf_page": 18,
+      "status": "pass",
+      "review": "All cache table values/policies checked; weighted conditional miss model yields 4.72 ns."
+    },
+    {
+      "question_id": "CS-2017-S2-Q56",
+      "printed_question_number": "46",
+      "archived_pdf_page": 19,
+      "status": "pass",
+      "review": "All 13 table rows and SQL checked; empty ALL true, German minimum 10, seven qualifying rows."
+    },
+    {
+      "question_id": "CS-2017-S2-Q57",
+      "printed_question_number": "47",
+      "archived_pdf_page": 19,
+      "status": "pass",
+      "review": "Generating function coefficients 1,4,9,16 yield difference 15."
+    },
+    {
+      "question_id": "CS-2017-S2-Q58",
+      "printed_question_number": "48",
+      "archived_pdf_page": 20,
+      "status": "pass",
+      "review": "Poisson variance and second moment give 54."
+    },
+    {
+      "question_id": "CS-2017-S2-Q59",
+      "printed_question_number": "49",
+      "archived_pdf_page": 20,
+      "status": "pass",
+      "review": "Pointer-order definition and 2m+8(m-1)<=512 imply 52."
+    },
+    {
+      "question_id": "CS-2017-S2-Q60",
+      "printed_question_number": "50",
+      "archived_pdf_page": 20,
+      "status": "pass",
+      "review": "All probabilities checked; Huffman merges and one valid prefix code give expectation 225."
+    },
+    {
+      "question_id": "CS-2017-S2-Q61",
+      "printed_question_number": "51",
+      "archived_pdf_page": 21,
+      "status": "pass",
+      "review": "All process rows checked; schedule completion/waiting times give mean 29 ms."
+    },
+    {
+      "question_id": "CS-2017-S2-Q62",
+      "printed_question_number": "52",
+      "archived_pdf_page": 21,
+      "status": "pass",
+      "review": "Eigenvalue substitution a=-11; factor roots 2,5,-3 give spectral radius 5."
+    },
+    {
+      "question_id": "CS-2017-S2-Q63",
+      "printed_question_number": "53",
+      "archived_pdf_page": 21,
+      "status": "pass",
+      "review": "32 address bits minus 5 offset and 9 index give tag 18."
+    },
+    {
+      "question_id": "CS-2017-S2-Q64",
+      "printed_question_number": "54",
+      "archived_pdf_page": 22,
+      "status": "pass",
+      "review": "Separate full-expression trace gives n=0 without unsequenced updates."
+    },
+    {
+      "question_id": "CS-2017-S2-Q65",
+      "printed_question_number": "55",
+      "archived_pdf_page": 22,
+      "status": "pass",
+      "review": "Literal has 12 characters plus terminator; intended offset 10 suffix 17 has length 2. Left-associative out-of-object pointer arithmetic and encoding caveats retained."
+    }
+  ],
+  "sha256": {
+    "cs2-2017-expanded.json": "9a4e897660dd3e1572527dd02404988bbe21e152ca14f043a55808035405f7f6",
+    "cs2-2017-expanded.md": "75ff843d1021476d2c2c8a22ce5153cc8f4e08c83a2191e3c503ec50cf4e03e1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "linked_folder": "https://drive.google.com/drive/folders/1sV6FgtOUDl_PGjc36Zdc0eJwK1zZ_2OF",
+  "archive_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "archive_member": "CS/CS2018.pdf",
+  "pdf_sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+  "archive_sha256": "f77eac6665a369182a5687644d64e99872f9b94f39a07e802635c6623f979191",
+  "pages": 26,
+  "key_pages": [
+    24,
+    25,
+    26
+  ],
+  "final_revision_designation": "Not established; no final label in appended key",
+  "official_session": null
+}

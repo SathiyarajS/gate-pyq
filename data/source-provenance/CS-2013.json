@@ -1,0 +1,32 @@
+[
+  {
+    "file": "A.pdf",
+    "source_url": "https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+    "bytes": 219049,
+    "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+  },
+  {
+    "file": "B.pdf",
+    "source_url": "https://web.archive.org/web/20130612155732id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-B.pdf",
+    "bytes": 216772,
+    "sha256": "fc527e96f90528a847c2469a68f021ae893e9f6c6ddc9de8a02c4af113789686"
+  },
+  {
+    "file": "C.pdf",
+    "source_url": "https://web.archive.org/web/20130903063355id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-C.pdf",
+    "bytes": 218204,
+    "sha256": "9fcb776982ad15b3817914f512ff094a66bc8af6dff83f4f4d023bbbfa39c2b6"
+  },
+  {
+    "file": "D.pdf",
+    "source_url": "https://web.archive.org/web/20131228064901id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-D.pdf",
+    "bytes": 217120,
+    "sha256": "757f497efa4b579db908286efdf762b622d363f1393d2a10a953e0b612a77ba9"
+  },
+  {
+    "file": "key.pdf",
+    "source_url": "https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf",
+    "bytes": 8396,
+    "sha256": "8dec600fbeb2c78b0f9af489cea3a130b1976d3f0d5ed793743f4dbdd237747d"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "paper_id": "CS-1998",
+  "records": 100,
+  "review_status": "independent_source_derivation_and_depth_review_passed",
+  "scope": "Objectives 1\u201355 and middle 56\u201380 reviewed independently against GFG pages 1\u20137 and relevant GateForum pages; tail 81\u2013100 separately independently reviewed. Source and model variants retained.",
+  "limits": [
+    "Original official fidelity and completeness unverified; third-party reproductions only.",
+    "No official key located.",
+    "Q62 six-alternative non-left-recursive grammar is verified; global minimum not proved.",
+    "Q76\u201377 literal PDA variants and conditional repair distinguished.",
+    "Complete original question transcription and accessible figure certification pending."
+  ]
+}

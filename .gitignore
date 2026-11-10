@@ -1,3 +1,22 @@
 .DS_Store
 *.swp
 *.tmp
+
+
+__pycache__/
+*.pyc
+
+# Generated private previews and local-only source/render caches
+_site/
+site-assets/q/
+.local-source-cache/
+audits/screenshots/
+audits/compare/
+
+node_modules/
+_site-enhanced/
+
+_site-crop-preview/
+
+# PDF-only downscaled question images
+.pdf-images/

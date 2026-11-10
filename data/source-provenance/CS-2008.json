@@ -1,0 +1,14 @@
+{
+  "year": 2008,
+  "path": "/workspace/shared/gate-old-readiness/2008.pdf",
+  "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+  "pages": 18,
+  "questions": 85,
+  "marks": 150,
+  "end_of_questions": 18,
+  "archive_member": "CS/CS2008.pdf",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "archive_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "key_status": "No official key located; no appended key observed at paper end. Secondary GATE CSE index claims no official key released, not independently established.",
+  "scope": "PDF parse, cover and end-page visual inspection; not full question transcription audit."
+}

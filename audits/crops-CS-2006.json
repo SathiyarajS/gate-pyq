@@ -1,0 +1,493 @@
+{
+  "paper_id": "CS-2006",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "822a8160c9eeb1f0495047bddbaf6d6e2adbfda326ec623024239e9b252987cc",
+  "preparation_evidence_sha256": "3b397cd4470c80a2b5d95abe9cae25837cf0303f820e721f18132a1ce44de59d",
+  "independent_review_evidence_sha256": "06f9eb7318a32feb2826dad891b3416fea64631db8e5e4675448122e1f0ca661",
+  "questions": 85,
+  "crop_parts": 125,
+  "verified_questions": 85,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2006",
+    "status": "approved",
+    "approval_scope": "Independent crop-boundary and rendered-output fidelity to the available third-party reproduction only. Not transcription, answer, original completeness, or distribution-rights certification.",
+    "crops_sha256": "822a8160c9eeb1f0495047bddbaf6d6e2adbfda326ec623024239e9b252987cc",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+    "source_sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+    "canonical_mapping_verified": true,
+    "question_count": 85,
+    "part_count": 125,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "actual_output_parts_visually_inspected": 125,
+    "fresh_render_byte_identity": {
+      "checked": 125,
+      "identical": 125,
+      "mismatches": 0,
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80
+    },
+    "original_completeness_certified": false,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2006-Q71",
+          "CS-2006-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ],
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          509.28570556640625,
+          297.1429138183594,
+          592.8571166992188
+        ],
+        "reason": "Shared subset-graph definition for Q71–Q73."
+      },
+      {
+        "questions": [
+          "CS-2006-Q71",
+          "CS-2006-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ],
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          509.28570556640625,
+          297.1429138183594,
+          592.8571166992188
+        ],
+        "reason": "Shared subset-graph definition for Q71–Q73."
+      },
+      {
+        "questions": [
+          "CS-2006-Q72",
+          "CS-2006-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ],
+          [
+            53.5714,
+            509.2857,
+            297.1429,
+            592.8571
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          509.28570556640625,
+          297.1429138183594,
+          592.8571166992188
+        ],
+        "reason": "Shared subset-graph definition for Q71–Q73."
+      },
+      {
+        "questions": [
+          "CS-2006-Q74",
+          "CS-2006-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.0,
+            232.1429,
+            525.0,
+            350.0
+          ],
+          [
+            300.0,
+            232.1429,
+            525.0,
+            350.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          232.1428985595703,
+          525.0,
+          350.0
+        ],
+        "reason": "Shared cache sizes, organizations and latency definitions for Q74–Q75."
+      },
+      {
+        "questions": [
+          "CS-2006-Q76",
+          "CS-2006-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 11,
+        "source_bboxes": [
+          [
+            300.0,
+            514.2857,
+            525.0,
+            680.0
+          ],
+          [
+            300.0,
+            514.2857,
+            525.0,
+            680.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          514.2857055664062,
+          525.0,
+          680.0
+        ],
+        "reason": "Shared 3-ary max-heap representation and insertion definition for Q76–Q77."
+      },
+      {
+        "questions": [
+          "CS-2006-Q76",
+          "CS-2006-Q77"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            53.5714,
+            43.5714,
+            297.1429,
+            140.0
+          ],
+          [
+            53.5714,
+            43.5714,
+            297.1429,
+            140.0
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          43.5713996887207,
+          297.1429138183594,
+          140.0
+        ],
+        "reason": "Q77 explicitly uses the valid heap from Q76; retain complete Q76 and choices."
+      },
+      {
+        "questions": [
+          "CS-2006-Q78",
+          "CS-2006-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            53.5714,
+            284.2857,
+            297.1429,
+            624.2857
+          ],
+          [
+            53.5714,
+            284.2857,
+            297.1429,
+            624.2857
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          284.28570556640625,
+          297.1429138183594,
+          624.2857055664062
+        ],
+        "reason": "Shared barrier code, line numbers and initial conditions for Q78–Q79."
+      },
+      {
+        "questions": [
+          "CS-2006-Q78",
+          "CS-2006-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            53.5714,
+            636.4286,
+            297.1429,
+            702.8571
+          ],
+          [
+            53.5714,
+            636.4286,
+            297.1429,
+            702.8571
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          636.4285888671875,
+          297.1429138183594,
+          702.8571166992188
+        ],
+        "reason": "Q79 asks to rectify the preceding barrier problem; retain this Q78 part, with its other part, preserving all choices."
+      },
+      {
+        "questions": [
+          "CS-2006-Q78",
+          "CS-2006-Q79"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.0,
+            43.5714,
+            525.0,
+            149.2857
+          ],
+          [
+            300.0,
+            43.5714,
+            525.0,
+            149.2857
+          ]
+        ],
+        "intersection": [
+          300.0,
+          43.5713996887207,
+          525.0,
+          149.28570556640625
+        ],
+        "reason": "Q79 asks to rectify the preceding barrier problem; retain this Q78 part, with its other part, preserving all choices."
+      },
+      {
+        "questions": [
+          "CS-2006-Q80",
+          "CS-2006-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 12,
+        "source_bboxes": [
+          [
+            300.0,
+            329.2857,
+            525.0,
+            592.8571
+          ],
+          [
+            300.0,
+            329.2857,
+            525.0,
+            592.8571
+          ]
+        ],
+        "intersection": [
+          300.0,
+          329.28570556640625,
+          525.0,
+          592.8571166992188
+        ],
+        "reason": "Shared cache parameters, both loop bodies and M1/M2 definitions for Q80–Q81."
+      },
+      {
+        "questions": [
+          "CS-2006-Q82",
+          "CS-2006-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            53.5714,
+            84.2857,
+            297.1429,
+            507.1429
+          ],
+          [
+            53.5714,
+            84.2857,
+            297.1429,
+            507.1429
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          84.28569793701172,
+          297.1429138183594,
+          507.1429138183594
+        ],
+        "reason": "Shared spanning-tree rules and complete LAN/bridge diagram for Q82–Q83."
+      },
+      {
+        "questions": [
+          "CS-2006-Q82",
+          "CS-2006-Q83"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            53.5714,
+            512.8571,
+            297.1429,
+            619.2857
+          ],
+          [
+            53.5714,
+            512.8571,
+            297.1429,
+            619.2857
+          ]
+        ],
+        "intersection": [
+          53.5713996887207,
+          512.8571166992188,
+          297.1429138183594,
+          619.2857055664062
+        ],
+        "reason": "Q83 explicitly uses the correct spanning tree from the previous question; retain full Q82 and choices."
+      },
+      {
+        "questions": [
+          "CS-2006-Q84",
+          "CS-2006-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "source_bboxes": [
+          [
+            300.0,
+            358.5714,
+            525.0,
+            599.2857
+          ],
+          [
+            300.0,
+            358.5714,
+            525.0,
+            599.2857
+          ]
+        ],
+        "intersection": [
+          300.0,
+          358.5714111328125,
+          525.0,
+          599.2857055664062
+        ],
+        "reason": "Q85 explicitly uses the correct grammar above; retain full Q84 and all grammars."
+      }
+    ],
+    "unapproved_overlaps": [],
+    "findings": [
+      "All 85 question IDs match canonical CS-2006 records; all crop files match the canonical source path, URL and SHA-256. All 125 fresh encodings exactly match stored output bytes and recorded output hashes.",
+      "All 13 full pages and every compressed output part were visually reviewed. Retained all visible source stems, options, formulas, code, diagrams and tables. No crop-induced omissions or unrelated neighboring-question leaks found. Headers, page borders and marks banners are excluded.",
+      "Cross-column/page continuations preserved for Q5, Q8, Q13, Q21, Q25, Q28, Q37, Q40, Q43, Q47, Q49, Q53, Q56, Q58, Q61, Q65, Q67, Q69, Q72, Q78, Q81 and Q83. Q8 option-b label remains in part 1 with its circuit in part 2; Q83 option-a label remains in part 3 with its table in part 4.",
+      "Six shared-context groups are retained before dependent questions. All 13 geometric overlap pairs are exact duplicate boxes, each explicitly approved below. Q77 includes Q76; Q79 includes both question parts of Q78; Q83 includes Q82; Q85 includes Q84. Q81 has both M1/M2 definitions and loop bodies in its shared block, so Q80 choices are not required.",
+      "Source-level omission warning: the canonical PDF reports missing Fm0 XObject resources. The absent resource cannot be identified as decorative or question content from available evidence; possible missing original content remains unresolved. No specific additional missing stem/option/diagram is visually established in this rendered reproduction.",
+      "Source blur and ambiguous symbols remain particularly visible in Q36 formulas, Q39 overbars, Q49/Q50/Q53/Q55 code, Q67 query figures and Q82/Q83 diagram/table labels. Q54 option formula and other fine mathematical details are also degraded. These are preserved, not repaired or interpreted. Original symbol fidelity is not certified."
+    ],
+    "corrections_required": [],
+    "repository_modified": false
+  }
+}

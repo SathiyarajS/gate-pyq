@@ -1,0 +1,377 @@
+{
+  "paper_id": "CS-2021-S1",
+  "status": "passed_after_one_explanation_correction",
+  "reviewed_count": 65,
+  "scope": "Independent reading and reasoning for all expanded questions and solutions, comparison with baseline protected fields, source OCR plus visual inspection of every source page 2–41 and appended official-key pages 42–44. Separate official-key OCR pages 1–3 cross-checked. All essential diagram descriptions and option distinctions visually checked. No inherited baseline review used to certify the expansion.",
+  "sources": [
+    "Official archived source paper and key; see entry source URLs."
+  ],
+  "expanded_json_sha256": "17d05d69dd832cf00ac1b73dd72233c141167de0f2d0e0b579ac49101ed9b81c",
+  "corrections": [
+    {
+      "question_id": "CS-2021-S1-Q52",
+      "severity": "minor_explanatory_error",
+      "before": "yields a zero first factor",
+      "after": "yields a zero second factor (X+¬Y)",
+      "reason": "At X=0,Y=1,Z=0, option A factors evaluate to 1,0,1. The counterexample and B; C; D answer remain correct.",
+      "applied_to": [
+        "/workspace/shared/contributions/cs1-2021-expanded.json",
+        "/workspace/shared/contributions/cs1-2021-expanded.md"
+      ]
+    }
+  ],
+  "checks": {
+    "supplied_check_script": "/workspace/shared/contributions/check_cs1_2021_expanded.py",
+    "result": "passed before and after correction",
+    "protected_baseline_fields": "all 65 identical for official/derived answers, verification status, discrepancies, source/key URLs, marks/type and source page",
+    "independent_reasoning": "Reviewed closure counterexamples; min/max lower bound; SLR conflict; recovery assumptions; MST cut/forest; FD lossless-join witness; graph-square distances; all DFA transitions; bounded TM simulation; rod DP; articulation counterexample; Boolean algebra; semaphore schedules; hashing insertion; pipeline, Bayes and assembly arithmetic. All intended answers supported under stated caveats."
+  },
+  "teaching_depth": "All 65 supply usable derivations, traces, counterexamples or option elimination; stronger entries include min/max adversary, SLR state conflict, full Hamming groups, LL(1) FIRST/FOLLOW, FD witness and semaphore schedules. Some second paragraphs repeat initial derivations, but no entry fails educational sufficiency.",
+  "preserved_caveats": {
+    "Q9": "C OR D retained with entailment versus either-or and scope ambiguity.",
+    "Q12": "Exact optimal count ceil(3n/2)-2; intended C needs n>=5.",
+    "Q18": "Normal ARP exchange rather than all possible ARP traffic.",
+    "Q19": "Standard algorithm implementations.",
+    "Q20": "n>=2 existence precondition.",
+    "Q23": "Basic restart recovery rather than universal ARIES work-list behavior.",
+    "Q24": "Normal terminating exit/blocking sleep semantics; not a portable C guarantee for every argument or implementation.",
+    "Q25": "Fresh-name rename and simple uncached directory interpretation.",
+    "Q33": "Official 819 to 820 OR 205 to 205 intact; uniformity absent, independence insufficient, set-domain maximum 300 versus stated 1200 retained.",
+    "Q36": "Declared integer identifiers assumed; missing symbol-table type lookup explained.",
+    "Q40": "Printed recurrence lacks rounding/cutoff; interpretation caveat retained.",
+    "Q54": "Reachable-host TCP reset model and possible rather than universal indefinite wait.",
+    "Q55": "Official A; C retained with resegmentation caveat; routers do not retransmit fragments.",
+    "Q56": "Pseudocode non-atomic interleavings rather than ISO C data-race guarantees.",
+    "Q59": "Derived integer minimum 51 while official 50 to 52 interval intact."
+  },
+  "open_blocking_findings": [],
+  "per_question": [
+    {
+      "question_id": "CS-2021-S1-Q1",
+      "verdict": "pass",
+      "source_page": 2
+    },
+    {
+      "question_id": "CS-2021-S1-Q2",
+      "verdict": "pass",
+      "source_page": 3
+    },
+    {
+      "question_id": "CS-2021-S1-Q3",
+      "verdict": "pass",
+      "source_page": 4
+    },
+    {
+      "question_id": "CS-2021-S1-Q4",
+      "verdict": "pass",
+      "source_page": 5
+    },
+    {
+      "question_id": "CS-2021-S1-Q5",
+      "verdict": "pass",
+      "source_page": 6
+    },
+    {
+      "question_id": "CS-2021-S1-Q6",
+      "verdict": "pass",
+      "source_page": 7
+    },
+    {
+      "question_id": "CS-2021-S1-Q7",
+      "verdict": "pass",
+      "source_page": 8
+    },
+    {
+      "question_id": "CS-2021-S1-Q8",
+      "verdict": "pass",
+      "source_page": 9
+    },
+    {
+      "question_id": "CS-2021-S1-Q9",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 10
+    },
+    {
+      "question_id": "CS-2021-S1-Q10",
+      "verdict": "pass",
+      "source_page": 11
+    },
+    {
+      "question_id": "CS-2021-S1-Q11",
+      "verdict": "pass",
+      "source_page": 12
+    },
+    {
+      "question_id": "CS-2021-S1-Q12",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 12
+    },
+    {
+      "question_id": "CS-2021-S1-Q13",
+      "verdict": "pass",
+      "source_page": 13
+    },
+    {
+      "question_id": "CS-2021-S1-Q14",
+      "verdict": "pass",
+      "source_page": 13
+    },
+    {
+      "question_id": "CS-2021-S1-Q15",
+      "verdict": "pass",
+      "source_page": 14
+    },
+    {
+      "question_id": "CS-2021-S1-Q16",
+      "verdict": "pass",
+      "source_page": 14
+    },
+    {
+      "question_id": "CS-2021-S1-Q17",
+      "verdict": "pass",
+      "source_page": 15
+    },
+    {
+      "question_id": "CS-2021-S1-Q18",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 15
+    },
+    {
+      "question_id": "CS-2021-S1-Q19",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 16
+    },
+    {
+      "question_id": "CS-2021-S1-Q20",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 16
+    },
+    {
+      "question_id": "CS-2021-S1-Q21",
+      "verdict": "pass",
+      "source_page": 17
+    },
+    {
+      "question_id": "CS-2021-S1-Q22",
+      "verdict": "pass",
+      "source_page": 17
+    },
+    {
+      "question_id": "CS-2021-S1-Q23",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 18
+    },
+    {
+      "question_id": "CS-2021-S1-Q24",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 18
+    },
+    {
+      "question_id": "CS-2021-S1-Q25",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 19
+    },
+    {
+      "question_id": "CS-2021-S1-Q26",
+      "verdict": "pass",
+      "source_page": 20
+    },
+    {
+      "question_id": "CS-2021-S1-Q27",
+      "verdict": "pass",
+      "source_page": 20
+    },
+    {
+      "question_id": "CS-2021-S1-Q28",
+      "verdict": "pass",
+      "source_page": 20
+    },
+    {
+      "question_id": "CS-2021-S1-Q29",
+      "verdict": "pass",
+      "source_page": 20
+    },
+    {
+      "question_id": "CS-2021-S1-Q30",
+      "verdict": "pass",
+      "source_page": 21
+    },
+    {
+      "question_id": "CS-2021-S1-Q31",
+      "verdict": "pass",
+      "source_page": 21
+    },
+    {
+      "question_id": "CS-2021-S1-Q32",
+      "verdict": "pass",
+      "source_page": 21
+    },
+    {
+      "question_id": "CS-2021-S1-Q33",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 21
+    },
+    {
+      "question_id": "CS-2021-S1-Q34",
+      "verdict": "pass",
+      "source_page": 22
+    },
+    {
+      "question_id": "CS-2021-S1-Q35",
+      "verdict": "pass",
+      "source_page": 22
+    },
+    {
+      "question_id": "CS-2021-S1-Q36",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 23
+    },
+    {
+      "question_id": "CS-2021-S1-Q37",
+      "verdict": "pass",
+      "source_page": 24
+    },
+    {
+      "question_id": "CS-2021-S1-Q38",
+      "verdict": "pass",
+      "source_page": 25
+    },
+    {
+      "question_id": "CS-2021-S1-Q39",
+      "verdict": "pass",
+      "source_page": 25
+    },
+    {
+      "question_id": "CS-2021-S1-Q40",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 26
+    },
+    {
+      "question_id": "CS-2021-S1-Q41",
+      "verdict": "pass",
+      "source_page": 27
+    },
+    {
+      "question_id": "CS-2021-S1-Q42",
+      "verdict": "pass",
+      "source_page": 28
+    },
+    {
+      "question_id": "CS-2021-S1-Q43",
+      "verdict": "pass",
+      "source_page": 28
+    },
+    {
+      "question_id": "CS-2021-S1-Q44",
+      "verdict": "pass",
+      "source_page": 29
+    },
+    {
+      "question_id": "CS-2021-S1-Q45",
+      "verdict": "pass",
+      "source_page": 29
+    },
+    {
+      "question_id": "CS-2021-S1-Q46",
+      "verdict": "pass",
+      "source_page": 30
+    },
+    {
+      "question_id": "CS-2021-S1-Q47",
+      "verdict": "pass",
+      "source_page": 31
+    },
+    {
+      "question_id": "CS-2021-S1-Q48",
+      "verdict": "pass",
+      "source_page": 32
+    },
+    {
+      "question_id": "CS-2021-S1-Q49",
+      "verdict": "pass",
+      "source_page": 33
+    },
+    {
+      "question_id": "CS-2021-S1-Q50",
+      "verdict": "pass",
+      "source_page": 34
+    },
+    {
+      "question_id": "CS-2021-S1-Q51",
+      "verdict": "pass",
+      "source_page": 34
+    },
+    {
+      "question_id": "CS-2021-S1-Q52",
+      "verdict": "pass_after_correction",
+      "source_page": 35
+    },
+    {
+      "question_id": "CS-2021-S1-Q53",
+      "verdict": "pass",
+      "source_page": 35
+    },
+    {
+      "question_id": "CS-2021-S1-Q54",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 36
+    },
+    {
+      "question_id": "CS-2021-S1-Q55",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 36
+    },
+    {
+      "question_id": "CS-2021-S1-Q56",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 37
+    },
+    {
+      "question_id": "CS-2021-S1-Q57",
+      "verdict": "pass",
+      "source_page": 38
+    },
+    {
+      "question_id": "CS-2021-S1-Q58",
+      "verdict": "pass",
+      "source_page": 39
+    },
+    {
+      "question_id": "CS-2021-S1-Q59",
+      "verdict": "pass_with_stated_caveats",
+      "source_page": 39
+    },
+    {
+      "question_id": "CS-2021-S1-Q60",
+      "verdict": "pass",
+      "source_page": 39
+    },
+    {
+      "question_id": "CS-2021-S1-Q61",
+      "verdict": "pass",
+      "source_page": 40
+    },
+    {
+      "question_id": "CS-2021-S1-Q62",
+      "verdict": "pass",
+      "source_page": 40
+    },
+    {
+      "question_id": "CS-2021-S1-Q63",
+      "verdict": "pass",
+      "source_page": 40
+    },
+    {
+      "question_id": "CS-2021-S1-Q64",
+      "verdict": "pass",
+      "source_page": 41
+    },
+    {
+      "question_id": "CS-2021-S1-Q65",
+      "verdict": "pass",
+      "source_page": 41
+    }
+  ],
+  "repository_modified": false,
+  "metadata_note": "Expanded records remain pending independent_review/pending_audit, as the author checker expects. This audit supplies the fresh independent evidence; parent may upgrade review metadata when integrating."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "paper.pdf",
+    "url": "https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+    "bytes": 1377241,
+    "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc"
+  },
+  {
+    "file": "key.pdf",
+    "url": "https://web.archive.org/web/20110812091059id_/http://gate.iitm.ac.in:80/gate2011/pdffiles/keycs.pdf",
+    "bytes": 7944,
+    "sha256": "5d950cdf0382b821a0881a4a7880df118421a3917c714d3af9c6318fffb10373"
+  }
+]

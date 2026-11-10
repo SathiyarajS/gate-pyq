@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "CS-2024-S1-Q18",
+    "type": "question-error",
+    "summary": "The printed C program uses typographic double quotes rather than ASCII C delimiters. Preserve source with [sic]. Intended answer C assumes conventional ASCII delimiters; literal printed code is not valid C.",
+    "existing_solution_sha256": "8f79f3fb5dacf9d2b0fbb5b40e3eefe50c2234e727c286e97ad2c44a269f7b2c",
+    "proposed_solution": "Approach: Trace the first iteration, then determine whether the loop reaches a repeating state. Both operands of a/12 are integers.\n1. The initial test 6<10 is true. Integer division gives 6/12=0, so a=a/12+1 sets a to 1.\n2. The following a+=b adds zero, because b was initialized to 0 and is never changed. The first iteration ends with a=1, b=0.\n3. If an iteration starts with a=1, then 1/12=0, and the same two assignments leave a=1 again. This state is therefore preserved indefinitely.\n4. The condition a<10 remains true, so control never reaches the printf after the loop.\nAnswer: C. The expression contains “+1”, but it does not mean a is incremented each time: a is first replaced by the quotient a/12. This is the textbook execution interpretation of the supplied program.\nSource qualification: The printed program uses typographic double quotation marks. Taken literally these are not valid C delimiters, so the program does not compile as printed. The answer above follows the intended textbook interpretation with ASCII quote delimiters.",
+    "status": "proposed-not-applied"
+  },
+  {
+    "question_id": "CS-2024-S1-Q19",
+    "type": "question-error",
+    "summary": "The printed C program uses typographic single quotes rather than ASCII C delimiters. Preserve source with [sic]. Intended answer C assumes conventional ASCII delimiters; literal printed code is not valid C.",
+    "existing_solution_sha256": "eb130e08bb5bcaae8468d195f2a9fe3b120af3f544bbff9aaf65b25a86588b73",
+    "proposed_solution": "Approach: Distinguish the order in which recursive calls read characters from the order in which suspended calls resume printing.\n1. The first call stores '1' in its own local a and calls fX again before reaching putchar. The next calls similarly store '2', '3' and '4'. Each call has a separate local variable.\n2. A fifth call reads the newline. Both conditions are false, so this call neither recurses nor prints and returns immediately.\n3. The suspended call holding '4' now continues at its second condition and prints 4. Returning again prints 3, then 2, then 1.\n4. Once the first call returns, main terminates. The newline itself is never printed.\nAnswer: C, output 4321. Printing before the recursive call would preserve input order; printing after it reverses order. The explicitly supplied newline is the stopping condition, so no assumption about reading past end-of-file is needed.\nSource qualification: The printed program uses typographic single quotation marks. Taken literally these are not valid C delimiters, so the program does not compile as printed. The answer above follows the intended textbook interpretation with ASCII quote delimiters.",
+    "status": "proposed-not-applied"
+  }
+]

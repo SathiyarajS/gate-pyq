@@ -1,0 +1,182 @@
+{
+ "failed": [
+  "drive:CS.zip"
+ ],
+ "files": {
+  "https://gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+   "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+   "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+   "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+   "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+   "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+   "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf",
+   "sha256": "f713276ef5a4cc59d6c5925ba7e4c72f6f669ab6866956cc45cb8f3e0f5817cf"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+   "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf",
+   "sha256": "04ccb9fdda662d4c6674451525c73c5f599fce05ce6010f752a0803b5dad6948"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+   "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+   "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf",
+   "sha256": "5de4a3171f8e9629832f2080b178e802fc81945e44826ac45e82c635d9959f2e"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf",
+   "sha256": "cd046a9c634aad151adff94bae3addbcb846fb8ab78710e415c684b4b8bb966a"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf",
+   "sha256": "7386d012225f9feb7dad1c9ab20c7f7bfc60b2ec91a1f768a49f5bd5bb9b2f28"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf",
+   "sha256": "21cf19f9d4d5b1e93f87e0c8dd1dfe8edd06c1f4c8b3d4fc68b9d2529ea77f22"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+   "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+   "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf",
+   "sha256": "856c52ae348b6b0583fdb1ee3d7664e9d5752bc50068ca6b33d334b2c453edd4"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/Answer_keys2022/cs_2022.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/Answer_keys2022/cs_2022.pdf",
+   "sha256": "ee00149bd2d2ddc1b7489113ba1e7db72317ca77e8ca5b438f4dd852016457b4"
+  },
+  "https://gate2026.iitg.ac.in/doc/download/Answer_keys2023/CS_ANS_GATE2023.pdf": {
+   "path": "sources/web/gate2026.iitg.ac.in/doc/download/Answer_keys2023/CS_ANS_GATE2023.pdf",
+   "sha256": "80fae0c7c43c6ee3c8b467e2187a1ff3d2984b377aa03940b0d143867a18dc60"
+  },
+  "https://gateoverflow.in/?qa=blob&qa_blobid=11950775580811503216": {
+   "path": "sources/web/gateoverflow.in/_qa_blob_qa_blobid_11950775580811503216",
+   "sha256": "1cb1fbb836fa8cc8b22aef42fa46c1a248e7f6e2f0e3a7857f4cbc05aa71d21f"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+   "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+   "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+   "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+   "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+   "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+   "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+   "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+   "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+   "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+   "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+   "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+   "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+   "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+   "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+   "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a"
+  },
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf": {
+   "path": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+   "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd"
+  },
+  "https://web.archive.org/web/20110812091059id_/http://gate.iitm.ac.in:80/gate2011/pdffiles/keycs.pdf": {
+   "path": "sources/web/gate.iitm.ac.in:80/gate2011/pdffiles/keycs.pdf",
+   "sha256": "5d950cdf0382b821a0881a4a7880df118421a3917c714d3af9c6318fffb10373"
+  },
+  "https://web.archive.org/web/20130418030400id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf": {
+   "path": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+   "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+  },
+  "https://web.archive.org/web/20130418034853id_/http://www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf": {
+   "path": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/cs.pdf",
+   "sha256": "8dec600fbeb2c78b0f9af489cea3a130b1976d3f0d5ed793743f4dbdd237747d"
+  },
+  "https://web.archive.org/web/20170712112242id_/http://www.gate.iitg.ac.in:80/2017answers/CS1.pdf": {
+   "path": "sources/web/www.gate.iitg.ac.in:80/2017answers/CS1.pdf",
+   "sha256": "e5d87261f31dd205df4073fe9de172da5755765995607e7f032152a35c66a67e"
+  },
+  "https://web.archive.org/web/20170712112248id_/http://www.gate.iitg.ac.in:80/2017questions/CS1.pdf": {
+   "path": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+   "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6"
+  },
+  "https://web.archive.org/web/20220204093545id_/https://gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf": {
+   "path": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+   "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc"
+  }
+ },
+ "sha_mismatch_count": 0,
+ "sha_mismatches": [],
+ "zip_members": {}
+}

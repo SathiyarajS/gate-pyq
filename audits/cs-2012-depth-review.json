@@ -1,0 +1,526 @@
+{
+  "paper_id": "CS-2012",
+  "review_status": "pass",
+  "reviewer": "independent depth and source review",
+  "entries_reviewed": 65,
+  "reviewed_artifacts": {
+    "/workspace/shared/contributions/cs-2012-expanded.json": "8af1a95cffb852122609194018fa3c9adcb4b2cdd3e492f2e03c9874b31dafd2",
+    "/workspace/shared/contributions/cs-2012-expanded.md": "7a8a5de4cf248df41d5ee3f093d6a831b6f197f1f3c2ad3525c4016fd660362e"
+  },
+  "baseline": "/workspace/shared/gate-pyq/data/questions.json",
+  "scope": "Independently read and reasoned through every question, all choices and each expanded solution. Compared essential question transcriptions with rendered source pages, including all diagrams, code and common/linked data. This is a content review, not merely checker success.",
+  "material_findings": [],
+  "contribution_edits": [],
+  "protected_metadata": "Every field outside the nine allowed expansion fields equals the repository baseline. No official answer, derived answer, discrepancy, numbering, marks, subject, source-chain, key provenance or key-finality field changed.",
+  "source_visual_review": {
+    "paper": "/tmp/gate-2012-CS.pdf",
+    "question_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "appended_key_pages": [
+      18,
+      19
+    ],
+    "mirror": "/workspace/shared/gate2012-research/key-gfg-mirror.pdf",
+    "mirror_pages": [
+      1,
+      2
+    ],
+    "detail": "Checked graph branch attachments and cycle lengths, K-map cells and bars, NFA epsilon cycle, all static-link options, Dijkstra directed edges, all five missing DFA arcs per option, rooted-tree code, static/register common code, relational data, grammar table, cache specification, and source typography concerns."
+  },
+  "preserved_caveats": [
+    "All six Marks-to-All entries remain scoring awards, with independent conditional reasoning rather than invented official reasons.",
+    "SQL printed Q15 remains official C and derived B, with valid HAVING and unselected GROUP BY counterexamples.",
+    "Bayes result remains exactly 1/3; option 0.334 is closest, not ordinary three-decimal rounding.",
+    "Endpoint local-extremum convention, stored versus unbiased exponent, implicit-int C, rooted height versus literal diameter, non-LL(1) grammar and reserved IPv4 range remain explicit.",
+    "The mirror corroborates the 65 Code A answers but does not establish original official hosting or final revision."
+  ],
+  "checks": [
+    "check_cs_2012_expanded.py passed. Its pending-review assertion remains appropriate to the untouched candidate metadata; this independent audit supplies completed review evidence.",
+    "Repository check_2011_2012_tail.py passed.",
+    "Fresh text extraction from both PDFs matches all 65 official Code A entries.",
+    "Independent full-field baseline comparison passed.",
+    "All JSON question texts and solutions occur verbatim in Markdown.",
+    "Independent word-break dynamic program confirmed all four L* strings and failed-prefix positions.",
+    "Independent DFA enumeration checked all 8191 binary strings of lengths 0 through 12 against absence of substring 000."
+  ],
+  "depth_assessment": "All 65 include the governing concept, reasoning to the answer, and a meaningful check, counterexample, trace or explanation of alternatives. Complex cases include an actual undecidability reduction, conflict-graph proof, shortest-path tie trace, replacement fault locations and conditional TCP round traces. No answer-only or externally dependent question remains.",
+  "per_question": [
+    {
+      "question_id": "CS-2012-Q1",
+      "printed_question_number": "56",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q2",
+      "printed_question_number": "57",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q3",
+      "printed_question_number": "58",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q4",
+      "printed_question_number": "59",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q5",
+      "printed_question_number": "60",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q6",
+      "printed_question_number": "61",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q7",
+      "printed_question_number": "62",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q8",
+      "printed_question_number": "63",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q9",
+      "printed_question_number": "64",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q10",
+      "printed_question_number": "65",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q11",
+      "printed_question_number": "1",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q12",
+      "printed_question_number": "2",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q13",
+      "printed_question_number": "3",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q14",
+      "printed_question_number": "4",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q15",
+      "printed_question_number": "5",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q16",
+      "printed_question_number": "6",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q17",
+      "printed_question_number": "7",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q18",
+      "printed_question_number": "8",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q19",
+      "printed_question_number": "9",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q20",
+      "printed_question_number": "10",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q21",
+      "printed_question_number": "11",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q22",
+      "printed_question_number": "12",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q23",
+      "printed_question_number": "13",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q24",
+      "printed_question_number": "14",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q25",
+      "printed_question_number": "15",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q26",
+      "printed_question_number": "16",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q27",
+      "printed_question_number": "17",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q28",
+      "printed_question_number": "18",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q29",
+      "printed_question_number": "19",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q30",
+      "printed_question_number": "20",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q31",
+      "printed_question_number": "21",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q32",
+      "printed_question_number": "22",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q33",
+      "printed_question_number": "23",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q34",
+      "printed_question_number": "24",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q35",
+      "printed_question_number": "25",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q36",
+      "printed_question_number": "26",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q37",
+      "printed_question_number": "27",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q38",
+      "printed_question_number": "28",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q39",
+      "printed_question_number": "29",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q40",
+      "printed_question_number": "30",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q41",
+      "printed_question_number": "31",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q42",
+      "printed_question_number": "32",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q43",
+      "printed_question_number": "33",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q44",
+      "printed_question_number": "34",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q45",
+      "printed_question_number": "35",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q46",
+      "printed_question_number": "36",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q47",
+      "printed_question_number": "37",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q48",
+      "printed_question_number": "38",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q49",
+      "printed_question_number": "39",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q50",
+      "printed_question_number": "40",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q51",
+      "printed_question_number": "41",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q52",
+      "printed_question_number": "42",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q53",
+      "printed_question_number": "43",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q54",
+      "printed_question_number": "44",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q55",
+      "printed_question_number": "45",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q56",
+      "printed_question_number": "46",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q57",
+      "printed_question_number": "47",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q58",
+      "printed_question_number": "48",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q59",
+      "printed_question_number": "49",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q60",
+      "printed_question_number": "50",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q61",
+      "printed_question_number": "51",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q62",
+      "printed_question_number": "52",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q63",
+      "printed_question_number": "53",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q64",
+      "printed_question_number": "54",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    },
+    {
+      "question_id": "CS-2012-Q65",
+      "printed_question_number": "55",
+      "context_options_source_check": "pass",
+      "teaching_correctness_depth": "pass",
+      "protected_metadata": "unchanged"
+    }
+  ],
+  "limitations": [
+    "Review does not upgrade key finality or resolve the existing official-versus-derived SQL discrepancy. Candidate review metadata still says pending; parent may update permitted expansion-review fields when integrating this audit."
+  ],
+  "repository_edits": false,
+  "external_writes": false,
+  "pages_changes": false
+}

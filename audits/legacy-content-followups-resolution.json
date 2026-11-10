@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-10",
+  "status": "independently_reviewed_corrections",
+  "changed_questions": [
+    "CS-1995-Q72",
+    "CS-1997-Q99",
+    "CS-1997-Q100",
+    "CS-1997-Q101",
+    "CS-1998-Q59"
+  ],
+  "original_source_verified": false,
+  "answers_changed": false,
+  "reviewed_patch_sha256": "64b14799cb9ad812ef6c0ffd8cffcd024b2d4ff8d49f425971d1d797951da4d1",
+  "checks": {
+    "source_pages_visually_reviewed": 5,
+    "canonical_source_hashes_verified": 5,
+    "division_cases": 4096,
+    "sql_uniqueness_cases": 12288,
+    "implication_closure": "passed"
+  },
+  "retained_limits": [
+    "GFG Q72 register glyph remains unclear; B comes from GateForum reproduction.",
+    "Q99 unqualified SQL column remains ambiguous.",
+    "Q101 malformed algebra and numbering uncertainty remain.",
+    "Q59 requires explicit Boolean zero; no-zero impossibility remains.",
+    "Third-party reproductions are not official-original certification."
+  ],
+  "source_evidence": [
+    {
+      "label": "gfg1995",
+      "physical_page": 7,
+      "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+      "provenance": "third_party_reproduction",
+      "visually_inspected": true,
+      "official_original_verified": false,
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf#page=7"
+    },
+    {
+      "label": "gf1995",
+      "physical_page": 13,
+      "sha256": "1d530a2885df74d6eeae0c662d04fa73ad0004ef9f0bfbdf07a8c0ca0b1fb075",
+      "provenance": "third_party_reproduction",
+      "visually_inspected": true,
+      "official_original_verified": false,
+      "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs1995.pdf#page=13"
+    },
+    {
+      "label": "gfg1997",
+      "physical_page": 12,
+      "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+      "provenance": "third_party_reproduction",
+      "visually_inspected": true,
+      "official_original_verified": false,
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf#page=12"
+    },
+    {
+      "label": "gfg1998",
+      "physical_page": 6,
+      "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+      "provenance": "third_party_reproduction",
+      "visually_inspected": true,
+      "official_original_verified": false,
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf#page=6"
+    },
+    {
+      "label": "gf1998",
+      "physical_page": 11,
+      "sha256": "90b258b8697c95850002ddbb074bcb12527e617476e2c5e429474628d4dd2cad",
+      "provenance": "third_party_reproduction",
+      "visually_inspected": true,
+      "official_original_verified": false,
+      "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs1998.pdf#page=11"
+    }
+  ]
+}

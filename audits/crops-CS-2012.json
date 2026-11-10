@@ -1,0 +1,259 @@
+{
+  "paper_id": "CS-2012",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "47d1006548177b72707778f653e9976489acca5c50ba181cafa1dec8342ed508",
+  "preparation_evidence_sha256": "92bffdf9174617410b29fc5bfef4ed67b6b504cab7ba887432ea5e82ff079044",
+  "independent_review_evidence_sha256": "0a9e8cfaa8b7546893859d9e170367c108b33fd9eb9f2956c0d7f792cde1a97c",
+  "questions": 65,
+  "crop_parts": 73,
+  "verified_questions": 65,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2012",
+    "status": "approved",
+    "scope": "Independent crop-boundary and actual-output fidelity review only; not answer, transcription, source completeness, rights, deployment, or browser certification.",
+    "reviewer": "independent native reviewer verify_2012_crop_outputs",
+    "crops_sha256": "47d1006548177b72707778f653e9976489acca5c50ba181cafa1dec8342ed508",
+    "source_file": "sources/archive/CS/CS2012.pdf",
+    "source_sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+    "question_count": 65,
+    "crop_part_count": 73,
+    "full_source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "full_question_pages_visually_reviewed": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "actual_output_contact_sheets_visually_reviewed": [
+      "contact-2.png",
+      "contact-3.png",
+      "contact-4.png",
+      "contact-5.png",
+      "contact-6.png",
+      "contact-7.png",
+      "contact-8.png",
+      "contact-9.png",
+      "contact-10.png",
+      "contact-11.png",
+      "contact-12.png",
+      "contact-13.png",
+      "contact-14.png",
+      "contact-15.png",
+      "contact-16.png",
+      "contact-17.png"
+    ],
+    "all_73_actual_output_parts_visually_reviewed": true,
+    "fresh_byte_identity": {
+      "scale": 3,
+      "webp_quality": 80,
+      "matched": 73,
+      "mismatched": 0,
+      "method": "Fresh PyMuPDF render from final exact proposal boxes, PIL WEBP quality80 encoding, complete byte equality against every supplied output."
+    },
+    "record_checks": {
+      "count": 65,
+      "exact_question_set": true,
+      "canonical_source_hash_matches_source_map_and_all_records": true,
+      "archive_member_matches_all_records": true,
+      "own_number_present_in_each_question_body": true,
+      "physical_question_page_matches_all_records": true,
+      "mapping": "Code A: collection Q1–Q10 = printed Q56–Q65; collection Q11–Q65 = printed Q1–Q55.",
+      "bbox_in_page": true
+    },
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2012-Q58",
+          "CS-2012-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 13,
+        "bbox": [
+          52.0,
+          110.0,
+          545.0,
+          385.0
+        ],
+        "reason": "Identical complete shared context for printed 48/49; retained separately for each standalone question."
+      },
+      {
+        "questions": [
+          "CS-2012-Q60",
+          "CS-2012-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "bbox": [
+          52.0,
+          79.0,
+          545.0,
+          217.0
+        ],
+        "reason": "Identical complete shared context for printed 50/51; retained separately for each standalone question."
+      },
+      {
+        "questions": [
+          "CS-2012-Q62",
+          "CS-2012-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "bbox": [
+          52.0,
+          110.0,
+          545.0,
+          286.0
+        ],
+        "reason": "Identical complete shared context for printed 52/53; retained separately for each standalone question."
+      },
+      {
+        "questions": [
+          "CS-2012-Q64",
+          "CS-2012-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "bbox": [
+          52.0,
+          554.0,
+          545.0,
+          614.0
+        ],
+        "reason": "Identical complete shared context for printed 54/55; retained separately for each standalone question."
+      }
+    ],
+    "unapproved_overlap_count": 0,
+    "findings": [
+      "All 19 full source pages inspected in paired source sheets, including the instruction cover and appended key pages; question content is wholly on physical pages2–17.",
+      "All65 question bodies have complete stems and all four options; no neighboring question, header/footer, marks heading, end-of-paper heading or answer-key content remains in actual outputs.",
+      "Physical pages2–5: logical inference statements, code, formula superscripts, truth table, NFA initial arrow/accepting state/epsilon labels, relation logic and decidability overbars preserved.",
+      "Physical pages6–10: original isomorphism graph and four graph choices complete; K-map labels/cells and option overbars complete; scheduling table and lock code complete; four activation-record diagrams and all access links complete; Dijkstra graph vertex names, edge weights and arrowheads complete.",
+      "Physical pages11–12: printed44 exponent6 starts immediately after header rule. Full output additionally opened at native resolution; fresh full-page raster confirms rule rows234–235 are excluded while exponent first ink row236 is retained by bbox top78.667 (3x raster floor236). DFA and all four transition tables intact. Height procedure boxesB1/B2, code branches and multiline options intact.",
+      "Physical pages13–15: common C program, relational tablesA/B/C, grammar/LL(1) table and cache description preserved as separate first parts. Exactly four identical context-only overlaps allowed: collection58/59,60/61,62/63,64/65 first parts. Each body contains only its own printed question and options; no shared context is omitted.",
+      "Physical pages16–17: all ten aptitude questions intact, including the complete advertisement, quadratic expression, probability data and final sequence choices. Printed56 currency glyph looks unusual in source and output equally; no alteration warranted.",
+      "No page continuations were needed. Reviewed proposal retains draft metadata for integration; approval applies only to crops hash recorded here."
+    ],
+    "output_sha256": {
+      "CS-2012-Q1-1.webp": "bb4717c1cd235013c038f73e4706d8c46694112411beeb1eb4ea7c89cdba8e0b",
+      "CS-2012-Q2-1.webp": "2e677162fb6775e739b04f2339ade29d36f4edaf13226ba1f38f2ec2638afb25",
+      "CS-2012-Q3-1.webp": "4449d176f6a13e5ec3a46eb116a2f49718f15094479cd3c8b04a72088ffcdc65",
+      "CS-2012-Q4-1.webp": "1854d5197c42adf42c571d5d0213b7cb7f0e7b28d7833cf8818fbe95b38932ad",
+      "CS-2012-Q5-1.webp": "8ed461ff464373365089aa09fb2c701d28ac075bd95803ffd72f1d593787cc1b",
+      "CS-2012-Q6-1.webp": "b5c9b81a1ba489cd65409eb153c0cef43deea553c6e1c8d57eaba897e4a7fa25",
+      "CS-2012-Q7-1.webp": "c68c13aa5f16d2e160dd4e66df3b0be1b8e5598afb351ad99649c629bba0e913",
+      "CS-2012-Q8-1.webp": "edcd3baf094566ded17a4d69ef44ea16b9db38ab1d6a487dfc12fe4c2d6acce9",
+      "CS-2012-Q9-1.webp": "0b0032ad5d53102419828bb1e109b496dc8c9c457f11d6b0a3831c8efa30b8d3",
+      "CS-2012-Q10-1.webp": "5fb095ba6e499d0c579aad6e71872192541d905f4a2792c7bd767f47c3669802",
+      "CS-2012-Q11-1.webp": "71e468446095ce766c9f7d6e545fb5c8eecdafd1078375bd456ad44c7da41b77",
+      "CS-2012-Q12-1.webp": "5313039fed4e3543cf6e5b84e0b71fac187e3396c15d5f7d4634b787384191e0",
+      "CS-2012-Q13-1.webp": "afb672f8804c610b622384f46d5d015bf82c90f33dad764cd797ca7812fa9a10",
+      "CS-2012-Q14-1.webp": "a4d2be48b5a7671e093d127b4587585fd23f895a4323f598ab0e25c43611cd82",
+      "CS-2012-Q15-1.webp": "1516c35c552c0c506878a247b4aa31a9fd4dfdf4b98890a8bf3eead949e86b4e",
+      "CS-2012-Q16-1.webp": "708cd8864077772209b9eca9ea6692a580c038f44c8302d0ef91824994082545",
+      "CS-2012-Q17-1.webp": "ce36c145cc1a9465ad33d629d06bb987e5ceab4d9f1f867f6d346363dd8926d5",
+      "CS-2012-Q18-1.webp": "992c582286abefed1c492fd26c853140cda19af727928549c7d3deb28ca266c9",
+      "CS-2012-Q19-1.webp": "80af948565d059d15d8623551529bedb1cc4819659c54b957dc387c62ffdbfdf",
+      "CS-2012-Q20-1.webp": "3e6c877e644c5fda6287537f84bd84804975aee44424d249ebc69646a19243b6",
+      "CS-2012-Q21-1.webp": "0dd241a5c5d4e24413f57ad5e6be752c72983cd8d9c4d40cda64773f894a1e5b",
+      "CS-2012-Q22-1.webp": "7ede4895a194c0493834b6882bbec84176e0249841c67d779880c7c724fd2858",
+      "CS-2012-Q23-1.webp": "a5cfafe78d1e63280e2a1d117f91b159fc06c051c74ea2e9c941f9c0a10b9b0f",
+      "CS-2012-Q24-1.webp": "731f3b24d58f93a249a814f9587df0bad8437e78f6d1ce6481f58a2fb6fa85ad",
+      "CS-2012-Q25-1.webp": "f94cc62fb368b8c94dbf93e6c5f35af278f7dac5c41d2a43a8386e1f2e41d42f",
+      "CS-2012-Q26-1.webp": "a839e3037edca38d2cdf09da0db6f62c5f03e5490e075b7f7fe18ff346301f36",
+      "CS-2012-Q27-1.webp": "5c7c12d0d9a47e3509e5db27b86dcaa8ea8cec467585d259dc725db3de5c2e9f",
+      "CS-2012-Q28-1.webp": "790194b588378c00bc5e7d4c5ab36f4a930e114a033b35fd7997227f1cc4778e",
+      "CS-2012-Q29-1.webp": "a64f9fa04ce277a0f7008a59e883d7335696b1614ed3df4aebd60ec9804c2b87",
+      "CS-2012-Q30-1.webp": "396e6fd7fda59f53ac07ce698f54b8112639e2d388c221d254069ffd329f47ea",
+      "CS-2012-Q31-1.webp": "f3f61eb717f7a5db2ed80a5bb1b441be153ff40d8f6426e0b9fef717e1365de3",
+      "CS-2012-Q32-1.webp": "2c95d1fa2d159c243a673609218d01ceec371f010e2c46766032753c6dbf74b7",
+      "CS-2012-Q33-1.webp": "367313783249930dcdde1d4987e66737d5cca08c2152cefe61fa1fbbcc79c905",
+      "CS-2012-Q34-1.webp": "cf7b7b46d0a962f1c6941216e9a4df30c758ed747fc7868ee2857ddc78b89458",
+      "CS-2012-Q35-1.webp": "368ce640aad1cfef1e088ab4bf36cc1ea76fca3f9969df912a1c8ab537f17473",
+      "CS-2012-Q36-1.webp": "20ce68629bc84a6552e3e372f04847a4b98dabc1db5e464441b2941b652cf823",
+      "CS-2012-Q37-1.webp": "a9e2d293d90245294034cf97e0cfd04b602976678c70e9c7b0ad25edacc7469d",
+      "CS-2012-Q38-1.webp": "16311380eb1a02dfd18701642a485b6fd08c7ca7d664d2a628d2d0686b61c532",
+      "CS-2012-Q39-1.webp": "5b9a00cabc2aff8268531e48e10846e779072bf46b8d9ab7bfda4e003c95e367",
+      "CS-2012-Q40-1.webp": "ed05983185a53de00defe6837e1a55c84a641c056ff9391899aca798a11accc4",
+      "CS-2012-Q41-1.webp": "bfa03080e2ae84354e1bb5f6ab389de905c7f3a5fda27440b44cecef22af44d7",
+      "CS-2012-Q42-1.webp": "713ddfdc4c388e5b9cbb319095afd1e5b51d3d366146f6d26de71229ae2be5e9",
+      "CS-2012-Q43-1.webp": "452873342b7584f865657d0cb1b5b24c6c28858818dec5b759b6d7081130d145",
+      "CS-2012-Q44-1.webp": "9e6dd0a156e1193b97201e042c10c0cc6ef90d53ced8fb2399feb286778cce46",
+      "CS-2012-Q45-1.webp": "fdeaf98103d8ba416abcbc952cda5c80bb5f9dade43e856f4ac7a81c49b27008",
+      "CS-2012-Q46-1.webp": "fe2ee33ceb2b67a566fb820fb8c4a297d37b479e423faea772f7bc3256d7746f",
+      "CS-2012-Q47-1.webp": "714eab8a0d2d2ff3863692004b9223acd1401655fca3f68d186de21ecbdf966e",
+      "CS-2012-Q48-1.webp": "372bd1eff6c702f8dd00d0c34bc537bca7e131ceeee0b50d72ec634f70c43c9e",
+      "CS-2012-Q49-1.webp": "3e7bac96f2a440debf70385ebd78c81fed5561d76b536bcf967181344ddc9f58",
+      "CS-2012-Q50-1.webp": "e9b256ede4e14e9acc17335481af3383875a19e4c49ceb0f624cd20e852e69c5",
+      "CS-2012-Q51-1.webp": "89fbcfc1ce433de7ad8d34b79a00ec70f801b51c778387e9207bd0329ef4d4a8",
+      "CS-2012-Q52-1.webp": "c80eee6f87718d9cd6c2d7327147160d195a143e63665e18816f050fffd8aa95",
+      "CS-2012-Q53-1.webp": "875917dd323c6c25133cdf6c285b652f04f3983eb7ce468d5b80a084736a5468",
+      "CS-2012-Q54-1.webp": "2b7d90cbbe86cf8f427a1a7d7cfd14dc8024a3cf57a0d04b84828a8e7929340e",
+      "CS-2012-Q55-1.webp": "f98d985b7c821e299611b8735f491de722fbe2df88cb494f7e3561015465dd9a",
+      "CS-2012-Q56-1.webp": "aeada4e762183669a2d10740be07fa02059c5e08d73ce275eb95668fd4766bde",
+      "CS-2012-Q57-1.webp": "61229614a9fcb8c7bdd1d394272895cd7c7f696dbd657b50cbf98ab3d99de5c7",
+      "CS-2012-Q58-1.webp": "41b901c5a73efaca54627bee67c55849e1089d217993fca2a7a17d331be8bc7e",
+      "CS-2012-Q58-2.webp": "d89ee295d7e43c46f3618c65f2a43f4129a27cf469aa3617c88cb86eb6b5828d",
+      "CS-2012-Q59-1.webp": "41b901c5a73efaca54627bee67c55849e1089d217993fca2a7a17d331be8bc7e",
+      "CS-2012-Q59-2.webp": "6e86540e461afd5fddb84f1a8b75500cbae5217e73b59f987bdd06ae39ef28ef",
+      "CS-2012-Q60-1.webp": "3ce914bc8010999e58c8802bca6870df3de6013ffa9004e679976a19d3f930f8",
+      "CS-2012-Q60-2.webp": "7bc2b1874e29d1917c996419e948b5902a9cef7f5903b9b9cee0076a30db19e2",
+      "CS-2012-Q61-1.webp": "3ce914bc8010999e58c8802bca6870df3de6013ffa9004e679976a19d3f930f8",
+      "CS-2012-Q61-2.webp": "353fc7be0ac2c261d4e814c9a1a1fa6cffaedc41538b1cc2201b94f906fb6d67",
+      "CS-2012-Q62-1.webp": "8ae65bc0b6d359bf2934a694a9ba23e2d861bd2e3eb1bb4702a5d005f81f4195",
+      "CS-2012-Q62-2.webp": "74f53b267f13d137ce2798348a2b5be8dfd7146c07f4bd5d8d7ffc4753a6b825",
+      "CS-2012-Q63-1.webp": "8ae65bc0b6d359bf2934a694a9ba23e2d861bd2e3eb1bb4702a5d005f81f4195",
+      "CS-2012-Q63-2.webp": "483ecb533dc7f5a0a10388455793da8d6b75e709b5cbaeeee3094407a0f2c8b1",
+      "CS-2012-Q64-1.webp": "990819dd2287c3ab35c055e15b0dbc8386c62f263a969a8ac91abcb24e2daef2",
+      "CS-2012-Q64-2.webp": "7f5ae7320576604ada385f2526b7fecebe495392b26cb3458c69c15a78389839",
+      "CS-2012-Q65-1.webp": "990819dd2287c3ab35c055e15b0dbc8386c62f263a969a8ac91abcb24e2daef2",
+      "CS-2012-Q65-2.webp": "9b0765ed783a669d88c8ea174b0ed4e3af18deca66f4d027877a3ce8c64e6ce6"
+    },
+    "blocking_findings": []
+  }
+}

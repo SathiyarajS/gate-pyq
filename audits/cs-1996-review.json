@@ -1,0 +1,12 @@
+{
+  "entries": 95,
+  "decision": "Independent correctness and teaching review passed",
+  "scope": "All95 paraphrases/solutions read; GFG1\u201310 visually inspected, critical alternate figures and notation checked. Author checks and independent banker,circuit,search,timing tests passed.",
+  "corrections": [
+    "Q11 exponential versus polynomial source restored",
+    "Q34 nonempty language edge case corrected",
+    "Q33 duplicate alternative recorded",
+    "Q83 literal dot output preserved"
+  ],
+  "uncertainty": "Third-party reproductions, no official key, original completeness unverified; source/model defects retained."
+}

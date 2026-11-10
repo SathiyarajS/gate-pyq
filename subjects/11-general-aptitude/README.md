@@ -1,4 +1,4 @@
-# General Aptitude — GATE PYQ (1990–2025)
+# General Aptitude — GATE PYQ (1991–2026)
 
 Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.md](../../templates/question.md) for each question.
 
@@ -6,7 +6,6 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 
 | Year | Official question count | Documented | Verified (2nd pass) | Discrepancies |
 |------|------------------------|------------|---------------------|---------------|
-| 1990 | ? | 0 | ☐ | 0 |
 | 1991 | ? | 0 | ☐ | 0 |
 | 1992 | ? | 0 | ☐ | 0 |
 | 1993 | ? | 0 | ☐ | 0 |
@@ -26,19 +25,23 @@ Files: one per year, named `YYYY.md` (e.g. `2019.md`). Use [templates/question.m
 | 2007 | ? | 0 | ☐ | 0 |
 | 2008 | ? | 0 | ☐ | 0 |
 | 2009 | ? | 0 | ☐ | 0 |
-| 2010 | ? | 0 | ☐ | 0 |
-| 2011 | ? | 0 | ☐ | 0 |
-| 2012 | ? | 0 | ☐ | 0 |
-| 2013 | ? | 0 | ☐ | 0 |
-| 2014 | ? | 0 | ☐ | 0 |
-| 2015 | ? | 0 | ☐ | 0 |
-| 2016 | ? | 0 | ☐ | 0 |
-| 2017 | ? | 0 | ☐ | 0 |
-| 2018 | ? | 0 | ☐ | 0 |
-| 2019 | ? | 0 | ☐ | 0 |
-| 2020 | ? | 0 | ☐ | 0 |
-| 2021 | ? | 0 | ☐ | 0 |
-| 2022 | ? | 0 | ☐ | 0 |
-| 2023 | ? | 0 | ☐ | 0 |
-| 2024 | ? | 0 | ☐ | 0 |
-| 2025 | ? | 0 | ☐ | 0 |
+| 2010 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2011 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2012 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2013 | ? | 10 (source-linked entries) | ☐ | 1 |
+| 2014 | ? | 30 (source-linked entries) | ☐ | 2 |
+| 2015 | ? | 30 (source-linked entries) | ☐ | 3 |
+| 2016 | ? | 20 (source-linked entries) | ☐ | 1 |
+| 2017 | ? | 20 (source-linked entries) | ☐ | 1 |
+| 2018 | ? | 10 (source-linked entries) | ☐ | 2 |
+| 2019 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2020 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2021 | ? | 20 (source-linked entries) | ☐ | 0 |
+| 2022 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2023 | ? | 10 (source-linked entries) | ☐ | 0 |
+| 2024 | ? | 20 (source-linked entries) | ☐ | 0 |
+| 2025 | ? | 20 (source-linked entries) | ☐ | 1 |
+
+| 2026 | ? | 20 (source-linked entries) | ☐ | 1 |
+
+Counts are subject-specific and remain unknown until all sessions are classified. Zero documented is not zero expected. See question ledger for key comparisons and pending reviews.

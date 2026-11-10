@@ -1,0 +1,607 @@
+{
+  "scope": "Independent essential-context comparison for CS-2002-Q1 through Q72 only. Every question_text compared with the visual GFG reproduction pages 1–8, supported by extracted text. Not a verbatim transcription certification or a review of answers/solutions.",
+  "provenance": "Secondary reproductions only; official original and official key remain unverified.",
+  "alternate_visual_pages": [
+    7,
+    12,
+    13,
+    14
+  ],
+  "alternate_scope": "GateForum page 7 confirms Q29 option-D difference and Q30 FSM; page 12 confirms Q62 circuit and Q63–64 register wiring; page 13 confirms Q65–69 format/cache/code; page 14 confirms Q70–72 template and missing adjacency numeral in alternate.",
+  "input_sha256": "fdb616ae31a7681d3097bfe1f355cdb75ba17bab78cb1414d89dc8c8ea3eee29",
+  "question_text_changes": [],
+  "metadata_changes": "Set context_review_pending false on all 72 reviewed entries. No other contribution fields changed. No repository files, answers or solutions edited.",
+  "retained_qualifications": [
+    "Q27 disabled-output convention is not explicitly specified in drawing.",
+    "Q29 D is GFG AC=0,CY=0 versus GateForum AC=0,CY=1; both retained and official wording unverified.",
+    "Q6 matrix-dimension, Q25 graph-model, Q39 overlapping-option, Q49 normal-form and Q50 instance-versus-schema subtleties are not silently repaired in question wording.",
+    "Q70–72 use the adjacency numeral 1 visible in GFG; GateForum omits it. Source code loop order retained."
+  ],
+  "rows": [
+    {
+      "question_id": "CS-2002-Q1",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "2x2 matrix and four ranks",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q2",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "trapezoidal degree options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q3",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "recurrence, initial value, and exponent options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q4",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "cycle coloring and parity expression",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q5",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "linked-list worst-case comparison options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q6",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "all four group statements without adding fixed-dimension qualification",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q7",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "10-item stack restriction and four language classes",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q8",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "unless formula and all negation/conjunction placements",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q9",
+      "gfg_pages": [
+        1
+      ],
+      "checked": "INTR/CALL task and active-low INTA option",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q10",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "8085 program-counter options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q11",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "start/stop-bit values and four rationales",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q12",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "all 16 K-map cells, Gray order, and complemented options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q13",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "four memory items",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q14",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "0.25 and four binary alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q15",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "minus 15 and lengths of all four bit strings",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q16",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "sign-extension operation alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q17",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "four activation-record and scope statements",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q18",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "value-result/reference alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q19",
+      "gfg_pages": [
+        2
+      ],
+      "checked": "FD redundancy question and closure notation",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q20",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "algebra/calculus versus safe-calculus alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q21",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "overflow carries and opposite-sign addition alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q22",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "nonpreemption and four scheduling choices",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q23",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "future/past usage and frequency alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q24",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "absolute-addressing four alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q25",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "undirected graph no-self-loop assumption and four edge counts",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q26",
+      "gfg_pages": [
+        3
+      ],
+      "checked": "NAND/NOT/NAND topology and all minterm sets",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q27",
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "checked": "MUX data/select/enable wiring and all alternatives; disabled-output caveat retained",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q28",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "nested function and three algebraic options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q29",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "all four 8085 instructions; variant D independently confirmed",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q30",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "all six FSM transitions, starting state, bit widths and alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q31",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "three pipeline hazards and all-of-above",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q32",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "horizontal microprogramming statements",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q33",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "array dimensions, base, char indexing and four addresses",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q34",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "zero/three children and four leaf expressions",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q35",
+      "gfg_pages": [
+        4
+      ],
+      "checked": "random search with replacement, distinct values, x present and options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q36",
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "checked": "ceiling-square-root recursion, cutoff 2 and four complexity choices",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q37",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "subtree size inequalities, height convention and logarithm bases",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q38",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "length multiple of three and state-count options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q39",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "four language-complement alternatives without repairing overlapping truth",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q40",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "Newton iteration fractions and equation powers",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q41",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "four coins, at-least-one conditions and probabilities",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q42",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "empty relation, three-element universe and property combinations",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q43",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "C-language classification options",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q44",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "no embedded calls and stack alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q45",
+      "gfg_pages": [
+        5
+      ],
+      "checked": "dynamic-linking alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q46",
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "checked": "all three multiprogramming features and combinations",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q47",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "index allocation three size determinants and combinations",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q48",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "B+ tree, 8/512/4 bytes, degree as pointers and alternatives",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q49",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "R/F S/G, BCNF-versus-3NF wording, closure availability and tests",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q50",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "all four rows including duplicate, all four FD conclusions",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q51",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "relation-count task, n>0 and function-count common setup",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q52",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "function-count task and common setup",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q53",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "comparison-for-every-n task and common setup",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q54",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "ordered pairs, irreflexivity and minimum equivalence completion",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q55",
+      "gfg_pages": [
+        6
+      ],
+      "checked": "powerset, inclusion order and Hasse-diagram task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q56",
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "checked": "all 16 matrix entries and eigenvalue task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q57",
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "checked": "biconditional formula and classification task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q58",
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "checked": "implication formula and classification task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q59",
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "checked": "conjunction with negated disjunction and classification task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q60",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "three node labels, preorder CBA and draw-all requirement",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q61",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "xy-prime plus yz-prime, one complement and circuit task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q62",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "three AND gates and two cascaded OR gates; six two-input NAND target",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q63",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "all register widths, wiring, carry flow, unregistered output, falling edges, initial zeroes and 16 input values",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q64",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "same circuit wiring and operation-identification task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q65",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "field order/widths, exponent bias/base, sign convention, minus 7.5 and hexadecimal task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q66",
+      "gfg_pages": [
+        7
+      ],
+      "checked": "same floating format and largest-value nearest-power-of-ten task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q67",
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "checked": "2048 floats, four bytes, address zero, 8 KB cache, 16-byte line and conflicts task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q68",
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "checked": "same cache setup, reverse traversal, empty cache and excluded other accesses",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q69",
+      "gfg_pages": [
+        8
+      ],
+      "checked": "function signature, three blanks, exact printf operands and recursive-call positions",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q70",
+      "gfg_pages": [
+        8
+      ],
+      "checked": "adjacency 1/0 definition, both initialization blanks, loop ordering and requested initialization task",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q71",
+      "gfg_pages": [
+        8
+      ],
+      "checked": "same template and requested update task, four update blanks",
+      "result": "matches essential source context; no question-text correction required"
+    },
+    {
+      "question_id": "CS-2002-Q72",
+      "gfg_pages": [
+        8
+      ],
+      "checked": "same template and requested O(blank) task",
+      "result": "matches essential source context; no question-text correction required"
+    }
+  ]
+}

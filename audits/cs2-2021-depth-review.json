@@ -1,0 +1,147 @@
+{
+  "paper_id": "CS-2021-S2",
+  "review_status": "pass_after_recorded_corrections",
+  "reviewed_entries": 65,
+  "source": "/tmp/gate-2021-CS.pdf",
+  "source_text_pages": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88
+  ],
+  "source_visual_pages": [
+    47,
+    48,
+    51,
+    53,
+    57,
+    61,
+    64,
+    66,
+    69,
+    73,
+    77,
+    78,
+    83,
+    84,
+    86,
+    88,
+    89,
+    90,
+    91
+  ],
+  "baseline_checked": "/workspace/shared/gate-pyq/data/questions.json",
+  "baseline_answer_type_marks_and_source_links": "unchanged for all 65 entries",
+  "official_key_review": "All 65 answers and scoring intervals agree with merged PDF pp.89–91. No final-key provenance upgrade.",
+  "corrections": [
+    {
+      "question_id": "CS-2021-S2-Q2",
+      "status": "applied to contribution JSON and Markdown only",
+      "before": "The reflected rising curve and original falling curve",
+      "after": "The reflection of the originally rising left-hand curve and the original falling right-hand curve",
+      "reason": "Reflection reverses the rising slope; both resulting curves descend left to right."
+    },
+    {
+      "question_id": "CS-2021-S2-Q2",
+      "status": "author replaced with full source page; reviewer visually reinspected and verified embedded bytes",
+      "issue": "Embedded PNG clips top of original square and bottom of option D. Essential complete choices are required."
+    },
+    {
+      "question_id": "CS-2021-S2-Q7",
+      "status": "author replaced with full source page; reviewer visually reinspected and verified embedded bytes",
+      "issue": "Embedded PNG clips top of original piece and bottom of option D. Essential complete choices are required."
+    }
+  ],
+  "teaching_depth": "All 65 solutions read and independently assessed. Appropriate worked calculations, proof or counterexample, distractor explanations, and relevant assumptions are present. No numerical or logical answer correction found.",
+  "Q62_independent_verification": {
+    "forced_ones": [
+      0,
+      1,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      15
+    ],
+    "forced_zeros": [
+      4,
+      5,
+      10,
+      12
+    ],
+    "free": [
+      2,
+      3
+    ],
+    "dont_care_minimum": 6,
+    "completion_2_one_3_zero_minimum": 9,
+    "reason": "6 achieved by not-x not-y + xy + wz; no one-literal cube avoids forced zeros and points 0,6,13 cannot share a term pairwise. For completion 2=1,3=0, prime cubes are 00-0,0-10,1--1,-00-,-11-. Points 1,13,14 force the last three respective two-literal primes; point2 requires one three-literal prime, totaling9. Sympy SOPform independently agrees."
+  },
+  "supplied_checker": "PASS, rerun after wording correction and complete figure replacement",
+  "caveats_preserved": [
+    "Q13 conceptual compiler-phase model versus real parser diagnostics",
+    "Q20 C cross-row pointer arithmetic undefined behavior despite intended option C",
+    "Q40 intended arithmetic regrouping/CSE model",
+    "Q41 quoted SQL literal and departments with no qualifying rows",
+    "Q49 positive running-time recurrence assumptions",
+    "Q53 abstract termination/resource release and reentrant request limitations",
+    "Q62 incomplete specification and completion-dependent literal count",
+    "Q63 WB/EX cycle-boundary convention and official 1.87–1.88 range",
+    "Q32 official 15–16 range and Q64 official 130–140 range"
+  ],
+  "figure_review": {
+    "Q2": "complete after replacement; source square and A–D intact; option B verified",
+    "Q7": "complete after replacement; source piece and A–D intact; option A verified",
+    "Q15": "complete; mux wiring and input tuples agree",
+    "Q27": "complete; DFA transitions agree",
+    "Q56": "complete; arrows, three SCC cycles, back-edge count agree",
+    "Q65": "complete; directed weighted edges and DP total929 agree"
+  },
+  "repository_modified": false,
+  "pages_modified": false,
+  "sources": [
+    "Official archived source paper and key; see entry source URLs."
+  ]
+}

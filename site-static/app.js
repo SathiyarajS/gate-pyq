@@ -1,0 +1,59 @@
+'use strict';
+document.documentElement.classList.add('js');
+const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
+const write=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));}catch{}};
+let state=read('gate-practice-v1',{});if(!state||typeof state!=='object'||Array.isArray(state))state={};
+const theme=read('gate-theme',null);if(['dark','light'].includes(theme))document.documentElement.dataset.theme=theme;
+document.querySelector('#theme')?.addEventListener('click',()=>{const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;document.documentElement.dataset.theme=dark?'light':'dark';write('gate-theme',dark?'light':'dark');});
+const base=new URL(document.body.dataset.base,location.href);
+function progress(){const el=document.querySelector('.progress');if(el){const s=document.body.dataset.subject;el.textContent=Object.values(state).filter(x=>x&&x.subject===s&&x.attempted).length+' attempted in this subject (stored in this browser)';}}
+function renderMath(root=document){if(!window.katex)return;root.querySelectorAll('.math-source:not([data-rendered])').forEach(el=>{const original=el.textContent;try{if(/\\(?:href|url|includegraphics|htmlClass|htmlId|htmlStyle|htmlData)\b/.test(el.dataset.math))throw Error('External or HTML-producing math command is not supported');window.katex.render(el.dataset.math,el,{displayMode:el.dataset.display==='true',throwOnError:true,trust:false,strict:'error',maxExpand:1000,maxSize:20,output:'htmlAndMathml'});el.dataset.rendered='true';}catch{el.textContent=original;el.dataset.rendered='unsupported';el.title='Unsupported mathematical syntax; original text preserved.';el.classList.add('math-unsupported');}});}
+function hydrate(){renderMath();document.querySelectorAll('.question[data-id]').forEach(article=>{const s=state[article.dataset.id]||{};const b=article.querySelector('.bookmark');b?.setAttribute('aria-pressed',String(!!s.bookmarked));if(b)b.textContent=s.bookmarked?'Bookmarked':'Bookmark';});progress();}
+function save(article,patch){const id=article.dataset.id;state[id]={...state[id],...patch,subject:article.dataset.subject};write('gate-practice-v1',state);hydrate();}
+function check(key,input,type){
+ // Never infer option counts or parse a conditional derivation as a scoring key.
+ if(type==='MCQ'&&/^[A-Z]$/.test(key)&&/^[A-Z]$/.test(input))return input===key;
+ if(type==='MSQ'&&/^[A-Z](;[A-Z])*$/.test(key)&&/^[A-Z]([;, ]+[A-Z])*$/.test(input)){const normalize=s=>[...new Set(s.match(/[A-Z]/g))].sort().join('');return normalize(input)===normalize(key);}
+ if(type==='NAT'&&input.trim()!==''&&Number.isFinite(Number(input))){const m=key.match(/^(-?\d+(?:\.\d+)?) to (-?\d+(?:\.\d+)?)$/);if(m)return Number(input)>=Number(m[1])&&Number(input)<=Number(m[2]);}
+ return null;
+}
+document.addEventListener('click',async event=>{const b=event.target.closest('button');if(!b)return;const article=b.closest('.question');if(!article)return;
+ if(b.classList.contains('bookmark'))save(article,{bookmarked:!(state[article.dataset.id]?.bookmarked)});
+ if(b.classList.contains('copy-link')){const url=new URL('q/'+article.dataset.id+'/',base).href;try{await navigator.clipboard.writeText(url);b.textContent='Copied';}catch{b.textContent='Use permalink';}}
+ if(b.classList.contains('choice')&&b.classList.contains('multi')){b.setAttribute('aria-pressed',String(b.getAttribute('aria-pressed')!=='true'));return;}
+ if(b.classList.contains('choice')||b.classList.contains('check-answer')){
+  const type=article.dataset.type,key=article.dataset.key;let input='';
+  if(b.classList.contains('choice')){input=b.dataset.choice;article.querySelectorAll('.choice').forEach(c=>{c.classList.remove('picked','right','wrong');c.setAttribute('aria-pressed','false');});b.classList.add('picked');b.setAttribute('aria-pressed','true');}
+  else if(type==='MSQ')input=[...article.querySelectorAll('.choice[aria-pressed="true"]')].map(c=>c.dataset.choice).join(';');
+  else input=(article.querySelector('.attempt-input')?.value||'').trim().toUpperCase();
+  const result=check(key,input,type);article.querySelector('.answer').open=true;
+  if(result!==null)article.querySelectorAll('.choice.picked,.choice[aria-pressed="true"]').forEach(c=>c.classList.add(result?'right':'wrong'));
+  article.querySelector('.attempt-result').textContent=result===null?(input?'No official key to check against — compare with our answer below.':'Answer shown below.'):(result?'Correct — matches the official key.':'Not quite — the official key is shown below.');
+  save(article,{attempted:true,result,input});}
+});hydrate();
+const form=document.querySelector('#filters');if(form){let records=null,page=1,filtered=[];const original=document.querySelector('#questions').innerHTML;
+ function draw(){document.querySelector('#questions').innerHTML=filtered.slice((page-1)*10,page*10).map(x=>x.html).join(''); // Same trusted, escaped fragments emitted by local generator; no source HTML accepted.
+ document.querySelectorAll('#questions a[href^="../"]').forEach(a=>a.href=new URL(a.getAttribute('href').slice(3),base).href);
+ document.querySelectorAll('#questions img[src^="../"]').forEach(img=>img.src=new URL(img.getAttribute('src').slice(3),base).href);
+ document.querySelector('#filter-status').textContent=filtered.length+' matching questions · page '+page+' of '+Math.max(1,Math.ceil(filtered.length/10));const nav=document.querySelector('#filter-pagination');nav.replaceChildren();for(const [label,step]of[['Previous',-1],['Next',1]]){const b=document.createElement('button');b.textContent=label;b.disabled=page+step<1||page+step>Math.ceil(filtered.length/10);b.onclick=()=>{page+=step;draw();};nav.append(b);}hydrate();}
+ form.addEventListener('submit',async e=>{e.preventDefault();try{if(!records){const r=await fetch(new URL(document.body.dataset.subject+'/index.json',base));if(!r.ok)throw Error();records=await r.json();}
+ const f=new FormData(form);filtered=records.filter(q=>q.year>=Number(f.get('from')||1991)&&q.year<=Number(f.get('to')||2026)&&(!f.get('marks')||String(q.marks)===f.get('marks'))&&(!f.get('type')||q.type===f.get('type'))&&(!f.has('discrepancy')||q.discrepancy)&&(!f.has('bookmarked')||state[q.id]?.bookmarked));page=1;document.querySelectorAll('.static-pagination').forEach(x=>x.hidden=true);draw();}catch{document.querySelector('#filter-status').textContent='Filters could not load. Use the normal page links below.';}});
+ form.addEventListener('reset',()=>{document.querySelector('#questions').innerHTML=original;document.querySelectorAll('.static-pagination').forEach(x=>x.hidden=false);document.querySelector('#filter-status').textContent='';document.querySelector('#filter-pagination').replaceChildren();hydrate();});}
+const search=document.querySelector('#search');if(search){
+ let data=null,pagefind=null,engineTried=false,revision=0;
+ const facets=['subject','year','type'];
+ async function performSearch(){const r=++revision,term=search.value.trim(),results=document.querySelector('#search-results'),status=document.querySelector('#search-status');if(!term){results.replaceChildren();status.textContent='';return;}
+ const filters=Object.fromEntries(facets.map(name=>[name,document.querySelector('#search-'+name).value]).filter(([,v])=>v));
+ try{
+  if(!engineTried){engineTried=true;try{pagefind=await import(new URL('pagefind/pagefind.js',base).href);await pagefind.init();}catch{pagefind=null;}}
+  let found,total,mode;
+  if(pagefind){const response=await pagefind.search(term,{filters});total=response.results.length;found=await Promise.all(response.results.slice(0,50).map(async hit=>{const result=await hit.data();return {title:result.meta.title||result.meta.question_id,id:result.meta.question_id,subject:result.filters.subject?.join(', ')||'',year:result.filters.year?.join(', ')||'',type:result.filters.type?.join(', ')||'',url:'q/'+result.meta.question_id+'/'};}));mode='Indexed search';}
+  else{if(!data){const response=await fetch(new URL('search.json',base));if(!response.ok)throw Error();data=await response.json();}const all=data.filter(q=>[q.title,q.text,q.year,q.subject,q.type].join(' ').toLowerCase().includes(term.toLowerCase())&&Object.entries(filters).every(([k,v])=>String(q[k])===v));total=all.length;found=all.slice(0,50);mode='Text search fallback (index unavailable)';}
+  if(r!==revision)return;results.replaceChildren();status.textContent=total+' matches · '+mode+(total>50?' · first 50 shown; refine your search':'');
+  for(const q of found){const div=document.createElement('div');div.className='search-hit';const a=document.createElement('a');a.href=new URL(q.url,base);a.textContent=q.title;const meta=document.createElement('small');meta.textContent=q.id+' · '+q.subject+' · '+q.type;div.append(a,meta);results.append(div);}
+ }catch{if(r===revision)status.textContent='Search could not load. Browse the subject and paper pages instead.';}}
+ search.addEventListener('input',performSearch);facets.forEach(f=>document.querySelector('#search-'+f).addEventListener('change',performSearch));
+}
+let remaining=10800,end=null,tick=null;const timer=document.querySelector('#timer-value');function showTime(){if(timer)timer.textContent=[Math.floor(remaining/3600),Math.floor(remaining%3600/60),remaining%60].map(n=>String(n).padStart(2,'0')).join(':');}
+document.querySelector('#timer-start')?.addEventListener('click',()=>{if(tick)return;end=Date.now()+remaining*1000;tick=setInterval(()=>{remaining=Math.max(0,Math.ceil((end-Date.now())/1000));showTime();if(!remaining){clearInterval(tick);tick=null;timer.textContent='Time complete';}},250);});document.querySelector('#timer-pause')?.addEventListener('click',()=>{if(end)remaining=Math.max(0,Math.ceil((end-Date.now())/1000));clearInterval(tick);tick=null;end=null;showTime();});
+let printDetails=[];addEventListener('beforeprint',()=>{printDetails=[...document.querySelectorAll('details.answer')].map(d=>[d,d.open]);printDetails.forEach(([d])=>d.open=true);});addEventListener('afterprint',()=>printDetails.forEach(([d,open])=>d.open=open));

@@ -1,0 +1,7 @@
+{
+  "entries": 65,
+  "decision": "Independent correctness, essential fidelity and teaching depth passed",
+  "visual": "Paper6,8,11,16,20,27,28,35,38,39,40 and both key pages",
+  "checks": "All65 protected/scoring fields unchanged; independent permutations,9841 array traces, stack reachability, Boolean composition,320 spanning trees, bipartite graph,regex,groups,tablebounds and LRclosure checks passed",
+  "caveat": "Q28 DF-bit source qualification retained; no full transcription/artwork certification"
+}

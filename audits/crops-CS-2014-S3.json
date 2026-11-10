@@ -1,0 +1,363 @@
+{
+  "paper_id": "CS-2014-S3",
+  "status": "independent_source_bounds_review_passed",
+  "source_file": "sources/archive/CS/CS2014.pdf",
+  "source_sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+  "reviewed_proposal_sha256": "33f3bf2a9e56b7587c2a3333b03180dca2f779b251acb6c826a62d29f160d1e5",
+  "preparation_evidence_sha256": "a98b31890d4d893500c035b1ac200a3a09117eced5cb11850ba747420e0f2c20",
+  "questions": 65,
+  "crop_parts": 65,
+  "verified_questions": 65,
+  "full_source_question_pages_visually_inspected": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "all_output_parts_visually_inspected": true,
+  "fresh_render_byte_identity": true,
+  "source_page_pixel_identity": true,
+  "contact_sheets_visually_inspected": 17,
+  "review_scope": "Separate preparation and independent review inspected all source question pages and all 65 actual output crops. Complete stems, options, notation, code, tables and figures retained; neighboring questions, headers, footers, marks-section headings and end banners excluded. Source watermarks retained.",
+  "special_checks": "GA printed 1–10 map to normalized Q1–Q10; technical printed 1–55 map to normalized Q11–Q65. No continuations or shared stems found. GA Q5 and technical Q25 exclude following marks headings. GA Q10 and technical Q55 exclude end banners.",
+  "limitations": "Private crop fidelity only, not answer recertification, source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "outputs": [
+    {
+      "question_id": "CS-2014-S3-Q1",
+      "output_sha256": "62fa211169474d721c795b1a914d45476a730210d98dfc238268be132ed5ad2b",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q2",
+      "output_sha256": "166ae1bff4fc16027400950d087aa63856997bdc9ffeea95e97a286b932ffab5",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q3",
+      "output_sha256": "4efb1195a59e8e4eced77bd253f2768fa1dd5c6bf5a801daa5629a649365f479",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q4",
+      "output_sha256": "3e246544216c3a555ebffeef4d44f1b61d7b73e6ba93485f28860773f56c9987",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q5",
+      "output_sha256": "1e122514906a5bdde3d1e0c0c5e487f939bfbb6e73a7c0c0d5abf01a54230276",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q6",
+      "output_sha256": "2707b4ca3fbadd91827950d9b4268795e34fa95b9107bb7b391aff6569c26e87",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q7",
+      "output_sha256": "e0865dd77ec551da35915b5456dd110dd00b26bfb2314137e0a1ef8a24ca2035",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q8",
+      "output_sha256": "54f8f166e1ab5376a285f62ee49f668a4d6098c0b9125de1563872bda3951782",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q9",
+      "output_sha256": "70db46702d4347884ac8435b3f534ee5fe5f894e70e5659c9a09f543fb4c7fec",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q10",
+      "output_sha256": "28c1beb5d3d0854e543f63b0330bd9e8d98af924f55d8cb306257c58087969e6",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q11",
+      "output_sha256": "3b447ba732ce8bb3f6a7cbcb438acaeef991290e4d23e2a1a9b0888d702b16f3",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q12",
+      "output_sha256": "0edd87b8a6d57590d213ffab4e3fcf4610698d8b61a5e94c4028cc0fbc641f98",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q13",
+      "output_sha256": "83a766137a033c13df09c97b84c14935fef315861d76c0beba6551efa0c9ce09",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q14",
+      "output_sha256": "2a1ed5cb4662f63b0fa303ec59527181b2383c9866533798f2def4bc41f363ae",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q15",
+      "output_sha256": "e92380d4314ad30d0bcde6649416381e95c9cdb84e027fb80c51801c67fc32d6",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q16",
+      "output_sha256": "17c360e5f201f6fdef096590734d87e83659a155189ad431c80e73523597dfd5",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q17",
+      "output_sha256": "e9568b64a778aa9d0cce84f964a8026dab27682c1f10968502fe101b360b8115",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q18",
+      "output_sha256": "701ea7cd42f30573f674b77dd1adb1341321293082159217a99c37c4d14af567",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q19",
+      "output_sha256": "2f67a24220eb313ebce1b47ca5aea33489810e5fed75c8e2f67caf9773777f9a",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q20",
+      "output_sha256": "2c4b3f029d3a3494e96e1765b5e0a3731a68029f02378f71e4956a63971dc106",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q21",
+      "output_sha256": "ea7eefa19344bb48032c4b5fd2e86b5cd2772c8036857fef3fedde5ab8809080",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q22",
+      "output_sha256": "58895d820c806de236947a824bbb9fdf9cb0b9c09feceb8619e0b5fb011d2c29",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q23",
+      "output_sha256": "d1daf167817b31fa83dc4342866d99c5ef2b2af77d6d1a2b8f860574db4f5315",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q24",
+      "output_sha256": "f66ceb85efcf88f853fa96c85a513de4486cb1bf0409c5ef7b4db1f67e0684af",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q25",
+      "output_sha256": "27e2f427acd949562a17ae3ed238c5cbd36c1b82df8f714f9513ac95ac1b01b4",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q26",
+      "output_sha256": "928135327f939801bd46955efc44bd2a1f533ff5f5591df66e898cd18fcbafb4",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q27",
+      "output_sha256": "0b6f4cde8a961975615a8efecaa75c66c18255b2dc87718d7e1dda4bacc49ab8",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q28",
+      "output_sha256": "12602e40e037120da08e35356298afc982ab2d4a32f3a752bdce260ac67be8e5",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q29",
+      "output_sha256": "66c6f96388ea022dba9f5a683ffc8f132999ec17a401cede3019545be2b46624",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q30",
+      "output_sha256": "52034949f7dab25170d4a0ba9b029314e3cfc4164923e696aae17293a3059e3a",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q31",
+      "output_sha256": "ee0cf5f52fc5f114053ccc8228794cb6c5091c4958308523a24c7d80d0296211",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q32",
+      "output_sha256": "6acfa87bad0f9b5c8c5c67dff6f186c72882cd4ec4cc0b3c875c6264ca9bff3c",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q33",
+      "output_sha256": "31072b40743a86406f83a3bb842e21fb02e2716dd263bb10e6a8e2e58dd8944e",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q34",
+      "output_sha256": "04c320ab16964b9d4dd01bce282b5eceb99cefe21f0834572de9235a95d833ad",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q35",
+      "output_sha256": "223ec5fe22fb099978a6302964d5621e8d7760acf05013c71a5fd47c89e81b39",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q36",
+      "output_sha256": "101a7ae75d98a68813df2539719328e9a681c3ce56235c6dc127df2012562695",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q37",
+      "output_sha256": "f95aa783c5369b7beef469f37010813f9279a3e7419b20db3f2a9d8a9a58ba64",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q38",
+      "output_sha256": "e7447c47075f9f4b3fa47667aeaaab9e5856330ee967877874dff9aabb5e6450",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q39",
+      "output_sha256": "2d62235d113cd77adb04c510b72afffb277945cfd5b1d6b94ad198a13e9f6624",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q40",
+      "output_sha256": "9cef02feb188499d2c655e28729aa702166774bf90f1795078a6a9e5f3cb1cd0",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q41",
+      "output_sha256": "bdde29a25b3d9d7d3d4efc9c2ff809ba40ce42f13d1743ab9b6a1bf37cebc2fb",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q42",
+      "output_sha256": "69d9b55e063889a0d93f4766d36a450e4e8050c9c21977df2f1cac16af473b0e",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q43",
+      "output_sha256": "f9dcf81358de4c7c1019a0816836af1a056a6972dc1df3de14c64d40e53f732c",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q44",
+      "output_sha256": "1ee16516cbe73d2a2f8eae8d56c7566f5441fe4c9ba3bc1ee5bb1a6b3df3fcb8",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q45",
+      "output_sha256": "afc30b1b32b790c5aff4753f842c98153fb5c3df02fc1a3a39d2574a3efae452",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q46",
+      "output_sha256": "4ef7429a6993411175eb1ef402643e4e0777c6b5d2be7720cbbf8bf1374c2757",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q47",
+      "output_sha256": "a83bcb4bb9258b2c6f2609e810796139f13d7ea9fd0ffc0fabe57a8f350bbe87",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q48",
+      "output_sha256": "ae334edf85afa105fdd37c4fe44b030a85fc176348854c259363d9d45ed8a668",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q49",
+      "output_sha256": "d5c41feff7b4714118b33f041551d7e1118e45e0e7b8d68b21a78eff2341f1ca",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q50",
+      "output_sha256": "22175ffc6c4d5a80c8d783e55ea459a5828c362995948c98b763719111194a46",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q51",
+      "output_sha256": "323f68c6fb4e658fe86540abda50e3d61428798e76f1436e3e1e01b9dba43642",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q52",
+      "output_sha256": "62e1a3cce620638587f7256936010a4665d3da9e9eabe7495a541e122d02ea06",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q53",
+      "output_sha256": "ab06061ef1cbd48d55bf02c5c8eb38eb117c3207898f60e5beeaa17c18ef655c",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q54",
+      "output_sha256": "8da292644c6665c748d68ac79da7d1a1999d251c889b3294b3d359633d0f673c",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q55",
+      "output_sha256": "c86e6ec0036cee6e30b8785691816702a026f37ffdf5f23822a8cc8fc48903dc",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q56",
+      "output_sha256": "a78463fb89f037afdd672824ada4784ade23eac29b0b67c6a8ae183ffaadc355",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q57",
+      "output_sha256": "07ad7d85f3a364b0dc5c8cac6968fcebc270c899518c3493d65ed723010722ff",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q58",
+      "output_sha256": "9c823eb0d5bd3d3c282959e1de188e243c59f91a782296001e15a3a420e7f1f5",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q59",
+      "output_sha256": "1eef54ba8e0d44db46ac0df1fbfd649be26c544d0532b0d84eb9b5bd8fd0215f",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q60",
+      "output_sha256": "e58daf5ff3343ebc60bca93c5b6a70ec68196c1b9aff3d6bf55e6ab0866d9c88",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q61",
+      "output_sha256": "dfc26ed7a9d74492c1627264767f4601e3d88e8b06057d96333a0cd77c041000",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q62",
+      "output_sha256": "e9c8055fbbd5ecddf95ad95e33964782640721682aa33a9ea5d358ee3bba7042",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q63",
+      "output_sha256": "37c0e96a40ad4c83d9788b594e6446a0351f2d1f4e15f7c70323faff37d5608d",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q64",
+      "output_sha256": "5f16e187ba5c7fd6489040aab61756dfa8eb15bde75d5be37014bc42fa003c30",
+      "fresh_render_byte_identical": true
+    },
+    {
+      "question_id": "CS-2014-S3-Q65",
+      "output_sha256": "7b3ee375bc9363d8aeb0ca168721ee36894ddf64b72b20c9e1a49f74bd650dae",
+      "fresh_render_byte_identical": true
+    }
+  ]
+}
