@@ -46,13 +46,32 @@ class RepackGrayImagesTest(unittest.TestCase):
 
 
 class CacheKeyTest(unittest.TestCase):
+    """The key follows what the PDF prints (its print fingerprint), not every byte of the site."""
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.imgdir = Path(tmp.name)
+        (self.imgdir / 'a.png').write_bytes(b'one')
+        self.doc = f'<img src="{self.imgdir.as_uri()}/a.png">'
+
+    def key(self, printed, footer='f'):
+        image_hash = lambda name: (self.imgdir / name).read_bytes().hex()
+        return build_pdfs.cache_key(printed, self.doc, footer, self.imgdir, image_hash, '158.0')
+
     def test_generated_date_does_not_change_the_key(self):
-        imgdir = Path('/nonexistent')
-        a = build_pdfs.cache_key('<p>Generated 2026-11-10</p>', 'f', imgdir, lambda n: '', 'chrome')
-        b = build_pdfs.cache_key('<p>Generated 2026-12-01</p>', 'f', imgdir, lambda n: '', 'chrome')
-        c = build_pdfs.cache_key('<p>Generated 2026-12-01 changed</p>', 'f', imgdir, lambda n: '', 'chrome')
-        self.assertEqual(a, b)
-        self.assertNotEqual(b, c)
+        self.assertEqual(self.key('1 #Generated 2026-11-10'), self.key('1 #Generated 2026-12-01'))
+        self.assertNotEqual(self.key('1 #Generated 2026-12-01'), self.key('1 #Generated 2026-12-01 changed'))
+
+    def test_printed_text_footer_and_images_change_the_key(self):
+        base = self.key('1 #Q1')
+        self.assertNotEqual(base, self.key('1 #Q2'))
+        self.assertNotEqual(base, self.key('1 #Q1', footer='g'))
+        (self.imgdir / 'a.png').write_bytes(b'two')
+        self.assertNotEqual(base, self.key('1 #Q1'))
+
+    def test_fingerprint_skips_elements_hidden_in_print(self):
+        self.assertIn("cs.display==='none'", build_pdfs.PRINT_FINGERPRINT)
+        self.assertIn("return out.join('\\n')", build_pdfs.PRINT_FINGERPRINT)
 
 
 if __name__ == '__main__':

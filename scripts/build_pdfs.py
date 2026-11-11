@@ -148,12 +148,37 @@ def repack_gray_images(path):
 
 GENERATED=re.compile(r'Generated \d{4}-\d{2}-\d{2}')
 
-def cache_key(doc, footer, imgdir, image_hashes, chromium):
-    """Everything that decides a PDF's bytes, except the 'Generated' date on the cover."""
+# What the printed page shows, read from Chromium in print mode: every rendered
+# element's box, its print styles and generated content, links and anchors, and all
+# visible text. Elements hidden in print (display:none) are skipped, so changes to the
+# site's stylesheet or scripts that only affect the screen leave this unchanged.
+PRINT_FINGERPRINT = """() => {
+ const P=['display','visibility','position','float','color','background-color','background-image','font-family','font-size','font-weight','font-style','line-height','letter-spacing','word-spacing','text-transform','text-decoration-line','text-align','text-indent','vertical-align','white-space','list-style-type','border-top','border-right','border-bottom','border-left','border-radius','padding','margin','opacity','transform','box-shadow','break-before','break-after','break-inside','orphans','widows','overflow-wrap','object-fit','width','height','max-width','max-height','column-count','gap','flex-direction','justify-content','align-items','grid-template-columns','z-index'];
+ const out=[];
+ const walk=(el,depth)=>{
+  const cs=getComputedStyle(el);
+  if(cs.display==='none')return;
+  const r=el.getBoundingClientRect();
+  let line=depth+' '+el.tagName+' '+[r.x,r.y,r.width,r.height].map(v=>Math.round(v*2)/2).join(',')+' '+P.map(p=>cs.getPropertyValue(p)).join('|');
+  for(const ps of ['::before','::after','::marker']){const c=getComputedStyle(el,ps).content;if(c&&c!=='none'&&c!=='normal')line+=' '+ps+c;}
+  for(const a of ['href','id','src','alt','colspan','rowspan'])if(el.hasAttribute(a))line+=' '+a+'='+el.getAttribute(a);
+  out.push(line);
+  for(const n of el.childNodes){if(n.nodeType===3){if(n.data.trim())out.push((depth+1)+' #'+n.data);}else if(n.nodeType===1)walk(n,depth+1);}
+ };
+ walk(document.documentElement,0);
+ return out.join('\\n');
+}"""
+
+def cache_key(printed, doc, footer, imgdir, image_hashes, chromium):
+    """Everything that decides a PDF's bytes, except the 'Generated' date on the cover.
+
+    `printed` is the print fingerprint above, so the key follows what the PDF shows
+    rather than every byte of the site's stylesheet and scripts.
+    """
     import hashlib
     h=hashlib.sha256()
-    # The print HTML loads the site stylesheet and script, so they decide the rendering too.
-    for part in (Path(__file__).read_bytes(),(ROOT/'site-static/style.css').read_bytes(),(ROOT/'site-static/app.js').read_bytes(),chromium.encode(),footer.encode(),GENERATED.sub('Generated',doc).encode()):
+    printed=GENERATED.sub('Generated',printed.replace(imgdir.as_uri()+'/',''))
+    for part in (Path(__file__).read_bytes(),chromium.encode(),footer.encode(),printed.encode()):
         h.update(hashlib.sha256(part).digest())
     for name in sorted(set(re.findall(r'src="'+re.escape(imgdir.as_uri())+r'/([^"]+)"',doc))):
         h.update(name.encode()+image_hashes(name).encode())
@@ -197,29 +222,29 @@ async def run(args):
     async with async_playwright() as p:
         launch=dict(executable_path=args.chromium if args.chromium and Path(args.chromium).is_file() else None,headless=True,args=['--no-sandbox'])
         probe=await p.chromium.launch(**launch);chromium=probe.version;await probe.close()
-        todo=[]
-        for job in jobs:
-            job['key']=cache_key(job['doc'],job['footer'],imgdir,image_hash,chromium)
-            keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
-            job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
-            if not job['cached']:todo.append(job)
-        # Largest documents first so the parallel workers finish together.
-        todo.sort(key=lambda j:-len(j['doc']))
+        # Each worker loads a document, reads its print fingerprint and renders it
+        # only when the key differs from the cached PDF's.
         queue=asyncio.Queue()
-        for job in todo:queue.put_nowait(job)
+        for job in sorted(jobs,key=lambda j:-len(j['doc'])):queue.put_nowait(job)
         loop=asyncio.get_running_loop()
         with ProcessPoolExecutor(workers) as pool:
             async def worker():
-                browser=await p.chromium.launch(**launch);page=await browser.new_page()
+                browser=await p.chromium.launch(**launch);page=await browser.new_page(viewport={'width':680,'height':960})
+                await page.emulate_media(media='print')
                 while not queue.empty():
                     job=queue.get_nowait();tmp=cache/(job['name']+'.tmp.pdf')
                     await page.goto((pdfdir/(job['name']+'.html')).as_uri(),wait_until='networkidle')
                     await page.evaluate('document.fonts.ready')
+                    job['key']=cache_key(await page.evaluate(PRINT_FINGERPRINT),job['doc'],job['footer'],imgdir,image_hash,chromium)
+                    keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
+                    job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
+                    if job['cached']:continue
                     await page.pdf(path=str(tmp),format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',footer_template=job['footer'],outline=True,tagged=True)
                     job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
-                    tmp.replace(cache/(job['name']+'.pdf'));(cache/(job['name']+'.key')).write_text(job['key'])
+                    tmp.replace(cached);keyfile.write_text(job['key'])
                 await browser.close()
-            await asyncio.gather(*(worker() for _ in range(min(workers,len(todo)))))
+            await asyncio.gather(*(worker() for _ in range(min(workers,len(jobs)))))
+    todo=[j for j in jobs if not j['cached']]
     results=[]
     for job in jobs:
         path=pdfdir/(job['name']+'.pdf');shutil.copyfile(cache/(job['name']+'.pdf'),path)

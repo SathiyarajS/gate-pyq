@@ -31,10 +31,16 @@ jobs:
         with:
           node-version: "20"
           cache: npm
+      - name: Cache Playwright browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('requirements-site.txt') }}
       - name: Install dependencies
         run: |
           pip install -r requirements-site.txt pytest
-          python -m playwright install --with-deps chromium
+          # Headless rendering only needs the headless shell, not full Chromium.
+          python -m playwright install --with-deps --only-shell chromium
           npm ci --ignore-scripts
       - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
         continue-on-error: true
@@ -43,18 +49,22 @@ jobs:
           python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
-      - name: Test grouping and rendering regressions
-        run: |
-          python -m pytest -q tests
-          node tests/test_transcription_math.js
       - name: Cache rendered question images
         uses: actions/cache@v4
         with:
           path: site-assets/q
           key: question-images-${{ hashFiles('data/crops.json', 'audits/crop-source-map.json', 'scripts/render_crops.py') }}
           restore-keys: question-images-
-      - name: Build site (renders question images from sources/)
-        run: python scripts/build_site.py --release
+      # The tests build their own copy of the site, so they run alongside the real build.
+      - name: Test, and build site (renders question images from sources/)
+        run: |
+          python -m pytest -q tests > "$RUNNER_TEMP/pytest.log" 2>&1 &
+          tests=$!
+          node tests/test_transcription_math.js
+          python scripts/build_site.py --release
+          status=0; wait $tests || status=$?
+          cat "$RUNNER_TEMP/pytest.log"
+          exit $status
       - name: Browser regression for study views
         run: python scripts/checks/check_study_views_browser.py
       - name: Build search index
