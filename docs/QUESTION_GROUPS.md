@@ -78,3 +78,11 @@ members and required corrections; this does not imply a second transcription
 review of all ungrouped questions. Proposals awaiting that gate are not integrated
 into the pattern data. No-reviewed-match means no accepted counterpart was found,
 not proof of uniqueness. Source-blocked records cannot count as completed.
+
+
+The 11 November full-corpus pass assessed all 3,406 questions, with zero pending
+primary or independent group reviews. 3,405 have readable source evidence; one
+remains source-blocked after alternate-source investigation. The accepted
+partition has 376 patterns covering 1,231 questions, and 45 accepted repeat pairs.
+The full-corpus README documents the blocker and exact count definitions.
+Unmatched and ambiguous questions remain visible, without a uniqueness claim.

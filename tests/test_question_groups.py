@@ -116,6 +116,12 @@ class StudyGroupsTest(unittest.TestCase):
         self.assertNotIn('CS-2026-S1-Q61',direct['members'])
         self.assertEqual(set(direct['members']),{'CS-2007-Q15','CS-2014-S2-Q20','CS-2018-Q42'})
 
+    def test_ambiguous_rtt_only_window_stays_separate(self):
+        groups=json.loads((ROOT/'data/problem-patterns.json').read_text())['groups']
+        window=next(g for g in groups if g['id']=='sliding-window-utilization')
+        self.assertNotIn('CS-2006-Q44',window['members'])
+        self.assertEqual(len(window['members']),3)
+
     def test_repository_patterns_valid(self):
         qs=json.loads((ROOT/'data/questions.json').read_text())
         self.assertTrue(question_groups.load_patterns(ROOT,qs))

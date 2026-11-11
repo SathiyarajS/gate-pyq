@@ -783,8 +783,8 @@
     {
       "question_id": "CS-2006-Q44",
       "source_status": "reviewed",
-      "grouping_status": "reviewed_group",
-      "pattern_id": "sliding-window-utilization",
+      "grouping_status": "no_reviewed_match",
+      "pattern_id": null,
       "fingerprint": {
         "setup_constraints_requested_output": "A sends 32-byte packets to B with a sliding-window protocol. Round-trip delay is 80 ms and bottleneck bandwidth is 128 kbps. Which window size is optimal under the conventional bandwidth-delay-product model?\nOptions:\n(A) 20 packets\n(B) 40 packets\n(C) 160 packets\n(D) 320 packets",
         "procedure": "1. The bandwidth-delay product is 128000×0.080=10240 bits. A packet carries 32×8=256 bits, so 10240/256=40 packets fill the round-trip pipe (B)."
@@ -800,7 +800,8 @@
       ],
       "caveats": [
         "Available historical reproduction reviewed; original official fidelity is not certified."
-      ]
+      ],
+      "grouping_note": "Independent review removed this ambiguous RTT-only optimal-window convention from the accepted serialization-aware group; no accepted counterpart, not proof of uniqueness."
     },
     {
       "question_id": "CS-2006-Q45",
@@ -4404,6 +4405,9 @@
     }
   ],
   "independent_group_review": {
-    "status": "pending"
+    "status": "passed",
+    "reviewer": "independent-network-aptitude-source-review-2026-11-11",
+    "report": "audits/grouping/full-corpus/10-11-independent-review.json",
+    "scope": "All proposed grouped members independently source checked; ungrouped primary records not second-reviewed."
   }
 }

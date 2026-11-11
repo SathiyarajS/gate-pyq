@@ -143,7 +143,7 @@
       "status": "reviewed",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -151,7 +151,7 @@
             "file": "sources/archive/CS/CS2007.pdf",
             "page": 16,
             "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: For two transactions, consider schedules S1: r1(X);r1(Y);r2(X);r2(Y);w2(Y);w1(X) and S2: r1(X);r2(X);r2(Y);w2(Y);r1(Y);w1(X). Which are conflict serializable? Options: (A) Both (B) S1 only (C) S2 only (D) Neither",
             "source_reviewed": true
           },
           {
@@ -159,10 +159,14 @@
             "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
             "page": 28,
             "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Let ri(z),wi(z) denote reads/writes by transaction Ti. S1=r1(x),r1(y),r2(x),r2(y),w2(y),w1(x). S2=r1(x),r2(x),r2(y),w2(y),r1(y),w1(x). Which schedules are conflict-serializable? A S1 only; B S2 only; C both; D neither.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
       },
       "rationale": "Both present identical ordered S1 and S2 read/write schedules over X and Y, and ask their conflict serializability. Operation order checked in full; answer-option order changes only."
     },
@@ -505,7 +509,7 @@
       "status": "rejected",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-independent-repeat-source-middle-2026-11-11",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -513,7 +517,7 @@
             "file": "sources/archive/CS/CS2016.pdf",
             "page": 38,
             "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
-            "notes": "Inspected full archive page 38, printed Q44, three language definitions and all combinations of recursive/nonrecursive status.",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Let L1={⟨M⟩:M takes at least 2016 steps on some input}, L2={⟨M⟩:M takes at least 2016 steps on all inputs}, L3={⟨M⟩:M accepts ε}. Which are recursive? A only L1; B only L2; C L1 and L2 only; D all three.",
             "source_reviewed": true
           },
           {
@@ -521,10 +525,14 @@
             "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
             "page": 33,
             "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-            "notes": "Inspected full PDF page 33 (printed page32/Q39), both quantified step-bound languages and all four decidability options.",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: For Turing-machine encodings ⟨M⟩, L1={⟨M⟩: M takes more than 2021 steps on all inputs}, L2={⟨M⟩: M takes more than 2021 steps on some input}. Which is correct? A both decidable; B L1 decidable/L2 undecidable; C L1 undecidable/L2 decidable; D both undecidable.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
       },
       "rationale": "2016 asks recursive status of three languages: at least 2016 steps on some input, on all inputs, and acceptance of epsilon. 2021 asks decidability of only two languages, more than 2021 steps on all/some inputs. Removing the epsilon-acceptance language changes the requested proposition set beyond a numerical bound substitution.",
       "rejection_reason": "pattern-only: different setup or requested output, not a repeat"
@@ -597,7 +605,11 @@
             "notes": "Inspected full page5 to verify Q10 heading precedes full stem/table/options on page6; no shared Q9 context.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        }
       },
       "rationale": "Both give marks and counts correct/wrong/unattempted per question, explicitly no negative or partial marking, and ask class mean score. The 2014 table has three rows; the 2015 table has five, retaining the three original rows and adding two numeric rows. Same tabular setup and calculation, differing numerical input list."
     },
@@ -832,7 +844,11 @@
             "notes": "Full source page visually inspected. Eight-bit characters, 9600 baud asynchronous link; explicitly one start bit, eight data bits, two stop bits and one parity bit. Options 600,800,876,1200.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        }
       },
       "rationale": "Both compute asynchronous serial characters per second, but 2004 adds an explicit parity bit while 1993 specifies only character size and stop bits. This changes framing assumptions as well as baud; safe as a shared problem pattern, not a numbers-only repeat.",
       "rejection_reason": "pattern-only: different setup or requested output, not a repeat"
@@ -1816,6 +1832,577 @@
         ]
       },
       "rejection_reason": "1995 explicitly prohibits power-series expansion; 2016 imposes no such method restriction. Same sine-over-argument pattern is valid, but strict-folding omits that constraint."
+    },
+    {
+      "a": "CS-1992-Q28",
+      "b": "CS-1994-Q73",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask the symbolic CNF derivation-step count for a word of length n: n terminal plus n−1 binary productions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1992-Q28",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 1,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: For a nonempty word w of length ℓ in a Chomsky-normal-form grammar, how many production applications derive it?",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1992-Q28",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 4,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: For a nonempty word w of length ℓ in a Chomsky-normal-form grammar, how many production applications derive it?",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1994-Q73",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+            "page": 6,
+            "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: A CFG has only productions A→BC and A→a. For a generated terminal word of length ℓ, how many production applications occur in its derivation? GateForum omits the symbol after “length”; GFG supplies ℓ.",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1994-Q72",
+      "b": "CS-1999-Q60",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both test whether regularity of one operand and its union forces the other operand regular; it does not.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1994-Q72",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+            "page": 6,
+            "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: If L1 and L1∪L2 are regular, must L2 be regular? Prove the answer.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1999-Q60",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+            "page": 6,
+            "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Given that language A is regular and A∪B is regular, must B be regular? Justify.",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1993-Q61",
+      "b": "CS-2003-Q86",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "1993 requests constructing a query returning roll number and name, with teaching in a separate TEACH relation and Ramesh as instructor. 2003 asks interpreting an existing DISTINCT-name query with instructor stored in Courses and Korth as constant. Same existential join method, different schema, projection and requested task.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q61",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 13,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: STUDENTS(rollno key,sname,saddr), COURSES(cno key,cname), ENROLL(rollno,cno composite key,grade), TEACH(tno,cno composite key,tname). FDs: rollno→sname,saddr; cno→cname; tno→tname; rollno,cno→grade. The reproduced cao/sdaddr spellings are interpreted as cno/sa",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1993-Q61",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 14,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: STUDENTS(rollno key,sname,saddr), COURSES(cno key,cname), ENROLL(rollno,cno composite key,grade), TEACH(tno,cno composite key,tname). FDs: rollno→sname,saddr; cno→cname; tno→tname; rollno,cno→grade. The reproduced cao/sdaddr spellings are interpreted as cno/sa",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2003-Q86",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+            "page": 12,
+            "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Relations are Students(Roll_number,Name,Date_of_birth), Courses(Course_number,Course_name,Instructor), and Grades(Roll_number,Course_number,Grade). Interpret this query with the printed string constants rendered in SQL quotes: SELECT DISTINCT Name FROM Student",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2003-Q86",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+            "page": 13,
+            "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Relations are Students(Roll_number,Name,Date_of_birth), Courses(Course_number,Course_name,Instructor), and Grades(Roll_number,Course_number,Grade). Interpret this query with the printed string constants rendered in SQL quotes: SELECT DISTINCT Name FROM Student",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
+      },
+      "rejection_reason": "pattern-only: changed schema, projection and requested task"
+    },
+    {
+      "a": "CS-2004-Q53",
+      "b": "CS-2021-S2-Q41",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "2004 compares each department male-group average in HAVING; 2021 counts individual females whose salaries exceed the company average using WHERE. Aggregation stage and requested output change, so this is only a method match.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2004-Q53",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 7,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Employee(name,sex,salary,deptName) has key name. What department names does this SQL query return? SELECT deptName FROM Employee WHERE sex='M' GROUP BY deptName HAVING AVG(salary) > (SELECT AVG(salary) FROM Employee); Options: (A) Departments whose average sal",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2004-Q53",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 8,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Employee(name,sex,salary,deptName) has key name. What department names does this SQL query return? SELECT deptName FROM Employee WHERE sex='M' GROUP BY deptName HAVING AVG(salary) > (SELECT AVG(salary) FROM Employee); Options: (A) Departments whose average sal",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2021-S2-Q41",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 72,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: Schema emp(empId,name,gender,salary,deptId), key empId, each employee in one department. Query: select deptId,count(*) from emp where gender=\"female\" and salary>(select avg(salary) from emp) group by deptId. Counts female employees above which mean? A employee",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
+      },
+      "rejection_reason": "pattern-only: different predicate level and requested output"
+    },
+    {
+      "a": "CS-2013-Q25",
+      "b": "CS-2015-S1-Q32",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "The 2013 question asks the defining physical-order condition for a clustered index; 2015 asks the name of a nonkey ordered-field index. Requested outputs and nonkey assumptions differ. Retain as a reasoning pattern only.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-toc-db-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2013-Q25",
+            "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+            "page": 4,
+            "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: An index is clustered if A its fields form a candidate key; B its fields include the primary key; C data records follow the same order as index data entries; D data records do not follow that order.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2015-S1-Q32",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 12,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Full source page visually inspected, including surrounding/shared stem, options and figures where present. Question focus: A file's data-record order is the same as, or close to, the order of entries in an index. What kind of index is it? A dense; B sparse; C clustered; D unclustered.",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/06-09-independent-review.json"
+        }
+      },
+      "rejection_reason": "The 2013 question asks the defining physical-order condition for a clustered index; 2015 asks the name of a nonkey ordered-field index. Requested outputs and nonkey assumptions differ. Retain as a reasoning pattern only."
+    },
+    {
+      "a": "CS-2006-Q5",
+      "b": "CS-2010-Q25",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 1,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "question_id": "CS-2006-Q5",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged."
+          },
+          {
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 4,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "question_id": "CS-2010-Q25",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-1992-Q15",
+      "b": "CS-2002-Q11",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 1,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "question_id": "CS-1992-Q15",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+          },
+          {
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 2,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "question_id": "CS-1992-Q15",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+          },
+          {
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 2,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "question_id": "CS-2002-Q11",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2007-Q68",
+      "b": "CS-2017-S1-Q42",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 16,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "question_id": "CS-2007-Q68",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division."
+          },
+          {
+            "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+            "page": 15,
+            "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+            "question_id": "CS-2017-S1-Q42",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2021-S2-Q44",
+      "b": "CS-2026-S2-Q43",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 74,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "question_id": "CS-2021-S2-Q44",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced."
+          },
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 30,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "question_id": "CS-2026-S2-Q43",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2024-S1-Q65",
+      "b": "CS-2025-S1-Q57",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+            "page": 36,
+            "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+            "question_id": "CS-2024-S1-Q65",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification."
+          },
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 57,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "question_id": "CS-2025-S1-Q57",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2020-Q48",
+      "b": "CS-2026-S1-Q56",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 12,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "question_id": "CS-2020-Q48",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+          },
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 13,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "question_id": "CS-2020-Q48",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+          },
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 43,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "question_id": "CS-2026-S1-Q56",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2010-Q64",
+      "b": "CS-2010-Q65",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 14,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "question_id": "CS-2010-Q64",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+          },
+          {
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 14,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "question_id": "CS-2010-Q65",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2011-Q62",
+      "b": "CS-2011-Q63",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 15,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "question_id": "CS-2011-Q62",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+          },
+          {
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 15,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "question_id": "CS-2011-Q63",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2025-S1-Q8",
+      "b": "CS-2026-S2-Q3",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 8,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "question_id": "CS-2025-S1-Q8",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced."
+          },
+          {
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 3,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "question_id": "CS-2026-S2-Q3",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
+    },
+    {
+      "a": "CS-2012-Q1",
+      "b": "CS-2012-Q7",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/archive/CS/CS2012.pdf",
+            "page": 16,
+            "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+            "question_id": "CS-2012-Q1",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question."
+          },
+          {
+            "file": "sources/archive/CS/CS2012.pdf",
+            "page": 16,
+            "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+            "question_id": "CS-2012-Q7",
+            "source_reviewed": true,
+            "notes": "Full original linked page visually inspected. Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/10-11-independent-review.json"
+        },
+        "inspection_method": "full-source-page-visual-comparison"
+      }
     }
   ]
 }

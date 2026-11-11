@@ -1,0 +1,1798 @@
+{
+  "reviewer": "independent-06-09-source-review",
+  "date": "2026-11-11",
+  "scope": {
+    "ledger_structural_questions": 529,
+    "proposed_group_members_visually_reviewed": 161,
+    "full_source_pages_visually_reviewed": 144,
+    "method": "Independent full-page contact-sheet pixel inspection, including shared stems, options, figures and requested outputs. All 36 independently assembled sheets inspected. Structural full-ledger checks do not certify independent visual inspection of all 529 questions or completeness of all possible pair matches.",
+    "transcription_certification": false
+  },
+  "subjects": [
+    {
+      "subject": "06-theory-of-computation",
+      "ledger_count": 279,
+      "groups_count": 28,
+      "grouped_members": 83,
+      "exact_id_coverage": true,
+      "disjoint_groups": true,
+      "existing_valid_groups_preserved": [
+        "dfa-forbidden-runs",
+        "dfa-symbol-count-product",
+        "dfa-length-multiples",
+        "dfa-nth-symbol-from-right",
+        "dfa-fixed-ending-pattern",
+        "nfa-subset-state-bound",
+        "dfa-explicit-state-equivalence",
+        "dfa-finite-group-accumulator",
+        "source-pattern-6"
+      ],
+      "input_hashes": {
+        "full-review-06.json": "602c88a31db30613605fba28ddbb153fe582e3231542927bb5b8ab004264c7d8",
+        "full-review-06-groups.json": "5ff9df4d832fc6843bfbe3e49f75a8fb864986b9cbe8a7aeb04e558727760eab",
+        "full-review-06-repeats.json": "4b0641d72d828f30517d191a7fc49c4ad97398c2b1f77be8d7cffca7be1474aa"
+      },
+      "groups": [
+        {
+          "id": "dfa-forbidden-runs",
+          "members": [
+            "CS-1993-Q68",
+            "CS-2023-Q63",
+            "CS-2012-Q56"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 15,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "index": 10
+            },
+            {
+              "file": "sources/archive/CS/CS2012.pdf",
+              "page": 11,
+              "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+              "index": 127
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 67,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "index": 263
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Trailing run memory shared; banned symbol, run length, diagram versus minimum count vary."
+        },
+        {
+          "id": "dfa-symbol-count-product",
+          "members": [
+            "CS-1997-Q81",
+            "CS-2001-Q30",
+            "CS-2007-Q29",
+            "CS-2004-Q86"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 9,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 29
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 4,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 54
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 12,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 76
+            },
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 6,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 92
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Independent symbol-count residues produce product states; modulus and acceptance conditions vary."
+        },
+        {
+          "id": "dfa-length-multiples",
+          "members": [
+            "CS-2002-Q38",
+            "CS-2011-Q52"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 5,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 61
+            },
+            {
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 11,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "index": 119
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Unary length residue is the common state invariant, not an identical language."
+        },
+        {
+          "id": "dfa-nth-symbol-from-right",
+          "members": [
+            "CS-1991-Q71",
+            "CS-2017-S1-Q32"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+              "page": 8,
+              "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+              "index": 3
+            },
+            {
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 11,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "index": 192
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Fixed distance from right requires suffix memory; distance varies."
+        },
+        {
+          "id": "dfa-fixed-ending-pattern",
+          "members": [
+            "CS-2015-S2-Q45",
+            "CS-2021-S1-Q48",
+            "CS-2002-Q98",
+            "CS-2009-Q41",
+            "CS-2025-S1-Q50"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 10,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 65
+            },
+            {
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 9,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "index": 106
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 41,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 166
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 32,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 234
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 50,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "index": 290
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Ending-pattern prefix fallback verified in diagrams. Containing a pattern is not the same as ending with it."
+        },
+        {
+          "id": "nfa-subset-state-bound",
+          "members": [
+            "CS-2001-Q6",
+            "CS-2025-S1-Q28",
+            "CS-2026-S1-Q26",
+            "CS-2018-Q16"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 1,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 52
+            },
+            {
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 5,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "index": 206
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 28,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "index": 285
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 20,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 302
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Subset construction bound shared. 2001 defective maximum/at-least wording is not repaired into strict identity."
+        },
+        {
+          "id": "dfa-explicit-state-equivalence",
+          "members": [
+            "CS-2007-Q75",
+            "CS-2011-Q55",
+            "CS-2024-S1-Q50"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 19,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 96
+            },
+            {
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 12,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "index": 120
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 31,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "index": 270
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Explicit automata have different transitions; equivalence partition/distinguishing suffix method applies."
+        },
+        {
+          "id": "dfa-finite-group-accumulator",
+          "members": [
+            "CS-2019-Q58",
+            "CS-2025-S2-Q60"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 14,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "index": 217
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 45,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "index": 301
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Accumulated finite-group value is the state. Permutation composition and modular multiplication differ."
+        },
+        {
+          "id": "source-pattern-6",
+          "members": [
+            "CS-2016-S2-Q54",
+            "CS-2021-S1-Q49"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 38,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "index": 187
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 33,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 235
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Finite time bound yields finite simulation tests. 2016 has an extra epsilon-acceptance proposition, so not strict repeat."
+        },
+        {
+          "id": "bounded-work-storage-regular",
+          "members": [
+            "CS-1991-Q70",
+            "CS-2002-Q7"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+              "page": 8,
+              "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+              "index": 3
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 1,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 58
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Bounded auxiliary store has finitely many configurations; this does not apply to unbounded PDA storage."
+        },
+        {
+          "id": "cnf-derivation-production-count",
+          "members": [
+            "CS-1992-Q28",
+            "CS-1994-Q73",
+            "CS-2024-S1-Q59"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 1,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "index": 4
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 4,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "index": 5
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 6,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "index": 13
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 34,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "index": 271
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Binary parse tree gives length minus one binary rules plus length terminal rules. 2024 has fixed length90; old pair symbolic."
+        },
+        {
+          "id": "cfl-closure-operations",
+          "members": [
+            "CS-1992-Q29",
+            "CS-1996-Q33",
+            "CS-1999-Q5",
+            "CS-2001-Q5",
+            "CS-2017-S2-Q14",
+            "CS-2021-S1-Q11",
+            "CS-2021-S2-Q22"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 1,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "index": 4
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 4,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "index": 5
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 4,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "index": 21
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 1,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "index": 39
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 1,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 52
+            },
+            {
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 3,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "index": 198
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 12,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 228
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 61,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 239
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Closure methods shared, but operand classes, complement scopes, and operations differ; not a duplicate family."
+        },
+        {
+          "id": "regular-union-nonconverse",
+          "members": [
+            "CS-1994-Q72",
+            "CS-1999-Q60"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 6,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "index": 13
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 6,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "index": 43
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Regular operand plus regular union does not imply other operand regular. Both older requests require justification."
+        },
+        {
+          "id": "languages-countability-diagonal",
+          "members": [
+            "CS-1997-Q19",
+            "CS-2014-S3-Q26",
+            "CS-2019-Q44"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 3,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 25
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 56,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 149
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 11,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "index": 216
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Countable descriptions versus uncountable power sets; question-specific sets differ."
+        },
+        {
+          "id": "unary-primes-nonregular",
+          "members": [
+            "CS-1992-Q68",
+            "CS-2008-Q9"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 9,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "index": 6
+            },
+            {
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 3,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "index": 98
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Unary prime lengths violate eventual periodicity; differing task presentation retained."
+        },
+        {
+          "id": "regex-star-language-algebra",
+          "members": [
+            "CS-1996-Q8",
+            "CS-1998-Q9",
+            "CS-2000-Q4",
+            "CS-2003-Q14"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 2,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "index": 20
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 1,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "index": 31
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 1,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "index": 46
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 2,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 66
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Star and union identities are checked semantically; distinct expression options are not interchangeable."
+        },
+        {
+          "id": "marked-palindrome-dpda",
+          "members": [
+            "CS-1997-Q46",
+            "CS-2005-Q57",
+            "CS-2014-S3-Q46"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 5,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 26
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 6,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 27
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 7,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 81
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 61,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 153
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Explicit midpoint marker enables deterministic stack reversal; marker and requested proof/classification vary."
+        },
+        {
+          "id": "cfl-intersection-equal-three-blocks",
+          "members": [
+            "CS-2005-Q55",
+            "CS-2017-S1-Q48",
+            "CS-2022-Q48"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 7,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 81
+            },
+            {
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 17,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "index": 195
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 32,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 254
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Two separate context-free equalities can intersect into a triple equality; extra languages/options vary."
+        },
+        {
+          "id": "nested-versus-crossed-stack-equalities",
+          "members": [
+            "CS-2006-Q19",
+            "CS-2015-S3-Q44",
+            "CS-2018-Q45",
+            "CS-2026-S2-Q48"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 3,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "index": 84
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 69,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 174
+            },
+            {
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 14,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "index": 209
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+              "page": 34,
+              "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+              "index": 316
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Comparisons of required stack counters include three-block additive/reused constraints and four-block adjacent/nested/crossed equalities. Not all members are four-block languages."
+        },
+        {
+          "id": "three-block-additive-stack",
+          "members": [
+            "CS-2004-Q87",
+            "CS-2016-S2-Q53",
+            "CS-2025-S1-Q45"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 12,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 76
+            },
+            {
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 37,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "index": 186
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 45,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "index": 288
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Additive push/pop invariant differs from simultaneously enforcing all three equal counts; bounds and expressions vary."
+        },
+        {
+          "id": "poly-reduction-complexity-sandwich",
+          "members": [
+            "CS-2003-Q12",
+            "CS-2006-Q16",
+            "CS-2015-S2-Q26"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 2,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 66
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 2,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "index": 83
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 35,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 161
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Reduction direction controls implication; premises do not license reversing a reduction or proving P != NP."
+        },
+        {
+          "id": "regular-short-border-witness",
+          "members": [
+            "CS-2007-Q31",
+            "CS-2015-S2-Q46",
+            "CS-2022-Q47"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 7,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 93
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 42,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 167
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 31,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 253
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Short border witness can collapse an existential matching language to regular form. Empty-string/positive-length conditions matter."
+        },
+        {
+          "id": "pda-unequal-two-block-counts",
+          "members": [
+            "CS-2021-S1-Q61",
+            "CS-2023-Q40"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 40,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 236
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 41,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "index": 260
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "PDA stack surplus encodes more a than b; one asks length100 count, another asks entire language. Accepting state versus empty stack checked."
+        },
+        {
+          "id": "grammar-terminal-count-invariants",
+          "members": [
+            "CS-2024-S2-Q52",
+            "CS-2026-S1-Q52"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+              "page": 36,
+              "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+              "index": 279
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 40,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 307
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Count contributions of productions establish invariants; grammars and tested inequalities differ."
+        },
+        {
+          "id": "nfa-word-reachable-state-trace",
+          "members": [
+            "CS-2014-S1-Q26",
+            "CS-2017-S2-Q49"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 11,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 136
+            },
+            {
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 15,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "index": 202
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Reachable-state sets traced for given word, with epsilon closure where required; transition tables differ."
+        },
+        {
+          "id": "fixed-substring-prefix-fallback-dfa",
+          "members": [
+            "CS-2001-Q55",
+            "CS-2015-S3-Q32"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 7,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 55
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 64,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 171
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Prefix fallback permits overlap while recognizing occurrence; contains versus ends distinction checked."
+        },
+        {
+          "id": "rice-semantic-versus-bounded-machine-tests",
+          "members": [
+            "CS-1997-Q45",
+            "CS-2020-Q36",
+            "CS-2022-Q46"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 5,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 26
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+              "page": 9,
+              "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+              "index": 223
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 31,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 253
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Rice applies to nontrivial semantic properties; bounded execution is separately decidable. Different proposition sets prevent repeat equivalence."
+        },
+        {
+          "id": "finite-regular-subsets-limit",
+          "members": [
+            "CS-1998-Q41",
+            "CS-2007-Q7",
+            "CS-2021-S2-Q46"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 4,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "index": 34
+            },
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 3,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 91
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 76,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 244
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Finite languages regular, infinite-language subsets not uniformly regular/decidable. Quantifiers differ."
+        }
+      ],
+      "repeat_decisions": [
+        {
+          "a": "CS-2016-S2-Q54",
+          "b": "CS-2021-S1-Q49",
+          "status": "rejected",
+          "rationale": "2016 asks recursive status of three languages: at least 2016 steps on some input, on all inputs, and acceptance of epsilon. 2021 asks decidability of only two languages, more than 2021 steps on all/some inputs. Removing the epsilon-acceptance language changes the requested proposition set beyond a numerical bound substitution.",
+          "independent_verdict": "rejection_confirmed"
+        },
+        {
+          "a": "CS-1992-Q28",
+          "b": "CS-1994-Q73",
+          "status": "reviewed",
+          "rationale": "Both ask the symbolic CNF derivation-step count for a word of length n: n terminal plus n−1 binary productions.",
+          "independent_verdict": "accepted"
+        },
+        {
+          "a": "CS-1994-Q72",
+          "b": "CS-1999-Q60",
+          "status": "reviewed",
+          "rationale": "Both test whether regularity of one operand and its union forces the other operand regular; it does not.",
+          "independent_verdict": "accepted"
+        }
+      ],
+      "same_paper_audit_sets": 11
+    },
+    {
+      "subject": "09-database-management-systems",
+      "ledger_count": 250,
+      "groups_count": 21,
+      "grouped_members": 78,
+      "exact_id_coverage": true,
+      "disjoint_groups": true,
+      "existing_valid_groups_preserved": [
+        "candidate-key-attribute-closure",
+        "normal-form-fd-test"
+      ],
+      "input_hashes": {
+        "full-review-09.json": "51bd332eb14df4e4340b01d4c306e6e6ccc0db82be911b54e6db88a8d4caff48",
+        "full-review-09-groups.json": "d6b8e74e7b8a067de99aaeb9a2058d1345c5ffe2545bdcaba8970dba89952d97",
+        "full-review-09-repeats.json": "6644f1a1d01e37abacb6c63690f6364be3d6f4532723cb88609cf07701c7c2ea"
+      },
+      "groups": [
+        {
+          "id": "candidate-key-attribute-closure",
+          "members": [
+            "CS-1995-Q88",
+            "CS-2014-S1-Q31",
+            "CS-1999-Q24",
+            "CS-2005-Q78",
+            "CS-2013-Q64"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+              "page": 8,
+              "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+              "index": 19
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 3,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "index": 41
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 10,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 82
+            },
+            {
+              "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+              "page": 12,
+              "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+              "index": 134
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 12,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 137
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Attribute closure plus minimality identifies keys; relations and dependency sets differ."
+        },
+        {
+          "id": "normal-form-fd-test",
+          "members": [
+            "CS-1995-Q87",
+            "CS-2003-Q85",
+            "CS-2025-S2-Q46",
+            "CS-1997-Q49",
+            "CS-2004-Q50",
+            "CS-2008-Q69",
+            "CS-2009-Q56",
+            "CS-2018-Q52"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+              "page": 8,
+              "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+              "index": 19
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 6,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 27
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 12,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 70
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 7,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 74
+            },
+            {
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 14,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "index": 103
+            },
+            {
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 13,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "index": 108
+            },
+            {
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 18,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "index": 211
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 35,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "index": 296
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Check all nontrivial determinants and prime attributes. 2003 source does not supply Roll-to-DOB FD; 2018 set-valued attribute additionally invokes1NF."
+        },
+        {
+          "id": "fd-instance-counterexamples",
+          "members": [
+            "CS-2000-Q47",
+            "CS-2002-Q50"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 6,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "index": 49
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 6,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 62
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Instance FD counterexample requires agreeing determinant and differing dependent values; tables differ."
+        },
+        {
+          "id": "bplus-internal-node-capacity",
+          "members": [
+            "CS-2002-Q48",
+            "CS-2004-Q52",
+            "CS-2015-S3-Q39"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 6,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 62
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 7,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 74
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 66,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 172
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Internal node capacity counts p pointers and p-1 keys; byte sizes differ."
+        },
+        {
+          "id": "bplus-disk-io-fanout-benefit",
+          "members": [
+            "CS-2000-Q22",
+            "CS-2005-Q28"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 3,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "index": 47
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 3,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 77
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Fanout reduces tree height and disk block reads; not a numeric capacity duplicate."
+        },
+        {
+          "id": "clustered-nonkey-ordered-index",
+          "members": [
+            "CS-2008-Q16",
+            "CS-2013-Q25",
+            "CS-2015-S1-Q32"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 4,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "index": 99
+            },
+            {
+              "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+              "page": 4,
+              "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+              "index": 130
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 12,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 156
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Physical record/index ordering shared. 2008 specifies nonkey ordering; 2013 asks defining condition; 2015 names the index from order. Strict2013/2015 pairing rejected."
+        },
+        {
+          "id": "precedence-graph-serial-orders",
+          "members": [
+            "CS-2003-Q87",
+            "CS-2007-Q64",
+            "CS-2009-Q43",
+            "CS-2010-Q52",
+            "CS-2014-S1-Q39",
+            "CS-2014-S3-Q39",
+            "CS-2016-S2-Q32",
+            "CS-2021-S1-Q42",
+            "CS-2022-Q39",
+            "CS-2024-S1-Q46",
+            "CS-2025-S2-Q53"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 13,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 71
+            },
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 16,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 95
+            },
+            {
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 10,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "index": 107
+            },
+            {
+              "file": "sources/archive/CS/CS2010.pdf",
+              "page": 10,
+              "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+              "index": 112
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 14,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 138
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 59,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 151
+            },
+            {
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 31,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "index": 185
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 28,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 233
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 25,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 252
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 29,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "index": 269
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 41,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "index": 298
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Conflict precedence edges preserve full operation order; graph cycles/topological orders decide requests. 2007/2021 ordered schedules identical."
+        },
+        {
+          "id": "schedule-read-from-recoverability",
+          "members": [
+            "CS-2014-S2-Q39",
+            "CS-2015-S3-Q51",
+            "CS-2016-S2-Q61",
+            "CS-2021-S2-Q42"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 36,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 145
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 73,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 175
+            },
+            {
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 41,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "index": 188
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 73,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 243
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Read-from and commit order determine recoverability/cascadelessness; serializability is a separate property."
+        },
+        {
+          "id": "crash-recovery-undo-redo-sets",
+          "members": [
+            "CS-2006-Q20",
+            "CS-2015-S2-Q39"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 3,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "index": 84
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 39,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 164
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Crash-time active versus committed transactions determine undo/redo, with recovery assumptions retained."
+        },
+        {
+          "id": "self-foreign-key-delete-cascade",
+          "members": [
+            "CS-2001-Q50",
+            "CS-2005-Q76",
+            "CS-2017-S2-Q29"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 7,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 55
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 10,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 82
+            },
+            {
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 8,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "index": 200
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Foreign-key action propagation shared, but2017 includes two relations and SET NULL rather than a literal self-reference."
+        },
+        {
+          "id": "relational-division-missing-pairs",
+          "members": [
+            "CS-1997-Q100",
+            "CS-1998-Q100",
+            "CS-2002-Q80",
+            "CS-2007-Q59",
+            "CS-2009-Q45",
+            "CS-2017-S1-Q56",
+            "CS-2022-Q25"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 12,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "index": 30
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 8,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "index": 38
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 8,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 63
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 9,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "index": 64
+            },
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 15,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 94
+            },
+            {
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 10,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "index": 107
+            },
+            {
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 21,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "index": 197
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 20,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 250
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Universal relational division removes entities with missing required pairs; projection, schemas, and requested expression/results vary."
+        },
+        {
+          "id": "sql-all-empty-subquery",
+          "members": [
+            "CS-2012-Q61",
+            "CS-2017-S2-Q56"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2012.pdf",
+              "page": 14,
+              "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+              "index": 128
+            },
+            {
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 19,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "index": 205
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "ALL over empty set is true;2017 also has ANY over nonempty Germany. Output tasks differ."
+        },
+        {
+          "id": "sql-universal-not-exists-counterexample",
+          "members": [
+            "CS-2007-Q61",
+            "CS-2014-S3-Q64",
+            "CS-2022-Q56"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 15,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "index": 94
+            },
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 66,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 154
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 38,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 255
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Universal condition represented by absent counterexample; EXCEPT/NOT EXISTS forms and tables differ."
+        },
+        {
+          "id": "sql-gender-group-above-company-average",
+          "members": [
+            "CS-2004-Q53",
+            "CS-2021-S2-Q41"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 7,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 74
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 8,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "index": 75
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 72,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 242
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Company-wide scalar AVG subquery is common.2004 HAVING tests male departmental AVG;2021 WHERE tests female individual salary then counts. Not repeats."
+        },
+        {
+          "id": "sql-grade-instructor-existential-join",
+          "members": [
+            "CS-1993-Q61",
+            "CS-2003-Q86"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 13,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "index": 8
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 14,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "index": 9
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 12,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 70
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 13,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "index": 71
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Existential grade/instructor join shared.1993 writes query returning roll+name with separate TEACH;2003 interprets DISTINCT name query. Not repeats."
+        },
+        {
+          "id": "er-minimal-relation-mapping",
+          "members": [
+            "CS-2005-Q75",
+            "CS-2008-Q82",
+            "CS-2015-S1-Q48"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 10,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 82
+            },
+            {
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 18,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "index": 104
+            },
+            {
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 18,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "index": 157
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "ER mapping follows cardinality and participation; relationship diagrams inspected and not assumed identical."
+        },
+        {
+          "id": "dependency-preserving-3nf-bcnf-tradeoff",
+          "members": [
+            "CS-1994-Q40",
+            "CS-2001-Q48",
+            "CS-2005-Q29",
+            "CS-2026-S1-Q31"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 4,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "index": 12
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 7,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "index": 55
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 3,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 77
+            },
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 4,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "index": 78
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 23,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 304
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Dependency-preserving3NF always possible, BCNF not always; proposition sets and stronger claims differ."
+        },
+        {
+          "id": "count-superkeys-inclusion-exclusion",
+          "members": [
+            "CS-2014-S2-Q31",
+            "CS-2022-Q31",
+            "CS-2026-S1-Q65"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 33,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "index": 143
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 22,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "index": 251
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 46,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 308
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Count supersets of candidate keys and overlaps.2014 wording E as the key/max requires assumption caveat;2026 explicitly only two candidate keys."
+        },
+        {
+          "id": "fd-implication-rule-check",
+          "members": [
+            "CS-2021-S2-Q50",
+            "CS-2024-S1-Q44",
+            "CS-2026-S1-Q30"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 78,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "index": 245
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 28,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "index": 268
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 22,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 303
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "FD implication via Armstrong rules or counterexamples, not general propositional implication; different options retained."
+        },
+        {
+          "id": "bplus-insertion-split-propagation",
+          "members": [
+            "CS-2000-Q90",
+            "CS-2025-S1-Q21",
+            "CS-2025-S2-Q57"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 10,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "index": 51
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 21,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "index": 284
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 43,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "index": 300
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Insertion splits leaf and may propagate upward; capacity, starting tree, promoted key and requested outcome differ."
+        },
+        {
+          "id": "tuple-calculus-existential-join",
+          "members": [
+            "CS-2013-Q45",
+            "CS-2025-S1-Q39",
+            "CS-2026-S1-Q43"
+          ],
+          "verdict": "accepted_as_pattern",
+          "source_evidence": [
+            {
+              "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+              "page": 8,
+              "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+              "index": 132
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 39,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "index": 286
+            },
+            {
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 32,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "index": 305
+            }
+          ],
+          "scope": "Method-level pattern only; not blanket repeat equivalence.",
+          "independent_pixel_findings": "Existential tuple binding implements a join followed by projection.2026 join is R.Q=S.X, not R.P=S.X; named-column query tasks vary."
+        }
+      ],
+      "repeat_decisions": [
+        {
+          "a": "CS-2007-Q64",
+          "b": "CS-2021-S1-Q42",
+          "status": "reviewed",
+          "rationale": "Both present identical ordered S1 and S2 read/write schedules over X and Y, and ask their conflict serializability. Operation order checked in full; answer-option order changes only.",
+          "independent_verdict": "accepted"
+        },
+        {
+          "a": "CS-1993-Q61",
+          "b": "CS-2003-Q86",
+          "status": "rejected",
+          "rationale": "1993 requests constructing a query returning roll number and name, with teaching in a separate TEACH relation and Ramesh as instructor. 2003 asks interpreting an existing DISTINCT-name query with instructor stored in Courses and Korth as constant. Same existential join method, different schema, projection and requested task.",
+          "independent_verdict": "rejection_confirmed"
+        },
+        {
+          "a": "CS-2004-Q53",
+          "b": "CS-2021-S2-Q41",
+          "status": "rejected",
+          "rationale": "2004 compares each department male-group average in HAVING; 2021 counts individual females whose salaries exceed the company average using WHERE. Aggregation stage and requested output change, so this is only a method match.",
+          "independent_verdict": "rejection_confirmed"
+        },
+        {
+          "a": "CS-2013-Q25",
+          "b": "CS-2015-S1-Q32",
+          "status": "reviewed",
+          "rationale": "Both ask the name of the index when a data file is physically ordered on a nonkey field: clustering index.",
+          "independent_verdict": "reject_strict_repeat",
+          "required_fix": "Set rejected/pattern-only and replace incorrect nonkey naming rationale."
+        }
+      ],
+      "same_paper_audit_sets": 13
+    }
+  ],
+  "required_fixes": [
+    {
+      "target": "09 repeats CS-2013-Q25 / CS-2015-S1-Q32",
+      "action": "Downgrade to rejected/pattern-only; requested output and nonkey assumption differ."
+    },
+    {
+      "target": "nested-versus-crossed-stack-equalities",
+      "action": "Clarify inclusion of three-block additive/reused constraints of2006 Q19; do not describe every member as four-block."
+    },
+    {
+      "target": "count-superkeys-inclusion-exclusion",
+      "action": "Explicitly preserve2014 E-as-the-key maximum-count ambiguity/assumption; unlike2026 it does not explicitly say only candidate keys."
+    }
+  ],
+  "source_hash_check": {
+    "distinct_files": 40,
+    "all_317_page_references_match_source_sha256": true
+  },
+  "overall_verdict": "All49 pattern member sets accepted subject to stated wording corrections; strict2013/2015 pair rejected. No other proposed strict-repeat correction found."
+}

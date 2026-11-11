@@ -7,6 +7,7 @@ Subject reports are retained separately; this manifest never controls folding.
 import argparse
 import collections
 import json
+import re
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -34,6 +35,12 @@ def progress(questions, reports, prior_reviewed=()):
             if source_status not in SOURCE_STATUSES or grouping_status not in GROUPING_STATUSES:raise ValueError('Invalid review status: '+qid)
             if source_status=='reviewed' and not (entry.get('source_evidence') or entry.get('sources') or entry.get('evidence_refs')):
                 raise ValueError('Reviewed source needs auditable evidence: '+qid)
+            evidence=entry.get('source_evidence',entry.get('sources',[]))
+            for source in evidence:
+                digest=source.get('sha256',source.get('computedSHA256',''))
+                if (not source.get('file') or type(source.get('page')) is not int or source['page'] < 1
+                        or not re.fullmatch(r'[0-9a-f]{64}',digest)):
+                    raise ValueError('Source evidence needs file, physical page and SHA256: '+qid)
             if grouping_status!='pending' and not entry.get('fingerprint'):
                 raise ValueError('Grouping decision needs method fingerprint: '+qid)
             if source_status=='blocked' and not (entry.get('blocker') or entry.get('notes')):
@@ -49,6 +56,9 @@ def progress(questions, reports, prior_reviewed=()):
               for s,n in sorted(counts.items())]
     return dict(scope='Systematic full-corpus repeat and pattern review. Candidate-only source review is not full-corpus completion.',
                 total=len(records),complete=sum(completed(r) for r in records.values()),
+                assessed=sum(r['source_status'] in {'reviewed','blocked'} and r['grouping_status']!='pending' for r in records.values()),
+                pending=sum(r['source_status']=='pending' or r['grouping_status']=='pending' for r in records.values()),
+                grouping_counts=dict(sorted(collections.Counter(r['grouping_status'] for r in records.values()).items())),
                 source_reviewed=sum(r['source_status']=='reviewed' for r in records.values()),
                 source_blocked=sum(r['source_status']=='blocked' for r in records.values()),
                 subjects=subjects,records=[records[qid] for qid in sorted(records)],

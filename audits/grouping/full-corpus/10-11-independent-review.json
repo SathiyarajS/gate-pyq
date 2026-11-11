@@ -1,0 +1,2028 @@
+{
+  "reviewer": "independent-network-aptitude-source-review-2026-11-11",
+  "status": "accepted_with_required_fixes",
+  "scope": "Independent structural review of all 466 proposed ledger IDs; independent full-page pixel comparison of all 120 proposed grouped members and all listed strict-repeat audit endpoints, plus cross-subject 1998 binomial boundary. Not a second visual review of every unmatched singleton, not transcription certification or official-key review. No repository edits/push/merge/deploy.",
+  "subjects": {
+    "10-computer-networks": {
+      "coverage_count": 196,
+      "expected_count": 196,
+      "exact_coverage": true,
+      "duplicate_ids": 0,
+      "groups": 28,
+      "members": 96,
+      "disjoint": true,
+      "assignments_consistent": true
+    },
+    "11-general-aptitude": {
+      "coverage_count": 270,
+      "expected_count": 270,
+      "exact_coverage": true,
+      "duplicate_ids": 0,
+      "groups": 11,
+      "members": 24,
+      "disjoint": true,
+      "assignments_consistent": true
+    }
+  },
+  "required_fixes": [
+    {
+      "group": "sliding-window-utilization",
+      "action": "Remove added CS-2006-Q44 membership and set its pattern_id null/grouping_status no_reviewed_match; retain original three members.",
+      "reason": "2003 asks throughput, 2021 targets 50 percent with finite ACK serialization and rounding, 2026 targets 100 percent and requires serialization plus RTT. Added 2006 asks an optimal BDP window from ambiguous RTT: outside the stated accepted boundary.",
+      "alternative": "A separately authorized redefinition of the family could admit conditional BDP variants, but the current rationale expressly excludes this one."
+    },
+    {
+      "group": "csma-collision-roundtrip",
+      "action": "Keep membership; add explicit 2005 48-bit jam-budget exception in rationale and group source notes.",
+      "reason": "RTT*rate alone gives 464 bits in 2005; its intended collision-slot allowance gives 512. Group rationale must not teach a uniform formula that drops this constraint."
+    },
+    {
+      "group": "tcp-timeout-window-growth",
+      "action": "Keep membership; replace unconditional one-MSS restart language with stated/conventional restart and round convention, explicitly flag 2012 2-MSS ambiguity and Marks-to-All caveat.",
+      "reason": "2012 explicitly starts slow start at 2 MSS and has a source/key ambiguity; 2014 asks recovery after timeout; 2024 asks third RTT after timeout. Shared trace method, but common rationale must not override 2012 alternatives."
+    },
+    {
+      "group": "source-pattern-8",
+      "action": "Update inherited two-question rationale to describe all four members and inverse-rate output of 1998.",
+      "reason": "Current wording says both compute characters per second even though 1998 asks minimum baud."
+    }
+  ],
+  "accepted_groups": [
+    "selective-repeat-sequence-bits",
+    "async-start-stop-sync",
+    "hamming-distance-enumeration",
+    "subnet-address-and-mask",
+    "longest-prefix-forwarding",
+    "osi-layer-function-match",
+    "ipv4-ttl-loop-limit",
+    "ipv4-host-capacity",
+    "crc-polynomial-remainder",
+    "tcp-udp-application-mapping",
+    "token-bucket-balance",
+    "email-send-retrieve-protocols",
+    "packet-store-forward-pipeline",
+    "fresh-web-protocol-order",
+    "router-ipv4-field-updates",
+    "ipv4-fragment-generation",
+    "ipv4-refragment-path",
+    "stopwait-cycle-utilization",
+    "tcp-slow-start-rounds",
+    "byte-sequence-wraparound",
+    "tcp-syn-ack-fields",
+    "cidr-allocation-alignment",
+    "arp-request-reply-addresses",
+    "signature-key-direction",
+    "two-set-population-count",
+    "class-question-weighted-score",
+    "male-female-ratio-change",
+    "folded-sheet-cylinder-cube",
+    "unfold-punched-paper",
+    "exact-binomial-count",
+    "ordering-from-comparisons",
+    "contrapositive-not-converse",
+    "sound-based-indefinite-articles",
+    "complete-jigsaw-complement",
+    "ordered-pair-probability"
+  ],
+  "rejected_memberships": [
+    {
+      "group": "sliding-window-utilization",
+      "question_id": "CS-2006-Q44",
+      "reason": "2003 asks throughput, 2021 targets 50 percent with finite ACK serialization and rounding, 2026 targets 100 percent and requires serialization plus RTT. Added 2006 asks an optimal BDP window from ambiguous RTT: outside the stated accepted boundary."
+    }
+  ],
+  "groups": [
+    {
+      "id": "sliding-window-utilization",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2003-Q84",
+        "CS-2021-S1-Q59",
+        "CS-2026-S1-Q45",
+        "CS-2006-Q44"
+      ],
+      "accepted_members": [
+        "CS-2003-Q84",
+        "CS-2021-S1-Q59",
+        "CS-2026-S1-Q45"
+      ],
+      "decision": "accepted_with_required_fix",
+      "source_evidence": [
+        {
+          "question_id": "CS-2003-Q84",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 12,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        },
+        {
+          "question_id": "CS-2021-S1-Q59",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 39,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2026-S1-Q45",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 34,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        },
+        {
+          "question_id": "CS-2006-Q44",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 6,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+        }
+      ],
+      "independent_visual_notes": "2003 asks throughput, 2021 targets 50 percent with finite ACK serialization and rounding, 2026 targets 100 percent and requires serialization plus RTT. Added 2006 asks an optimal BDP window from ambiguous RTT: outside the stated accepted boundary."
+    },
+    {
+      "id": "selective-repeat-sequence-bits",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2014-S1-Q38",
+        "CS-2016-S2-Q65"
+      ],
+      "accepted_members": [
+        "CS-2014-S1-Q38",
+        "CS-2016-S2-Q65"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S1-Q38",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 13,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2016-S2-Q65",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 43,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        }
+      ],
+      "independent_visual_notes": "Both explicitly specify selective repeat; 2014 targets 60 percent, 2016 100 percent with ACK transmission neglected. Two-window sequence-space rule applies."
+    },
+    {
+      "id": "source-pattern-8",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-1993-Q21",
+        "CS-2004-Q22",
+        "CS-1995-Q75",
+        "CS-1998-Q16"
+      ],
+      "accepted_members": [
+        "CS-1993-Q21",
+        "CS-2004-Q22",
+        "CS-1995-Q75",
+        "CS-1998-Q16"
+      ],
+      "decision": "accepted_with_required_fix",
+      "source_evidence": [
+        {
+          "question_id": "CS-1993-Q21",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+          "page": 5,
+          "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29"
+        },
+        {
+          "question_id": "CS-2004-Q22",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+          "page": 3,
+          "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5"
+        },
+        {
+          "question_id": "CS-1995-Q75",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+          "page": 7,
+          "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c"
+        },
+        {
+          "question_id": "CS-1995-Q75",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+          "page": 7,
+          "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c"
+        },
+        {
+          "question_id": "CS-1998-Q16",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+          "page": 2,
+          "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574"
+        }
+      ],
+      "independent_visual_notes": "1993 uses eight data and two stop bits without explicit parity; 2004 explicitly adds parity; 1995 a.ii asks rate for seven-bit framed strings; 1998 asks inverse baud rate. Same framed-bit count procedure, not strict repeats."
+    },
+    {
+      "id": "async-start-stop-sync",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-1992-Q15",
+        "CS-1997-Q13",
+        "CS-2002-Q11"
+      ],
+      "accepted_members": [
+        "CS-1992-Q15",
+        "CS-1997-Q13",
+        "CS-2002-Q11"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-1992-Q15",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+          "page": 1,
+          "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a"
+        },
+        {
+          "question_id": "CS-1992-Q15",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+          "page": 2,
+          "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a"
+        },
+        {
+          "question_id": "CS-1997-Q13",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 2,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        },
+        {
+          "question_id": "CS-2002-Q11",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+          "page": 2,
+          "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e"
+        }
+      ],
+      "independent_visual_notes": "1992 and 2002 ask why start/stop padding synchronizes a byte; 1997 isolates the start-bit role. Not parity or error correction."
+    },
+    {
+      "id": "hamming-distance-enumeration",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-1995-Q12",
+        "CS-2017-S2-Q44"
+      ],
+      "accepted_members": [
+        "CS-1995-Q12",
+        "CS-2017-S2-Q44"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-1995-Q12",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+          "page": 2,
+          "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c"
+        },
+        {
+          "question_id": "CS-2017-S2-Q44",
+          "file": "sources/archive/CS/CS2-2017.pdf",
+          "page": 13,
+          "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390"
+        }
+      ],
+      "independent_visual_notes": "1995 six six-bit codewords ask distance; 2017 four five-bit codewords ask minimum distance and correction capacity. Pairwise XOR and minimum are shared."
+    },
+    {
+      "id": "subnet-address-and-mask",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2003-Q82",
+        "CS-2006-Q45",
+        "CS-2010-Q57",
+        "CS-2019-Q38"
+      ],
+      "accepted_members": [
+        "CS-2003-Q82",
+        "CS-2006-Q45",
+        "CS-2010-Q57",
+        "CS-2019-Q38"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2003-Q82",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 12,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        },
+        {
+          "question_id": "CS-2003-Q82",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 12,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        },
+        {
+          "question_id": "CS-2006-Q45",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 6,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+        },
+        {
+          "question_id": "CS-2010-Q57",
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 11,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6"
+        },
+        {
+          "question_id": "CS-2019-Q38",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+          "page": 10,
+          "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd"
+        }
+      ],
+      "independent_visual_notes": "2003 mask 255.255.31.0 is noncontiguous; 2006 applies different masks from each host perspective; 2010 tests alternative masks; 2019 tests three hosts. Keep actual bitwise comparisons."
+    },
+    {
+      "id": "csma-collision-roundtrip",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2003-Q83",
+        "CS-2005-Q74",
+        "CS-2013-Q46",
+        "CS-2015-S3-Q35",
+        "CS-2016-S2-Q63",
+        "CS-2024-S2-Q55"
+      ],
+      "accepted_members": [
+        "CS-2003-Q83",
+        "CS-2005-Q74",
+        "CS-2013-Q46",
+        "CS-2015-S3-Q35",
+        "CS-2016-S2-Q63",
+        "CS-2024-S2-Q55"
+      ],
+      "decision": "accepted_with_required_fix",
+      "source_evidence": [
+        {
+          "question_id": "CS-2003-Q83",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 12,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        },
+        {
+          "question_id": "CS-2005-Q74",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+          "page": 10,
+          "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+        },
+        {
+          "question_id": "CS-2013-Q46",
+          "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+          "page": 8,
+          "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+        },
+        {
+          "question_id": "CS-2015-S3-Q35",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 65,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2016-S2-Q63",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 42,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        },
+        {
+          "question_id": "CS-2024-S2-Q55",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+          "page": 37,
+          "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+        }
+      ],
+      "independent_visual_notes": "All use collision round-trip timing; 2005 additionally supplies a 48-bit jamming allowance, which the common rationale currently omits. Other variants solve size, cable length or signal speed."
+    },
+    {
+      "id": "longest-prefix-forwarding",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2004-Q55",
+        "CS-2014-S3-Q36",
+        "CS-2015-S2-Q36",
+        "CS-2023-Q65",
+        "CS-2024-S1-Q58",
+        "CS-2025-S1-Q40"
+      ],
+      "accepted_members": [
+        "CS-2004-Q55",
+        "CS-2014-S3-Q36",
+        "CS-2015-S2-Q36",
+        "CS-2023-Q65",
+        "CS-2024-S1-Q58",
+        "CS-2025-S1-Q40"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2004-Q55",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+          "page": 8,
+          "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5"
+        },
+        {
+          "question_id": "CS-2014-S3-Q36",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 58,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2015-S2-Q36",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 38,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2023-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+          "page": 69,
+          "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0"
+        },
+        {
+          "question_id": "CS-2024-S1-Q58",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 34,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        },
+        {
+          "question_id": "CS-2025-S1-Q40",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 40,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "All route tables and target addresses inspected. Includes overlapping prefixes, host/default routes and the 2024 count of twenty packets per destination. Longest matching route is the common decision."
+    },
+    {
+      "id": "osi-layer-function-match",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2004-Q15",
+        "CS-2014-S3-Q33",
+        "CS-2025-S1-Q16"
+      ],
+      "accepted_members": [
+        "CS-2004-Q15",
+        "CS-2014-S3-Q33",
+        "CS-2025-S1-Q16"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2004-Q15",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+          "page": 2,
+          "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5"
+        },
+        {
+          "question_id": "CS-2004-Q15",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+          "page": 3,
+          "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5"
+        },
+        {
+          "question_id": "CS-2014-S3-Q33",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 58,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2025-S1-Q16",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 16,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "2004 match list continues on next page, inspected. 2014 asks incorrect functionality, 2025 correct matching; routing/end-to-end/framing knowledge is shared."
+    },
+    {
+      "id": "ipv4-ttl-loop-limit",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2006-Q5",
+        "CS-2010-Q25"
+      ],
+      "accepted_members": [
+        "CS-2006-Q5",
+        "CS-2010-Q25"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2006-Q5",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 1,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+        },
+        {
+          "question_id": "CS-2006-Q5",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 1,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+        },
+        {
+          "question_id": "CS-2010-Q25",
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 4,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6"
+        }
+      ],
+      "independent_visual_notes": "Both ask the purpose of TTL and identify prevention of indefinite looping. Different distractors do not change the question."
+    },
+    {
+      "id": "ipv4-host-capacity",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2005-Q27",
+        "CS-2007-Q67",
+        "CS-2008-Q57",
+        "CS-2026-S2-Q33"
+      ],
+      "accepted_members": [
+        "CS-2005-Q27",
+        "CS-2007-Q67",
+        "CS-2008-Q57",
+        "CS-2026-S2-Q33"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2005-Q27",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+          "page": 3,
+          "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+        },
+        {
+          "question_id": "CS-2007-Q67",
+          "file": "sources/archive/CS/CS2007.pdf",
+          "page": 16,
+          "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463"
+        },
+        {
+          "question_id": "CS-2008-Q57",
+          "file": "sources/archive/CS/CS2008.pdf",
+          "page": 11,
+          "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202"
+        },
+        {
+          "question_id": "CS-2026-S2-Q33",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 23,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2005 asks mask for departments, 2007 subnet and host counts using historical excluded subnet convention, 2008 and 2026 host capacity. Preserve conventions; this is a bit-allocation family."
+    },
+    {
+      "id": "crc-polynomial-remainder",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2007-Q68",
+        "CS-2017-S1-Q42",
+        "CS-2021-S2-Q44",
+        "CS-2026-S2-Q43"
+      ],
+      "accepted_members": [
+        "CS-2007-Q68",
+        "CS-2017-S1-Q42",
+        "CS-2021-S2-Q44",
+        "CS-2026-S2-Q43"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2007-Q68",
+          "file": "sources/archive/CS/CS2007.pdf",
+          "page": 16,
+          "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463"
+        },
+        {
+          "question_id": "CS-2017-S1-Q42",
+          "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+          "page": 15,
+          "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6"
+        },
+        {
+          "question_id": "CS-2021-S2-Q44",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 74,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2026-S2-Q43",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 30,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "All generator polynomials and messages inspected. 2007/2017 request complete transmitted message; 2021/2026 request check bits. Same append-zero/XOR-remainder method."
+    },
+    {
+      "id": "tcp-udp-application-mapping",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2007-Q20",
+        "CS-2012-Q32",
+        "CS-2013-Q22"
+      ],
+      "accepted_members": [
+        "CS-2007-Q20",
+        "CS-2012-Q32",
+        "CS-2013-Q22"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2007-Q20",
+          "file": "sources/archive/CS/CS2007.pdf",
+          "page": 4,
+          "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463"
+        },
+        {
+          "question_id": "CS-2012-Q32",
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 5,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809"
+        },
+        {
+          "question_id": "CS-2013-Q22",
+          "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+          "page": 3,
+          "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+        }
+      ],
+      "independent_visual_notes": "UDP DNS and TCP email/file transfer mappings checked; 2012 distinguishes SMTP application role from TCP transport."
+    },
+    {
+      "id": "token-bucket-balance",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2008-Q58",
+        "CS-2016-S1-Q64"
+      ],
+      "accepted_members": [
+        "CS-2008-Q58",
+        "CS-2016-S1-Q64"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2008-Q58",
+          "file": "sources/archive/CS/CS2008.pdf",
+          "page": 11,
+          "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202"
+        },
+        {
+          "question_id": "CS-2016-S1-Q64",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 20,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        }
+      ],
+      "independent_visual_notes": "2008 asks full-rate burst depletion with 16 Mbit tokens and 2 Mbps refill; 2016 asks minimum completion with 1 MB bucket, 20 MB/s peak and 10 MB/s refill. Same token budget with different requested output."
+    },
+    {
+      "id": "email-send-retrieve-protocols",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2011-Q14",
+        "CS-2019-Q26"
+      ],
+      "accepted_members": [
+        "CS-2011-Q14",
+        "CS-2019-Q26"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2011-Q14",
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 2,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc"
+        },
+        {
+          "question_id": "CS-2019-Q26",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+          "page": 6,
+          "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd"
+        }
+      ],
+      "independent_visual_notes": "2011 includes webmail HTTP plus SMTP and POP; 2019 asks send/retrieve protocol pair. Preserve the webmail variant."
+    },
+    {
+      "id": "packet-store-forward-pipeline",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2012-Q54",
+        "CS-2014-S2-Q36",
+        "CS-2015-S3-Q56",
+        "CS-2024-S1-Q36"
+      ],
+      "accepted_members": [
+        "CS-2012-Q54",
+        "CS-2014-S2-Q36",
+        "CS-2015-S3-Q56",
+        "CS-2024-S1-Q36"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2012-Q54",
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 11,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809"
+        },
+        {
+          "question_id": "CS-2014-S2-Q36",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 35,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2015-S3-Q56",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 75,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2024-S1-Q36",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 22,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        }
+      ],
+      "independent_visual_notes": "Full line diagrams inspected. 2012 has three links plus propagation; 2014 compares three packetizations with 100-byte headers; 2015 includes 35 microsecond switch delay; 2024 has two pipelined links and negligible headers. Same startup plus packet-spacing method."
+    },
+    {
+      "id": "tcp-timeout-window-growth",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2012-Q55",
+        "CS-2014-S1-Q37",
+        "CS-2024-S2-Q54"
+      ],
+      "accepted_members": [
+        "CS-2012-Q55",
+        "CS-2014-S1-Q37",
+        "CS-2024-S2-Q54"
+      ],
+      "decision": "accepted_with_required_fix",
+      "source_evidence": [
+        {
+          "question_id": "CS-2012-Q55",
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 11,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809"
+        },
+        {
+          "question_id": "CS-2014-S1-Q37",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 13,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2024-S2-Q54",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+          "page": 37,
+          "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+        }
+      ],
+      "independent_visual_notes": "2012 explicitly starts slow start at 2 MSS and has a source/key ambiguity; 2014 asks recovery after timeout; 2024 asks third RTT after timeout. Shared trace method, but common rationale must not override 2012 alternatives."
+    },
+    {
+      "id": "fresh-web-protocol-order",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2014-S1-Q35",
+        "CS-2016-S2-Q35",
+        "CS-2024-S1-Q16"
+      ],
+      "accepted_members": [
+        "CS-2014-S1-Q35",
+        "CS-2016-S2-Q35",
+        "CS-2024-S1-Q16"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S1-Q35",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 13,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2016-S2-Q35",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 32,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        },
+        {
+          "question_id": "CS-2024-S1-Q16",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 11,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        }
+      ],
+      "independent_visual_notes": "2014/2016 resolve then connect then GET; 2024 adds dependent image request and explicitly empty caches/single connection. Dependency ordering shared."
+    },
+    {
+      "id": "router-ipv4-field-updates",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2014-S3-Q35",
+        "CS-2015-S1-Q26",
+        "CS-2024-S2-Q32"
+      ],
+      "accepted_members": [
+        "CS-2014-S3-Q35",
+        "CS-2015-S1-Q26",
+        "CS-2024-S2-Q32"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S3-Q35",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 58,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2015-S1-Q26",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 11,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2024-S2-Q32",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+          "page": 22,
+          "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+        }
+      ],
+      "independent_visual_notes": "2014 asks fields that may differ and includes fragmentation offset; 2015 asks unmodified field; 2024 asks always modified fields. May/always distinction is retained."
+    },
+    {
+      "id": "ipv4-fragment-generation",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2014-S3-Q38",
+        "CS-2015-S2-Q37",
+        "CS-2016-S1-Q63",
+        "CS-2018-Q64",
+        "CS-2025-S2-Q23"
+      ],
+      "accepted_members": [
+        "CS-2014-S3-Q38",
+        "CS-2015-S2-Q37",
+        "CS-2016-S1-Q63",
+        "CS-2018-Q64",
+        "CS-2025-S2-Q23"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S3-Q38",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 59,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2015-S2-Q37",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 39,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2016-S1-Q63",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 20,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        },
+        {
+          "question_id": "CS-2018-Q64",
+          "file": "sources/archive/CS/CS2018.pdf",
+          "page": 22,
+          "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926"
+        },
+        {
+          "question_id": "CS-2025-S2-Q23",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+          "page": 20,
+          "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+        }
+      ],
+      "independent_visual_notes": "All payload/header/MTU inputs inspected. UDP header occurs once, offset units are eight bytes; 2018 nonfinal payload is rounded down to eight-byte multiple. Counts, final sizes and offsets are legitimate outputs of same partition."
+    },
+    {
+      "id": "ipv4-refragment-path",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2024-S1-Q65",
+        "CS-2025-S1-Q57"
+      ],
+      "accepted_members": [
+        "CS-2024-S1-Q65",
+        "CS-2025-S1-Q57"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2024-S1-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 36,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        },
+        {
+          "question_id": "CS-2025-S1-Q57",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 57,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "2024 542 then 360 MTU and 2025 5000 then 3000 MTU paths inspected. Refragment each first-stage fragment. Preserve 2025 omitted header-size convention and reject strict repeat."
+    },
+    {
+      "id": "stopwait-cycle-utilization",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2015-S1-Q36",
+        "CS-2015-S2-Q34",
+        "CS-2016-S1-Q65",
+        "CS-2017-S1-Q55",
+        "CS-2023-Q17",
+        "CS-2025-S2-Q36"
+      ],
+      "accepted_members": [
+        "CS-2015-S1-Q36",
+        "CS-2015-S2-Q34",
+        "CS-2016-S1-Q65",
+        "CS-2017-S1-Q55",
+        "CS-2023-Q17",
+        "CS-2025-S2-Q36"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2015-S1-Q36",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 14,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2015-S2-Q34",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 37,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2016-S1-Q65",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 20,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        },
+        {
+          "question_id": "CS-2017-S1-Q55",
+          "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+          "page": 20,
+          "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6"
+        },
+        {
+          "question_id": "CS-2023-Q17",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+          "page": 14,
+          "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0"
+        },
+        {
+          "question_id": "CS-2025-S2-Q36",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+          "page": 27,
+          "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+        }
+      ],
+      "independent_visual_notes": "All stop-and-wait timing inputs inspected, including finite ACK transmission, per-node processing, information overhead, inverse target efficiency and 2023 monotonic comparison."
+    },
+    {
+      "id": "tcp-slow-start-rounds",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2008-Q56",
+        "CS-2018-Q24",
+        "CS-2020-Q65",
+        "CS-2026-S1-Q44",
+        "CS-2026-S2-Q58"
+      ],
+      "accepted_members": [
+        "CS-2008-Q56",
+        "CS-2018-Q24",
+        "CS-2020-Q65",
+        "CS-2026-S1-Q44",
+        "CS-2026-S2-Q58"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2008-Q56",
+          "file": "sources/archive/CS/CS2008.pdf",
+          "page": 11,
+          "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202"
+        },
+        {
+          "question_id": "CS-2018-Q24",
+          "file": "sources/archive/CS/CS2018.pdf",
+          "page": 8,
+          "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926"
+        },
+        {
+          "question_id": "CS-2020-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+          "page": 16,
+          "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6"
+        },
+        {
+          "question_id": "CS-2026-S1-Q44",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 33,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        },
+        {
+          "question_id": "CS-2026-S2-Q58",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 40,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2008/2018 ask growth law, 2020 traces through threshold, 2026 S1 asks segment-index round, S2 rounds to avoidance. Missing initial-window convention is not cured by grouping."
+    },
+    {
+      "id": "byte-sequence-wraparound",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2018-Q35",
+        "CS-2022-Q60",
+        "CS-2023-Q50",
+        "CS-2026-S2-Q65"
+      ],
+      "accepted_members": [
+        "CS-2018-Q35",
+        "CS-2022-Q60",
+        "CS-2023-Q50",
+        "CS-2026-S2-Q65"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2018-Q35",
+          "file": "sources/archive/CS/CS2018.pdf",
+          "page": 10,
+          "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926"
+        },
+        {
+          "question_id": "CS-2022-Q60",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+          "page": 39,
+          "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f"
+        },
+        {
+          "question_id": "CS-2023-Q50",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+          "page": 53,
+          "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0"
+        },
+        {
+          "question_id": "CS-2026-S2-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 42,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2018 asks fixed 32-bit wrap time, 2022/2023 lifetime-safe width, 2026 byte numbering plus full utilization. 60-second lifetime at 100 Mbps dominates 30 ms RTT in latter."
+    },
+    {
+      "id": "tcp-syn-ack-fields",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2021-S2-Q17",
+        "CS-2024-S1-Q29",
+        "CS-2025-S1-Q22"
+      ],
+      "accepted_members": [
+        "CS-2021-S2-Q17",
+        "CS-2024-S1-Q29",
+        "CS-2025-S1-Q22"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2021-S2-Q17",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 58,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2024-S1-Q29",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 19,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        },
+        {
+          "question_id": "CS-2025-S1-Q22",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 22,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "2021 asks full SYN-ACK fields, 2024 sequence/ack relationship, 2025 flags. SYN consumes one sequence number; distinguish ACK flag from acknowledgment number."
+    },
+    {
+      "id": "cidr-allocation-alignment",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2020-Q48",
+        "CS-2026-S1-Q56"
+      ],
+      "accepted_members": [
+        "CS-2020-Q48",
+        "CS-2026-S1-Q56"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2020-Q48",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+          "page": 12,
+          "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6"
+        },
+        {
+          "question_id": "CS-2020-Q48",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+          "page": 13,
+          "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6"
+        },
+        {
+          "question_id": "CS-2026-S1-Q56",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 43,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        }
+      ],
+      "independent_visual_notes": "2020 and 2026 require capacity, canonical alignment and ISP containment. Single-choice combinations versus multiple-choice addresses differ; not a strict repeat."
+    },
+    {
+      "id": "arp-request-reply-addresses",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2005-Q24",
+        "CS-2019-Q39",
+        "CS-2021-S1-Q18"
+      ],
+      "accepted_members": [
+        "CS-2005-Q24",
+        "CS-2019-Q39",
+        "CS-2021-S1-Q18"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2005-Q24",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+          "page": 3,
+          "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+        },
+        {
+          "question_id": "CS-2005-Q24",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+          "page": 3,
+          "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+        },
+        {
+          "question_id": "CS-2019-Q39",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+          "page": 10,
+          "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd"
+        },
+        {
+          "question_id": "CS-2021-S1-Q18",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 15,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        }
+      ],
+      "independent_visual_notes": "2005 asks ARP purpose, 2019 broadcast request to find local MAC, 2021 broadcast/unicast request/reply statements. Same localized ARP mechanism."
+    },
+    {
+      "id": "signature-key-direction",
+      "subject": "10-computer-networks",
+      "proposed_members": [
+        "CS-2016-S1-Q62",
+        "CS-2016-S2-Q33"
+      ],
+      "accepted_members": [
+        "CS-2016-S1-Q62",
+        "CS-2016-S2-Q33"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2016-S1-Q62",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 20,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        },
+        {
+          "question_id": "CS-2016-S2-Q33",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 31,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        }
+      ],
+      "independent_visual_notes": "2016 S1 digest signed with sender private key; S2 signature checked with signer public key. Complementary signature operations, not identical repeat."
+    },
+    {
+      "id": "two-set-population-count",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2010-Q4",
+        "CS-2024-S2-Q3",
+        "CS-2016-S2-Q6"
+      ],
+      "accepted_members": [
+        "CS-2010-Q4",
+        "CS-2024-S2-Q3",
+        "CS-2016-S2-Q6"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2010-Q4",
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 15,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6"
+        },
+        {
+          "question_id": "CS-2024-S2-Q3",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+          "page": 2,
+          "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+        },
+        {
+          "question_id": "CS-2016-S2-Q6",
+          "file": "sources/archive/CS/CS2016.pdf",
+          "page": 23,
+          "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+        }
+      ],
+      "independent_visual_notes": "2010 asks neither, 2016 only Facebook, 2024 one set size from ratio and neither. Inclusion-exclusion and complementary counts shared."
+    },
+    {
+      "id": "class-question-weighted-score",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2014-S3-Q5",
+        "CS-2015-S1-Q10"
+      ],
+      "accepted_members": [
+        "CS-2014-S3-Q5",
+        "CS-2015-S1-Q10"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S3-Q5",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 51,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2015-S1-Q10",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 6,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        }
+      ],
+      "independent_visual_notes": "All three-row and five-row tables read, including 2015 heading on preceding page. No negative/partial marks, per-row correct counts and common class size retained."
+    },
+    {
+      "id": "male-female-ratio-change",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2014-S2-Q9",
+        "CS-2014-S3-Q9"
+      ],
+      "accepted_members": [
+        "CS-2014-S2-Q9",
+        "CS-2014-S3-Q9"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S2-Q9",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 29,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        },
+        {
+          "question_id": "CS-2014-S3-Q9",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 52,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        }
+      ],
+      "independent_visual_notes": "Both full five-year graphs inspected: same ratio coordinates, but 2009 female doubling versus equal female counts in 2011/2012. Substitution into M=rF is shared."
+    },
+    {
+      "id": "folded-sheet-cylinder-cube",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2021-S1-Q6",
+        "CS-2024-S1-Q7"
+      ],
+      "accepted_members": [
+        "CS-2021-S1-Q6",
+        "CS-2024-S1-Q7"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2021-S1-Q6",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 7,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2024-S1-Q7",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 5,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        }
+      ],
+      "independent_visual_notes": "2021 joins short edges of 6x1 sheet; 2024 joins long edges of 54x4 sheet. Cylinder radius/height must be assigned separately. Cube has six equal faces in both."
+    },
+    {
+      "id": "unfold-punched-paper",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2021-S1-Q4",
+        "CS-2025-S1-Q9"
+      ],
+      "accepted_members": [
+        "CS-2021-S1-Q4",
+        "CS-2025-S1-Q9"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2021-S1-Q4",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 5,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2025-S1-Q9",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 9,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "All fold arrows, cut locations, orientations and answer diagrams inspected. Orthogonal circular folds versus diagonal square folds differ; reverse reflection is shared procedure."
+    },
+    {
+      "id": "exact-binomial-count",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2025-S1-Q8",
+        "CS-2026-S2-Q3"
+      ],
+      "accepted_members": [
+        "CS-2025-S1-Q8",
+        "CS-2026-S2-Q3"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2025-S1-Q8",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 8,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        },
+        {
+          "question_id": "CS-2026-S2-Q3",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 3,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2025 exactly one six in three fair-die throws, 2026 exactly three cloudy days in four with independent p=0.5. Same binomial count but changed success event means rejected strict repeat."
+    },
+    {
+      "id": "ordering-from-comparisons",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2017-S2-Q3",
+        "CS-2021-S2-Q10"
+      ],
+      "accepted_members": [
+        "CS-2017-S2-Q3",
+        "CS-2021-S2-Q10"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2017-S2-Q3",
+          "file": "sources/archive/CS/CS2-2017.pdf",
+          "page": 23,
+          "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390"
+        },
+        {
+          "question_id": "CS-2021-S2-Q10",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 54,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        }
+      ],
+      "independent_visual_notes": "2017 buildings ordered west/east; 2021 six distinct heights with shortest and next-shortest constraints. Build strict order then read middle/rank count."
+    },
+    {
+      "id": "contrapositive-not-converse",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2026-S1-Q5",
+        "CS-2026-S2-Q5"
+      ],
+      "accepted_members": [
+        "CS-2026-S1-Q5",
+        "CS-2026-S2-Q5"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2026-S1-Q5",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 4,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        },
+        {
+          "question_id": "CS-2026-S2-Q5",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 4,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2026 S1 asks NOT necessarily true with compound standing/silent consequent; S2 asks necessarily true from rain implies dance. Contrapositive retained; converse invalid."
+    },
+    {
+      "id": "sound-based-indefinite-articles",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2013-Q5",
+        "CS-2025-S1-Q1"
+      ],
+      "accepted_members": [
+        "CS-2013-Q5",
+        "CS-2025-S1-Q1"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2013-Q5",
+          "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+          "page": 13,
+          "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+        },
+        {
+          "question_id": "CS-2025-S1-Q1",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 1,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81"
+        }
+      ],
+      "independent_visual_notes": "2013 European uses consonant sound; 2025 younger/university/honorable asks a/a/an. Article choice follows initial pronunciation."
+    },
+    {
+      "id": "complete-jigsaw-complement",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2021-S2-Q7",
+        "CS-2026-S2-Q2"
+      ],
+      "accepted_members": [
+        "CS-2021-S2-Q7",
+        "CS-2026-S2-Q2"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2021-S2-Q7",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 51,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        },
+        {
+          "question_id": "CS-2026-S2-Q2",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 2,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2021 jigsaw explicitly permits move/rotate/flip to rectangle; 2026 square missing black piece has different silhouette. All options inspected; complementary boundary matching shared."
+    },
+    {
+      "id": "ordered-pair-probability",
+      "subject": "11-general-aptitude",
+      "proposed_members": [
+        "CS-2015-S1-Q5",
+        "CS-2026-S1-Q10",
+        "CS-2026-S2-Q10"
+      ],
+      "accepted_members": [
+        "CS-2015-S1-Q5",
+        "CS-2026-S1-Q10",
+        "CS-2026-S2-Q10"
+      ],
+      "decision": "accepted",
+      "source_evidence": [
+        {
+          "question_id": "CS-2015-S1-Q5",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 3,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        },
+        {
+          "question_id": "CS-2026-S1-Q10",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 9,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        },
+        {
+          "question_id": "CS-2026-S2-Q10",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 9,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ],
+      "independent_visual_notes": "2015 two finite sets with sum sixteen; 2026 S1 ordered dice divisibility; S2 ordered dice prime sum. Cartesian counting shared, predicates distinct; not strict repeats."
+    }
+  ],
+  "strict_repeat_audit": [
+    {
+      "a": "CS-1993-Q21",
+      "b": "CS-2004-Q22",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Both compute asynchronous serial characters per second, but 2004 adds an explicit parity bit while 1993 specifies only character size and stop bits. This changes framing assumptions as well as baud; safe as a shared problem pattern, not a numbers-only repeat.",
+      "source_evidence": [
+        {
+          "question_id": "CS-1993-Q21",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+          "page": 5,
+          "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+          "notes": "Full source page visually inspected. Eight-bit characters, asynchronous 2400 baud line, two stop bits. No parity bit stated; standard one start bit gives 11 bits per character. Options 109,216,218,219,240.",
+          "source_reviewed": true
+        },
+        {
+          "question_id": "CS-2004-Q22",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+          "page": 3,
+          "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+          "notes": "Full source page visually inspected. Eight-bit characters, 9600 baud asynchronous link; explicitly one start bit, eight data bits, two stop bits and one parity bit. Options 600,800,876,1200.",
+          "source_reviewed": true
+        }
+      ]
+    },
+    {
+      "a": "CS-2006-Q5",
+      "b": "CS-2010-Q25",
+      "proposed_status": "reviewed",
+      "decision": "accepted",
+      "rationale": "Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged.",
+      "source_evidence": [
+        {
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 1,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+          "question_id": "CS-2006-Q5",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged."
+        },
+        {
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 1,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+          "question_id": "CS-2006-Q5",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged."
+        },
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 4,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q25",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask why IPv4 has TTL, with prevention of indefinite packet looping as the intended answer. Distractor wording changes; setup and requested concept are unchanged."
+        }
+      ]
+    },
+    {
+      "a": "CS-1992-Q15",
+      "b": "CS-2002-Q11",
+      "proposed_status": "reviewed",
+      "decision": "accepted",
+      "rationale": "Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced.",
+      "source_evidence": [
+        {
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+          "page": 1,
+          "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+          "question_id": "CS-1992-Q15",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+        },
+        {
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+          "page": 2,
+          "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+          "question_id": "CS-1992-Q15",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+        },
+        {
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+          "page": 2,
+          "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+          "question_id": "CS-2002-Q11",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both ask the purpose of start/stop bits delimiting a byte in asynchronous serial transmission: receiver synchronization. The later source spells out the 0 prefix and 1 suffix bits; no throughput calculation or new constraint is introduced."
+        }
+      ]
+    },
+    {
+      "a": "CS-2007-Q68",
+      "b": "CS-2017-S1-Q42",
+      "proposed_status": "reviewed",
+      "decision": "accepted",
+      "rationale": "Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division.",
+      "source_evidence": [
+        {
+          "file": "sources/archive/CS/CS2007.pdf",
+          "page": 16,
+          "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+          "question_id": "CS-2007-Q68",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division."
+        },
+        {
+          "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+          "page": 15,
+          "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+          "question_id": "CS-2017-S1-Q42",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division."
+        }
+      ]
+    },
+    {
+      "a": "CS-2021-S2-Q44",
+      "b": "CS-2026-S2-Q43",
+      "proposed_status": "reviewed",
+      "decision": "accepted",
+      "rationale": "Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced.",
+      "source_evidence": [
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 74,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+          "question_id": "CS-2021-S2-Q44",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced."
+        },
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 30,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+          "question_id": "CS-2026-S2-Q43",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced."
+        }
+      ]
+    },
+    {
+      "a": "CS-2024-S1-Q65",
+      "b": "CS-2025-S1-Q57",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification.",
+      "source_evidence": [
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 36,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+          "question_id": "CS-2024-S1-Q65",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification."
+        },
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 57,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+          "question_id": "CS-2025-S1-Q57",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both re-fragment on a two-MTU path, but 2024 explicitly includes a 20-byte IP header whereas 2025 calls its input a message and omits header size. The same calculation pattern is useful, but a numbers-only repeat would conceal a changed specification."
+        }
+      ]
+    },
+    {
+      "a": "CS-2020-Q48",
+      "b": "CS-2026-S1-Q56",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only.",
+      "source_evidence": [
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+          "page": 12,
+          "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+          "question_id": "CS-2020-Q48",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+        },
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+          "page": 13,
+          "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+          "question_id": "CS-2020-Q48",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+        },
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 43,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+          "question_id": "CS-2026-S1-Q56",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Both select aligned CIDR allocations within an ISP block, but the 2020 single-choice answer combines statement pairs while 2026 is multiselect, and capacity is phrased as computers versus addresses. Retained as a method family, not certified as numbers-only."
+        }
+      ]
+    },
+    {
+      "a": "CS-2010-Q64",
+      "b": "CS-2010-Q65",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat.",
+      "source_evidence": [
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 14,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q64",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+        },
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 14,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q64",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+        },
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 14,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q65",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+        },
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 14,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q65",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+        },
+        {
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 14,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+          "question_id": "CS-2010-Q65",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked routing questions: changed link weights and the same graph require separate outputs under a shared stem. Audit only; not a cross-paper repeat."
+        }
+      ]
+    },
+    {
+      "a": "CS-2011-Q62",
+      "b": "CS-2011-Q63",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats.",
+      "source_evidence": [
+        {
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 15,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+          "question_id": "CS-2011-Q62",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+        },
+        {
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 15,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+          "question_id": "CS-2011-Q62",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+        },
+        {
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 15,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+          "question_id": "CS-2011-Q63",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+        },
+        {
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 15,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+          "question_id": "CS-2011-Q63",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+        },
+        {
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 15,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+          "question_id": "CS-2011-Q63",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper linked distance-vector questions: one link-cost decrease versus a later failed link and a specified synchronous update. Distinct stages and outputs, not strict repeats."
+        }
+      ]
+    },
+    {
+      "a": "CS-2014-S3-Q5",
+      "b": "CS-2015-S1-Q10",
+      "proposed_status": "reviewed",
+      "decision": "accepted",
+      "rationale": "Both give marks and counts correct/wrong/unattempted per question, explicitly no negative or partial marking, and ask class mean score. The 2014 table has three rows; the 2015 table has five, retaining the three original rows and adding two numeric rows. Same tabular setup and calculation, differing numerical input list.",
+      "source_evidence": [
+        {
+          "question_id": "CS-2014-S3-Q5",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 51,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+          "notes": "Inspected full archive page 51, GA Q5: complete three-row marks/count table, no-negative/partial-marking condition, class-mean question and options.",
+          "source_reviewed": true
+        },
+        {
+          "question_id": "CS-2015-S1-Q10",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 6,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+          "notes": "Inspected full archive pages 5 and 6: Q10 header at end of page5, complete five-row table, scoring rule, class-mean question and options on page6.",
+          "source_reviewed": true
+        },
+        {
+          "question_id": "CS-2015-S1-Q10",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 5,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+          "notes": "Inspected full page5 to verify Q10 heading precedes full stem/table/options on page6; no shared Q9 context.",
+          "source_reviewed": true
+        }
+      ]
+    },
+    {
+      "a": "CS-2025-S1-Q8",
+      "b": "CS-2026-S2-Q3",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced.",
+      "source_evidence": [
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+          "page": 8,
+          "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+          "question_id": "CS-2025-S1-Q8",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced."
+        },
+        {
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 3,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+          "question_id": "CS-2026-S2-Q3",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Exactly-k binomial method agrees, but the success event changes from a die face to cloudy weather. This is a method pattern, not an unchanged event with only numeric values replaced."
+        }
+      ]
+    },
+    {
+      "a": "CS-2012-Q1",
+      "b": "CS-2012-Q7",
+      "proposed_status": "rejected",
+      "decision": "accepted",
+      "rationale": "Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question.",
+      "source_evidence": [
+        {
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 16,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+          "question_id": "CS-2012-Q1",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question."
+        },
+        {
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 16,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+          "question_id": "CS-2012-Q7",
+          "source_reviewed": true,
+          "notes": "Full original linked page visually inspected. Same-paper audit only: profit maximization and parabolic-arch height share a quadratic vertex calculation but different setups and outputs. They must not be folded as a repeated exam question."
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+    "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+    "sources/archive/CS/CS2007.pdf": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+    "sources/archive/CS/CS2008.pdf": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+    "sources/archive/CS/CS2009.pdf": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+    "sources/archive/CS/CS2010.pdf": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+    "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+    "sources/archive/CS/CS2012.pdf": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+    "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+    "sources/archive/CS/CS2014.pdf": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+    "sources/archive/CS/CS2015.pdf": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+    "sources/archive/CS/CS2016.pdf": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+    "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+    "sources/archive/CS/CS2-2017.pdf": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+    "sources/archive/CS/CS2018.pdf": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+    "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+  },
+  "input_sha256": {
+    "full-review-10.json": "2b8c7317f5735915a2a30aadfc00e1c259546a53c4441ce9a7770546607aa99a",
+    "full-review-10-groups.json": "d42b9b01133fd481e61882c695bb3bfc8f80bfff519a2545951b5d4bffaacc8d",
+    "full-review-10-repeats.json": "1a372f086887c878c92efcd5e82bdec6bcc0dc76248fc94fcda8dcc28c2e9ec4",
+    "full-review-11.json": "1196c7f31f5a8c9c56e7f79534717412cef52f6b1c4de53db015cbfed061a4f8",
+    "full-review-11-groups.json": "c742c67a198631352774d326baec14de379055e5e5e15230c094a28f81befbe9",
+    "full-review-11-repeats.json": "7c59a71d62579f9dc0e2ab7f8c1c6922196a8729aaa0cffbf7965851c701a6ef"
+  },
+  "preservation": {
+    "existing_groups_preserved": true,
+    "existing_in_subject_repeat_statuses_preserved": true,
+    "cross_subject_rejected_pair_must_be_retained": {
+      "a": "CS-1998-Q1",
+      "b": "CS-2025-S1-Q8",
+      "status": "rejected",
+      "reason": "1998 odd die result versus 2025 six changes success event; method kinship is audit-only, not a cross-subject fold. Inspected both full pages. This pair is absent from subject-only partial proposals, so merge into baseline rather than replace baseline repeat file.",
+      "source_evidence": [
+        {
+          "question_id": "CS-1998-Q1",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+          "page": 1,
+          "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574"
+        }
+      ]
+    },
+    "same_paper_pairs_audit_only": [
+      "CS-2010-Q64 / CS-2010-Q65",
+      "CS-2011-Q62 / CS-2011-Q63",
+      "CS-2012-Q1 / CS-2012-Q7"
+    ],
+    "source_and_solution_files_modified": false
+  },
+  "visual_pages_count": 110,
+  "expected_after_required_membership_fix": {
+    "10-computer-networks": {
+      "total_ids": 196,
+      "groups": 28,
+      "grouped_members": 95
+    },
+    "11-general-aptitude": {
+      "total_ids": 270,
+      "groups": 11,
+      "grouped_members": 24
+    }
+  }
+}

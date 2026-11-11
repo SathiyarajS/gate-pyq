@@ -49,13 +49,18 @@ class FullCorpusProgressTest(unittest.TestCase):
         stored=json.loads((folder/'manifest.json').read_text())
         self.assertEqual(result,stored)
         self.assertEqual(len({r['question_id'] for r in stored['records']}),len(questions))
+        groups=json.loads((ROOT/'data/problem-patterns.json').read_text())['groups']
+        self.assertEqual({qid for g in groups for qid in g['members']},
+                         {r['question_id'] for r in stored['records'] if r['grouping_status']=='reviewed_group'})
         self.assertTrue(all(r['source_status']=='reviewed' and r['independent_group_review']=='passed'
                             for r in stored['records'] if r['grouping_status']=='reviewed_group'
                             and r['independent_group_review']=='passed'))
 
     def test_invalid_review_is_rejected(self):
         for change in [{'question_id':'unknown'},{'source_evidence':[]},{'fingerprint':{}},
-                       {'source_status':'verified'},{'grouping_status':'unique'}]:
+                       {'source_status':'verified'},{'grouping_status':'unique'},
+                       {'source_evidence':[{'file':'source.pdf','page':1,'sha256':'wrong'}]},
+                       {'source_evidence':[{'file':'source.pdf','page':True,'sha256':'a'*64}]}]:
             record=dict(self.record,**change)
             with self.assertRaises(ValueError):progress(self.questions,[{'records':[record]}])
         with self.assertRaises(ValueError):progress(self.questions,[{'records':[self.record,self.record]}])

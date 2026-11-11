@@ -6,7 +6,6 @@
     "unique_full_pages_inspected": 132,
     "proposed_group_members_inspected": 164,
     "proposed_groups": 52,
-    "source_pages_manifest": "/tmp/independent-dsc/pages.json",
     "render_method": "PyMuPDF full source pages, local source bytes or git HEAD source bytes, SHA256 matched to review evidence. Contact sheets retain entire pages.",
     "render_warnings": "Some PDFs emitted missing background XObject warnings; relevant question stems, options, code and diagrams remained visibly rendered. No question-content blocker found."
   },
@@ -110,7 +109,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
               "page": 8,
               "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
-              "image": "/tmp/independent-dsc/p000.png",
               "members": [
                 "CS-2000-Q71"
               ]
@@ -119,7 +117,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 40,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p001.png",
               "members": [
                 "CS-2014-S2-Q51"
               ]
@@ -141,7 +138,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 1,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p002.png",
               "members": [
                 "CS-2004-Q7"
               ]
@@ -150,7 +146,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 17,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p003.png",
               "members": [
                 "CS-2014-S1-Q50"
               ]
@@ -159,7 +154,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
               "page": 22,
               "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
-              "image": "/tmp/independent-dsc/p004.png",
               "members": [
                 "CS-2026-S2-Q30"
               ]
@@ -183,7 +177,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 7,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p005.png",
               "members": [
                 "CS-1996-Q52",
                 "CS-1996-Q53",
@@ -211,7 +204,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 2,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p006.png",
               "members": [
                 "CS-1995-Q17"
               ]
@@ -220,7 +212,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
               "page": 7,
               "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
-              "image": "/tmp/independent-dsc/p007.png",
               "members": [
                 "CS-1999-Q69"
               ]
@@ -229,7 +220,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 34,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p008.png",
               "members": [
                 "CS-2015-S2-Q23"
               ]
@@ -238,7 +228,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 60,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p009.png",
               "members": [
                 "CS-2015-S3-Q21"
               ]
@@ -247,7 +236,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
               "page": 12,
               "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
-              "image": "/tmp/independent-dsc/p010.png",
               "members": [
                 "CS-2025-S2-Q13"
               ]
@@ -268,7 +256,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 5,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p011.png",
               "members": [
                 "CS-1996-Q36"
               ]
@@ -277,7 +264,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 63,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p012.png",
               "members": [
                 "CS-2015-S3-Q30"
               ]
@@ -301,7 +287,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 1,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p002.png",
               "members": [
                 "CS-2004-Q4"
               ]
@@ -310,7 +295,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 5,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p011.png",
               "members": [
                 "CS-1996-Q39"
               ]
@@ -319,7 +303,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 9,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p013.png",
               "members": [
                 "CS-2001-Q78"
               ]
@@ -328,7 +311,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 62,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p014.png",
               "members": [
                 "CS-2015-S3-Q27"
               ]
@@ -337,7 +319,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
               "page": 26,
               "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
-              "image": "/tmp/independent-dsc/p015.png",
               "members": [
                 "CS-2025-S2-Q35"
               ]
@@ -361,7 +342,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 6,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p016.png",
               "members": [
                 "CS-1995-Q56"
               ]
@@ -370,7 +350,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
               "page": 7,
               "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
-              "image": "/tmp/independent-dsc/p017.png",
               "members": [
                 "CS-2002-Q60"
               ]
@@ -379,7 +358,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
               "page": 1,
               "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
-              "image": "/tmp/independent-dsc/p018.png",
               "members": [
                 "CS-2003-Q6"
               ]
@@ -388,7 +366,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 4,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p019.png",
               "members": [
                 "CS-2005-Q35"
               ]
@@ -397,7 +374,6 @@
               "file": "sources/archive/CS/CS2007.pdf",
               "page": 3,
               "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-              "image": "/tmp/independent-dsc/p020.png",
               "members": [
                 "CS-2007-Q13"
               ]
@@ -418,7 +394,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 7,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p021.png",
               "members": [
                 "CS-1998-Q87"
               ]
@@ -427,7 +402,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 5,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p022.png",
               "members": [
                 "CS-2004-Q38"
               ]
@@ -449,7 +423,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 7,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p021.png",
               "members": [
                 "CS-1998-Q88"
               ]
@@ -458,7 +431,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 8,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p023.png",
               "members": [
                 "CS-1998-Q88"
               ]
@@ -467,7 +439,6 @@
               "file": "sources/archive/CS/CS2007.pdf",
               "page": 9,
               "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-              "image": "/tmp/independent-dsc/p024.png",
               "members": [
                 "CS-2007-Q39"
               ]
@@ -476,7 +447,6 @@
               "file": "sources/archive/CS/CS2018.pdf",
               "page": 9,
               "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
-              "image": "/tmp/independent-dsc/p025.png",
               "members": [
                 "CS-2018-Q30"
               ]
@@ -498,7 +468,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 8,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p023.png",
               "members": [
                 "CS-1998-Q89",
                 "CS-1998-Q90"
@@ -508,7 +477,6 @@
               "file": "sources/archive/CS/CS2009.pdf",
               "page": 9,
               "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
-              "image": "/tmp/independent-dsc/p026.png",
               "members": [
                 "CS-2009-Q37"
               ]
@@ -532,7 +500,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
               "page": 8,
               "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
-              "image": "/tmp/independent-dsc/p000.png",
               "members": [
                 "CS-2000-Q72",
                 "CS-2000-Q73",
@@ -543,7 +510,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 62,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p014.png",
               "members": [
                 "CS-2015-S3-Q28"
               ]
@@ -552,7 +518,6 @@
               "file": "sources/archive/CS/CS2007.pdf",
               "page": 9,
               "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-              "image": "/tmp/independent-dsc/p024.png",
               "members": [
                 "CS-2007-Q38"
               ]
@@ -574,7 +539,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 9,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p013.png",
               "members": [
                 "CS-2001-Q80"
               ]
@@ -583,7 +547,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 6,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p027.png",
               "members": [
                 "CS-2004-Q43"
               ]
@@ -592,7 +555,6 @@
               "file": "sources/archive/CS/CS2012.pdf",
               "page": 12,
               "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
-              "image": "/tmp/independent-dsc/p028.png",
               "members": [
                 "CS-2012-Q57"
               ]
@@ -616,7 +578,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 4,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p019.png",
               "members": [
                 "CS-2005-Q33"
               ]
@@ -625,7 +586,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
               "page": 2,
               "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
-              "image": "/tmp/independent-dsc/p029.png",
               "members": [
                 "CS-2003-Q19"
               ]
@@ -634,7 +594,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
               "page": 3,
               "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
-              "image": "/tmp/independent-dsc/p030.png",
               "members": [
                 "CS-2003-Q19"
               ]
@@ -643,7 +602,6 @@
               "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
               "page": 8,
               "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
-              "image": "/tmp/independent-dsc/p031.png",
               "members": [
                 "CS-2011-Q39"
               ]
@@ -652,7 +610,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 8,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p032.png",
               "members": [
                 "CS-2015-S1-Q17"
               ]
@@ -661,7 +618,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
               "page": 26,
               "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
-              "image": "/tmp/independent-dsc/p033.png",
               "members": [
                 "CS-2024-S2-Q39"
               ]
@@ -685,7 +641,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 4,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p019.png",
               "members": [
                 "CS-2005-Q34"
               ]
@@ -694,7 +649,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 5,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p022.png",
               "members": [
                 "CS-2004-Q37"
               ]
@@ -703,7 +657,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 11,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p034.png",
               "members": [
                 "CS-2006-Q77"
               ]
@@ -712,7 +665,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 12,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p035.png",
               "members": [
                 "CS-2006-Q77"
               ]
@@ -721,7 +673,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 32,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p036.png",
               "members": [
                 "CS-2014-S2-Q22"
               ]
@@ -730,7 +681,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 14,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p037.png",
               "members": [
                 "CS-2015-S1-Q37"
               ]
@@ -754,7 +704,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 11,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p034.png",
               "members": [
                 "CS-2006-Q76"
               ]
@@ -763,7 +712,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 12,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p035.png",
               "members": [
                 "CS-2006-Q76"
               ]
@@ -772,7 +720,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 8,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p038.png",
               "members": [
                 "CS-1991-Q63"
               ]
@@ -781,7 +728,6 @@
               "file": "sources/archive/CS/CS2009.pdf",
               "page": 14,
               "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
-              "image": "/tmp/independent-dsc/p039.png",
               "members": [
                 "CS-2009-Q59"
               ]
@@ -790,7 +736,6 @@
               "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
               "page": 6,
               "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
-              "image": "/tmp/independent-dsc/p040.png",
               "members": [
                 "CS-2011-Q33"
               ]
@@ -799,7 +744,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
               "page": 9,
               "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
-              "image": "/tmp/independent-dsc/p041.png",
               "members": [
                 "CS-2023-Q12"
               ]
@@ -822,7 +766,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 2,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p042.png",
               "members": [
                 "CS-2006-Q10"
               ]
@@ -831,7 +774,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
               "page": 14,
               "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-              "image": "/tmp/independent-dsc/p043.png",
               "members": [
                 "CS-2020-Q57"
               ]
@@ -840,7 +782,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
               "page": 55,
               "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-              "image": "/tmp/independent-dsc/p044.png",
               "members": [
                 "CS-2021-S2-Q12"
               ]
@@ -849,7 +790,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
               "page": 27,
               "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
-              "image": "/tmp/independent-dsc/p045.png",
               "members": [
                 "CS-2024-S1-Q43"
               ]
@@ -873,7 +813,6 @@
               "file": "sources/archive/CS/CS2007.pdf",
               "page": 3,
               "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-              "image": "/tmp/independent-dsc/p020.png",
               "members": [
                 "CS-2007-Q12"
               ]
@@ -882,7 +821,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 7,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p046.png",
               "members": [
                 "CS-2015-S1-Q15"
               ]
@@ -891,7 +829,6 @@
               "file": "sources/archive/CS/CS2016.pdf",
               "page": 28,
               "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
-              "image": "/tmp/independent-dsc/p047.png",
               "members": [
                 "CS-2016-S2-Q21"
               ]
@@ -900,7 +837,6 @@
               "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
               "page": 4,
               "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
-              "image": "/tmp/independent-dsc/p048.png",
               "members": [
                 "CS-2017-S1-Q16"
               ]
@@ -909,7 +845,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
               "page": 35,
               "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
-              "image": "/tmp/independent-dsc/p049.png",
               "members": [
                 "CS-2025-S1-Q35"
               ]
@@ -930,7 +865,6 @@
               "file": "sources/archive/CS/CS2009.pdf",
               "page": 8,
               "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
-              "image": "/tmp/independent-dsc/p050.png",
               "members": [
                 "CS-2009-Q36"
               ]
@@ -939,7 +873,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
               "page": 19,
               "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
-              "image": "/tmp/independent-dsc/p051.png",
               "members": [
                 "CS-2026-S1-Q24"
               ]
@@ -960,7 +893,6 @@
               "file": "sources/archive/CS/CS2010.pdf",
               "page": 13,
               "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
-              "image": "/tmp/independent-dsc/p052.png",
               "members": [
                 "CS-2010-Q62",
                 "CS-2010-Q63"
@@ -984,7 +916,6 @@
               "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
               "page": 10,
               "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
-              "image": "/tmp/independent-dsc/p053.png",
               "members": [
                 "CS-2013-Q53"
               ]
@@ -993,7 +924,6 @@
               "file": "sources/archive/CS/CS2-2017.pdf",
               "page": 14,
               "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
-              "image": "/tmp/independent-dsc/p054.png",
               "members": [
                 "CS-2017-S2-Q46"
               ]
@@ -1002,7 +932,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
               "page": 5,
               "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-              "image": "/tmp/independent-dsc/p055.png",
               "members": [
                 "CS-2020-Q15"
               ]
@@ -1011,7 +940,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
               "page": 45,
               "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
-              "image": "/tmp/independent-dsc/p056.png",
               "members": [
                 "CS-2026-S1-Q62"
               ]
@@ -1032,7 +960,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 5,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p022.png",
               "members": [
                 "CS-2004-Q36"
               ]
@@ -1041,7 +968,6 @@
               "file": "sources/archive/CS/CS2-2017.pdf",
               "page": 5,
               "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
-              "image": "/tmp/independent-dsc/p057.png",
               "members": [
                 "CS-2017-S2-Q23"
               ]
@@ -1062,7 +988,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 61,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p058.png",
               "members": [
                 "CS-2014-S3-Q49"
               ]
@@ -1071,7 +996,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
               "page": 13,
               "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-              "image": "/tmp/independent-dsc/p059.png",
               "members": [
                 "CS-2020-Q51"
               ]
@@ -1092,7 +1016,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
               "page": 8,
               "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-              "image": "/tmp/independent-dsc/p060.png",
               "members": [
                 "CS-2020-Q33"
               ]
@@ -1101,7 +1024,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
               "page": 64,
               "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
-              "image": "/tmp/independent-dsc/p061.png",
               "members": [
                 "CS-2025-S1-Q65"
               ]
@@ -1122,7 +1044,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 4,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p019.png",
               "members": [
                 "CS-2005-Q36"
               ]
@@ -1131,7 +1052,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 5,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p062.png",
               "members": [
                 "CS-2005-Q36"
               ]
@@ -1140,7 +1060,6 @@
               "file": "sources/archive/CS/CS2007.pdf",
               "page": 10,
               "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-              "image": "/tmp/independent-dsc/p063.png",
               "members": [
                 "CS-2007-Q43"
               ]
@@ -1161,7 +1080,6 @@
               "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
               "page": 2,
               "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
-              "image": "/tmp/independent-dsc/p064.png",
               "members": [
                 "CS-2013-Q17"
               ]
@@ -1170,7 +1088,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 13,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p065.png",
               "members": [
                 "CS-2015-S1-Q35"
               ]
@@ -1191,7 +1108,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 8,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p038.png",
               "members": [
                 "CS-1991-Q65"
               ]
@@ -1200,7 +1116,6 @@
               "file": "sources/archive/CS/CS2016.pdf",
               "page": 15,
               "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
-              "image": "/tmp/independent-dsc/p066.png",
               "members": [
                 "CS-2016-S1-Q47"
               ]
@@ -1296,7 +1211,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 5,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p011.png",
               "members": [
                 "CS-1996-Q41"
               ]
@@ -1305,7 +1219,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
               "page": 4,
               "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
-              "image": "/tmp/independent-dsc/p067.png",
               "members": [
                 "CS-1992-Q31"
               ]
@@ -1314,7 +1227,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 6,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p068.png",
               "members": [
                 "CS-1996-Q41"
               ]
@@ -1338,7 +1250,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 6,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p016.png",
               "members": [
                 "CS-1995-Q62"
               ]
@@ -1347,7 +1258,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 6,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p069.png",
               "members": [
                 "CS-1991-Q51"
               ]
@@ -1356,7 +1266,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
               "page": 6,
               "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
-              "image": "/tmp/independent-dsc/p070.png",
               "members": [
                 "CS-1993-Q29"
               ]
@@ -1365,7 +1274,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
               "page": 6,
               "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
-              "image": "/tmp/independent-dsc/p071.png",
               "members": [
                 "CS-1994-Q75"
               ]
@@ -1374,7 +1282,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
               "page": 7,
               "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
-              "image": "/tmp/independent-dsc/p072.png",
               "members": [
                 "CS-1994-Q75"
               ]
@@ -1383,7 +1290,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
               "page": 4,
               "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
-              "image": "/tmp/independent-dsc/p073.png",
               "members": [
                 "CS-1997-Q33"
               ]
@@ -1405,7 +1311,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 6,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p069.png",
               "members": [
                 "CS-1991-Q52"
               ]
@@ -1414,7 +1319,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
               "page": 6,
               "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
-              "image": "/tmp/independent-dsc/p071.png",
               "members": [
                 "CS-1994-Q76"
               ]
@@ -1423,7 +1327,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
               "page": 7,
               "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
-              "image": "/tmp/independent-dsc/p072.png",
               "members": [
                 "CS-1994-Q76"
               ]
@@ -1432,7 +1335,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
               "page": 4,
               "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
-              "image": "/tmp/independent-dsc/p074.png",
               "members": [
                 "CS-1999-Q38"
               ]
@@ -1441,7 +1343,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
               "page": 5,
               "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
-              "image": "/tmp/independent-dsc/p075.png",
               "members": [
                 "CS-1999-Q38"
               ]
@@ -1462,7 +1363,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 6,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p069.png",
               "members": [
                 "CS-1991-Q48"
               ]
@@ -1471,7 +1371,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 3,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p076.png",
               "members": [
                 "CS-1995-Q29"
               ]
@@ -1493,7 +1392,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
               "page": 6,
               "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
-              "image": "/tmp/independent-dsc/p070.png",
               "members": [
                 "CS-1993-Q27"
               ]
@@ -1502,7 +1400,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 5,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p077.png",
               "members": [
                 "CS-1998-Q48"
               ]
@@ -1511,7 +1408,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 6,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p078.png",
               "members": [
                 "CS-2001-Q42"
               ]
@@ -1535,7 +1431,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
               "page": 7,
               "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
-              "image": "/tmp/independent-dsc/p079.png",
               "members": [
                 "CS-1991-Q53"
               ]
@@ -1544,7 +1439,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
               "page": 1,
               "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
-              "image": "/tmp/independent-dsc/p080.png",
               "members": [
                 "CS-1997-Q6"
               ]
@@ -1553,7 +1447,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
               "page": 6,
               "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
-              "image": "/tmp/independent-dsc/p081.png",
               "members": [
                 "CS-2000-Q44"
               ]
@@ -1562,7 +1455,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
               "page": 10,
               "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
-              "image": "/tmp/independent-dsc/p082.png",
               "members": [
                 "CS-2002-Q100"
               ]
@@ -1571,7 +1463,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 33,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p083.png",
               "members": [
                 "CS-2014-S2-Q27"
               ]
@@ -1593,7 +1484,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 6,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p084.png",
               "members": [
                 "CS-1998-Q62"
               ]
@@ -1602,7 +1492,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 10,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p085.png",
               "members": [
                 "CS-2001-Q88"
               ]
@@ -1611,7 +1500,6 @@
               "file": "sources/archive/CS/CS2-2017.pdf",
               "page": 12,
               "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
-              "image": "/tmp/independent-dsc/p086.png",
               "members": [
                 "CS-2017-S2-Q42"
               ]
@@ -1632,7 +1520,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
               "page": 8,
               "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
-              "image": "/tmp/independent-dsc/p087.png",
               "members": [
                 "CS-1992-Q55"
               ]
@@ -1641,7 +1528,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
               "page": 12,
               "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
-              "image": "/tmp/independent-dsc/p088.png",
               "members": [
                 "CS-2019-Q46"
               ]
@@ -1663,7 +1549,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 4,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p089.png",
               "members": [
                 "CS-1995-Q35"
               ]
@@ -1672,7 +1557,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
               "page": 9,
               "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
-              "image": "/tmp/independent-dsc/p090.png",
               "members": [
                 "CS-1996-Q83"
               ]
@@ -1681,7 +1565,6 @@
               "file": "sources/archive/CS/CS2016.pdf",
               "page": 18,
               "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
-              "image": "/tmp/independent-dsc/p091.png",
               "members": [
                 "CS-2016-S1-Q56"
               ]
@@ -1708,7 +1591,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 9,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p013.png",
               "members": [
                 "CS-2001-Q86"
               ]
@@ -1717,7 +1599,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
               "page": 6,
               "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
-              "image": "/tmp/independent-dsc/p016.png",
               "members": [
                 "CS-1995-Q59"
               ]
@@ -1726,7 +1607,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
               "page": 8,
               "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-              "image": "/tmp/independent-dsc/p023.png",
               "members": [
                 "CS-1998-Q92"
               ]
@@ -1735,7 +1615,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
               "page": 8,
               "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
-              "image": "/tmp/independent-dsc/p092.png",
               "members": [
                 "CS-2003-Q56"
               ]
@@ -1744,7 +1623,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 8,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p093.png",
               "members": [
                 "CS-2006-Q58"
               ]
@@ -1753,7 +1631,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 9,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p094.png",
               "members": [
                 "CS-2006-Q58"
               ]
@@ -1762,7 +1639,6 @@
               "file": "sources/archive/CS/CS2012.pdf",
               "page": 15,
               "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
-              "image": "/tmp/independent-dsc/p095.png",
               "members": [
                 "CS-2012-Q63"
               ]
@@ -1771,7 +1647,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
               "page": 27,
               "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-              "image": "/tmp/independent-dsc/p096.png",
               "members": [
                 "CS-2021-S1-Q41"
               ]
@@ -1780,7 +1655,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
               "page": 27,
               "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
-              "image": "/tmp/independent-dsc/p097.png",
               "members": [
                 "CS-2024-S2-Q40"
               ]
@@ -1802,7 +1676,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
               "page": 10,
               "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
-              "image": "/tmp/independent-dsc/p098.png",
               "members": [
                 "CS-1997-Q85"
               ]
@@ -1811,7 +1684,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
               "page": 8,
               "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
-              "image": "/tmp/independent-dsc/p099.png",
               "members": [
                 "CS-1999-Q77"
               ]
@@ -1820,7 +1692,6 @@
               "file": "sources/archive/CS/CS2012.pdf",
               "page": 9,
               "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
-              "image": "/tmp/independent-dsc/p100.png",
               "members": [
                 "CS-2012-Q46"
               ]
@@ -1843,7 +1714,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 9,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p013.png",
               "members": [
                 "CS-2001-Q85"
               ]
@@ -1852,7 +1722,6 @@
               "file": "sources/archive/CS/CS2012.pdf",
               "page": 15,
               "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
-              "image": "/tmp/independent-dsc/p095.png",
               "members": [
                 "CS-2012-Q62"
               ]
@@ -1861,7 +1730,6 @@
               "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
               "page": 10,
               "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
-              "image": "/tmp/independent-dsc/p101.png",
               "members": [
                 "CS-2017-S1-Q27"
               ]
@@ -1870,7 +1738,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
               "page": 7,
               "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
-              "image": "/tmp/independent-dsc/p102.png",
               "members": [
                 "CS-2019-Q29"
               ]
@@ -1893,7 +1760,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
               "page": 6,
               "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
-              "image": "/tmp/independent-dsc/p027.png",
               "members": [
                 "CS-2004-Q45"
               ]
@@ -1902,7 +1768,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
               "page": 9,
               "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
-              "image": "/tmp/independent-dsc/p103.png",
               "members": [
                 "CS-2000-Q86"
               ]
@@ -1911,7 +1776,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
               "page": 41,
               "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
-              "image": "/tmp/independent-dsc/p104.png",
               "members": [
                 "CS-2022-Q65"
               ]
@@ -1920,7 +1784,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
               "page": 23,
               "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
-              "image": "/tmp/independent-dsc/p105.png",
               "members": [
                 "CS-2024-S1-Q37"
               ]
@@ -1941,7 +1804,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
               "page": 8,
               "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
-              "image": "/tmp/independent-dsc/p092.png",
               "members": [
                 "CS-2003-Q58"
               ]
@@ -1950,7 +1812,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 9,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p094.png",
               "members": [
                 "CS-2006-Q59"
               ]
@@ -1974,7 +1835,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
               "page": 1,
               "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
-              "image": "/tmp/independent-dsc/p106.png",
               "members": [
                 "CS-2006-Q7"
               ]
@@ -1983,7 +1843,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
               "page": 14,
               "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
-              "image": "/tmp/independent-dsc/p107.png",
               "members": [
                 "CS-2019-Q53"
               ]
@@ -1992,7 +1851,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
               "page": 86,
               "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-              "image": "/tmp/independent-dsc/p108.png",
               "members": [
                 "CS-2021-S2-Q61"
               ]
@@ -2001,7 +1859,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
               "page": 22,
               "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
-              "image": "/tmp/independent-dsc/p109.png",
               "members": [
                 "CS-2022-Q29"
               ]
@@ -2010,7 +1867,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
               "page": 40,
               "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
-              "image": "/tmp/independent-dsc/p110.png",
               "members": [
                 "CS-2024-S2-Q65"
               ]
@@ -2031,7 +1887,6 @@
               "file": "sources/archive/CS/CS2014.pdf",
               "page": 60,
               "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-              "image": "/tmp/independent-dsc/p111.png",
               "members": [
                 "CS-2014-S3-Q44"
               ]
@@ -2040,7 +1895,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
               "page": 39,
               "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-              "image": "/tmp/independent-dsc/p112.png",
               "members": [
                 "CS-2021-S1-Q60"
               ]
@@ -2062,7 +1916,6 @@
               "file": "sources/archive/CS/CS2015.pdf",
               "page": 17,
               "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-              "image": "/tmp/independent-dsc/p113.png",
               "members": [
                 "CS-2015-S1-Q46"
               ]
@@ -2071,7 +1924,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
               "page": 37,
               "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
-              "image": "/tmp/independent-dsc/p114.png",
               "members": [
                 "CS-2023-Q37"
               ]
@@ -2080,7 +1932,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
               "page": 31,
               "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
-              "image": "/tmp/independent-dsc/p115.png",
               "members": [
                 "CS-2026-S2-Q45"
               ]
@@ -2101,7 +1952,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
               "page": 25,
               "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
-              "image": "/tmp/independent-dsc/p116.png",
               "members": [
                 "CS-2024-S1-Q39"
               ]
@@ -2110,7 +1960,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
               "page": 52,
               "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
-              "image": "/tmp/independent-dsc/p117.png",
               "members": [
                 "CS-2025-S1-Q52"
               ]
@@ -2131,7 +1980,6 @@
               "file": "sources/archive/CS/CS2016.pdf",
               "page": 9,
               "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
-              "image": "/tmp/independent-dsc/p118.png",
               "members": [
                 "CS-2016-S1-Q29"
               ]
@@ -2140,7 +1988,6 @@
               "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
               "page": 7,
               "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
-              "image": "/tmp/independent-dsc/p119.png",
               "members": [
                 "CS-2017-S1-Q22"
               ]
@@ -2161,7 +2008,6 @@
               "file": "sources/archive/CS/CS2010.pdf",
               "page": 9,
               "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
-              "image": "/tmp/independent-dsc/p120.png",
               "members": [
                 "CS-2010-Q47"
               ]
@@ -2170,7 +2016,6 @@
               "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
               "page": 11,
               "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
-              "image": "/tmp/independent-dsc/p121.png",
               "members": [
                 "CS-2013-Q59"
               ]
@@ -2191,7 +2036,6 @@
               "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
               "page": 10,
               "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
-              "image": "/tmp/independent-dsc/p122.png",
               "members": [
                 "CS-2011-Q46"
               ]
@@ -2200,7 +2044,6 @@
               "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
               "page": 23,
               "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
-              "image": "/tmp/independent-dsc/p123.png",
               "members": [
                 "CS-2017-S1-Q62"
               ]
@@ -2221,7 +2064,6 @@
               "file": "sources/archive/CS/CS2018.pdf",
               "page": 15,
               "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
-              "image": "/tmp/independent-dsc/p124.png",
               "members": [
                 "CS-2018-Q47"
               ]
@@ -2230,7 +2072,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
               "page": 23,
               "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
-              "image": "/tmp/independent-dsc/p125.png",
               "members": [
                 "CS-2026-S2-Q35"
               ]
@@ -2251,7 +2092,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
               "page": 11,
               "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-              "image": "/tmp/independent-dsc/p126.png",
               "members": [
                 "CS-2020-Q43"
               ]
@@ -2260,7 +2100,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
               "page": 19,
               "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
-              "image": "/tmp/independent-dsc/p127.png",
               "members": [
                 "CS-2025-S2-Q22"
               ]
@@ -2281,7 +2120,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 11,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p128.png",
               "members": [
                 "CS-2005-Q85",
                 "CS-2005-Q86"
@@ -2291,7 +2129,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
               "page": 12,
               "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
-              "image": "/tmp/independent-dsc/p129.png",
               "members": [
                 "CS-2005-Q85",
                 "CS-2005-Q86"
@@ -2313,7 +2150,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
               "page": 10,
               "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
-              "image": "/tmp/independent-dsc/p082.png",
               "members": [
                 "CS-2002-Q99"
               ]
@@ -2322,7 +2158,6 @@
               "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
               "page": 10,
               "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
-              "image": "/tmp/independent-dsc/p085.png",
               "members": [
                 "CS-2001-Q89"
               ]
@@ -2343,7 +2178,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
               "page": 56,
               "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
-              "image": "/tmp/independent-dsc/p130.png",
               "members": [
                 "CS-2021-S2-Q13"
               ]
@@ -2352,7 +2186,6 @@
               "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
               "page": 21,
               "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
-              "image": "/tmp/independent-dsc/p131.png",
               "members": [
                 "CS-2026-S1-Q27"
               ]

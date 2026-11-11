@@ -4073,6 +4073,9 @@
     }
   ],
   "independent_group_review": {
-    "status": "pending"
+    "status": "passed",
+    "reviewer": "independent-06-09-source-review",
+    "report": "audits/grouping/full-corpus/06-09-independent-review.json",
+    "scope": "All proposed grouped members independently source checked; ungrouped primary records not second-reviewed."
   }
 }
