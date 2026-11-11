@@ -3,7 +3,10 @@
   "reviewed_on": "2026-11-11",
   "reviewer": "primary-full-subject-source-review",
   "independent_group_review": {
-    "status": "pending"
+    "status": "passed",
+    "reviewer": "independent-architecture-algorithms-os-verifier",
+    "report": "audits/grouping/full-corpus/02-05-08-independent-review.json",
+    "scope": "All proposed group members independently source checked; ungrouped primary records not second-reviewed."
   },
   "scope_note": "Primary full-subject source and method review. Proposed groups await independent checking and are not yet integrated into views. No reviewed match is not proof of uniqueness.",
   "records": [

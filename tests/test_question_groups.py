@@ -110,6 +110,12 @@ class StudyGroupsTest(unittest.TestCase):
                 self.assertLessEqual(source['page'],source_map[source['file']]['pages'])
                 self.assertIn(source['sha256'],known,source['question_id'])
 
+    def test_inverse_log_threshold_is_not_a_direct_halving_variant(self):
+        groups=json.loads((ROOT/'data/problem-patterns.json').read_text())['groups']
+        direct=next(g for g in groups if g['id']=='halving-count-and-log-thresholds')
+        self.assertNotIn('CS-2026-S1-Q61',direct['members'])
+        self.assertEqual(set(direct['members']),{'CS-2007-Q15','CS-2014-S2-Q20','CS-2018-Q42'})
+
     def test_repository_patterns_valid(self):
         qs=json.loads((ROOT/'data/questions.json').read_text())
         self.assertTrue(question_groups.load_patterns(ROOT,qs))

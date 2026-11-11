@@ -200,7 +200,11 @@
             "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Both ask an example of a spooled device. The terminal and virtual-memory distractors recur; line printer/output device printing multiple jobs is the same answer. Extra distractor wording and option order change only."
     },
@@ -209,9 +213,10 @@
       "b": "CS-2014-S3-Q61",
       "kind": "same",
       "status": "reviewed",
+      "rationale": "Same forest edge-count expression in vertices and connected components; variable names and answer presentation change.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -219,7 +224,7 @@
             "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
             "page": 4,
             "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Shared question-type instruction page; full question body on other listed page.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Edges in a forest",
             "source_reviewed": true
           },
           {
@@ -227,7 +232,7 @@
             "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
             "page": 5,
             "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Edges in a forest",
             "source_reviewed": true
           },
           {
@@ -235,12 +240,15 @@
             "file": "sources/archive/CS/CS2014.pdf",
             "page": 65,
             "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S3-Q61",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Both ask edge count for a forest with n total vertices and p/k components. Variables are renamed and short answer becomes multiple choice; answer n minus number of components unchanged."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-2000-Q71",
@@ -278,9 +286,10 @@
       "b": "CS-2007-Q26",
       "kind": "same",
       "status": "reviewed",
+      "rationale": "Same four partitions of a four-element set ordered by refinement, with partition-index relabeling; same Hasse diagram task.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -288,7 +297,7 @@
             "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
             "page": 7,
             "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Partition refinement Hasse diagram",
             "source_reviewed": true
           },
           {
@@ -296,12 +305,15 @@
             "file": "sources/archive/CS/CS2007.pdf",
             "page": 6,
             "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
-            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Partition-refinement partial order",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Both ask the refinement poset diagram for the same four partitions of {a,b,c,d}: all together, all singleton, abc|d, and ab|cd. Partition names are permuted. Checked source shared partition definition and all four 2007 diagram options; same diamond relation up to labels."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-2006-Q66",
@@ -331,8 +343,8 @@
           }
         ]
       },
-      "rationale": "2006 asks a necessary condition for avoiding deadlock when processes already request Yi; 2019 asks a condition guaranteeing no process other than p,q can complete with requests of at most Yi. Same resource snapshot template, different logical condition and answer choices. Not an identical or numeric-only repeat.",
-      "rejection_reason": "pattern-only: different setup or requested output, not a repeat"
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. 2006 asks a necessary condition for avoiding deadlock when processes already request Yi; 2019 asks a condition guaranteeing no process other than p,q can complete with requests of at most Yi. Same resource snapshot template, different logical condition and answer choices. Not an identical or numeric-only repeat.",
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. 2006 asks a necessary condition for avoiding deadlock when processes already request Yi; 2019 asks a condition guaranteeing no process other than p,q can complete with requests of at most Yi. Same resource snapshot template, different logical condition and answer choices. Not an identical or numeric-only repeat."
     },
     {
       "a": "CS-1994-Q25",
@@ -452,8 +464,8 @@
           }
         ]
       },
-      "rationale": "Both ask asymptotic order of a square-root recurrence with multiplier 2 and +1 toll, but 2006 explicitly rounds the square-root argument and supplies T(1)=1, whereas 2017 states an unrounded square-root recurrence for n>2 and T(n)=2 for 0<n<=2. This is the same recurrence-solving pattern, not strictly only changed given numerical values.",
-      "rejection_reason": "pattern-only: different setup or requested output, not a repeat"
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Both ask asymptotic order of a square-root recurrence with multiplier 2 and +1 toll, but 2006 explicitly rounds the square-root argument and supplies T(1)=1, whereas 2017 states an unrounded square-root recurrence for n>2 and T(n)=2 for 0<n<=2. This is the same recurrence-solving pattern, not strictly only changed given numerical values.",
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Both ask asymptotic order of a square-root recurrence with multiplier 2 and +1 toll, but 2006 explicitly rounds the square-root argument and supplies T(1)=1, whereas 2017 states an unrounded square-root recurrence for n>2 and T(n)=2 for 0<n<=2. This is the same recurrence-solving pattern, not strictly only changed given numerical values."
     },
     {
       "a": "CS-2008-Q19",
@@ -483,8 +495,8 @@
           }
         ]
       },
-      "rationale": "Both ask which option is a possible BFS traversal, but the 2017 graph has edge Q-O that the 2008 graph does not. The six labeled vertices are the same; adjacency structure and answer options change. A topology change is not a numeric-only repeat.",
-      "rejection_reason": "pattern-only: different setup or requested output, not a repeat"
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Both ask which option is a possible BFS traversal, but the 2017 graph has edge Q-O that the 2008 graph does not. The six labeled vertices are the same; adjacency structure and answer options change. A topology change is not a numeric-only repeat.",
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Both ask which option is a possible BFS traversal, but the 2017 graph has edge Q-O that the 2008 graph does not. The six labeled vertices are the same; adjacency structure and answer options change. A topology change is not a numeric-only repeat."
     },
     {
       "a": "CS-2016-S2-Q54",
@@ -543,7 +555,11 @@
             "notes": "Inspected full page 6, printed Q45 from bottom left through top-right continuation; four bursts, order, arrival time, quantum, requested completion time and all options.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Both specify all jobs arriving at time 0+, fixed initial queue order, round-robin quantum 1, and ask completion time of the first job. The 1993 list is p,q,r,s,t with bursts 4,1,8,1,2; the 1996 list is A,B,C,D with bursts 4,1,8,1. This is the same scheduling setup and requested metric with a shorter numeric input list."
     },
@@ -650,7 +666,11 @@
             "notes": "Full source page visually inspected. Six tape drives; each process may need two; maximum n for deadlock freedom. Options 6,5,4,3.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Identical tape-drive resource-allocation setup and requested maximum deadlock-free process count; six total drives in both and per-process maximum changes from three to two. Options differ accordingly."
     },
@@ -689,9 +709,10 @@
       "b": "CS-2015-S2-Q14",
       "kind": "numbers",
       "status": "reviewed",
+      "rationale": "Same task counting positive divisors of one given integer; integer changes.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -699,7 +720,7 @@
             "file": "sources/archive/CS/CS2014.pdf",
             "page": 42,
             "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
-            "notes": "Full source page visually inspected. Printed Q49 asks number of distinct positive integral factors of 2014; numeric blank.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S2-Q59",
             "source_reviewed": true
           },
           {
@@ -707,21 +728,25 @@
             "file": "sources/archive/CS/CS2015.pdf",
             "page": 31,
             "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
-            "notes": "Full source page visually inspected. Q14 asks number of divisors of 2100; numeric blank. No extra restrictions or shared context.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2015-S2-Q14",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Both ask the positive divisor count of one integer; the integer changes from 2014 to 2100."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-2018-Q29",
       "b": "CS-2020-Q28",
       "kind": "numbers",
       "status": "reviewed",
+      "rationale": "Both ask the largest possible proper-subgroup order using Lagrange divisibility; group order changes from 84 to 35.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -729,7 +754,7 @@
             "file": "sources/archive/CS/CS2018.pdf",
             "page": 9,
             "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
-            "notes": "Full source page visually inspected. Printed Q19 finite group with 84 elements; largest possible proper subgroup size.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Largest possible proper subgroup",
             "source_reviewed": true
           },
           {
@@ -737,21 +762,25 @@
             "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
             "page": 8,
             "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
-            "notes": "Full source page visually inspected. Printed Q.No.18 asks largest proper subgroup order for group with 35 elements; archive ID includes aptitude offset.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2020-Q28",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Both ask largest possible proper subgroup order from a group order, changing 84 to 35."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-2012-Q21",
       "b": "CS-2025-S1-Q41",
       "kind": "numbers",
       "status": "reviewed",
+      "rationale": "Same matrix [[1,1],[1,-1]]; ask both eigenvalues of its power, exponent changes from 19 to 13.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -759,7 +788,7 @@
             "file": "sources/archive/CS/CS2012.pdf",
             "page": 3,
             "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
-            "notes": "Full source page visually inspected. Printed Q11 matrix with a11=a12=a21=1,a22=-1 asks eigenvalues of A^19. Four paired signed eigenvalue options inspected.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Eigenvalues of a high matrix power",
             "source_reviewed": true
           },
           {
@@ -767,12 +796,15 @@
             "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
             "page": 41,
             "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
-            "notes": "Full source page visually inspected. Matrix [[1,1],[1,-1]], asks eigenvalues of A^13; all four signed paired-eigenvalue options inspected.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Finding eigenvalues of a matrix power",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Exact same 2x2 matrix and request for eigenvalues of its power; exponent changes from 19 to 13."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-1993-Q21",
@@ -862,7 +894,11 @@
             "notes": "Full source page visually inspected. Printed Q31 three programs each require three tape units; minimum total tape units guaranteeing no deadlock; numeric blank.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Same three-process single-resource deadlock guarantee problem asking minimum total units; per-process need changes from 2 to 3."
     },
@@ -871,9 +907,10 @@
       "b": "CS-2008-Q22",
       "kind": "numbers",
       "status": "reviewed",
+      "rationale": "Newton square-root iteration formula with changed constant/symbols; same x minus f over derivative update.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewer": "codex-full-corpus-discrete-other-review",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -881,7 +918,7 @@
             "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
             "page": 5,
             "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
-            "notes": "Full source page visually inspected. Newton-Raphson recurrence X[n+1]=X[n]/2+3/(2X[n]); asks equation solved. Options X^2=3, X^3=3, X^2=2, X^3=2.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Identifying a Newton iteration",
             "source_reviewed": true
           },
           {
@@ -889,12 +926,15 @@
             "file": "sources/archive/CS/CS2008.pdf",
             "page": 5,
             "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
-            "notes": "Full source page visually inspected. Q22 Newton-Raphson iteration x[n+1]=(x[n]+R/x[n])/2; asks quantity computed; options square of R, reciprocal of R, square root of R, logarithm of R.",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Newton iteration for a square root",
             "source_reviewed": true
           }
-        ]
-      },
-      "rationale": "Same Newton-Raphson square-root iteration and identification task, with parameter 3 replaced by R; solving x^2=3 and computing square root of R are equivalent requested targets under this substitution."
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
     },
     {
       "a": "CS-1992-Q20",
@@ -920,7 +960,11 @@
             "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
             "notes": "Full reproduction page3 inspected. Q31 starts semaphore10, then6 P(wait) and4 V(signal) operations were completed, asking resulting value. Same requested quantity with changed values."
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Same final counting-semaphore-value question after completed operations; initial value and P/V counts differ."
     },
@@ -950,7 +994,11 @@
             "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. Both explicitly ask average waiting time for four processes under preemptive SRTF, in milliseconds, with no added algorithm or overhead. Source tables change (0,12),(2,4),(3,6),(8,5) to (0,7),(3,3),(5,5),(6,2). Full tables and NAT output fields checked.",
             "source_reviewed": true
           }
-        ]
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
       },
       "rationale": "Both explicitly ask average waiting time for four processes under preemptive SRTF, in milliseconds, with no added algorithm or overhead. Source tables change (0,12),(2,4),(3,6),(8,5) to (0,7),(3,3),(5,5),(6,2). Full tables and NAT output fields checked."
     },
@@ -1017,6 +1065,757 @@
           "audit": "audits/grouping/full-corpus/04-07-independent-review.json"
         }
       }
+    },
+    {
+      "a": "CS-2021-S2-Q30",
+      "b": "CS-2024-S2-Q11",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both give CPU frequency, regularly stolen DMA-cycle percentage and fixed data per stolen cycle, asking device throughput in bits/second. Only the frequency, percentage and transfer quantity change: 8-bit character versus eight bytes is a changed numeric transfer width, not a different addressing or I/O model. Convert the latter to 64 bits per cycle.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-coa-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2021-S2-Q30",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 65,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "2MHz CPU,0.5% cycles stolen,8-bit character/cycle; device bit rate=CPU rate*stolen fraction*bits per cycle."
+          },
+          {
+            "question_id": "CS-2024-S2-Q11",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 9,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "4MHz CPU,1% stolen cycles,8BYTES/cycle; requested bits/s; multiply64 bits rather than8; same DMA rate method as2021."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2015-S1-Q54",
+      "b": "CS-2024-S2-Q53",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both request total time to read a file as independent sector accesses with a seek and average half-rotation per sector plus sector transmission. Disk RPM, seek time, sectors per track and file-sector count change; the same 512-byte sector size remains. 2015 explicitly states a seek per access, while 2024 specifies randomly located sectors and average rotational latency. Output milliseconds versus seconds is a unit conversion.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-coa-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2015-S1-Q54",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 20,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Disk seek4ms,10000rpm,600 sectors/track,512bytes/sector,file2000 sectors; each sector needs seek and half-rotation; sum seek+rotation+sector transfer then multiply."
+          },
+          {
+            "question_id": "CS-2024-S2-Q53",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 37,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "6000rpm,seek5ms,500 sectors/track,512bytes,3000 random sectors; expected file time=3000*(seek+half rotation+sector transfer)."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2009-Q11",
+      "b": "CS-2013-Q16",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask the worst-case asymptotic swap count of selection sort on n elements. 2009 gives Theta alternatives;2013 asks the tightest offered big-O bound. This is an answer-format change for the same linear worst-case exchange count, not a change to comparison count or algorithm.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2009-Q11",
+            "file": "sources/archive/CS/CS2009.pdf",
+            "page": 2,
+            "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+            "notes": "Selection-sort worst-case swaps, not comparisons; one swap per pass gives Θ(n)."
+          },
+          {
+            "question_id": "CS-2013-Q16",
+            "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+            "page": 2,
+            "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+            "notes": "Selection-sort tightest offered upper bound on swaps; at most one per pass, linear worst case rather than quadratic comparisons."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2006-Q11",
+      "b": "CS-2020-Q59",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both define a complete labeled graph weighted by a constant times |i−j| and ask its minimum spanning-tree weight. The2006 instance has nvertices and factor2;2020 fixes100vertices and factor1. Only these given numerical parameters change; consecutive-label edges form the optimum in both.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q11",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 2,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Complete graph w(vi,vj)=2|i−j|; total MST weight via consecutive-label chain and lower bound."
+          },
+          {
+            "question_id": "CS-2020-Q59",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 15,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "notes": "Complete graph100vertices,|i−j|weights; adjacent chain reaches n−1unit lower bound, requested total99."
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2016-S1-Q24",
+      "b": "CS-2025-S2-Q37",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Uniform edge increments and MST/SP comparison match, but2016 assumes distinct positive weights and2025 permits ties and speaks about every MST. Keep pattern membership, not a repeat that silently drops distinctness.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2016-S1-Q24",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 7,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Distinct positive edge weights uniformly increased; MST fixed because edge ordering/tree edge count, shortest paths may change because hop counts differ."
+          },
+          {
+            "question_id": "CS-2025-S2-Q37",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 28,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Uniform positive edge increment preserves all MSTs but may alter shortest paths; tree fixed edge count versus variable path length, no distinctness required."
+          }
+        ]
+      },
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Uniform edge increments and MST/SP comparison match, but2016 assumes distinct positive weights and2025 permits ties and speaks about every MST. Keep pattern membership, not a repeat that silently drops distinctness."
+    },
+    {
+      "a": "CS-2007-Q50",
+      "b": "CS-2014-S1-Q49",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Even-n sufficient-comparison-bound claim versus exact optimal worst-case comparison count at100. The numerical substitution alone does not preserve the requested proposition.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2007-Q50",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 12,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Even n; simultaneous min/max comparison sufficient bound via pairing and separate winners/losers tournaments."
+          },
+          {
+            "question_id": "CS-2014-S1-Q49",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 17,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Find min and max100numbers; pair first then tournaments, minimum worst-case comparisons3n/2−2."
+          }
+        ]
+      },
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Even-n sufficient-comparison-bound claim versus exact optimal worst-case comparison count at100. The numerical substitution alone does not preserve the requested proposition."
+    },
+    {
+      "a": "CS-1998-Q21",
+      "b": "CS-2016-S2-Q24",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Older question names the standard all-pairs shortest-path algorithm generically;2016 specifically names Floyd-Warshall. The design-paradigm reasoning matches, but no strict identity claim is needed.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1998-Q21",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+            "page": 2,
+            "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+            "notes": "All-pairs shortest distances design technique; recognize dynamic programming, no path simulation."
+          },
+          {
+            "question_id": "CS-2016-S2-Q24",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 29,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Floyd-Warshall named all-pairs algorithm; identify dynamic programming paradigm, not simulate recurrence."
+          }
+        ]
+      },
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Older question names the standard all-pairs shortest-path algorithm generically;2016 specifically names Floyd-Warshall. The design-paradigm reasoning matches, but no strict identity claim is needed."
+    },
+    {
+      "a": "CS-2018-Q40",
+      "b": "CS-2025-S2-Q29",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. 2018 tests two BFS/DFS edge claims including false exact depth difference1;2025 tests four claims with at-most1 and components. Same traversal theorems, different propositions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2018-Q40",
+            "file": "sources/archive/CS/CS2018.pdf",
+            "page": 12,
+            "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+            "notes": "Undirected DFS forbids cross edges, BFS edge depth difference≤1 not exactly1; same-level counterexample."
+          },
+          {
+            "question_id": "CS-2025-S2-Q29",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 23,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Undirected BFS/DFS multiselect; DFS non-tree ancestor relation, BFS layer diff≤1, repeated traversal components; DFSnotalways shortest tree."
+          }
+        ]
+      },
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. 2018 tests two BFS/DFS edge claims including false exact depth difference1;2025 tests four claims with at-most1 and components. Same traversal theorems, different propositions."
+    },
+    {
+      "a": "CS-2016-S1-Q50",
+      "b": "CS-2026-S1-Q49",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Same cycle-max/min assertions recur, but2026 adds vertex-incident min/max claims. It is an expanded theorem test, not only reordered options.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-algorithms-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2016-S1-Q50",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 16,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Distinct weights; heaviest-on-cycle excluded from every MST, lightest-on-cycle not necessarily included; cut versus cycle distinction."
+          },
+          {
+            "question_id": "CS-2026-S1-Q49",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 37,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "Distinct weighted simple graph; cycle maximum excluded, vertex minimum forced by singleton cut; cycle minimum/vertex maximum claims fail."
+          }
+        ]
+      },
+      "rejection_reason": "Independently checked both full source pages, requested output and material constraints; the recorded reason to avoid a strict repeat is supported. Same cycle-max/min assertions recur, but2026 adds vertex-incident min/max claims. It is an expanded theorem test, not only reordered options."
+    },
+    {
+      "a": "CS-1993-Q33",
+      "b": "CS-1998-Q25",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask which system-software component must be resident; loader is the requested classification, with differing distractors.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-subject-os-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q33",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 8,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full source page and relevant shared context inspected. Which listed system software must reside in main memory under all circumstances: editor,assembler,linker,loader,or none? Method: Identify always-resident loader support",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1998-Q25",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+            "page": 3,
+            "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+            "notes": "Full source page and relevant shared context inspected. In a resident-OS model, which software must remain available in main memory: assembler, linker, loader, compiler? Method: Identify always-resident loader support",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2002-Q22",
+      "b": "CS-2026-S2-Q23",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask which standard scheduling policy is nonpreemptive; FIFO/FCFS terminology and distractors differ.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-subject-os-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q22",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 3,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Full source page and relevant shared context inspected. Which scheduling method is nonpreemptive?\n(A) Round robin; (B) First-in first-out; (C) Multilevel queue scheduling; (D) Multilevel queue scheduling with feedback. Method: Identify nonpreemptive FIFO scheduling",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2026-S2-Q23",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 18,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "notes": "Full source page and relevant shared context inspected. Which CPU scheduling algorithm cannot be preemptive under its standard definition? A SRTF; B FCFS; C Round Robin; D Priority. Method: Recognize standard FCFS is nonpreemptive; SRTF/RR preempt and priority can be either.",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2010-Q33",
+      "b": "CS-2016-S2-Q58",
+      "kind": "same",
+      "status": "rejected",
+      "rationale": "Two randomly initialized shared Booleans and equality/inequality guards versus one turn variable initialized to0. The state-space encoding changes, not just names; achieved-property choices versus violated-requirement choices also differ. Equivalent strict-alternation reasoning supports a pattern group, not strict same-repeat identity.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-subject-os-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2010-Q33",
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 5,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "notes": "Full source page and relevant shared context inspected. Processes P1 and P2 use shared Boolean variables S1,S2 whose initial values are assigned randomly. Whenever they need their critical sections they execute:\nP1: while (S1==S2); critical section; S1=S2;\nP2: while (S1!=S2); critical section; S2=not(S1);\nWhich properties are achieved?\nOptions: (A) Mutual exclusion but not progress; (B) Progress but not mutual exclusion; (C) Neither mutual exclusion nor progress; (D) Both mutual exclusion and progress. Method: Prove boolean strict-alternation exclusion but lack of progress",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2016-S2-Q58",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 40,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Full source page and relevant shared context inspected. Two processes share turn=0. Process 0 entry waits while turn==1, then executes its critical section and sets turn=1 on exit. Process 1 waits while turn==0, executes its critical section and sets turn=0 on exit. A correct solution; B violates mutual exclusion; C violates progress; D violates bounded waiting. Method: Strict alternation with turn initially0 preserves mutual exclusion but violates progress if designated peer does not enter.",
+            "source_reviewed": true
+          }
+        ]
+      },
+      "rejection_reason": "Two randomly initialized shared Booleans and equality/inequality guards versus one turn variable initialized to0. The state-space encoding changes, not just names; achieved-property choices versus violated-requirement choices also differ. Equivalent strict-alternation reasoning supports a pattern group, not strict same-repeat identity."
+    },
+    {
+      "a": "CS-2014-S1-Q42",
+      "b": "CS-2016-S2-Q57",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both provide a known arrival/burst table, preemptive SRTF and request average turnaround in milliseconds. Different table values/process counts are numerical inputs; neither adds IO, overhead or another scheduling policy.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-subject-os-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S1-Q42",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 15,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full source page and relevant shared context inspected. Five processes have (arrival time, execution time), in ms: A=(0,6), B=(3,2), C=(5,4), D=(7,6), E=(10,3). Under preemptive shortest-remaining-time-first on one CPU, find the average turnaround time in ms. Method: Simulate SRTF and average completion-arrival turnaround",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2016-S2-Q57",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 39,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Full source page and relevant shared context inspected. Preemptive shortest-remaining-time-first schedules P1(arrival 0,burst 10), P2(3,6), P3(7,1), P4(8,3), all times ms. Find average turnaround time. Method: SRTF arrivals0,3,7,8 bursts10,6,1,3; mean turnaround completion-arrival.",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1998-Q7",
+      "b": "CS-2005-Q42",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask preservation of equivalence under union/intersection; same logical assertion with reordered presentation.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1998-Q7",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+            "page": 1,
+            "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Union and intersection of equivalences",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2005-Q42",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+            "page": 5,
+            "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Intersection of equivalence relations",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2010-Q38",
+      "b": "CS-2014-S1-Q62",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both select the nongraphical simple-graph degree sequence; changed candidate degree lists, same reduction/parity task.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2010-Q38",
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 6,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Testing graph degree sequences",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2014-S1-Q62",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 20,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S1-Q62",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2008-Q78",
+      "b": "CS-2016-S1-Q12",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Same binary-string count recurrence forbidding two adjacent copies of one bit; swapping 0/1 preserves the full recurrence task.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2008-Q78",
+            "file": "sources/archive/CS/CS2008.pdf",
+            "page": 17,
+            "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Counting strings with no consecutive zeros",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2016-S1-Q12",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 4,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2016-S1-Q12",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1993-Q42",
+      "b": "CS-1997-Q64",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Same count of injections between finite sets of symbolic sizes; domain and codomain variable names interchange.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q42",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 9,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Counting injections",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1997-Q64",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+            "page": 7,
+            "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Count injections into a larger set",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1995-Q57",
+      "b": "CS-2014-S2-Q59",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Same task counting positive divisors of one given integer; integer changes.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q57",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 6,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Count positive divisors",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2014-S2-Q59",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 42,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S2-Q59",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2014-S1-Q11",
+      "b": "CS-2014-S3-Q63",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Same quantified not-all-P-are-Q translation with predicate renaming.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S1-Q11",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 8,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S1-Q11",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2014-S3-Q63",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 66,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2014-S3-Q63",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1998-Q4",
+      "b": "CS-2007-Q1",
+      "kind": "same",
+      "status": "reviewed",
+      "rationale": "Both ask continuity and differentiability of absolute value at zero.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1998-Q4",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+            "page": 1,
+            "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Continuity of absolute value",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2007-Q1",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 2,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Continuity and differentiability of absolute value",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2010-Q39",
+      "b": "CS-2015-S1-Q59",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Unknown entries in a two by two matrix recovered from given eigenvalues using trace and determinant; numeric values change.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2010-Q39",
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 6,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Matrix entries from eigenvalues",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2015-S1-Q59",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 22,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2015-S1-Q59",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-2002-Q56",
+      "b": "CS-2011-Q50",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Read the complete eigenvalue list of a triangular matrix; dimensions/entries change.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q56",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 6,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Read eigenvalues from an upper-triangular matrix",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2002-Q56",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 7,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Read eigenvalues from an upper-triangular matrix",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2011-Q50",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 11,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Eigenvalues of triangular matrix",
+            "source_reviewed": true
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/12-13-independent-review.json"
+        }
+      }
+    },
+    {
+      "a": "CS-1995-Q58",
+      "b": "CS-2016-S1-Q13",
+      "kind": "numbers",
+      "status": "rejected",
+      "rationale": "1995 explicitly prohibits power-series expansion; 2016 imposes no such method restriction. Same sine-over-argument pattern is valid, but strict-folding omits that constraint.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-corpus-discrete-other-review",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q58",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 6,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. Evaluate the sine limit",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2016-S1-Q13",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 4,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2016-S1-Q13",
+            "source_reviewed": true
+          }
+        ]
+      },
+      "rejection_reason": "1995 explicitly prohibits power-series expansion; 2016 imposes no such method restriction. Same sine-over-argument pattern is valid, but strict-folding omits that constraint."
     }
   ]
 }
