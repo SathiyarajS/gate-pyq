@@ -27,3 +27,22 @@ class ReaderTextTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class SolutionFormattingTest(unittest.TestCase):
+    def setUp(self):
+        import build_site
+        self.render = lambda t: str(build_site.solution(t))
+
+    def test_bold_headings_and_exponents(self):
+        self.assertIn('<strong>Common error:</strong>', self.render('**Common error:** The empty set counts.'))
+        self.assertIn('<h4 class="sol-h">Method</h4>', self.render('Method:\n\nStart here.'))
+        self.assertIn('a<sup>n</sup> b<sup>n</sup>', self.render('L={a^n b^n: n≥0} and 2^(n−1).'))
+        self.assertIn('2<sup>n−1</sup>', self.render('L={a^n b^n: n≥0} and 2^(n−1).'))
+        self.assertIn('a<sub>n−1</sub>', self.render('a_(n−1)+a_n'))
+
+    def test_code_and_diagrams_keep_spacing(self):
+        self.assertIn('n^2', self.render('int f(int n){ return n^2; }'))
+        out = self.render('DELETE(x):\n  k:=pos[x];\n  pos[x]:=0.\nThe position array directly locates x, avoiding a search entirely.')
+        self.assertIn('<pre class="figure-text">DELETE(x):', out)
+        self.assertIn('<p>The position array', out)

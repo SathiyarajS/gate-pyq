@@ -45,8 +45,46 @@ def rich(value):
             result.extend('<p>'+inline_math(p).replace('\n','<br>')+'</p>' for p in chunk.split('\n\n') if p.strip())
     return Markup(''.join(result))
 
+_LABEL_LINE = re.compile(r'^(?:\*\*)?([A-Z][a-z][A-Za-z0-9 ,/&\'’-]{0,47}?)(?:\*\*)?\s*:?(?:\*\*)?\s*$')
+_PRE_LINE = re.compile(r'[├└│┌┐┘┬┴┼─]|^ {2,}\S|\S {3,}\S')
+
+
+_LEAD_IN = re.compile(r'^(The|A|An|Use|Now|For|On|After|Evaluate|Convert|Complete|Climb|Then|This|These|Here|With|If|When|Each|Its)\b')
+
+
+def _is_label(line):
+    """A short title ("Method:", "Approach", "Connection schematic:") that heads what follows; not a table header or lead-in sentence."""
+    m = _LABEL_LINE.match(line.strip())
+    return (bool(m) and len(m.group(1).split()) <= 5 and not re.search(r'[=<>≤≥→+]| {2,}', line.strip())
+            and not _LEAD_IN.match(line.strip()))
+
+
+def _is_prose(line):
+    """A sentence of explanation inside a block that otherwise needs fixed spacing."""
+    t = line.strip()
+    words = len(t.split())
+    return (not line.startswith(' ') and words >= 8 and t[-1:] in '.:' and not re.search(r':=|[{}├└│┌┐┘┬┴┼─]| {3,}', t)
+            and (';' not in t or words >= 12))
+
+
+def decorate(markup):
+    """Bold, superscripts and simple subscripts in escaped solution text; math spans are left alone."""
+    parts = re.split(r'(<span class="math-source".*?</span>)', markup, flags=re.S)
+    for i in range(0, len(parts), 2):
+        t = parts[i]
+        t = re.sub(r'\*\*(\S(?:.*?\S)?)\*\*', r'<strong>\1</strong>', t)
+        if not re.search(r'\)\s*\{|;\s*\}|==|!=|&amp;&amp;|\+\+|printf|scanf|return |#include|\bint |\bvoid |\bchar ', t):  # leave code alone
+            t = re.sub(r'(?<=[\w)\]′])\^(?:\(([^()]{1,40})\)|\{([^{}]{1,40})\}|([0-9]+|[A-Za-z][A-Za-z0-9]?(?![A-Za-z0-9])|[−-][0-9A-Za-z]))',
+                       lambda m: '<sup>' + (m.group(1) or m.group(2) or m.group(3)) + '</sup>', t)
+            t = re.sub(r'\b(min|max|log|lim)_(?:\(([^()]{1,30})\)|\{([^{}]{1,30})\}|([0-9]{1,3}|[a-z]))', lambda m: m.group(1) + '<sub>' + (m.group(2) or m.group(3) or m.group(4)) + '</sub>', t)
+            t = re.sub(r'(?<![A-Za-z0-9_])([A-Za-z])_(?:\(([^()]{1,30})\)|\{([^{}]{1,30})\}|([0-9]{1,3}|[a-z][0-9]?)(?![A-Za-z0-9_]))',
+                       lambda m: m.group(1) + '<sub>' + (m.group(2) or m.group(3) or m.group(4)) + '</sub>', t)
+        parts[i] = t
+    return ''.join(parts)
+
+
 def solution(value):
-    """Solution text: like rich(), plus numbered steps and '- ' notes laid out as steps and lists."""
+    """Solution text: like rich(), plus numbered steps, '- ' lists, headings, and diagrams/code kept monospaced."""
     chunks = re.split(r'(```[^\n]*\n.*?```)', reader(str(value or '')), flags=re.S)
     result = []
     for chunk in chunks:
@@ -55,20 +93,41 @@ def solution(value):
             continue
         for para in chunk.split('\n\n'):
             if not para.strip(): continue
-            lines, buf, items = para.strip('\n').split('\n'), [], []
+            lines = para.strip('\n').split('\n')
+            # A title-like first line becomes a heading, whether alone or followed by its content.
+            if _is_label(lines[0]) and (len(lines) > 1 or para is not chunk.split('\n\n')[-1]):
+                title = lines[0].strip().strip('*').rstrip(':').strip('*').strip()
+                if title not in ('Teaching detail', 'Routine'):
+                    result.append('<h4 class="sol-h">'+html.escape(title)+'</h4>')
+                lines = lines[1:]
+                if not lines: continue
+            # Diagrams, aligned tables and indented pseudocode keep their spacing; sentences around them stay text.
+            if any(_PRE_LINE.search(l) for l in lines) and len(lines) > 1:
+                run, kind = [], None
+                def emit():
+                    if not run: return
+                    if kind == 'pre': result.append('<pre class="figure-text">'+html.escape('\n'.join(run))+'</pre>')
+                    else: result.append('<p>'+decorate(inline_math('\n'.join(run))).replace('\n','<br>')+'</p>')
+                for l in lines:
+                    k = 'text' if _is_prose(l) else 'pre'
+                    if k != kind: emit(); run, kind = [], k
+                    run.append(l)
+                emit(); continue
+            buf, items = [], []
             def flush_text():
                 if not buf: return
-                body = inline_math('\n'.join(buf)).replace('\n','<br>'); buf.clear()
+                body = decorate(inline_math('\n'.join(buf))).replace('\n','<br>'); buf.clear()
                 step = re.match(r'(\d{1,2})[.)]\s+(.*)', body, flags=re.S)
                 result.append('<p class="step"><span class="n">'+step[1]+'.</span> '+step[2]+'</p>' if step else '<p>'+body+'</p>')
             def flush_items():
-                if items: result.append('<ul>'+''.join('<li>'+inline_math(i)+'</li>' for i in items)+'</ul>'); items.clear()
+                if items: result.append('<ul>'+''.join('<li>'+decorate(inline_math(i))+'</li>' for i in items)+'</ul>'); items.clear()
             for line in lines:
                 m = re.match(r'-\s+(\S.*)', line)
                 if m: flush_text(); items.append(m[1])
                 else: flush_items(); buf.append(line)
             flush_items(); flush_text()
     return Markup(''.join(result))
+
 
 def paper_label(paper_id):
     """CS-2014-S2 -> 'GATE 2014 · Set 2'."""

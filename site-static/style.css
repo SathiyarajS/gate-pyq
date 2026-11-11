@@ -43,3 +43,5 @@
 @media(max-width:760px){.year-jump{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;white-space:nowrap}}
 @media print{.question{content-visibility:visible}.year-jump,.list-controls,.list-pages{display:none!important}}
 .method-note{max-width:780px;margin:6px 0 0}.method-note summary{cursor:pointer;font-weight:650;color:var(--accent)}.method-note p{font-size:.92rem}
+/* Solutions: section headings, and diagrams or pseudocode that need their spacing. */
+.solution .sol-h{font-size:.95rem;margin:1.1em 0 .3em;color:var(--ink)}.solution pre.figure-text{white-space:pre;overflow-x:auto;font-size:.82rem;line-height:1.45;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}.solution sup,.solution sub{font-size:.75em;line-height:0}
