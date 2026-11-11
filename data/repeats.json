@@ -988,7 +988,7 @@
       "a": "CS-2014-S3-Q42",
       "b": "CS-2017-S1-Q34",
       "kind": "numbers",
-      "status": "reviewed",
+      "status": "rejected",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-text-candidate-source-review-2026-11-11",
@@ -1016,13 +1016,13 @@
           "audit": "audits/grouping/full-corpus/02-05-08-independent-review.json"
         }
       },
-      "rationale": "Both explicitly ask average waiting time for four processes under preemptive SRTF, in milliseconds, with no added algorithm or overhead. Source tables change (0,12),(2,4),(3,6),(8,5) to (0,7),(3,3),(5,5),(6,2). Full tables and NAT output fields checked."
+      "rationale": "Consistency pass 2026-11-11: Generic SRTF simulation on different process tables; same method, not the same question. Kept for the problem-patterns view if a reviewed pattern covers both."
     },
     {
       "a": "CS-2002-Q15",
       "b": "CS-2019-Q14",
       "kind": "numbers",
-      "status": "reviewed",
+      "status": "rejected",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-text-candidate-source-review-2026-11-11",
@@ -1046,7 +1046,7 @@
           }
         ]
       },
-      "rationale": "Both ask the two-complement representation of a negative decimal integer. 2002 offers variable-length options for -15; 2019 specifies 16 bits and -28. Same complement/add-one or modulo-2^w conversion, with changed value/width and options. Source options inspected."
+      "rationale": "Consistency pass 2026-11-11: Different requested outputs (which bit string can represent −15 versus the 16-bit form of −28). Kept for the problem-patterns view if a reviewed pattern covers both."
     },
     {
       "a": "CS-1996-Q36",
@@ -1458,8 +1458,8 @@
       "a": "CS-2014-S1-Q42",
       "b": "CS-2016-S2-Q57",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Both provide a known arrival/burst table, preemptive SRTF and request average turnaround in milliseconds. Different table values/process counts are numerical inputs; neither adds IO, overhead or another scheduling policy.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Generic SRTF simulation on different process tables; same method, not the same question. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-subject-os-review-2026-11-11",
@@ -1526,8 +1526,8 @@
       "a": "CS-2010-Q38",
       "b": "CS-2014-S1-Q62",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Both select the nongraphical simple-graph degree sequence; changed candidate degree lists, same reduction/parity task.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different sequences and option formats; same graphic-sequence test, not the same question. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-corpus-discrete-other-review",
@@ -1662,8 +1662,8 @@
       "a": "CS-2014-S1-Q11",
       "b": "CS-2014-S3-Q63",
       "kind": "same",
-      "status": "reviewed",
-      "rationale": "Same quantified not-all-P-are-Q translation with predicate renaming.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different sentences formalised with the same quantifier pattern; same method, not the same question. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-corpus-discrete-other-review",
@@ -1730,8 +1730,8 @@
       "a": "CS-2010-Q39",
       "b": "CS-2015-S1-Q59",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Unknown entries in a two by two matrix recovered from given eigenvalues using trace and determinant; numeric values change.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different matrices and unknowns; same eigenvalue method only. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-corpus-discrete-other-review",
@@ -1764,8 +1764,8 @@
       "a": "CS-2002-Q56",
       "b": "CS-2011-Q50",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Read the complete eigenvalue list of a triangular matrix; dimensions/entries change.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different triangular matrices; generic eigenvalue reading, not a reused question. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-corpus-discrete-other-review",
@@ -2120,8 +2120,8 @@
       "a": "CS-2007-Q68",
       "b": "CS-2017-S1-Q42",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Both provide an eight-bit message and degree-three generator and ask for the complete transmitted CRC codeword. Only message/generator bit values and answer alternatives change; both require appending three zeros then GF(2) division.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different generators and messages; generic CRC computation. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "network-aptitude-full-corpus-review-2026-11-11",
@@ -2155,8 +2155,8 @@
       "a": "CS-2021-S2-Q44",
       "b": "CS-2026-S2-Q43",
       "kind": "numbers",
-      "status": "reviewed",
-      "rationale": "Both provide a message and degree-three CRC generator and request the appended three-bit remainder. Message length/value and generator coefficients change; no different coding operation is introduced.",
+      "status": "rejected",
+      "rationale": "Consistency pass 2026-11-11: Different generators and messages; generic CRC computation. Kept for the problem-patterns view if a reviewed pattern covers both.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "network-aptitude-full-corpus-review-2026-11-11",

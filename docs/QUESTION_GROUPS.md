@@ -7,10 +7,10 @@ labelled **Known repeats folded**. It does not claim exhaustive deduplication.
 
 **Problem patterns** (`/<subject>/patterns/`) groups reasoning procedures rather
 than duplicate statements. It renders the explicit representative and expandable
-full question cards for every other variant. Ungrouped questions remain visible.
+full question cards for every other variant. Ungrouped questions remain visible. In the regular view, every question in a pattern links to its group (“Same method”), and repeats that belong to no pattern are folded as their own group in this view.
 Source-reviewed groups span scheduling, automata, dependencies, recurrences,
 probability, caches, pipelines and networks. This remains an incomplete catalogue.
-The review coverage and exclusions are recorded in `audits/grouping/`.
+A summary of the review is in `audits/grouping/README.md`.
 
 ## Sources and status
 
@@ -53,36 +53,14 @@ Test all three views, expanding/collapsing alternatives, individual answers,
 bookmarks, pagination and browser Back. Every question must remain reachable;
 filters and canonical links must still use the All questions view.
 
-## Agent-managed verification
+## Coverage
 
-The user is not asked to review these groups manually. Accepted changes require
-source-page review and automated data, retention and browser checks. Candidate
-search scans all 3,406 summaries, but does not prove complete semantic coverage.
-Source-reviewed counts refer to inspected questions, not proof that every pair
-among them was exhaustively compared. Historical reproduction defects and
-incomplete transcriptions prevent a guarantee of perfect grouping or recall.
+Candidate search scans all 3,406 summaries but does not prove complete semantic
+coverage. Questions in no group are not claimed to be unique. Historical
+reproduction defects and incomplete transcriptions prevent a guarantee of perfect
+grouping or recall. A summary of the 11 November review is in
+`audits/grouping/README.md`.
 
 Run `python scripts/checks/check_study_views_browser.py` after building the site
 for desktop/mobile expansion, answer isolation, bookmarks, filters and Back
 regressions. CI runs this automatically where Chromium is available.
-
-## Systematic full-corpus pass
-
-`audits/grouping/full-corpus/manifest.json` accounts for every canonical question,
-including pending, source-blocked, ambiguous and no-reviewed-match records.
-Regenerate it with `python scripts/group_review_progress.py --write`. Candidate
-review alone never counts as full-subject completion. Primary subject reports
-record a method fingerprint and source evidence per question. A subject reaches
-the completion gate only after independent source checking of proposed group
-members and required corrections; this does not imply a second transcription
-review of all ungrouped questions. Proposals awaiting that gate are not integrated
-into the pattern data. No-reviewed-match means no accepted counterpart was found,
-not proof of uniqueness. Source-blocked records cannot count as completed.
-
-
-The 11 November full-corpus pass assessed all 3,406 questions, with zero pending
-primary or independent group reviews. 3,405 have readable source evidence; one
-remains source-blocked after alternate-source investigation. The accepted
-partition has 376 patterns covering 1,231 questions, and 45 accepted repeat pairs.
-The full-corpus README documents the blocker and exact count definitions.
-Unmatched and ambiguous questions remain visible, without a uniqueness claim.

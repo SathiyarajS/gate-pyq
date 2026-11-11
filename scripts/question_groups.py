@@ -100,3 +100,22 @@ def repeat_groups(repeats):
                                  'sources':list(sources.values())}
             result.append(group)
     return result
+
+
+def with_uncovered_repeats(patterns, repeat_studies, questions):
+    """Patterns plus every known-repeat group none of whose members is in a pattern.
+
+    In the problem-patterns view a repeat must never appear twice, so a repeat
+    group without a pattern becomes its own unit.
+    """
+    in_pattern = {m for g in patterns for m in g['members']}
+    by_id = {q['question_id']: q for q in questions}
+    extra = []
+    for group in repeat_studies:
+        members = [m for m in group['members'] if m in by_id]
+        if not members or in_pattern.intersection(members):
+            continue
+        newest = members[0]
+        extra.append(dict(group, id='repeat-' + newest.lower(), representative=newest,
+                          title='Asked again: ' + by_id[newest].get('question_title', newest)))
+    return list(patterns) + extra

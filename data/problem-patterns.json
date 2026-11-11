@@ -12751,10 +12751,11 @@
       "status": "reviewed",
       "representative": "CS-2021-S1-Q29",
       "members": [
+        "CS-2012-Q47",
         "CS-2015-S2-Q58",
         "CS-2021-S1-Q29"
       ],
-      "rationale": "Both count functions assigning distinct objects to distinct labels with required nonempty images: start with all assignments and subtract cases missing required labels, using inclusion-exclusion. In 2015 all three codomain labels must occur among four arguments. In 2021 two of the six jobs have forced destinations, so after fixing those jobs only the middle computer still needs a preimage. Preserve that additional fixed-assignment step; do not merge permutation assignment problems or arbitrary inclusion-exclusion questions.",
+      "rationale": "Both count functions assigning distinct objects to distinct labels with required nonempty images: start with all assignments and subtract cases missing required labels, using inclusion-exclusion. In 2015 all three codomain labels must occur among four arguments. In 2021 two of the six jobs have forced destinations, so after fixing those jobs only the middle computer still needs a preimage. Preserve that additional fixed-assignment step; do not merge permutation assignment problems or arbitrary inclusion-exclusion questions. The 2012 question (onto functions from an n-element set to two labels) is the same count with changed sizes as the 2015 question, added so the recorded repeat folds with it.",
       "review": {
         "method": "source-page-comparison",
         "reviewer": "codex-full-corpus-discrete-other-review",
@@ -12774,6 +12775,14 @@
             "page": 20,
             "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
             "notes": "Full original source-page image inspected, including relevant shared stems, constraints, figures and options. CS-2021-S1-Q29",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2012-Q47",
+            "file": "sources/archive/CS/CS2012.pdf",
+            "page": 10,
+            "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+            "notes": "Full source page visually inspected. Printed Q37 asks number of surjections from an n-element (n>=2) set to a two-element set; options 2^n,2^n-1,2^n-2,2(2^n-2).",
             "source_reviewed": true
           }
         ],
