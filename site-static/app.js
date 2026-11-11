@@ -73,3 +73,11 @@ const search=document.querySelector('#search');if(search){
 let remaining=10800,end=null,tick=null;const timer=document.querySelector('#timer-value');function showTime(){if(timer)timer.textContent=[Math.floor(remaining/3600),Math.floor(remaining%3600/60),remaining%60].map(n=>String(n).padStart(2,'0')).join(':');}
 document.querySelector('#timer-start')?.addEventListener('click',()=>{if(tick)return;end=Date.now()+remaining*1000;tick=setInterval(()=>{remaining=Math.max(0,Math.ceil((end-Date.now())/1000));showTime();if(!remaining){clearInterval(tick);tick=null;timer.textContent='Time complete';}},250);});document.querySelector('#timer-pause')?.addEventListener('click',()=>{if(end)remaining=Math.max(0,Math.ceil((end-Date.now())/1000));clearInterval(tick);tick=null;end=null;showTime();});
 let printDetails=[];addEventListener('beforeprint',()=>{printDetails=[...document.querySelectorAll('details.answer')].map(d=>[d,d.open]);printDetails.forEach(([d])=>d.open=true);});addEventListener('afterprint',()=>printDetails.forEach(([d,open])=>d.open=open));
+// "Step through it": the player script loads on first use, and the site remembers whether this reader keeps players open.
+(()=>{const KEY='gate-steps-open';let loading=null;
+ const keepOpen=()=>{try{return localStorage.getItem(KEY)==='1';}catch{return false;}};
+ const load=()=>loading||(loading=new Promise((ok,fail)=>{const s=document.createElement('script');s.src=new URL('assets/steps.js',base).href;s.onload=ok;s.onerror=fail;document.head.append(s);}));
+ document.addEventListener('toggle',e=>{const d=e.target;if(!(d instanceof HTMLDetailsElement))return;
+  if(d.matches('details.steps')){if(d.open)load().then(()=>window.gateSteps(d.querySelector('.steps-player'))).catch(()=>{d.querySelector('.steps-player').textContent='The step-through could not load. Check your connection.';});
+   if(d.dataset.auto)delete d.dataset.auto;else{try{localStorage.setItem(KEY,d.open?'1':'0');}catch{}}}
+  else if(d.matches('details.answer')&&d.open&&keepOpen()){const s=d.querySelector('details.steps');if(s&&!s.open){s.dataset.auto='1';s.open=true;}}},true);})();

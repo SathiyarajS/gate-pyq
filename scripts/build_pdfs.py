@@ -13,7 +13,7 @@ h3.qhead{font-size:11pt;margin:0 0 4pt;color:#006a51}
 .cover{break-after:page;padding-top:60mm}.cover .sub{font-size:13pt;color:#444}.cover p{max-width:150mm}
 .toc{break-after:page}.toc ol{list-style:none;padding:0}.toc li{display:flex;gap:8pt;padding:3pt 0;border-bottom:1px dotted #bbb}.toc li span:first-child{flex:1}
 .question{border:none;border-top:1px solid #ccc;border-radius:0;padding:10pt 0 4pt;margin:0;background:none;break-inside:auto}
-.question-meta,.question-tools,.also-asked,.practice,.js-only,button,details.provenance,details.text-version,.view-original>summary{display:none!important}
+.question-meta,.question-tools,.also-asked,.practice,.js-only,details.steps,button,details.provenance,details.text-version,.view-original>summary{display:none!important}
 .qtitle{font-weight:650;margin:2pt 0}.eyebrow{font-size:7.5pt;letter-spacing:.08em;text-transform:uppercase;color:#666;margin:0 0 4pt}
 .original-source h3,.original-source .h,.original-source .source-note{display:none}.original-source figure{margin:4pt 0;break-inside:avoid}
 .original-source img{max-width:100%;max-height:235mm;width:auto;height:auto;border:1px solid #ddd}

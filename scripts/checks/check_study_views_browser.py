@@ -55,6 +55,12 @@ def main():
                 link.click();page.wait_for_load_state();assert '/similar/' in page.url
                 assert page.locator(f'#questions>article#{qid}').count()==1
                 page.go_back();page.wait_for_load_state();assert page.url.endswith('/08-operating-systems/') or '#' in page.url
+                # Step-through player: loads on demand and moves between steps.
+                page.goto(base+'/08-operating-systems/#CS-2024-S2-Q37');player=page.locator('#CS-2024-S2-Q37')
+                player.locator('details.answer>summary').click();player.locator('details.steps>summary').click()
+                page.wait_for_selector('#CS-2024-S2-Q37 .gantt');first=player.locator('.steps-count').inner_text()
+                player.locator('.steps-bar button',has_text='Next').click();assert player.locator('.steps-count').inner_text()!=first
+                player.locator('details.steps>summary').click()  # leave the remembered preference closed
                 # Old addresses redirect.
                 page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
                 assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1
@@ -63,7 +69,7 @@ def main():
             browser.close()
     finally:
         server.shutdown();server.server_close()
-    print('Study-view Chromium checks passed: desktop/mobile, newest-first list, 50 per page, year jump, one per method, answers, similar page and Back, redirects, no JS errors or horizontal overflow.')
+    print('Study-view Chromium checks passed: desktop/mobile, newest-first list, 50 per page, year jump, one per method, answers, similar page and Back, step-through player, redirects, no JS errors or horizontal overflow.')
 
 
 if __name__=='__main__':main()

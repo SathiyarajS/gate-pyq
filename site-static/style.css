@@ -45,3 +45,23 @@
 .method-note{max-width:780px;margin:6px 0 0}.method-note summary{cursor:pointer;font-weight:650;color:var(--accent)}.method-note p{font-size:.92rem}
 /* Solutions: section headings, and diagrams or pseudocode that need their spacing. */
 .solution .sol-h{font-size:.95rem;margin:1.1em 0 .3em;color:var(--ink)}.solution pre.figure-text{white-space:pre;overflow-x:auto;font-size:.82rem;line-height:1.45;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}.solution sup,.solution sub{font-size:.75em;line-height:0}
+/* Step-through players. Series colours come from the validated reference palette (slots 1-6, light and dark steps);
+   process names are always printed on bars and in the table, so colour is never the only cue. */
+.steps-player{--s0:#2a78d6;--s1:#eb6834;--s2:#1baf7a;--s3:#eda100;--s4:#e87ba4;--s5:#008300}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .steps-player{--s0:#3987e5;--s1:#d95926;--s2:#199e70;--s3:#c98500;--s4:#d55181;--s5:#008300}}
+:root[data-theme=dark] .steps-player{--s0:#3987e5;--s1:#d95926;--s2:#199e70;--s3:#c98500;--s4:#d55181;--s5:#008300}
+details.steps{margin:10px 0 16px;border:1px solid var(--line);border-radius:8px;padding:0 14px}details.steps>summary{cursor:pointer;padding:10px 0;font-weight:650;color:var(--accent)}details.steps>summary small{font-weight:400;color:var(--muted)}
+.steps-player{padding:0 0 14px;outline-offset:4px}.steps-policy,.steps-time{margin:4px 0;font-size:.85rem;color:var(--muted)}.steps-time{font-weight:650;color:var(--ink)}
+.steps-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 6px}.steps-tabs button{font-size:.8rem;padding:.3rem .6rem}.steps-tabs button[aria-pressed=true]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.gantt{width:100%;height:auto;display:block;margin:4px 0 10px;font-family:inherit}.gantt-track{fill:var(--panel);stroke:var(--line)}.gantt .seg text{font-size:13px;font-weight:700;fill:#0b0b0b}.gantt .tick{stroke:var(--muted)}.gantt .tick-label{font-size:11px;fill:var(--muted)}.gantt .now{stroke:var(--ink);stroke-width:2}
+.seg-next{fill:none;stroke-width:2;stroke-dasharray:5 3}.gantt .seg-next-label{font-size:13px;font-weight:700;fill:var(--muted)}
+.seg.p0 rect{fill:var(--s0)}.seg.p1 rect{fill:var(--s1)}.seg.p2 rect{fill:var(--s2)}.seg.p3 rect{fill:var(--s3)}.seg.p4 rect{fill:var(--s4)}.seg.p5 rect{fill:var(--s5)}
+.seg-next.p0{stroke:var(--s0)}.seg-next.p1{stroke:var(--s1)}.seg-next.p2{stroke:var(--s2)}.seg-next.p3{stroke:var(--s3)}.seg-next.p4{stroke:var(--s4)}.seg-next.p5{stroke:var(--s5)}
+.steps-table-wrap{overflow-x:auto;max-width:100%}.steps-table{border-collapse:collapse;width:auto;min-width:0;font-size:.85rem;font-variant-numeric:tabular-nums;margin:2px 0 6px}.steps-table th,.steps-table td{padding:4px 10px;border:0;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;width:auto;min-width:0}.steps-table th{font-weight:650;color:var(--muted);font-size:.78rem}
+.steps-table td[class^=p]{font-weight:700;white-space:nowrap}.steps-table td[class^=p]::before{content:"";display:inline-block;width:.7em;height:.7em;border-radius:2px;margin-right:.45em;vertical-align:-.05em;background:var(--s0)}
+.steps-table td.p1::before{background:var(--s1)}.steps-table td.p2::before{background:var(--s2)}.steps-table td.p3::before{background:var(--s3)}.steps-table td.p4::before{background:var(--s4)}.steps-table td.p5::before{background:var(--s5)}
+.steps-table tr.is-running td{background:color-mix(in oklab,var(--accent) 12%,transparent)}.steps-table td.is-metric{font-weight:700}
+.steps-ready{font-size:.85rem;margin:2px 0}.steps-note{min-height:2.6em;margin:8px 0;padding:8px 12px;border-left:3px solid var(--accent);background:var(--panel);font-size:.92rem}
+.steps-bar{display:flex;align-items:center;gap:12px}.steps-count{font-size:.85rem;color:var(--muted);min-width:7.5em;text-align:center}
+@media print{details.steps{display:none!important}}
+@media(max-width:520px){.steps-table th,.steps-table td{padding:4px 6px}.steps-table th{white-space:normal}.steps-table{font-size:.8rem}details.steps{padding:0 10px}}
