@@ -87,7 +87,7 @@ def main():
                     first=card.locator('.steps-count').inner_text()
                     card.locator('.steps-bar button',has_text='Next').click()
                     assert card.locator('.steps-count').inner_text()!=first,kind
-                    assert card.locator('.steps-view').inner_text().strip(),kind
+                    assert (card.locator('.steps-view').text_content() or '').strip(),kind
                 # Old addresses redirect.
                 page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
                 assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1
