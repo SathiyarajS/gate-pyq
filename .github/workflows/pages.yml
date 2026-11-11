@@ -44,11 +44,6 @@ jobs:
         run: |
           python -m pip install -r requirements-site.txt pytest
           npm ci --ignore-scripts
-      - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
-        continue-on-error: true
-        run: |
-          pip install gdown
-          python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
       # Simulated step-throughs, keyed inside on each spec and the simulator source.

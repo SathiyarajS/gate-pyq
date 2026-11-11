@@ -20,10 +20,9 @@ Then run:
 git clone https://github.com/SathiyarajS/gate-pyq.git
 cd gate-pyq
 python3.12 -m venv .venv && . .venv/bin/activate
-pip install -r requirements-site.txt gdown pytesseract
+pip install -r requirements-site.txt pytesseract
 python -m playwright install chromium
 npm ci --ignore-scripts
-python scripts/fetch_sources.py --archive-only     # restores the 2007–2018 papers (hash-checked)
 python scripts/validate.py && python -m pytest -q tests && node tests/test_transcription_math.js
 ```
 

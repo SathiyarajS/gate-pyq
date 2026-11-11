@@ -30,6 +30,8 @@ Fresh audit fetches succeeded for 2019, 2020, 2022, both 2024 and 2025 variants,
 3. Use the physical PDF page and printed question/section shown beside each solution. Combined files contain multiple variants; do not restart page numbering at a divider.
 4. A ZIP URL is not a deep link to a question. No invented page anchor is attached to ZIP links.
 
+The ten members below are committed in this repository at `sources/archive/CS/`, byte-identical to CS.zip (each checked against its sha256 in `audits/crop-source-map.json`). `python scripts/fetch_sources.py --archive-only` re-checks them, and re-downloads CS.zip only if one is missing or changed.
+
 - **CS-2007**: member **CS/CS2007.pdf**, physical question pages **2–21**.
 - **CS-2008**: member **CS/CS2008.pdf**, physical question pages **2–18**.
 - **CS-2009**: member **CS/CS2009.pdf**, physical question pages **2–14**.

@@ -29,11 +29,12 @@ Phases 1–4 are done and **live at https://sathiyarajs.github.io/gate-pyq/**. P
   - a footer showing the subject and page number
 - **Missing spaces.** `scripts/fix_glued_numbers.py` restored the space in about 610 places such as "costs7n" → "costs 7n", in both `data/questions.json` and the markdown. It skips identifiers (`log2`, `top1`, `wants1`, `print1`, `binary32`, …) and code, and it is idempotent: if `data/questions.json` conflicts in a merge, take the other side and re-run it.
 - **Deployment.** `.github/workflows/pages.yml` runs on PRs to `main` (build and checks) and on push to `main` (build and deploy). Each run:
-  1. restores the 2007–2018 papers from the official CS.zip (hash-checked, `scripts/fetch_sources.py --archive-only`)
-  2. validates the data
-  3. builds the site
-  4. builds the Pagefind index
-  5. builds the 26 PDFs
+  1. validates the data
+  2. builds the site
+  3. builds the Pagefind index
+  4. builds the 26 PDFs
+
+  The 2007–2018 papers are committed under `sources/archive/CS/` (byte-identical to the official CS.zip), so no run downloads them.
   6. runs the link check (`scripts/check_links.py`)
   7. deploys
 - **Handoff integration.**
@@ -76,7 +77,6 @@ Phases 1–4 are done and **live at https://sathiyarajs.github.io/gate-pyq/**. P
 
 ```sh
 pip install -r requirements-site.txt && python -m playwright install chromium && npm ci --ignore-scripts
-python scripts/fetch_sources.py --archive-only   # optional: 2007-2018 images
 python scripts/build_site.py --release
 npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
 python scripts/build_pdfs.py --release           # about 20 min for all 26 PDFs
