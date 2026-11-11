@@ -149,7 +149,8 @@ def cache_key(doc, footer, imgdir, image_hashes, chromium):
     """Everything that decides a PDF's bytes, except the 'Generated' date on the cover."""
     import hashlib
     h=hashlib.sha256()
-    for part in (Path(__file__).read_bytes(),chromium.encode(),footer.encode(),GENERATED.sub('Generated',doc).encode()):
+    # The print HTML loads the site stylesheet and script, so they decide the rendering too.
+    for part in (Path(__file__).read_bytes(),(ROOT/'site-static/style.css').read_bytes(),(ROOT/'site-static/app.js').read_bytes(),chromium.encode(),footer.encode(),GENERATED.sub('Generated',doc).encode()):
         h.update(hashlib.sha256(part).digest())
     for name in sorted(set(re.findall(r'src="'+re.escape(imgdir.as_uri())+r'/([^"]+)"',doc))):
         h.update(name.encode()+image_hashes(name).encode())

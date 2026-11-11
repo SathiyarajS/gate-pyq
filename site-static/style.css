@@ -19,3 +19,17 @@
 /* Detailed solution: numbered steps hang their number; notes are lists. */
 .solution p.step{padding-left:1.8em;text-indent:-1.8em;margin:.6em 0}.solution p.step .n{display:inline-block;width:1.4em;margin-right:.4em;text-indent:0;text-align:right;font-weight:600;color:var(--accent)}.solution ul{margin:.5em 0 .5em 1.2em;padding-left:1em}.solution li{margin:.25em 0}.solution pre{overflow-x:auto}
 .recorded-options{list-style:none;padding-left:0;margin:.5em 0}.recorded-options li{margin:.25em 0}
+/* Syllabus flag: informational, so it is quieter than the discrepancy warning badge. */
+.badge.off{background:none;color:var(--muted);border:1px dashed var(--muted);font-size:.75rem;font-weight:400;white-space:nowrap}.syllabus-note{max-width:780px;padding:12px 16px;border:1px dashed var(--muted);border-radius:8px;font-size:.9rem}
+.pointers{display:flex;flex-wrap:wrap;gap:10px 28px;margin:0 0 36px;font-weight:650}
+/* Weightage: ranked bars (name, bar, figure), one hue; the figure is always printed, so the bar never carries the value alone. */
+.bars{list-style:none;padding:0;margin:14px 0 34px;display:grid;gap:9px;max-width:920px}.bars li{display:grid;grid-template-columns:minmax(0,17rem) minmax(0,1fr) 3rem;gap:4px 14px;align-items:center;font-size:.9rem}.topic-bars li{grid-template-columns:minmax(0,19rem) minmax(0,1fr) 3rem 9.5rem}
+.bar-name{min-width:0}.bar-sub{display:block;color:var(--muted);font-size:.75rem}.bar-track{display:block;height:12px}.bar{display:block;height:100%;min-width:2px;background:var(--accent);border-radius:0 4px 4px 0}.bar.off{background:var(--muted);opacity:.45}.bar-value{font-variant-numeric:tabular-nums;font-weight:650;text-align:right}.bars small{color:var(--muted);font-size:.75rem}
+.wt-period{border:0;padding:0;margin:0 0 8px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:.9rem}.wt-period legend{float:left;margin-right:18px;padding:0;font-weight:650}
+.wt:has(input[value="3"]:checked) .wt-panel:not([data-period="3"]),.wt:has(input[value="5"]:checked) .wt-panel:not([data-period="5"]),.wt:has(input[value="10"]:checked) .wt-panel:not([data-period="10"]){display:none}
+/* Year grid: one hue, more marks = stronger. Mixed from the theme accent so light and dark each get their own ramp. */
+.wt-grid{font-variant-numeric:tabular-nums}.wt-grid th:first-child{position:sticky;left:0;background:var(--bg);font-weight:500;z-index:1}.wt-grid td{min-width:2.9rem}
+.wt-grid .lv1{background:color-mix(in oklab,var(--accent) 12%,var(--panel))}.wt-grid .lv2{background:color-mix(in oklab,var(--accent) 25%,var(--panel))}.wt-grid .lv3{background:color-mix(in oklab,var(--accent) 40%,var(--panel))}.wt-grid .lv4{background:color-mix(in oklab,var(--accent) 85%,var(--panel));color:var(--bg)}.wt-grid .lv5{background:var(--accent);color:var(--bg);font-weight:700}
+.packs{list-style:none;padding:0;margin:14px 0 30px;max-width:780px}.packs li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 0;border-top:1px solid var(--line)}.pack-name{flex:1 1 15rem;display:grid}.pack-name small,.pack-state{color:var(--muted);font-size:.8rem}.packs progress{width:8rem;accent-color:var(--accent)}.packs button{padding:.35rem .7rem;font-size:.85rem}#offline.busy button{opacity:.5;pointer-events:none}
+@media(max-width:760px){.bars li,.topic-bars li{grid-template-columns:minmax(0,1fr) 3rem}.bar-name{grid-column:1/-1}.bars small{grid-column:1/-1;margin-top:-2px}.bars{gap:14px}}
+@media print{.weight,.pointers{display:none!important}}

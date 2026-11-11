@@ -8,6 +8,7 @@ from markupsafe import Markup
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from transcription import load_paper, resolve
+import site_features
 TITLES = ['Digital Logic','Computer Organization & Architecture','Programming in C','Data Structures','Algorithms','Theory of Computation','Compiler Design','Operating Systems','Database Management Systems','Computer Networks','General Aptitude','Discrete Mathematics','Engineering Mathematics & Other Topics']
 
 def load(path, default=None):
@@ -82,6 +83,7 @@ def main():
     questions=load(ROOT/'data/questions.json'); papers=load(ROOT/'data/papers.json'); topics=load(ROOT/'data/topics.json',{}); ds=discrepancies()
     transcriptions={p['paper_id']:load_paper(ROOT,p['paper_id']) for p in papers}
     pmap={p['paper_id']:p for p in papers}; groups=collections.defaultdict(list); issues=[]
+    off_syllabus,syllabus=site_features.load_syllabus(ROOT,topics)
     seen=set()
     for q in questions:
         if q['question_id'] in seen: raise SystemExit('Duplicate question ID')
@@ -93,6 +95,7 @@ def main():
         q['source_link']=safe_url(q.get('source_page_url') or q.get('source_url'));q['key_link']=safe_url(q.get('key_url'))
         if q['key_link'] and q.get('key_page') and '#' not in q['key_link']:q['key_link']+='#page='+str(q['key_page'])
         q['topic']=topics.get(subject,{}).get('assign',{}).get(q['question_id'],'unreviewed')
+        q['off_syllabus']={'label':'Not in '+syllabus['syllabus']+' syllabus','note':off_syllabus[(subject,q['topic'])]} if (subject,q['topic']) in off_syllabus else None
         q['discrepancies']=[]
         for did in q['discrepancy_ids']:
             if did not in ds: raise SystemExit('Missing discrepancy row: '+did)
@@ -165,12 +168,15 @@ def main():
     def render(path,**ctx):
         target=out/path/'index.html';target.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*len(Path(path).parts) if path else './'
-        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,preview=not args.release,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
+        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,syllabus=syllabus,w=weights,preview=not args.release,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
+    topic_titles={(s,t['id']):t['title'] for s in groups for t in topics.get(s,{}).get('topics',[])}
+    weights=site_features.weightage(questions,titles,topic_titles,off_syllabus)
+    packs=[]  # what each subject or paper needs to work offline
     def sortkey(q):return (-q['year'],q['paper_id'],tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
     search=[];canonical={};subject_seen=[];paper_seen=[]
     for subject,qs in sorted(groups.items()):
         topic_list=topics.get(subject,{}).get('topics',[]) or [{'id':'unreviewed','title':'Draft grouping: topic review pending'}]
-        allowed={t['id'] for t in topic_list}
+        allowed={t['id'] for t in topic_list};off_topics={t for (s,t) in off_syllabus if s==subject};urls=[subject+'/index.json','search.json']
         if any(not re.fullmatch(r'[a-zA-Z0-9_-]+',tid) for tid in allowed):raise SystemExit('Unsafe topic identifier')
         invalid=[q['question_id'] for q in qs if q['topic'] not in allowed]
         if invalid and allowed!={'unreviewed'}:raise SystemExit('Invalid topic IDs: '+str(invalid[:5]))
@@ -181,33 +187,44 @@ def main():
             path=subject if i==0 else f'{subject}/page/{i+1}'
             pageqs=qs[i*10:(i+1)*10]
             nav=[(n+1,subject+'/' if n==0 else f'{subject}/page/{n+1}/') for n in range(math.ceil(len(qs)/10))]
-            render(path,title=titles[subject],kind='subject',questions=pageqs,subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(qs),heat=heat)
+            render(path,title=titles[subject],kind='subject',questions=pageqs,subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(qs),heat=heat,off_topics=off_topics,topic_weights=weights['subject_topics'][subject] if weights else None);urls.append(path+'/')
             for q in pageqs:canonical[q['question_id']]=path+'/#'+q['question_id'];subject_seen.append(q['question_id'])
         for t in topic_list:
             tqs=[q for q in qs if q['topic']==t['id']]
             for i in range(max(1,math.ceil(len(tqs)/10))):
                 base=f'{subject}/topic/{t["id"]}';path=base if i==0 else base+f'/page/{i+1}'
                 nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(tqs)/10)))]
-                render(path,title=titles[subject]+' · '+t['title'],kind='topic',questions=tqs[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(tqs))
+                render(path,title=titles[subject]+' · '+t['title'],kind='topic',questions=tqs[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(tqs),off_topics=off_topics,topic_off=off_syllabus.get((subject,t['id'])));urls.append(path+'/')
         # HTML fragments generated by the same safe autoescaped template as static pages.
         records=[]
         for q in qs:
             fragment=env.get_template('question.html').render(q=q,prefix='../',paper_view=False,preview=not args.release)
-            records.append(dict(id=q['question_id'],year=q['year'],marks=q.get('marks'),type=q['display_type'],discrepancy=bool(q['discrepancy_ids']),html=fragment))
+            records.append(dict(id=q['question_id'],year=q['year'],marks=q.get('marks'),type=q['display_type'],discrepancy=bool(q['discrepancy_ids']),off=bool(q['off_syllabus']),html=fragment))
+            urls.append(q['permalink']);urls.extend('assets/questions/'+c['file'] for c in q.get('original_crops',[]))
             search.append(dict(id=q['question_id'],title=q['question_title'],text=q['question_text']+('\n'+q['transcription']['search'] if q['transcription'] else ''),year=q['year'],subject=titles[subject],type=q['display_type'],url=q['permalink']))
         (out/subject/'index.json').write_text(json.dumps(records,ensure_ascii=False))
+        packs.append(dict(id=subject,title=titles[subject],group='subject',note=f'{len(qs)} questions',urls=urls))
     for paper in papers:
         qs=[q for q in questions if q['paper_id']==paper['paper_id']];qs.sort(key=lambda q:tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
         paper_seen.extend(q['question_id'] for q in qs)
         render('papers/'+paper['paper_id'],title=paper['paper_id'],kind='paper',questions=qs,paper_view=True,total=len(qs))
+        packs.append(dict(id=paper['paper_id'],title=paper['paper_id'],group='paper',note=f'{len(qs)} questions',urls=['papers/'+paper['paper_id']+'/']+['assets/questions/'+c['file'] for q in qs for c in q.get('original_crops',[])]))
     for qid,target in canonical.items():render('q/'+qid,title=qid,kind='redirect',target=target)
     render('',title='Practice with provenance.',kind='home',total=len(questions))
     render('papers',title='All papers',kind='papers',papers=sorted(papers,key=lambda p:p['paper_id'],reverse=True))
     render('about',title='Know what you are studying.',kind='about')
+    if weights:render('weightage',title='Where the marks are.',kind='weightage',total=len(questions))
     render('discrepancies',title='Discrepancies & interpretations',kind='discrepancies',discrepancy_groups=[(titles[s],[q for q in qs if q['discrepancy_ids']]) for s,qs in sorted(groups.items())])
     (out/'search.json').write_text(json.dumps(search,ensure_ascii=False))
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
+    # Offline: per-subject and per-paper packs, the always-cached core, the web app manifest and the service worker.
+    (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':'GATE Computer Science previous-year questions, 1991–2026, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
+    core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/icons/icon-192.png']
+    if has_math:core+=['assets/vendor/katex/katex.min.css','assets/vendor/katex/katex.min.js']+['assets/vendor/katex/fonts/'+f.name for f in sorted((katex_dir/'fonts').glob('*.woff2'))]
+    pack_index,core_files,offline_total=site_features.write_offline(out,packs,core)
+    render('offline',title='Study without a connection.',kind='offline',packs=pack_index,offline_total=offline_total)
+    site_features.finish_offline(out,core_files,(ROOT/'templates/site/sw.js').read_text())
     assert collections.Counter(subject_seen)==collections.Counter(seen)==collections.Counter(paper_seen)
     (out/'build-report.json').write_text(json.dumps({'mode':'release' if args.release else 'private-preview','redrawn_questions':redrawn,'redrawn_by_paper':redrawn_by_paper,'questions':len(questions),'papers':len(papers),'subject_counts':counts,'limitations':issues,'original_crop_questions':len(crop_assets),'original_crop_parts':sum(map(len,crop_assets.values())),'topic_review_counts':dict(topic_review_counts),'topic_nonreviewed_ids':nonreviewed_topics},indent=2))
     print(f'Built {"RELEASE" if args.release else "PRIVATE PREVIEW"}: {len(questions)} questions, {len(papers)} papers, {len(groups)} subjects in {out}')
