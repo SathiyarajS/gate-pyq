@@ -216,7 +216,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q14": {
-    "stem": "The probability density function $f(x)$ of a random variable $X$ which takes real values is\n\n$$f(x)=\\frac{1}{3\\sqrt{2\\pi}}\\exp\\left(-\\frac{x^2}{18}\\right),\\quad x\\in(-\\infty,+\\infty)$$\n\nWhich one of the following statements is correct about the random variable $X$ ?",
+    "stem": "The probability density function $f(x)$ of a random variable $X$ which takes real values is\n\n$$\\begin{gathered}f(x)=\\frac{1}{3\\sqrt{2\\pi}}\\exp\\left(-\\frac{x^2}{18}\\right),\\\\x\\in(-\\infty,+\\infty)\\end{gathered}$$\n\nWhich one of the following statements is correct about the random variable $X$ ?",
     "options": {
       "A": "$X$ is an exponential random variable",
       "B": "$X$ is a normal random variable",
@@ -570,7 +570,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q38": {
-    "stem": "Consider an array $A$ of integers of size $n$. The indices of $A$ run from $1$ to $n$. An algorithm is to be designed to check whether $A$ satisfies the condition given below.\n\n$$\\forall i,j\\in\\{1,\\ldots,n-1\\}\\text{ such that }i>j,\\;(A[i+1]-A[i])>(A[j+1]-A[j])$$\n\nWhich one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+    "stem": "Consider an array $A$ of integers of size $n$. The indices of $A$ run from $1$ to $n$. An algorithm is to be designed to check whether $A$ satisfies the condition given below.\n\n$$\\begin{gathered}\\forall i,j\\in\\{1,\\ldots,n-1\\}\\text{ such that }i>j,\\\\(A[i+1]-A[i])>(A[j+1]-A[j])\\end{gathered}$$\n\nWhich one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
     "options": {
       "A": "$\\Theta(n)$",
       "B": "$\\Theta(\\log(n))$",
@@ -586,7 +586,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q39": {
-    "stem": "Consider a table $T$, where the elements $T[i][j]$, $0\\leq i,j\\leq n$, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm. The recursive formulation to compute the table entries is as follows:\n\n$$\\begin{aligned}T[0][k]=T[k][0]&=1&&\\text{for }k=0,1,2,\\ldots,n\\\\T[i][j]&=2T[i-1][j]+3T[i][j-1]&&\\text{for }1\\leq i,j\\leq n\\end{aligned}$$\n\nConsider the following two algorithms to compute entries of $T$. Assume that for both the algorithms, for all $0\\leq i,j\\leq n$, $T[i][j]$ has been initialized to $1$.\n\n```text\nAlgorithm B₁:  For i = 1, 2, …, n\n                   For j = 1, 2, …, n\n                       T[i][j] = 2T[i − 1][j] + 3T[i][j − 1]\n\nAlgorithm B₂:  For s = 2, 3, …, 2n\n                   For i = 1, 2, …, n\n                       For j = 1, 2, …, n\n                           If (i + j == s)\n                               T[i][j] = 2T[i − 1][j] + 3T[i][j − 1]\n```\n\nAlgorithm $B_k$, $k\\in\\{1,2\\}$ is said to be correct if and only if it calculates the correct values of $T[i][j]$, for all $0\\leq i,j\\leq n$, (as per the recursive formulation) at the end of the execution of the algorithm $B_k$.\n\nWhich one of the following statements is true?",
+    "stem": "Consider a table $T$, where the elements $T[i][j]$, $0\\leq i,j\\leq n$, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm. The recursive formulation to compute the table entries is as follows:\n\n$$\\begin{gathered}T[0][k]=T[k][0]=1\\\\\\text{for } k=0,1,2,\\ldots,n\\\\[4pt]T[i][j]=2T[i-1][j]+3T[i][j-1]\\\\\\text{for }1\\leq i,j\\leq n\\end{gathered}$$\n\nConsider the following two algorithms to compute entries of $T$. Assume that for both the algorithms, for all $0\\leq i,j\\leq n$, $T[i][j]$ has been initialized to $1$.\n\n```text\nAlgorithm B₁:\nFor i = 1, 2, …, n\n  For j = 1, 2, …, n\n    T[i][j] = 2T[i−1][j] + 3T[i][j−1]\n\nAlgorithm B₂:\nFor s = 2, 3, …, 2n\n  For i = 1, 2, …, n\n    For j = 1, 2, …, n\n      If (i + j == s)\n        T[i][j] = 2T[i−1][j] + 3T[i][j−1]\n```\n\nAlgorithm $B_k$, $k\\in\\{1,2\\}$ is said to be correct if and only if it calculates the correct values of $T[i][j]$, for all $0\\leq i,j\\leq n$, (as per the recursive formulation) at the end of the execution of the algorithm $B_k$.\n\nWhich one of the following statements is true?",
     "options": {
       "A": "Both algorithms $B_1$ and $B_2$ are correct",
       "B": "Algorithm $B_1$ is correct, but algorithm $B_2$ is incorrect",
@@ -904,7 +904,7 @@
     "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
   },
   "CS-2026-S2-Q61": {
-    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n        int length=end+1-start;\n        if((length<1)||(start<0)||(end<0)){ return(0); }\n        if(length%3==0){\n                return(func(start+1, end));\n        } else if(length%3==1){\n                return(1+func(start, end-1));\n        } else {\n                return(func(start+2, end));\n        }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
+    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n    int length=end+1-start;\n    if((length<1)||(start<0)||(end<0)){\n        return(0);\n    }\n    if(length%3==0){\n        return(func(start+1, end));\n    } else if(length%3==1){\n        return(1+func(start, end-1));\n    } else {\n        return(func(start+2, end));\n    }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
     "options": {},
     "figures": [],
     "status": "draft",
