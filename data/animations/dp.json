@@ -1,0 +1,48 @@
+{
+ "description": "Step-through animations (dynamic-programming tables: matrix-chain multiplication, longest common subsequence, 0/1 knapsack, longest nondecreasing subsequence). Each entry is simulated at build time by scripts/animations/dp.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-2011-Q48": {
+   "kind": "dp-table",
+   "problem": "matrix-chain",
+   "dims": [10, 100, 20, 5, 80],
+   "names": ["M1", "M2", "M3", "M4"],
+   "expect": {"cost": 19000}
+  },
+  "CS-2014-S2-Q47": {
+   "kind": "dp-table",
+   "problem": "lcs",
+   "a": "qpqrr",
+   "b": "pqprqrp",
+   "weights": {"length": 1, "distinct": 10},
+   "expect": {"length": 4, "distinct": 3, "answer": 34}
+  },
+  "CS-2016-S2-Q48": {
+   "kind": "dp-table",
+   "problem": "matrix-chain",
+   "dims": [10, 5, 20, 10, 5],
+   "names": ["A1", "A2", "A3", "A4"],
+   "expect": {"cost": 1500}
+  },
+  "CS-2018-Q41": {
+   "kind": "dp-table",
+   "problem": "matrix-chain",
+   "dims": [2, 25, 3, 16, 1, 1000],
+   "names": ["F1", "F2", "F3", "F4", "F5"],
+   "expect": {"pairs": ["F3F4"], "cost": 2173}
+  },
+  "CS-2018-Q58": {
+   "kind": "dp-table",
+   "problem": "knapsack",
+   "items": [[10, 60], [7, 28], [4, 20], [2, 24]],
+   "capacity": 11,
+   "greedy": true,
+   "expect": {"optimal": 60, "greedy": 44, "difference": 16}
+  },
+  "CS-2024-S2-Q35": {
+   "kind": "dp-table",
+   "problem": "nondecreasing",
+   "array": [2, 5, 3, 1, 4, 2, 6],
+   "expect": {"length": 4, "distance": 3}
+  }
+ }
+}
