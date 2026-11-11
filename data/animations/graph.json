@@ -1,0 +1,214 @@
+{
+ "description": "Step-through animations (graph algorithms on an explicitly given graph: BFS and DFS orders, Dijkstra, edge-bounded Bellman-Ford, best paths in a DAG, Kruskal and topological orders). Each entry states only the question's graph and inputs; scripts/animations/graph.py simulates it at build time and the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists. 'pos' only places the vertices in the drawing.",
+ "questions": {
+  "CS-2001-Q81": {
+   "kind": "graph-mst",
+   "query": "edges",
+   "nodes": ["n1", "n2", "n3", "n4", "n5", "n6"],
+   "edges": [["n1", "n2", 2], ["n1", "n3", 8], ["n1", "n6", 3], ["n2", "n4", 4], ["n2", "n5", 12], ["n3", "n4", 7], ["n4", "n5", 9], ["n4", "n6", 4]],
+   "expect": {"weight": 25, "edges": [["n1", "n2"], ["n1", "n6"], ["n2", "n4"], ["n3", "n4"], ["n4", "n5"]]}
+  },
+  "CS-2001-Q82": {
+   "kind": "graph-mst",
+   "query": "count",
+   "nodes": ["n1", "n2", "n3", "n4", "n5", "n6"],
+   "edges": [["n1", "n2", 2], ["n1", "n3", 8], ["n1", "n6", 3], ["n2", "n4", 4], ["n2", "n5", 12], ["n3", "n4", 7], ["n4", "n5", 9], ["n4", "n6", 4]],
+   "expect": {"count": 2, "weight": 25}
+  },
+  "CS-2003-Q21": {
+   "kind": "graph-search",
+   "algo": "dfs",
+   "nodes": ["a", "b", "e", "f", "g", "h"],
+   "edges": [["a", "e"], ["a", "b"], ["a", "f"], ["e", "b"], ["e", "g"], ["b", "f"], ["b", "h"], ["f", "h"], ["f", "g"], ["g", "h"]],
+   "orders": [
+    {"label": "I", "seq": ["a", "b", "e", "g", "h", "f"], "expect": true},
+    {"label": "II", "seq": ["a", "b", "f", "e", "h", "g"], "expect": false},
+    {"label": "III", "seq": ["a", "b", "f", "h", "g", "e"], "expect": true},
+    {"label": "IV", "seq": ["a", "f", "g", "h", "b", "e"], "expect": true}
+   ]
+  },
+  "CS-2003-Q68": {
+   "kind": "graph-mst",
+   "query": "weight",
+   "nodes": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+   "edges": [["a", "c", 1], ["a", "d", 2], ["c", "d", 2], ["b", "g", 2], ["e", "i", 2], ["b", "d", 3], ["f", "h", 4], ["h", "i", 4], ["i", "j", 5], ["a", "b", 6], ["a", "e", 8], ["e", "h", 8], ["g", "h", 8], ["f", "i", 9], ["e", "f", 11], ["g", "i", 14], ["d", "h", 15], ["g", "j", 19]],
+   "pos": {"a": [1, 2.7], "b": [0, 1.8], "c": [2, 1.8], "d": [1, 1.8], "e": [4, 1.8], "f": [3, 0], "g": [1, 0.9], "h": [2, 0.9], "i": [2, 0], "j": [1, 0]},
+   "expect": {"weight": 31}
+  },
+  "CS-2004-Q44": {
+   "kind": "graph-paths",
+   "algo": "dijkstra",
+   "directed": true,
+   "nodes": ["P", "Q", "R", "S", "T", "U"],
+   "edges": [["P", "Q", 1], ["P", "S", 6], ["P", "T", 7], ["Q", "R", 1], ["Q", "S", 4], ["R", "S", 2], ["R", "U", 1], ["S", "T", 3], ["S", "U", 2], ["T", "U", 2]],
+   "pos": {"P": [0, 1], "Q": [1, 0], "R": [2.4, 0], "S": [1.4, 1.5], "T": [1, 2.6], "U": [2.8, 1.8]},
+   "source": "P",
+   "expect": {"order": ["P", "Q", "R", "U", "S", "T"], "dist": {"P": 0, "Q": 1, "R": 2, "U": 3, "S": 4, "T": 7}}
+  },
+  "CS-2007-Q5": {
+   "kind": "graph-topo",
+   "algo": "check",
+   "directed": true,
+   "nodes": ["1", "2", "3", "4", "5", "6"],
+   "edges": [["1", "2"], ["1", "3"], ["2", "4"], ["3", "4"], ["2", "5"], ["4", "5"], ["3", "6"], ["4", "6"]],
+   "pos": {"1": [0, 1], "2": [1, 0], "3": [1, 2], "4": [2, 1], "5": [3, 0], "6": [3, 2]},
+   "orders": [
+    {"label": "A", "seq": ["1", "2", "3", "4", "5", "6"], "expect": true},
+    {"label": "B", "seq": ["1", "3", "2", "4", "5", "6"], "expect": true},
+    {"label": "C", "seq": ["1", "3", "2", "4", "6", "5"], "expect": true},
+    {"label": "D", "seq": ["3", "2", "4", "1", "6", "5"], "expect": false}
+   ]
+  },
+  "CS-2008-Q19": {
+   "kind": "graph-search",
+   "algo": "bfs",
+   "nodes": ["M", "N", "O", "P", "Q", "R"],
+   "edges": [["M", "N"], ["N", "O"], ["O", "P"], ["P", "Q"], ["Q", "M"], ["Q", "N"], ["M", "R"]],
+   "orders": [
+    {"label": "A", "seq": ["M", "N", "O", "P", "Q", "R"], "expect": false},
+    {"label": "B", "seq": ["N", "Q", "M", "P", "O", "R"], "expect": false},
+    {"label": "C", "seq": ["Q", "M", "N", "P", "R", "O"], "expect": true},
+    {"label": "D", "seq": ["Q", "M", "N", "P", "O", "R"], "expect": false}
+   ]
+  },
+  "CS-2008-Q45": {
+   "kind": "graph-paths",
+   "algo": "dijkstra",
+   "directed": true,
+   "ties": "any",
+   "nodes": ["a", "b", "c", "d", "e", "f", "g", "h"],
+   "edges": [["a", "b", 1], ["b", "c", 2], ["c", "d", 3], ["d", "a", 2], ["b", "e", -3], ["c", "h", -5], ["d", "g", 2], ["h", "e", 1], ["g", "h", 2], ["g", "e", 1], ["e", "f", 2], ["f", "g", 3]],
+   "pos": {"a": [0, 0], "b": [3, 0], "c": [3, 3], "d": [0, 3], "e": [1, 1], "f": [2, 1], "g": [2, 2], "h": [1, 2]},
+   "source": "a",
+   "expect": {"correct": ["a", "b", "c", "d", "e", "f", "g", "h"], "dist": {"a": 0, "b": 1, "c": 3, "d": 6, "e": -2, "f": 0, "g": 3, "h": -2}}
+  },
+  "CS-2009-Q38": {
+   "kind": "graph-mst",
+   "query": "check",
+   "nodes": ["a", "b", "c", "d", "e", "f", "g"],
+   "edges": [["a", "b", 5], ["a", "c", 3], ["b", "c", 4], ["b", "e", 2], ["b", "d", 6], ["c", "d", 5], ["d", "e", 6], ["d", "f", 6], ["c", "f", 6], ["e", "f", 3], ["e", "g", 5], ["f", "g", 4]],
+   "pos": {"a": [2, 0], "b": [2, 0.9], "c": [1, 0], "d": [1, 0.9], "e": [1, 1.8], "f": [0, 0.9], "g": [0, 1.8]},
+   "orders": [
+    {"label": "A", "seq": [["b", "e"], ["e", "f"], ["a", "c"], ["b", "c"], ["f", "g"], ["c", "d"]], "expect": true},
+    {"label": "B", "seq": [["b", "e"], ["e", "f"], ["a", "c"], ["f", "g"], ["b", "c"], ["c", "d"]], "expect": true},
+    {"label": "C", "seq": [["b", "e"], ["a", "c"], ["e", "f"], ["b", "c"], ["f", "g"], ["c", "d"]], "expect": true},
+    {"label": "D", "seq": [["b", "e"], ["e", "f"], ["b", "c"], ["a", "c"], ["f", "g"], ["c", "d"]], "expect": false}
+   ]
+  },
+  "CS-2010-Q60": {
+   "kind": "graph-mst",
+   "query": "leaf",
+   "nodes": [0, 1, 2, 3, 4],
+   "matrix": [[0, 1, 8, 1, 4], [1, 0, 12, 4, 9], [8, 12, 0, 7, 3], [1, 4, 7, 0, 2], [4, 9, 3, 2, 0]],
+   "leaf": 0,
+   "expect": {"weight": 10}
+  },
+  "CS-2010-Q61": {
+   "kind": "graph-paths",
+   "algo": "bounded",
+   "nodes": [0, 1, 2, 3, 4],
+   "matrix": [[0, 1, 8, 1, 4], [1, 0, 12, 4, 9], [8, 12, 0, 7, 3], [1, 4, 7, 0, 2], [4, 9, 3, 2, 0]],
+   "source": 1,
+   "target": 2,
+   "rounds": 3,
+   "expect": {"dist": 8, "path": [1, 0, 4, 2]}
+  },
+  "CS-2011-Q65": {
+   "kind": "graph-mst",
+   "query": "path",
+   "nodes": ["v1", "v2", "v3", "v4", "v5", "v6", "v7", "v8", "v9", "v10"],
+   "edges": [["v1", "v2", 3], ["v1", "v3", 4], ["v2", "v3", 5], ["v2", "v4", 6], ["v3", "v4", 7], ["v3", "v5", 8], ["v4", "v5", 9], ["v4", "v6", 10], ["v5", "v6", 11], ["v5", "v7", 12], ["v6", "v7", 13], ["v6", "v8", 14], ["v7", "v8", 15], ["v7", "v9", 16], ["v8", "v9", 17], ["v8", "v10", 18], ["v9", "v10", 19]],
+   "pos": {"v1": [0, 0], "v2": [0.5, 1.5], "v3": [1, 0], "v4": [1.5, 1.5], "v5": [2, 0], "v6": [2.5, 1.5], "v7": [3, 0], "v8": [3.5, 1.5], "v9": [4, 0], "v10": [4.5, 1.5]},
+   "from": "v5",
+   "to": "v6",
+   "expect": {"path_weight": 31, "path": ["v5", "v3", "v1", "v2", "v4", "v6"]}
+  },
+  "CS-2012-Q50": {
+   "kind": "graph-paths",
+   "algo": "dijkstra",
+   "directed": true,
+   "update": "strict",
+   "nodes": ["S", "A", "B", "C", "D", "E", "F", "G", "T"],
+   "edges": [["S", "A", 4], ["S", "B", 3], ["B", "S", 3], ["S", "D", 7], ["A", "C", 1], ["B", "D", 4], ["C", "D", 3], ["C", "E", 1], ["D", "E", 1], ["D", "F", 5], ["D", "T", 3], ["E", "G", 2], ["G", "E", 2], ["E", "T", 4], ["G", "T", 3], ["T", "F", 5]],
+   "pos": {"S": [0, 1], "A": [1, 0], "B": [1, 2], "C": [2, 0], "D": [2, 1.4], "E": [3, 0.5], "G": [4.2, 0], "T": [4.2, 1.5], "F": [3, 2.4]},
+   "source": "S",
+   "expect": {"path": {"T": ["S", "A", "C", "E", "T"]}, "dist": {"T": 10}}
+  },
+  "CS-2014-S1-Q23": {
+   "kind": "graph-topo",
+   "algo": "kahn",
+   "directed": true,
+   "nodes": ["P", "Q", "R", "S"],
+   "edges": [["P", "Q"], ["P", "R"], ["R", "Q"], ["S", "R"], ["S", "Q"]],
+   "pos": {"P": [0, 0], "S": [0, 2], "R": [1, 1], "Q": [2.2, 1]},
+   "expect": {"orders": [["P", "S", "R", "Q"], ["S", "P", "R", "Q"]]}
+  },
+  "CS-2014-S2-Q62": {
+   "kind": "graph-mst",
+   "query": "count",
+   "nodes": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+   "edges": [["A", "B", 2], ["A", "C", 2], ["A", "D", 1], ["B", "D", 2], ["B", "E", 1], ["C", "D", 2], ["C", "F", 1], ["D", "E", 2], ["D", "F", 1], ["F", "G", 2], ["G", "H", 2], ["H", "I", 1], ["G", "I", 2]],
+   "pos": {"A": [0, 0], "B": [2, 0], "C": [0, 1], "D": [1, 1], "E": [2, 1], "F": [0, 2], "G": [3, 2], "H": [3.75, 0.8], "I": [4.5, 2]},
+   "expect": {"count": 6, "weight": 11}
+  },
+  "CS-2016-S1-Q21": {
+   "kind": "graph-topo",
+   "algo": "kahn",
+   "directed": true,
+   "nodes": ["a", "b", "c", "d", "e", "f"],
+   "edges": [["a", "b"], ["b", "c"], ["c", "f"], ["a", "d"], ["d", "e"], ["e", "f"]],
+   "pos": {"a": [0, 1], "b": [1, 0], "c": [2, 0], "d": [1, 2], "e": [2, 2], "f": [3, 1]},
+   "expect": {"count": 6}
+  },
+  "CS-2017-S2-Q25": {
+   "kind": "graph-search",
+   "algo": "bfs",
+   "nodes": ["M", "N", "O", "P", "Q", "R"],
+   "edges": [["M", "N"], ["N", "O"], ["M", "R"], ["M", "Q"], ["N", "Q"], ["O", "Q"], ["O", "P"], ["P", "Q"]],
+   "orders": [
+    {"label": "A", "seq": ["M", "N", "O", "P", "Q", "R"], "expect": false},
+    {"label": "B", "seq": ["N", "Q", "M", "P", "O", "R"], "expect": false},
+    {"label": "C", "seq": ["Q", "M", "N", "R", "O", "P"], "expect": false},
+    {"label": "D", "seq": ["P", "O", "Q", "N", "M", "R"], "expect": true}
+   ]
+  },
+  "CS-2021-S1-Q27": {
+   "kind": "graph-mst",
+   "query": "count",
+   "nodes": ["a", "b", "c", "d", "e", "f", "g", "h", "i"],
+   "edges": [["a", "b", 0.1], ["b", "c", 0.1], ["d", "e", 0.1], ["e", "f", 0.9], ["g", "h", 0.9], ["h", "i", 0.1], ["a", "d", 0.9], ["b", "e", 0.9], ["c", "f", 0.9], ["d", "g", 0.1], ["e", "h", 0.1], ["f", "i", 0.1]],
+   "pos": {"a": [0, 0], "b": [1, 0], "c": [2, 0], "d": [0, 1], "e": [1, 1], "f": [2, 1], "g": [0, 2], "h": [1, 2], "i": [2, 2]},
+   "expect": {"count": 3, "weight": 1.6}
+  },
+  "CS-2021-S2-Q65": {
+   "kind": "graph-paths",
+   "algo": "dag",
+   "directed": true,
+   "nodes": ["s", "a", "b", "c", "d", "e", "f", "g", "t"],
+   "edges": [["s", "a", 9], ["s", "c", 1], ["a", "b", 1], ["a", "d", 1], ["c", "d", 1], ["c", "f", 9], ["d", "e", 9], ["d", "g", 9], ["b", "e", 1], ["f", "g", 1], ["g", "t", 1], ["e", "t", 9]],
+   "pos": "layers",
+   "source": "s",
+   "start_score": 1,
+   "combine": "product",
+   "best": "max",
+   "expect": {"scores": {"s": 1, "a": 9, "b": 9, "c": 1, "d": 9, "e": 81, "f": 9, "g": 81, "t": 729}, "total": 929}
+  },
+  "CS-2024-S2-Q59": {
+   "kind": "graph-mst",
+   "query": "count",
+   "nodes": ["a", "b", "c", "d", "e", "f", "g"],
+   "edges": [["a", "b", 1], ["a", "f", 1], ["c", "d", 1], ["d", "e", 1], ["a", "g", 2], ["b", "g", 2], ["f", "g", 2], ["c", "g", 2], ["d", "g", 2], ["e", "g", 2], ["b", "c", 3], ["f", "e", 3]],
+   "pos": {"b": [0, 0], "a": [0.8, 1], "f": [0, 2], "g": [2, 1], "c": [4, 0], "d": [3.2, 1], "e": [4, 2]},
+   "expect": {"count": 9, "weight": 8}
+  },
+  "CS-2025-S2-Q59": {
+   "kind": "graph-search",
+   "algo": "double-bfs",
+   "nodes": ["c", "l", "r", "a", "b", "d", "e", "g", "f", "h", "i", "j", "k", "m"],
+   "edges": [["c", "l"], ["c", "r"], ["c", "a"], ["c", "b"], ["l", "d"], ["l", "e"], ["l", "g"], ["e", "f"], ["g", "h"], ["g", "i"], ["r", "j"], ["r", "k"], ["k", "m"]],
+   "pos": {"c": [3, 2], "l": [1.6, 1.2], "r": [4.4, 1.2], "a": [2.5, 3], "b": [3.5, 3], "d": [0.4, 1.6], "e": [1, 0.2], "g": [2.2, 0.2], "f": [0.6, -0.8], "h": [1.8, -0.8], "i": [2.8, -0.8], "j": [5.6, 1.6], "k": [4.4, 0.1], "m": [4.4, -0.9]},
+   "show_from": "c",
+   "expect": 6
+  }
+ }
+}
