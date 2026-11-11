@@ -20,7 +20,8 @@ window.gateStepsRegister(({el, h, css}) => {
 .rec-tree .node.now rect{fill:var(--accent);stroke:var(--accent)}.rec-tree .node.now text{fill:var(--bg)}
 .rec-tree .node.done rect{stroke:var(--line)}.rec-tree .node.done .lab{fill:var(--muted)}
 .rec-tree .node.repeat rect,.rec-tree .node.fold rect{stroke-dasharray:4 3}
-.rec-tree .row.now rect{fill:color-mix(in oklab,var(--accent) 18%,transparent);stroke:none}
+.rec-tree .row rect{fill:none}
+.rec-tree .row.now rect{fill:color-mix(in oklab,var(--accent) 18%,transparent)}
 .rec-tree .row text{fill:var(--ink)}.rec-tree .row.done .lab{fill:var(--muted)}.rec-tree .row.wait .lab,.rec-tree .row.now .lab{font-weight:700}
 .rec-tree .row .val{font-weight:700;fill:var(--ink)}.rec-tree .row .tag{fill:var(--muted)}
 .rec-tree .row.repeat .lab,.rec-tree .row.fold .lab{text-decoration:underline dashed;text-underline-offset:3px}
