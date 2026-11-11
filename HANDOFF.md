@@ -172,7 +172,7 @@ Rules:
 - Practicalities learned so far: in a git worktree with no `node_modules`, symlink the main checkout's for `node tests/test_transcription_math.js` and remove the link before committing; serve `_site` on a free port (another session may hold 8000/8765); the global `th:first-child{min-width:180px}` and `td,th` border rules apply inside players, so cancel them in your family CSS; off-screen articles use `content-visibility`, so read text with `textContent` in scripts.
 
 ### 3.7 Step-through families still in progress (handed over 11 Nov 2026)
-368 questions have step-throughs in 23 families. The C trace family is the remaining item from the 11 November handoff.
+381 questions have step-throughs in 24 families. The six branches from the 11 November handoff have been independently reviewed and merged.
 
 | Branch | Families | State when stopped | Left to do |
 |---|---|---|---|
@@ -181,7 +181,7 @@ Rules:
 | `wip/anim-networks` | subnet, window, errorcode | **merged** (40 independently reviewed questions) | none |
 | `wip/anim-misc` | pipeline, schedule, sorting, dp, banker | **merged** (40 independently reviewed questions across five branches) | none |
 | `wip/anim-parsing` | parsing | **merged** (31 independently reviewed questions) | none |
-| `wip/anim-ctrace` | ctrace (C program traces) | simulator only | data, player, tests; review |
+| `wip/anim-ctrace` | ctrace (C program traces) | **merged** (13 independently reviewed questions) | none |
 
 "Pass the build check" means each recorded answer matches what the simulator computes. It does **not** mean the entries have been reviewed. Candidate question lists are in `handoff/anim-candidates/<branch>.json`. These are keyword matches, many of them false positives.
 
@@ -228,7 +228,7 @@ python scripts/build_pdfs.py --release   # 26 PDFs into _site/pdf (a few minutes
   - CS-2024 drafts are in `handoff/2024-drafts/`.
   - About 3,016 questions have nothing yet.
 - **Study aids:** `/weightage/` (marks by subject and topic, 2003 on), syllabus flags from `data/syllabus.json` (topic-level, against the official GATE 2027 CS syllabus; update that file when a new syllabus is published), and `/offline/` (service worker `templates/site/sw.js`, per-subject and per-paper offline packs). The logic is in `scripts/site_features.py`. Repeated questions are in `data/repeats.json` (only `reviewed` pairs fold; same setup and requested answer, values may change) and method-level groups in `data/problem-patterns.json`. Every accepted group needs per-member source evidence. Subject and topic pages are single newest-first lists (50 per page by default, or all). Grouped questions link to `/<subject>/similar/<group-id>/`; the “One per method” filter keeps the newest of each group. See `docs/QUESTION_GROUPS.md`.
-- **Step-throughs:** 368 questions in 23 families (§3.6, §3.7). They are closed by default under "Answer & solution" and never appear in PDFs. C trace is the remaining family from the 11 November handoff.
+- **Step-throughs:** 381 questions in 24 families (§3.6, §3.7). They are closed by default under "Answer & solution" and never appear in PDFs.
 - **Checks:** `scripts/validate.py`, the unit tests (176) and the KaTeX check pass on `main`.
 - **Background:** `CODEX_INSTRUCTIONS.md` has the full original spec and history. `docs/TRANSCRIPTIONS.md` defines the transcription format and verification rules.
 - **If a browser won't run locally:** pushing transcription changes to `main` also triggers `.github/workflows/review-shots.yml`, which publishes the same screenshots to the `review-shots` branch (`git fetch origin review-shots`).

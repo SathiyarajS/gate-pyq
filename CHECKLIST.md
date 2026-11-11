@@ -16,13 +16,13 @@ What is done and what is left. The task list is ticked by hand; the paper table 
   - [ ] Move one-off `scripts/check_*.py` into `scripts/checks/` and fix paths in `audits/`
   - [ ] Older questions: render "Recorded options (source verification pending)" as a list, or drop it once the paper is verified
   - [ ] Redrawn (verified) questions: drop the collapsed "Text version (paraphrase)" block and use the redrawn text for the original image's alt text; keep the original image behind "View original" and keep the paraphrase for questions that are not redrawn
-- [ ] **3.6/3.7 Step-through animations**: 368 questions in 23 families. Finish (prompt E) and review and merge (prompt F) the remaining C trace branch:
+- [x] **3.6/3.7 Step-through animations**: 381 questions in 24 families. The six handoff branches have been independently reviewed and merged:
   - [x] recursion (merged; 25 questions)
   - [x] automata (merged; 18 independently reviewed questions)
   - [x] networks (subnet, window, errorcode): merged, 40 independently reviewed questions
   - [x] misc (pipeline, schedule, sorting, dp, banker): merged, 40 independently reviewed questions
   - [x] parsing: merged, 31 independently reviewed questions
-  - [ ] ctrace
+  - [x] ctrace (merged, 13 independently reviewed questions)
 - [x] **3.5 Missing official keys**: searched 1991–2010 on 2026-11-10; no official key found for any year (IIT/IISc hosts and web archives checked). 853 third-party keys (GeeksforGeeks, ExamGOAL/ExamSIDE, GATE Overflow via archive) are shown on the question page, labelled unofficial and unverified; 51 differ from our derived answers and 77 more were not recorded (uncertain mapping or conflicting keys). Details in `audits/third-party-key-crosscheck.json`. Still open: review those 51 disagreements; GATE Overflow was unreachable (403).
 
 ## Papers
