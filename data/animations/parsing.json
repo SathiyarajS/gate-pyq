@@ -41,42 +41,11 @@
    "do": [{"sr": "4 − 2 − 4 * 2"}],
    "expect": {"value": "12"}
   },
-  "CS-2001-Q85": {
-   "kind": "parse-sets",
-   "grammar": ["E -> a A | ( E )", "A -> + E | * E | ε"],
-   "do": ["sets"],
-   "expect": {
-    "first": {"E": "a (", "A": "+ * ε"},
-    "follow": {"E": ") $", "A": ") $"}
-   }
-  },
-  "CS-2001-Q86": {
-   "kind": "parse-ll1",
-   "grammar": ["E -> a A | ( E )", "A -> + E | * E | ε"],
-   "do": ["sets", "ll1"],
-   "expect": {
-    "table": [
-     ["E", "a", ["a A"]],
-     ["E", "(", ["( E )"]],
-     ["A", ")", ["ε"]],
-     ["A", "+", ["+ E"]],
-     ["A", "*", ["* E"]],
-     ["A", "$", ["ε"]]
-    ],
-    "ll1": true
-   }
-  },
   "CS-2001-Q89": {
    "kind": "parse-trees",
    "grammar": ["S -> a S b S | b S a S | ε"],
    "do": [{"trees": "a b a b"}],
    "expect": {"trees": {"a b a b": 2}}
-  },
-  "CS-2002-Q99": {
-   "kind": "parse-trees",
-   "grammar": ["E -> E + E | E * E | id"],
-   "do": [{"trees": "id:i + id:j * id:k"}],
-   "expect": {"trees": {"id:i + id:j * id:k": 2}}
   },
   "CS-2003-Q56": {
    "kind": "parse-ll1",

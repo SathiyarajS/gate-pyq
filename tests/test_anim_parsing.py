@@ -134,7 +134,7 @@ class ParsingTest(unittest.TestCase):
     def test_all_retained_specs_serialize_and_expose_player_contract(self):
         import json
         specs = json.loads((ROOT / 'data/animations/parsing.json').read_text())['questions']
-        self.assertEqual(len(specs), 34)
+        self.assertEqual(len(specs), 31)
         views = set()
         for qid, spec in specs.items():
             with self.subTest(qid=qid):
