@@ -156,6 +156,11 @@ def load_repeats(root, questions):
     by_id = {q['question_id']: q for q in questions}
     links = collections.defaultdict(dict)
     for pair in json.loads(path.read_text())['pairs']:
+        status = pair.get('status', 'legacy-reviewed')
+        if status not in ('legacy-reviewed', 'reviewed', 'candidate', 'rejected'):
+            raise SystemExit('data/repeats.json: invalid review status')
+        if status in ('candidate', 'rejected'):
+            continue
         a, b, kind = pair['a'], pair['b'], pair['kind']
         if a not in by_id or b not in by_id: raise SystemExit(f'data/repeats.json names an unknown question: {a} / {b}')
         if kind not in ('same', 'numbers'): raise SystemExit(f'data/repeats.json: unknown kind {kind!r}')
