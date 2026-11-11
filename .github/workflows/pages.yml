@@ -19,6 +19,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      # Keep this image in sync with the Playwright pin in requirements-site.txt.
+      image: mcr.microsoft.com/playwright/python:v1.65.0-noble@sha256:f9294526294a7bdfb8ca8aa7d815c049125a10e73b65d47fb9a80f5d74f284a6
+      options: --ipc=host
+    defaults:
+      run:
+        shell: bash
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
@@ -31,16 +38,9 @@ jobs:
         with:
           node-version: "20"
           cache: npm
-      - name: Cache Playwright browser
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ hashFiles('requirements-site.txt') }}
       - name: Install dependencies
         run: |
           pip install -r requirements-site.txt pytest
-          # Headless rendering only needs the headless shell, not full Chromium.
-          python -m playwright install --with-deps --only-shell chromium
           npm ci --ignore-scripts
       - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
         continue-on-error: true
@@ -74,10 +74,6 @@ jobs:
           status=0; wait $tests || status=$?
           cat "$RUNNER_TEMP/pytest.log"
           exit $status
-      - name: Browser regression for study views
-        run: python scripts/checks/check_study_views_browser.py
-      - name: Build search index
-        run: npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
       # PDFs are keyed by content inside .pdf-cache, so only subjects whose
       # questions, images or layout changed are re-rendered.
       - name: Restore rendered PDFs
@@ -88,8 +84,34 @@ jobs:
             .pdf-images
           key: pdfs-${{ github.sha }}
           restore-keys: pdfs-
-      - name: Build PDFs (with answers + questions only, per subject)
-        run: python scripts/build_pdfs.py --release
+      - name: Run browser regression, build search index, and build PDFs
+        run: |
+          run_task() {
+            local name=$1
+            shift
+            local started=$SECONDS status=0
+            "$@" > "$RUNNER_TEMP/$name.log" 2>&1 || status=$?
+            echo "$name finished in $((SECONDS - started))s (exit $status)" >> "$RUNNER_TEMP/$name.log"
+            return "$status"
+          }
+
+          run_task browser python scripts/checks/check_study_views_browser.py &
+          browser=$!
+          run_task search npx --no-install pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind &
+          search=$!
+          run_task pdfs python scripts/build_pdfs.py --release &
+          pdfs=$!
+
+          status=0
+          wait "$browser" || status=1
+          wait "$search" || status=1
+          wait "$pdfs" || status=1
+          for name in browser search pdfs; do
+            echo "::group::$name"
+            cat "$RUNNER_TEMP/$name.log"
+            echo "::endgroup::"
+          done
+          exit "$status"
       - name: Save rendered PDFs
         uses: actions/cache/save@v4
         with:
