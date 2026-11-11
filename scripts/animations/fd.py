@@ -777,3 +777,4 @@ def fd_animation(qid, spec):
 # Animation kinds this family provides, and the player file that draws them.
 KINDS = {'fd': fd_animation}
 PLAYER = 'fd'
+TABS = 'parts'
