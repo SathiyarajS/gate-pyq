@@ -11,9 +11,10 @@ window.gateStepsRegister(({h, css}) => {
 .pipe-grid td.s2{background:color-mix(in oklab,var(--s2) 22%,transparent)}.pipe-grid td.s3{background:color-mix(in oklab,var(--s3) 26%,transparent)}
 .pipe-grid td.s4{background:color-mix(in oklab,var(--s4) 22%,transparent)}.pipe-grid td.s5{background:color-mix(in oklab,var(--s5) 22%,transparent)}
 .pipe-grid td.wait{font-weight:400;color:var(--muted);background:repeating-linear-gradient(135deg,transparent 0 4px,color-mix(in oklab,var(--muted) 18%,transparent) 4px 6px)}
-.pipe-grid tr.is-now td:first-child{color:var(--accent)}
-.pipe-grid tr.is-now td{box-shadow:inset 0 2px 0 var(--accent),inset 0 -2px 0 var(--accent)}
-.pipe-grid tr.is-now td:first-child{box-shadow:inset 0 2px 0 var(--accent),inset 0 -2px 0 var(--accent),inset -1px 0 0 var(--line)}
+.pipe-scroll{position:relative}
+.pipe-grid tr.pipe-current td:first-child{color:var(--accent)}
+.pipe-grid tr.pipe-current td{box-shadow:inset 0 2px 0 var(--accent),inset 0 -2px 0 var(--accent)}
+.pipe-grid tr.pipe-current td:first-child{box-shadow:inset 0 2px 0 var(--accent),inset 0 -2px 0 var(--accent),inset -1px 0 0 var(--line)}
 .pipe-grid td.last{outline:2px solid var(--accent);outline-offset:-2px}
 .pipe-key{display:flex;flex-wrap:wrap;gap:2px 12px;margin:0 0 4px;font-size:.78rem;color:var(--muted)}
 .pipe-key i{display:inline-block;width:1.1em;height:.8em;vertical-align:-.05em;margin-right:.35em;border-radius:2px;background:repeating-linear-gradient(135deg,transparent 0 3px,color-mix(in oklab,var(--muted) 35%,transparent) 3px 5px)}
@@ -33,17 +34,18 @@ window.gateStepsRegister(({h, css}) => {
         if (x) {
           td.textContent = x[0];
           td.className = x[1] === 'work' ? 'st s' + (data.stages.indexOf(x[0]) % 6) : 'wait';
-          if (step.final && i === data.names.length - 1 && c === data.cycles) td.classList.add('last');
+          if (i === step.row && c === cells.at(-1)[0]) td.classList.add('is-now');
+          if (step.final && i === data.names.length - 1 && c === data.cycles) td.classList.add('last', 'is-now');
         }
       }
-      if (i === step.row) row.className = 'is-now';
+      if (i === step.row) row.className = 'pipe-current';
     });
     return t;
   }
 
   return {
     pipeline: (s, data, step) => {
-      const w = h('div', 'steps-table-wrap'); w.append(grid(data, step));
+      const w = h('div', 'steps-table-wrap pipe-scroll'); w.append(grid(data, step));
       const out = [h('p', 'steps-time', step.final ? 'Finished' : step.row < 0 ? 'Start' : `${data.names[step.row]}` + (data.texts[step.row] !== data.names[step.row] ? `: ${data.texts[step.row]}` : '')), w];
       if (step.rows.some(r => r.some(c => c[2] === 'stall'))) { const k = h('p', 'pipe-key'), sp = h('span'); sp.append(h('i'), 'waiting in that stage'); k.append(sp); out.push(k); }
       return out;
