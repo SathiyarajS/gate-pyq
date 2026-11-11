@@ -1,0 +1,40 @@
+{
+ "description": "Step-through animations (Error control: CRC long division over GF(2), filling in a Hamming codeword, minimum distance of a code). Each entry is simulated at build time by scripts/animations/errorcode.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-2007-Q68": {
+   "kind": "crc",
+   "message": "11001001",
+   "generator": "x^3+1",
+   "expect": {"transmitted": "11001001011"}
+  },
+  "CS-2017-S1-Q42": {
+   "kind": "crc",
+   "message": "01011011",
+   "generator": "x^3+x+1",
+   "expect": {"transmitted": "01011011101"}
+  },
+  "CS-2017-S2-Q44": {
+   "kind": "code-distance",
+   "codewords": ["00000", "01011", "10101", "11110"],
+   "expect": {"min_distance": 3, "correct": 1}
+  },
+  "CS-2021-S1-Q39": {
+   "kind": "hamming-fill",
+   "layout": ["d8", "d7", "d6", "d5", "c8", "d4", "d3", "d2", "c4", "d1", "c2", "c1"],
+   "values": {"d8": 1, "d7": 1, "d6": 0, "d5": "x", "d4": 0, "d3": 1, "d2": 0, "d1": 1, "c8": "y", "c4": 0, "c2": 1, "c1": 0},
+   "expect": {"x": 0, "y": 0}
+  },
+  "CS-2021-S2-Q44": {
+   "kind": "crc",
+   "message": "11000",
+   "generator": "x^3+x+1",
+   "expect": {"remainder": "100"}
+  },
+  "CS-2026-S2-Q43": {
+   "kind": "crc",
+   "message": "110001011",
+   "generator": "1001",
+   "expect": {"remainder": "100"}
+  }
+ }
+}
