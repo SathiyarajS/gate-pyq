@@ -128,3 +128,11 @@ class StudyGroupsTest(unittest.TestCase):
 
 
 if __name__=='__main__':unittest.main()
+
+
+class ReaderNoteTest(unittest.TestCase):
+    def test_review_sentences_and_title_echo_are_removed(self):
+        from question_groups import reader_note
+        group = {'title': 'Count divisors', 'rationale': 'Count divisors. The shared procedure is the grouping basis; givens remain separate. Multiply exponent-plus-one terms. This is not a claim that all members are identical repeats.'}
+        self.assertEqual(reader_note(group), 'Multiply exponent-plus-one terms.')
+        self.assertEqual(reader_note({'title': 'Count divisors', 'rationale': 'Count divisors. This is not a claim that they repeat.'}), '')

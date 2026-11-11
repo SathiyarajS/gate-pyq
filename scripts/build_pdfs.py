@@ -37,6 +37,9 @@ def document(subject, records, questions_only, release=False):
     topics=json.loads((ROOT/'data/topics.json').read_text()).get(subject,{})
     topic_title={t['id']:t['title'] for t in topics.get('topics',[])}
     assign=topics.get('assign',{})
+    # The site lists newest first; the PDF keeps topic sections, newest first within each.
+    order={t['id']:i for i,t in enumerate(topics.get('topics',[]))}
+    records=sorted(records,key=lambda r:order.get(assign.get(r['id'],'other'),len(order)))
     sections=[];toc=[];index_rows=[];current=None;n=0
     for row in records:
         n+=1;q=by_id[row['id']]

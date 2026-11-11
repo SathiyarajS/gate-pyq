@@ -33,14 +33,28 @@ document.addEventListener('click',async event=>{const b=event.target.closest('bu
   article.querySelector('.attempt-result').textContent=result===null?(input?'No official key to check against — compare with our answer below.':'Answer shown below.'):(result?(article.dataset.keySource==='derived'?'Correct — matches our answer (no official key located).':'Correct — matches the official key.'):(article.dataset.keySource==='derived'?'Not quite — our answer (no official key located) is shown below.':'Not quite — the official key is shown below.'));
   save(article,{attempted:true,result,input});}
 });hydrate();
-const form=document.querySelector('#filters');if(form){let records=null,page=1,filtered=[];const original=document.querySelector('#questions').innerHTML;
- function draw(){document.querySelector('#questions').innerHTML=filtered.slice((page-1)*10,page*10).map(x=>x.html).join(''); // Same trusted, escaped fragments emitted by local generator; no source HTML accepted.
- document.querySelectorAll('#questions a[href^="../"]').forEach(a=>a.href=new URL(a.getAttribute('href').slice(3),base).href);
- document.querySelectorAll('#questions img[src^="../"]').forEach(img=>img.src=new URL(img.getAttribute('src').slice(3),base).href);
- document.querySelector('#filter-status').textContent=filtered.length+' matching questions · page '+page+' of '+Math.max(1,Math.ceil(filtered.length/10));const nav=document.querySelector('#filter-pagination');nav.replaceChildren();for(const [label,step]of[['Previous',-1],['Next',1]]){const b=document.createElement('button');b.textContent=label;b.disabled=page+step<1||page+step>Math.ceil(filtered.length/10);b.onclick=()=>{page+=step;draw();};nav.append(b);}hydrate();}
- form.addEventListener('submit',async e=>{e.preventDefault();try{if(!records){const r=await fetch(new URL(document.body.dataset.subject+'/index.json',base));if(!r.ok)throw Error();records=await r.json();}
- const f=new FormData(form);filtered=records.filter(q=>q.year>=Number(f.get('from')||1991)&&q.year<=Number(f.get('to')||2026)&&(!f.get('marks')||String(q.marks)===f.get('marks'))&&(!f.get('type')||q.type===f.get('type'))&&(!f.has('discrepancy')||q.discrepancy)&&(!f.has('bookmarked')||state[q.id]?.bookmarked)&&(!f.has('syllabus')||!q.off));page=1;document.querySelectorAll('.static-pagination').forEach(x=>x.hidden=true);draw();}catch{document.querySelector('#filter-status').textContent='Filters could not load. Use the normal page links below.';}});
- form.addEventListener('reset',()=>{document.querySelector('#questions').innerHTML=original;document.querySelectorAll('.static-pagination').forEach(x=>x.hidden=false);document.querySelector('#filter-status').textContent='';document.querySelector('#filter-pagination').replaceChildren();hydrate();});}
+// Subject and topic lists hold every question. Filters hide cards; 50 per page (the default) or all at once.
+const list=document.querySelector('#questions'),pagers=[...document.querySelectorAll('.list-pages')];
+if(list&&pagers.length){const cards=[...list.querySelectorAll(':scope>article.question')],form=document.querySelector('#filters'),status=document.querySelector('#filter-status');
+ let page=1,perPage=50,shown=cards,filter=null;try{perPage=localStorage.getItem('gate-per-page')==='all'?0:50;}catch{}
+ const radios=[...document.querySelectorAll('input[name="per-page"]')];
+ radios.forEach(r=>{r.checked=(r.value==='50')===(perPage===50);r.addEventListener('change',()=>{perPage=r.value==='50'?50:0;try{localStorage.setItem('gate-per-page',perPage?'50':'all');}catch{}page=1;render();});});
+ if(!radios.length)perPage=0;
+ const keep=(c,f)=>{if(!f)return true;const d=c.dataset,y=Number(d.year);return y>=Number(f.get('from')||1991)&&y<=Number(f.get('to')||2026)&&(!f.get('marks')||d.marks===f.get('marks'))&&(!f.get('type')||d.type===f.get('type'))&&(!f.has('discrepancy')||d.disc==='1')&&(!f.has('bookmarked')||state[d.id]?.bookmarked)&&(!f.has('syllabus')||d.off!=='1')&&(!f.has('onemethod')||d.alt!=='1');};
+ function render(){shown=cards.filter(c=>keep(c,filter));const pages=perPage?Math.max(1,Math.ceil(shown.length/perPage)):1;page=Math.min(Math.max(1,page),pages);
+  const from=perPage?(page-1)*perPage:0,visible=new Set(shown.slice(from,perPage?from+perPage:shown.length));cards.forEach(c=>c.hidden=!visible.has(c));
+  pagers.forEach((nav,top)=>{nav.replaceChildren();nav.hidden=pages<2;if(pages<2)return;
+   const add=(label,n,current)=>{const b=document.createElement('button');b.type='button';b.textContent=label;if(current)b.setAttribute('aria-current','page');b.disabled=current||n<1||n>pages;b.addEventListener('click',()=>{page=n;render();pagers[0].scrollIntoView({block:'start'});});nav.append(b);};
+   add('Previous',page-1);for(let n=1;n<=pages;n++)add(String(n),n,n===page);add('Next',page+1);});
+  if(status)status.textContent=filter?shown.length+' matching question'+(shown.length===1?'':'s'):'';
+  document.querySelectorAll('.year-jump a').forEach(a=>a.hidden=!shown.some(c=>c.dataset.year===a.dataset.year));}
+ function reveal(id){let i=shown.findIndex(c=>c.id===id);
+  if(i<0&&filter&&cards.some(c=>c.id===id)){filter=null;form?.reset();render();i=shown.findIndex(c=>c.id===id);}
+  if(i<0)return;if(perPage&&Math.floor(i/perPage)+1!==page){page=Math.floor(i/perPage)+1;render();}document.getElementById(id)?.scrollIntoView();}
+ document.querySelectorAll('.year-jump a').forEach(a=>a.addEventListener('click',e=>{const first=shown.find(c=>c.dataset.year===a.dataset.year);if(!first)return;e.preventDefault();history.pushState(null,'','#'+first.id);reveal(first.id);}));
+ addEventListener('hashchange',()=>reveal(decodeURIComponent(location.hash.slice(1))));
+ if(form){form.addEventListener('submit',e=>{e.preventDefault();filter=new FormData(form);page=1;render();});form.addEventListener('reset',()=>{filter=null;page=1;setTimeout(render);});}
+ render();if(location.hash)reveal(decodeURIComponent(location.hash.slice(1)));}
 const search=document.querySelector('#search');if(search){
  let data=null,pagefind=null,engineTried=false,revision=0;
  const facets=['subject','year','type'];

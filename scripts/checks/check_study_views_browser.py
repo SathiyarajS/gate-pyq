@@ -26,59 +26,44 @@ def main():
             if os.environ.get('GATE_BROWSER_EXECUTABLE'):launch['executable_path']=os.environ['GATE_BROWSER_EXECUTABLE']
             browser=p.chromium.launch(**launch)
             for width,height in [(1440,1000),(390,844)]:
-                context=browser.new_context(viewport={'width':width,'height':height})
+                context=browser.new_context(viewport={'width':width,'height':height},service_workers='block')
                 page=context.new_page();errors=[]
-                page.on('pageerror',lambda error:errors.append(str(error)))
-                page.goto(base+'/08-operating-systems/patterns/')
-                page.locator('.pattern-index a[href$="#group-srtf-schedule-metrics"]').click()
-                group=page.locator('#group-srtf-schedule-metrics')
-                alt=group.locator('.group-alternatives')
-                assert not alt.evaluate('(el)=>el.open')
-                alt.locator(':scope > summary').click()
-                q=page.locator('#CS-2024-S2-Q37')
-                assert q.is_visible()
-                q.locator('.bookmark').click()
-                assert q.locator('.bookmark').get_attribute('aria-pressed')=='true'
-                q.locator('.answer > summary').click()
-                assert q.locator('.answer').evaluate('(el)=>el.open')
-                assert not page.locator('#CS-2025-S2-Q26 .answer').evaluate('(el)=>el.open')
-                alt.locator(':scope > summary').click();assert not q.is_visible()
-                alt.locator(':scope > summary').click()
-                assert q.locator('.bookmark').get_attribute('aria-pressed')=='true'
-                page.get_by_role('link',name='All questions',exact=True).click()
-                page.locator('input[name=bookmarked]').check()
-                page.get_by_role('button',name='Apply filters',exact=True).click()
-                page.wait_for_function("document.querySelector('#filter-status').textContent.includes('1 matching')")
-                assert page.locator('#CS-2024-S2-Q37').count()==1
-                page.get_by_role('button',name='Reset',exact=True).click()
-                assert page.locator('#questions .question').count()==10
-                page.go_back();assert '/patterns/' in page.url
-                page.get_by_role('link',name='Known repeats folded',exact=True).click()
-                assert 'unique questions' not in page.locator('main').inner_text().lower()
-                repeat_page=next(path for path in (args.site/'08-operating-systems/unique').rglob('index.html')
-                                 if 'id="CS-1998-Q31"' in path.read_text())
-                page.goto(base+'/'+repeat_page.relative_to(args.site).as_posix().removesuffix('index.html'))
-                repeat=page.locator('.study-unit').filter(has=page.locator('#CS-1998-Q31'))
-                alternatives=repeat.locator('.group-alternatives')
-                alternatives.locator(':scope > summary').click()
-                assert page.locator('#CS-1992-Q20').is_visible()
-                alternatives.locator(':scope > summary').click()
-                assert not page.locator('#CS-1992-Q20').is_visible()
-                page.get_by_role('link',name='All questions',exact=True).click()
-                first_id=page.locator('#questions .question').first.get_attribute('id')
-                page.get_by_role('link',name='Next',exact=True).first.click()
-                assert '/page/2/' in page.url
-                assert page.locator('#questions .question').first.get_attribute('id')!=first_id
-                page.get_by_role('link',name='Previous',exact=True).first.click()
-                assert page.locator('#questions .question').first.get_attribute('id')==first_id
-                page.get_by_role('link',name='Problem patterns',exact=True).click()
-                assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'), 'horizontal overflow'
-                assert not errors, errors
+                page.on('pageerror',lambda e:errors.append(str(e)))
+                visible="[...document.querySelectorAll('#questions>article')].filter(a=>!a.hidden)"
+                page.goto(base+'/08-operating-systems/');total=page.locator('#questions>article').count()
+                assert total>50 and page.evaluate(visible+'.length')==50  # 50 per page by default
+                page.check('input[name=per-page][value="all"]');assert page.evaluate(visible+'.length')==total
+                years=page.evaluate(visible+".map(a=>+a.dataset.year)");assert years==sorted(years,reverse=True)
+                page.reload();assert page.is_checked('input[name=per-page][value="all"]')  # the choice is remembered
+                page.check('input[name=per-page][value="50"]');assert page.evaluate(visible+'.length')==50
+                page.locator('.list-pages').first.get_by_role('button',name='2').click()
+                second=page.evaluate(visible+'[0].id');assert second==page.evaluate("[...document.querySelectorAll('#questions>article')][50].id")
+                page.reload();assert page.is_checked('input[name=per-page][value="50"]')
+                # Year jump and a link to a question on another page switch to that page.
+                oldest=years[-1];page.click(f'.year-jump a[data-year="{oldest}"]')
+                assert page.evaluate("!document.getElementById(location.hash.slice(1)).hidden")
+                # One per method keeps one card per group; reset restores everything.
+                page.check('input[name=onemethod]');page.click('#filters button[type=submit]')
+                kept=page.evaluate(visible+".filter(a=>a.dataset.alt==='1').length");assert kept==0
+                page.click('#filters button[type=reset]');page.check('input[name=per-page][value="all"]')
+                assert page.evaluate(visible+'.length')==total
+                # Answers stay per question.
+                card=page.locator('#questions>article[data-type="MCQ"]').first;card.scroll_into_view_if_needed()
+                card.locator('.choices button').first.click();assert card.locator('.attempt-result').inner_text().strip()
+                # Similar questions page and Back.
+                link=page.locator('#questions .similar-link a').first;qid=link.evaluate("a=>a.closest('article').id")
+                link.click();page.wait_for_load_state();assert '/similar/' in page.url
+                assert page.locator(f'#questions>article#{qid}').count()==1
+                page.go_back();page.wait_for_load_state();assert page.url.endswith('/08-operating-systems/') or '#' in page.url
+                # Old addresses redirect.
+                page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
+                assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1
+                assert not errors,errors
                 context.close()
             browser.close()
     finally:
         server.shutdown();server.server_close()
-    print('Study-view Chromium checks passed: desktop/mobile, pattern/repeat variants, answer isolation, bookmarks, filters/reset, pagination, Back, no JS errors or horizontal overflow.')
+    print('Study-view Chromium checks passed: desktop/mobile, newest-first list, 50 per page, year jump, one per method, answers, similar page and Back, redirects, no JS errors or horizontal overflow.')
 
 
 if __name__=='__main__':main()
