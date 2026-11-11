@@ -169,10 +169,11 @@ Rules:
 - Notes are plain sentences a student can follow ("Slot 6 holds 50, a collision."). No review or source wording.
 - Do not edit `scripts/animations/__init__.py`, `common.py`, `site-static/steps.js`, other families' files, or `templates/`. If the core needs a change, say so instead.
 - Check: `python scripts/build_site.py --release`, then `python scripts/checks/check_study_views_browser.py` (opens one question of every kind), and look at the player at 390 px wide.
+- Simulations are cached in `.anim-cache/` (gitignored; CI keeps it between runs), keyed on each spec and the source of every module in `scripts/animations/`. Changing either recomputes the result. Set `GATE_ANIM_CACHE=0` to bypass the cache when timing or debugging a simulator.
 - Practicalities learned so far: in a git worktree with no `node_modules`, symlink the main checkout's for `node tests/test_transcription_math.js` and remove the link before committing; serve `_site` on a free port (another session may hold 8000/8765); the global `th:first-child{min-width:180px}` and `td,th` border rules apply inside players, so cancel them in your family CSS; off-screen articles use `content-visibility`, so read text with `textContent` in scripts.
 
 ### 3.7 Step-through families still in progress (handed over 11 Nov 2026)
-381 questions have step-throughs in 24 families. The six branches from the 11 November handoff have been independently reviewed and merged.
+381 questions have step-throughs in 24 families. The six branches from the 11 November handoff have been independently reviewed and merged. A second check on 11 November covered all 157 entries in parsing, subnet, window, errorcode, automata, pipeline, schedule, sorting, dp, banker and ctrace: expectations against the keys and keyed option text, the open discrepancies, and one player per family at 390 px. Nothing needed changing.
 
 | Branch | Families | State when stopped | Left to do |
 |---|---|---|---|

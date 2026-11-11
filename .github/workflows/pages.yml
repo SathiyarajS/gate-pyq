@@ -49,6 +49,13 @@ jobs:
           python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
+      # Simulated step-throughs, keyed inside on each spec and the simulator source.
+      - name: Cache step-through simulations
+        uses: actions/cache@v4
+        with:
+          path: .anim-cache
+          key: anim-${{ hashFiles('scripts/animations/**', 'data/animations/**') }}
+          restore-keys: anim-
       - name: Cache rendered question images
         uses: actions/cache@v4
         with:
@@ -62,6 +69,7 @@ jobs:
           tests=$!
           node tests/test_transcription_math.js
           node tests/test_anim_recursion_player.js
+          node tests/test_anim_automata_player.js
           python scripts/build_site.py --release
           status=0; wait $tests || status=$?
           cat "$RUNNER_TEMP/pytest.log"

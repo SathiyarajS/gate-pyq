@@ -28,3 +28,6 @@ audits/compare-shots/
 
 # Parallel agents' working copies (git worktrees)
 .claude/worktrees/
+
+# Cached step-through simulations (scripts/animations/__init__.py)
+.anim-cache/

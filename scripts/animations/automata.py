@@ -46,9 +46,16 @@ def show(w):
     return w if w else 'ε'
 
 
+_COMPILED = {}
+
+
 def _ev(qid, expr, **env):
     try:
-        return eval(expr, dict(SAFE, **env))  # expressions come from the repository's own spec file
+        # Expressions come from the repository's own spec file; each is compiled once and reused.
+        code = _COMPILED.get(expr)
+        if code is None:
+            code = _COMPILED[expr] = compile(expr, '<spec>', 'eval')
+        return eval(code, dict(SAFE, **env))
     except Exception as e:  # noqa: BLE001
         fail(qid, f'cannot evaluate {expr!r}: {e}')
 

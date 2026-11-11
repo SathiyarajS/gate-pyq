@@ -37,3 +37,25 @@ class LoaderTest(unittest.TestCase):
             self.write(tmp, {'a.json': ok, 'b.json': ok})
             with self.assertRaises(SystemExit):
                 animations.load(Path(tmp), {'Q'})
+
+    def test_cache_reuses_only_identical_spec_and_code(self):
+        good = {'Q': {'kind': 'cpu-schedule', 'processes': [['A', 0, 2]], 'metric': 'waiting', 'schedules': [{'policy': 'srtf', 'expect': 0}]}}
+        with tempfile.TemporaryDirectory() as tmp:
+            self.write(tmp, {'cpu.json': good})
+            first = animations.load(Path(tmp), {'Q'})
+            files = list((Path(tmp) / '.anim-cache').glob('*.json'))
+            self.assertEqual(len(files), 1)
+            self.assertEqual(animations.load(Path(tmp), {'Q'}), first)  # served from the cache
+            files[0].write_text('{damaged')
+            self.assertEqual(animations.load(Path(tmp), {'Q'}), first)  # a damaged file is recomputed
+            # A changed expectation is a different key, so it is simulated (and fails) afresh.
+            bad = json.loads(json.dumps(good)); bad['Q']['schedules'][0]['expect'] = 1
+            (Path(tmp) / 'data/animations/cpu.json').write_text(json.dumps({'questions': bad}))
+            with self.assertRaises(SystemExit):
+                animations.load(Path(tmp), {'Q'})
+
+    def test_cache_key_covers_the_simulator_source(self):
+        src = b''.join(f.read_bytes() for f in sorted((ROOT / 'scripts/animations').glob('*.py')))
+        import hashlib
+        self.assertEqual(animations._CODE, hashlib.sha256(src).hexdigest())
+
