@@ -1,0 +1,1241 @@
+{
+  "paper_id": "CS-2026-S2",
+  "reviewed_on": "2026-11-11",
+  "reviewed_content_commit": "c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187",
+  "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+  "published_key_sha256": "21cf19f9d4d5b1e93f87e0c8dd1dfe8edd06c1f4c8b3d4fc68b9d2529ea77f22",
+  "published_key_rows_matched": 65,
+  "full_source_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "capture_method": "Rendered with the repository comparison page and local KaTeX in Chromium 158.0.8127.18. Captured at 1280 px in light theme and 390 px in dark theme. Batched capture limited the comparison elements visible at a time to avoid blank source images in full-paper clips.",
+  "verified_questions": 65,
+  "questions": {
+    "CS-2026-S2-Q1": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        1
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q1-desktop.jpg",
+          "sha256": "2d9f7093e379a65098324d28abe7bb94de974d01748720b0b39acc13a033dc0e"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q1-mobile-dark.jpg",
+          "sha256": "e0fcdc66fa896ed084ad11e55a69d3185cc200e2519c9fed2d86d2dad0c1ad74"
+        }
+      }
+    },
+    "CS-2026-S2-Q2": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        2
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q2-desktop.jpg",
+          "sha256": "5997a7f0f63537ff96046be10866501f71f528d4592487b1ae093f6f96cc29bf"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q2-mobile-dark.jpg",
+          "sha256": "69fb8771fabbc193d4bb183f71385b6bc8cf84f2ce2d09ec046c4bd14e2757ce"
+        }
+      },
+      "finding": "The restored 22-unit figure labels are readable at 390 px and clear the outlines and separators."
+    },
+    "CS-2026-S2-Q3": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        3
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q3-desktop.jpg",
+          "sha256": "9aa837078bd8c109900c6f0b383d079ad9a48d0b68989e1b2a4787a5ed5f1026"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q3-mobile-dark.jpg",
+          "sha256": "bb80187aad8c7b8b3942ee0bc216807b3a9d9a3cdde41932fc51311a1f9ca034"
+        }
+      }
+    },
+    "CS-2026-S2-Q4": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        4
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q4-desktop.jpg",
+          "sha256": "b47d778002431e98a19036bdbb61f1979623c5fe0e49b150843fe72fbda368f7"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q4-mobile-dark.jpg",
+          "sha256": "47c655978a7aa6ed6d8ff6e0f0e5cfa147046d782cebf5a6d2f37a73874e64f9"
+        }
+      }
+    },
+    "CS-2026-S2-Q5": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        4
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q5-desktop.jpg",
+          "sha256": "90caad65a8105ecac245777b3f43149f28a0ef3d534be47a59adb25346c9a85d"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q5-mobile-dark.jpg",
+          "sha256": "9073c8fc075a5b3395297cdce7454c7cfb596016bb9cdd090bce29a63bea1ee6"
+        }
+      }
+    },
+    "CS-2026-S2-Q6": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        5
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q6-desktop.jpg",
+          "sha256": "4c981f2727f4bfd430880dcd11f73ed71d83f8b7cc60b354c70262f15f8bdb35"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q6-mobile-dark.jpg",
+          "sha256": "385d1da4b1b0d83a8f360b0221ce4ce0130169686c16a3cc8737c8b2e6342739"
+        }
+      }
+    },
+    "CS-2026-S2-Q7": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        6
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q7-desktop.jpg",
+          "sha256": "9bd6ed57de2a8f45228e27f98a33cbe01e5dcaee2044adf54d294935b4f3bb18"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q7-mobile-dark.jpg",
+          "sha256": "47c492f52de3763f2fdf1457ddd077d3b05d95c762aabba601b252e990004c83"
+        }
+      },
+      "finding": "The dot positions and counts match. The enlarged labels are readable and clear the tiles and dividers."
+    },
+    "CS-2026-S2-Q8": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        7
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q8-desktop.jpg",
+          "sha256": "a337c94f71c16fc549890bbd0a8fb473b3f0b264ce65bdf6c05ac110ae9e1863"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q8-mobile-dark.jpg",
+          "sha256": "3d2c52524ab97f15fa629ce08e598f43eefb6e00bd6b898d2815e1b44741338d"
+        }
+      },
+      "finding": "The grid and five-city graph edges match. Both graph labels now retain the source boldface."
+    },
+    "CS-2026-S2-Q9": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        8
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q9-desktop.jpg",
+          "sha256": "5fe4ccd9c9d15d2a317653197f0348929f2d6c15c3a0df7fc644991977b186b7"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q9-mobile-dark.jpg",
+          "sha256": "7178d50a8d8bb55fa0a14be75b4d05d5b3af20eee127ff0efcc50235f30cd0c0"
+        }
+      },
+      "finding": "Row and column numbers, shading masks and option order match. The enlarged labels clear the grids and dividers."
+    },
+    "CS-2026-S2-Q10": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        9
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q10-desktop.jpg",
+          "sha256": "df2b44b5fe46e76d4a8046b2c24fb5946e7e343e3694100b24d77315bc268b68"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q10-mobile-dark.jpg",
+          "sha256": "05022a8106a4826f147288df75f5c941fad354ffa6e1f717fa0385a56d24ebb5"
+        }
+      },
+      "finding": "The source crop clips the bottom of option D. The full source page confirms 19/36, as rendered."
+    },
+    "CS-2026-S2-Q11": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        10
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q11-desktop.jpg",
+          "sha256": "250ce461de83820a66df24a2f0f741d00236abf873a7469c83e6279bbb9e6511"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q11-mobile-dark.jpg",
+          "sha256": "54ab4c4a752c57262ca8fb02dca8d7ec337e31f3501d776f1d8683b720ed5a42"
+        }
+      }
+    },
+    "CS-2026-S2-Q12": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        11
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q12-desktop.jpg",
+          "sha256": "f8c381b93723c361649989d5d15b270c7dece107d50fc4bd8ae8d4afa91d854c"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q12-mobile-dark.jpg",
+          "sha256": "9cad955e43c1146dce95f67205c64dddf6b979bc2f1470d653e4a3cd3f5e983a"
+        }
+      }
+    },
+    "CS-2026-S2-Q13": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        12
+      ],
+      "official_answer": "D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q13-desktop.jpg",
+          "sha256": "52047b0da3f8b60eb5411166469b35734952912b560217e55f103c89ae1f951c"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q13-mobile-dark.jpg",
+          "sha256": "9e5245aaf9af99697ec1403df5e4a498f631f905f1d1e53286a5423af37d56a6"
+        }
+      }
+    },
+    "CS-2026-S2-Q14": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        12
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q14-desktop.jpg",
+          "sha256": "aec3e282659f82d7242f2b1368b32290839059d0b3a05d7cf5141a28fe8679d6"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q14-mobile-dark.jpg",
+          "sha256": "b6638efc7d8f0dea1d18320937af09bbd690f2b91bea552eb64df1b826cb9ea1"
+        }
+      },
+      "finding": "The formula and domain fit in two math rows, with the source symbols and option order preserved."
+    },
+    "CS-2026-S2-Q15": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        13
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q15-desktop.jpg",
+          "sha256": "d19ecb352aa9814cee1d4d1101d8d380798ece5e944236b87618d82f40be3956"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q15-mobile-dark.jpg",
+          "sha256": "877bd2712f8c4609be2266c25f0d379eda0483ba2e15bd09aefe02f92cb0f2bb"
+        }
+      }
+    },
+    "CS-2026-S2-Q16": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        14
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q16-desktop.jpg",
+          "sha256": "c5ca6c23d73064a11db2362b31f9473b54c204dad0fb945e99237103c5363683"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q16-mobile-dark.jpg",
+          "sha256": "d523d34cc3a34ea71450855c7f5c7b5231d2e729eb8289d8e1d633077f1a3e42"
+        }
+      }
+    },
+    "CS-2026-S2-Q17": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        14
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q17-desktop.jpg",
+          "sha256": "78a819cf08123be1198b53b0a3d58aa710ec34c7a349711ec727ef74cf22f179"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q17-mobile-dark.jpg",
+          "sha256": "3e3fa6af10e245ec554a2c40f269bc7130e0ecc8688f31cc6204552ec44df716"
+        }
+      }
+    },
+    "CS-2026-S2-Q18": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        15
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q18-desktop.jpg",
+          "sha256": "5b848ab44581a2bc4427be864d35e48a333d20bbda812ba943fe2523728fae5d"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q18-mobile-dark.jpg",
+          "sha256": "bc54a2e4c6f727d7d4a133555aeecd38186f1216884bab96a4687a575eed81fa"
+        }
+      }
+    },
+    "CS-2026-S2-Q19": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        16
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q19-desktop.jpg",
+          "sha256": "2fae3aed47139c08727187be38caed4ba94e93fc7f8dd40e0a3d1ff20e5f19d9"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q19-mobile-dark.jpg",
+          "sha256": "c63049b63a1635a999924d0216801b45de0863fdb46be8be8d0a5cf23c363c50"
+        }
+      }
+    },
+    "CS-2026-S2-Q20": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        17
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q20-desktop.jpg",
+          "sha256": "d665ffbad9b5fc91e00f3236ed607c18b376121b8716a2e1daf835a02532c437"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q20-mobile-dark.jpg",
+          "sha256": "bcab1ac7255796b8bf05e1a187150ee0fdfca1b8eef0894dfa53c08bf07f6261"
+        }
+      }
+    },
+    "CS-2026-S2-Q21": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        17
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q21-desktop.jpg",
+          "sha256": "6fe090eb75c1523610fc2b451bdbb635c46fe031abf309ec95cbd25a00b79566"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q21-mobile-dark.jpg",
+          "sha256": "ec4de177e975382dba0f8b43d3124b78ab65de1e337153143480d4c201bd90b9"
+        }
+      },
+      "finding": "The existing solution derives the official 64 s under idealized bottleneck throughput and explains the forwarding-model dependence."
+    },
+    "CS-2026-S2-Q22": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        18
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q22-desktop.jpg",
+          "sha256": "5b1604e635afae5b930c1e6ddbc573324a0b350c9488374a31d02bb58aef4364"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q22-mobile-dark.jpg",
+          "sha256": "9a87956d8eaf7242eacc5ca5bd1274d4477e7f5139c0c9d5bc078060861273f1"
+        }
+      }
+    },
+    "CS-2026-S2-Q23": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        18
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q23-desktop.jpg",
+          "sha256": "73c7bc85f4e7afcc98320ba2ea8571200e2162004c94aff3fe0d8b94aa67ab22"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q23-mobile-dark.jpg",
+          "sha256": "d4f0e58be8d2dfca053ab3c2fd127f4bba8298e97498e374cb6e7842fd7b56f1"
+        }
+      }
+    },
+    "CS-2026-S2-Q24": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        19
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q24-desktop.jpg",
+          "sha256": "1fcbbe2086ba445265c0e55eb328f58a13fdcef9f27c6dc4d0c715b5b5629de3"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q24-mobile-dark.jpg",
+          "sha256": "3fb76fa40e567cf5c5293878e4df1d5626c63e93e16b3b79159f960ba6f1463f"
+        }
+      }
+    },
+    "CS-2026-S2-Q25": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        20
+      ],
+      "official_answer": "A;B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q25-desktop.jpg",
+          "sha256": "177585233b8877d9651320f4c267381ee8ec23b2419fe9654a27c87a14e99e47"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q25-mobile-dark.jpg",
+          "sha256": "024abce5ec4d531dfd584bca3a7d229c9dc39a6a3caa1d8d17eec519a095f079"
+        }
+      }
+    },
+    "CS-2026-S2-Q26": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        20
+      ],
+      "official_answer": "A;B;C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q26-desktop.jpg",
+          "sha256": "e0daf90497feca2bc7519c4afc6d0d3dbcdd12f3aa16dfc6ad594d7224b2f3bd"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q26-mobile-dark.jpg",
+          "sha256": "01a7712c5cda131dc952d4d305d5a6d1870ff95d289418e83c42ede1fb631306"
+        }
+      }
+    },
+    "CS-2026-S2-Q27": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        21
+      ],
+      "official_answer": "A;C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q27-desktop.jpg",
+          "sha256": "222b699fa86d3b54f1ab0d5a079188f08d29fc8cc79bdc98a1a6ccaddda45fd3"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q27-mobile-dark.jpg",
+          "sha256": "cf22fe87b7c1e2ac418b482aef8b47adcf53270ba967a59bcca0910e474a40a1"
+        }
+      }
+    },
+    "CS-2026-S2-Q28": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        21
+      ],
+      "official_answer": "B;D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q28-desktop.jpg",
+          "sha256": "2369e5427a39f5c23c989239af97c0b91d6299ce32b3587202c23f0f7eab9f1c"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q28-mobile-dark.jpg",
+          "sha256": "161e2b728a34a663aedba0bbe0a1aa08442237733223756b00e441294b339e65"
+        }
+      }
+    },
+    "CS-2026-S2-Q29": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        22
+      ],
+      "official_answer": "B;C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q29-desktop.jpg",
+          "sha256": "f995709ff952f1d2724fa6b7bca379210e4e28b02554c9d433be19d586d208c2"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q29-mobile-dark.jpg",
+          "sha256": "77f44fe71cbd331948653e86fa7c7189eb64e4fed9d001b44980c9569ae7b95f"
+        }
+      }
+    },
+    "CS-2026-S2-Q30": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        22
+      ],
+      "official_answer": "3 to 3",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q30-desktop.jpg",
+          "sha256": "d267e75ad6515b24a0ca83eca28de3c0a5a18cf3523b238ad8eb7f1f2da5b1aa"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q30-mobile-dark.jpg",
+          "sha256": "5504c8901e9e8dc128e566d2e12ee3bf88852da4efc15f929cb57519bc333b00"
+        }
+      }
+    },
+    "CS-2026-S2-Q31": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        22
+      ],
+      "official_answer": "24 to 24",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q31-desktop.jpg",
+          "sha256": "37603d622067b6f5180a9edb2c612c3fa291317987c37c35e008af1469bf1b26"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q31-mobile-dark.jpg",
+          "sha256": "85dc3ef7638e2382d6c14a0f44c5796c84e844c3e120f89244b442cb775cea60"
+        }
+      }
+    },
+    "CS-2026-S2-Q32": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        22
+      ],
+      "official_answer": "3 to 3",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q32-desktop.jpg",
+          "sha256": "301b0044769b031e4650f741436f7ab8b1bccda4db1a15db04010180d8933583"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q32-mobile-dark.jpg",
+          "sha256": "1241bd1392f6d3e8809555ec03c14c415d0007d5b386e831d5014b93ae48e5b1"
+        }
+      }
+    },
+    "CS-2026-S2-Q33": {
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "checked_source_pages": [
+        23
+      ],
+      "official_answer": "4094 to 4094",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q33-desktop.jpg",
+          "sha256": "3ee93f4d7a6af973a0c0127ab7380ff9ed24aee58f1db387d49393c9fb09234e"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q33-mobile-dark.jpg",
+          "sha256": "d93999134ab159a55a1ec52b2d3cd32c8d692adddcc640b11f7995939f13a5c9"
+        }
+      }
+    },
+    "CS-2026-S2-Q34": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        23
+      ],
+      "official_answer": "-60.25 to -60.25",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q34-desktop.jpg",
+          "sha256": "cf2e7ac0567f8bd6e87e2c222908dcf08dec2b2c9932acab8b747166e9e39fa8"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q34-mobile-dark.jpg",
+          "sha256": "ae41bc6cc13ef3486cf5e39c731329c05c50e872f162a0177e0d2be1135a3603"
+        }
+      }
+    },
+    "CS-2026-S2-Q35": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        23
+      ],
+      "official_answer": "13 to 13",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q35-desktop.jpg",
+          "sha256": "eaac0a88268e18ad30e6c541cfa969b38b0bf31013d480c180f84f490cae52c3"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q35-mobile-dark.jpg",
+          "sha256": "e9002fd51cf5f4e6892ffd238a141b7e92dbe8d6f79895314ea6a2f3d7cb6bdf"
+        }
+      }
+    },
+    "CS-2026-S2-Q36": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        24
+      ],
+      "official_answer": "C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q36-desktop.jpg",
+          "sha256": "cd60902d34b95400179c60bba9800fed58cc2dd8197a13cc560a6bad31d8d26e"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q36-mobile-dark.jpg",
+          "sha256": "cdfef5bf16abf3a24acab2252bb3ffa71494383246e094ea38a1ccf1cad2415e"
+        }
+      }
+    },
+    "CS-2026-S2-Q37": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        25
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q37-desktop.jpg",
+          "sha256": "5e944ba01a7c44032ed12fa1790dcbd6276a151e1e150ea3188ac19803953d80"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q37-mobile-dark.jpg",
+          "sha256": "c4fb410ce0643e5127725d058d6359a2e994fcbada2ed0d2de381fa6fdf58ea5"
+        }
+      }
+    },
+    "CS-2026-S2-Q38": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        25
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q38-desktop.jpg",
+          "sha256": "b4f2d231e03e5c0e7070bef17e8bfe879e15304bc5d2daf6ff3a2aa561e9ebee"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q38-mobile-dark.jpg",
+          "sha256": "24ee721274540020c50cb694af04390590d4c27fac30c43e004d7f1bcb09a586"
+        }
+      },
+      "finding": "The complete quantified condition fits on two rows in the narrow screenshot."
+    },
+    "CS-2026-S2-Q39": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        26
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q39-desktop.jpg",
+          "sha256": "9f18d582eb19f804b4f6a5835b563e1b983ebcbea0b86293441d0c863dddf636"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q39-mobile-dark.jpg",
+          "sha256": "16681844869687856cefec3dfa5e45b130463eaa6f588faf929d131812726406"
+        }
+      },
+      "finding": "The recurrences fit in the narrow screenshot. Compact pseudocode retains the assignment expressions and nesting."
+    },
+    "CS-2026-S2-Q40": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        27
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q40-desktop.jpg",
+          "sha256": "79c8398c2b4f0f2dc32315d151403a08f20698c5983bb8300c9c675439092059"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q40-mobile-dark.jpg",
+          "sha256": "4e8853f16efd9b99345fdcc3d00c20ddb6b9dc15992b0f5d99c8ea6888a3a35a"
+        }
+      }
+    },
+    "CS-2026-S2-Q41": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        28
+      ],
+      "official_answer": "D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q41-desktop.jpg",
+          "sha256": "4ceaf900f99f581c9b28e0b874b379b951bc934e504ca4b7b137eb126d954e31"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q41-mobile-dark.jpg",
+          "sha256": "462db1fd387d29b4b486cf53d53e90de598cf31c729bf70c6c89a60511fdd708"
+        }
+      }
+    },
+    "CS-2026-S2-Q42": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        29
+      ],
+      "official_answer": "D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q42-desktop.jpg",
+          "sha256": "b76cf55a53d0f469bcf81d5e0ad6d2096c6496fbcb9f5b514e4e79f516562b8d"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q42-mobile-dark.jpg",
+          "sha256": "9a05097d349f291ee03157f003c6122ba8a4e914e3ee992ef861d47e8379d4b9"
+        }
+      }
+    },
+    "CS-2026-S2-Q43": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        30
+      ],
+      "official_answer": "D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q43-desktop.jpg",
+          "sha256": "048bd3815f51cc48f77920f6d9df08fd649d6b2b49a61b040a602982a9e78110"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q43-mobile-dark.jpg",
+          "sha256": "c3f3900894538a5a6c75e9f44560677e9da83799c82616abd9a0f298f5f38392"
+        }
+      }
+    },
+    "CS-2026-S2-Q44": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        30
+      ],
+      "official_answer": "B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q44-desktop.jpg",
+          "sha256": "db1def87e217d11d1507cebc0189ce13e19764f6fb16472bcd207560eeb2050e"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q44-mobile-dark.jpg",
+          "sha256": "ea2011ebca5853de50f2fc04f5840be2927e6a0ed892af1e51c7b62f8aa95196"
+        }
+      }
+    },
+    "CS-2026-S2-Q45": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        31
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q45-desktop.jpg",
+          "sha256": "30d2512e11cbd8edf1a199f65de63f39c8031ccbb822d3478ff3553d794d4cdc"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q45-mobile-dark.jpg",
+          "sha256": "4d9f2188b5744e4cf36a9472a22601be044967a033b0db92ef81f33570dec039"
+        }
+      }
+    },
+    "CS-2026-S2-Q46": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        32
+      ],
+      "official_answer": "A",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q46-desktop.jpg",
+          "sha256": "d9111345d307365bcf0578b94cc81471552c88e39a944878861a4627f0a31d3b"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q46-mobile-dark.jpg",
+          "sha256": "6cdcda19a711eab42b87b495da4659ec4ca1989bd0b8904bb8ebbc8b0a28f955"
+        }
+      }
+    },
+    "CS-2026-S2-Q47": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        33
+      ],
+      "official_answer": "C;D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q47-desktop.jpg",
+          "sha256": "b45093ffbc59a1ca1c420683f7f782384650f10e9d57126c7a8b1f1f380d4758"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q47-mobile-dark.jpg",
+          "sha256": "b904b959811c8cf3a7a6573cb350059f6c4e078f4b8c9d1229465b1e1a6836f1"
+        }
+      },
+      "finding": "All transitions, arrowheads and accepting/start markers match. The enlarged labels clear the drawing."
+    },
+    "CS-2026-S2-Q48": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        34
+      ],
+      "official_answer": "A;C;D",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q48-desktop.jpg",
+          "sha256": "06b603af1fd21476449884a02fb069940210fb8f20f438a3851434b71f3ddeba"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q48-mobile-dark.jpg",
+          "sha256": "a58b11b0b11b48e57cb65127d0151ef3f98d5db46fe20295b028b94611ff333e"
+        }
+      }
+    },
+    "CS-2026-S2-Q49": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        35
+      ],
+      "official_answer": "A;C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q49-desktop.jpg",
+          "sha256": "9e206205a2f05653813d74e0c474da38c341758d0049553ba51b7aa364568577"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q49-mobile-dark.jpg",
+          "sha256": "2338e054092969df7e4fbacb7d3ae2a8b24342a8f87bad456911d921c9c9d1ff"
+        }
+      }
+    },
+    "CS-2026-S2-Q50": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        36
+      ],
+      "official_answer": "A;B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q50-desktop.jpg",
+          "sha256": "4e9860a4703b9a1fcd5a683ae070f5a62d57fb59df60b266ad938b26416a38dc"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q50-mobile-dark.jpg",
+          "sha256": "437bf8b8687644881e11fd719100f53acb71d4bc4b11ebab27d08bb5b563f20b"
+        }
+      }
+    },
+    "CS-2026-S2-Q51": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        37
+      ],
+      "official_answer": "A;B;C",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q51-desktop.jpg",
+          "sha256": "97423c13153c25fe7b1c2a576e8a556834ea45b3b8e930188301af324203d482"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q51-mobile-dark.jpg",
+          "sha256": "93e7cc7b0d44467781b95677fb1345d373275cdba9aa24164433a4890a54f413"
+        }
+      }
+    },
+    "CS-2026-S2-Q52": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        38
+      ],
+      "official_answer": "A;B",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q52-desktop.jpg",
+          "sha256": "a5e2d96fc9097372486adce5b0c0905a476fb05e95cfac2413c30fe2f09716b6"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q52-mobile-dark.jpg",
+          "sha256": "7befef837bfe5706b82430e331e45073afb898ea92ea9f9f44611e9f69bb4869"
+        }
+      }
+    },
+    "CS-2026-S2-Q53": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        38
+      ],
+      "official_answer": "16417 to 16417",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q53-desktop.jpg",
+          "sha256": "7f444372fbba82e95805b4990cd684833d60a43461aa2e9854c7f5b8ce757b9b"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q53-mobile-dark.jpg",
+          "sha256": "70b6ea0e4035ee00d366d5cd12f8d2d1b3a4efd66fdca4e8c8e98075ed7c9a8c"
+        }
+      },
+      "finding": "The existing solution derives 16,417 list blocks using full-disk capacity and explains why the actual free-block count and storage accounting matter."
+    },
+    "CS-2026-S2-Q54": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        39
+      ],
+      "official_answer": "1536 to 1536",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q54-desktop.jpg",
+          "sha256": "58d19856665a987fb54f13ea7733f25045c1e3a39faf3ae5f2facc0430145301"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q54-mobile-dark.jpg",
+          "sha256": "612355cadadcf842181595666e44aca4fbbff3f226b9a8120296dffc2efd092f"
+        }
+      }
+    },
+    "CS-2026-S2-Q55": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        39
+      ],
+      "official_answer": "3 to 3",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q55-desktop.jpg",
+          "sha256": "4e1e8fd330e814cbf613740fe1d07229209418d781267a62c74ea6a8263ded78"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q55-mobile-dark.jpg",
+          "sha256": "33e9b2fb3046296eb62c326881901c8574e38d7c4a7a9512ba76c500dfad2a20"
+        }
+      }
+    },
+    "CS-2026-S2-Q56": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        39
+      ],
+      "official_answer": "128 to 128",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q56-desktop.jpg",
+          "sha256": "27899310ad1fd8d153e16c09c8af30ad82b477d35b9bd705ba52fb606cff3312"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q56-mobile-dark.jpg",
+          "sha256": "fb197c764530a9a6f6d790688220c4de58a7a4ee7e2f9cea1a7a62e83dd77e69"
+        }
+      }
+    },
+    "CS-2026-S2-Q57": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        39
+      ],
+      "official_answer": "2.30 to 2.40",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q57-desktop.jpg",
+          "sha256": "703f27f37db6277c63abfae80a0d7fd0959c40980e1776f2b1c80d3edf386f21"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q57-mobile-dark.jpg",
+          "sha256": "49fc27374d8a45b87e484766473015ae71f4c65c06579cc49e34a5b4be01eab9"
+        }
+      }
+    },
+    "CS-2026-S2-Q58": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        40
+      ],
+      "official_answer": "4 to 4",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q58-desktop.jpg",
+          "sha256": "f099f20ab8d35c8fc354aa98fd08e0bdedad44af949c207fb9ba1ed73cb2f81b"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q58-mobile-dark.jpg",
+          "sha256": "99bf0d446fa7cc13fe3477b18acb2541e7580d3591d9642807f9ce2030cee444"
+        }
+      },
+      "finding": "The existing solution derives the official fourth sending round with a one-MSS initial window and explains the round-count and initial-window assumptions."
+    },
+    "CS-2026-S2-Q59": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        40
+      ],
+      "official_answer": "6 to 6",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q59-desktop.jpg",
+          "sha256": "13e9a8e23c1edb678c6d51af9b7b64a5a18038f9329fbf35fe2709b4045ccd1b"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q59-mobile-dark.jpg",
+          "sha256": "2d31414e0d068e3b07998602364fd0b1dc054d9df0730e142c1a0c9483ca8851"
+        }
+      }
+    },
+    "CS-2026-S2-Q60": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        40
+      ],
+      "official_answer": "9 to 9",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q60-desktop.jpg",
+          "sha256": "5d0eb2b58703a58836ff7b8f8834379a165ef08bce800a458b2f9eae6fc05815"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q60-mobile-dark.jpg",
+          "sha256": "52af4e4f4eb7dafa296dd7f329e294ed7bccd03cc06aef9b78fcda4f31b2fb9d"
+        }
+      }
+    },
+    "CS-2026-S2-Q61": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        41
+      ],
+      "official_answer": "1 to 1",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q61-desktop.jpg",
+          "sha256": "41fd32ee0aed019181a61c7679e67d39c4dc33c7b75deeeb58c3b40fb4f6c7be"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q61-mobile-dark.jpg",
+          "sha256": "fb8439c2de6432c79a65c2aabb76adc54bdc057632b438e37d190b4b1239a9cb"
+        }
+      },
+      "finding": "The C tokens and control flow match. The normalized indentation and split guard body fit the narrow screenshot."
+    },
+    "CS-2026-S2-Q62": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        41
+      ],
+      "official_answer": "48 to 48",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q62-desktop.jpg",
+          "sha256": "92c1341f9daa2ad285c4b8e3df19cc3bbcc5a4cb50889196a0b372383abb2a32"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q62-mobile-dark.jpg",
+          "sha256": "c3a4a5a51fd53de0d53207f963c9b94ff3bdcb8ed9cf6fec20f13f1b13afdca6"
+        }
+      }
+    },
+    "CS-2026-S2-Q63": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        41
+      ],
+      "official_answer": "0.5 to 0.5",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q63-desktop.jpg",
+          "sha256": "32ac48d9ee171c1503e270dfab02e9a1b29086c890750bd2bc0a2bf6968d97fc"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q63-mobile-dark.jpg",
+          "sha256": "82d247937e1fe4c1bc82c5a4ed41dc0e04334045cd47e65c577cd9e25e554f44"
+        }
+      }
+    },
+    "CS-2026-S2-Q64": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        41
+      ],
+      "official_answer": "40 to 40",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q64-desktop.jpg",
+          "sha256": "3cf1b7cd405e00919a09fbefa6c3088f817959213ee91ca32ec516c2db0dfda4"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q64-mobile-dark.jpg",
+          "sha256": "d020bedf3c28dfee4d41f1073d99805e3842efbb90475ff71bc01658e388aaf8"
+        }
+      }
+    },
+    "CS-2026-S2-Q65": {
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "checked_source_pages": [
+        42
+      ],
+      "official_answer": "30 to 30",
+      "solution_checked": true,
+      "captures": {
+        "desktop": {
+          "file": "CS-2026-S2-Q65-desktop.jpg",
+          "sha256": "1def6503afdc132a5318653f8e17e3c4fba16e97834c266816516f3d234e4d96"
+        },
+        "mobile-dark": {
+          "file": "CS-2026-S2-Q65-mobile-dark.jpg",
+          "sha256": "fc688499a8f0ff7fc3748a97aa5b13ba5658619e2ddf79d3d5e1dbf07a69be27"
+        }
+      }
+    }
+  },
+  "local_capture_directory": "audits/compare-shots/CS-2026-S2",
+  "capture_count": 130
+}
