@@ -34,6 +34,12 @@ def _matrix(qid, rows, procs, res, what):
     return [list(r) for r in rows]
 
 
+def _vector(qid, values, resources, label):
+    if len(values) != len(resources) or any(not isinstance(x, int) or x < 0 for x in values):
+        raise SystemExit(f'{qid}: {label} must list one nonnegative integer for each resource')
+    return list(values)
+
+
 class State:
     def __init__(self, qid, spec):
         self.qid, self.res, self.procs = qid, spec['resources'], spec['processes']
@@ -50,15 +56,13 @@ class State:
             self.label = spec.get('need_label', 'Request')
         held = [sum(r[k] for r in self.alloc) for k in range(len(self.res))]
         if 'available' in spec:
-            self.avail = list(spec['available'])
+            self.avail = _vector(qid, spec['available'], self.res, 'Available')
             self.total = [a + b for a, b in zip(held, self.avail)]
         else:
-            self.total = list(spec['total'])
+            self.total = _vector(qid, spec['total'], self.res, 'Total')
             self.avail = [t - x for t, x in zip(self.total, held)]
             if any(x < 0 for x in self.avail):
                 raise SystemExit(f'{qid}: more is allocated than exists')
-        if len(self.avail) != len(self.res):
-            raise SystemExit(f'{qid}: Available does not list every resource')
         # One instance of every resource: notes name the resources instead of giving counts.
         self.single = len(self.res) > 1 and all(t == 1 for t in self.total)
 
@@ -144,7 +148,8 @@ def banker_animation(qid, spec):
         else:
             intro = f"Need = Max − Allocation. Available = {vec(avail)}" + ('' if 'available' in spec else f" (total {vec(st.total)} minus everything allocated)") + '. Start the safety test with Work = Available.'
         if 'request' in chk:
-            p, r = chk['request']['process'], chk['request']['vector']
+            p = chk['request']['process']
+            r = _vector(qid, chk['request']['vector'], st.res, 'Request')
             i = st.procs.index(p)
             steps.append(dict(head='Start', work=avail[:], rows=rows(st, alloc, need), note=intro.replace(' Start the safety test with Work = Available.', '')))
             if not _le(r, need[i]):
@@ -158,6 +163,8 @@ def banker_animation(qid, spec):
                               note=f"{p} asks for {vec(r)}. It is within {p}'s need and within Available, so pretend to grant it: Available = {vec(avail)}, {p}'s allocation = {vec(alloc[i])}, its need = {vec(need[i])}. Now test whether this state is safe."))
         elif 'abort' in chk:
             gone = chk['abort']
+            if len(gone) != len(set(gone)) or not set(gone) <= set(st.procs):
+                raise SystemExit(f'{qid}: each aborted process must be listed once and exist in the state')
             for p in gone:
                 i = st.procs.index(p)
                 avail = [a + x for a, x in zip(avail, alloc[i])]
@@ -173,15 +180,19 @@ def banker_animation(qid, spec):
         else:
             note = f"All done. Not every process can finish, so the state is {word}."
         got = dict(safe=ok, deadlock_free=ok)
+        rolled_back = 'request' in chk and not ok
         if 'request' in chk:
             got['granted'] = ok
-            note += f" The request is granted." if ok else f" The request is not granted: {chk['request']['process']} must wait, and the pretend grant is undone."
+            if ok:
+                note += ' The request is granted.'
+            else:
+                note = f"The tentative state is unsafe. The request is deferred. {chk['request']['process']} waits and the original allocation is restored."
         if 'last' in expect:
             orders = all_orders(st, alloc, need, avail, alive)
             lasts = sorted({o[-1] for o in orders})
             if not orders or lasts != [expect['last']]:
                 raise SystemExit(f'Animation for {qid}: the last process can be {lasts}, not only {expect["last"]}')
-            got['last'] = expect['last']
+            got['last'] = lasts[0]
             note += f" The order is forced: {', '.join(orders[0])} is the only one." if len(orders) == 1 else f" In every possible order {expect['last']} finishes last."
         if 'sequence' in expect:
             got['sequence'] = order
@@ -196,7 +207,9 @@ def banker_animation(qid, spec):
                 raise SystemExit(f'{qid}: unknown banker expectation {k}')
             if got[k] != v:
                 raise SystemExit(f'Animation for {qid} gives {k} = {got[k]}, not the expected {v}')
-        steps.append(dict(head='Finished', work=work, rows=rows(st, alloc, need, order, gone=[p for p in st.procs if p not in alive]), final=True, note=note))
+        if rolled_back:
+            alloc, need, work, order = st.alloc, st.need, st.avail, []
+        steps.append(dict(head='Finished', work=work, rows=rows(st, alloc, need, order, gone=[p for p in st.procs if p not in alive]), final=True, rolled_back=rolled_back, note=note))
         tabs.append(dict(short=chk.get('short', 'Safety'), title=chk.get('title', "Banker's safety test" if not detect else 'Deadlock detection'), steps=steps,
                          cols=['Process', 'Allocation'] + ([] if detect else ['Max']) + [st.label, '']))
     return dict(kind='banker', resources=st.res, label=st.label, schedules=tabs, count=sum(len(t['steps']) for t in tabs))

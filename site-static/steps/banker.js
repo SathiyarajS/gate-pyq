@@ -4,8 +4,10 @@
 window.gateStepsRegister(({h, css}) => {
   css(`
 .bank-table th:first-child{min-width:0}
+.bank-table th,.bank-table td{overflow-wrap:normal}
 .bank-table td.v{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.8rem;letter-spacing:-.02em}
-.bank-table td.st{font-size:.75rem;font-weight:650;color:var(--muted)}
+.bank-table td.st{font-size:.75rem;font-weight:650;color:var(--muted);white-space:normal}
+@media(max-width:520px){.bank-table th,.bank-table td{padding-inline:4px}}
 .bank-table tr.is-running td.st{color:var(--accent)}
 .bank-table tr.is-waits td.st{color:var(--s1)}
 .bank-table tr.is-done td{color:var(--muted)}.bank-table tr.is-done td.st{font-weight:400}
@@ -36,7 +38,11 @@ window.gateStepsRegister(({h, css}) => {
   return {
     banker: (s, data, step) => {
       const work = h('p', 'bank-work');
-      work.append((step.final ? 'Work at the end' : step.head === 'Start' || /^Abort|asks/.test(step.head) ? 'Available' : 'Work') + ' = ', h('b', null, vec(step.work)));
+      let workLabel = 'Work';
+      if (step.rolled_back) workLabel = 'Available after rollback';
+      else if (step.final) workLabel = 'Work at the end';
+      else if (step.head === 'Start' || /^Abort|asks/.test(step.head)) workLabel = 'Available';
+      work.append(workLabel + ' = ', h('b', null, vec(step.work)));
       if (step.next) work.append(' ', h('span', 'arrow', '→'), ' ', h('b', null, vec(step.next)));
       return [h('p', 'steps-time', step.final ? 'Finished' : step.head), h('p', 'steps-policy', 'Resources: ' + data.resources.join(', ')), table(s, step), work];
     },
