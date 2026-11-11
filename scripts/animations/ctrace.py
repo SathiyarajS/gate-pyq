@@ -95,7 +95,11 @@ def tname(t):
     if is_ptr(t):
         return tname(t[1]) + ' *'
     if is_arr(t):
-        return f'{tname(t[1])}[{t[2]}]'
+        dims = []
+        while is_arr(t):
+            dims.append(f'[{t[2]}]')
+            t = t[1]
+        return tname(t) + ''.join(dims)
     return {'uint': 'unsigned int', 'ulong': 'unsigned long', 'long': 'long'}.get(t[0], t[0])
 
 
