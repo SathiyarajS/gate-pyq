@@ -1,0 +1,582 @@
+{
+ "description": "Step-through animations (Number systems: radix conversion, unknown bases, two's complement and sign-magnitude, column arithmetic with carries and overflow, IEEE-754 single precision, Booth recoding). Each entry is simulated at build time by scripts/animations/numbers.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1993-Q22": {
+   "kind": "radix-convert",
+   "numeral": "110.101",
+   "from": 2,
+   "to": 10,
+   "expect": {
+    "result": "6.625"
+   }
+  },
+  "CS-1997-Q39": {
+   "kind": "radix-equation",
+   "equations": [
+    "sqrt(224_r) = 13_r"
+   ],
+   "options": [
+    {
+     "r": 10
+    },
+    {
+     "r": 8
+    },
+    {
+     "r": 5
+    },
+    {
+     "r": 6
+    }
+   ],
+   "expect": {
+    "solutions": [
+     {
+      "r": 5
+     }
+    ]
+   }
+  },
+  "CS-2000-Q6": {
+   "kind": "signed-encode",
+   "value": 43,
+   "bits": 8,
+   "expect": {
+    "bits": "00101011"
+   }
+  },
+  "CS-2001-Q35": {
+   "kind": "signed-encode",
+   "value": -539,
+   "bits": 12,
+   "show": "hex",
+   "expect": {
+    "hex": "DE5"
+   }
+  },
+  "CS-2002-Q15": {
+   "kind": "signed-decode",
+   "patterns": [
+    "1111",
+    "11111",
+    "111111",
+    "10001"
+   ],
+   "test": {
+    "equals": -15
+   },
+   "expect": {
+    "match": [
+     "10001"
+    ]
+   }
+  },
+  "CS-2003-Q9": {
+   "kind": "signed-decode",
+   "patterns": [
+    "11100111",
+    "11100100",
+    "11010111",
+    "11011011"
+   ],
+   "test": {
+    "divisible_by": "11111011"
+   },
+   "expect": {
+    "match": [
+     "11100111"
+    ]
+   }
+  },
+  "CS-2004-Q19": {
+   "kind": "radix-equation",
+   "equations": [
+    "73_x = 54_y"
+   ],
+   "options": [
+    {
+     "x": 8,
+     "y": 16
+    },
+    {
+     "x": 10,
+     "y": 12
+    },
+    {
+     "x": 9,
+     "y": 13
+    },
+    {
+     "x": 8,
+     "y": 11
+    }
+   ],
+   "expect": {
+    "solutions": [
+     {
+      "x": 8,
+      "y": 11
+     }
+    ]
+   }
+  },
+  "CS-2005-Q17": {
+   "kind": "radix-convert",
+   "numeral": "657",
+   "from": 8,
+   "to": 16,
+   "method": "regroup",
+   "expect": {
+    "result": "1AF"
+   }
+  },
+  "CS-2008-Q4": {
+   "kind": "ieee754",
+   "decode": "00000000",
+   "expect": {
+    "class": "zero",
+    "value": "0"
+   }
+  },
+  "CS-2009-Q5": {
+   "kind": "radix-convert",
+   "numeral": "1217",
+   "from": 8,
+   "to": 16,
+   "method": "regroup",
+   "expect": {
+    "result": "028F"
+   }
+  },
+  "CS-2010-Q18": {
+   "kind": "signed-ops",
+   "bits": 16,
+   "operands": {
+    "P": "1111100001111011"
+   },
+   "ops": [
+    "8P"
+   ],
+   "expect": {
+    "overflow": [],
+    "results": {
+     "8P": "C3D8"
+    }
+   }
+  },
+  "CS-2010-Q6": {
+   "kind": "radix-equation",
+   "equations": [
+    "137_b + 276_b = 435_b"
+   ],
+   "then": "731_b + 672_b",
+   "expect": {
+    "solutions": [
+     {
+      "b": 8
+     }
+    ],
+    "then": "1623"
+   }
+  },
+  "CS-2012-Q17": {
+   "kind": "ieee754",
+   "encode": "0.5",
+   "expect": {
+    "exponent": -1,
+    "fraction": "00000000000000000000000"
+   }
+  },
+  "CS-2014-S1-Q18": {
+   "kind": "radix-equation",
+   "equations": [
+    "312_b / 20_b = 13.1_b"
+   ],
+   "expect": {
+    "solutions": [
+     {
+      "b": 5
+     }
+    ]
+   }
+  },
+  "CS-2014-S2-Q18": {
+   "kind": "radix-equation",
+   "equations": [
+    "123_5 = x8_y"
+   ],
+   "expect": {
+    "count": 3
+   }
+  },
+  "CS-2014-S2-Q55": {
+   "kind": "ieee754",
+   "encode": "-14.25",
+   "expect": {
+    "hex": "C1640000"
+   }
+  },
+  "CS-2014-S3-Q10": {
+   "kind": "base-arith",
+   "base": 8,
+   "a": "7526",
+   "b": "4364",
+   "op": "-",
+   "intro": "Since 7526₈ − Y₈ = 4364₈, Y = 7526₈ − 4364₈. Subtract column by column in base 8, borrowing 8 when a digit is too small.",
+   "expect": {
+    "result": "3142"
+   }
+  },
+  "CS-2015-S3-Q59": {
+   "kind": "radix-equation",
+   "equations": [
+    "43_x = y3_8"
+   ],
+   "expect": {
+    "count": 5
+   }
+  },
+  "CS-2016-S1-Q17": {
+   "kind": "signed-decode",
+   "patterns": [
+    "1111111111110101"
+   ],
+   "expect": {
+    "values": [
+     -11
+    ]
+   }
+  },
+  "CS-2017-S2-Q11": {
+   "kind": "radix-convert",
+   "numeral": "BCA9",
+   "from": 16,
+   "to": 8,
+   "method": "regroup",
+   "expect": {
+    "result": "136251"
+   }
+  },
+  "CS-2017-S2-Q22": {
+   "kind": "ieee754",
+   "bits": "00111110011011010000000000000000",
+   "options": {
+    "1.45×10¹": "14.5",
+    "1.45×10⁻¹": "0.145",
+    "2.27×10⁻¹": "0.227",
+    "2.27×10¹": "22.7"
+   },
+   "expect": {
+    "closest": "2.27×10⁻¹"
+   }
+  },
+  "CS-2017-S2-Q34": {
+   "kind": "radix-equation",
+   "equations": [
+    "5^2 - 13_b*5 + 36_b = 0",
+    "6^2 - 13_b*6 + 36_b = 0"
+   ],
+   "labels": [
+    "x = 5",
+    "x = 6"
+   ],
+   "title": "Roots 5 and 6 of x² − 13x + 36 = 0, coefficients in base b",
+   "expect": {
+    "solutions": [
+     {
+      "b": 8
+     }
+    ]
+   }
+  },
+  "CS-2019-Q14": {
+   "kind": "signed-encode",
+   "value": -28,
+   "bits": 16,
+   "expect": {
+    "bits": "1111111111100100"
+   }
+  },
+  "CS-2020-Q39": {
+   "kind": "ieee754",
+   "registers": {
+    "R1": "42200000",
+    "R2": "C1200000"
+   },
+   "compute": "R1/R2",
+   "expect": {
+    "hex": "C0800000"
+   }
+  },
+  "CS-2021-S1-Q16": {
+   "kind": "radix-convert",
+   "numeral": "210",
+   "from": 3,
+   "to": 16,
+   "expect": {
+    "result": "15"
+   }
+  },
+  "CS-2021-S1-Q34": {
+   "kind": "ieee754",
+   "fields": {
+    "s": "1",
+    "e": "10000001",
+    "f": "11110000000000000000000"
+   },
+   "expect": {
+    "value": "-7.75"
+   }
+  },
+  "CS-2021-S2-Q28": {
+   "kind": "radix-convert",
+   "numeral": "0.1101",
+   "from": 2,
+   "to": 10,
+   "pattern": "0.8xy5",
+   "expect": {
+    "result": "0.8125",
+    "sum": 3
+   }
+  },
+  "CS-2022-Q18": {
+   "kind": "signed-ops",
+   "bits": 4,
+   "ops": [
+    "1011+1110",
+    "1100+1010",
+    "0011+0100",
+    "1001+1111"
+   ],
+   "expect": {
+    "overflow": [
+     "1100+1010"
+    ]
+   }
+  },
+  "CS-2022-Q41": {
+   "kind": "ieee754",
+   "registers": {
+    "A": "C1400000",
+    "B": "42100000",
+    "C": "41400000"
+   },
+   "statements": [
+    "A+C=0",
+    "C=A+B",
+    "B=3C",
+    "B−C>0"
+   ],
+   "expect": {
+    "false": [
+     "C=A+B"
+    ]
+   }
+  },
+  "CS-2023-Q32": {
+   "kind": "radix-convert",
+   "numeral": "132",
+   "from": 4,
+   "to": 5,
+   "expect": {
+    "result": "110"
+   }
+  },
+  "CS-2024-S1-Q13": {
+   "kind": "signed-ops",
+   "bits": 5,
+   "operands": {
+    "A": "01010",
+    "B": "11010"
+   },
+   "ops": [
+    "A+B",
+    "A−B",
+    "B−A",
+    "2B"
+   ],
+   "expect": {
+    "overflow": [
+     "A−B"
+    ]
+   }
+  },
+  "CS-2024-S2-Q14": {
+   "kind": "ieee754",
+   "choices": {
+    "exponent 01111111, fraction all 1": {
+     "s": "0",
+     "e": "01111111",
+     "f": "11111111111111111111111"
+    },
+    "exponent 11111110, fraction all 1": {
+     "s": "0",
+     "e": "11111110",
+     "f": "11111111111111111111111"
+    },
+    "exponent 11111111, fraction all 1": {
+     "s": "0",
+     "e": "11111111",
+     "f": "11111111111111111111111"
+    },
+    "exponent 01111111, fraction all 0": {
+     "s": "0",
+     "e": "01111111",
+     "f": "00000000000000000000000"
+    }
+   },
+   "expect": {
+    "largest": "exponent 11111110, fraction all 1"
+   }
+  },
+  "CS-2024-S2-Q49": {
+   "kind": "radix-compare",
+   "target": [
+    "224",
+    5
+   ],
+   "options": [
+    [
+     "64",
+     10
+    ],
+    [
+     "100",
+     8
+    ],
+    [
+     "50",
+     16
+    ],
+    [
+     "121",
+     7
+    ]
+   ],
+   "expect": {
+    "equal": [
+     [
+      "64",
+      10
+     ],
+     [
+      "100",
+      8
+     ],
+     [
+      "121",
+      7
+     ]
+    ]
+   }
+  },
+  "CS-2025-S1-Q25": {
+   "kind": "signed-decode",
+   "patterns": [
+    "10001010",
+    "11111010",
+    "1000000000001010",
+    "1111111111111010"
+   ],
+   "test": {
+    "equals": -6
+   },
+   "expect": {
+    "match": [
+     "11111010",
+     "1111111111111010"
+    ]
+   }
+  },
+  "CS-2025-S2-Q32": {
+   "kind": "booth",
+   "multiplicand": "1100 1101 1110 1101",
+   "multiplier": "1010 0100 1010 1010",
+   "expect": {
+    "count": 13
+   }
+  },
+  "CS-2025-S2-Q49": {
+   "kind": "ieee754",
+   "registers": {
+    "X": "C1100000",
+    "Y": "40C00000",
+    "Z": "41400000"
+   },
+   "statements": [
+    "4(X+Y)+Z=0",
+    "2Y−Z=0",
+    "4X+3Z=0",
+    "X+Y+Z=0"
+   ],
+   "expect": {
+    "true": [
+     "4(X+Y)+Z=0",
+     "2Y−Z=0",
+     "4X+3Z=0"
+    ]
+   }
+  },
+  "CS-2026-S1-Q22": {
+   "kind": "signed-ops",
+   "bits": 8,
+   "repr": "sign-magnitude",
+   "operands": {
+    "X": "10110100",
+    "Y": "01001100"
+   },
+   "ops": [
+    "X+Y",
+    "X−Y",
+    "−X+Y",
+    "−X−Y"
+   ],
+   "expect": {
+    "overflow": [
+     "X−Y",
+     "−X+Y"
+    ]
+   }
+  },
+  "CS-2026-S1-Q36": {
+   "kind": "ieee754",
+   "registers": {
+    "X": "35C00000",
+    "Y": "34A00000"
+   },
+   "compute": "X+Y",
+   "expect": {
+    "hex": "35E80000"
+   }
+  },
+  "CS-2026-S2-Q28": {
+   "kind": "signed-ops",
+   "bits": 4,
+   "operands": {
+    "N1": "1011",
+    "N2": "1101",
+    "N3": "1010",
+    "N4": "1001"
+   },
+   "ops": [
+    "N1+N2",
+    "N2+N3",
+    "N3−N4",
+    "N1+N4"
+   ],
+   "expect": {
+    "overflow": [
+     "N2+N3",
+     "N1+N4"
+    ]
+   }
+  },
+  "CS-2026-S2-Q34": {
+   "kind": "ieee754",
+   "decode": "C2710000",
+   "expect": {
+    "value": "-60.25"
+   }
+  }
+ }
+}
