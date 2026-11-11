@@ -141,3 +141,54 @@ def finish_offline(out, core_files, sw_source):
     (out / 'offline/core.json').write_text(json.dumps({'version': version, 'files': core_files}))
     (out / 'sw.js').write_text(sw_source.replace('__CORE_VERSION__', version))
     return version
+
+
+def load_repeats(root, questions):
+    """data/repeats.json -> {question_id: {'group': [ids, newest first], 'others': [(id, kind), ...]}}.
+
+    Pairs are joined into groups. A question's relation to another member is the
+    recorded pair's kind when the two were paired directly; otherwise "same" only
+    if every link between them is "same", else "numbers".
+    """
+    path = root / 'data/repeats.json'
+    if not path.exists():
+        return {}
+    by_id = {q['question_id']: q for q in questions}
+    links = collections.defaultdict(dict)
+    for pair in json.loads(path.read_text())['pairs']:
+        a, b, kind = pair['a'], pair['b'], pair['kind']
+        if a not in by_id or b not in by_id: raise SystemExit(f'data/repeats.json names an unknown question: {a} / {b}')
+        if kind not in ('same', 'numbers'): raise SystemExit(f'data/repeats.json: unknown kind {kind!r}')
+        if by_id[a]['paper_id'] == by_id[b]['paper_id']: raise SystemExit(f'data/repeats.json pairs two questions from one paper: {a} / {b}')
+        if b in links[a]: raise SystemExit(f'data/repeats.json lists a pair twice: {a} / {b}')
+        links[a][b] = links[b][a] = kind
+
+    def relation(start, target):
+        # Breadth-first; prefer an all-"same" path.
+        best = {start: 'same'}; queue = [start]
+        while queue:
+            node = queue.pop(0)
+            for nxt, kind in links[node].items():
+                rel = 'same' if best[node] == 'same' and kind == 'same' else 'numbers'
+                if nxt not in best or (best[nxt] == 'numbers' and rel == 'same'):
+                    best[nxt] = rel; queue.append(nxt)
+        return best[target]
+
+    def newest_first(ids):
+        def key(qid):
+            q = by_id[qid]
+            return (-q['year'], q['paper_id'], [int(n) for n in __import__('re').findall(r'\d+', q['source_question_number'])])
+        return sorted(ids, key=key)
+
+    result, seen = {}, set()
+    for start in links:
+        if start in seen: continue
+        group, stack = set(), [start]
+        while stack:
+            node = stack.pop()
+            if node in group: continue
+            group.add(node); stack.extend(links[node])
+        seen |= group; ordered = newest_first(group)
+        for qid in ordered:
+            result[qid] = {'group': ordered, 'others': [(o, links[qid].get(o) or relation(qid, o)) for o in ordered if o != qid]}
+    return result

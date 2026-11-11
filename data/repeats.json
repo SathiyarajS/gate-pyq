@@ -1,0 +1,151 @@
+{
+ "description": "Questions that GATE asked again. Each pair was found by comparing this archive's question paraphrases and then checked by reading both questions. Only two kinds are recorded; questions that merely share a topic or method are not paired.",
+ "kinds": {
+  "same": "The same question asked again; wording, option order or format may differ.",
+  "numbers": "The same setup and the same question, with only the given values changed."
+ },
+ "reviewed_on": "2026-11-11",
+ "coverage": "Not exhaustive: repeats whose paraphrases are worded very differently can be missed.",
+ "pairs": [
+  {
+   "a": "CS-1992-Q11",
+   "b": "CS-1998-Q43",
+   "kind": "same"
+  },
+  {
+   "a": "CS-2005-Q34",
+   "b": "CS-2014-S2-Q22",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1992-Q31",
+   "b": "CS-1996-Q41",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1998-Q93",
+   "b": "CS-1999-Q64",
+   "kind": "same"
+  },
+  {
+   "a": "CS-2007-Q64",
+   "b": "CS-2021-S1-Q42",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1992-Q22",
+   "b": "CS-1998-Q29",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1992-Q36",
+   "b": "CS-2014-S3-Q61",
+   "kind": "same"
+  },
+  {
+   "a": "CS-2000-Q71",
+   "b": "CS-2014-S2-Q51",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1998-Q72",
+   "b": "CS-2007-Q26",
+   "kind": "same"
+  },
+  {
+   "a": "CS-2006-Q66",
+   "b": "CS-2019-Q49",
+   "kind": "same"
+  },
+  {
+   "a": "CS-1994-Q25",
+   "b": "CS-2011-Q25",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1995-Q17",
+   "b": "CS-2015-S2-Q23",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2015-S2-Q23",
+   "b": "CS-2015-S3-Q21",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2006-Q51",
+   "b": "CS-2017-S2-Q40",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2008-Q19",
+   "b": "CS-2017-S2-Q25",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2016-S2-Q54",
+   "b": "CS-2021-S1-Q49",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1993-Q36",
+   "b": "CS-1996-Q45",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2014-S3-Q5",
+   "b": "CS-2015-S1-Q10",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1998-Q1",
+   "b": "CS-2025-S1-Q8",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1992-Q21",
+   "b": "CS-1998-Q32",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2012-Q47",
+   "b": "CS-2015-S2-Q58",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2014-S2-Q59",
+   "b": "CS-2015-S2-Q14",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2018-Q29",
+   "b": "CS-2020-Q28",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2012-Q21",
+   "b": "CS-2025-S1-Q41",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1993-Q21",
+   "b": "CS-2004-Q22",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2014-S1-Q50",
+   "b": "CS-2026-S2-Q30",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-1997-Q47",
+   "b": "CS-2014-S3-Q41",
+   "kind": "numbers"
+  },
+  {
+   "a": "CS-2002-Q40",
+   "b": "CS-2008-Q22",
+   "kind": "numbers"
+  }
+ ]
+}

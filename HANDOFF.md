@@ -164,7 +164,7 @@ python scripts/build_pdfs.py --release   # 26 PDFs into _site/pdf (a few minutes
   - Drafts exist for CS-2026-S1/S2 and CS-2025-S1/S2 (260 questions), none verified.
   - CS-2024 drafts are in `handoff/2024-drafts/`.
   - About 3,016 questions have nothing yet.
-- **Study aids:** `/weightage/` (marks by subject and topic, 2003 on), syllabus flags from `data/syllabus.json` (topic-level, against the official GATE 2027 CS syllabus; update that file when a new syllabus is published), and `/offline/` (service worker `templates/site/sw.js`, per-subject and per-paper offline packs). The logic is in `scripts/site_features.py`.
+- **Study aids:** `/weightage/` (marks by subject and topic, 2003 on), syllabus flags from `data/syllabus.json` (topic-level, against the official GATE 2027 CS syllabus; update that file when a new syllabus is published), and `/offline/` (service worker `templates/site/sw.js`, per-subject and per-paper offline packs). The logic is in `scripts/site_features.py`. Repeated questions are recorded in `data/repeats.json` (pairs of kind `same` or `numbers`, each checked by reading both questions); they drive the “Also asked” line on each question and the per-subject `/unique/` view. Add a pair there when a repeat is found.
 - **Checks:** `scripts/validate.py`, 31 unit tests and the KaTeX check pass on `main`.
 - **Background:** `CODEX_INSTRUCTIONS.md` has the full original spec and history. `docs/TRANSCRIPTIONS.md` defines the transcription format and verification rules.
 - **If a browser won't run locally:** pushing transcription changes to `main` also triggers `.github/workflows/review-shots.yml`, which publishes the same screenshots to the `review-shots` branch (`git fetch origin review-shots`).

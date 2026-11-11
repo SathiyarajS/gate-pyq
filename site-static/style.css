@@ -33,3 +33,5 @@
 .packs{list-style:none;padding:0;margin:14px 0 30px;max-width:780px}.packs li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 0;border-top:1px solid var(--line)}.pack-name{flex:1 1 15rem;display:grid}.pack-name small,.pack-state{color:var(--muted);font-size:.8rem}.packs progress{width:8rem;accent-color:var(--accent)}.packs button{padding:.35rem .7rem;font-size:.85rem}#offline.busy button{opacity:.5;pointer-events:none}
 @media(max-width:760px){.bars li,.topic-bars li{grid-template-columns:minmax(0,1fr) 3rem}.bar-name{grid-column:1/-1}.bars small{grid-column:1/-1;margin-top:-2px}.bars{gap:14px}}
 @media print{.weight,.pointers{display:none!important}}
+/* Repeated questions: a quiet line under the tools, and the switch to the unique view. */
+.also-asked{font-size:.85rem;margin:-4px 0 10px;color:var(--muted)}.also-asked>span{font-weight:650;color:var(--ink);margin-right:6px}.also-asked small{font-size:.8rem}.view-switch{font-size:.9rem}.view-switch a{font-weight:650}

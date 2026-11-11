@@ -77,3 +77,33 @@ class OfflineTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class RepeatsTest(unittest.TestCase):
+    def build(self, pairs):
+        qs = [{'question_id': i, 'paper_id': 'P' + i, 'year': y, 'source_question_number': '1'} for i, y in (('a', 2000), ('b', 2010), ('c', 2020), ('d', 2015))]
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / 'data').mkdir()
+            (Path(tmp) / 'data/repeats.json').write_text(json.dumps({'pairs': [{'a': a, 'b': b, 'kind': k} for a, b, k in pairs]}))
+            return site_features.load_repeats(Path(tmp), qs)
+
+    def test_groups_newest_first_with_relations(self):
+        r = self.build([('a', 'b', 'same'), ('b', 'c', 'numbers')])
+        self.assertEqual(r['a']['group'], ['c', 'b', 'a'])
+        self.assertEqual(dict(r['a']['others']), {'b': 'same', 'c': 'numbers'})
+        self.assertNotIn('d', r)
+
+    def test_same_only_through_same_links(self):
+        r = self.build([('a', 'b', 'same'), ('b', 'c', 'same')])
+        self.assertEqual(dict(r['a']['others']), {'b': 'same', 'c': 'same'})
+
+    def test_bad_pairs_are_rejected(self):
+        for pairs in ([('a', 'zz', 'same')], [('a', 'b', 'topic')], [('a', 'b', 'same'), ('b', 'a', 'numbers')]):
+            with self.assertRaises(SystemExit):
+                self.build(pairs)
+
+    def test_repository_file_is_valid(self):
+        qs = json.loads((ROOT / 'data/questions.json').read_text())
+        years = {p['paper_id']: p['year'] for p in json.loads((ROOT / 'data/papers.json').read_text())}
+        for q in qs: q['year'] = years[q['paper_id']]
+        self.assertTrue(site_features.load_repeats(ROOT, qs))
