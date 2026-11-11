@@ -60,12 +60,12 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git switch -c "$branch"
-          git add -- "data/imports/$YEAR/"
+          git add -- "data/imports/$YEAR/" sources/web/
           git diff --cached --check
           git commit -m "Prepare GATE CS $YEAR source and key inventory for review"
           git push origin "HEAD:refs/heads/$branch"
           {
-            echo "Prepared staged paper and question records in \`data/imports/$YEAR/\`."
+            echo "Prepared staged paper and question records in \`data/imports/$YEAR/\`, and saved the official PDFs under \`sources/web/\`."
             echo
             echo 'Ask Codex to follow [New-year import and review](docs/NEW_YEAR_IMPORT.md) on this branch.'
             echo 'Check the official paper and final key for each session, solve and independently review each question,'

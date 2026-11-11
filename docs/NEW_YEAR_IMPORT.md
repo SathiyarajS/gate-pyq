@@ -9,7 +9,7 @@ Run **Prepare a new GATE CS year** from Actions on `main` once the organizing in
 ]
 ```
 
-Use set 1 for a single paper. The importer supports the modern digital format with continuous question numbering and a text-extractable key table. It records both PDF hashes, physical pages, exam sessions, marks, types, and key text. A mismatched numbering scheme, missing rows, or unsupported key format stops the import for investigation. Source and final-key provenance still require independent verification.
+Use set 1 for a single paper. The importer supports the modern digital format with continuous question numbering and a text-extractable key table. It saves both PDFs under `sources/web/<host>/<path>`, as for earlier years, and records their paths and hashes, physical pages, exam sessions, marks, types, and key text. A mismatched numbering scheme, missing rows, or unsupported key format stops the import for investigation. Source and final-key provenance still require independent verification.
 
 The workflow pushes `import/gate-cs-<year>` and opens a draft PR targeting `main`. Its files under `data/imports/<year>/` are review inputs. The site only reads the canonical inventory and question records.
 

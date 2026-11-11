@@ -48,6 +48,15 @@ def fetch_pdf(url):
     return content
 
 
+def source_path(url):
+    """Where a fetched source PDF is kept, mirroring its URL as in sources/web/."""
+    parts = urlsplit(url)
+    path = Path("sources/web") / parts.hostname / parts.path.lstrip("/")
+    if ".." in path.parts or path.suffix.lower() != ".pdf":
+        raise ValueError(f"Cannot store {url} as a source PDF.")
+    return path
+
+
 def key_rows(document, variant):
     rows = {}
     sessions = set()
@@ -118,6 +127,7 @@ def prepare_session(year, variant, multiple, paper_url, key_url, paper_pdf, key_
     inventory = {
         "paper_id": paper_id, "year": year, "paper_variant": variant, "exam_session": session,
         "paper_url": paper_url, "key_url": key_url,
+        "paper_path": str(source_path(paper_url)), "key_path": str(source_path(key_url)),
         "paper_sha256": hashlib.sha256(paper_pdf).hexdigest(),
         "key_sha256": hashlib.sha256(key_pdf).hexdigest(),
         "expected_question_count": len(rows),
@@ -173,7 +183,7 @@ def main():
         if output.exists():
             raise ValueError(f"Import already exists at {output.relative_to(ROOT)}.")
         sessions = sessions_from_json(args.sessions)
-        inventory, questions = [], []
+        inventory, questions, files = [], [], {}
         seen_hashes = {
             paper[field] for paper in current for field in ("paper_sha256", "key_sha256")
             if paper.get(field)
@@ -181,10 +191,11 @@ def main():
         seen_sessions = set()
         for entry in sessions:
             paper_url, key_url = entry["paper_url"], entry["key_url"]
+            paper_pdf, key_pdf = fetch_pdf(paper_url), fetch_pdf(key_url)
             paper, rows = prepare_session(
-                args.year, entry["set"], len(sessions) > 1, paper_url, key_url,
-                fetch_pdf(paper_url), fetch_pdf(key_url),
+                args.year, entry["set"], len(sessions) > 1, paper_url, key_url, paper_pdf, key_pdf,
             )
+            files[paper["paper_path"]], files[paper["key_path"]] = paper_pdf, key_pdf
             hashes = {paper["paper_sha256"], paper["key_sha256"]}
             if len(hashes) != 2 or hashes & seen_hashes or paper["exam_session"] in seen_sessions:
                 raise ValueError("The supplied PDFs repeat an archived document, a supplied document, or an exam session.")
@@ -192,6 +203,12 @@ def main():
             seen_sessions.add(paper["exam_session"])
             inventory.append(paper)
             questions.extend(rows)
+        for path in files:
+            if (ROOT / path).exists():
+                raise ValueError(f"{path} already exists. Check that this is a new paper.")
+        for path, content in files.items():
+            (ROOT / path).parent.mkdir(parents=True, exist_ok=True)
+            (ROOT / path).write_bytes(content)
         output.mkdir(parents=True)
         for name, records in (("papers", inventory), ("questions", questions)):
             (output / f"{name}.json").write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n")

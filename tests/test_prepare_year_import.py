@@ -6,7 +6,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from prepare_year_import import official_url, prepare_session, sessions_from_json
+from prepare_year_import import official_url, prepare_session, sessions_from_json, source_path
 
 
 SOURCES = ROOT / "sources/web/gate2026.iitg.ac.in/doc/download/2026"
@@ -52,6 +52,12 @@ def test_other_set_key_is_rejected():
 def test_only_official_https_sources_are_accepted(url):
     with pytest.raises(ValueError):
         official_url(url)
+
+
+def test_sources_are_kept_at_their_url_path():
+    assert str(source_path("https://gate2027.iitr.ac.in/doc/QPs/CS1.pdf")) == "sources/web/gate2027.iitr.ac.in/doc/QPs/CS1.pdf"
+    with pytest.raises(ValueError):
+        source_path("https://gate2027.iitr.ac.in/download?id=1")
 
 
 def test_duplicate_session_sources_are_rejected():
