@@ -61,6 +61,7 @@ jobs:
           python -m pytest -q tests > "$RUNNER_TEMP/pytest.log" 2>&1 &
           tests=$!
           node tests/test_transcription_math.js
+          node tests/test_anim_recursion_player.js
           python scripts/build_site.py --release
           status=0; wait $tests || status=$?
           cat "$RUNNER_TEMP/pytest.log"

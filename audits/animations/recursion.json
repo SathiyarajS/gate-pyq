@@ -1,5 +1,5 @@
 {
-  "status": "author-audited-awaiting-independent-review",
+  "status": "independently-reviewed",
   "scope": "Recorded question_text inputs, official_answer or derived_answer content, solution and DISCREPANCIES.md; not original-PDF transcription verification. All questions view and shared core unchanged.",
   "entries": [
     {
@@ -294,15 +294,23 @@
     "CS-2023-Q36": "Key A names a source activation-tree figure; exact keyed option content is absent from question_text.",
     "CS-2024-S1-Q19": "Typographic character delimiters cause literal compilation failure; cannot silently repair the source to animate the intended answer."
   },
-  "browser_review": "Pending parent-coordinated permitted route. No denied socket, file URL, or browser launch was retried.",
+  "browser_review": "Done in the independent review (see independent_review.browser).",
   "checks": {
     "focused_pytest": "41 passed",
     "renderer_dom_smoke": "1353 frames passed at widths 280, 390, 900; not a browser geometry test",
     "javascript_syntax": "passed",
     "validate": "passed",
-    "browser_review": "Blocked: shared Chromium process_singleton_posix.cc socket creation denied with Operation not permitted; no retry or file URL workaround attempted. Independent visual QA remains pending.",
+    "browser_review": "Done in the independent review.",
     "full_pytest": "216 passed, 1 skipped, 301 subtests passed",
     "katex": "passed",
-    "release_build": "Running at author checkpoint; final outcome reported separately."
+    "release_build": "Passes (independent review)."
+  },
+  "independent_review": {
+    "date": "2026-11-11",
+    "by": "separate session (did not write this family)",
+    "answers": "All 25 expectations equal official_answer, or derived_answer where no key exists; MCQ expected content matches the keyed option text.",
+    "discrepancies": "CS-1997-Q56/Q57 NESTED-MARKS notes concern marks only, not the result; kept.",
+    "browser": "Players for CS-2015-S2-Q24, CS-2017-S1-Q45 and CS-2026-S1-Q61 stepped through at 390x900 in Chromium: readable, no sideways scroll, no JS errors. check_study_views_browser.py passes.",
+    "change": "_search parses the call once (CS-2026-S1-Q61 simulation 10 s -> 7 s); results unchanged."
   }
 }

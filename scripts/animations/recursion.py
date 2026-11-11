@@ -1305,10 +1305,17 @@ def _search(prog, sr):
         if f.get('_statics') or any(p['ptr'] or p['mode'] == 'ref' for p in f['_params']):
             raise SystemExit(f'{prog.qid}: the search needs functions of plain values')
     n = sr['from']
+    # Parse the call once. An argument that is just the search variable takes n directly;
+    # anything else is evaluated from the call text with n substituted, as before.
+    template = parse(sr['call'], prog.pascal)
+    direct = all(a.k == 'name' and a.a == sr['var'] for a in template.b)
     while n < 10 ** 6:
         m.calls = 0
-        e = parse(sr['call'].replace(sr['var'], str(n)), prog.pascal)
-        args = [m.ev(a, None, {}) for a in e.b]
+        if direct:
+            e, args = template, [n] * len(template.b)
+        else:
+            e = parse(sr['call'].replace(sr['var'], str(n)), prog.pascal)
+            args = [m.ev(a, None, {}) for a in e.b]
         if m.out:
             raise SystemExit(f'{prog.qid}: the search needs functions that do not print')
         if m.invoke(prog.funcs[e.a], args, [], None) == sr['value']:
