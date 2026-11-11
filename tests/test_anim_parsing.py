@@ -100,3 +100,57 @@ class ParsingTest(unittest.TestCase):
         self.assertIsNone(parsing.smallest_tree(g, list('babba')))
         with self.assertRaises(SystemExit):
             parsing.Trees(g, list('ab')).count('S', 0, 2)
+
+    def test_membership_proof_rows_are_not_compacted_as_trace_rows(self):
+        spec = dict(kind='parse-trees', grammar=['S -> a'],
+                    do=[{'trees': '', 'generated_only': True}], expect={'generated': {'': False}})
+        schedule = run(spec)['schedules'][0]
+        self.assertNotIn('cols', schedule)
+        self.assertEqual(schedule['steps'][-1]['view'], 'pieces')
+        self.assertEqual(schedule['steps'][-1]['rows'], [['S', []]])
+
+    def test_trace_rows_are_compacted_without_losing_the_last_row(self):
+        spec = dict(kind='parse-sr', grammar=['S -> a'], do=[{'sr': 'a'}], expect={'reductions': 1})
+        schedule = run(spec)['schedules'][0]
+        self.assertEqual(schedule['cols'], ['Stack', 'Input', 'Action'])
+        self.assertEqual(schedule['rows'][-1]['action'], 'accept')
+        self.assertEqual([s['n'] for s in schedule['steps']], [1, 2, 3, 4])
+        self.assertTrue(all('rows' not in step for step in schedule['steps']))
+
+    def test_predictive_trace_cannot_use_the_complete_input_as_an_oracle(self):
+        # A unique parse tree is not sufficient for one-token predictive parsing.
+        g = parsing.Grammar(['S -> a b | a c'])
+        with self.assertRaisesRegex(SystemExit, 'LL\\(1\\)'):
+            parsing.do_ll(g, {'ll': 'a b'}, [], {})
+
+    def test_missing_and_unknown_expectations_are_rejected(self):
+        spec = dict(kind='parse-sets', grammar=['S -> a'], do=['sets'])
+        with self.assertRaises(SystemExit):
+            run(spec)
+        spec['expect'] = {'typo': 1}
+        with self.assertRaises(SystemExit):
+            run(spec)
+
+    def test_all_retained_specs_serialize_and_expose_player_contract(self):
+        import json
+        specs = json.loads((ROOT / 'data/animations/parsing.json').read_text())['questions']
+        self.assertEqual(len(specs), 34)
+        views = set()
+        for qid, spec in specs.items():
+            with self.subTest(qid=qid):
+                result = json.loads(json.dumps(parsing.parse_animation(qid, spec)))
+                self.assertEqual(result['count'], sum(len(s['steps']) for s in result['schedules']))
+                for schedule in result['schedules']:
+                    self.assertTrue(schedule['steps'][-1]['final'])
+                    for step in schedule['steps']:
+                        views.add(step['view'])
+                        self.assertTrue(step['note'])
+                        if step['view'] == 'sr':
+                            self.assertIn('cols', schedule)
+                            self.assertLessEqual(step['n'], len(schedule['rows']))
+                        if step['view'] == 'pieces':
+                            self.assertIn('rows', step)
+                        if step['view'] == 'lr':
+                            for ref in step['cards']:
+                                self.assertLess(ref['c'], len(schedule['cards']))
+        self.assertEqual(views, {'sets', 'll1', 'lr', 'sr', 'derive', 'pieces'})

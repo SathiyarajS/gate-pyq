@@ -5,8 +5,9 @@
 // Loaded on demand by assets/steps.js; the data comes from scripts/animations/parsing.py (checked against the answer at build time).
 window.gateStepsRegister(({h, css}) => {
   css(`
+.prs-sets th:first-child,.prs-grid th:first-child,.prs-trace th:first-child{min-width:0}
 .prs-gram{display:flex;flex-wrap:wrap;gap:4px 6px;list-style:none;margin:2px 0 8px;padding:0}
-.prs-gram li{margin:0;padding:1px 7px;border:1px solid var(--line);border-radius:4px;background:var(--panel);font-size:.82rem;white-space:nowrap;overflow-wrap:normal}
+.prs-gram li{margin:0;padding:1px 7px;border:1px solid var(--line);border-radius:4px;background:var(--panel);font-size:.82rem;white-space:normal;overflow-wrap:anywhere;max-width:100%}
 .prs-gram li.on{border-color:var(--accent);background:color-mix(in oklab,var(--accent) 18%,var(--panel));font-weight:700}
 .prs-set{display:inline-flex;flex-wrap:wrap;gap:0;align-items:center}
 .prs-set b{font-weight:400;color:var(--muted)}
@@ -31,7 +32,7 @@ window.gateStepsRegister(({h, css}) => {
 .prs-card h4{margin:0;font-size:.8rem;font-weight:800;display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
 .prs-card h4 small{font-weight:650;color:var(--s1)}
 .prs-card ul{list-style:none;margin:0;padding:0}
-.prs-card li{margin:0;white-space:nowrap;overflow-wrap:normal}
+.prs-card li{margin:0;white-space:normal;overflow-wrap:anywhere;max-width:100%}
 .prs-card li.k{font-weight:650}
 .prs-card li.more{color:var(--muted);font-size:.74rem}
 .prs-card .go{color:var(--muted);font-size:.72rem;margin-top:1px;white-space:normal}

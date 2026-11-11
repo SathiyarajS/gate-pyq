@@ -478,7 +478,7 @@ def _cards(g, states, show=(), src=None, cur=None):
 def _compact(sched):
     """Store what every step shares once per tab: trace rows, item-set cards and the sets beside an LL(1) table."""
     steps = sched['steps']
-    if any('rows' in st for st in steps):
+    if steps and all(st.get('view') == 'sr' for st in steps):
         rows = steps[-1]['rows']
         sched['cols'] = steps[-1]['cols']
         for st in steps:
@@ -1206,6 +1206,8 @@ def do_ll(g, task, steps, out):
         f, nullable = g.first_seq(r, first)
         for t in f | (follow[a] if nullable else set()):
             table.setdefault((a, t), []).append(i)
+    if any(len(cell) > 1 for cell in table.values()):
+        raise SystemExit('Predictive tracing requires an LL(1) grammar')
     cols = ['Stack', 'Input', 'Action', 'Printed']
     rows, printed = [], []
     head = 'Predictive parse'

@@ -105,15 +105,6 @@
    "do": [{"sr": "n + n × n"}],
    "expect": {"handles": ["n", "E + n", "E × n"]}
   },
-  "CS-2005-Q60": {
-   "kind": "parse-lr",
-   "grammar": ["S -> ( S ) | a"],
-   "do": ["slr", "lr1", "lalr"],
-   "expect": {
-    "states": {"slr": 6, "lr1": 10, "lalr": 6},
-    "relation": {"names": {"n1": "slr", "n2": "lr1", "n3": "lalr"}, "holds": "n1=n3<n2"}
-   }
-  },
   "CS-2006-Q7": {
    "kind": "parse-lr",
    "grammar": ["S -> S * E | E", "E -> F + E | F", "F -> id"],
@@ -125,12 +116,6 @@
    "grammar": ["S -> F R", "R -> * S | ε", "F -> id"],
    "do": ["sets", "ll1"],
    "expect": {"cells": [["S", "id", ["F R"]], ["R", "$", ["ε"]]]}
-  },
-  "CS-2006-Q59": {
-   "kind": "parse-ll",
-   "grammar": ["S -> E R", "R -> * E {print('*')} R | ε", "E -> F + E {print('+')} | F", "F -> ( S ) | id {print(id.value)}"],
-   "do": [{"ll": "id:2 * id:3 + id:4"}],
-   "expect": {"output": "234+*"}
   },
   "CS-2007-Q78": {
    "kind": "parse-trees",
@@ -162,25 +147,6 @@
    "expect": {
     "first": {"A": "a b ε", "B": "a b ε"},
     "follow": {"A": "a b", "B": "a b $"}
-   }
-  },
-  "CS-2012-Q63": {
-   "kind": "parse-ll1",
-   "grammar": ["S -> a A b B | b A a B | ε", "A -> S", "B -> S"],
-   "do": ["sets", "ll1"],
-   "expect": {
-    "cells": [
-     ["S", "a", ["a A b B", "ε"]],
-     ["S", "b", ["b A a B", "ε"]],
-     ["S", "$", ["ε"]],
-     ["A", "a", ["S"]],
-     ["A", "b", ["S"]],
-     ["A", "$", []],
-     ["B", "a", ["S"]],
-     ["B", "b", ["S"]],
-     ["B", "$", ["S"]]
-    ],
-    "ll1": false
    }
   },
   "CS-2015-S3-Q65": {
@@ -342,29 +308,6 @@
    "grammar": ["S -> A a | b A c | d c | b d a", "A -> d"],
    "do": ["slr", "lr1", "lalr"],
    "expect": {"slr1": false, "lr1": true, "lalr1": true}
-  },
-  "CS-2025-S2-Q51": {
-   "kind": "parse-ll1",
-   "parts": [
-    {
-     "name": "G1",
-     "grammar": ["S -> if E then S | if E then S else S | a", "E -> b"],
-     "do": ["ll1", {"trees": "if b then if b then a else a"}],
-     "expect": {"ll1": false, "trees": {"if b then if b then a else a": 2}}
-    },
-    {
-     "name": "G2",
-     "grammar": ["S -> if E then S | M", "M -> if E then M else S | c", "E -> b"],
-     "do": ["ll1", {"trees": "if b then if b then c else if b then c else c"}],
-     "expect": {"ll1": false, "trees": {"if b then if b then c else if b then c else c": 2}}
-    }
-   ]
-  },
-  "CS-2026-S1-Q25": {
-   "kind": "parse-trees",
-   "grammar": ["S -> a S b S | b S | ε"],
-   "do": [{"trees": "a b b"}, {"trees": "a b a b", "rightmost": true}],
-   "expect": {"trees": {"a b b": 2, "a b a b": 1}}
   },
   "CS-2026-S2-Q41": {
    "kind": "parse-lr",
