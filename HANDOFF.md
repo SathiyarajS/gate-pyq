@@ -6,6 +6,8 @@ The site is live at **https://sathiyarajs.github.io/gate-pyq/** and redeploys au
 
 ---
 
+For future exam years, see [New-year import and review](docs/NEW_YEAR_IMPORT.md).
+
 ## 1. One-time setup on your computer
 
 You need git, Python 3.12, Node.js 20+, Graphviz (`dot`) and Tesseract OCR.

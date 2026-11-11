@@ -1,0 +1,76 @@
+name: Prepare a new GATE CS year
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: Next exam year, for example 2027
+        required: true
+        type: number
+      sessions:
+        description: 'JSON array of {set, paper_url, key_url} entries using official PDF URLs'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: gate-cs-import-${{ inputs.year }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      YEAR: ${{ inputs.year }}
+      SESSIONS: ${{ inputs.sessions }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-site.txt
+      - name: Prepare and reconcile draft records
+        run: |
+          python -m pip install -r requirements-site.txt
+          python scripts/prepare_year_import.py "$YEAR" --sessions "$SESSIONS"
+          python scripts/validate.py
+      - name: Open a draft PR for Codex review
+        env:
+          GH_TOKEN: ${{ secrets.GATE_IMPORT_PR_TOKEN || github.token }}
+        run: |
+          branch="import/gate-cs-$YEAR"
+          existing=$(gh pr list --head "$branch" --base main --state open --json url --jq '.[0].url // empty')
+          if [[ -n "$existing" ]]; then
+            echo "Review PR already exists: $existing" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if git ls-remote --exit-code --heads origin "$branch"; then
+            echo "::error::Branch $branch already exists. Inspect it and open a draft PR from it."
+            exit 1
+          else
+            status=$?
+            if [[ "$status" != 2 ]]; then exit "$status"; fi
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$branch"
+          git add -- "data/imports/$YEAR/"
+          git diff --cached --check
+          git commit -m "Prepare GATE CS $YEAR source and key inventory for review"
+          git push origin "HEAD:refs/heads/$branch"
+          {
+            echo "Prepared staged paper and question records in \`data/imports/$YEAR/\`."
+            echo
+            echo 'Ask Codex to follow [New-year import and review](docs/NEW_YEAR_IMPORT.md) on this branch.'
+            echo 'Check the official paper and final key for each session, solve and independently review each question,'
+            echo 'and add step-through animations where the source supports them.'
+            echo 'Keep this PR in draft while that work is pending.'
+          } > "$RUNNER_TEMP/import-pr.md"
+          url=$(gh pr create --draft --base main --head "$branch" --title "GATE CS $YEAR import for Codex review" --body-file "$RUNNER_TEMP/import-pr.md")
+          echo "Draft PR: $url" >> "$GITHUB_STEP_SUMMARY"

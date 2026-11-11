@@ -8,7 +8,11 @@ a=argparse.ArgumentParser();a.add_argument('--require-complete',action='store_tr
 papers=json.loads((p/'data/papers.json').read_text());qs=json.loads((p/'data/questions.json').read_text());errors=[]
 ids=[x['paper_id'] for x in papers]; subjects={x.name for x in (p/'subjects').iterdir()}
 if len(ids)!=len(set(ids)):errors.append('Duplicate paper IDs')
-if set(x['year'] for x in papers)!=set(range(1991,2027)):errors.append('Year coverage differs from 1991–2026')
+years={paper.get('year') for paper in papers}
+if not years or any(type(year) is not int or not 1991 <= year <= 9999 for year in years):
+ errors.append('Invalid year in paper inventory')
+elif years!=set(range(1991,max(years)+1)):
+ errors.append('Paper inventory must cover consecutive years starting in 1991')
 legacy_items={}
 for inventory in (p/'data/source-provenance').glob('*-inventory.json'):
  data=json.loads(inventory.read_text())

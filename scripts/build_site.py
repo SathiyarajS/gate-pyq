@@ -148,6 +148,7 @@ def main():
     out=(ROOT/args.output).resolve()
     if out == ROOT or ROOT not in out.parents: raise SystemExit('Output must be a subdirectory of repository')
     questions=load(ROOT/'data/questions.json'); papers=load(ROOT/'data/papers.json'); topics=load(ROOT/'data/topics.json',{}); ds=discrepancies()
+    inventory_years=sorted({paper['year'] for paper in papers})
     transcriptions={p['paper_id']:load_paper(ROOT,p['paper_id']) for p in papers}
     pmap={p['paper_id']:p for p in papers}; groups=collections.defaultdict(list); issues=[]
     off_syllabus,syllabus=site_features.load_syllabus(ROOT,topics)
@@ -249,7 +250,7 @@ def main():
     def render(path,**ctx):
         target=out/path/'index.html';target.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*len(Path(path).parts) if path else './'
-        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,issues=issues,syllabus=syllabus,w=weights,preview=not args.release,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
+        target.write_text(env.get_template('page.html').render(prefix=prefix,cards=cards,inventory_years=inventory_years,paper_count=len(papers),issues=issues,syllabus=syllabus,w=weights,preview=not args.release,has_math=has_math,redrawn=redrawn,redrawn_percent=round(100*redrawn/len(questions),2),**ctx))
     topic_titles={(s,t['id']):t['title'] for s in groups for t in topics.get(s,{}).get('topics',[])}
     weights=site_features.weightage(questions,titles,topic_titles,off_syllabus)
     packs=[]  # what each subject or paper needs to work offline
@@ -263,7 +264,7 @@ def main():
         if invalid and allowed!={'unreviewed'}:raise SystemExit('Invalid topic IDs: '+str(invalid[:5]))
         qs.sort(key=sortkey)  # newest first, everywhere except paper pages
         for i,q in enumerate(qs,1):q['ordinal']=i;q['similar']=None;q['alt']=False;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
-        heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in range(1991,2027)]} for t in topic_list]
+        heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in inventory_years]} for t in topic_list]
         def years(items):
             first={}
             for q in items:first.setdefault(q['year'],q['question_id'])
@@ -314,7 +315,7 @@ def main():
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     # Offline: per-subject and per-paper packs, the always-cached core, the web app manifest and the service worker.
-    (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':'GATE Computer Science previous-year questions, 1991–2026, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
+    (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':f'GATE Computer Science previous-year questions, {inventory_years[0]}–{inventory_years[-1]}, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
     core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
     if has_math:core+=['assets/vendor/katex/katex.min.css','assets/vendor/katex/katex.min.js']+['assets/vendor/katex/fonts/'+f.name for f in sorted((katex_dir/'fonts').glob('*.woff2'))]
     pack_index,core_files,offline_total=site_features.write_offline(out,packs,core)
