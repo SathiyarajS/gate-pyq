@@ -1,5 +1,5 @@
 'use strict';
-// "Step through it" players: CPU scheduling, page replacement, disk scheduling, hashing, heaps and BSTs. Loaded only when a reader opens one.
+// "Step through it" players: CPU scheduling, page replacement, disk scheduling, hashing, heaps, BSTs and address fields. Loaded only when a reader opens one.
 // Data comes from the build (scripts/animations.py), which checks every result against the answer.
 (() => {
   const SVG = 'http://www.w3.org/2000/svg';
@@ -117,7 +117,7 @@
 
   // Hashing: one row per slot; this step's collisions and placement are labelled.
   function slots(s, data, step) {
-    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
+    const t = h('table', 'steps-table hash-table'), head = t.createTHead().insertRow(), body = t.createTBody();
     ['Slot', data.chaining ? 'Chain' : 'Key', ''].forEach(c => head.append(h('th', null, c)));
     step.table.forEach((v, i) => {
       const row = body.insertRow(), placed = step.slot === i, hit = step.probed.includes(i);
@@ -163,6 +163,32 @@
     return out;
   }
 
+  // Address fields: the address as a bar split into fields, and the derivation so far.
+  function fieldsView(s, data, step) {
+    const W = Math.max(300, Math.min(640, Math.round(view.clientWidth || 640))), pad = 2, barH = 34, top = 4;
+    const colour = {Tag: 0, Index: 1, 'Index + offset': 1, Offset: 2, 'Page number': 0};
+    const known = step.fields.reduce((a, f) => a + f[1], 0), total = data.bits || known || 1;
+    const svg = el('svg', {viewBox: `0 0 ${W} ${barH + top + 22}`, class: 'gantt fields-bar', role: 'img', 'aria-label': 'Address fields'});
+    svg.append(el('rect', {x: pad, y: top, width: W - 2 * pad, height: barH, rx: 4, class: 'gantt-track'}));
+    let x = W - pad;
+    for (let k = step.fields.length - 1; k >= 0; k--) {
+      const [name, bits] = step.fields[k], w = (W - 2 * pad) * bits / total;
+      x -= w; if (!bits) continue;
+      const g = el('g', {class: 'seg p' + (colour[name] ?? 3)});
+      g.append(el('rect', {x: x + 1, y: top, width: Math.max(0, w - 2), height: barH, rx: 3}));
+      const label = w > 9 * (name.length + String(bits).length + 1) ? `${name} ${bits}` : w > 22 ? String(bits) : '';
+      if (label) g.append(el('text', {x: x + w / 2, y: top + barH / 2 + 5, 'text-anchor': 'middle'}, label));
+      svg.append(g);
+    }
+    if (data.bits) svg.append(el('text', {x: pad, y: top + barH + 16, class: 'tick-label'}, `${data.bits}-bit address` + (known < data.bits ? ` · ${data.bits - known} bits still to assign` : '')));
+    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
+    ['Quantity', 'Value', 'How'].forEach(c => head.append(h('th', null, c)));
+    step.rows.forEach((r, k) => { const row = body.insertRow(); r.forEach(v => { row.insertCell().textContent = v; }); if (k === step.rows.length - 1 && !step.final) row.className = 'is-running'; });
+    const wrap = h('div', 'steps-table-wrap'); wrap.append(t);
+    const names = step.fields.map(f => f[0]), legend = h('p', 'steps-ready', step.fields.length ? 'Fields, left to right: ' + step.fields.map(f => `${f[0]} (${f[1]})`).join(', ') : '');
+    return data.bits || step.fields.length ? [svg, legend, wrap] : [wrap];
+  }
+
   function player(root) {
     const data = JSON.parse(root.dataset.steps);
     let which = 0, i = 0;
@@ -178,7 +204,9 @@
       [...tabs.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === which)));
       policy.textContent = s.title;
       const wrap = h('div', 'steps-table-wrap');
-      if (data.kind === 'heap' || data.kind === 'bst') {
+      if (data.kind === 'address-fields') {
+        view.replaceChildren(...fieldsView(s, data, step));
+      } else if (data.kind === 'heap' || data.kind === 'bst') {
         const parts = data.kind === 'heap' ? heapView(s, data, step) : bstView(s, data, step);
         view.replaceChildren(...(step.final ? [h('p', 'steps-time', 'Finished')] : []), ...parts);
       } else if (data.kind === 'hash-insert') {

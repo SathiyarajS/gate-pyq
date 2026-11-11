@@ -179,3 +179,22 @@ class HeapAndBstTest(unittest.TestCase):
         self.assertEqual(animations.bst_animation('Q', dict(kind='bst', keys=[10, 1, 3, 5, 15, 12, 16], query='height', expect=3))['kind'], 'bst')
         with self.assertRaises(SystemExit):
             animations.bst_animation('Q', dict(kind='bst', keys=[10, -4, 15, 30, 20, 5, 60, 19], query='depth', node=19, expect=3))
+
+
+class AddressFieldsTest(unittest.TestCase):
+    def test_set_associative_split(self):
+        # CS-2014-S2-Q19: 4 GB, 16 KB 4-way, 32-byte blocks -> tag 20.
+        _, out, _ = animations.address_fields(dict(mode='cache', memory=4 << 30, cache=16 << 10, ways=4, block=32))
+        self.assertEqual((out['offset'], out['index'], out['tag']), (5, 7, 20))
+
+    def test_block_size_cancels_when_not_given(self):
+        _, out, _ = animations.address_fields(dict(mode='cache', address_bits=40, cache=512 << 10, ways=8))
+        self.assertEqual(out['tag'], 24)  # CS-2016-S2-Q42
+
+    def test_hex_split_and_paging(self):
+        _, out, _ = animations.address_fields(dict(mode='cache', memory=1 << 20, cache=(1 << 12) * 16, block=16, split='E201F'))
+        self.assertEqual(out['split'], {'Tag': 'E', 'Index': '201', 'Offset': 'F'})
+        _, out, _ = animations.address_fields(dict(mode='page', address_bits=57, page=4096, pte=8, levels=True))
+        self.assertEqual(out['levels'], 5)
+        with self.assertRaises(SystemExit):
+            animations.address_fields(dict(mode='cache', address_bits=32, cache=3000, block=32))
