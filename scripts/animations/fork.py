@@ -415,3 +415,4 @@ def fork_animation(qid, spec):
 # Animation kinds this family provides, and the player file that draws them.
 KINDS = {'fork-tree': fork_animation}
 PLAYER = 'fork'
+TABS = 'cases'
