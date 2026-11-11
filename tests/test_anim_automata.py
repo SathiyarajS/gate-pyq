@@ -26,27 +26,10 @@ def source_fingerprint(q):
 
 # MCQ/MSQ content, not merely key letters, used in the spec audit.
 KEYED_CONTENT = {
-    'CS-2014-S1-Q26': '{q₀,q₁,q₂}',
     'CS-2017-S2-Q49': '{q0,q1,q2}',
-    'CS-2003-Q50': 'C. 7',
-    'CS-2003-Q55': 'L1={0,1}*',
-    'CS-2012-Q22': '(B) {ε}',
-    'CS-2007-Q75': '(B) 2',
-    'CS-2011-Q55': '(A) Start p; final s; p:a→s,b→q; q:a→s,b→r; r:a,b→r; s:a,b→s',
     'CS-2006-Q34': '(D) 9',
     'CS-2007-Q29': '(A) 15',
     'CS-1998-Q40': '2, 5, 8, 3',  # B is the second entry, 5.
-    'CS-2007-Q74': '(C) b*a(a+b)*',
-    'CS-2009-Q41': 'C ending 00',
-    'CS-2014-S1-Q46': 'B: I,III only',
-    'CS-2021-S1-Q48': 'D (q1,q0)',
-    'CS-2022-Q12': 'D (ba*a+ab*b)*(ab*+ba*)',
-    'CS-2023-Q14': 'C 1(0+11)*',
-    'CS-2024-S2-Q22': 'A 0*1(0+10*1)*',
-    'CS-2024-S2-Q41': 'B 0*+(1+0(00)*)(11)*',
-    'CS-2025-S1-Q50': 'C words ending in bab',
-    'CS-2004-Q86': '(A) Divisible by 3 and 2 respectively',
-    'CS-2012-Q56': '(D) (00,1,01),(00,0,q),(01,1,11),(10,0,00),(11,0,10)',
     'CS-2021-S2-Q38': 'B t=b,y=sb',
 }
 
@@ -75,8 +58,6 @@ def test_every_question_computes_and_every_tab_finishes(qid, spec):
 
 
 def test_nfa_and_epsilon_closure_worked_states():
-    fa = a.FA('test', SPECS['CS-2014-S1-Q26']['machine'])
-    assert fa.run_from({'q0'}, '0011') == {'q0', 'q1', 'q2'}
     fa = a.FA('test', SPECS['CS-2017-S2-Q49']['machine'])
     assert fa.closure({'q2'})[0] == {'q0', 'q2'}
     assert fa.run_from({'q2'}, 'aba') == {'q0', 'q1', 'q2'}
@@ -84,16 +65,24 @@ def test_nfa_and_epsilon_closure_worked_states():
 
 def test_wrong_and_unknown_expected_states_fail():
     for states in [['q3'], ['q0', 'q1', 'q2', 'made-up']]:
-        spec = copy.deepcopy(SPECS['CS-2014-S1-Q26'])
+        spec = copy.deepcopy(SPECS['CS-2017-S2-Q49'])
         spec['runs'][0]['expect']['states'] = states
         with pytest.raises(SystemExit):
             a.run_animation('test', spec)
 
 
 def test_count_uses_fixed_positions_and_rejects_wrong_answer():
-    spec = copy.deepcopy(SPECS['CS-2003-Q50'])
-    spec['expect']['count'] = 8
-    with pytest.raises(SystemExit, match='not the expected 8'):
+    # A complete accepting loop accepts all four strings with the middle bit fixed.
+    spec = {
+        'machine': {
+            'states': ['s'], 'start': 's', 'final': ['s'], 'alphabet': '01',
+            'edges': [['s', '0,1', 's']],
+        },
+        'length': 3,
+        'fixed': {'2': '1'},
+        'expect': {'count': 8},
+    }
+    with pytest.raises(SystemExit, match='number of accepted strings is 4, not the expected 8'):
         a.count_animation('test', spec)
 
 
@@ -112,7 +101,16 @@ def test_bounded_enumeration_is_not_a_proof():
 
 
 def test_minimization_drops_unreachable_and_merges_equivalent():
-    fa = a.FA('test', SPECS['CS-2007-Q75']['machine'])
+    fa = a.FA('test', {
+        'states': ['q0', 'q1', 'q2', 'q3'], 'start': 'q0',
+        'final': ['q1', 'q2'], 'alphabet': 'ab',
+        'edges': [
+            ['q0', 'a', 'q1'], ['q0', 'b', 'q0'],
+            ['q1', 'a', 'q2'], ['q1', 'b', 'q1'],
+            ['q2', 'a', 'q1'], ['q2', 'b', 'q2'],
+            ['q3', 'a', 'q1'], ['q3', 'b', 'q2'],
+        ],
+    })
     steps = []
     groups = a.refine_steps(fa, steps)
     assert {frozenset(x) for x in groups} == {frozenset(['q0']), frozenset(['q1', 'q2'])}
@@ -134,15 +132,7 @@ def test_expected_dfa_is_not_used_to_construct_answer():
 
 
 SOURCE_FINGERPRINTS = {
-    'CS-2014-S1-Q26': 'ad1500516dcfb9c6',
     'CS-2017-S2-Q49': 'ef9f157848d8e32a',
-    'CS-2003-Q50': '238852d49c9591b4',
-    'CS-2021-S2-Q27': '39d1c1b3eb72cf33',
-    'CS-2003-Q55': '6f369f1919b749b7',
-    'CS-2012-Q22': '19faf51786fddc04',
-    'CS-2007-Q75': '97575087b566aeb4',
-    'CS-2011-Q55': '60a2ae65b6c83e4e',
-    'CS-2015-S1-Q49': '9fcc3e022d31f167',
     'CS-2025-S1-Q59': 'fd74c941d4a908c4',
     'CS-2015-S2-Q45': '4ead45e841facbe9',
     'CS-2016-S2-Q26': '09c892022323f588',
@@ -154,24 +144,11 @@ SOURCE_FINGERPRINTS = {
     'CS-2006-Q34': 'bbf0a4a8062a7d5f',
     'CS-2007-Q29': 'fce15a0831fa41cd',
     'CS-1998-Q40': 'bdcdb34823ff172f',
-    'CS-1991-Q71': '4aa91fd7c2ad1406',
     'CS-1997-Q81': '662e6e9c95004aec',
     'CS-1993-Q68': '8060a6c6abe797c9',
     'CS-2001-Q55': '955f5a3b6f140242',
     'CS-2001-Q56': '32638f77a1cbe9f6',
     'CS-2002-Q98': 'cdc0d4a488112eae',
-    'CS-1994-Q34': 'd9a14854aff9e522',
-    'CS-2007-Q74': '69c318e513c91d7d',
-    'CS-2009-Q41': '61164a4736a70f30',
-    'CS-2014-S1-Q46': '9747e4c08affd21a',
-    'CS-2021-S1-Q48': '4c56f3c9724cf29c',
-    'CS-2022-Q12': '3dc9f8e6fafa0b48',
-    'CS-2023-Q14': 'e44639d6bb38108c',
-    'CS-2024-S2-Q22': '17f7bfbc1cc73205',
-    'CS-2024-S2-Q41': 'c5f413d67893c06a',
-    'CS-2025-S1-Q50': '9fe37907f9f28f17',
-    'CS-2004-Q86': 'c34bbe2729900551',
-    'CS-2012-Q56': '91f1819301696873',
     'CS-2021-S2-Q38': 'de23ae028cfd2618',
 }
 

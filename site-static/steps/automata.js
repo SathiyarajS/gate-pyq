@@ -3,14 +3,12 @@
 window.gateStepsRegister(({h, css}) => {
   css(`
     .fa-view {min-width:0;overflow-wrap:anywhere}
-    .fa-view .fa-states {display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
-    .fa-view .fa-state {border:1px solid var(--line);border-radius:12px;padding:5px 8px}
+    .fa-view .fa-states {display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+    .fa-view .fa-state {border:1px solid var(--line);border-radius:4px;padding:2px 8px;background:var(--panel);font-size:.85rem;font-variant-numeric:tabular-nums}
     .fa-view .fa-accept {border:3px double currentColor}
-    .fa-view .fa-now {background:var(--accent);color:var(--panel)}
+    .fa-view .fa-now {border-color:var(--accent);background:color-mix(in oklab,var(--accent) 24%,var(--panel));color:var(--ink);font-weight:700}
     .fa-view .fa-off {opacity:.5}
-    .fa-view .steps-table-wrap {max-width:100%;overflow-x:auto}
-    .fa-view .steps-table {width:100%;font-size:13px;border-collapse:collapse}
-    .fa-view .steps-table th,.fa-view .steps-table td {min-width:0;padding:6px;border:1px solid var(--line);white-space:normal;overflow-wrap:anywhere}
+    .fa-view .steps-table th,.fa-view .steps-table td {white-space:normal;overflow-wrap:anywhere}
     .fa-view .steps-table th:first-child {min-width:0}
     .fa-view .fa-transitions {margin:6px 0;padding-left:20px}
     .fa-view .fa-tape {font-family:monospace;white-space:normal;overflow-wrap:anywhere}
@@ -24,13 +22,13 @@ window.gateStepsRegister(({h, css}) => {
     const head=h('thead'), row=h('tr');
     t.head.forEach(v=>row.append(h('th',null,v)));head.append(row);node.append(head);
     const body=h('tbody');
-    t.rows.forEach((values,i)=>{const r=h('tr',(t.now||[]).includes(i)?'is-now':null);
+    t.rows.forEach((values,i)=>{const r=h('tr',(t.now||[]).includes(i)?'is-running':null);
       values.forEach(v=>r.append(h('td',null,v)));body.append(r);});
     node.append(body);wrap.append(node);return wrap;
   }
   function render(s,data,step) {
     const root=h('div','fa-view'), fa=s.fa;
-    if(step.head)root.append(h('p','steps-time',step.head));
+    root.append(h('p','steps-time',step.final?'Finished':step.head));
     if(fa){
       const states=h('div','fa-states');
       fa.states.forEach(name=>{const cls=(step.n||{})[name];
