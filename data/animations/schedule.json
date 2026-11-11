@@ -1,0 +1,137 @@
+{
+ "description": "Step-through animations (database transaction schedules: precedence graphs, conflict and view serializability, recoverability, cascading aborts). Each entry is simulated at build time by scripts/animations/schedule.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1999-Q31": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "ops": ["r1(A)", "r2(B)", "w1(A)", "r2(A)", "w2(A)", "w2(B)", "r1(B)", "w1(B)"],
+     "expect": {"conflict_serializable": false, "view_serializable": false, "two_phase_locking": false}}
+   ]
+  },
+  "CS-2003-Q87": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "ops": ["R2(D3)", "R2(D2)", "W2(D2)", "R3(D2)", "R3(D3)", "R1(D1)", "W1(D1)", "W3(D2)", "W3(D3)", "R2(D1)", "R1(D2)", "W1(D2)", "W2(D1)"],
+     "candidates": [["T2", "T3", "T1"], ["T2", "T1", "T3"], ["T3", "T2", "T1"]],
+     "expect": {"conflict_serializable": false, "view_serializable": false, "orders": []}}
+   ]
+  },
+  "CS-2007-Q64": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S1", "ops": ["r1(X)", "r1(Y)", "r2(X)", "r2(Y)", "w2(Y)", "w1(X)"], "expect": {"conflict_serializable": false}},
+    {"name": "S2", "ops": ["r1(X)", "r2(X)", "r2(Y)", "w2(Y)", "r1(Y)", "w1(X)"], "expect": {"conflict_serializable": true}}
+   ]
+  },
+  "CS-2009-Q43": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S1", "ops": ["R1(x)", "R2(x)", "R2(y)", "W1(x)", "W1(y)", "W2(y)"], "expect": {"conflict_serializable": false}},
+    {"name": "S2", "ops": ["R1(x)", "R2(x)", "R2(y)", "W1(x)", "W2(y)", "W1(y)"], "expect": {"conflict_serializable": true}},
+    {"name": "S3", "ops": ["R1(x)", "W1(x)", "R2(x)", "W1(y)", "R2(y)", "W2(y)"], "expect": {"conflict_serializable": true}},
+    {"name": "S4", "ops": ["R2(x)", "R2(y)", "R1(x)", "W1(x)", "W1(y)", "W2(y)"], "expect": {"conflict_serializable": false}}
+   ]
+  },
+  "CS-2010-Q52": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "ops": ["r1(X)", "r2(Y)", "r3(Y)", "w2(Y)", "w1(X)", "w3(X)", "r2(X)", "w2(X)"],
+     "candidates": [["T1", "T3", "T2"], ["T2", "T1", "T3"], ["T2", "T3", "T1"], ["T3", "T1", "T2"]],
+     "expect": {"conflict_serializable": true, "orders": [["T1", "T3", "T2"]]}}
+   ]
+  },
+  "CS-2014-S1-Q39": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "A", "ops": ["r₁(x)", "r₂(x)", "w₁(x)", "r₃(x)", "w₂(x)"], "expect": {"conflict_serializable": false}},
+    {"name": "B", "ops": ["r₂(x)", "r₁(x)", "w₂(x)", "r₃(x)", "w₁(x)"], "expect": {"conflict_serializable": false}},
+    {"name": "C", "ops": ["r₃(x)", "r₂(x)", "r₁(x)", "w₂(x)", "w₁(x)"], "expect": {"conflict_serializable": false}},
+    {"name": "D", "ops": ["r₂(x)", "w₂(x)", "r₃(x)", "r₁(x)", "w₁(x)"], "expect": {"conflict_serializable": true}}
+   ]
+  },
+  "CS-2014-S2-Q39": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S", "title": "S: T2 reads X; T3 writes X and commits; T1 writes X and commits; T2 writes Y, reads Z and commits; T4 reads X, reads Y and commits",
+     "ops": ["r2(X)", "w3(X)", "c3", "w1(X)", "c1", "w2(Y)", "r2(Z)", "c2", "r4(X)", "r4(Y)", "c4"],
+     "expect": {"conflict_serializable": true, "recoverable": true}}
+   ]
+  },
+  "CS-2014-S3-Q39": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S1", "ops": ["r1(X)", "r3(Y)", "r3(X)", "r2(Y)", "r2(Z)", "w3(Y)", "w2(Z)", "r1(Z)", "w1(X)", "w1(Z)"], "expect": {"conflict_serializable": true}},
+    {"name": "S2", "ops": ["r1(X)", "r3(Y)", "r2(Y)", "r3(X)", "r1(Z)", "r2(Z)", "w3(Y)", "w1(X)", "w2(Z)", "w1(Z)"], "expect": {"conflict_serializable": false}}
+   ]
+  },
+  "CS-2015-S3-Q51": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "title": "Times 1–9, then T1 fails (aborts)", "ops": ["r1(A)", "w1(A)", "r2(C)", "w2(C)", "r2(B)", "w2(B)", "r2(A)", "c2", "r1(B)", "a1"],
+     "expect": {"recoverable": false}}
+   ]
+  },
+  "CS-2016-S2-Q61": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S", "ops": ["r2(X)", "r1(X)", "r2(Y)", "w1(X)", "r1(Y)", "w2(X)", "a1", "a2"],
+     "expect": {"recoverable": true, "cascadeless": true, "strict": false}}
+   ]
+  },
+  "CS-2020-Q47": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Original", "ops": ["R1(A)", "R2(B)", "W2(B)", "R1(C)", "R2(D)", "W1(D)", "W2(C)", "W1(B)", "C1", "C2"], "expect": {"conflict_serializable": false}},
+    {"name": "A", "compare_to": "Original", "ops": ["R2(B)", "W2(B)", "R2(D)", "R1(A)", "R1(C)", "W1(D)", "W1(B)", "W2(C)", "C1", "C2"], "expect": {"equivalent": true}},
+    {"name": "B", "compare_to": "Original", "ops": ["R1(A)", "R1(C)", "W1(D)", "W1(B)", "R2(B)", "W2(B)", "R2(D)", "W2(C)", "C1", "C2"], "expect": {"equivalent": false}},
+    {"name": "C", "compare_to": "Original", "ops": ["R1(A)", "R1(C)", "W1(D)", "R2(B)", "W2(B)", "R2(D)", "W1(B)", "W2(C)", "C1", "C2"], "expect": {"equivalent": false}},
+    {"name": "D", "compare_to": "Original", "ops": ["R2(B)", "W2(B)", "R2(D)", "W2(C)", "R1(A)", "R1(C)", "W1(D)", "W1(B)", "C1", "C2"], "expect": {"equivalent": false}}
+   ]
+  },
+  "CS-2021-S1-Q42": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S1", "ops": ["r1(x)", "r1(y)", "r2(x)", "r2(y)", "w2(y)", "w1(x)"], "expect": {"conflict_serializable": false}},
+    {"name": "S2", "ops": ["r1(x)", "r2(x)", "r2(y)", "w2(y)", "r1(y)", "w1(x)"], "expect": {"conflict_serializable": true}}
+   ]
+  },
+  "CS-2021-S2-Q42": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "P", "title": "P: is the schedule conflict serializable?", "ops": ["R1(Y)", "R1(X)", "R2(Z)", "R1(Y)", "W1(X)", "R2(Z)", "W2(Y)", "R3(X)", "W3(Z)"], "expect": {"conflict_serializable": true}},
+    {"name": "Q", "title": "Q: T3 commits before T1 finishes", "ops": ["R1(Y)", "R1(X)", "R2(Z)", "R1(Y)", "W1(X)", "R2(Z)", "W2(Y)", "R3(X)", "W3(Z)", "C3"], "expect": {"recoverable": false}}
+   ]
+  },
+  "CS-2022-Q39": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "S", "ops": ["R4(x)", "R2(x)", "R3(x)", "R1(y)", "W1(y)", "W2(x)", "W3(y)", "R4(y)"],
+     "candidates": [["T1", "T3", "T4", "T2"], ["T1", "T4", "T3", "T2"], ["T4", "T1", "T3", "T2"], ["T3", "T1", "T4", "T2"]],
+     "expect": {"conflict_serializable": true, "orders": [["T1", "T3", "T4", "T2"]]}}
+   ]
+  },
+  "CS-2024-S1-Q46": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "ops": ["r1(z)", "w1(z)", "r2(x)", "r3(y)", "w3(y)", "r2(y)", "w2(x)", "w2(y)"],
+     "candidates": [["T1", "T2", "T3"], ["T1", "T3", "T2"], ["T3", "T2", "T1"], ["T3", "T1", "T2"]],
+     "expect": {"conflict_serializable": true, "orders": [["T1", "T3", "T2"], ["T3", "T2", "T1"], ["T3", "T1", "T2"]]}}
+   ]
+  },
+  "CS-2025-S1-Q15": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "Schedule", "ops": ["R1(X)", "W1(Y)", "R2(X)", "R2(Y)", "R3(Y)", "A1"], "expect": {"rollback": ["T2", "T3"]}}
+   ]
+  },
+  "CS-2025-S2-Q53": {
+   "kind": "txn-schedule",
+   "schedules": [
+    {"name": "A", "ops": ["R1(X)", "W2(X)", "W1(Y)", "W2(Y)", "R1(X)", "W1(X)", "C2", "C1"], "expect": {"conflict_serializable": false}},
+    {"name": "B", "ops": ["W2(X)", "R1(X)", "W2(Y)", "W1(Y)", "R1(X)", "C2", "W1(X)", "C1"], "expect": {"conflict_serializable": true}},
+    {"name": "C", "ops": ["R1(X)", "W1(Y)", "W2(X)", "W2(Y)", "R1(X)", "W1(X)", "C1", "C2"], "expect": {"conflict_serializable": false}},
+    {"name": "D", "ops": ["W2(X)", "R1(X)", "W1(Y)", "W2(Y)", "R1(X)", "C2", "W1(X)", "C1"], "expect": {"conflict_serializable": false}}
+   ]
+  }
+ }
+}
