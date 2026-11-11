@@ -104,8 +104,9 @@ def fetch_archive_members():
 
     Each member lands at the path recorded in audits/crop-source-map.json
     (sources/archive/CS/...) and must match its recorded sha256; anything else
-    is discarded. Used by the Pages build so the 2007-2018 papers render as
-    original images without committing the archive to the repository.
+    is discarded. The ten papers are committed under sources/archive/CS/, so
+    this is only needed to recreate or re-check them; with all ten present and
+    matching it just reports that and downloads nothing.
     """
     src_map = json.load(open(ROOT / "audits/crop-source-map.json"))["sources"]
     wanted = {v["archive_member"]: (k, v["sha256"]) for k, v in src_map.items() if v.get("archive_member")}

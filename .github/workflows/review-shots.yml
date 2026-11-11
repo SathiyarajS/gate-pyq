@@ -42,12 +42,9 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: |
-          pip install -r requirements-site.txt gdown
+          pip install -r requirements-site.txt
           python -m playwright install --with-deps chromium
           npm ci --ignore-scripts
-      - name: Restore 2007-2018 papers (hash-checked)
-        continue-on-error: true
-        run: python scripts/fetch_sources.py --archive-only
       - name: Work out which papers changed
         id: papers
         env:
