@@ -35,3 +35,12 @@
 @media print{.weight,.pointers{display:none!important}}
 /* Repeated questions: a quiet line under the tools, and the switch to the unique view. */
 .also-asked{font-size:.85rem;margin:-4px 0 10px;color:var(--muted)}.also-asked>span{font-weight:650;color:var(--ink);margin-right:6px}.also-asked small{font-size:.8rem}.view-switch{font-size:.9rem}.view-switch a{font-weight:650}
+
+/* Study groups never replace the canonical all-questions list. */
+.view-switch { margin: 1rem 0; line-height: 2; }
+.view-switch [aria-current="page"] { font-weight: 700; text-decoration-thickness: 3px; }
+.study-unit { margin-block: 1.5rem 2.5rem; }
+.group-intro { padding: 1rem; border-inline-start: 4px solid currentColor; }
+.group-intro h2 { margin-top: 0; }
+.group-alternatives { padding: 1rem; border: 1px solid currentColor; border-radius: .5rem; }
+.group-alternatives > summary { cursor: pointer; font-weight: 700; }
