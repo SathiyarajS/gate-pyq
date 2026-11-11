@@ -4,7 +4,7 @@ OUT=Path(__file__).resolve().parent.parent
 class SVG:
  def __init__(self,title,w,h):self.a=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title, quote=True)}"><title id="title">{escape(title)}</title><g stroke="currentColor" fill="none" stroke-width="1">']
  def line(self,x1,y1,x2,y2,dash=False):self.a.append(f'<path d="M{x1},{y1} L{x2},{y2}"'+(' stroke-dasharray="3 3"' if dash else '')+'/>')
- def text(self,x,y,t):self.a.append(f'<text x="{x}" y="{y}" fill="currentColor" stroke="none" font-family="serif" font-size="16" text-anchor="middle">{escape(t)}</text>')
+ def text(self,x,y,t):self.a.append(f'<text x="{x}" y="{y}" fill="currentColor" stroke="none" font-family="serif" font-size="20" text-anchor="middle">{escape(t)}</text>')
  def cell(self,x,y,s,fill):self.a.append(f'<rect x="{x}" y="{y}" width="{s}" height="{s}" fill="'+('currentColor' if fill else 'none')+'"/>')
  def mask(self,x,y,rows,s):
   # Unit-cell paths merge visually without exposing artificial grid edges.

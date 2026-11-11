@@ -1,10 +1,10 @@
 digraph automata {
  graph [layout=neato, overlap=true, splines=true, bgcolor="transparent", notranslate=true];
- node [shape=circle,label="",width=0.22,height=0.22,fixedsize=true,fontsize=16];
- edge [fontsize=16,arrowsize=0.7];
+ node [shape=circle,label="",width=0.22,height=0.22,fixedsize=true,fontsize=25];
+ edge [fontsize=25,arrowsize=0.7];
  s [pos="80,230!",shape=doublecircle];u [pos="180,275!"];w [pos="270,310!"];z [pos="335,335!"];v [pos="190,140!"];t [pos="75,90!"];
  start1 [pos="20,240!",shape=point,width=0,height=0];
- name1 [pos="180,25!",shape=plaintext,label=<D<SUB>1</SUB>>,width=0.5,height=0.3];
+ name1 [pos="180,25!",shape=plaintext,label=< <I>D</I><SUB>1</SUB> >,width=0.5,height=0.3];
  start1 -> s [pos="e,68,232 20,240 32,238 49,235 61,233"];
  s -> u [label="0",lp="140,265",pos="e,172,271 92,236 115,246 146,258 165,267"];
  u -> w [label="0",lp="230,280",pos="e,262,307 188,278 210,286 238,297 255,304"];
@@ -13,10 +13,10 @@ digraph automata {
  w -> s [label="1",lp="170,220",pos="e,92,230 270,302 270,255 166,223 99,229"];
  z -> s [label="0",lp="152,357",pos="e,80,243 329,341 300,365 140,385 80,250"];
  s -> v [label="1",lp="149,195",pos="e,184,145 90,222 113,204 160,166 179,150"];
- v -> t [label="0",lp="139,109",pos="e,83,94 182,137 157,128 113,106 90,97"];
+ v -> t [label="0",lp="139,97",pos="e,83,94 182,137 157,128 113,106 90,97"];
  t -> s [label="1",lp="62,170",pos="e,79,217 75,98 76,126 78,181 79,210"];
  s2 [pos="485,270!",shape=doublecircle];u2 [pos="595,300!"];w2 [pos="710,315!"];v2 [pos="595,230!"];t2 [pos="520,160!"];
- start2 [pos="435,287!",shape=point,width=0,height=0];name2 [pos="590,25!",shape=plaintext,label=<D<SUB>2</SUB>>,width=0.5,height=0.3];
+ start2 [pos="435,287!",shape=point,width=0,height=0];name2 [pos="590,25!",shape=plaintext,label=< <I>D</I><SUB>2</SUB> >,width=0.5,height=0.3];
  start2 -> s2 [pos="e,473,274 435,287 445,284 460,279 466,277"];
  s2 -> u2 [label="0",lp="535,296",pos="e,587,298 497,274 521,281 559,291 580,296"];
  u2 -> w2 [label="1",lp="650,317",pos="e,702,314 603,301 632,305 677,311 695,313"];

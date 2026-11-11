@@ -8,12 +8,20 @@
       "D": "Disable"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       1
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q2": {
     "stem": "A black square PQRS has been cut into two parts. One part of it is shown in Panel I. Which one of the shapes in Panel II is the other part?",
@@ -26,12 +34,20 @@
     "figures": [
       "figures/CS-2026-S2-Q2-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       2
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The restored 22-unit figure labels are readable at 390 px and clear the outlines and separators.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q3": {
     "stem": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
@@ -42,12 +58,20 @@
       "D": "$3/8$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       3
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q4": {
     "stem": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs. ________",
@@ -58,12 +82,20 @@
       "D": "20"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       4
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q5": {
     "stem": "‘When it is raining, peacocks dance.’\n\nBased only on this sentence, which one of the following options is necessarily true?",
@@ -74,12 +106,20 @@
       "D": "When it is not raining, peacocks do not dance."
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       4
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q6": {
     "stem": "Water : P :: Food : Q\n\nChoose the P and Q combination from the options below to form a meaningful analogy.",
@@ -90,12 +130,20 @@
       "D": "P = Wet; Q = Critic"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       5
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q7": {
     "stem": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?",
@@ -108,12 +156,20 @@
     "figures": [
       "figures/CS-2026-S2-Q7-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       6
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The dot positions and counts match. The enlarged labels are readable and clear the tiles and dividers.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q8": {
     "stem": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways.\nA salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started.\n\nWhich one of the following options is then true?",
@@ -126,12 +182,20 @@
     "figures": [
       "figures/CS-2026-S2-Q8-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       7
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed from the SVG (geometry unchanged); generator updated to strip them. Local Graphviz 2.43 shifts coordinates by 1px, so the SVG was edited rather than regenerated.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed from the SVG (geometry unchanged); generator updated to strip them. Local Graphviz 2.43 shifts coordinates by 1px, so the SVG was edited rather than regenerated. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The grid and five-city graph edges match. Both graph labels now retain the source boldface.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q9": {
     "stem": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?",
@@ -144,12 +208,20 @@
     "figures": [
       "figures/CS-2026-S2-Q9-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       8
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Vector redraw inspected against rendered source: all labels, tile masks/dot positions/grid shading or graph edges and relative geometry checked. SVG preview checked with Inkscape. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. Row and column numbers, shading masks and option order match. The enlarged labels clear the grids and dividers.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q10": {
     "stem": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is ________",
@@ -160,12 +232,20 @@
       "D": "$\\frac{19}{36}$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       9
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The source crop clips the bottom of option D. The full source page confirms 19/36, as rendered.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q11": {
     "stem": "For two different persons $x$ and $y$, the predicate $M(x,y)$ denotes that $x$ knows $y$. Consider the following statement.\n\n*There is a person who does not know anyone else, but that person is known by everyone else.*\n\nWhich one of the following expressions represents the above statement?",
@@ -176,12 +256,20 @@
       "D": "$(\\forall y)(\\forall x)\\,((x\\ne y)\\to(M(x,y)\\land\\neg M(y,x)))$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       10
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'denotes that x knows y.' -> 'denotes that $x$ knows $y$.' (italic variables in source).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'denotes that x knows y.' -> 'denotes that $x$ knows $y$.' (italic variables in source). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q12": {
     "stem": "The set **T** represents various traversals over binary tree. The set **S** represents the order of visiting nodes during a traversal.\n\n| T | S |\n|---|---|\n| I: Inorder | L: left subtree, node, right subtree |\n| II: Preorder | M: node, left subtree, right subtree |\n| III: Postorder | N: left subtree, right subtree, node |\n\nWhich one of the following is the correct match from **T** to **S** ?",
@@ -192,12 +280,20 @@
       "D": "I – L, II – N, III – M"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       11
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q13": {
     "stem": "Which one of the following statements is equivalent to the following assertion?\n\nTuring machine $M$ decides the language $L\\subseteq\\{0,1\\}^{*}$",
@@ -208,15 +304,23 @@
       "D": "Turing machine $M$ accepts all input strings in $L$ and rejects all input strings in $\\{0,1\\}^{*}-L$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       12
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q14": {
-    "stem": "The probability density function $f(x)$ of a random variable $X$ which takes real values is\n\n$$f(x)=\\frac{1}{3\\sqrt{2\\pi}}\\exp\\left(-\\frac{x^2}{18}\\right),\\quad x\\in(-\\infty,+\\infty)$$\n\nWhich one of the following statements is correct about the random variable $X$ ?",
+    "stem": "The probability density function $f(x)$ of a random variable $X$ which takes real values is\n\n$$\\begin{gathered}f(x)=\\frac{1}{3\\sqrt{2\\pi}}\\exp\\left(-\\frac{x^2}{18}\\right),\\\\x\\in(-\\infty,+\\infty)\\end{gathered}$$\n\nWhich one of the following statements is correct about the random variable $X$ ?",
     "options": {
       "A": "$X$ is an exponential random variable",
       "B": "$X$ is a normal random variable",
@@ -224,12 +328,20 @@
       "D": "$X$ is a uniform random variable"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       12
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The formula and domain fit in two math rows, with the source symbols and option order preserved.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q15": {
     "stem": "In the context of DBMS, consider the two sets **T** and **S** given below.\n\n| T | S |\n|---|---|\n| I: Logical schema | L: Views |\n| II: Physical schema | M: File organization and indexes |\n| III: External schema | N: Relations |\n\nWhich one of the following is the correct match from **T** to **S** ?",
@@ -240,12 +352,20 @@
       "D": "I – N, II – L, III – M"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       13
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q16": {
     "stem": "Which one of the following options is **not** a property of Boolean Algebra?\n\n*Note*: $+$ is OR operation, $.$ is AND operation, and $\\prime$ is NOT operation",
@@ -256,12 +376,20 @@
       "D": "$a.b=b.a$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       14
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q17": {
     "stem": "In C runtime environment, which one of the following is stored in heap?",
@@ -272,12 +400,20 @@
       "D": "Return address of a function"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       14
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q18": {
     "stem": "Consider the following two statements about interrupt handling mechanisms in a CPU.\n\nS1: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR) when compared to that in a vectored interrupt mechanism.\n\nS2: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of the interrupt.\n\nWhich one of the following options is correct with respect to S1 and S2 ?",
@@ -288,12 +424,20 @@
       "D": "S1 is false and S2 is true"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       15
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q19": {
     "stem": "Consider the following three ANSI-C programs, P1, P2, and P3.\n\nP1\n\n```c\n#include <stdio.h>\n\nint a=5;\nint main(){\n  int a=7;\n  return(0);\n}\n```\n\nP2\n\n```c\n#include <stdio.h>\n\nint main(){\n  int a=5;\n  int a=7;\n  return(0);\n}\n```\n\nP3\n\n```c\n#include <stdio.h>\n\nint main(){\n  int a=5;\n  float a=7;\n  return(0);\n}\n```\n\nWhich one of the following statements is true?",
@@ -304,12 +448,20 @@
       "D": "All three programs P1, P2, and P3 will compile without any error"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       16
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q20": {
     "stem": "Consider concurrent execution of two transactions $T1$ and $T2$ in a DBMS, both of which access a data object $A$. For these two transactions to not conflict on $A$, which one of the following statements must be true?",
@@ -320,12 +472,20 @@
       "D": "Both $T1$ and $T2$ write $A$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       17
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q21": {
     "stem": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file.\n\nWhich one of the following is the total time (in seconds) to transfer the file?\n\n*Note*: $1\\mathrm{M}=10^6$, $1\\mathrm{k}=10^3$",
@@ -336,12 +496,20 @@
       "D": "16"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       17
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Existing solution already discusses unspecified packetization/forwarding mode and retains official B under bottleneck-throughput interpretation; no new change proposed. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Existing solution already discusses unspecified packetization/forwarding mode and retains official B under bottleneck-throughput interpretation; no new change proposed. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The existing solution derives the official 64 s under idealized bottleneck throughput and explains the forwarding-model dependence.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q22": {
     "stem": "Which one of the following protocols may need to broadcast some of its messages?",
@@ -352,12 +520,20 @@
       "D": "HTTP"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       18
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q23": {
     "stem": "Which one of the following CPU scheduling algorithms **cannot** be preemptive?",
@@ -368,12 +544,20 @@
       "D": "Priority Scheduling"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       18
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q24": {
     "stem": "Consider the following functions, where $n$ is a positive integer.\n\n$$n^{1/3},\\quad\\log(n),\\quad\\log(n!),\\quad2^{\\log(n)}$$\n\nWhich one of the following options lists the functions in increasing order of asymptotic growth rate?\n\n*Note*: Assume the base of log to be 2.",
@@ -384,12 +568,20 @@
       "D": "$2^{\\log(n)},\\ n^{1/3},\\ \\log(n),\\ \\log(n!)$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       19
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*Note:*' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q25": {
     "stem": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity $\\Theta(n)$?",
@@ -400,12 +592,20 @@
       "D": "$T(n)=T(n-1)+n,\\qquad T(1)=1$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       20
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q26": {
     "stem": "Let $R$ be a binary relation on the set $\\{1,2,\\ldots,10\\}$, where $(x,y)\\in R$ if the product of $x$ and $y$ is square of an integer. Which of the following properties is/are satisfied by $R$?",
@@ -416,12 +616,20 @@
       "D": "Antisymmetric"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       20
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q27": {
     "stem": "For a real number $a$, let $I(a)=\\int_{-1}^{1}(3x^2-ax+1)\\,dx$. Which of the following statements is/are true?",
@@ -432,12 +640,20 @@
       "D": "There exists $a\\in(-\\infty,+\\infty)$ such that $I(a)$ is a negative real number"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       21
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q28": {
     "stem": "In a system, numbers are represented using 4-bit two’s complement form. Consider four numbers $N1=1011$, $N2=1101$, $N3=1010$ and $N4=1001$ in the system. Which of the following operations will result in arithmetic overflow?",
@@ -448,12 +664,20 @@
       "D": "$N1+N4$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       21
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q29": {
     "stem": "Which of the following grammars is/are ambiguous?",
@@ -464,78 +688,134 @@
       "D": "$S\\to aS\\mid\\epsilon$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q30": {
     "stem": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function $h(k)=k\\ mod\\ 9$. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q31": {
     "stem": "Consider the system of linear equations given below.\n\n$$ax+y=b$$\n\n$$16x+ay=24$$\n\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q32": {
     "stem": "Consider an array $A=[10, 7, 8, 19, 41, 35, 25, 31]$. Suppose the merge sort algorithm is executed on array $A$ to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations.\n\nA merge operation on sorted left array $L$ and sorted right array $R$ is said to be void if the output of the merge operation is the elements of array $L$ followed by the elements of array $R$.\n\nThe number of void merge operations among these 7 merge operations is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       22
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q33": {
     "stem": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-transcription-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q34": {
     "stem": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ________. (*rounded off to two decimal places*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(rounded off to two decimal places)*' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(rounded off to two decimal places)*' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q35": {
     "stem": "A lexical analyzer uses the following token definitions\n\n- $letter\\to[A-Za-z]$\n- $digit\\to[0-9]$\n- $id\\to letter\\ (letter\\mid digit)^{*}$\n- $number\\to digit^{+}$\n- $ws\\to(blank\\mid tab\\mid newline)^{+}$\n\nFor the string given below,\n\n$$x1\\ \\ 23mm\\ \\ 78\\ \\ y\\ \\ 7z\\ \\ zz5\\ \\ 14A\\ \\ 8H\\ \\ AaYcD$$\n\nthe number of tokens (excluding $ws$) that will be produced by the lexical analyzer is __________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       23
     ],
-    "notes": "First transcription pass checked against full source page; awaiting independent comparison review. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "First transcription pass checked against full source page. Existing solution checked against exact source; no new disagreement. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '*(answer in integer)*' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "SathiyarajS-aab97f1",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q36": {
     "stem": "Consider a complete graph $K_n$ with $n$ vertices $(n>4)$. Note that multiple spanning trees can be constructed over $K_n$. Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets.\n\nWhich one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of $K_n$ ?",
@@ -546,12 +826,20 @@
       "D": "$\\frac{1}{n-1}$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       24
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q37": {
     "stem": "Let $G$ be a weighted directed acyclic graph with $m$ edges and $n$ vertices. Given $G$ and a source vertex $s$ in $G$, which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from $s$ to all vertices that are reachable from $s$ in $G$?",
@@ -562,15 +850,23 @@
       "D": "$\\Theta(n^3)$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       25
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q38": {
-    "stem": "Consider an array $A$ of integers of size $n$. The indices of $A$ run from $1$ to $n$. An algorithm is to be designed to check whether $A$ satisfies the condition given below.\n\n$$\\forall i,j\\in\\{1,\\ldots,n-1\\}\\text{ such that }i>j,\\;(A[i+1]-A[i])>(A[j+1]-A[j])$$\n\nWhich one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+    "stem": "Consider an array $A$ of integers of size $n$. The indices of $A$ run from $1$ to $n$. An algorithm is to be designed to check whether $A$ satisfies the condition given below.\n\n$$\\begin{gathered}\\forall i,j\\in\\{1,\\ldots,n-1\\}\\text{ such that }i>j,\\\\(A[i+1]-A[i])>(A[j+1]-A[j])\\end{gathered}$$\n\nWhich one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
     "options": {
       "A": "$\\Theta(n)$",
       "B": "$\\Theta(\\log(n))$",
@@ -578,15 +874,23 @@
       "D": "$\\Theta(n^2)$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       25
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The complete quantified condition fits on two rows in the narrow screenshot.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q39": {
-    "stem": "Consider a table $T$, where the elements $T[i][j]$, $0\\leq i,j\\leq n$, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm. The recursive formulation to compute the table entries is as follows:\n\n$$\\begin{aligned}T[0][k]=T[k][0]&=1&&\\text{for }k=0,1,2,\\ldots,n\\\\T[i][j]&=2T[i-1][j]+3T[i][j-1]&&\\text{for }1\\leq i,j\\leq n\\end{aligned}$$\n\nConsider the following two algorithms to compute entries of $T$. Assume that for both the algorithms, for all $0\\leq i,j\\leq n$, $T[i][j]$ has been initialized to $1$.\n\n```text\nAlgorithm B₁:  For i = 1, 2, …, n\n                   For j = 1, 2, …, n\n                       T[i][j] = 2T[i − 1][j] + 3T[i][j − 1]\n\nAlgorithm B₂:  For s = 2, 3, …, 2n\n                   For i = 1, 2, …, n\n                       For j = 1, 2, …, n\n                           If (i + j == s)\n                               T[i][j] = 2T[i − 1][j] + 3T[i][j − 1]\n```\n\nAlgorithm $B_k$, $k\\in\\{1,2\\}$ is said to be correct if and only if it calculates the correct values of $T[i][j]$, for all $0\\leq i,j\\leq n$, (as per the recursive formulation) at the end of the execution of the algorithm $B_k$.\n\nWhich one of the following statements is true?",
+    "stem": "Consider a table $T$, where the elements $T[i][j]$, $0\\leq i,j\\leq n$, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm. The recursive formulation to compute the table entries is as follows:\n\n$$\\begin{gathered}T[0][k]=T[k][0]=1\\\\\\text{for } k=0,1,2,\\ldots,n\\\\[4pt]T[i][j]=2T[i-1][j]+3T[i][j-1]\\\\\\text{for }1\\leq i,j\\leq n\\end{gathered}$$\n\nConsider the following two algorithms to compute entries of $T$. Assume that for both the algorithms, for all $0\\leq i,j\\leq n$, $T[i][j]$ has been initialized to $1$.\n\n```text\nAlgorithm B₁:\nFor i = 1, 2, …, n\n  For j = 1, 2, …, n\n    T[i][j] = 2T[i−1][j] + 3T[i][j−1]\n\nAlgorithm B₂:\nFor s = 2, 3, …, 2n\n  For i = 1, 2, …, n\n    For j = 1, 2, …, n\n      If (i + j == s)\n        T[i][j] = 2T[i−1][j] + 3T[i][j−1]\n```\n\nAlgorithm $B_k$, $k\\in\\{1,2\\}$ is said to be correct if and only if it calculates the correct values of $T[i][j]$, for all $0\\leq i,j\\leq n$, (as per the recursive formulation) at the end of the execution of the algorithm $B_k$.\n\nWhich one of the following statements is true?",
     "options": {
       "A": "Both algorithms $B_1$ and $B_2$ are correct",
       "B": "Algorithm $B_1$ is correct, but algorithm $B_2$ is incorrect",
@@ -594,12 +898,20 @@
       "D": "Both algorithms $B_1$ and $B_2$ are incorrect"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       26
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Source algorithms are typeset pseudocode; indentation hierarchy and line breaks are retained in a text fence, with Unicode subscript labels and mathematical minus signs.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Source algorithms are typeset pseudocode; indentation hierarchy and line breaks are retained in a text fence, with Unicode subscript labels and mathematical minus signs. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The recurrences fit in the narrow screenshot. Compact pseudocode retains the assignment expressions and nesting.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q40": {
     "stem": "Consider the following 4-variable Boolean function\n\n$$F(A,B,C,D)=\\Sigma m(0,1,2,3,8,9,10,11)$$\n\nConsider $A$ as MSB, $D$ as LSB. Which one of the following options represents the minimal sum of products form for the above function?\n\n*Note*: $+$ is OR operation, $.$ is AND operation, $'$ is NOT operation",
@@ -610,12 +922,20 @@
       "D": "$A'$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       27
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q41": {
     "stem": "Consider the canonical $LR(0)$ parsing of the grammar below using terminals $\\{a,b,c\\}$ and non-terminals $\\{A,B,C,S\\}$ with $S$ as the start symbol.\n\n$$\\begin{aligned}S&\\to ACB\\\\A&\\to aA\\mid\\epsilon\\\\C&\\to cC\\mid\\epsilon\\\\B&\\to bB\\mid b\\end{aligned}$$\n\nWhich one of the following options gives the number of shift-reduce conflicts that will occur in the $LR(0)$ ACTION table?",
@@ -626,12 +946,20 @@
       "D": "5"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       28
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q42": {
     "stem": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies. The set of all functional dependencies implied by F is called the closure of F. To compute the closure of F, Armstrong’s Axioms can be applied. Consider $X$, $Y$, and $Z$ as sets of attributes over a relational schema. The three rules of Armstrong’s Axioms are described as follows.\n\nReflexivity: If $Y\\subseteq X$ , then $X\\to Y$\n\nAugmentation: If $X\\to Y$, then $XZ\\to YZ$ for any Z\n\nTransitivity: If $X\\to Y$ and $Y\\to Z$, then $X\\to Z$\n\nThe additional rule of Union is defined as follows.\n\nUnion: If $X\\to Y$ and $X\\to Z$, then $X\\to YZ$\n\nIt can be proved that the additional rule of Union is also implied by the three rules of Armstrong’s Axioms. Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof ?",
@@ -642,12 +970,20 @@
       "D": "Augmentation and Transitivity"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       29
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q43": {
     "stem": "Consider the transmission of data bits 110001011 over a link that uses Cyclic Redundancy Check (CRC) code for error detection. If the generator bit pattern is given to be 1001, which one of the following options shows the remainder bit pattern appended to the data bits before transmission?",
@@ -658,12 +994,20 @@
       "D": "100"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       30
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q44": {
     "stem": "Consider a processor that has 16 general purpose registers and it uses 2-byte instruction format for all its instructions. Variable-sized opcodes are permitted. There are three different types of instructions; M-type, R-type, and C-type. Each M-type instruction has 2 register operands and a 6-bit immediate operand. Each R-type instruction has 3 register operands. Each C-type instruction has a register operand and a 6-bit offset value. If there are 2 unique M-type opcodes and 7 unique R-type opcodes, which one of the following options gives the maximum number of unique opcodes possible for C-type instructions?",
@@ -674,12 +1018,20 @@
       "D": "16"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       30
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q45": {
     "stem": "Consider the control flow graph given below.\n\nWhich one of the following options is the set of live variables at the exit point of each basic block?",
@@ -692,12 +1044,20 @@
     "figures": [
       "figures/CS-2026-S2-Q45-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       31
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; viewBox tightened to the drawing (Graphviz had sized it from the loop control points, leaving a blank band above ENTRY).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; viewBox tightened to the drawing (Graphviz had sized it from the loop control points, leaving a blank band above ENTRY). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q46": {
     "stem": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file. Otherwise it is called a sparse index. Consider the following two statements.\n\nS1: A hash index must be a dense index\n\nS2: A $B^+$ tree index can be a sparse index\n\nWhich one of the following options is correct?",
@@ -708,12 +1068,20 @@
       "D": "S1 is false and S2 is true"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       32
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q47": {
     "stem": "Consider the following two finite automata $D_1$ and $D_2$.\n\nWhich of the following statements is/are true?",
@@ -726,12 +1094,20 @@
     "figures": [
       "figures/CS-2026-S2-Q47-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       33
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; two edge labels moved off their curves (D1 w->s \"1\" below, D2 w2->s2 \"1\" above, as printed); .dot lp values updated to match.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): Graphviz per-node/edge <title> tooltips removed; two edge labels moved off their curves (D1 w->s \"1\" below, D2 w2->s2 \"1\" above, as printed); .dot lp values updated to match. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. All transitions, arrowheads and accepting/start markers match. The enlarged labels clear the drawing.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q48": {
     "stem": "Let $\\Sigma=\\{a,b,c,d\\}$ and let $L=\\{a^ib^jc^kd^\\ell\\mid i,j,k,\\ell\\geq0\\}$.\n\nWhich of the following constraints ensure(s) that the language $L$ is context-free?",
@@ -742,12 +1118,20 @@
       "D": "$i+j=k+\\ell$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       34
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q49": {
     "stem": "Consider a binary search tree (BST) with $n$ leaf nodes $(n>0)$. Given any node $V$, the key present in the node is denoted as $Val(V)$. All the keys present in the given BST are distinct. The keys belong to the set of real numbers.\n\nFor a node $V$, let $Suc(V)$ denote the node that is its inorder successor. If a node $V$ does not have an inorder successor, then $Suc(V)$ is $NULL$. As there are no duplicates, if $Suc(V)$ is not $NULL$, then $Val(V)<Val(Suc(V))$.\n\nCorresponding to every leaf node $L_i$ that has a non-NULL $Suc(L_i)$, a new key $k_i$ with the following property is to be inserted into the BST.\n\n$$Val(L_i)<k_i<Val(Suc(L_i))$$\n\nLet $K$ represent the list of all such new keys to be inserted into the BST.\n\nWhich of the following statements is/are true?",
@@ -758,12 +1142,20 @@
       "D": "Number of nodes in the BST will double after inserting all keys from $K$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       35
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q50": {
     "stem": "Consider a stack $S$ and a queue $Q$. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one, in that order. When an element arrives, it is assigned either to $S$ (pushed on $S$ ) or to $Q$ (enqueued to $Q$). Once all the five elements are stored, the output is generated in two steps. First, stack S is emptied by popping all elements. Then queue $Q$ is emptied by dequeueing all elements. The output obtained by following this process is 4 3 1 2 5 .\n\nGiven the output, the objective is to predict whether an element was assigned to $S$ or $Q$.\n\nWhich of the following options is/are possible valid assignment(s) of the elements?\n\n*Note:* In the options, the notation $xS$ denotes that element $x$ was assigned to $S$ and $yQ$ denotes that element $y$ was assigned to $Q$.",
@@ -774,12 +1166,20 @@
       "D": "$1S,2S,3S,4Q,5Q$"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       36
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q51": {
     "stem": "Consider three processes P1, P2, and P3 running identical code, as shown in the pseudocode below. A and B are two binary semaphores initialized to 1 and 0, respectively. X is a shared variable initialized to 0. Each line in the pseudocode is executed atomically.\n\n**Pseudocode** of P1, P2, and P3\n\n```text\nWait(A);\nPrint(*);\nX = X+1;\nIf (X == 2)\n   {\n      Print($);\n      Signal(B);\n   }\nSignal(A);\nWait(B);\nPrint(#);\nSignal(B);\n```\n\nAssume that any of the three processes can start to execute first and context switching can happen between these processes at any arbitrary time and in any arbitrary order.\n\nWhich of the following patterns is/are possible to be generated as an outcome of the execution of these three processes?",
@@ -790,12 +1190,20 @@
       "D": "`***$###`"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       37
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review.",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q52": {
     "stem": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory. Four words P, Q, R, and S are accessed by the processor in the same order 10 times. That is, there are a total of 40 memory references in the sequence P, Q, R, S, P, Q, R, S,…\n\nAssume that the cache memory is initially empty. The physical addresses of the words are given below (1 word =1 byte).\n\nP: 0x845B32, Q: 0x845B26, R: 0x845B36, S: 0x846B32\n\nWhich of the following statements is/are true?\n\n*Note:* 1K=$2^{10}$ and 1M=$2^{20}$",
@@ -806,78 +1214,134 @@
       "D": "Except the first access to S, all subsequent accesses to S result in cache hits"
     },
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       38
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q53": {
     "stem": "To keep track of free blocks in a file system, one of the two approaches is generally used – using bitmaps (bit vectors) or using linked lists. Consider that the linked list approach is used to keep track of free blocks in a file system. Assume that the disk size is 16 GB, block size is 2 KB, and block numbers used are 32-bit long. A single pointer of size 4 bytes is used in each block of the list to point to the next block of the list. The number of blocks required to hold the free disk block numbers is ____________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$ and 1G=$2^{30}$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       38
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The existing solution derives 16,417 list blocks using full-disk capacity and explains why the actual free-block count and storage accounting matter.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q54": {
     "stem": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB. TLB reach is defined as the total amount of physical memory that can be accessed through the TLB entries. The paging system uses pages of size 4 KB. The virtual address space is 64 GB and physical address space is 1 GB. If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$, 1M=$2^{20}$, 1G=$2^{30}$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q55": {
     "stem": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme. Suppose there are 8 holes in the memory of sizes 20 KB, 4 KB, 25 KB, 18 KB, 7 KB, 9 KB, 15 KB, and 12 KB. Assume that no two holes are adjacent. Two processes P1 of size 16 KB and P2 of size 9 KB arrive in that order, and they are allocated memory using the best-fit technique. After allocating space to P1 and P2, the number of holes of size less than 8 KB is ____________. (*answer in integer*)\n\n*Note:* 1K=$2^{10}$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q56": {
     "stem": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache, with block numbers starting from 0. The word with physical address 0xA2C28 is mapped to the cache block number $176_{10}$. The maximum possible size of the cache (in KB) for this configuration is ___________. (*answer in integer*)\n\n*Note:* 1K=$2^{10}$ and 1M=$2^{20}$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q57": {
     "stem": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles to complete the execution of an instruction. To improve the performance, the system was pipelined with a goal of achieving an average throughput of one instruction per clock cycle. However, it could operate only at 1.2 GHz due to pipeline overheads. While executing a program in the pipelined design, 30% of instructions encountered a stall of 2 cycles due to pipeline hazards. The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___________. (*rounded off to two decimal places*)\n\n*Note*: 1G=$10^9$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       39
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to two decimal places)' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to two decimal places)' -> '(*rounded off to two decimal places*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q58": {
     "stem": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the maximum segment size (MSS) is 2 KB, and the slow start threshold for TCP congestion control is 16 KB. Assume that there are no timeouts or duplicate acknowledgements. The number of rounds of transmission required for the congestion control algorithm of the TCP connection to reach the congestion avoidance phase is ___________. (*answer in integer*)\n\n*Note*: 1K=$2^{10}$",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The existing solution derives the official fourth sending round with a one-MSS initial window and explains the round-count and initial-window assumptions.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q59": {
     "stem": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. The blocks Q and M represent active high 2:4 decoder and 4-to-1 multiplexer, respectively. Out of 16 possible input combinations, the number of combinations that produce Y=1 is ____________. (*answer in integer*)\n\n*Note:* One input combination is an instance of [A B S1 S0].",
@@ -885,77 +1349,133 @@
     "figures": [
       "figures/CS-2026-S2-Q59-1.svg"
     ],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Figure redrawn as accessible SVG; all labels, arrows, branch/loop topology and geometry checked against the source. Graph drawings use pinned Graphviz positions and explicit spline routes. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note:*' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q60": {
     "stem": "Consider the following ANSI-C program.\n\n```c\n#include <stdio.h>\n\nint main(){\n\n        int *ptr, a, b, c;\n        a=5; b=11; c=20;\n        ptr=&a; *ptr=c; ptr=&c;\n        a=*(&b); c=*ptr-a;\n        printf(\"%d\",c);\n        return(0);\n}\n```\n\nThe output of this program is ____________. (*answer in integer*)\n\n*Note*: Assume that the program compiles and runs successfully.",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       40
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q61": {
-    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n        int length=end+1-start;\n        if((length<1)||(start<0)||(end<0)){ return(0); }\n        if(length%3==0){\n                return(func(start+1, end));\n        } else if(length%3==1){\n                return(1+func(start, end-1));\n        } else {\n                return(func(start+2, end));\n        }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
+    "stem": "Consider the following ANSI-C function.\n\n```c\nint func(int start, int end){\n    int length=end+1-start;\n    if((length<1)||(start<0)||(end<0)){\n        return(0);\n    }\n    if(length%3==0){\n        return(func(start+1, end));\n    } else if(length%3==1){\n        return(1+func(start, end-1));\n    } else {\n        return(func(start+2, end));\n    }\n}\n```\n\nThe maximum possible value that can be returned from this function is ____________. (*answer in integer*)\n\n*Note*: Ignore syntax errors (if any) in the function.",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Monospaced source indentation preserved as eight spaces per level; Q60 blank lines after include and main retained. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'Note:' -> '*Note*:' (Note label emphasis per PDF font flags). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187. The C tokens and control flow match. The normalized indentation and split guard body fit the narrow screenshot.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q62": {
     "stem": "The determinant of a $4\\times4$ matrix $A$ is 3. The value of the determinant of $2A$ is ____________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'matrix A is 3' -> 'matrix $A$ is 3' (italic variable in source); stem: 'determinant of 2A is' -> 'determinant of $2A$ is' (italic in source).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses); stem: 'matrix A is 3' -> 'matrix $A$ is 3' (italic variable in source); stem: 'determinant of 2A is' -> 'determinant of $2A$ is' (italic in source). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q63": {
     "stem": "Suppose an unbiased coin is tossed 6 times. Each coin toss is independent of all previous coin tosses. Let $E_1$ be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let $E_2$ be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails.\n\nThe conditional probability $\\mathrm{P}(E_1\\mid E_2)$ is equal to ____________. (*rounded off to one decimal place*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to one decimal place)' -> '(*rounded off to one decimal place*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(rounded off to one decimal place)' -> '(*rounded off to one decimal place*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q64": {
     "stem": "Consider a function $f:(0,1)\\to\\{0,1\\}$ defined as follows.\n\nFor a real number $r\\in(0,1)$ , $f(r)=1$ if the second digit after the decimal point in $r$ is one of the four digits 2, 3, 6 and 7. Otherwise, $f(r)$ is equal to 0.\n\nThe number of points in $(0,1)$ at which $f$ is discontinuous is ___________. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       41
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   },
   "CS-2026-S2-Q65": {
     "stem": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers. Assume that the link bandwidth is $10^8$ bits per second and that the propagation delay in the link is 5 nanoseconds per meter. Every transmitted data byte is assigned a unique sequence number.\n\nLet $N$ be the minimum number of bits needed for the sequence number field in the protocol header such that\n\ni. the sequence numbers do not wrap around before 60 seconds, and\n\nii. the maximum utilization of the link is achieved.\n\nThe value of $N$ is ______. (*answer in integer*)",
     "options": {},
     "figures": [],
-    "status": "draft",
+    "status": "verified",
     "checked_pages": [
       42
     ],
-    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Awaiting separate independent comparison-page review. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses).",
-    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+    "notes": "Prepared by transcribe_2026_s2_second. Canonical PDF full-page render and source crop inspected, with a second source-crop pass over wording, numbers, symbols and option order. Existing solution agrees with the source and its published answer, subject to the qualifications already recorded in that solution. Repo-wide sweep 2026-11-10 (claude-code-sweep-2026-11-10, issue classes found while finishing CS-2024): stem: '(answer in integer)' -> '(*answer in integer*)' (source italicises the phrase, not the parentheses). Independent review 2026-11-11 compared the full official source page and current Chromium desktop/light and mobile/dark renders, and checked the existing solution against the exact wording and published key. Reviewed content commit c27e7cc0c8059ca4db99ad5d4eb4cc5afcaf8187.",
+    "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+    "verified_on": "2026-11-11",
+    "verification": {
+      "method": "independent-visual-comparison",
+      "transcriber": "transcribe_2026_s2_second",
+      "reviewer": "codex-laptop-paper-review-2026-11-11",
+      "solution_checked": true,
+      "rendered_comparison_checked": true
+    }
   }
 }

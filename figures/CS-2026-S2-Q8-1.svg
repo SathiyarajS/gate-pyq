@@ -206,11 +206,11 @@
 </g>
 
 <g id="node22">
-<text text-anchor="middle" x="17" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor">(i)</text>
+<text text-anchor="middle" x="17" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor" font-weight="bold">(i)</text>
 </g>
 
 <g id="node23">
-<text text-anchor="middle" x="233" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor">(ii)</text>
+<text text-anchor="middle" x="233" y="-189.44" font-family="Times,serif" font-size="16.00" fill="currentColor" font-weight="bold">(ii)</text>
 </g>
 </g>
 </svg>

@@ -23,7 +23,9 @@ for node in root.iter():
  for key in ('stroke','fill'):
   if node.get(key)=='black':node.set(key,'currentColor')
   if node.get(key)=='transparent':node.set(key,'none')
- if node.tag=='text':node.set('fill','currentColor')
+ if node.tag=='text':
+  node.set('fill','currentColor')
+  node.set('font-weight','bold')
 title='Intercity highways: (i) four-by-four grid and (ii) five-city network.'
 root.set('xmlns','http://www.w3.org/2000/svg');root.set('role','img');root.set('aria-label',title)
 label=ET.Element('title',{'id':'title'});label.text=title;root.insert(0,label)

@@ -4,7 +4,7 @@ Scope: 1991–2026, 46 provisional CS paper variants. Identifier coverage is not
 
 | Paper | Entries | Requested | Supplemental | Second reviews | Official key | Final label verified | Redrawn |
 |---|---:|---:|---:|---:|---|---| ---: |
-| CS-2026-S2 | 65/65 | 59 | 6 | 65 | Compared | Pending | 0 |
+| CS-2026-S2 | 65/65 | 59 | 6 | 65 | Compared | Pending | 65 |
 | CS-2026-S1 | 65/65 | 59 | 6 | 65 | Compared | Pending | 0 |
 | CS-2025-S2 | 65/65 | 59 | 6 | 65 | Compared | Pending | 0 |
 | CS-2025-S1 | 65/65 | 60 | 5 | 65 | Compared | Pending | 0 |
