@@ -15,8 +15,8 @@ rule) together with "member". Everything else is computed here, and the build
 stops on any difference from `expect`.
 
 Language facts are decided exactly with DFAs whenever both sides are regular, and
-are also checked on every string up to a length set by the alphabet size (the
-only check for a "member" language). A minimal-DFA count whose machine needs a
+are also checked on every string up to a length set by the alphabet size. A
+"member" predicate alone can supply a counterexample, never a universal proof. A minimal-DFA count whose machine needs a
 dead state is accepted only when the spec says the question counts it
 (`"dead": "counted"`, for a question that asks for a complete DFA).
 """
@@ -507,6 +507,8 @@ def compare(qid, fa_or_dfa, member, lang, rel):
 
     def decide(bad):
         w = dfa.witness(lang.dfa, bad) if lang.dfa else brute(bad)
+        if w is None and lang.dfa is None:
+            fail(qid, 'bounded enumeration cannot prove a language relation; supply an exact construction')
         if lang.dfa and (w is None) != (brute(bad) is None) and len(w or '') <= n:
             fail(qid, 'the exact and brute-force language checks disagree')
         return w
@@ -658,6 +660,8 @@ def run_animation(qid, spec):
         want = r['expect']
         if 'states' in want:
             check(qid, f'the states after {show(w)}', fa.order(S), fa.order(set(want['states'])))
+            if not set(want['states']) <= set(fa.states):
+                fail(qid, 'expected states contain an unknown state')
             if len(set(want['states'])) != len(want['states']):
                 fail(qid, 'expected states repeat')
         if 'accept' in want:
@@ -964,11 +968,7 @@ def language_animation(qid, spec):
     alphabet = [str(c) for c in spec['alphabet']]
     lang = Lang(qid, spec['lang'], alphabet)
     want = spec['expect']
-    if 'dfa' in want:
-        fa = FA(qid, want['dfa'], 'the recorded DFA')
-        if fa.alphabet != alphabet or not fa.complete:
-            fail(qid, 'the recorded DFA must be complete over the alphabet')
-    elif hasattr(lang, 'rule'):
+    if hasattr(lang, 'rule'):
         fa = lang.rule.fa(qid, alphabet)
     elif lang.dfa:
         fa = minimal_dfa(qid, lang.dfa)
@@ -979,6 +979,10 @@ def language_animation(qid, spec):
     ok, w, _ = compare(qid, fa, fa.accepts, lang, 'eq')
     if not ok:
         fail(qid, f'the DFA does not accept exactly {lang.text}: {show(w)} differs')
+    if 'dfa' in want:
+        offered = Lang(qid, dict(machine=want['dfa'], text='the recorded DFA'), alphabet)
+        if lang.dfa.witness(offered.dfa, lambda a, b: a != b) is not None:
+            fail(qid, 'the computed DFA differs from the recorded DFA')
     # Breadth-first: name each state by the first string that reaches it.
     reach = {fa.start: ''}
     order, todo = [fa.start], deque([fa.start])
@@ -1136,7 +1140,7 @@ def mealy_trace(fa, w, steps, expected=None):
 
 def mealy_animation(qid, spec):
     """Output traces of Mealy machines: option machines given by formulas checked against a stated
-    input/output example, or claims about the output checked on every input up to a length."""
+    input/output example."""
     scheds = []
     if 'options' in spec:
         w, want = spec['input'], spec['output']
@@ -1160,31 +1164,7 @@ def mealy_animation(qid, spec):
             scheds.append(schedule(opt['label'], f"Option {opt['label']}: t = {opt['show_t']}, y = {opt['show_y']}", fa.draw(), steps,
                                    [['n-now', 'current state'], ['e-now', 'move just taken']]))
         return done('fa-mealy', scheds, tabs_label='options')
-    fa = FA(qid, spec['machine'])
-    if not fa.mealy:
-        fail(qid, 'fa-mealy needs a Mealy machine')
-    steps = []
-    demo = spec['demo']
-    mealy_trace(fa, demo, steps)
-    lines = []
-    n = maxlen(len(fa.alphabet)) - 2
-    for cl in spec['claims']:
-        bad = None
-        for x in words(fa.alphabet, n):
-            o, _ = fa.outputs(x)
-            if not _ev(qid, cl['test'], w=x, o=o):
-                bad = x
-                break
-        ok = bad is None
-        check(qid, f"claim {cl['label']}", ok, cl['expect'])
-        o, _ = fa.outputs(bad or demo)
-        lines.append(f"{cl['label']} ({cl['text']}): " + (f"true for every input up to length {n}" if ok else f"false: input {bad} gives {' '.join(o)}") + '.')
-    true = [cl['label'] for cl in spec['claims'] if cl['expect']]
-    steps[-1]['note'] += f" The outputs are {' '.join(fa.outputs(demo)[0])}. Checking every input, " + \
-        (f"only {_list(true)} always {'holds' if len(true) == 1 else 'hold'}." if true else "none of the descriptions always holds.")
-    steps[-1]['line'] = lines
-    scheds.append(schedule(show(demo), f"Trace on {demo}", fa.draw(), steps, [['n-now', 'current state'], ['e-now', 'move just taken']]))
-    return done('fa-mealy', scheds)
+    fail(qid, 'Mealy animation needs the stated input/output example and option formulas')
 
 
 KINDS = {'fa-run': run_animation, 'fa-count': count_animation, 'fa-subset': subset_animation, 'fa-refine': refine_animation,

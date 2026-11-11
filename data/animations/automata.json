@@ -1,349 +1,2695 @@
 {
- "description": "Step-through animations (finite automata stated in the question text: runs of DFAs, NFAs and ε-NFAs, counting accepted strings, the subset construction, minimisation by partition refinement for DFAs, product DFAs and Mealy machines, minimal DFAs of precisely stated languages, statements about a machine's language, and Mealy output traces). Each entry states only the machine or language from the question and the expected answer; scripts/animations/automata.py computes everything at build time and the build fails if the result differs from 'expect', which must match the official answer, or our answer where no key exists. A 'regex' or 'rule' that comes with a 'member' test is our construction for the language, checked against that test. 'pos' and 'layout' only place the states in the drawing.",
- "questions": {
-  "CS-2014-S1-Q26": {
-   "kind": "fa-run",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q3"], "alphabet": "01",
-    "edges": [["q0", "0,1", "q0"], ["q0", "1", "q1"], ["q1", "0,1", "q2"], ["q2", "1", "q2"], ["q2", "0,1", "q3"]]},
-   "runs": [{"input": "0011", "expect": {"states": ["q0", "q1", "q2"]}}]
+  "description": "Step-through animations (finite automata stated in the question text: runs of DFAs, NFAs and ε-NFAs, counting accepted strings, the subset construction, minimisation by partition refinement for DFAs, product DFAs and Mealy machines, minimal DFAs of precisely stated languages, statements about a machine's language, and Mealy output traces). Each entry states only the machine or language from the question and the expected answer; scripts/animations/automata.py computes everything at build time and the build fails if the result differs from 'expect', which must match the official answer, or our answer where no key exists. A 'regex' or 'rule' that comes with a 'member' test is our construction for the language, checked against that test. 'pos' and 'layout' only place the states in the drawing.",
+  "questions": {
+    "CS-2014-S1-Q26": {
+      "kind": "fa-run",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q3"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "q0",
+            "0,1",
+            "q0"
+          ],
+          [
+            "q0",
+            "1",
+            "q1"
+          ],
+          [
+            "q1",
+            "0,1",
+            "q2"
+          ],
+          [
+            "q2",
+            "1",
+            "q2"
+          ],
+          [
+            "q2",
+            "0,1",
+            "q3"
+          ]
+        ]
+      },
+      "runs": [
+        {
+          "input": "0011",
+          "expect": {
+            "states": [
+              "q0",
+              "q1",
+              "q2"
+            ]
+          }
+        }
+      ]
+    },
+    "CS-2017-S2-Q49": {
+      "kind": "fa-run",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "q0",
+            "ε",
+            "q2"
+          ],
+          [
+            "q0",
+            "a",
+            "q1"
+          ],
+          [
+            "q0",
+            "b",
+            "q0"
+          ],
+          [
+            "q1",
+            "ε",
+            "q2"
+          ],
+          [
+            "q1",
+            "a",
+            "q2"
+          ],
+          [
+            "q1",
+            "b",
+            "q3"
+          ],
+          [
+            "q2",
+            "ε",
+            "q0"
+          ],
+          [
+            "q3",
+            "b",
+            "q2"
+          ]
+        ],
+        "pos": {
+          "q0": [
+            0,
+            0
+          ],
+          "q1": [
+            1,
+            0
+          ],
+          "q2": [
+            0,
+            1
+          ],
+          "q3": [
+            1,
+            1
+          ]
+        }
+      },
+      "runs": [
+        {
+          "input": "aba",
+          "from": "q2",
+          "expect": {
+            "states": [
+              "q0",
+              "q1",
+              "q2"
+            ]
+          }
+        }
+      ]
+    },
+    "CS-2003-Q50": {
+      "kind": "fa-count",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q3"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "q0",
+            "1",
+            "q0"
+          ],
+          [
+            "q0",
+            "0",
+            "q1"
+          ],
+          [
+            "q1",
+            "1",
+            "q0"
+          ],
+          [
+            "q1",
+            "0",
+            "q2"
+          ],
+          [
+            "q2",
+            "0",
+            "q2"
+          ],
+          [
+            "q2",
+            "1",
+            "q3"
+          ],
+          [
+            "q3",
+            "0,1",
+            "q3"
+          ]
+        ]
+      },
+      "length": 7,
+      "fixed": {
+        "1": "1",
+        "4": "1",
+        "7": "1"
+      },
+      "expect": {
+        "count": 7
+      }
+    },
+    "CS-2021-S2-Q27": {
+      "kind": "fa-count",
+      "machine": {
+        "states": [
+          "q0",
+          "u",
+          "v",
+          "p",
+          "q",
+          "f"
+        ],
+        "start": "q0",
+        "final": [
+          "f"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "q0",
+            "0",
+            "u"
+          ],
+          [
+            "q0",
+            "1",
+            "v"
+          ],
+          [
+            "u",
+            "0",
+            "p"
+          ],
+          [
+            "u",
+            "1",
+            "q"
+          ],
+          [
+            "v",
+            "0",
+            "p"
+          ],
+          [
+            "v",
+            "1",
+            "q"
+          ],
+          [
+            "p",
+            "0,1",
+            "f"
+          ],
+          [
+            "q",
+            "0,1",
+            "f"
+          ],
+          [
+            "f",
+            "0,1",
+            "f"
+          ]
+        ]
+      },
+      "length": 8,
+      "expect": {
+        "count": 256
+      }
+    },
+    "CS-2003-Q55": {
+      "kind": "fa-subset",
+      "machine": {
+        "states": [
+          "p",
+          "q",
+          "r"
+        ],
+        "start": "p",
+        "final": [
+          "p",
+          "q"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "p",
+            "0,1",
+            "q"
+          ],
+          [
+            "q",
+            "0",
+            "p"
+          ],
+          [
+            "q",
+            "0,1",
+            "q"
+          ],
+          [
+            "p",
+            "1",
+            "r"
+          ],
+          [
+            "q",
+            "0",
+            "r"
+          ],
+          [
+            "r",
+            "0",
+            "q"
+          ]
+        ],
+        "pos": {
+          "p": [
+            0,
+            1
+          ],
+          "q": [
+            1,
+            0
+          ],
+          "r": [
+            2,
+            1
+          ]
+        }
+      },
+      "expect": {
+        "language": {
+          "regex": "(0+1)*",
+          "text": "{0,1}*"
+        }
+      }
+    },
+    "CS-2012-Q22": {
+      "kind": "fa-subset",
+      "machine": {
+        "states": [
+          "s",
+          "t",
+          "u"
+        ],
+        "start": "s",
+        "final": [
+          "t"
+        ],
+        "alphabet": "a",
+        "edges": [
+          [
+            "s",
+            "a",
+            "t"
+          ],
+          [
+            "t",
+            "ε",
+            "u"
+          ],
+          [
+            "u",
+            "ε",
+            "s"
+          ]
+        ],
+        "pos": {
+          "s": [
+            0,
+            1
+          ],
+          "t": [
+            1,
+            0
+          ],
+          "u": [
+            2,
+            1
+          ]
+        }
+      },
+      "expect": {
+        "complement": {
+          "regex": "ε",
+          "text": "{ε}"
+        }
+      }
+    },
+    "CS-2007-Q75": {
+      "kind": "fa-refine",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q1",
+          "q2"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "q0",
+            "a",
+            "q1"
+          ],
+          [
+            "q0",
+            "b",
+            "q0"
+          ],
+          [
+            "q1",
+            "a",
+            "q2"
+          ],
+          [
+            "q1",
+            "b",
+            "q1"
+          ],
+          [
+            "q2",
+            "a",
+            "q1"
+          ],
+          [
+            "q2",
+            "b",
+            "q2"
+          ],
+          [
+            "q3",
+            "a",
+            "q1"
+          ],
+          [
+            "q3",
+            "b",
+            "q2"
+          ]
+        ]
+      },
+      "expect": {
+        "count": 2,
+        "blocks": [
+          [
+            "q0"
+          ],
+          [
+            "q1",
+            "q2"
+          ]
+        ]
+      }
+    },
+    "CS-2011-Q55": {
+      "kind": "fa-refine",
+      "machine": {
+        "states": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t"
+        ],
+        "start": "p",
+        "final": [
+          "s",
+          "t"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "p",
+            "a",
+            "s"
+          ],
+          [
+            "p",
+            "b",
+            "q"
+          ],
+          [
+            "q",
+            "a",
+            "t"
+          ],
+          [
+            "q",
+            "b",
+            "r"
+          ],
+          [
+            "r",
+            "a,b",
+            "r"
+          ],
+          [
+            "s",
+            "a,b",
+            "s"
+          ],
+          [
+            "t",
+            "a,b",
+            "t"
+          ]
+        ]
+      },
+      "expect": {
+        "count": 4,
+        "blocks": [
+          [
+            "p"
+          ],
+          [
+            "q"
+          ],
+          [
+            "r"
+          ],
+          [
+            "s",
+            "t"
+          ]
+        ],
+        "equivalent": {
+          "states": [
+            "p",
+            "q",
+            "r",
+            "s"
+          ],
+          "start": "p",
+          "final": [
+            "s"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "p",
+              "a",
+              "s"
+            ],
+            [
+              "p",
+              "b",
+              "q"
+            ],
+            [
+              "q",
+              "a",
+              "s"
+            ],
+            [
+              "q",
+              "b",
+              "r"
+            ],
+            [
+              "r",
+              "a,b",
+              "r"
+            ],
+            [
+              "s",
+              "a,b",
+              "s"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2015-S1-Q49": {
+      "kind": "fa-refine",
+      "product": {
+        "op": "and",
+        "names": [
+          "M",
+          "N"
+        ],
+        "machines": [
+          {
+            "states": [
+              "0",
+              "1"
+            ],
+            "start": "0",
+            "final": [
+              "1"
+            ],
+            "alphabet": "ab",
+            "edges": [
+              [
+                "0",
+                "a",
+                "1"
+              ],
+              [
+                "1",
+                "a",
+                "1"
+              ],
+              [
+                "0",
+                "b",
+                "0"
+              ],
+              [
+                "1",
+                "b",
+                "0"
+              ]
+            ]
+          },
+          {
+            "states": [
+              "0",
+              "1"
+            ],
+            "start": "0",
+            "final": [
+              "1"
+            ],
+            "alphabet": "ab",
+            "edges": [
+              [
+                "0",
+                "a",
+                "0"
+              ],
+              [
+                "1",
+                "a",
+                "0"
+              ],
+              [
+                "0",
+                "b",
+                "1"
+              ],
+              [
+                "1",
+                "b",
+                "1"
+              ]
+            ]
+          }
+        ]
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    "CS-2025-S1-Q59": {
+      "kind": "fa-refine",
+      "machine": {
+        "states": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "A",
+            "0/0",
+            "F"
+          ],
+          [
+            "A",
+            "1/0",
+            "B"
+          ],
+          [
+            "B",
+            "0/0",
+            "D"
+          ],
+          [
+            "B",
+            "1/0",
+            "C"
+          ],
+          [
+            "C",
+            "0/0",
+            "F"
+          ],
+          [
+            "C",
+            "1/0",
+            "E"
+          ],
+          [
+            "D",
+            "0/1",
+            "G"
+          ],
+          [
+            "D",
+            "1/0",
+            "A"
+          ],
+          [
+            "E",
+            "0/0",
+            "D"
+          ],
+          [
+            "E",
+            "1/0",
+            "C"
+          ],
+          [
+            "F",
+            "0/1",
+            "F"
+          ],
+          [
+            "F",
+            "1/1",
+            "B"
+          ],
+          [
+            "G",
+            "0/0",
+            "G"
+          ],
+          [
+            "G",
+            "1/1",
+            "H"
+          ],
+          [
+            "H",
+            "0/1",
+            "G"
+          ],
+          [
+            "H",
+            "1/0",
+            "A"
+          ]
+        ],
+        "pos": "circle"
+      },
+      "expect": {
+        "count": 5,
+        "blocks": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "E"
+          ],
+          [
+            "D",
+            "H"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ]
+        ]
+      }
+    },
+    "CS-2015-S2-Q45": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(10)"
+      },
+      "expect": {
+        "count": 3
+      }
+    },
+    "CS-2016-S2-Q26": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(0+1)(0+1)*"
+      },
+      "expect": {
+        "count": 2
+      }
+    },
+    "CS-2017-S1-Q32": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a+b)*b(a+b)"
+      },
+      "expect": {
+        "count": 4
+      }
+    },
+    "CS-2017-S2-Q35": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "dead": "counted",
+      "lang": {
+        "regex": "(a+b)(a+b)a(a+b)(a+b)(a+b)(a+b)*",
+        "member": "len(w) >= 6 and w[2] == 'a'",
+        "text": "{w₁aw₂ : |w₁| = 2, |w₂| ≥ 3}"
+      },
+      "expect": {
+        "count": 8
+      }
+    },
+    "CS-2020-Q61": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "rule": {
+          "start": "0",
+          "next": "(s + (c == 'a')) % 6",
+          "accept": "s % 2 == 0 and s % 3 != 0",
+          "name": "'q%d' % s",
+          "layout": "circle"
+        },
+        "member": "w.count('a') % 2 == 0 and w.count('a') % 3 != 0",
+        "text": "strings whose number of a's is divisible by 2 but not by 3"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-2023-Q63": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "dead": "counted",
+      "lang": {
+        "rule": {
+          "start": "0",
+          "next": "3 if s == 3 or (c == '1' and s == 2) else (s + 1 if c == '1' else 0)",
+          "accept": "s < 3",
+          "name": "'qD' if s == 3 else 'q%d' % s"
+        },
+        "member": "'111' not in w",
+        "text": "strings with no three consecutive 1s"
+      },
+      "expect": {
+        "count": 4
+      }
+    },
+    "CS-2025-S2-Q60": {
+      "kind": "fa-language",
+      "alphabet": "1234",
+      "lang": {
+        "rule": {
+          "start": "1",
+          "next": "s * int(c) % 7",
+          "accept": "s == 2",
+          "name": "'r%d' % s",
+          "layout": "circle"
+        },
+        "member": "prod(int(c) for c in w) % 7 == 2",
+        "text": "strings whose product of symbols is 2 modulo 7"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-2006-Q34": {
+      "kind": "fa-language",
+      "alphabet": "1",
+      "lang": {
+        "regex": "(111+11111)*"
+      },
+      "expect": {
+        "count": 9
+      }
+    },
+    "CS-2007-Q29": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == '0')) % 3, (s[1] + (c == '1')) % 5)",
+          "accept": "s == (0, 0)",
+          "name": "'%d%d' % s",
+          "pos": "[s[1], s[0]]"
+        },
+        "member": "w.count('0') % 3 == 0 and w.count('1') % 5 == 0",
+        "text": "strings whose number of 0s is divisible by 3 and number of 1s by 5"
+      },
+      "expect": {
+        "count": 15
+      }
+    },
+    "CS-1998-Q40": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(00+11)",
+        "member": "len(w) >= 2 and w[-1] == w[-2]",
+        "text": "strings whose last two symbols are equal"
+      },
+      "expect": {
+        "count": 5
+      }
+    },
+    "CS-1991-Q71": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "rule": {
+          "start": "'000'",
+          "next": "s[1:] + c",
+          "accept": "s[0] == '1'",
+          "name": "s",
+          "layout": "circle"
+        },
+        "member": "len(w) >= 3 and w[-3] == '1'",
+        "text": "strings whose third symbol from the right is 1"
+      },
+      "expect": {
+        "count": 8
+      }
+    },
+    "CS-1997-Q81": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == 'a')) % 2, (s[1] + (c == 'b')) % 3)",
+          "accept": "s == (0, 0)",
+          "name": "'q%d%d' % s",
+          "pos": "[s[1], s[0]]"
+        },
+        "member": "w.count('a') % 2 == 0 and w.count('b') % 3 == 0",
+        "text": "strings with a number of a's divisible by 2 and of b's divisible by 3"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-1993-Q68": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "member": "'bbb' not in w",
+        "text": "strings with no substring bbb",
+        "rule": {
+          "start": "0",
+          "next": "3 if s == 3 or (s == 2 and c == 'b') else (s + 1 if c == 'b' else 0)",
+          "accept": "s < 3"
+        }
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "qD"
+          ],
+          "start": "q0",
+          "final": [
+            "q0",
+            "q1",
+            "q2"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q0"
+            ],
+            [
+              "q0",
+              "b",
+              "q1"
+            ],
+            [
+              "q1",
+              "a",
+              "q0"
+            ],
+            [
+              "q1",
+              "b",
+              "q2"
+            ],
+            [
+              "q2",
+              "a",
+              "q0"
+            ],
+            [
+              "q2",
+              "b",
+              "qD"
+            ],
+            [
+              "qD",
+              "a,b",
+              "qD"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2001-Q55": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a+b)*baab(a+b)*",
+        "member": "'baab' in w",
+        "text": "strings containing baab"
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "q3",
+            "q4"
+          ],
+          "start": "q0",
+          "final": [
+            "q4"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q0"
+            ],
+            [
+              "q0",
+              "b",
+              "q1"
+            ],
+            [
+              "q1",
+              "a",
+              "q2"
+            ],
+            [
+              "q1",
+              "b",
+              "q1"
+            ],
+            [
+              "q2",
+              "a",
+              "q3"
+            ],
+            [
+              "q2",
+              "b",
+              "q1"
+            ],
+            [
+              "q3",
+              "a",
+              "q0"
+            ],
+            [
+              "q3",
+              "b",
+              "q4"
+            ],
+            [
+              "q4",
+              "a,b",
+              "q4"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2001-Q56": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "member": "w.count('a') % 2 == 1 and w.count('b') % 2 == 1",
+        "text": "strings with an odd number of a's and an odd number of b's",
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == 'a')) % 2, (s[1] + (c == 'b')) % 2)",
+          "accept": "s == (1, 1)"
+        }
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "EE",
+            "OE",
+            "EO",
+            "OO"
+          ],
+          "start": "EE",
+          "final": [
+            "OO"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "EE",
+              "a",
+              "OE"
+            ],
+            [
+              "EE",
+              "b",
+              "EO"
+            ],
+            [
+              "OE",
+              "a",
+              "EE"
+            ],
+            [
+              "OE",
+              "b",
+              "OO"
+            ],
+            [
+              "EO",
+              "a",
+              "OO"
+            ],
+            [
+              "EO",
+              "b",
+              "EE"
+            ],
+            [
+              "OO",
+              "a",
+              "EO"
+            ],
+            [
+              "OO",
+              "b",
+              "OE"
+            ]
+          ],
+          "pos": {
+            "EE": [
+              0,
+              0
+            ],
+            "OE": [
+              1,
+              0
+            ],
+            "EO": [
+              0,
+              1
+            ],
+            "OO": [
+              1,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "CS-2002-Q98": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a|b)*abb"
+      },
+      "expect": {
+        "count": 4,
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "start": "q0",
+          "final": [
+            "q3"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q1"
+            ],
+            [
+              "q0",
+              "b",
+              "q0"
+            ],
+            [
+              "q1",
+              "a",
+              "q1"
+            ],
+            [
+              "q1",
+              "b",
+              "q2"
+            ],
+            [
+              "q2",
+              "a",
+              "q1"
+            ],
+            [
+              "q2",
+              "b",
+              "q3"
+            ],
+            [
+              "q3",
+              "a",
+              "q1"
+            ],
+            [
+              "q3",
+              "b",
+              "q0"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-1994-Q34": {
+      "kind": "fa-claims",
+      "tabs": "answers",
+      "machine": {
+        "states": [
+          "A",
+          "B",
+          "C"
+        ],
+        "start": "A",
+        "final": [
+          "A",
+          "B"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "A",
+            "0",
+            "A"
+          ],
+          [
+            "A",
+            "1",
+            "B"
+          ],
+          [
+            "B",
+            "1",
+            "B"
+          ],
+          [
+            "B",
+            "0",
+            "C"
+          ],
+          [
+            "C",
+            "0,1",
+            "C"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "0*1*",
+          "text": "Does 0*1* describe the language?",
+          "test": {
+            "lang": {
+              "regex": "0*1*"
+            }
+          },
+          "expect": true
+        }
+      ]
+    },
+    "CS-2007-Q74": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q1",
+          "q2"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "q0",
+            "a",
+            "q1"
+          ],
+          [
+            "q0",
+            "b",
+            "q0"
+          ],
+          [
+            "q1",
+            "a",
+            "q2"
+          ],
+          [
+            "q1",
+            "b",
+            "q1"
+          ],
+          [
+            "q2",
+            "a",
+            "q1"
+          ],
+          [
+            "q2",
+            "b",
+            "q2"
+          ],
+          [
+            "q3",
+            "a",
+            "q1"
+          ],
+          [
+            "q3",
+            "b",
+            "q2"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: b*ab*ab*ab*",
+          "test": {
+            "lang": {
+              "regex": "b*ab*ab*ab*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: (a+b)*",
+          "test": {
+            "lang": {
+              "regex": "(a+b)*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: b*a(a+b)*",
+          "test": {
+            "lang": {
+              "regex": "b*a(a+b)*"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "D",
+          "text": "D: b*ab*ab*",
+          "test": {
+            "lang": {
+              "regex": "b*ab*ab*"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2009-Q41": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2"
+        ],
+        "start": "q0",
+        "final": [
+          "q2"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "q0",
+            "0",
+            "q1"
+          ],
+          [
+            "q1",
+            "0",
+            "q2"
+          ],
+          [
+            "q2",
+            "0",
+            "q2"
+          ],
+          [
+            "q0",
+            "1",
+            "q0"
+          ],
+          [
+            "q1",
+            "1",
+            "q0"
+          ],
+          [
+            "q2",
+            "1",
+            "q0"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: strings beginning with 0 or 1",
+          "test": {
+            "lang": {
+              "member": "len(w) > 0",
+              "text": "the strings beginning with 0 or 1"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: strings ending with 0",
+          "test": {
+            "lang": {
+              "member": "w.endswith('0')",
+              "text": "the strings ending with 0"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: strings ending with 00",
+          "test": {
+            "lang": {
+              "regex": "(0+1)*00",
+              "member": "w.endswith('00')",
+              "text": "the strings ending with 00"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "D",
+          "text": "D: strings containing 00",
+          "test": {
+            "lang": {
+              "member": "'00' in w",
+              "text": "the strings containing 00"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2014-S1-Q46": {
+      "kind": "fa-claims",
+      "machine": {
+        "states": [
+          "u",
+          "v"
+        ],
+        "start": "u",
+        "final": [
+          "v"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "u",
+            "0",
+            "u"
+          ],
+          [
+            "u",
+            "1",
+            "v"
+          ],
+          [
+            "v",
+            "0",
+            "u"
+          ],
+          [
+            "v",
+            "1",
+            "v"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "I",
+          "text": "I: 0*1(1+00*1)*",
+          "test": {
+            "lang": {
+              "regex": "0*1(1+00*1)*"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "II",
+          "text": "II: 0*1*1+11*0*1",
+          "test": {
+            "lang": {
+              "regex": "0*1*1+11*0*1"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "III",
+          "text": "III: (0+1)*1",
+          "test": {
+            "lang": {
+              "regex": "(0+1)*1"
+            }
+          },
+          "expect": true
+        }
+      ]
+    },
+    "CS-2021-S1-Q48": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q3"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "q0",
+            "0",
+            "q1"
+          ],
+          [
+            "q0",
+            "1",
+            "q0"
+          ],
+          [
+            "q1",
+            "0",
+            "q1"
+          ],
+          [
+            "q1",
+            "1",
+            "q2"
+          ],
+          [
+            "q2",
+            "0",
+            "q1"
+          ],
+          [
+            "q2",
+            "1",
+            "q3"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: q3 goes to q1 on 0 and to q3 on 1",
+          "test": {
+            "add": [
+              [
+                "q3",
+                "0",
+                "q1"
+              ],
+              [
+                "q3",
+                "1",
+                "q3"
+              ]
+            ],
+            "lang": {
+              "regex": "(0+1)*011",
+              "text": "the strings ending in 011"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: q3 goes to q3 on 0 and on 1",
+          "test": {
+            "add": [
+              [
+                "q3",
+                "0,1",
+                "q3"
+              ]
+            ],
+            "lang": {
+              "regex": "(0+1)*011",
+              "text": "the strings ending in 011"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: q3 goes to q1 on 0 and to q2 on 1",
+          "test": {
+            "add": [
+              [
+                "q3",
+                "0",
+                "q1"
+              ],
+              [
+                "q3",
+                "1",
+                "q2"
+              ]
+            ],
+            "lang": {
+              "regex": "(0+1)*011",
+              "text": "the strings ending in 011"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: q3 goes to q1 on 0 and to q0 on 1",
+          "test": {
+            "add": [
+              [
+                "q3",
+                "0",
+                "q1"
+              ],
+              [
+                "q3",
+                "1",
+                "q0"
+              ]
+            ],
+            "lang": {
+              "regex": "(0+1)*011",
+              "text": "the strings ending in 011"
+            }
+          },
+          "expect": true
+        }
+      ]
+    },
+    "CS-2022-Q12": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "s",
+          "u",
+          "v"
+        ],
+        "start": "s",
+        "final": [
+          "u",
+          "v"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "s",
+            "a",
+            "u"
+          ],
+          [
+            "s",
+            "b",
+            "v"
+          ],
+          [
+            "u",
+            "b",
+            "u"
+          ],
+          [
+            "u",
+            "b",
+            "s"
+          ],
+          [
+            "v",
+            "a",
+            "v"
+          ],
+          [
+            "v",
+            "a",
+            "s"
+          ]
+        ],
+        "pos": {
+          "s": [
+            0,
+            0.5
+          ],
+          "u": [
+            1,
+            0
+          ],
+          "v": [
+            1,
+            1
+          ]
+        }
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: ab*bab*+ba*aba*",
+          "test": {
+            "lang": {
+              "regex": "ab*bab*+ba*aba*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: (ab*b)*ab*+(ba*a)*ba*",
+          "test": {
+            "lang": {
+              "regex": "(ab*b)*ab*+(ba*a)*ba*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: (ab*b+ba*a)*(a*+b*)",
+          "test": {
+            "lang": {
+              "regex": "(ab*b+ba*a)*(a*+b*)"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: (ba*a+ab*b)*(ab*+ba*)",
+          "test": {
+            "lang": {
+              "regex": "(ba*a+ab*b)*(ab*+ba*)"
+            }
+          },
+          "expect": true
+        }
+      ]
+    },
+    "CS-2023-Q14": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "s",
+          "p",
+          "q",
+          "r"
+        ],
+        "start": "s",
+        "final": [
+          "p"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "s",
+            "0",
+            "r"
+          ],
+          [
+            "s",
+            "1",
+            "p"
+          ],
+          [
+            "p",
+            "0",
+            "p"
+          ],
+          [
+            "p",
+            "1",
+            "q"
+          ],
+          [
+            "q",
+            "0",
+            "r"
+          ],
+          [
+            "q",
+            "1",
+            "p"
+          ],
+          [
+            "r",
+            "0,1",
+            "r"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: 1(0*11)*",
+          "test": {
+            "lang": {
+              "regex": "1(0*11)*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: 0(0+1)*",
+          "test": {
+            "lang": {
+              "regex": "0(0+1)*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: 1(0+11)*",
+          "test": {
+            "lang": {
+              "regex": "1(0+11)*"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "D",
+          "text": "D: 1(110*)*",
+          "test": {
+            "lang": {
+              "regex": "1(110*)*"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2024-S2-Q22": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "E",
+          "O"
+        ],
+        "start": "E",
+        "final": [
+          "O"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "E",
+            "0",
+            "E"
+          ],
+          [
+            "O",
+            "0",
+            "O"
+          ],
+          [
+            "E",
+            "1",
+            "O"
+          ],
+          [
+            "O",
+            "1",
+            "E"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: 0*1(0+10*1)*",
+          "test": {
+            "lang": {
+              "regex": "0*1(0+10*1)*"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "B",
+          "text": "B: 0*(10*11)*0*",
+          "test": {
+            "lang": {
+              "regex": "0*(10*11)*0*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: 0*1(010*1)*0*",
+          "test": {
+            "lang": {
+              "regex": "0*1(010*1)*0*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: 0(1+0*10*1)*0*",
+          "test": {
+            "lang": {
+              "regex": "0(1+0*10*1)*0*"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2024-S2-Q41": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "start": "1",
+        "final": [
+          "2",
+          "5"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "1",
+            "ε",
+            "2"
+          ],
+          [
+            "1",
+            "ε",
+            "4"
+          ],
+          [
+            "3",
+            "ε",
+            "5"
+          ],
+          [
+            "2",
+            "0",
+            "3"
+          ],
+          [
+            "3",
+            "0",
+            "2"
+          ],
+          [
+            "4",
+            "1",
+            "5"
+          ],
+          [
+            "5",
+            "1",
+            "4"
+          ]
+        ],
+        "pos": {
+          "1": [
+            0,
+            0.5
+          ],
+          "2": [
+            1,
+            0
+          ],
+          "3": [
+            2,
+            0
+          ],
+          "4": [
+            1,
+            1
+          ],
+          "5": [
+            2,
+            1
+          ]
+        }
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: (00)*+1(11)*",
+          "test": {
+            "lang": {
+              "regex": "(00)*+1(11)*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: 0*+(1+0(00)*)(11)*",
+          "test": {
+            "lang": {
+              "regex": "0*+(1+0(00)*)(11)*"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "C",
+          "text": "C: (00)*+(1+(00)*)(11)*",
+          "test": {
+            "lang": {
+              "regex": "(00)*+(1+(00)*)(11)*"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: 0⁺+1(11)*+0(11)*",
+          "test": {
+            "lang": {
+              "regex": "0⁺+1(11)*+0(11)*"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2025-S1-Q50": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "start": "q0",
+        "final": [
+          "q3"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "q0",
+            "a",
+            "q0"
+          ],
+          [
+            "q0",
+            "b",
+            "q1"
+          ],
+          [
+            "q1",
+            "a",
+            "q2"
+          ],
+          [
+            "q1",
+            "b",
+            "q1"
+          ],
+          [
+            "q2",
+            "a",
+            "q0"
+          ],
+          [
+            "q2",
+            "b",
+            "q3"
+          ],
+          [
+            "q3",
+            "a",
+            "q2"
+          ],
+          [
+            "q3",
+            "b",
+            "q1"
+          ]
+        ]
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: words with an even number of b's",
+          "test": {
+            "lang": {
+              "member": "w.count('b') % 2 == 0",
+              "text": "the words with an even number of b's"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: words containing bab",
+          "test": {
+            "lang": {
+              "member": "'bab' in w",
+              "text": "the words containing bab"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: words ending in bab",
+          "test": {
+            "lang": {
+              "regex": "(a+b)*bab",
+              "member": "w.endswith('bab')",
+              "text": "the words ending in bab"
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "D",
+          "text": "D: words avoiding aba",
+          "test": {
+            "lang": {
+              "member": "'aba' not in w",
+              "text": "the words avoiding aba"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2004-Q86": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "t0",
+          "t1",
+          "t2",
+          "b0",
+          "b1",
+          "b2"
+        ],
+        "start": "t0",
+        "final": [
+          "t0"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "t0",
+            "1",
+            "t1"
+          ],
+          [
+            "t1",
+            "1",
+            "t2"
+          ],
+          [
+            "t2",
+            "1",
+            "t0"
+          ],
+          [
+            "b0",
+            "1",
+            "b1"
+          ],
+          [
+            "b1",
+            "1",
+            "b2"
+          ],
+          [
+            "b2",
+            "1",
+            "b0"
+          ],
+          [
+            "t0",
+            "0",
+            "b0"
+          ],
+          [
+            "b0",
+            "0",
+            "t0"
+          ],
+          [
+            "t1",
+            "0",
+            "b1"
+          ],
+          [
+            "b1",
+            "0",
+            "t1"
+          ],
+          [
+            "t2",
+            "0",
+            "b2"
+          ],
+          [
+            "b2",
+            "0",
+            "t2"
+          ]
+        ],
+        "pos": {
+          "t0": [
+            0,
+            0
+          ],
+          "t1": [
+            1,
+            0
+          ],
+          "t2": [
+            2,
+            0
+          ],
+          "b0": [
+            0,
+            1
+          ],
+          "b1": [
+            1,
+            1
+          ],
+          "b2": [
+            2,
+            1
+          ]
+        }
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: #1 divisible by 3 and #0 divisible by 2",
+          "test": {
+            "lang": {
+              "member": "w.count('1') % 3 == 0 and w.count('0') % 2 == 0",
+              "text": "the strings with #1 divisible by 3 and #0 divisible by 2",
+              "rule": {
+                "start": "(0, 0)",
+                "next": "((s[0] + (c == '1')) % 3, (s[1] + (c == '0')) % 2)",
+                "accept": "s == (0, 0)"
+              }
+            }
+          },
+          "expect": true
+        },
+        {
+          "label": "B",
+          "text": "B: #1 odd and #0 even",
+          "test": {
+            "lang": {
+              "member": "w.count('1') % 2 == 1 and w.count('0') % 2 == 0",
+              "text": "the strings with #1 odd and #0 even"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: #1 even and #0 odd",
+          "test": {
+            "lang": {
+              "member": "w.count('1') % 2 == 0 and w.count('0') % 2 == 1",
+              "text": "the strings with #1 even and #0 odd"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: #1 divisible by 2 and #0 divisible by 3",
+          "test": {
+            "lang": {
+              "member": "w.count('1') % 2 == 0 and w.count('0') % 3 == 0",
+              "text": "the strings with #1 divisible by 2 and #0 divisible by 3"
+            }
+          },
+          "expect": false
+        }
+      ]
+    },
+    "CS-2012-Q56": {
+      "kind": "fa-claims",
+      "tabs": "options",
+      "machine": {
+        "states": [
+          "ε",
+          "0",
+          "1",
+          "00",
+          "01",
+          "10",
+          "11",
+          "q"
+        ],
+        "start": "ε",
+        "final": [
+          "ε",
+          "0",
+          "1",
+          "00",
+          "01",
+          "10",
+          "11"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "ε",
+            "0",
+            "0"
+          ],
+          [
+            "ε",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "00"
+          ],
+          [
+            "0",
+            "1",
+            "01"
+          ],
+          [
+            "1",
+            "0",
+            "10"
+          ],
+          [
+            "1",
+            "1",
+            "11"
+          ],
+          [
+            "01",
+            "0",
+            "10"
+          ],
+          [
+            "10",
+            "1",
+            "01"
+          ],
+          [
+            "11",
+            "1",
+            "11"
+          ],
+          [
+            "q",
+            "0,1",
+            "q"
+          ]
+        ],
+        "pos": {
+          "ε": [
+            0,
+            1.5
+          ],
+          "0": [
+            1,
+            0.5
+          ],
+          "1": [
+            1,
+            2.5
+          ],
+          "00": [
+            2,
+            0
+          ],
+          "01": [
+            2,
+            1
+          ],
+          "10": [
+            2,
+            2
+          ],
+          "11": [
+            2,
+            3
+          ],
+          "q": [
+            3,
+            0
+          ]
+        }
+      },
+      "claims": [
+        {
+          "label": "A",
+          "text": "A: (00,1,00), (00,0,01), (01,1,11), (10,0,00), (11,0,10)",
+          "test": {
+            "add": [
+              [
+                "00",
+                "1",
+                "00"
+              ],
+              [
+                "00",
+                "0",
+                "01"
+              ],
+              [
+                "01",
+                "1",
+                "11"
+              ],
+              [
+                "10",
+                "0",
+                "00"
+              ],
+              [
+                "11",
+                "0",
+                "10"
+              ]
+            ],
+            "lang": {
+              "member": "'000' not in w",
+              "text": "the strings without 000"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "B",
+          "text": "B: (00,0,01), (00,1,q), (01,1,01), (10,0,11), (11,0,01)",
+          "test": {
+            "add": [
+              [
+                "00",
+                "0",
+                "01"
+              ],
+              [
+                "00",
+                "1",
+                "q"
+              ],
+              [
+                "01",
+                "1",
+                "01"
+              ],
+              [
+                "10",
+                "0",
+                "11"
+              ],
+              [
+                "11",
+                "0",
+                "01"
+              ]
+            ],
+            "lang": {
+              "member": "'000' not in w",
+              "text": "the strings without 000"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "C",
+          "text": "C: (00,1,01), (00,0,q), (01,1,01), (10,0,10), (11,0,01)",
+          "test": {
+            "add": [
+              [
+                "00",
+                "1",
+                "01"
+              ],
+              [
+                "00",
+                "0",
+                "q"
+              ],
+              [
+                "01",
+                "1",
+                "01"
+              ],
+              [
+                "10",
+                "0",
+                "10"
+              ],
+              [
+                "11",
+                "0",
+                "01"
+              ]
+            ],
+            "lang": {
+              "member": "'000' not in w",
+              "text": "the strings without 000"
+            }
+          },
+          "expect": false
+        },
+        {
+          "label": "D",
+          "text": "D: (00,1,01), (00,0,q), (01,1,11), (10,0,00), (11,0,10)",
+          "test": {
+            "add": [
+              [
+                "00",
+                "1",
+                "01"
+              ],
+              [
+                "00",
+                "0",
+                "q"
+              ],
+              [
+                "01",
+                "1",
+                "11"
+              ],
+              [
+                "10",
+                "0",
+                "00"
+              ],
+              [
+                "11",
+                "0",
+                "10"
+              ]
+            ],
+            "lang": {
+              "member": "'000' not in w",
+              "text": "the strings without 000",
+              "rule": {
+                "start": "0",
+                "next": "3 if s == 3 or (s == 2 and c == '0') else (s + 1 if c == '0' else 0)",
+                "accept": "s < 3"
+              }
+            }
+          },
+          "expect": true
+        }
+      ]
+    },
+    "CS-2021-S2-Q38": {
+      "kind": "fa-mealy",
+      "input": "00100011000011100",
+      "output": "00000001000001100",
+      "options": [
+        {
+          "label": "A",
+          "t": "s | b",
+          "y": "s & b",
+          "show_t": "s + b",
+          "show_y": "sb",
+          "expect": false
+        },
+        {
+          "label": "B",
+          "t": "b",
+          "y": "s & b",
+          "show_t": "b",
+          "show_y": "sb",
+          "expect": true
+        },
+        {
+          "label": "C",
+          "t": "b",
+          "y": "s & (1 - b)",
+          "show_t": "b",
+          "show_y": "s¬b",
+          "expect": false
+        },
+        {
+          "label": "D",
+          "t": "s | b",
+          "y": "s & (1 - b)",
+          "show_t": "s + b",
+          "show_y": "s¬b",
+          "expect": false
+        }
+      ]
+    }
   },
-  "CS-2017-S2-Q49": {
-   "kind": "fa-run",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "alphabet": "ab",
-    "edges": [["q0", "ε", "q2"], ["q0", "a", "q1"], ["q0", "b", "q0"], ["q1", "ε", "q2"], ["q1", "a", "q2"], ["q1", "b", "q3"], ["q2", "ε", "q0"], ["q3", "b", "q2"]],
-    "pos": {"q0": [0, 0], "q1": [1, 0], "q2": [0, 1], "q3": [1, 1]}},
-   "runs": [{"input": "aba", "from": "q2", "expect": {"states": ["q0", "q1", "q2"]}}]
-  },
-  "CS-2003-Q50": {
-   "kind": "fa-count",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q3"], "alphabet": "01",
-    "edges": [["q0", "1", "q0"], ["q0", "0", "q1"], ["q1", "1", "q0"], ["q1", "0", "q2"], ["q2", "0", "q2"], ["q2", "1", "q3"], ["q3", "0,1", "q3"]]},
-   "length": 7, "fixed": {"1": "1", "4": "1", "7": "1"},
-   "expect": {"count": 7}
-  },
-  "CS-2021-S2-Q27": {
-   "kind": "fa-count",
-   "machine": {"states": ["q0", "u", "v", "p", "q", "f"], "start": "q0", "final": ["f"], "alphabet": "01",
-    "edges": [["q0", "0", "u"], ["q0", "1", "v"], ["u", "0", "p"], ["u", "1", "q"], ["v", "0", "p"], ["v", "1", "q"], ["p", "0,1", "f"], ["q", "0,1", "f"], ["f", "0,1", "f"]]},
-   "length": 8,
-   "expect": {"count": 256}
-  },
-  "CS-2003-Q55": {
-   "kind": "fa-subset",
-   "machine": {"states": ["p", "q", "r"], "start": "p", "final": ["p", "q"], "alphabet": "01",
-    "edges": [["p", "0,1", "q"], ["q", "0", "p"], ["q", "0,1", "q"], ["p", "1", "r"], ["q", "0", "r"], ["r", "0", "q"]],
-    "pos": {"p": [0, 1], "q": [1, 0], "r": [2, 1]}},
-   "expect": {"language": {"regex": "(0+1)*", "text": "{0,1}*"}}
-  },
-  "CS-2012-Q22": {
-   "kind": "fa-subset",
-   "machine": {"states": ["s", "t", "u"], "start": "s", "final": ["t"], "alphabet": "a",
-    "edges": [["s", "a", "t"], ["t", "ε", "u"], ["u", "ε", "s"]],
-    "pos": {"s": [0, 1], "t": [1, 0], "u": [2, 1]}},
-   "expect": {"complement": {"regex": "ε", "text": "{ε}"}}
-  },
-  "CS-2007-Q75": {
-   "kind": "fa-refine",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q1", "q2"], "alphabet": "ab",
-    "edges": [["q0", "a", "q1"], ["q0", "b", "q0"], ["q1", "a", "q2"], ["q1", "b", "q1"], ["q2", "a", "q1"], ["q2", "b", "q2"], ["q3", "a", "q1"], ["q3", "b", "q2"]]},
-   "expect": {"count": 2, "blocks": [["q0"], ["q1", "q2"]]}
-  },
-  "CS-2011-Q55": {
-   "kind": "fa-refine",
-   "machine": {"states": ["p", "q", "r", "s", "t"], "start": "p", "final": ["s", "t"], "alphabet": "ab",
-    "edges": [["p", "a", "s"], ["p", "b", "q"], ["q", "a", "t"], ["q", "b", "r"], ["r", "a,b", "r"], ["s", "a,b", "s"], ["t", "a,b", "t"]]},
-   "expect": {"count": 4, "blocks": [["p"], ["q"], ["r"], ["s", "t"]],
-    "equivalent": {"states": ["p", "q", "r", "s"], "start": "p", "final": ["s"], "alphabet": "ab",
-     "edges": [["p", "a", "s"], ["p", "b", "q"], ["q", "a", "s"], ["q", "b", "r"], ["r", "a,b", "r"], ["s", "a,b", "s"]]}}
-  },
-  "CS-2015-S1-Q49": {
-   "kind": "fa-refine",
-   "product": {"op": "and", "names": ["M", "N"], "machines": [
-    {"states": ["0", "1"], "start": "0", "final": ["1"], "alphabet": "ab", "edges": [["0", "a", "1"], ["1", "a", "1"], ["0", "b", "0"], ["1", "b", "0"]]},
-    {"states": ["0", "1"], "start": "0", "final": ["1"], "alphabet": "ab", "edges": [["0", "a", "0"], ["1", "a", "0"], ["0", "b", "1"], ["1", "b", "1"]]}]},
-   "expect": {"count": 1}
-  },
-  "CS-1996-Q48": {
-   "kind": "fa-refine",
-   "machine": {"states": ["A", "B", "C", "D"], "alphabet": "01",
-    "edges": [["A", "0/0", "D"], ["A", "1/1", "B"], ["B", "0/0", "A"], ["B", "1/1", "C"], ["C", "0/0", "A"], ["C", "1/1", "B"], ["D", "0/1", "A"], ["D", "1/1", "C"]],
-    "pos": {"A": [0, 0], "B": [1, 0], "C": [1, 1], "D": [0, 1]}},
-   "expect": {"count": 3, "blocks": [["A"], ["B", "C"], ["D"]]}
-  },
-  "CS-1997-Q86": {
-   "kind": "fa-refine",
-   "machine": {"states": ["A", "B", "C", "D", "E", "F", "G", "H"], "alphabet": "01",
-    "edges": [["A", "0/1", "B"], ["A", "1/1", "H"], ["B", "0/1", "F"], ["B", "1/1", "D"], ["C", "0/0", "D"], ["C", "1/1", "E"], ["D", "0/0", "C"], ["D", "1/1", "F"],
-     ["E", "0/1", "D"], ["E", "1/1", "C"], ["F", "0/1,1/1", "C"], ["G", "0/1", "C"], ["G", "1/1", "D"], ["H", "0/0", "C"], ["H", "1/1", "A"]],
-    "pos": "circle"},
-   "expect": {"count": 5, "blocks": [["A"], ["B"], ["C", "D"], ["E", "F", "G"], ["H"]]}
-  },
-  "CS-1997-Q87": {
-   "kind": "fa-refine",
-   "machine": {"states": ["A", "B", "C", "D", "E", "F", "G", "H"], "alphabet": "01",
-    "edges": [["A", "0/1", "B"], ["A", "1/1", "H"], ["B", "0/1", "F"], ["B", "1/1", "D"], ["C", "0/0", "D"], ["C", "1/1", "E"], ["D", "0/0", "C"], ["D", "1/1", "F"],
-     ["E", "0/1", "D"], ["E", "1/1", "C"], ["F", "0/1,1/1", "C"], ["G", "0/1", "C"], ["G", "1/1", "D"], ["H", "0/0", "C"], ["H", "1/1", "A"]],
-    "pos": "circle"},
-   "expect": {"count": 5, "quotient": {"A": ["B/1", "H/1"], "B": ["EFG/1", "CD/1"], "CD": ["CD/0", "EFG/1"], "EFG": ["CD/1", "CD/1"], "H": ["CD/0", "A/1"]}}
-  },
-  "CS-2025-S1-Q59": {
-   "kind": "fa-refine",
-   "machine": {"states": ["A", "B", "C", "D", "E", "F", "G", "H"], "alphabet": "01",
-    "edges": [["A", "0/0", "F"], ["A", "1/0", "B"], ["B", "0/0", "D"], ["B", "1/0", "C"], ["C", "0/0", "F"], ["C", "1/0", "E"], ["D", "0/1", "G"], ["D", "1/0", "A"],
-     ["E", "0/0", "D"], ["E", "1/0", "C"], ["F", "0/1", "F"], ["F", "1/1", "B"], ["G", "0/0", "G"], ["G", "1/1", "H"], ["H", "0/1", "G"], ["H", "1/0", "A"]],
-    "pos": "circle"},
-   "expect": {"count": 5, "blocks": [["A", "C"], ["B", "E"], ["D", "H"], ["F"], ["G"]]}
-  },
-  "CS-2015-S2-Q45": {
-   "kind": "fa-language", "alphabet": "01",
-   "lang": {"regex": "(0+1)*(10)"},
-   "expect": {"count": 3}
-  },
-  "CS-2016-S2-Q26": {
-   "kind": "fa-language", "alphabet": "01",
-   "lang": {"regex": "(0+1)*(0+1)(0+1)*"},
-   "expect": {"count": 2}
-  },
-  "CS-2017-S1-Q32": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"regex": "(a+b)*b(a+b)"},
-   "expect": {"count": 4}
-  },
-  "CS-2017-S2-Q35": {
-   "kind": "fa-language", "alphabet": "ab", "dead": "counted",
-   "lang": {"regex": "(a+b)(a+b)a(a+b)(a+b)(a+b)(a+b)*", "member": "len(w) >= 6 and w[2] == 'a'", "text": "{w₁aw₂ : |w₁| = 2, |w₂| ≥ 3}"},
-   "expect": {"count": 8}
-  },
-  "CS-2020-Q61": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"rule": {"start": "0", "next": "(s + (c == 'a')) % 6", "accept": "s % 2 == 0 and s % 3 != 0", "name": "'q%d' % s", "layout": "circle"},
-    "member": "w.count('a') % 2 == 0 and w.count('a') % 3 != 0", "text": "strings whose number of a's is divisible by 2 but not by 3"},
-   "expect": {"count": 6}
-  },
-  "CS-2023-Q63": {
-   "kind": "fa-language", "alphabet": "01", "dead": "counted",
-   "lang": {"rule": {"start": "0", "next": "3 if s == 3 or (c == '1' and s == 2) else (s + 1 if c == '1' else 0)", "accept": "s < 3", "name": "'qD' if s == 3 else 'q%d' % s"},
-    "member": "'111' not in w", "text": "strings with no three consecutive 1s"},
-   "expect": {"count": 4}
-  },
-  "CS-2025-S2-Q60": {
-   "kind": "fa-language", "alphabet": "1234",
-   "lang": {"rule": {"start": "1", "next": "s * int(c) % 7", "accept": "s == 2", "name": "'r%d' % s", "layout": "circle"},
-    "member": "prod(int(c) for c in w) % 7 == 2", "text": "strings whose product of symbols is 2 modulo 7"},
-   "expect": {"count": 6}
-  },
-  "CS-2006-Q34": {
-   "kind": "fa-language", "alphabet": "1",
-   "lang": {"regex": "(111+11111)*"},
-   "expect": {"count": 9}
-  },
-  "CS-2007-Q29": {
-   "kind": "fa-language", "alphabet": "01",
-   "lang": {"rule": {"start": "(0, 0)", "next": "((s[0] + (c == '0')) % 3, (s[1] + (c == '1')) % 5)", "accept": "s == (0, 0)", "name": "'%d%d' % s", "pos": "[s[1], s[0]]"},
-    "member": "w.count('0') % 3 == 0 and w.count('1') % 5 == 0", "text": "strings whose number of 0s is divisible by 3 and number of 1s by 5"},
-   "expect": {"count": 15}
-  },
-  "CS-1998-Q40": {
-   "kind": "fa-language", "alphabet": "01",
-   "lang": {"regex": "(0+1)*(00+11)", "member": "len(w) >= 2 and w[-1] == w[-2]", "text": "strings whose last two symbols are equal"},
-   "expect": {"count": 5}
-  },
-  "CS-1991-Q71": {
-   "kind": "fa-language", "alphabet": "01",
-   "lang": {"rule": {"start": "'000'", "next": "s[1:] + c", "accept": "s[0] == '1'", "name": "s", "layout": "circle"},
-    "member": "len(w) >= 3 and w[-3] == '1'", "text": "strings whose third symbol from the right is 1"},
-   "expect": {"count": 8}
-  },
-  "CS-1997-Q81": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"rule": {"start": "(0, 0)", "next": "((s[0] + (c == 'a')) % 2, (s[1] + (c == 'b')) % 3)", "accept": "s == (0, 0)", "name": "'q%d%d' % s", "pos": "[s[1], s[0]]"},
-    "member": "w.count('a') % 2 == 0 and w.count('b') % 3 == 0", "text": "strings with a number of a's divisible by 2 and of b's divisible by 3"},
-   "expect": {"count": 6}
-  },
-  "CS-1993-Q68": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"member": "'bbb' not in w", "text": "strings with no substring bbb"},
-   "expect": {"dfa": {"states": ["q0", "q1", "q2", "qD"], "start": "q0", "final": ["q0", "q1", "q2"], "alphabet": "ab",
-    "edges": [["q0", "a", "q0"], ["q0", "b", "q1"], ["q1", "a", "q0"], ["q1", "b", "q2"], ["q2", "a", "q0"], ["q2", "b", "qD"], ["qD", "a,b", "qD"]]}}
-  },
-  "CS-2001-Q55": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"regex": "(a+b)*baab(a+b)*", "member": "'baab' in w", "text": "strings containing baab"},
-   "expect": {"dfa": {"states": ["q0", "q1", "q2", "q3", "q4"], "start": "q0", "final": ["q4"], "alphabet": "ab",
-    "edges": [["q0", "a", "q0"], ["q0", "b", "q1"], ["q1", "a", "q2"], ["q1", "b", "q1"], ["q2", "a", "q3"], ["q2", "b", "q1"], ["q3", "a", "q0"], ["q3", "b", "q4"], ["q4", "a,b", "q4"]]}}
-  },
-  "CS-2001-Q56": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"member": "w.count('a') % 2 == 1 and w.count('b') % 2 == 1", "text": "strings with an odd number of a's and an odd number of b's"},
-   "expect": {"dfa": {"states": ["EE", "OE", "EO", "OO"], "start": "EE", "final": ["OO"], "alphabet": "ab",
-    "edges": [["EE", "a", "OE"], ["EE", "b", "EO"], ["OE", "a", "EE"], ["OE", "b", "OO"], ["EO", "a", "OO"], ["EO", "b", "EE"], ["OO", "a", "EO"], ["OO", "b", "OE"]],
-    "pos": {"EE": [0, 0], "OE": [1, 0], "EO": [0, 1], "OO": [1, 1]}}}
-  },
-  "CS-2002-Q98": {
-   "kind": "fa-language", "alphabet": "ab",
-   "lang": {"regex": "(a|b)*abb"},
-   "expect": {"count": 4, "dfa": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q3"], "alphabet": "ab",
-    "edges": [["q0", "a", "q1"], ["q0", "b", "q0"], ["q1", "a", "q1"], ["q1", "b", "q2"], ["q2", "a", "q1"], ["q2", "b", "q3"], ["q3", "a", "q1"], ["q3", "b", "q0"]]}}
-  },
-  "CS-1994-Q34": {
-   "kind": "fa-claims", "tabs": "answers",
-   "machine": {"states": ["A", "B", "C"], "start": "A", "final": ["A", "B"], "alphabet": "01",
-    "edges": [["A", "0", "A"], ["A", "1", "B"], ["B", "1", "B"], ["B", "0", "C"], ["C", "0,1", "C"]]},
-   "claims": [{"label": "0*1*", "text": "Does 0*1* describe the language?", "test": {"lang": {"regex": "0*1*"}}, "expect": true}]
-  },
-  "CS-2007-Q74": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q1", "q2"], "alphabet": "ab",
-    "edges": [["q0", "a", "q1"], ["q0", "b", "q0"], ["q1", "a", "q2"], ["q1", "b", "q1"], ["q2", "a", "q1"], ["q2", "b", "q2"], ["q3", "a", "q1"], ["q3", "b", "q2"]]},
-   "claims": [
-    {"label": "A", "text": "A: b*ab*ab*ab*", "test": {"lang": {"regex": "b*ab*ab*ab*"}}, "expect": false},
-    {"label": "B", "text": "B: (a+b)*", "test": {"lang": {"regex": "(a+b)*"}}, "expect": false},
-    {"label": "C", "text": "C: b*a(a+b)*", "test": {"lang": {"regex": "b*a(a+b)*"}}, "expect": true},
-    {"label": "D", "text": "D: b*ab*ab*", "test": {"lang": {"regex": "b*ab*ab*"}}, "expect": false}]
-  },
-  "CS-2009-Q41": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["q0", "q1", "q2"], "start": "q0", "final": ["q2"], "alphabet": "01",
-    "edges": [["q0", "0", "q1"], ["q1", "0", "q2"], ["q2", "0", "q2"], ["q0", "1", "q0"], ["q1", "1", "q0"], ["q2", "1", "q0"]]},
-   "claims": [
-    {"label": "A", "text": "A: strings beginning with 0 or 1", "test": {"lang": {"member": "len(w) > 0", "text": "the strings beginning with 0 or 1"}}, "expect": false},
-    {"label": "B", "text": "B: strings ending with 0", "test": {"lang": {"member": "w.endswith('0')", "text": "the strings ending with 0"}}, "expect": false},
-    {"label": "C", "text": "C: strings ending with 00", "test": {"lang": {"regex": "(0+1)*00", "member": "w.endswith('00')", "text": "the strings ending with 00"}}, "expect": true},
-    {"label": "D", "text": "D: strings containing 00", "test": {"lang": {"member": "'00' in w", "text": "the strings containing 00"}}, "expect": false}]
-  },
-  "CS-2014-S1-Q46": {
-   "kind": "fa-claims",
-   "machine": {"states": ["u", "v"], "start": "u", "final": ["v"], "alphabet": "01",
-    "edges": [["u", "0", "u"], ["u", "1", "v"], ["v", "0", "u"], ["v", "1", "v"]]},
-   "claims": [
-    {"label": "I", "text": "I: 0*1(1+00*1)*", "test": {"lang": {"regex": "0*1(1+00*1)*"}}, "expect": true},
-    {"label": "II", "text": "II: 0*1*1+11*0*1", "test": {"lang": {"regex": "0*1*1+11*0*1"}}, "expect": false},
-    {"label": "III", "text": "III: (0+1)*1", "test": {"lang": {"regex": "(0+1)*1"}}, "expect": true}]
-  },
-  "CS-2021-S1-Q48": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q3"], "alphabet": "01",
-    "edges": [["q0", "0", "q1"], ["q0", "1", "q0"], ["q1", "0", "q1"], ["q1", "1", "q2"], ["q2", "0", "q1"], ["q2", "1", "q3"]]},
-   "claims": [
-    {"label": "A", "text": "A: q3 goes to q1 on 0 and to q3 on 1", "test": {"add": [["q3", "0", "q1"], ["q3", "1", "q3"]], "lang": {"regex": "(0+1)*011", "text": "the strings ending in 011"}}, "expect": false},
-    {"label": "B", "text": "B: q3 goes to q3 on 0 and on 1", "test": {"add": [["q3", "0,1", "q3"]], "lang": {"regex": "(0+1)*011", "text": "the strings ending in 011"}}, "expect": false},
-    {"label": "C", "text": "C: q3 goes to q1 on 0 and to q2 on 1", "test": {"add": [["q3", "0", "q1"], ["q3", "1", "q2"]], "lang": {"regex": "(0+1)*011", "text": "the strings ending in 011"}}, "expect": false},
-    {"label": "D", "text": "D: q3 goes to q1 on 0 and to q0 on 1", "test": {"add": [["q3", "0", "q1"], ["q3", "1", "q0"]], "lang": {"regex": "(0+1)*011", "text": "the strings ending in 011"}}, "expect": true}]
-  },
-  "CS-2022-Q12": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["s", "u", "v"], "start": "s", "final": ["u", "v"], "alphabet": "ab",
-    "edges": [["s", "a", "u"], ["s", "b", "v"], ["u", "b", "u"], ["u", "b", "s"], ["v", "a", "v"], ["v", "a", "s"]],
-    "pos": {"s": [0, 0.5], "u": [1, 0], "v": [1, 1]}},
-   "claims": [
-    {"label": "A", "text": "A: ab*bab*+ba*aba*", "test": {"lang": {"regex": "ab*bab*+ba*aba*"}}, "expect": false},
-    {"label": "B", "text": "B: (ab*b)*ab*+(ba*a)*ba*", "test": {"lang": {"regex": "(ab*b)*ab*+(ba*a)*ba*"}}, "expect": false},
-    {"label": "C", "text": "C: (ab*b+ba*a)*(a*+b*)", "test": {"lang": {"regex": "(ab*b+ba*a)*(a*+b*)"}}, "expect": false},
-    {"label": "D", "text": "D: (ba*a+ab*b)*(ab*+ba*)", "test": {"lang": {"regex": "(ba*a+ab*b)*(ab*+ba*)"}}, "expect": true}]
-  },
-  "CS-2023-Q14": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["s", "p", "q", "r"], "start": "s", "final": ["p"], "alphabet": "01",
-    "edges": [["s", "0", "r"], ["s", "1", "p"], ["p", "0", "p"], ["p", "1", "q"], ["q", "0", "r"], ["q", "1", "p"], ["r", "0,1", "r"]]},
-   "claims": [
-    {"label": "A", "text": "A: 1(0*11)*", "test": {"lang": {"regex": "1(0*11)*"}}, "expect": false},
-    {"label": "B", "text": "B: 0(0+1)*", "test": {"lang": {"regex": "0(0+1)*"}}, "expect": false},
-    {"label": "C", "text": "C: 1(0+11)*", "test": {"lang": {"regex": "1(0+11)*"}}, "expect": true},
-    {"label": "D", "text": "D: 1(110*)*", "test": {"lang": {"regex": "1(110*)*"}}, "expect": false}]
-  },
-  "CS-2024-S2-Q22": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["E", "O"], "start": "E", "final": ["O"], "alphabet": "01",
-    "edges": [["E", "0", "E"], ["O", "0", "O"], ["E", "1", "O"], ["O", "1", "E"]]},
-   "claims": [
-    {"label": "A", "text": "A: 0*1(0+10*1)*", "test": {"lang": {"regex": "0*1(0+10*1)*"}}, "expect": true},
-    {"label": "B", "text": "B: 0*(10*11)*0*", "test": {"lang": {"regex": "0*(10*11)*0*"}}, "expect": false},
-    {"label": "C", "text": "C: 0*1(010*1)*0*", "test": {"lang": {"regex": "0*1(010*1)*0*"}}, "expect": false},
-    {"label": "D", "text": "D: 0(1+0*10*1)*0*", "test": {"lang": {"regex": "0(1+0*10*1)*0*"}}, "expect": false}]
-  },
-  "CS-2024-S2-Q41": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["1", "2", "3", "4", "5"], "start": "1", "final": ["2", "5"], "alphabet": "01",
-    "edges": [["1", "ε", "2"], ["1", "ε", "4"], ["3", "ε", "5"], ["2", "0", "3"], ["3", "0", "2"], ["4", "1", "5"], ["5", "1", "4"]],
-    "pos": {"1": [0, 0.5], "2": [1, 0], "3": [2, 0], "4": [1, 1], "5": [2, 1]}},
-   "claims": [
-    {"label": "A", "text": "A: (00)*+1(11)*", "test": {"lang": {"regex": "(00)*+1(11)*"}}, "expect": false},
-    {"label": "B", "text": "B: 0*+(1+0(00)*)(11)*", "test": {"lang": {"regex": "0*+(1+0(00)*)(11)*"}}, "expect": true},
-    {"label": "C", "text": "C: (00)*+(1+(00)*)(11)*", "test": {"lang": {"regex": "(00)*+(1+(00)*)(11)*"}}, "expect": false},
-    {"label": "D", "text": "D: 0⁺+1(11)*+0(11)*", "test": {"lang": {"regex": "0⁺+1(11)*+0(11)*"}}, "expect": false}]
-  },
-  "CS-2025-S1-Q50": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["q0", "q1", "q2", "q3"], "start": "q0", "final": ["q3"], "alphabet": "ab",
-    "edges": [["q0", "a", "q0"], ["q0", "b", "q1"], ["q1", "a", "q2"], ["q1", "b", "q1"], ["q2", "a", "q0"], ["q2", "b", "q3"], ["q3", "a", "q2"], ["q3", "b", "q1"]]},
-   "claims": [
-    {"label": "A", "text": "A: words with an even number of b's", "test": {"lang": {"member": "w.count('b') % 2 == 0", "text": "the words with an even number of b's"}}, "expect": false},
-    {"label": "B", "text": "B: words containing bab", "test": {"lang": {"member": "'bab' in w", "text": "the words containing bab"}}, "expect": false},
-    {"label": "C", "text": "C: words ending in bab", "test": {"lang": {"regex": "(a+b)*bab", "member": "w.endswith('bab')", "text": "the words ending in bab"}}, "expect": true},
-    {"label": "D", "text": "D: words avoiding aba", "test": {"lang": {"member": "'aba' not in w", "text": "the words avoiding aba"}}, "expect": false}]
-  },
-  "CS-2004-Q86": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["t0", "t1", "t2", "b0", "b1", "b2"], "start": "t0", "final": ["t0"], "alphabet": "01",
-    "edges": [["t0", "1", "t1"], ["t1", "1", "t2"], ["t2", "1", "t0"], ["b0", "1", "b1"], ["b1", "1", "b2"], ["b2", "1", "b0"],
-     ["t0", "0", "b0"], ["b0", "0", "t0"], ["t1", "0", "b1"], ["b1", "0", "t1"], ["t2", "0", "b2"], ["b2", "0", "t2"]],
-    "pos": {"t0": [0, 0], "t1": [1, 0], "t2": [2, 0], "b0": [0, 1], "b1": [1, 1], "b2": [2, 1]}},
-   "claims": [
-    {"label": "A", "text": "A: #1 divisible by 3 and #0 divisible by 2", "test": {"lang": {"member": "w.count('1') % 3 == 0 and w.count('0') % 2 == 0", "text": "the strings with #1 divisible by 3 and #0 divisible by 2"}}, "expect": true},
-    {"label": "B", "text": "B: #1 odd and #0 even", "test": {"lang": {"member": "w.count('1') % 2 == 1 and w.count('0') % 2 == 0", "text": "the strings with #1 odd and #0 even"}}, "expect": false},
-    {"label": "C", "text": "C: #1 even and #0 odd", "test": {"lang": {"member": "w.count('1') % 2 == 0 and w.count('0') % 2 == 1", "text": "the strings with #1 even and #0 odd"}}, "expect": false},
-    {"label": "D", "text": "D: #1 divisible by 2 and #0 divisible by 3", "test": {"lang": {"member": "w.count('1') % 2 == 0 and w.count('0') % 3 == 0", "text": "the strings with #1 divisible by 2 and #0 divisible by 3"}}, "expect": false}]
-  },
-  "CS-2012-Q56": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["ε", "0", "1", "00", "01", "10", "11", "q"], "start": "ε", "final": ["ε", "0", "1", "00", "01", "10", "11"], "alphabet": "01",
-    "edges": [["ε", "0", "0"], ["ε", "1", "1"], ["0", "0", "00"], ["0", "1", "01"], ["1", "0", "10"], ["1", "1", "11"], ["01", "0", "10"], ["10", "1", "01"], ["11", "1", "11"], ["q", "0,1", "q"]],
-    "pos": {"ε": [0, 1.5], "0": [1, 0.5], "1": [1, 2.5], "00": [2, 0], "01": [2, 1], "10": [2, 2], "11": [2, 3], "q": [3, 0]}},
-   "claims": [
-    {"label": "A", "text": "A: (00,1,00), (00,0,01), (01,1,11), (10,0,00), (11,0,10)", "test": {"add": [["00", "1", "00"], ["00", "0", "01"], ["01", "1", "11"], ["10", "0", "00"], ["11", "0", "10"]], "lang": {"member": "'000' not in w", "text": "the strings without 000"}}, "expect": false},
-    {"label": "B", "text": "B: (00,0,01), (00,1,q), (01,1,01), (10,0,11), (11,0,01)", "test": {"add": [["00", "0", "01"], ["00", "1", "q"], ["01", "1", "01"], ["10", "0", "11"], ["11", "0", "01"]], "lang": {"member": "'000' not in w", "text": "the strings without 000"}}, "expect": false},
-    {"label": "C", "text": "C: (00,1,01), (00,0,q), (01,1,01), (10,0,10), (11,0,01)", "test": {"add": [["00", "1", "01"], ["00", "0", "q"], ["01", "1", "01"], ["10", "0", "10"], ["11", "0", "01"]], "lang": {"member": "'000' not in w", "text": "the strings without 000"}}, "expect": false},
-    {"label": "D", "text": "D: (00,1,01), (00,0,q), (01,1,11), (10,0,00), (11,0,10)", "test": {"add": [["00", "1", "01"], ["00", "0", "q"], ["01", "1", "11"], ["10", "0", "00"], ["11", "0", "10"]], "lang": {"member": "'000' not in w", "text": "the strings without 000"}}, "expect": true}]
-  },
-  "CS-2013-Q43": {
-   "kind": "fa-claims",
-   "machine": {"states": ["s", "t", "f"], "start": "s", "final": ["f"], "alphabet": "01",
-    "edges": [["s", "1", "t"], ["s", "0", "f"], ["t", "1", "t"], ["t", "0", "f"], ["f", "0,1", "f"]]},
-   "claims": [
-    {"label": "1", "text": "1: the complement of its language is context-free", "test": {"complement_regular": true}, "expect": true},
-    {"label": "2", "text": "2: its language is (11*0+0)(0+1)*0*1*", "test": {"lang": {"regex": "(11*0+0)(0+1)*0*1*"}}, "expect": true},
-    {"label": "3", "text": "3: this three-state DFA is minimal", "test": {"minimal": true}, "expect": false},
-    {"label": "4", "text": "4: it accepts every binary string of length at least 2", "test": {"lang": {"member": "len(w) >= 2", "text": "the strings of length at least 2"}, "rel": "sup"}, "expect": false}]
-  },
-  "CS-2024-S1-Q50": {
-   "kind": "fa-claims", "tabs": "options",
-   "machine": {"states": ["1", "2", "3", "4", "5"], "start": "1", "final": ["1"], "alphabet": "01",
-    "edges": [["1", "0", "2"], ["1", "1", "4"], ["2", "0", "3"], ["2", "1", "1"], ["3", "0", "1"], ["3", "1", "2"], ["4", "0", "1"], ["4", "1", "5"], ["5", "0", "4"], ["5", "1", "1"]],
-    "pos": {"1": [1, 0], "2": [0, 1], "3": [0, 2], "4": [2, 1], "5": [2, 2]}},
-   "claims": [
-    {"label": "A", "text": "A: states 2 and 4 are distinguishable", "test": {"distinct": ["2", "4"]}, "expect": true},
-    {"label": "B", "text": "B: states 3 and 4 are distinguishable", "test": {"distinct": ["3", "4"]}, "expect": false},
-    {"label": "C", "text": "C: states 2 and 5 are distinguishable", "test": {"distinct": ["2", "5"]}, "expect": false},
-    {"label": "D", "text": "D: every w with n0(w) = n1(w) is accepted", "test": {"lang": {"member": "w.count('0') == w.count('1')", "text": "the strings with as many 0s as 1s"}, "rel": "sup"}, "expect": true}]
-  },
-  "CS-2002-Q30": {
-   "kind": "fa-mealy",
-   "machine": {"states": ["A", "B", "C"], "start": "A", "alphabet": "01",
-    "edges": [["A", "0/00", "A"], ["A", "1/01", "B"], ["B", "0/01", "A"], ["B", "1/10", "C"], ["C", "0/01", "A"], ["C", "1/10", "C"]]},
-   "demo": "0110",
-   "claims": [
-    {"label": "A", "text": "output = current bit + preceding bit", "test": "o == [format(int(p) + int(c), '02b') for p, c in zip('0' + w, w)]", "expect": true},
-    {"label": "B", "text": "01 whenever the input contains 11", "test": "all(o[i] == '01' for i in range(1, len(w)) if w[i - 1:i + 1] == '11')", "expect": false},
-    {"label": "C", "text": "00 whenever the input contains 10", "test": "all(o[i] == '00' for i in range(1, len(w)) if w[i - 1:i + 1] == '10')", "expect": false}]
-  },
-  "CS-2021-S2-Q38": {
-   "kind": "fa-mealy",
-   "input": "00100011000011100", "output": "00000001000001100",
-   "options": [
-    {"label": "A", "t": "s | b", "y": "s & b", "show_t": "s + b", "show_y": "sb", "expect": false},
-    {"label": "B", "t": "b", "y": "s & b", "show_t": "b", "show_y": "sb", "expect": true},
-    {"label": "C", "t": "b", "y": "s & (1 - b)", "show_t": "b", "show_y": "s¬b", "expect": false},
-    {"label": "D", "t": "s | b", "y": "s & (1 - b)", "show_t": "s + b", "show_y": "s¬b", "expect": false}]
+  "excluded": {
+    "CS-1996-Q48": "Keyed option text is absent from question_text.",
+    "CS-1997-Q86": "Open source/model qualification: original question number unverified.",
+    "CS-1997-Q87": "Open source/model qualification: original question number unverified.",
+    "CS-2024-S1-Q50": "Positive inclusion for a nonregular language was only bounded-tested, not proved.",
+    "CS-2013-Q43": "Includes a conceptual context-free-language claim.",
+    "CS-2002-Q30": "Spec invents a demonstration input and infers a universal output claim from bounded enumeration."
   }
- }
 }
