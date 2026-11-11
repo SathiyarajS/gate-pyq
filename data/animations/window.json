@@ -1,0 +1,118 @@
+{
+ "description": "Step-through animations (Link timing: stop-and-wait and sliding-window utilization, throughput, window and sequence-number sizes, Go-Back-N with lost frames, TCP congestion window after a timeout). Each entry is simulated at build time by scripts/animations/window.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-2006-Q46": {
+   "kind": "gbn",
+   "packets": 9,
+   "window": 3,
+   "lose_every": 5,
+   "expect": {"transmissions": 16}
+  },
+  "CS-2014-S1-Q37": {
+   "kind": "tcp-cwnd",
+   "mss": 2,
+   "unit": "KB",
+   "cwnd_at_timeout": 32,
+   "rtt_ms": 100,
+   "until": 32,
+   "expect": {"time_ms": [1100, 1300]}
+  },
+  "CS-2014-S1-Q38": {
+   "kind": "arq",
+   "frame_kb": 1,
+   "rate": 1500000,
+   "prop_ms": 50,
+   "goal": "seqbits",
+   "protocol": "sr",
+   "target": "0.6",
+   "expect": {"bits": 5}
+  },
+  "CS-2015-S2-Q34": {
+   "kind": "arq",
+   "frame_bytes": 1000,
+   "rate": 1000000,
+   "goal": "prop",
+   "efficiency": "0.25",
+   "expect": {"prop_ms": 12}
+  },
+  "CS-2015-S3-Q47": {
+   "kind": "arq",
+   "frame_bits": 10000000,
+   "rate": 500000000,
+   "distance_m": 8000000,
+   "speed_mps": 4000000,
+   "goal": "seqbits",
+   "protocol": "gbn",
+   "target": 1,
+   "expect": {"bits": 8}
+  },
+  "CS-2016-S1-Q65": {
+   "kind": "arq",
+   "frame_bytes": 1000,
+   "rate": 80000,
+   "ack_bytes": 100,
+   "ack_rate": 8000,
+   "prop_ms": 100,
+   "goal": "throughput",
+   "expect": {"throughput": 2500}
+  },
+  "CS-2016-S2-Q65": {
+   "kind": "arq",
+   "frame_kb": 1,
+   "rate": 128000,
+   "prop_ms": 150,
+   "goal": "seqbits",
+   "protocol": "sr",
+   "target": 1,
+   "expect": {"bits": 4}
+  },
+  "CS-2017-S1-Q55": {
+   "kind": "arq",
+   "frame_bytes": 1980,
+   "overhead_bytes": 20,
+   "ack_bytes": 20,
+   "rate": 1000000,
+   "prop_ms": "0.75",
+   "processing_ms": "0.25",
+   "goal": "utilization",
+   "expect": {"utilization_percent": [86.5, 89.5]}
+  },
+  "CS-2021-S1-Q59": {
+   "kind": "arq",
+   "frame_bits": 2000,
+   "ack_bits": 10,
+   "rate": 1000000,
+   "prop_ms": 100,
+   "goal": "window",
+   "protocol": "sliding",
+   "target": "0.5",
+   "expect": {"window": [50, 52]}
+  },
+  "CS-2024-S2-Q54": {
+   "kind": "tcp-cwnd",
+   "cwnd_at_timeout": 12,
+   "round": 3,
+   "expect": {"cwnd": 4}
+  },
+  "CS-2025-S2-Q36": {
+   "kind": "arq",
+   "frame_bits": 3000,
+   "rate": 2000,
+   "prop_ms": 100,
+   "goal": "utilization",
+   "options": ["88.23", "93.75", "85.44", "66.67"],
+   "expect": {"option": "88.23"}
+  },
+  "CS-2026-S1-Q45": {
+   "kind": "arq",
+   "frame_bits": 1000,
+   "rate": 100000,
+   "prop_ms": 100,
+   "goal": "window",
+   "protocol": "sliding",
+   "target": 1,
+   "options": [10, 21, 20, 11],
+   "expect": {"option": "21"}
+  }
+ }
+}
