@@ -1,0 +1,325 @@
+{
+ "description": "Step-through animations (Address fields: cache tag/index/offset, TLB tags, paging and translation). Each entry is simulated at build time by scripts/animations/fields.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1995-Q50": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "unit": "word",
+   "cache": 4096,
+   "ways": 4,
+   "block": 64,
+   "expect": {
+    "offset": 6,
+    "index": 4
+   }
+  },
+  "CS-2001-Q64": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 16,
+   "expect": {
+    "sets": 4096
+   }
+  },
+  "CS-2001-Q65": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 16,
+   "expect": {
+    "tag": 16
+   }
+  },
+  "CS-2001-Q67": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 16,
+   "expect": {
+    "offset": 4
+   }
+  },
+  "CS-2001-Q68": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 16,
+   "tag_store": true,
+   "expect": {
+    "tag_store_bits": 262144
+   }
+  },
+  "CS-2002-Q93": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 32,
+   "page": 4096,
+   "pte": 4,
+   "per_page": true,
+   "expect": {
+    "entries_per_page": 1024
+   }
+  },
+  "CS-2002-Q94": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 32,
+   "page": 4096,
+   "pte": 4,
+   "physical_bits": 32,
+   "expect": {
+    "spare_bits": 12
+   }
+  },
+  "CS-2005-Q67": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 32768,
+   "block": 32,
+   "expect": {
+    "index": 10,
+    "tag": 17
+   }
+  },
+  "CS-2006-Q62": {
+   "kind": "address-fields",
+   "mode": "tlb",
+   "address_bits": 32,
+   "page": 4096,
+   "entries": 128,
+   "ways": 4,
+   "expect": {
+    "tag": 15
+   }
+  },
+  "CS-2007-Q10": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "unit": "word",
+   "address_bits": 20,
+   "cache": 8192,
+   "ways": 4,
+   "block": 64,
+   "expect": {
+    "tag": 9,
+    "index": 5,
+    "offset": 6
+   }
+  },
+  "CS-2011-Q53": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 8192,
+   "block": 32,
+   "extra_bits": 2,
+   "extra_text": "valid and modified",
+   "expect": {
+    "directory_bits": 5376
+   }
+  },
+  "CS-2012-Q64": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 32,
+   "expect": {
+    "tag": 16
+   }
+  },
+  "CS-2012-Q65": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 262144,
+   "ways": 4,
+   "block": 32,
+   "extra_bits": 4,
+   "extra_text": "2 valid, 1 modified, 1 replacement",
+   "expect": {
+    "directory_bits": 163840
+   }
+  },
+  "CS-2014-S2-Q19": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "memory": 4294967296,
+   "cache": 16384,
+   "ways": 4,
+   "block": 32,
+   "block_text": "8 words of 4 bytes",
+   "expect": {
+    "tag": 20
+   }
+  },
+  "CS-2015-S1-Q29": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 32,
+   "page": 4096,
+   "pte": 4,
+   "expect": {
+    "table_bytes": 4194304
+   }
+  },
+  "CS-2015-S2-Q19": {
+   "kind": "address-fields",
+   "mode": "tlb",
+   "address_bits": 40,
+   "page": 8192,
+   "entries": 128,
+   "ways": 4,
+   "expect": {
+    "tag": 22
+   }
+  },
+  "CS-2015-S3-Q34": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "memory": 1048576,
+   "cache": 65536,
+   "block": 16,
+   "split": "E201F",
+   "expect": {
+    "split": {
+     "Tag": "E",
+     "Index": "201",
+     "Offset": "F"
+    }
+   }
+  },
+  "CS-2016-S1-Q57": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 40,
+   "page": 16384,
+   "pte": 6,
+   "expect": {
+    "table_bytes": 402653184
+   }
+  },
+  "CS-2016-S2-Q42": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 40,
+   "cache": 524288,
+   "ways": 8,
+   "expect": {
+    "tag": 24
+   }
+  },
+  "CS-2017-S2-Q63": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "memory": 4294967296,
+   "cache": 16384,
+   "block": 32,
+   "expect": {
+    "tag": 18
+   }
+  },
+  "CS-2019-Q11": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 16384,
+   "ways": "full",
+   "block": 16,
+   "expect": {
+    "tag": 28,
+    "index": 0
+   }
+  },
+  "CS-2021-S1-Q32": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "memory": 4294967296,
+   "cache": 32768,
+   "block": 64,
+   "expect": {
+    "tag": 17
+   }
+  },
+  "CS-2023-Q58": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 57,
+   "page": 4096,
+   "pte": 8,
+   "levels": true,
+   "expect": {
+    "levels": 5
+   }
+  },
+  "CS-2023-Q64": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "address_bits": 32,
+   "cache": 65536,
+   "ways": 8,
+   "expect": {
+    "tag": 19
+   }
+  },
+  "CS-2024-S1-Q62": {
+   "kind": "address-fields",
+   "mode": "translate",
+   "page": 2048,
+   "virtual": 2500,
+   "frames": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "expect": {
+    "physical": 6596
+   }
+  },
+  "CS-2025-S1-Q14": {
+   "kind": "address-fields",
+   "mode": "page",
+   "address_bits": 32,
+   "page": 2048,
+   "expect": {
+    "entries": 2097152
+   }
+  },
+  "CS-2025-S1-Q36": {
+   "kind": "address-fields",
+   "mode": "cache",
+   "memory": 1048576,
+   "cache": 16384,
+   "block": 16,
+   "tag_store": true,
+   "expect": {
+    "tag_store_bits": 6144
+   }
+  },
+  "CS-2026-S2-Q54": {
+   "kind": "address-fields",
+   "mode": "tlb-size",
+   "page": 4096,
+   "reach": 1048576,
+   "virtual": 68719476736,
+   "physical": 1073741824,
+   "extra_bits": 6,
+   "extra_text": "4-bit process ID and 2 control bits",
+   "expect": {
+    "tlb_bytes": 1536
+   }
+  }
+ }
+}

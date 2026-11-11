@@ -11,6 +11,25 @@ from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[2]
 
 
+def first_of_each_kind(site):
+    """One question per animation kind, from the built pages' embedded step data."""
+    import json,re
+    seen={}
+    for page in sorted(site.glob('*/index.html')):
+        for art in page.read_text().split('<article')[1:]:
+            m=re.search(r'data-steps=\'([^\']*)\'',art)
+            if not m:continue
+            qid,blob=re.search(r'\bid="([^"]+)"',art).group(1),m.group(1)
+            kind=json.loads(blob.replace('&#39;',"'").replace('&quot;','"').replace('&amp;','&').replace('&lt;','<').replace('&gt;','>'))['kind']
+            seen.setdefault(kind,qid)
+    assert seen,'no step-throughs found'
+    return sorted((q,k) for k,q in seen.items())
+
+
+def subject_page(site,qid):
+    return next(p.parent.name for p in sorted(site.glob('*/index.html')) if f'id="{qid}"' in p.read_text())
+
+
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--site',type=Path,default=ROOT/'_site')
@@ -60,24 +79,15 @@ def main():
                 player.locator('details.answer>summary').click();player.locator('details.steps>summary').click()
                 page.wait_for_selector('#CS-2024-S2-Q37 .gantt');first=player.locator('.steps-count').inner_text()
                 player.locator('.steps-bar button',has_text='Next').click();assert player.locator('.steps-count').inner_text()!=first
-                # Page-replacement player: a frame grid that fills in one reference per step.
-                page.goto(base+'/08-operating-systems/#CS-2022-Q64');grid=page.locator('#CS-2022-Q64')
-                grid.locator('details.answer>summary').click();grid.locator('details.steps>summary').click()
-                page.wait_for_selector('#CS-2022-Q64 .steps-grid')
-                for _ in range(3):grid.locator('.steps-bar button',has_text='Next').click()
-                assert grid.locator('.steps-grid .fault-row td').evaluate_all("c=>c.filter(x=>x.textContent==='F').length")==2
-                # Disk-scheduling player: the head path and its table of moves grow one move per step.
-                page.goto(base+'/08-operating-systems/#CS-2016-S1-Q58');disk=page.locator('#CS-2016-S1-Q58')
-                disk.locator('details.answer>summary').click();disk.locator('details.steps>summary').click()
-                page.wait_for_selector('#CS-2016-S1-Q58 .head-path')
-                for _ in range(2):disk.locator('.steps-bar button',has_text='Next').click()
-                assert disk.locator('.steps-table tbody tr').count()==2
-                # Hashing player: one row per slot, with the key placed at this step marked.
-                page.goto(base+'/04-data-structures/#CS-2025-S1-Q65');hp=page.locator('#CS-2025-S1-Q65')
-                hp.locator('details.answer>summary').click();hp.locator('details.steps>summary').click()
-                page.wait_for_selector('#CS-2025-S1-Q65 .steps-table')
-                hp.locator('.steps-bar button',has_text='Next').click()
-                assert hp.locator('.steps-table tr.is-running').count()==1
+                # Every animation kind: one question each opens, draws and steps forward without errors.
+                for qid,kind in first_of_each_kind(args.site):
+                    page.goto(base+f'/{subject_page(args.site,qid)}/#{qid}');card=page.locator(f'[id="{qid}"]')
+                    card.locator('details.answer>summary').click();card.locator('details.steps>summary').click()
+                    page.wait_for_function(f'document.querySelector(\'[id="{qid}"] .steps-count\')!==null')
+                    first=card.locator('.steps-count').inner_text()
+                    card.locator('.steps-bar button',has_text='Next').click()
+                    assert card.locator('.steps-count').inner_text()!=first,kind
+                    assert card.locator('.steps-view').inner_text().strip(),kind
                 # Old addresses redirect.
                 page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
                 assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1

@@ -1,239 +1,45 @@
 'use strict';
-// "Step through it" players: CPU scheduling, page replacement, disk scheduling, hashing, heaps, BSTs and address fields. Loaded only when a reader opens one.
-// Data comes from the build (scripts/animations.py), which checks every result against the answer.
+// "Step through it" player core: tabs, Previous/Next, the note and keyboard control.
+// Each family's drawing code lives in assets/steps/<player>.js and is loaded the first
+// time a question of that family is opened. The data comes from scripts/animations/,
+// which checks every result against the answer at build time.
 (() => {
   const SVG = 'http://www.w3.org/2000/svg';
   const el = (tag, attrs = {}, text) => { const n = document.createElementNS(SVG, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); if (text != null) n.textContent = text; return n; };
   const h = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  const here = document.currentScript ? document.currentScript.src : new URL('assets/steps.js', document.baseURI).href;
+  const renderers = {}, loading = {};
 
-  let view = null;
-  function gantt(s, data, step) {
-    const names = data.processes, colour = name => data.colors[names.indexOf(name)];
-    // Drawn at the player's actual width so labels stay readable on phones.
-    const W = Math.max(300, Math.min(720, Math.round(view.clientWidth || 640))), left = 4, right = 12, top = 6, barH = 30, axisY = top + barH + 16, x = t => left + (W - left - right) * t / s.end;
-    const svg = el('svg', {viewBox: `0 0 ${W} ${axisY + 10}`, class: 'gantt', role: 'img', 'aria-label': `Timeline up to time ${step.t}`});
-    svg.append(el('rect', {x: left, y: top, width: W - left - right, height: barH, class: 'gantt-track', rx: 4}));
-    const ticks = new Set([0, s.end]);
-    for (const [name, a, b] of s.segs) {
-      if (a >= step.t && !step.final) continue;
-      const end = step.final ? b : Math.min(b, step.t);
-      ticks.add(a); ticks.add(end);
-      const g = el('g', {class: 'seg p' + colour(name)});
-      g.append(el('rect', {x: x(a) + 1, y: top, width: Math.max(0, x(end) - x(a) - 2), height: barH, rx: 3}));
-      if (x(end) - x(a) > 22) g.append(el('text', {x: (x(a) + x(end)) / 2, y: top + barH / 2 + 5, 'text-anchor': 'middle'}, name));
-      svg.append(g);
-    }
-    // The process chosen at this step, shown as a dashed outline up to its next decision point.
-    if (!step.final && step.run) {
-      const seg = s.segs.find(([n, a, b]) => n === step.run && a <= step.t && step.t < b);
-      if (seg) { const next = s.steps.find(x => x.t > step.t); const end = next ? Math.min(seg[2], next.t) : seg[2];
-        svg.append(el('rect', {x: x(step.t) + 1, y: top + 1, width: Math.max(0, x(end) - x(step.t) - 2), height: barH - 2, rx: 3, class: 'seg-next p' + colour(step.run)}));
-        if (x(end) - x(step.t) > 22) svg.append(el('text', {x: (x(step.t) + x(end)) / 2, y: top + barH / 2 + 5, 'text-anchor': 'middle', class: 'seg-next-label'}, step.run)); ticks.add(end); }
-    }
-    // Every boundary gets a tick; a label is skipped where it would collide with the previous one.
-    let lastLabel = -Infinity;
-    [...ticks].sort((a, b) => a - b).forEach(t => { svg.append(el('line', {x1: x(t), x2: x(t), y1: top + barH, y2: top + barH + 4, class: 'tick'}));
-      if (x(t) - lastLabel >= 7 * String(t).length + 8 || t === s.end) { svg.append(el('text', {x: x(t), y: axisY + 4, 'text-anchor': 'middle', class: 'tick-label'}, t)); lastLabel = x(t); } });
-    if (!step.final) svg.append(el('line', {x1: x(step.t), x2: x(step.t), y1: top - 4, y2: top + barH + 4, class: 'now'}));
-    return svg;
-  }
+  // A family file calls this with a function that receives the helpers {el, h, css} and returns {kind: render}.
+  // render(schedule, data, step, index, width) returns the nodes to show for that step.
+  // css(text) adds a family's own styles once; the series colours --s0 to --s5 are set on .steps-player.
+  const css = text => { const st = document.createElement('style'); st.textContent = text; document.head.append(st); };
+  window.gateStepsRegister = make => Object.assign(renderers, make({el, h, css}));
 
-  function table(s, data, step) {
-    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
-    const names = data.processes, prio = data.priority;
-    // The finished table shows the completion times and only the measure the question asks about.
-    const cols = step.final ? s.final.cols : ['Process', 'Arrival', 'Burst'].concat(prio ? ['Priority'] : [], ['Left', 'State']);
-    cols.forEach(c => head.append(h('th', null, c)));
-    names.forEach((name, i) => {
-      const row = body.insertRow();
-      const cells = step.final ? s.final.rows[i] : [name, data.arrival[i], data.burst[i]].concat(prio ? [prio[i]] : [], [step.rem[i],
-        step.run === name ? 'running' : step.rem[i] === 0 ? 'done' : data.arrival[i] > step.t ? 'not arrived' : 'waiting']);
-      cells.forEach((v, j) => { const td = row.insertCell(); td.textContent = v; if (j === 0) td.className = 'p' + data.colors[i]; });
-      if (step.final ? s.final.highlight === name : step.run === name) row.className = 'is-running';
-      if (step.final && s.final.metric) row.cells[cells.length - 1].className = 'is-metric';
-    });
-    return t;
-  }
+  const load = name => loading[name] || (loading[name] = new Promise((ok, fail) => {
+    const s = document.createElement('script'); s.src = new URL('steps/' + name + '.js', here).href; s.onload = ok; s.onerror = fail; document.head.append(s);
+  }));
 
-  // Page replacement: one column per reference, filled in up to the current step.
-  function frames(s, data, step) {
-    const now = step.final ? data.refs.length - 1 : step.i, t = h('table', 'steps-table steps-grid');
-    const head = t.createTHead().insertRow(), body = t.createTBody();
-    head.append(h('th', null, 'Reference'));
-    data.refs.forEach((r, j) => { const c = h('th', j === now && !step.final ? 'is-now' : null, r); head.append(c); });
-    for (let k = 0; k < data.frames; k++) {
-      const row = body.insertRow(); row.insertCell().textContent = 'Frame ' + (k + 1);
-      data.refs.forEach((_, j) => { const td = row.insertCell(), at = s.steps[j + 1];
-        if (j <= now) { const v = at.frames[k]; td.textContent = v == null ? '' : v; if (at.fault && at.slot === k) td.className = 'is-new'; }
-        if (j === now && !step.final) td.classList.add('is-now'); });
-    }
-    const f = body.insertRow(); f.className = 'fault-row'; f.insertCell().textContent = 'Fault';
-    data.refs.forEach((_, j) => { const td = f.insertCell(); if (j <= now) td.textContent = s.steps[j + 1].fault ? 'F' : ''; if (j === now && !step.final) td.classList.add('is-now'); });
-    return t;
-  }
-
-  // Disk scheduling: cylinders across, one row per head movement, drawn up to the current step.
-  function head(s, data, step, k) {
-    const W = Math.max(300, Math.min(720, Math.round(view.clientWidth || 640))), pad = 16, top = 22, rowH = 20;
-    const x = c => pad + (W - 2 * pad) * (c - data.lo) / Math.max(1, data.hi - data.lo);
-    const H = top + rowH * (s.moves.length + 1);
-    const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, class: 'head-path', role: 'img', 'aria-label': `Head at cylinder ${step.pos}`});
-    svg.append(el('line', {x1: x(data.lo), x2: x(data.hi), y1: top - 8, y2: top - 8, class: 'tick'}));
-    // Axis labels: the ends and every requested cylinder, skipping any that would collide.
-    let last = -Infinity;
-    [...new Set([data.lo, data.hi, data.start, ...data.requests])].sort((a, b) => a - b).forEach(c => {
-      const done = !data.requests.includes(c) || !step.pending.includes(c);
-      svg.append(el('circle', {cx: x(c), cy: top - 8, r: 2.5, class: data.requests.includes(c) ? (done ? 'req done' : 'req') : 'end'}));
-      const room = n => 7 * String(n).length + 6;
-      if (c === data.hi || (x(c) - last >= room(c) && x(data.hi) - x(c) >= room(data.hi))) { svg.append(el('text', {x: x(c), y: top - 13, 'text-anchor': 'middle', class: 'tick-label'}, c)); last = x(c); } });
-    const shown = step.final ? s.moves.length : k;
-    const y = r => top + rowH * r + 6;
-    for (let r = 0; r < shown; r++) {
-      const [a, b, served] = s.moves[r];
-      svg.append(el('line', {x1: x(a), y1: y(r), x2: x(b), y2: y(r + 1), class: 'path' + (served ? '' : ' unserved') + (r === shown - 1 && !step.final ? ' latest' : '')}));
-    }
-    for (let r = 0; r <= shown; r++) {
-      const c = r === 0 ? data.start : s.moves[r - 1][1];
-      // Label on the side away from the line that reaches this point (or leaves the start), kept inside the chart.
-      const other = r === 0 ? (s.moves[0] ? s.moves[0][1] : c) : s.moves[r - 1][0];
-      let right = other === c ? x(c) < W / 2 : other < c;
-      if (!right && x(c) < 34) right = true; else if (right && x(c) > W - 34) right = false;
-      svg.append(el('circle', {cx: x(c), cy: y(r), r: r === shown && !step.final ? 5 : 3.5, class: 'stop' + (r === shown && !step.final ? ' now' : '')}));
-      const gap = r === shown && !step.final ? 10 : 8;
-      svg.append(el('text', {x: x(c) + (right ? gap : -gap), y: y(r) + 4, 'text-anchor': right ? 'start' : 'end', class: 'stop-label'}, c));
-    }
-    return svg;
-  }
-
-  function moveTable(s, step, k) {
-    const shown = step.final ? s.moves.length : k, t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
-    ['Move', 'From', 'To', 'Distance', 'Total'].forEach(c => head.append(h('th', null, c)));
-    let total = 0;
-    s.moves.slice(0, shown).forEach(([a, b], r) => { total += Math.abs(b - a); const row = body.insertRow();
-      [r + 1, a, b, Math.abs(b - a), total].forEach(v => { row.insertCell().textContent = v; });
-      if (r === shown - 1 && !step.final) row.className = 'is-running'; });
-    return t;
-  }
-
-  // Hashing: one row per slot; this step's collisions and placement are labelled.
-  function slots(s, data, step) {
-    const t = h('table', 'steps-table hash-table'), head = t.createTHead().insertRow(), body = t.createTBody();
-    ['Slot', data.chaining ? 'Chain' : 'Key', ''].forEach(c => head.append(h('th', null, c)));
-    step.table.forEach((v, i) => {
-      const row = body.insertRow(), placed = step.slot === i, hit = step.probed.includes(i);
-      [i, Array.isArray(v) ? v.join(' → ') : v == null ? '' : v, placed ? (data.chaining ? 'added' : 'placed') : hit ? 'collision' : ''].forEach(x => { row.insertCell().textContent = x; });
-      if (placed) row.className = 'is-running'; else if (hit) row.className = 'is-probed';
-    });
-    return t;
-  }
-
-  // Trees: circles with keys, edges to parents, highlighted nodes for this step.
-  function treeSvg(points, W, H, label) {
-    const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, class: 'tree', role: 'img', 'aria-label': label});
-    const at = new Map(points.map(p => [p.id, p]));
-    points.forEach(p => { const q = at.get(p.parent); if (q) svg.append(el('line', {x1: q.x, y1: q.y, x2: p.x, y2: p.y, class: 'edge' + (p.onPath && q.onPath ? ' on' : '')})); });
-    points.forEach(p => { const g = el('g', {class: 'node' + (p.cls ? ' ' + p.cls : '')});
-      g.append(el('circle', {cx: p.x, cy: p.y, r: 14})); g.append(el('text', {x: p.x, y: p.y + 4, 'text-anchor': 'middle'}, p.text)); svg.append(g); });
-    return svg;
-  }
-
-  function heapView(s, data, step) {
-    const d = data.arity, W = Math.max(300, Math.min(560, Math.round(view.clientWidth || 560))), pad = 16, rowH = 50, top = 20;
-    const max = Math.max(...s.steps.map(x => x.arr.length), 1);
-    const level = i => { let L = 0, start = 0, width = 1; while (i >= start + width) { start += width; width *= d; L++; } return [L, i - start, width]; };
-    const levels = level(max - 1)[0] + 1;
-    const pts = step.arr.map((v, i) => { const [L, pos, width] = level(i);
-      return {id: i, parent: i ? Math.floor((i - 1) / d) : null, x: pad + (pos + 0.5) * (W - 2 * pad) / width, y: top + L * rowH, text: v,
-        cls: step.hi.includes(i) ? 'hi' : '', onPath: step.hi.includes(i)}; });
-    const t = h('table', 'steps-table steps-grid heap-array'), r1 = t.insertRow(), r2 = t.insertRow();
-    r1.append(h('th', null, 'Index')); r2.append(h('th', null, 'Key'));
-    step.arr.forEach((v, i) => { r1.append(h('th', null, i)); const c = r2.insertCell(); c.textContent = v; if (step.hi.includes(i)) c.className = 'is-now'; });
-    const wrap = h('div', 'steps-table-wrap'); wrap.append(t);
-    return [treeSvg(pts, W, top + (levels - 1) * rowH + 20, 'Heap'), wrap];
-  }
-
-  function bstView(s, data, step) {
-    const n = data.nodes.length, W = Math.max(300, Math.min(640, Math.round(view.clientWidth || 640))), pad = 16, rowH = 46, top = 20;
-    const depth = Math.max(...data.nodes.map(x => x[2]));
-    const shown = new Set(step.shown), path = new Set(step.path);
-    const pts = data.nodes.filter(([k]) => shown.has(k)).map(([k, rank, dep, parent]) => ({id: k, parent, x: pad + (rank + 0.5) * (W - 2 * pad) / n, y: top + dep * rowH, text: k,
-      cls: k === step.key && !step.final ? 'now' : path.has(k) ? 'hi' : '', onPath: path.has(k)}));
-    const out = [treeSvg(pts, W, top + depth * rowH + 20, 'Binary search tree')];
-    if (step.out && step.out.length) out.push(h('p', 'steps-ready', 'Visited so far: ' + step.out.join(', ')));
-    return out;
-  }
-
-  // Address fields: the address as a bar split into fields, and the derivation so far.
-  function fieldsView(s, data, step) {
-    const W = Math.max(300, Math.min(640, Math.round(view.clientWidth || 640))), pad = 2, barH = 34, top = 4;
-    const colour = {Tag: 0, Index: 1, 'Index + offset': 1, Offset: 2, 'Page number': 0};
-    const known = step.fields.reduce((a, f) => a + f[1], 0), total = data.bits || known || 1;
-    const svg = el('svg', {viewBox: `0 0 ${W} ${barH + top + 22}`, class: 'gantt fields-bar', role: 'img', 'aria-label': 'Address fields'});
-    svg.append(el('rect', {x: pad, y: top, width: W - 2 * pad, height: barH, rx: 4, class: 'gantt-track'}));
-    let x = W - pad;
-    for (let k = step.fields.length - 1; k >= 0; k--) {
-      const [name, bits] = step.fields[k], w = (W - 2 * pad) * bits / total;
-      x -= w; if (!bits) continue;
-      const g = el('g', {class: 'seg p' + (colour[name] ?? 3)});
-      g.append(el('rect', {x: x + 1, y: top, width: Math.max(0, w - 2), height: barH, rx: 3}));
-      const label = w > 9 * (name.length + String(bits).length + 1) ? `${name} ${bits}` : w > 22 ? String(bits) : '';
-      if (label) g.append(el('text', {x: x + w / 2, y: top + barH / 2 + 5, 'text-anchor': 'middle'}, label));
-      svg.append(g);
-    }
-    if (data.bits) svg.append(el('text', {x: pad, y: top + barH + 16, class: 'tick-label'}, `${data.bits}-bit address` + (known < data.bits ? ` · ${data.bits - known} bits still to assign` : '')));
-    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
-    ['Quantity', 'Value', 'How'].forEach(c => head.append(h('th', null, c)));
-    step.rows.forEach((r, k) => { const row = body.insertRow(); r.forEach(v => { row.insertCell().textContent = v; }); if (k === step.rows.length - 1 && !step.final) row.className = 'is-running'; });
-    const wrap = h('div', 'steps-table-wrap'); wrap.append(t);
-    const names = step.fields.map(f => f[0]), legend = h('p', 'steps-ready', step.fields.length ? 'Fields, left to right: ' + step.fields.map(f => `${f[0]} (${f[1]})`).join(', ') : '');
-    return data.bits || step.fields.length ? [svg, legend, wrap] : [wrap];
-  }
-
-  function player(root) {
-    const data = JSON.parse(root.dataset.steps);
+  function player(root, data) {
+    const render = renderers[data.kind];
     let which = 0, i = 0;
-    const tabs = h('div', 'steps-tabs');
-    view = h('div', 'steps-view');
+    const tabs = h('div', 'steps-tabs'), view = h('div', 'steps-view');
     const note = h('p', 'steps-note'), bar = h('div', 'steps-bar'), policy = h('p', 'steps-policy');
     const prev = h('button', null, 'Previous'), next = h('button', null, 'Next'), count = h('span', 'steps-count');
     prev.type = next.type = 'button'; note.setAttribute('aria-live', 'polite');
     bar.append(prev, count, next);
     if (data.schedules.length > 1) data.schedules.forEach((s, k) => { const b = h('button', null, s.short); b.type = 'button'; b.onclick = () => { which = k; i = 0; draw(); }; tabs.append(b); });
     function draw() {
-      const s = data.schedules[which], step = s.steps[i], pages = data.kind === 'page-replace';
+      const s = data.schedules[which], step = s.steps[i];
       [...tabs.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === which)));
       policy.textContent = s.title;
-      const wrap = h('div', 'steps-table-wrap');
-      if (data.kind === 'address-fields') {
-        view.replaceChildren(...fieldsView(s, data, step));
-      } else if (data.kind === 'heap' || data.kind === 'bst') {
-        const parts = data.kind === 'heap' ? heapView(s, data, step) : bstView(s, data, step);
-        view.replaceChildren(...(step.final ? [h('p', 'steps-time', 'Finished')] : []), ...parts);
-      } else if (data.kind === 'hash-insert') {
-        wrap.append(slots(s, data, step));
-        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : step.key == null ? 'Start' : 'Insert ' + step.key), wrap);
-        const left = data.keys.slice(step.final ? data.keys.length : s.steps.indexOf(step));
-        if (left.length) view.append(h('p', 'steps-ready', 'Still to insert: ' + left.join(', ')));
-      } else if (data.kind === 'disk-schedule') {
-        wrap.append(moveTable(s, step, i));
-        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Head at ' + step.pos), head(s, data, step, i), wrap);
-        if (!step.final && step.pending.length) view.append(h('p', 'steps-ready', 'Pending: ' + step.pending.join(', ')));
-      } else if (pages) {
-        wrap.append(frames(s, data, step));
-        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : step.i < 0 ? 'Start' : `Reference ${step.i + 1} of ${data.refs.length}: page ${data.refs[step.i]}`), wrap);
-        if (step.order) view.append(h('p', 'steps-ready', step.order));
-      } else {
-        wrap.append(table(s, data, step));
-        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Time ' + step.t));
-        view.append(gantt(s, data, step), wrap);
-        if (!step.final && step.ready.length) view.append(h('p', 'steps-ready', s.queue_label + ': ' + step.ready.join(', ')));
-      }
+      view.replaceChildren(...render(s, data, step, i, view.clientWidth));
       note.textContent = step.note;
       count.textContent = `Step ${i + 1} of ${s.steps.length}`;
       prev.disabled = i === 0; next.disabled = i === s.steps.length - 1;
-      // Keep the current reference in view when the grid scrolls sideways.
-      const cur = wrap.querySelector('th.is-now');
-      if (cur && wrap.scrollWidth > wrap.clientWidth) wrap.scrollLeft = Math.max(0, cur.offsetLeft - wrap.clientWidth / 2);
+      // Keep the current column in view when a wide table scrolls sideways.
+      view.querySelectorAll('.steps-table-wrap').forEach(w => { const cur = w.querySelector('.is-now');
+        if (cur && w.scrollWidth > w.clientWidth) w.scrollLeft = Math.max(0, cur.offsetLeft - w.clientWidth / 2); });
     }
     prev.onclick = () => { if (i > 0) { i--; draw(); } };
     next.onclick = () => { const s = data.schedules[which]; if (i < s.steps.length - 1) { i++; draw(); } };
@@ -243,6 +49,12 @@
     draw();
   }
 
-  window.gateSteps = root => { if (!root.dataset.ready) { root.dataset.ready = '1'; player(root); } };
-  document.querySelectorAll('details.steps[open] .steps-player').forEach(window.gateSteps);
+  // Returns a promise, so the caller can report a failed load.
+  window.gateSteps = root => {
+    if (root.dataset.ready) return Promise.resolve();
+    root.dataset.ready = '1';
+    const data = JSON.parse(root.dataset.steps);
+    return load(data.player).then(() => player(root, data), e => { delete root.dataset.ready; throw e; });
+  };
+  document.querySelectorAll('details.steps[open] .steps-player').forEach(r => window.gateSteps(r));
 })();

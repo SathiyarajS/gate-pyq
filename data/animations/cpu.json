@@ -1,0 +1,571 @@
+{
+ "description": "Step-through animations (CPU scheduling: FCFS, SJF, SRTF, round robin and priority). Each entry is simulated at build time by scripts/animations/cpu.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-2004-Q46": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     5
+    ],
+    [
+     "P2",
+     1,
+     3
+    ],
+    [
+     "P3",
+     2,
+     3
+    ],
+    [
+     "P4",
+     4,
+     1
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 5.5
+    }
+   ]
+  },
+  "CS-2007-Q55": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     20
+    ],
+    [
+     "P2",
+     15,
+     25
+    ],
+    [
+     "P3",
+     30,
+     10
+    ],
+    [
+     "P4",
+     45,
+     15
+    ]
+   ],
+   "metric": "waiting",
+   "process": "P2",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 15
+    }
+   ]
+  },
+  "CS-2011-Q45": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P0",
+     0,
+     9
+    ],
+    [
+     "P1",
+     1,
+     4
+    ],
+    [
+     "P2",
+     2,
+     9
+    ]
+   ],
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 5.0
+    }
+   ]
+  },
+  "CS-2012-Q41": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     5
+    ],
+    [
+     "P2",
+     1,
+     7
+    ],
+    [
+     "P3",
+     3,
+     4
+    ]
+   ],
+   "metric": "order",
+   "schedules": [
+    {
+     "policy": "fcfs",
+     "expect": [
+      "P1",
+      "P2",
+      "P3"
+     ]
+    },
+    {
+     "policy": "rr",
+     "quantum": 2,
+     "expect": [
+      "P1",
+      "P3",
+      "P2"
+     ]
+    }
+   ]
+  },
+  "CS-2014-S1-Q42": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "A",
+     0,
+     6
+    ],
+    [
+     "B",
+     3,
+     2
+    ],
+    [
+     "C",
+     5,
+     4
+    ],
+    [
+     "D",
+     7,
+     6
+    ],
+    [
+     "E",
+     10,
+     3
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 7.2
+    }
+   ]
+  },
+  "CS-2014-S2-Q42": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "A",
+     0,
+     100
+    ],
+    [
+     "B",
+     5,
+     350
+    ],
+    [
+     "C",
+     10,
+     200
+    ]
+   ],
+   "metric": "completion",
+   "process": "C",
+   "then": "C then starts its 500 ms I/O on its own device, which ends at 500 + 500 = 1000.",
+   "schedules": [
+    {
+     "policy": "rr",
+     "quantum": 50,
+     "expect": 500
+    }
+   ]
+  },
+  "CS-2014-S3-Q42": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     12
+    ],
+    [
+     "P2",
+     2,
+     4
+    ],
+    [
+     "P3",
+     3,
+     6
+    ],
+    [
+     "P4",
+     8,
+     5
+    ]
+   ],
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 5.5
+    }
+   ]
+  },
+  "CS-2015-S3-Q57": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "A",
+     0,
+     3
+    ],
+    [
+     "B",
+     1,
+     6
+    ],
+    [
+     "C",
+     4,
+     4
+    ],
+    [
+     "D",
+     6,
+     2
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "fcfs",
+     "expect": 7.25
+    },
+    {
+     "policy": "sjf",
+     "expect": 6.75
+    },
+    {
+     "policy": "srtf",
+     "expect": 6.25
+    },
+    {
+     "policy": "rr",
+     "quantum": 2,
+     "expect": 8.25
+    }
+   ],
+   "compare": "lowest",
+   "expect_compare": "srtf"
+  },
+  "CS-2016-S2-Q57": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     10
+    ],
+    [
+     "P2",
+     3,
+     6
+    ],
+    [
+     "P3",
+     7,
+     1
+    ],
+    [
+     "P4",
+     8,
+     3
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 8.25
+    }
+   ]
+  },
+  "CS-2017-S1-Q34": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     7
+    ],
+    [
+     "P2",
+     3,
+     3
+    ],
+    [
+     "P3",
+     5,
+     5
+    ],
+    [
+     "P4",
+     6,
+     2
+    ]
+   ],
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 3.0
+    }
+   ]
+  },
+  "CS-2017-S2-Q61": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     11,
+     2
+    ],
+    [
+     "P2",
+     5,
+     28,
+     0
+    ],
+    [
+     "P3",
+     12,
+     2,
+     3
+    ],
+    [
+     "P4",
+     2,
+     10,
+     1
+    ],
+    [
+     "P5",
+     9,
+     16,
+     4
+    ]
+   ],
+   "high": "lower",
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "priority-p",
+     "expect": 29
+    }
+   ]
+  },
+  "CS-2020-Q60": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     8
+    ],
+    [
+     "P2",
+     0,
+     7
+    ],
+    [
+     "P3",
+     0,
+     2
+    ],
+    [
+     "P4",
+     0,
+     4
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "sjf",
+     "expect": 10.5
+    },
+    {
+     "policy": "rr",
+     "quantum": 4,
+     "expect": 15.75
+    }
+   ],
+   "compare": "difference",
+   "expect_compare": 5.25
+  },
+  "CS-2024-S2-Q37": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "A",
+     0,
+     10
+    ],
+    [
+     "B",
+     2,
+     6
+    ],
+    [
+     "C",
+     4,
+     3
+    ],
+    [
+     "D",
+     6,
+     7
+    ]
+   ],
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 6.0
+    },
+    {
+     "policy": "sjf",
+     "expect": 7.5
+    }
+   ]
+  },
+  "CS-2025-S2-Q26": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "P1",
+     0,
+     10
+    ],
+    [
+     "P2",
+     1,
+     13
+    ],
+    [
+     "P3",
+     2,
+     6
+    ],
+    [
+     "P4",
+     8,
+     9
+    ]
+   ],
+   "metric": "turnaround",
+   "schedules": [
+    {
+     "policy": "srtf",
+     "expect": 19.0
+    }
+   ]
+  },
+  "CS-2026-S1-Q64": {
+   "kind": "cpu-schedule",
+   "processes": [
+    [
+     "A1",
+     10,
+     6
+    ],
+    [
+     "C1",
+     11,
+     8
+    ],
+    [
+     "A2",
+     20,
+     6
+    ],
+    [
+     "C2",
+     22,
+     8
+    ],
+    [
+     "A3",
+     30,
+     6
+    ],
+    [
+     "C3",
+     33,
+     8
+    ],
+    [
+     "A4",
+     40,
+     6
+    ],
+    [
+     "C4",
+     44,
+     8
+    ],
+    [
+     "A5",
+     50,
+     6
+    ],
+    [
+     "C5",
+     55,
+     8
+    ]
+   ],
+   "colors": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "metric": "waiting",
+   "schedules": [
+    {
+     "policy": "fcfs",
+     "expect": 9.5
+    }
+   ]
+  }
+ }
+}

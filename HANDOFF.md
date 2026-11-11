@@ -137,6 +137,23 @@ Nothing reaches the site until this step passes.
 - **Scripts:** move the one-off `scripts/check_*.py` into `scripts/checks/`, fixing any paths in `audits/` that reference them.
 - **Older questions:** "Recorded options (source verification pending)" shows raw text for some of them. Render it as a list, or drop it once that paper is verified.
 
+### 3.6 Step-through animations (one family at a time)
+"Step through it" sits inside "Answer & solution", closed by default, and never appears in PDFs. Each **family** (CPU scheduling, hashing, …) owns its own files, so families can be added in parallel without touching each other:
+
+| File | What goes in it |
+|---|---|
+| `scripts/animations/<family>.py` | The simulator. Define `KINDS = {'<kind>': fn}` and `PLAYER = '<family>'`; `fn(qid, spec)` returns `{kind, schedules: [{short, title, steps: [...]}], count, ...}`. Each step needs a `note`; the last one has `final: True`. Shared helpers are in `scripts/animations/common.py` (read-only for families). Discovered automatically. |
+| `data/animations/<family>.json` | `{"description": ..., "questions": {"CS-…": spec}}`. |
+| `site-static/steps/<family>.js` | `window.gateStepsRegister(({el, h, css}) => ({'<kind>': (schedule, data, step, index, width) => [nodes]}))`. Loaded only when a reader opens one. Use `css(...)` for styles, `steps-table`, `steps-table-wrap`, `steps-time`, `steps-ready`, and colours `var(--s0)`–`var(--s5)`, `var(--accent)`, `var(--muted)`, `var(--line)`, `var(--panel)`. |
+| `tests/test_anim_<family>.py` | Unit tests for the simulator, from worked solutions. |
+
+Rules:
+- **The simulator computes; the spec only states the question's inputs and the expected answer.** Every spec has an expectation (`expect`, and where the solution states them, intermediate facts such as fault positions or the visiting order) taken from the official key, or from our recorded answer where no key exists. On any difference the simulator raises `SystemExit`, which fails the build. Never weaken a check to make an entry pass; leave that question out instead.
+- Include a question only if its text states every input. Leave it out if the input is only in a figure, the source copies disagree, the key depends on a non-standard reading, or the question is conceptual.
+- Notes are plain sentences a student can follow ("Slot 6 holds 50, a collision."). No review or source wording.
+- Do not edit `scripts/animations/__init__.py`, `common.py`, `site-static/steps.js`, other families' files, or `templates/`. If the core needs a change, say so instead.
+- Check: `python scripts/build_site.py --release`, then `python scripts/checks/check_study_views_browser.py` (opens one question of every kind), and look at the player at 390 px wide.
+
 ### 3.5 Missing official keys (optional)
 1,716 entries (1991–2010) have no official key. If an official IIT/GATE key for one of those years turns up, record it exactly as printed and log any disagreement with our answers in `DISCREPANCIES.md`.
 

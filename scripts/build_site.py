@@ -315,7 +315,7 @@ def main():
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     # Offline: per-subject and per-paper packs, the always-cached core, the web app manifest and the service worker.
     (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':'GATE Computer Science previous-year questions, 1991–2026, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
-    core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js','assets/icons/icon-192.png']
+    core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
     if has_math:core+=['assets/vendor/katex/katex.min.css','assets/vendor/katex/katex.min.js']+['assets/vendor/katex/fonts/'+f.name for f in sorted((katex_dir/'fonts').glob('*.woff2'))]
     pack_index,core_files,offline_total=site_features.write_offline(out,packs,core)
     render('offline',title='Study without a connection.',kind='offline',packs=pack_index,offline_total=offline_total)

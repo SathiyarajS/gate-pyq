@@ -1,0 +1,149 @@
+{
+ "description": "Step-through animations (Disk scheduling: FCFS, SSTF, SCAN, LOOK, C-SCAN and C-LOOK). Each entry is simulated at build time by scripts/animations/disk.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1995-Q79": {
+   "kind": "disk-schedule",
+   "start": 55,
+   "requests": [
+    10,
+    70,
+    75,
+    23,
+    65
+   ],
+   "lo": 0,
+   "hi": 99,
+   "policies": [
+    {
+     "policy": "fcfs",
+     "expect": 204,
+     "path": [
+      10,
+      70,
+      75,
+      23,
+      65
+     ]
+    },
+    {
+     "policy": "sstf",
+     "expect": 85,
+     "path": [
+      65,
+      70,
+      75,
+      23,
+      10
+     ]
+    }
+   ],
+   "compare": "difference",
+   "expect_compare": 119
+  },
+  "CS-2009-Q31": {
+   "kind": "disk-schedule",
+   "start": 50,
+   "requests": [
+    4,
+    34,
+    10,
+    7,
+    19,
+    73,
+    2,
+    15,
+    6,
+    20
+   ],
+   "lo": 0,
+   "hi": 99,
+   "then": "At 1 ms per cylinder, the seek time is 119 ms.",
+   "policies": [
+    {
+     "policy": "sstf",
+     "expect": 119,
+     "path": [
+      34,
+      20,
+      19,
+      15,
+      10,
+      7,
+      6,
+      4,
+      2,
+      73
+     ]
+    }
+   ]
+  },
+  "CS-2016-S1-Q58": {
+   "kind": "disk-schedule",
+   "start": 63,
+   "requests": [
+    47,
+    38,
+    121,
+    191,
+    87,
+    11,
+    92,
+    10
+   ],
+   "lo": 0,
+   "hi": 199,
+   "direction": "up",
+   "policies": [
+    {
+     "policy": "clook",
+     "expect": 346,
+     "path": [
+      87,
+      92,
+      121,
+      191,
+      10,
+      11,
+      38,
+      47
+     ]
+    }
+   ]
+  },
+  "CS-2018-Q63": {
+   "kind": "disk-schedule",
+   "start": 80,
+   "requests": [
+    72,
+    134,
+    20,
+    86,
+    116,
+    16
+   ],
+   "lo": 0,
+   "hi": 199,
+   "direction": "up",
+   "metric": "cost",
+   "cost": {
+    "per": 20,
+    "cylinders": 100,
+    "reversal": 15
+   },
+   "policies": [
+    {
+     "policy": "sstf",
+     "expect": 85,
+     "path": [
+      86,
+      72,
+      116,
+      134,
+      20,
+      16
+     ]
+    }
+   ]
+  }
+ }
+}
