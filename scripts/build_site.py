@@ -190,7 +190,7 @@ def main():
         invalid=[q['question_id'] for q in qs if q['topic'] not in allowed]
         if invalid and allowed!={'unreviewed'}:raise SystemExit('Invalid topic IDs: '+str(invalid[:5]))
         qs.sort(key=sortkey)  # newest first, everywhere except paper pages
-        for i,q in enumerate(qs,1):q['ordinal']=i;q['similar']=None;q['alt']=False;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release and q['topic_review_status']=='reviewed' else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
+        for i,q in enumerate(qs,1):q['ordinal']=i;q['similar']=None;q['alt']=False;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
         heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in range(1991,2027)]} for t in topic_list]
         def years(items):
             first={}
@@ -233,11 +233,11 @@ def main():
         render('papers/'+paper['paper_id'],title=paper['paper_id'],kind='paper',questions=qs,paper_view=True,total=len(qs))
         packs.append(dict(id=paper['paper_id'],title=paper['paper_id'],group='paper',note=f'{len(qs)} questions',urls=['papers/'+paper['paper_id']+'/']+['assets/questions/'+c['file'] for q in qs for c in q.get('original_crops',[])]))
     for qid,target in canonical.items():render('q/'+qid,title=qid,kind='redirect',target=target)
-    render('',title='Practice with provenance.',kind='home',total=len(questions))
+    render('',title='GATE CS previous year questions',kind='home',total=len(questions))
     render('papers',title='All papers',kind='papers',papers=sorted(papers,key=lambda p:p['paper_id'],reverse=True))
-    render('about',title='Know what you are studying.',kind='about')
+    render('about',title='About this archive',kind='about',total_questions=len(questions))
     if weights:render('weightage',title='Where the marks are.',kind='weightage',total=len(questions))
-    render('discrepancies',title='Discrepancies & interpretations',kind='discrepancies',discrepancy_groups=[(titles[s],[q for q in qs if q['discrepancy_ids']]) for s,qs in sorted(groups.items())])
+    render('discrepancies',title='About this archive',kind='redirect',target='about/')  # former page; notes now sit with each answer
     (out/'search.json').write_text(json.dumps(search,ensure_ascii=False))
     for item in search:
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)

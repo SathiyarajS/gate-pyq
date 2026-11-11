@@ -43,7 +43,7 @@ def document(subject, records, questions_only, release=False):
     sections=[];toc=[];index_rows=[];current=None;n=0
     for row in records:
         n+=1;q=by_id[row['id']]
-        meta=re.search(r'<div class="question-meta">.*?<span>\((.*?)\)</span>\s*<span>(.*?)</span>',row['html'],re.S)
+        meta=re.search(r'<div class="question-meta"><span>(.*?)</span>\s*<span>(.*?)</span>',row['html'],re.S)
         label=html.unescape(meta.group(1)) if meta else row['id'];marks=html.unescape(meta.group(2)) if meta else ''
         tid=assign.get(row['id'],'other')
         if tid!=current:

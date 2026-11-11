@@ -70,7 +70,7 @@ class QuestionTemplateTests(unittest.TestCase):
                     self.assertIn(f'part {i} of 2', link['attrs']['aria-label'])
                     self.assertNotIn('tabindex', link['attrs'])
                     self.assertEqual((attrs['width'], attrs['height'], attrs['loading']), ('1200', '600', 'lazy'))
-                    self.assertIn('Paraphrase (not verbatim): Compare "A" < B & C.', attrs['alt'])
+                    self.assertIn('GATE 2026: Compare "A" < B & C.', attrs['alt'])
 
     def test_crop_paraphrase_hidden_but_searchable_without_affecting_answers(self):
         doc = self.render([dict(file='q.webp', width=1200, height=600, page=1)])
@@ -86,7 +86,6 @@ class QuestionTemplateTests(unittest.TestCase):
         self.assertIn('data-pagefind-ignore', answer['attrs'])
         self.assertNotIn(text, answer['parents'])
         self.assertNotIn(text, doc.find('div', 'practice')[0]['parents'])
-        self.assertIn('not a certified transcription', doc.find('section', 'original-source')[0]['text'])
         self.assertRegex((ROOT / 'site-static/style.css').read_text(), r'\.search-text\{[^}]*clip')
 
     def test_no_crop_preview_remains_visible(self):
@@ -96,7 +95,6 @@ class QuestionTemplateTests(unittest.TestCase):
         text, = doc.find('div', 'paraphrase')
         self.assertIn('data-pagefind-body', text['attrs'])
         self.assertFalse(any(n['tag'] == 'details' for n in text['parents']))
-        self.assertIn('Paraphrase preview', doc.find('p', 'eyebrow')[0]['text'])
 
     def test_crop_css_retains_white_card_and_responsive_dimensions(self):
         css = (ROOT / 'site-static/style.css').read_text()

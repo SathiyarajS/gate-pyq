@@ -8,7 +8,7 @@ document.querySelector('#theme')?.addEventListener('click',()=>{const dark=docum
 const base=new URL(document.body.dataset.base,location.href);
 // Offline support (published site only): sw.js keeps the shell, saved subjects and visited pages available without a connection.
 if(document.body.dataset.sw&&'serviceWorker' in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register(new URL('sw.js',base)).catch(()=>{});
-function progress(){const el=document.querySelector('.progress');if(el){const s=document.body.dataset.subject;el.textContent=Object.values(state).filter(x=>x&&x.subject===s&&x.attempted).length+' attempted in this subject (stored in this browser)';}}
+function progress(){const el=document.querySelector('.progress');if(el){const s=document.body.dataset.subject;el.textContent=Object.values(state).filter(x=>x&&x.subject===s&&x.attempted).length+' attempted';}}
 function renderMath(root=document){if(!window.katex)return;root.querySelectorAll('.math-source:not([data-rendered])').forEach(el=>{const original=el.textContent;try{if(/\\(?:href|url|includegraphics|htmlClass|htmlId|htmlStyle|htmlData)\b/.test(el.dataset.math))throw Error('External or HTML-producing math command is not supported');window.katex.render(el.dataset.math,el,{displayMode:el.dataset.display==='true',throwOnError:true,trust:false,strict:'error',maxExpand:1000,maxSize:20,output:'htmlAndMathml'});el.dataset.rendered='true';}catch{el.textContent=original;el.dataset.rendered='unsupported';el.title='Unsupported mathematical syntax; original text preserved.';el.classList.add('math-unsupported');}});}
 function hydrate(){renderMath();document.querySelectorAll('.question[data-id]').forEach(article=>{const s=state[article.dataset.id]||{};const b=article.querySelector('.bookmark');b?.setAttribute('aria-pressed',String(!!s.bookmarked));if(b)b.textContent=s.bookmarked?'Bookmarked':'Bookmark';});progress();}
 function save(article,patch){const id=article.dataset.id;state[id]={...state[id],...patch,subject:article.dataset.subject};write('gate-practice-v1',state);hydrate();}
@@ -21,7 +21,7 @@ function check(key,input,type){
 }
 document.addEventListener('click',async event=>{const b=event.target.closest('button');if(!b)return;const article=b.closest('.question');if(!article)return;
  if(b.classList.contains('bookmark'))save(article,{bookmarked:!(state[article.dataset.id]?.bookmarked)});
- if(b.classList.contains('copy-link')){const url=new URL('q/'+article.dataset.id+'/',base).href;try{await navigator.clipboard.writeText(url);b.textContent='Copied';}catch{b.textContent='Use permalink';}}
+ if(b.classList.contains('copy-link')){const url=new URL('q/'+article.dataset.id+'/',base).href;try{await navigator.clipboard.writeText(url);b.textContent='Copied';}catch{prompt('Copy this link',url);}}
  if(b.classList.contains('choice')&&b.classList.contains('multi')){b.setAttribute('aria-pressed',String(b.getAttribute('aria-pressed')!=='true'));return;}
  if(b.classList.contains('choice')||b.classList.contains('check-answer')){
   const type=article.dataset.type,key=article.dataset.key;let input='';
