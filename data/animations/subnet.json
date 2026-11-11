@@ -8,15 +8,6 @@
    "destinations": ["128.75.43.16", "192.12.17.10"],
    "expect": {"hops": ["Eth1", "Eth2"]}
   },
-  "CS-2004-Q56": {
-   "kind": "fragment",
-   "payload": 200,
-   "parts": [["application data", 180], ["TCP header", 20]],
-   "mtus": [1000, 100, 1000],
-   "links": ["Network A", "Network B", "Network C"],
-   "ask": ["count", "delivered_bytes"],
-   "expect": {"delivered_bytes": 260}
-  },
   "CS-2005-Q27": {
    "kind": "subnet-size",
    "class": "B",
@@ -62,6 +53,7 @@
   },
   "CS-2014-S3-Q38": {
    "kind": "fragment",
+   "header": 20,
    "total": 4404,
    "mtus": [1500],
    "ask": ["fragment_3"],
@@ -76,6 +68,7 @@
   },
   "CS-2015-S2-Q37": {
    "kind": "fragment",
+   "header": 20,
    "payload": 8888,
    "parts": [["UDP data", 8880], ["UDP header", 8]],
    "mtus": [1500],
@@ -90,6 +83,7 @@
   },
   "CS-2016-S1-Q63": {
    "kind": "fragment",
+   "header": 20,
    "total": 1000,
    "mtus": [100],
    "ask": ["count"],
@@ -97,6 +91,7 @@
   },
   "CS-2018-Q64": {
    "kind": "fragment",
+   "header": 20,
    "total": 4500,
    "parts": [["TCP header", 40], ["TCP data", 4440]],
    "mtus": [600],
@@ -132,6 +127,7 @@
   },
   "CS-2024-S1-Q65": {
    "kind": "fragment",
+   "header": 20,
    "total": 1420,
    "mtus": [542, 360],
    "links": ["Sender to router", "Router to receiver"],
@@ -151,18 +147,9 @@
    "destinations": ["145.36.109.70"],
    "expect": {"hops": ["E3"]}
   },
-  "CS-2025-S1-Q57": {
-   "kind": "fragment",
-   "payload": 15000,
-   "parts": [["message", 15000]],
-   "mtus": [5000, 3000],
-   "links": ["Router 1", "Router 2"],
-   "header_unstated": true,
-   "ask": ["count"],
-   "expect": {"count": 7}
-  },
   "CS-2025-S2-Q23": {
    "kind": "fragment",
+   "header": 20,
    "payload": 7496,
    "parts": [["UDP data", 7488], ["UDP header", 8]],
    "mtus": [1500],

@@ -297,7 +297,7 @@ def arq_animation(qid, spec):
         else:
             k = m['k']
             name, rule = ('Go-Back-N', 'W ≤ 2^k − 1') if proto == 'gbn' else ('Selective Repeat', 'W ≤ 2^(k−1), so 2^k ≥ 2W')
-            cap = [[j, 2 ** j, (2 ** j - 1) if proto == 'gbn' else 2 ** (j - 1)] for j in range(max(1, k - 2), k + 1)]
+            cap = [[j, 2 ** j, (2 ** j - 1) if proto == 'gbn' else (2 ** (j - 1) if j else 0)] for j in range(max(0, k - 2), k + 1)]
             steps.append(step(f'{name} with k-bit sequence numbers allows {rule}. ' +
                               f'k = {k - 1} allows only {cap[-2][2]} frames; k = {k} allows {cap[-1][2]} ≥ {W}, so {k} bits are needed.',
                               table(['Bits k', 'Numbers 2^k', 'Largest window'], cap, len(cap) - 1), line(f'Sequence-number bits: {k}', 'steps-time')))

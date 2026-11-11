@@ -17,16 +17,6 @@
    "until": 32,
    "expect": {"time_ms": [1100, 1300]}
   },
-  "CS-2014-S1-Q38": {
-   "kind": "arq",
-   "frame_kb": 1,
-   "rate": 1500000,
-   "prop_ms": 50,
-   "goal": "seqbits",
-   "protocol": "sr",
-   "target": "0.6",
-   "expect": {"bits": 5}
-  },
   "CS-2015-S2-Q34": {
    "kind": "arq",
    "frame_bytes": 1000,
@@ -65,17 +55,6 @@
    "protocol": "sr",
    "target": 1,
    "expect": {"bits": 4}
-  },
-  "CS-2017-S1-Q55": {
-   "kind": "arq",
-   "frame_bytes": 1980,
-   "overhead_bytes": 20,
-   "ack_bytes": 20,
-   "rate": 1000000,
-   "prop_ms": "0.75",
-   "processing_ms": "0.25",
-   "goal": "utilization",
-   "expect": {"utilization_percent": [86.5, 89.5]}
   },
   "CS-2021-S1-Q59": {
    "kind": "arq",

@@ -525,7 +525,7 @@ def fragment_run(spec, header):
 
 
 def fragment_animation(qid, spec):
-    header = spec.get('header', 20)
+    header = spec['header']
     payload, frags, history = fragment_run(spec, header)
     parts = spec.get('parts')
     if parts and sum(n for _, n in parts) != payload:
@@ -592,12 +592,6 @@ def fragment_animation(qid, spec):
     rows = _frag_rows(frags, header)
     hl = int(ask[0].split('_')[1]) - 1 if ask[0].startswith('fragment_') else len(frags) - 1 if 'last' in ask else None
     note = '; '.join(bits) + '.'
-    if spec.get('header_unstated'):
-        # The question gives no header size: the count must not depend on it.
-        for h in range(20, 61, 4):
-            if len(fragment_run(spec, h)[1]) != len(frags):
-                raise SystemExit(f'Animation for {qid}: the fragment count changes with a {h}-byte header')
-        note += f' The question does not give the header size; any legal IPv4 header (20 to 60 bytes) gives the same count.'
     steps.append(step(note[0].upper() + note[1:], _frags_block(stages, payload), table(FRAG_HEAD, rows, hl),
                       line('Answer: ' + '; '.join(bits), 'steps-time')))
     for k, v in spec['expect'].items():

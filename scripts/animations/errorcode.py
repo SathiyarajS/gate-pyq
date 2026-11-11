@@ -63,6 +63,8 @@ def poly_bits(g):
     if len(set(powers)) != len(powers):
         raise SystemExit(f'Generator {g} repeats a term')
     n = max(powers)
+    if n < 1:
+        raise SystemExit(f'Generator {g} must have degree at least 1')
     return ''.join('1' if n - i in powers else '0' for i in range(n + 1))
 
 
