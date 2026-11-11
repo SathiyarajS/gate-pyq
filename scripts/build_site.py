@@ -189,37 +189,35 @@ def main():
         if any(not re.fullmatch(r'[a-zA-Z0-9_-]+',tid) for tid in allowed):raise SystemExit('Unsafe topic identifier')
         invalid=[q['question_id'] for q in qs if q['topic'] not in allowed]
         if invalid and allowed!={'unreviewed'}:raise SystemExit('Invalid topic IDs: '+str(invalid[:5]))
-        order={t['id']:i for i,t in enumerate(topic_list)};qs.sort(key=lambda q:(order.get(q['topic'],999),sortkey(q)))
-        for i,q in enumerate(qs,1):q['ordinal']=i;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release and q['topic_review_status']=='reviewed' else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
+        qs.sort(key=sortkey)  # newest first, everywhere except paper pages
+        for i,q in enumerate(qs,1):q['ordinal']=i;q['similar']=None;q['alt']=False;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release and q['topic_review_status']=='reviewed' else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
         heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in range(1991,2027)]} for t in topic_list]
-        # Regular view: each question in a reviewed pattern links to its group in the problem-patterns view.
-        for n,u in enumerate(question_groups.study_units(qs,pattern_studies,sortkey)):
-            if not u['alternatives'] or u['group']['id'].startswith('repeat-'):continue
-            url=f'{subject}/patterns/'+('' if n//10==0 else f'page/{n//10+1}/')+'#group-'+u['group']['id']
-            for q in [u['representative']]+u['alternatives']:q['pattern']=dict(url=url,title=u['group']['title'],others=len(u['alternatives']))
-        for i in range(math.ceil(len(qs)/10)):
-            path=subject if i==0 else f'{subject}/page/{i+1}'
-            pageqs=qs[i*10:(i+1)*10]
-            nav=[(n+1,subject+'/' if n==0 else f'{subject}/page/{n+1}/') for n in range(math.ceil(len(qs)/10))]
-            render(path,title=titles[subject],kind='subject',questions=pageqs,subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(qs),heat=heat,off_topics=off_topics,topic_weights=weights['subject_topics'][subject] if weights else None);urls.append(path+'/')
-            for q in pageqs:canonical[q['question_id']]=path+'/#'+q['question_id'];subject_seen.append(q['question_id'])
+        def years(items):
+            first={}
+            for q in items:first.setdefault(q['year'],q['question_id'])
+            return list(first.items())
+        # Similar questions: each reviewed pattern (or repeat outside any pattern) gets its own page, newest first.
+        # Every member links to it; all but the newest are marked so "One per method" can hide them.
+        similar_pages=[]
+        for u in question_groups.study_units(qs,pattern_studies,sortkey):
+            if not u['alternatives']:continue
+            members=sorted([u['representative']]+u['alternatives'],key=sortkey);gid=u['group']['id']
+            for n,q in enumerate(members):q['similar']=dict(url=f'{subject}/similar/{gid}/#'+q['question_id'],others=len(members)-1);q['alt']=n>0
+            similar_pages.append((gid,u['group'],members))
+        render(subject,title=titles[subject],kind='subject',questions=qs,subject=subject,topics=topic_list,total=len(qs),heat=heat,off_topics=off_topics,topic_weights=weights['subject_topics'][subject] if weights else None,years=years(qs),pageable=True);urls.append(subject+'/')
+        for q in qs:canonical[q['question_id']]=subject+'/#'+q['question_id'];subject_seen.append(q['question_id'])
         for t in topic_list:
-            tqs=[q for q in qs if q['topic']==t['id']]
-            for i in range(max(1,math.ceil(len(tqs)/10))):
-                base=f'{subject}/topic/{t["id"]}';path=base if i==0 else base+f'/page/{i+1}'
-                nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(tqs)/10)))]
-                render(path,title=titles[subject]+' · '+t['title'],kind='topic',questions=tqs[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(tqs),off_topics=off_topics,topic_off=off_syllabus.get((subject,t['id'])));urls.append(path+'/')
-        # All-questions routes above stay canonical. Both study views retain every variant.
-        for view, label, studies in [('unique', 'Known repeats folded', repeat_studies),
-                                     ('patterns', 'Problem patterns', pattern_studies)]:
-            units=question_groups.study_units(qs, studies, sortkey)
-            grouped=sum(len(u['alternatives'])+1 for u in units if u['alternatives'])
-            group_count=sum(bool(u['alternatives']) for u in units)
-            pattern_index=[dict(title=u['group']['title'],count=len(u['alternatives'])+1,url=f'{subject}/patterns/'+('' if n//10==0 else f'page/{n//10+1}/')+'#group-'+u['group']['id']) for n,u in enumerate(units) if view=='patterns' and u['alternatives'] and not u['group']['id'].startswith('repeat-')]
-            for i in range(max(1,math.ceil(len(units)/10))):
-                base=f'{subject}/{view}';path=base if i==0 else base+f'/page/{i+1}'
-                nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(units)/10)))]
-                render(path,title=titles[subject]+' · '+label,kind=view,study_units=units[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(units),all_total=len(qs),pattern_index=pattern_index,grouped=grouped,group_count=group_count,ungrouped=len(qs)-grouped,off_topics=off_topics);urls.append(path+'/')
+            tqs=[q for q in qs if q['topic']==t['id']];base=f'{subject}/topic/{t["id"]}'
+            render(base,title=titles[subject]+' · '+t['title'],kind='topic',questions=tqs,subject=subject,topics=topic_list,total=len(tqs),off_topics=off_topics,topic_off=off_syllabus.get((subject,t['id'])),years=years(tqs),pageable=True);urls.append(base+'/')
+            for n in range(2,math.ceil(len(tqs)/10)+1):render(f'{base}/page/{n}',title=t['title'],kind='redirect',target=base+'/')
+        for gid,group,members in similar_pages:
+            repeat_only=gid.startswith('repeat-')
+            render(f'{subject}/similar/{gid}',title=group['title'],kind='similar',questions=members,subject=subject,subject_title=titles[subject],total=len(members),group_note='GATE asked this question again.' if repeat_only else '',method_note='' if repeat_only else question_groups.reader_note(group));urls.append(f'{subject}/similar/{gid}/')
+        # Older paginated and study-view addresses move to the single subject page.
+        for n in range(2,math.ceil(len(qs)/10)+1):render(f'{subject}/page/{n}',title=titles[subject],kind='redirect',target=subject+'/')
+        for view in ('unique','patterns'):
+            render(f'{subject}/{view}',title=titles[subject],kind='redirect',target=subject+'/')
+            for n in range(2,math.ceil(len(qs)/10)+1):render(f'{subject}/{view}/page/{n}',title=titles[subject],kind='redirect',target=subject+'/')
         # HTML fragments generated by the same safe autoescaped template as static pages.
         records=[]
         for q in qs:

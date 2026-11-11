@@ -119,3 +119,23 @@ def with_uncovered_repeats(patterns, repeat_studies, questions):
         extra.append(dict(group, id='repeat-' + newest.lower(), representative=newest,
                           title='Asked again: ' + by_id[newest].get('question_title', newest)))
     return list(patterns) + extra
+
+
+# Review-process sentences in pattern rationales; they are for maintainers, not for a student reading the group.
+_REVIEW_SENTENCES = re.compile(r'(The shared procedure is the grouping basis|This is not a claim|Each member.s exact setup|These are method (groups|variants)|Every original question and all its variants|This review establishes|keep each original)[^.]*\.\s*')
+
+
+def reader_note(group):
+    """The rationale without review boilerplate; empty when only the title would remain."""
+    note = _REVIEW_SENTENCES.sub('', group.get('rationale', '')).strip()
+    title = group.get('title', '').strip().rstrip('.')
+    if note.rstrip('.').strip() == title:
+        return ''
+    if note.startswith(title + '.'):
+        note = note[len(title) + 1:].strip()
+    # Keep it to a short explanation: the opening sentence, plus the next one if it is brief.
+    sentences = re.split(r'(?<=[.;])\s+(?=[A-Z0-9])', note)
+    short = sentences[0]
+    if len(sentences) > 1 and len(short) + len(sentences[1]) < 280:
+        short += ' ' + sentences[1]
+    return short.strip()

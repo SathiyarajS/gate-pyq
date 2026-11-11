@@ -1,7 +1,0 @@
-{% for unit in study_units %}
-<section class="study-unit"{% if unit.group.id %} id="group-{{ unit.group.id }}"{% endif %}>
-{% if unit.group %}<div class="group-intro"><h2>{{ unit.group.title }}</h2><p>{{ unit.group.rationale }}</p><p>{{ unit.alternatives|length + 1 }} variants · Representative: <a href="{{ prefix }}{{ unit.representative.permalink }}">{{ unit.representative.question_id }}</a></p>{% if unit.group.review %}<details><summary>Group review evidence</summary><p>Source-page comparison on {{ unit.group.review.reviewed_on }}. This is a grouping review, not a transcription or answer certification.</p><ul>{% for source in unit.group.review.sources %}<li><a href="{{ prefix }}q/{{ source.question_id }}/">{{ source.question_id }}</a> · Source page {{ source.page }}: {{ source.notes }}</li>{% endfor %}</ul></details>{% endif %}</div>{% elif kind=='patterns' %}<p class="source-note">Not yet in a reviewed problem pattern</p>{% endif %}
-{% with q=unit.representative %}{% include 'question.html' %}{% endwith %}
-{% if unit.alternatives %}<details class="group-alternatives"><summary>Show {{ unit.alternatives|length }} alternative question{{ 's' if unit.alternatives|length != 1 else '' }} (all variants retained)</summary>{% for q in unit.alternatives %}{% include 'question.html' %}{% endfor %}</details>{% endif %}
-</section>
-{% endfor %}

@@ -1,16 +1,15 @@
 # Study views and review boundaries
 
-The subject's original route and JSON filters remain the **All questions** view.
-Every question keeps its canonical permalink, paper ordering, answer, provenance,
-and individual practice state. `/unique/` remains a compatible URL, but is now
-labelled **Known repeats folded**. It does not claim exhaustive deduplication.
+Each subject and topic is a single page listing every question newest first
+(50 per page by default in the browser, or all at once; the choice is remembered
+on the device). Paper pages keep the original paper order.
 
-**Problem patterns** (`/<subject>/patterns/`) groups reasoning procedures rather
-than duplicate statements. It renders the explicit representative and expandable
-full question cards for every other variant. Ungrouped questions remain visible. In the regular view, every question in a pattern links to its group (“Same method”), and repeats that belong to no pattern are folded as their own group in this view.
-Source-reviewed groups span scheduling, automata, dependencies, recurrences,
-probability, caches, pipelines and networks. This remains an incomplete catalogue.
-A summary of the review is in `audits/grouping/README.md`.
+Questions in a reviewed problem pattern, or in a repeat group that belongs to no
+pattern, link to `/<subject>/similar/<group-id>/`, which lists every member newest
+first as full practice cards. The pattern's description is behind "How these are
+solved" so it does not give the method away. All but the newest member carry
+`data-alt="1"`, which the "One per method" filter hides. The old `/page/N/`,
+`/unique/` and `/patterns/` addresses redirect to the subject page.
 
 ## Sources and status
 
@@ -49,8 +48,8 @@ to the reviewed files. Do not add transitive candidate edges to repeat groups.
 
 Run `python scripts/validate.py`, `python -m pytest -q tests`,
 `node tests/test_transcription_math.js`, and `python scripts/build_site.py --preview`.
-Test all three views, expanding/collapsing alternatives, individual answers,
-bookmarks, pagination and browser Back. Every question must remain reachable;
+Test the subject list (50 per page and all), the year jump, "One per method",
+individual answers, similar pages and browser Back. Every question must remain reachable;
 filters and canonical links must still use the All questions view.
 
 ## Coverage
