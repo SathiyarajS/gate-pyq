@@ -1,6 +1,7 @@
 """Weightage tables, syllabus flags and offline packs for build_site.py."""
 import collections, hashlib, json
 from pathlib import Path
+from question_groups import validate_review
 
 FIRST_MARKS_YEAR = 2003  # every question from 2003 on has its marks recorded
 PERIODS = (3, 5, 10)
@@ -155,6 +156,7 @@ def load_repeats(root, questions):
         return {}
     by_id = {q['question_id']: q for q in questions}
     links = collections.defaultdict(dict)
+    reviewed_pairs = []
     for pair in json.loads(path.read_text())['pairs']:
         status = pair.get('status', 'legacy-reviewed')
         if status not in ('legacy-reviewed', 'reviewed', 'candidate', 'rejected'):
@@ -163,6 +165,9 @@ def load_repeats(root, questions):
             continue
         a, b, kind = pair['a'], pair['b'], pair['kind']
         if a not in by_id or b not in by_id: raise SystemExit(f'data/repeats.json names an unknown question: {a} / {b}')
+        if status == 'reviewed':
+            validate_review(pair.get('review', {}), [a,b], a+' / '+b)
+            reviewed_pairs.append(pair)
         if kind not in ('same', 'numbers'): raise SystemExit(f'data/repeats.json: unknown kind {kind!r}')
         if by_id[a]['paper_id'] == by_id[b]['paper_id']: raise SystemExit(f'data/repeats.json pairs two questions from one paper: {a} / {b}')
         if b in links[a]: raise SystemExit(f'data/repeats.json lists a pair twice: {a} / {b}')
@@ -195,5 +200,5 @@ def load_repeats(root, questions):
             group.add(node); stack.extend(links[node])
         seen |= group; ordered = newest_first(group)
         for qid in ordered:
-            result[qid] = {'group': ordered, 'others': [(o, links[qid].get(o) or relation(qid, o)) for o in ordered if o != qid]}
+            result[qid] = {'group': ordered, 'reviews': [p['review'] for p in reviewed_pairs if p['a'] in group and p['b'] in group], 'others': [(o, links[qid].get(o) or relation(qid, o)) for o in ordered if o != qid]}
     return result

@@ -1,4 +1,3 @@
-import copy
 import json
 from pathlib import Path
 import sys
@@ -48,7 +47,10 @@ class StudyGroupsTest(unittest.TestCase):
     def test_review_requires_all_source_evidence(self):
         for mutate in [lambda g:g.pop('review'), lambda g:g['review']['sources'].pop(),
                        lambda g:g['review'].update(method='text-similarity'),
-                       lambda g:g['review']['sources'][0].update(sha256='missing')]:
+                       lambda g:g['review']['sources'][0].update(sha256='missing'),
+                       lambda g:g['review']['sources'][0].update(page=-1),
+                       lambda g:g['review']['sources'][0].update(page=True),
+                       lambda g:g['review'].update(reviewed_on='2026-99-99')]:
             g=pattern();mutate(g)
             with self.assertRaises(ValueError):self.load(g)
 
@@ -75,6 +77,38 @@ class StudyGroupsTest(unittest.TestCase):
             repeats=site_features.load_repeats(root,questions())
             self.assertNotIn('c',repeats)
             self.assertEqual(set(repeats['a']['group']),{'a','b'})
+
+    def test_reviewed_repeat_requires_source_evidence(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);(root/'data').mkdir()
+            (root/'data/repeats.json').write_text(json.dumps({'pairs':[
+                dict(a='a',b='b',kind='same',status='reviewed')]}))
+            with self.assertRaises(ValueError):site_features.load_repeats(root,questions())
+
+    def test_other_topics_subject_is_normalized(self):
+        self.assertEqual(question_groups.subject_of({'subject':'excluded'}),'13-other-topics')
+
+    def test_source_review_removed_false_repeat_folds(self):
+        qs=json.loads((ROOT/'data/questions.json').read_text())
+        years={p['paper_id']:p['year'] for p in json.loads((ROOT/'data/papers.json').read_text())}
+        for q in qs:q['year']=years[q['paper_id']]
+        repeats=site_features.load_repeats(ROOT,qs)
+        rejected=[p for p in json.loads((ROOT/'data/repeats.json').read_text())['pairs'] if p.get('status')=='rejected']
+        self.assertGreaterEqual(len(rejected),9)
+        for pair in rejected:
+            self.assertNotIn(pair['b'],repeats.get(pair['a'],{}).get('group',[]))
+        self.assertEqual(dict(repeats['CS-1992-Q20']['others'])['CS-1998-Q31'],'numbers')
+
+    def test_repository_review_hashes_match_recorded_sources(self):
+        crops=json.loads((ROOT/'data/crops.json').read_text())
+        source_map=json.loads((ROOT/'audits/crop-source-map.json').read_text())['sources']
+        reviews=[g['review'] for g in json.loads((ROOT/'data/problem-patterns.json').read_text())['groups']]
+        reviews += [p['review'] for p in json.loads((ROOT/'data/repeats.json').read_text())['pairs']]
+        for review in reviews:
+            for source in review['sources']:
+                known={c.get('source_sha256') or source_map[c['file']]['sha256'] for c in crops[source['question_id']] if c['file']==source['file']}
+                self.assertLessEqual(source['page'],source_map[source['file']]['pages'])
+                self.assertIn(source['sha256'],known,source['question_id'])
 
     def test_repository_patterns_valid(self):
         qs=json.loads((ROOT/'data/questions.json').read_text())

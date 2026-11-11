@@ -8,14 +8,18 @@ labelled **Known repeats folded**. It does not claim exhaustive deduplication.
 **Problem patterns** (`/<subject>/patterns/`) groups reasoning procedures rather
 than duplicate statements. It renders the explicit representative and expandable
 full question cards for every other variant. Ungrouped questions remain visible.
-The first reviewed group covers SRTF schedule simulation with waiting/turnaround
-metrics; it is not an exhaustive catalogue of scheduling questions or patterns.
+Source-reviewed groups span scheduling, automata, dependencies, recurrences,
+probability, caches, pipelines and networks. This remains an incomplete catalogue.
+The review coverage and exclusions are recorded in `audits/grouping/`.
 
 ## Sources and status
 
-- Existing `data/repeats.json` pairs retain their historical review claim. They
-  were not newly source-audited by this feature. Missing `status` means the legacy
-  reviewed record; explicit `candidate` and `rejected` pairs cannot fold anything.
+- All 28 legacy `data/repeats.json` pairs were rechecked against full source
+  pages. Nineteen remained repeats; nine materially different tasks were rejected
+  from repeat folding and considered separately as patterns. Accepted pairs now
+  carry explicit `reviewed` status and per-member evidence. Rejected records stay
+  in the audit trail and cannot fold questions. Missing status remains supported
+  for old fixtures, but must not be used for new data.
 - New `data/problem-patterns.json` groups require explicit status. Only `reviewed`
   groups affect display. Each needs a safe unique ID, same-subject members,
   representative, title, rationale and source comparison evidence for every
@@ -48,3 +52,16 @@ Run `python scripts/validate.py`, `python -m pytest -q tests`,
 Test all three views, expanding/collapsing alternatives, individual answers,
 bookmarks, pagination and browser Back. Every question must remain reachable;
 filters and canonical links must still use the All questions view.
+
+## Agent-managed verification
+
+The user is not asked to review these groups manually. Accepted changes require
+source-page review and automated data, retention and browser checks. Candidate
+search scans all 3,406 summaries, but does not prove complete semantic coverage.
+Source-reviewed counts refer to inspected questions, not proof that every pair
+among them was exhaustively compared. Historical reproduction defects and
+incomplete transcriptions prevent a guarantee of perfect grouping or recall.
+
+Run `python scripts/checks/check_study_views_browser.py` after building the site
+for desktop/mobile expansion, answer isolation, bookmarks, filters and Back
+regressions. CI runs this automatically where Chromium is available.

@@ -1,6 +1,28 @@
 """Reviewed study groups. Discovery output is deliberately not an input here."""
 import json
 import re
+from datetime import date
+
+
+def validate_review(review, members, label):
+    """Require auditable per-member source evidence, without claiming metadata proves review."""
+    sources = review.get('sources', [])
+    try:
+        date.fromisoformat(review.get('reviewed_on', ''))
+    except (TypeError, ValueError):
+        raise ValueError('Reviewed group has invalid review date: ' + label)
+    if (review.get('method') != 'source-page-comparison' or not review.get('reviewer')
+            or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', review.get('reviewed_on', ''))
+            or {s.get('question_id') for s in sources} != set(members)
+            or len({(s.get('question_id'), s.get('file'), s.get('page')) for s in sources}) != len(sources)
+            or any(not s.get('file') or type(s.get('page')) is not int or s['page'] < 1 or not s.get('notes')
+                   or not re.fullmatch(r'[0-9a-f]{64}', s.get('sha256', '')) for s in sources)):
+        raise ValueError('Reviewed group lacks source comparison evidence: ' + label)
+
+
+def subject_of(question):
+    subject = question.get('subject_dir', question.get('subject'))
+    return '13-other-topics' if subject == 'excluded' else subject
 
 
 def load_patterns(root, questions):
@@ -20,22 +42,15 @@ def load_patterns(root, questions):
         members = group.get('members', [])
         if len(members) < 2 or len(set(members)) != len(members) or any(i not in by_id for i in members):
             raise ValueError('Invalid pattern members: ' + gid)
-        if any(by_id[i].get('subject_dir', by_id[i].get('subject')) != group.get('subject') for i in members):
+        if any(subject_of(by_id[i]) != group.get('subject') for i in members):
             raise ValueError('Pattern crosses subject boundaries: ' + gid)
         if group.get('representative') not in members:
             raise ValueError('Pattern representative must be a member: ' + gid)
         if status != 'reviewed':
             continue  # Even perfectly identical candidate text cannot hide a question.
-        review = group.get('review', {})
-        sources = review.get('sources', [])
-        if (review.get('method') != 'source-page-comparison' or not review.get('reviewer')
-                or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', review.get('reviewed_on', ''))
-                or {s.get('question_id') for s in sources} != set(members)
-                or len({(s.get('question_id'), s.get('file'), s.get('page')) for s in sources}) != len(sources)
-                or any(not s.get('file') or not s.get('page') or not s.get('notes')
-                       or not re.fullmatch(r'[0-9a-f]{64}', s.get('sha256', '')) for s in sources)
-                or not group.get('rationale') or not group.get('title')):
-            raise ValueError('Reviewed pattern lacks source comparison evidence: ' + gid)
+        validate_review(group.get('review', {}), members, gid)
+        if not group.get('rationale') or not group.get('title'):
+            raise ValueError('Reviewed pattern needs title and rationale: ' + gid)
         if assigned.intersection(members):
             raise ValueError('Overlapping patterns must not duplicate or silently hide questions: ' + gid)
         assigned.update(members)
@@ -76,6 +91,12 @@ def repeat_groups(repeats):
         members = tuple(info['group'])
         if members not in seen:
             seen.add(members)
-            result.append({'members': members, 'title': 'Known repeat',
-                           'rationale': 'Previously recorded repeat: same setup and requested answer, possibly with changed values. Review coverage is incomplete.'})
+            group={'members': members, 'title': 'Known repeat',
+                   'rationale': 'Same setup and requested answer, possibly with changed values. Review coverage is incomplete.'}
+            reviews=info.get('reviews', [])
+            if reviews:
+                sources={(s['question_id'],s['file'],s['page']):s for r in reviews for s in r['sources']}
+                group['review']={'reviewed_on':max(r['reviewed_on'] for r in reviews),
+                                 'sources':list(sources.values())}
+            result.append(group)
     return result

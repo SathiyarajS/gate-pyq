@@ -1,0 +1,534 @@
+{
+  "scope": "All distinct questions appearing in candidate pairs with the five assigned signatures, not exhaustive archive coverage.",
+  "candidate_signatures": [
+    "recurrence-master-theorem",
+    "shortest-path-relaxation",
+    "counting-inclusion-exclusion",
+    "conditional-probability-bayes",
+    "determinant-scaling"
+  ],
+  "checked_question_ids": [
+    "CS-1993-Q53",
+    "CS-1994-Q4",
+    "CS-1995-Q86",
+    "CS-1997-Q1",
+    "CS-1997-Q31",
+    "CS-1997-Q63",
+    "CS-1997-Q71",
+    "CS-1998-Q39",
+    "CS-1999-Q26",
+    "CS-2000-Q25",
+    "CS-2003-Q3",
+    "CS-2003-Q50",
+    "CS-2004-Q83",
+    "CS-2005-Q51",
+    "CS-2005-Q52",
+    "CS-2006-Q23",
+    "CS-2007-Q41",
+    "CS-2009-Q21",
+    "CS-2009-Q35",
+    "CS-2010-Q36",
+    "CS-2010-Q4",
+    "CS-2011-Q13",
+    "CS-2012-Q8",
+    "CS-2013-Q13",
+    "CS-2013-Q29",
+    "CS-2014-S2-Q14",
+    "CS-2014-S2-Q23",
+    "CS-2014-S2-Q58",
+    "CS-2015-S2-Q58",
+    "CS-2015-S3-Q12",
+    "CS-2017-S1-Q9",
+    "CS-2017-S2-Q36",
+    "CS-2017-S2-Q40",
+    "CS-2018-Q54",
+    "CS-2021-S1-Q29",
+    "CS-2021-S1-Q33",
+    "CS-2021-S1-Q40",
+    "CS-2021-S1-Q64",
+    "CS-2021-S2-Q49",
+    "CS-2022-Q8",
+    "CS-2024-S1-Q61",
+    "CS-2024-S1-Q63",
+    "CS-2024-S2-Q3",
+    "CS-2025-S1-Q20",
+    "CS-2025-S1-Q32",
+    "CS-2025-S2-Q65",
+    "CS-2026-S1-Q11",
+    "CS-2026-S1-Q17",
+    "CS-2026-S1-Q20",
+    "CS-2026-S1-Q65",
+    "CS-2026-S2-Q25",
+    "CS-2026-S2-Q62",
+    "CS-2026-S2-Q63"
+  ],
+  "checked_count": 53,
+  "grouped_count": 16,
+  "source_pages_visually_checked": 52,
+  "exclusions": [
+    {
+      "question_id": "CS-1993-Q53",
+      "reason": "Three-set at-least-two count; union coverage missing in source and no tight reviewed counterpart.",
+      "sources": [
+        {
+          "question_id": "CS-1993-Q53",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+          "page": 12,
+          "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1994-Q4",
+      "reason": "Universal probability inequality/identity recognition, not a numerical procedure instance.",
+      "sources": [
+        {
+          "question_id": "CS-1994-Q4",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+          "page": 1,
+          "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1997-Q1",
+      "reason": "Numerical two-event probability identity, no same-subject tightly matching population-count member.",
+      "sources": [
+        {
+          "question_id": "CS-1997-Q1",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 1,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1997-Q63",
+      "reason": "First hash collision after a collision-free sequence; sequential occupancy product rather than Bayes.",
+      "sources": [
+        {
+          "question_id": "CS-1997-Q63",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 7,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        },
+        {
+          "question_id": "CS-1997-Q63",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 7,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1997-Q71",
+      "reason": "Two-variable recursive call counting using binomial identity; not single-variable fixed-ratio or unit-decrement recurrence.",
+      "sources": [
+        {
+          "question_id": "CS-1997-Q71",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 8,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        },
+        {
+          "question_id": "CS-1997-Q71",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+          "page": 8,
+          "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1998-Q39",
+      "reason": "Three-set language overlap inference; no matching three-set group, and union coverage not explicit.",
+      "sources": [
+        {
+          "question_id": "CS-1998-Q39",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+          "page": 4,
+          "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-1999-Q26",
+      "reason": "Tests union, independence and conditional statements from supplied probabilities; not finite-source posterior inference.",
+      "sources": [
+        {
+          "question_id": "CS-1999-Q26",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+          "page": 3,
+          "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2000-Q25",
+      "reason": "Derive equal independent event probability from union=1; not ordinary supplied-overlap count.",
+      "sources": [
+        {
+          "question_id": "CS-2000-Q25",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+          "page": 3,
+          "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509"
+        },
+        {
+          "question_id": "CS-2000-Q25",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+          "page": 4,
+          "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2003-Q3",
+      "reason": "Conditional probabilities with a probability-one event; no latent finite-source Bayesian mixture.",
+      "sources": [
+        {
+          "question_id": "CS-2003-Q3",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 1,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2003-Q50",
+      "reason": "DFA language recognition plus constrained fixed-bit string counting; differs materially from regex complement length counting.",
+      "sources": [
+        {
+          "question_id": "CS-2003-Q50",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+          "page": 7,
+          "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2005-Q52",
+      "reason": "Complement of equality of two independently generated bit strings, no conditioning or Bayes.",
+      "sources": [
+        {
+          "question_id": "CS-2005-Q52",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+          "page": 6,
+          "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2006-Q23",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Nonunique linear-system solutions imply singularity, not determinant scaling.",
+      "sources": [
+        {
+          "question_id": "CS-2006-Q23",
+          "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+          "page": 3,
+          "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2007-Q41",
+      "reason": "Conceptual selection of BFS for unweighted shortest paths, not relaxation simulation.",
+      "sources": [
+        {
+          "question_id": "CS-2007-Q41",
+          "file": "sources/archive/CS/CS2007.pdf",
+          "page": 10,
+          "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2009-Q21",
+      "reason": "Recover a marginal probability from odd/even and conditional constraints; not posterior over supplied prior/likelihood categories.",
+      "sources": [
+        {
+          "question_id": "CS-2009-Q21",
+          "file": "sources/archive/CS/CS2009.pdf",
+          "page": 5,
+          "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2010-Q36",
+      "reason": "Total probability of a test result, not posterior; no same-subject matching total-probability candidate.",
+      "sources": [
+        {
+          "question_id": "CS-2010-Q36",
+          "file": "sources/archive/CS/CS2010.pdf",
+          "page": 6,
+          "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2011-Q13",
+      "reason": "Count equiprobable conditional coin outcomes; counterpart 2026 conditional coin question is excluded subject.",
+      "sources": [
+        {
+          "question_id": "CS-2011-Q13",
+          "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+          "page": 2,
+          "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2012-Q8",
+      "reason": "Bayes procedure verified but General Aptitude subject cannot join discrete-math Bayes group; no same-subject Bayesian counterpart.",
+      "sources": [
+        {
+          "question_id": "CS-2012-Q8",
+          "file": "sources/archive/CS/CS2012.pdf",
+          "page": 17,
+          "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2013-Q13",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Compare determinant-preserving row/column operations, not uniform scalar multiplication.",
+      "sources": [
+        {
+          "question_id": "CS-2013-Q13",
+          "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+          "page": 2,
+          "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2013-Q29",
+      "reason": "Bellman-Ford complexity on complete graphs, not an executed shortest-path relaxation procedure.",
+      "sources": [
+        {
+          "question_id": "CS-2013-Q29",
+          "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+          "page": 5,
+          "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2014-S2-Q14",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Outer-product rank deficiency gives determinant zero, not uniform scalar multiplication.",
+      "sources": [
+        {
+          "question_id": "CS-2014-S2-Q14",
+          "file": "sources/archive/CS/CS2014.pdf",
+          "page": 30,
+          "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2015-S3-Q12",
+      "reason": "Quantified power-set identity/statement recognition, not inclusion-exclusion counting.",
+      "sources": [
+        {
+          "question_id": "CS-2015-S3-Q12",
+          "file": "sources/archive/CS/CS2015.pdf",
+          "page": 57,
+          "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q9",
+      "reason": "Permutation of distinct shirts with forbidden person-color pairings; not assignments to nonempty unrestricted destinations.",
+      "sources": [
+        {
+          "question_id": "CS-2017-S1-Q9",
+          "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+          "page": 26,
+          "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2017-S2-Q36",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Its conditional probability, urn evolution or expectation procedure remains ungrouped.",
+      "sources": [
+        {
+          "question_id": "CS-2017-S2-Q36",
+          "file": "sources/archive/CS/CS2-2017.pdf",
+          "page": 10,
+          "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2017-S2-Q40",
+      "reason": "Square-root recursion needs logarithmic variable substitution; excluded from direct fixed-ratio procedure.",
+      "sources": [
+        {
+          "question_id": "CS-2017-S2-Q40",
+          "file": "sources/archive/CS/CS2-2017.pdf",
+          "page": 11,
+          "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2021-S1-Q33",
+      "reason": "Database selectivity estimation with independent attributes and implicit uniformity caveat; not superkey enumeration.",
+      "sources": [
+        {
+          "question_id": "CS-2021-S1-Q33",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 21,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2021-S1-Q40",
+      "reason": "Unequal recursive splits and omitted cutoff/rounding convention; separate recursion-tree/generalized recurrence reasoning.",
+      "sources": [
+        {
+          "question_id": "CS-2021-S1-Q40",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 26,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2021-S2-Q49",
+      "reason": "General symbolic Master-theorem validity statements, not concrete recurrence evaluation.",
+      "sources": [
+        {
+          "question_id": "CS-2021-S2-Q49",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+          "page": 77,
+          "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2022-Q8",
+      "reason": "Two-stage urn with color-dependent replacement asks unconditional next-draw probability; no same-subject matching procedure.",
+      "sources": [
+        {
+          "question_id": "CS-2022-Q8",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+          "page": 8,
+          "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2024-S1-Q61",
+      "reason": "Enumerate regular-expression languages and their complement across lengths including empty string; differs from constrained DFA acceptance count.",
+      "sources": [
+        {
+          "question_id": "CS-2024-S1-Q61",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 35,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2024-S1-Q63",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Its conditional probability, urn evolution or expectation procedure remains ungrouped.",
+      "sources": [
+        {
+          "question_id": "CS-2024-S1-Q63",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+          "page": 35,
+          "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2025-S2-Q65",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Its conditional probability, urn evolution or expectation procedure remains ungrouped.",
+      "sources": [
+        {
+          "question_id": "CS-2025-S2-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+          "page": 48,
+          "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S1-Q11",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Its conditional probability, urn evolution or expectation procedure remains ungrouped.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S1-Q11",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 10,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S1-Q20",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Conceptual null-space/singularity implications.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S1-Q20",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 16,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S1-Q65",
+      "reason": "Superkey superset union counting from two candidate keys; database counterpart asks statistical selectivity.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S1-Q65",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+          "page": 46,
+          "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S2-Q25",
+      "reason": "Mixed unit-decrement and halving recurrences; classify multiple options rather than the narrowly shared fixed-ratio evaluation alone.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S2-Q25",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 20,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S2-Q62",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Single uniform matrix-scaling computation, no second matching member.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S2-Q62",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 41,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ]
+    },
+    {
+      "question_id": "CS-2026-S2-Q63",
+      "reason": "Source visually checked within the excluded/other-topics collection; no tight same-collection counterpart was established. Its conditional probability, urn evolution or expectation procedure remains ungrouped.",
+      "sources": [
+        {
+          "question_id": "CS-2026-S2-Q63",
+          "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+          "page": 41,
+          "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff"
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "source_notes": "All source pages for assigned IDs visually inspected in full, including multi-page stems/options. Archive source gap resolved by hash-checked archive restoration. Source review compares grouping procedures only and does not verify transcription/solutions/keys. No repository data modified."
+}

@@ -49,12 +49,12 @@ class StudyViewRenderingTest(unittest.TestCase):
 
     def test_pattern_alternatives_and_coverage(self):
         html = (self.site/'08-operating-systems/patterns/index.html').read_text()
-        self.assertIn('3 in 1 reviewed problem patterns', html)
+        self.assertRegex(html, r'\d+ in \d+ reviewed problem patterns')
         self.assertIn('Browse reviewed patterns', html)
-        html = next(p.read_text() for p in (self.site/'08-operating-systems/patterns').rglob('index.html') if 'class="group-alternatives"' in p.read_text())
+        html = next(p.read_text() for p in (self.site/'08-operating-systems/patterns').rglob('index.html') if 'id="group-srtf-schedule-metrics"' in p.read_text())
         self.assertIn('id="group-srtf-schedule-metrics"', html)
         self.assertIn('class="group-alternatives"', html)
-        self.assertIn('Show 2 alternative questions', html)
+        self.assertIn('Show 4 alternative questions', html)
         self.assertIn('id="CS-2024-S2-Q37"', html)
         self.assertIn('id="CS-2004-Q46"', html)
         self.assertIn('Source page 7', html)

@@ -55,6 +55,8 @@ jobs:
           restore-keys: question-images-
       - name: Build site (renders question images from sources/)
         run: python scripts/build_site.py --release
+      - name: Browser regression for study views
+        run: python scripts/checks/check_study_views_browser.py
       - name: Build search index
         run: npx pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind
       # PDFs are keyed by content inside .pdf-cache, so only subjects whose

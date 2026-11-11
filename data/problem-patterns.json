@@ -9,12 +9,14 @@
       "members": [
         "CS-2004-Q46",
         "CS-2024-S2-Q37",
-        "CS-2025-S2-Q26"
+        "CS-2025-S2-Q26",
+        "CS-2014-S3-Q42",
+        "CS-2017-S1-Q34"
       ],
-      "rationale": "Each question supplies process arrival times and one CPU burst per process, requires simulating preemptive shortest remaining time first (called SRPT in 2004), and derives an average from process completion times. They share the scheduling procedure, not identical statements or answers: 2004 and 2025 ask average turnaround with different inputs and preemption sequences; 2024 asks average waiting and additionally compares a nonpreemptive SJF schedule. Keep every variant accessible. Exclude conceptual scheduling properties, policy identification without an arrival/burst simulation, and CPU/I/O idle-time or utilization problems requiring alternating I/O phases. Sharing the CPU-scheduling topic alone is insufficient.",
+      "rationale": "Each question supplies process arrival times and one CPU burst per process, requires simulating preemptive shortest remaining time first (called SRPT in 2004), and derives an average from process completion times. They share the scheduling procedure, not identical statements or answers: 2004 and 2025 ask average turnaround with different inputs and preemption sequences; 2024 asks average waiting and additionally compares a nonpreemptive SJF schedule. Keep every variant accessible. Exclude conceptual scheduling properties, policy identification without an arrival/burst simulation, and CPU/I/O idle-time or utilization problems requiring alternating I/O phases. Sharing the CPU-scheduling topic alone is insufficient. The 2014 set 3 and 2017 set 1 variants each ask average SRTF waiting time from four-process tables; their changed inputs form a reviewed numbers-repeat pair within this broader pattern.",
       "review": {
         "method": "source-page-comparison",
-        "reviewer": "codex-pattern-review-2026-11-11",
+        "reviewer": "codex-pattern-review-2026-11-11; codex-text-candidate-source-review-2026-11-11",
         "reviewed_on": "2026-11-11",
         "sources": [
           {
@@ -44,6 +46,2014 @@
             "page": 21,
             "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
             "notes": "Visually inspected full PDF page 21, including all options. P1..P4 arrive at 0,1,2,8 milliseconds with execution times 10,13,6,9 milliseconds. The question specifies SRTF, explicitly ignores context switching times, and asks average turnaround time. The arrival and burst values and preemption sequence differ from the 2004 variant. No additional scheduling figure is present."
+          },
+          {
+            "question_id": "CS-2014-S3-Q42",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 60,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. Both explicitly ask average waiting time for four processes under preemptive SRTF, in milliseconds, with no added algorithm or overhead. Source tables change (0,12),(2,4),(3,6),(8,5) to (0,7),(3,3),(5,5),(6,2). Full tables and NAT output fields checked.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2017-S1-Q34",
+            "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+            "page": 12,
+            "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. Both explicitly ask average waiting time for four processes under preemptive SRTF, in milliseconds, with no added algorithm or overhead. Source tables change (0,12),(2,4),(3,6),(8,5) to (0,7),(3,3),(5,5),(6,2). Full tables and NAT output fields checked.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-forbidden-runs",
+      "title": "Build a DFA that forbids a consecutive-symbol run",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2023-Q63",
+      "members": [
+        "CS-1993-Q68",
+        "CS-2023-Q63"
+      ],
+      "rationale": "Track the trailing run length and enter a rejecting sink once the forbidden run is reached. The historical question asks for the transition diagram over a/b; the newer one asks the minimum state count over 0/1. These requested outputs differ, so this is a pattern, not an identical repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q68",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 15,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full source page 15 inspected. Printed Q27 asks to draw deterministic state transitions accepting all a/b strings with no three consecutive b symbols. No additional figure or context. Historical third-party reproduction caveat retained."
+          },
+          {
+            "question_id": "CS-2023-Q63",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+            "page": 67,
+            "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+            "notes": "Full official source page 67 inspected. Q63 asks minimum DFA states for binary strings containing no three or more consecutive 1s. The explicit minimum-state request differs from diagram construction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-symbol-count-product",
+      "title": "Track independent symbol counts with a product DFA",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2007-Q29",
+      "members": [
+        "CS-1997-Q81",
+        "CS-2001-Q30",
+        "CS-2007-Q29"
+      ],
+      "rationale": "Track one residue for each symbol count and distinguish the reachable residue pairs. Divisors vary; the 1997 variant asks to construct a minimum machine while the later variants ask its state count. Excludes numeric-value divisibility, substring recognition and general DFA minimization.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1997-Q81",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+            "page": 9,
+            "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+            "notes": "Full reproduction page 9 visually inspected. Printed Q65 asks a minimum finite-state machine over a/b with a count divisible by two and b count by three. It is a construction task, not just a numeric count."
+          },
+          {
+            "question_id": "CS-2001-Q30",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 4,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Full reproduction page 4 inspected including continuation/options at the top of the right column. Q30 asks minimum DFA states for separate a-count mod6 and b-count mod8 constraints."
+          },
+          {
+            "question_id": "CS-2007-Q29",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 6,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Full restored hash-matched archive page 6 inspected. Q29 asks minimum states for zero count divisible by3 and one count divisible by5, with options15,11,10,9. No graph or hidden shared stem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-length-multiples",
+      "title": "Track length residues and handle empty-string acceptance",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2011-Q52",
+      "members": [
+        "CS-2002-Q38",
+        "CS-2011-Q52"
+      ],
+      "rationale": "Use length modulo a fixed divisor to recognize multiples, explicitly checking whether the empty string is accepted. The positive-multiple restriction in 2011 changes the initial-state treatment and is not just a numerical repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q38",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 5,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Full reproduction page5 inspected. Q38 asks smallest automaton for strings whose length is divisible by3; no positive-length restriction is stated."
+          },
+          {
+            "question_id": "CS-2011-Q52",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 11,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Full source page11 inspected. Printed Q42 defines unary a^(nk) with k>0 and n a positive integer constant, then asks minimum DFA states. Positive k excludes epsilon and must not be merged as identical to all multiples."
+          }
+        ]
+      }
+    },
+    {
+      "id": "candidate-key-attribute-closure",
+      "title": "Find minimal keys using attribute closure",
+      "subject": "09-database-management-systems",
+      "status": "reviewed",
+      "representative": "CS-2014-S1-Q31",
+      "members": [
+        "CS-1995-Q88",
+        "CS-2014-S1-Q31"
+      ],
+      "rationale": "Compute closures under stated functional dependencies, verify all attributes are reached, and remove unnecessary determinant attributes. The older task enumerates every minimal key; the newer task selects a key from options. These are variations of the same procedure, not duplicate requested answers.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q88",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 8,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Full reproduction page8 inspected. Printed Q74(b) requests minimal keys of the relation in part(a): R(A,B,C), AB→C and C→A. Shared dependency context was read."
+          },
+          {
+            "question_id": "CS-2014-S1-Q31",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 12,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full restored archive page12 inspected. Printed Q21 provides ten attributes and EF→G,F→IJ,EH→KL,K→M,L→N, then asks the key among EF,EFH,EFHKL,E."
+          }
+        ]
+      }
+    },
+    {
+      "id": "normal-form-fd-test",
+      "title": "Derive keys and test relation normal forms",
+      "subject": "09-database-management-systems",
+      "status": "reviewed",
+      "representative": "CS-2025-S2-Q46",
+      "members": [
+        "CS-1995-Q87",
+        "CS-2003-Q85",
+        "CS-2025-S2-Q46"
+      ],
+      "rationale": "Compute attribute closures to identify candidate keys and prime attributes, then test nontrivial dependencies against normal-form conditions. The 1995 proof shows 3NF but not BCNF for AB→C and C→A; 2025 tests 3NF for two explicitly complete FD sets. The 2003 variant additionally projects a larger supplied FD list to the requested relation and tests 2NF as well as 3NF/BCNF. Using only printed dependencies, its candidate keys are {Roll_number,Date_of_birth} and {Name,Date_of_birth}; Date_of_birth→Age exposes both partial dependence and a non-superkey determinant with nonprime right side. Never silently add Roll_number→Date_of_birth, which is absent from the source. These are shared closure/key/prime-attribute/dependency-test procedures, not repeated questions; preserve all variants and existing source/answer caveats.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-and-dependency-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q87",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 8,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Full reproduction page8 inspected. Printed Q74(a) supplies AB→C,C→A and asks to show R(A,B,C) is 3NF but not BCNF; all dependency symbols and the following key subpart are visible."
+          },
+          {
+            "question_id": "CS-2025-S2-Q46",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 35,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Full official source page35 inspected. Q46 specifies complete dependency sets for R1(A,B,C,D,E) and R2(A,B,C,D), then asks which 3NF/not-3NF assertions hold; no extra graph or stem."
+          },
+          {
+            "question_id": "CS-2003-Q85",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+            "page": 12,
+            "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+            "notes": "Visually inspected full physical page 12, including Q85, its seven listed dependencies and all four normal-form options. The listed dependencies are Date_of_Birth→Age, Age→Eligibility, Name→Roll_number, Roll_number→Name, Course_number→Course_name, Course_number→Instructor, and (Roll_number,Course_number)→Grade. The target relation is (Roll_number,Name,Date_of_birth,Age), with choices 2NF but not 3NF, 3NF but not BCNF, BCNF, and none of these. The procedure projects the listed dependencies, computes candidate keys and prime attributes, then tests partial and non-key dependencies. No Roll_number→Date_of_birth dependency is printed; preserve the existing caveat rather than supplying it from real-world intuition. The source is a third-party reproduction, not a certified original. The entire question is on this page, with no relevant figure or separate shared stem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "counting-semaphore-balance",
+      "title": "Balance completed semaphore wait and signal operations",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-1998-Q31",
+      "members": [
+        "CS-1992-Q20",
+        "CS-1998-Q31"
+      ],
+      "rationale": "For a counting semaphore, apply the net effect of explicitly completed P and V operations to its starting value. Completion wording matters: this excludes problems asking whether pending operations can block.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1992-Q20",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 3,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "notes": "Full reproduction pages1 and3 inspected; relevant section2(x) on page3 says semaphore starts7 and20 P and15 V operations were completed, asking resulting value."
+          },
+          {
+            "question_id": "CS-1998-Q31",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+            "page": 3,
+            "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+            "notes": "Full reproduction page3 inspected. Q31 starts semaphore10, then6 P(wait) and4 V(signal) operations were completed, asking resulting value. Same requested quantity with changed values."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-limited-race-extremes",
+      "title": "Bound final values under semaphore-limited interleavings",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2023-Q38",
+      "members": [
+        "CS-2013-Q44",
+        "CS-2023-Q38"
+      ],
+      "rationale": "Separate each non-atomic read/modify/write into events, respect semaphore occupancy, and construct an interleaving attaining the requested extreme. Initial values, update counts and extrema differ; 2023 additionally contrasts a binary semaphore with capacity two. This is not simple semaphore arithmetic.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2013-Q44",
+            "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+            "page": 7,
+            "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+            "notes": "Full official source page7 inspected. Printed Q34 starts x=0; W/X read, increment and store; Y/Z read, subtract2 and store. Each process waits before reading and signals after storing on semaphore initially2. Asks maximum final x."
+          },
+          {
+            "question_id": "CS-2023-Q38",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+            "page": 39,
+            "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+            "notes": "Full official page39 inspected. Q38 gives incr/decr code around semaphore operations, five increments and three decrements of X initially10, asks minimum values for binary1 and counting2. Full options and both implementations checked."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fixed-ratio-recurrence-order",
+      "title": "Solve fixed-ratio recurrences by comparing the nonrecursive cost",
+      "subject": "05-algorithms",
+      "status": "reviewed",
+      "representative": "CS-2026-S1-Q17",
+      "members": [
+        "CS-1997-Q31",
+        "CS-2009-Q35",
+        "CS-2014-S2-Q23",
+        "CS-2026-S1-Q17"
+      ],
+      "rationale": "Each requires extracting a,b and the nonrecursive cost in T(n)=aT(n/b)+f(n), comparing f with n^(log_b a), and obtaining the asymptotic order. The values and dominating cases differ. The 2026 variant repeats this procedure twice because T2 supplies the cost in T1. Exclude square-root argument substitutions, unequal splits, unit decrements, symbolic theorem-validity statements and mixed-form recurrence option sets; this is not all recurrence questions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1997-Q31",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+            "page": 4,
+            "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+            "notes": "Full source page inspected, including four choices. T(1)=1; T(n)=2T(floor(n/2))+sqrt(n) for n>=2. Compare the nonrecursive cost against n^(log_2 2) to select the linear upper bound. Explicit floor is retained. No figure or shared premise."
+          },
+          {
+            "question_id": "CS-2009-Q35",
+            "file": "sources/archive/CS/CS2009.pdf",
+            "page": 8,
+            "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+            "notes": "Full archive page inspected, including four choices. T(n)=n for n<=3, otherwise T(n/3)+cn, with positive constant c. Fixed-ratio recurrence with linear nonrecursive cost; compare against n^(log_3 1), then select tight order. No figure or shared context."
+          },
+          {
+            "question_id": "CS-2014-S2-Q23",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 32,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full archive page inspected. Printed Q13 gives T(n)=2T(n/2)+log n and T(1)=1, with four asymptotic choices. Compare logarithmic toll against n^(log_2 2). No figure or shared context."
+          },
+          {
+            "question_id": "CS-2026-S1-Q17",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 14,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "Full source page and all four options inspected. For n>1, T1(n)=4T1(n/2)+T2(n), T2(n)=5T2(n/4)+Theta(log_2 n); both base values are 1 for n<=1. First solve T2 using the fixed-ratio comparison, then use its order as the toll in T1 and apply the same comparison again. This sequential two-recurrence dependency is an additional step, not an identical question. No diagram or external context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-decrement-doubling-recurrence",
+      "title": "Unroll a doubling recurrence with a unit decrement",
+      "subject": "05-algorithms",
+      "status": "reviewed",
+      "representative": "CS-2025-S1-Q20",
+      "members": [
+        "CS-2004-Q83",
+        "CS-2025-S1-Q20"
+      ],
+      "rationale": "Both produce or state T(n)=2T(n-1)+g(n). Unroll the recurrence (equivalently normalize by 2^n) and sum weighted nonrecursive costs. The 2004 code requires deriving this cost recurrence and has constant work per call; the 2025 explicit n*2^n cost changes the summation and introduces a polynomial factor. These are procedure variants, not repeats; do not use the fixed-ratio Master theorem for either.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2004-Q83",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 11,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Full source pages 11 and 12 inspected to cover the stem, code and all choices. The positive-input recursive C function returns 1 at n=1, otherwise calls recursive(n-1) twice and adds their results. Ordinary nonmemoized call-tree cost gives T(n)=2T(n-1)+Theta(1). Source prose uses a>0 while code uses n. No shared premise or diagram."
+          },
+          {
+            "question_id": "CS-2004-Q83",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 12,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Full source pages 11 and 12 inspected to cover the stem, code and all choices. The positive-input recursive C function returns 1 at n=1, otherwise calls recursive(n-1) twice and adds their results. Ordinary nonmemoized call-tree cost gives T(n)=2T(n-1)+Theta(1). Source prose uses a>0 while code uses n. No shared premise or diagram."
+          },
+          {
+            "question_id": "CS-2025-S1-Q20",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 20,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "Full page inspected, including four choices. T(n)=2T(n-1)+n*2^n for n>0, T(0)=1. Normalize by 2^n or unroll the unit-decrement recurrence and sum the weighted tolls. Unlike the 2004 constant-work call tree, the explicit toll adds a polynomial factor. No diagram/shared context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exclude-divisibility-three-primes",
+      "title": "Count integers divisible by none of three primes",
+      "subject": "12-discrete-mathematics",
+      "status": "reviewed",
+      "representative": "CS-2014-S2-Q58",
+      "members": [
+        "CS-1995-Q86",
+        "CS-2014-S2-Q58"
+      ],
+      "rationale": "Both use the bounded positive-integer universe and exclude divisibility by exactly 2,3,5. Count single, pair and triple multiples using floors/LCMs, apply inclusion-exclusion, and subtract from the universe. Bounds differ (720 versus 100), and the newer question divides the count by the universe size for a probability. No broad grouping with unrelated set identities or language counting.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q86",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 8,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Full source page 8 inspected. Printed Q73(b) asks the number of positive integers at most 720 divisible by none of 2,3,5. Part (a) is a separate quadratic minimum and supplies no needed constraint. Count multiples and their pair/triple intersections, then subtract from the universe. No relevant figure."
+          },
+          {
+            "question_id": "CS-2014-S2-Q58",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 42,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full archive page inspected. Printed Q48 asks probability a positive integer between 1 and 100 inclusive is not divisible by 2,3,5. Same multiples/LCM inclusion-exclusion count as 1995, then divide by 100 for uniform selection; endpoint changes require floors. No figure/shared premise."
+          }
+        ]
+      }
+    },
+    {
+      "id": "assignments-no-empty-required-label",
+      "title": "Count assignments while excluding empty required destinations",
+      "subject": "12-discrete-mathematics",
+      "status": "reviewed",
+      "representative": "CS-2021-S1-Q29",
+      "members": [
+        "CS-2015-S2-Q58",
+        "CS-2021-S1-Q29"
+      ],
+      "rationale": "Both count functions assigning distinct objects to distinct labels with required nonempty images: start with all assignments and subtract cases missing required labels, using inclusion-exclusion. In 2015 all three codomain labels must occur among four arguments. In 2021 two of the six jobs have forced destinations, so after fixing those jobs only the middle computer still needs a preimage. Preserve that additional fixed-assignment step; do not merge permutation assignment problems or arbitrary inclusion-exclusion questions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2015-S2-Q58",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 48,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Full archive page inspected. Q58 explicitly asks the number of onto functions from X={1,2,3,4} to Y={a,b,c}. Count all labeled assignments and exclude assignments with empty required codomain labels, restoring overlaps. No figure/shared context."
+          },
+          {
+            "question_id": "CS-2021-S1-Q29",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 20,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Full page inspected. Printed Q19 gives six jobs of distinct difficulty and three computers of distinct speeds. Fastest must receive toughest and slowest easiest; every computer receives at least one. Fix the two forced assignments, then count assignments of the remaining four jobs excluding those that leave the middle computer empty. Distinct labels and the forced assignments are essential differences from unrestricted surjections. No relevant figure/shared context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "two-set-population-count",
+      "title": "Solve two-set population counts with overlap and neither",
+      "subject": "11-general-aptitude",
+      "status": "reviewed",
+      "representative": "CS-2024-S2-Q3",
+      "members": [
+        "CS-2010-Q4",
+        "CS-2024-S2-Q3"
+      ],
+      "rationale": "Both partition a finite population into two overlapping preference/activity sets and their complement. Use |A union B|=|A|+|B|-|A intersection B| and universe-minus-union. The 2010 question asks neither directly; the 2024 question provides neither plus a ratio and requires solving for one set size. Inputs and requested count differ; no three-set inference or general probability identity is folded here.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2010-Q4",
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 15,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "notes": "Full archive page inspected. Printed GA Q59 supplies 25 persons, 15 hockey, 17 football and 10 both; asks neither, with four numerical choices. Two-set cardinality identity determines union then complement. No figure/shared context."
+          },
+          {
+            "question_id": "CS-2024-S2-Q3",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 2,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "Full source page inspected, all four choices. Of 10000 students, 1500 like neither branch category and 500 like both; core-branch count is one quarter of other-branch count. Apply the same two-set union identity and complement, then solve the given ratio for the core count. No figure/shared context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bayes-finite-hypotheses",
+      "title": "Infer a source category from observed evidence using Bayes",
+      "subject": "12-discrete-mathematics",
+      "status": "reviewed",
+      "representative": "CS-2018-Q54",
+      "members": [
+        "CS-2005-Q51",
+        "CS-2018-Q54"
+      ],
+      "rationale": "Both supply a finite exhaustive partition with prior probabilities and conditional evidence likelihoods, then ask which partition category produced an observed outcome. Multiply each prior by its evidence likelihood, sum for the total evidence probability, and normalize the target category weight. The 2005 question has two bags with ball-count likelihoods; 2018 has three temperature states with a conditional-probability table. Other candidates ask total probability, unconditional events, conditional sample-space counts, or belong to another subject and are not included.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2005-Q51",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+            "page": 6,
+            "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+            "notes": "Full GFG reproduction page 6 inspected, including all four choices. P has 2 red/3 blue, Q has 3 red/1 blue; selection priors are 1/3 and 2/3. Drawing within the chosen box is uniform. Given red, asks posterior probability of box P. This source explicitly prints Q red balls, avoiding the alternate reproduction omission. No figure/shared context."
+          },
+          {
+            "question_id": "CS-2018-Q54",
+            "file": "sources/archive/CS/CS2018.pdf",
+            "page": 19,
+            "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+            "notes": "Full archive page inspected, including table and its interpretation. Printed Q44 has Guwahati H/M/L priors .2/.5/.3; Delhi H/M/L rows are (.40,.48,.12),(.10,.65,.25),(.01,.50,.49). Asks Guwahati H given Delhi H to two decimals. Form prior-times-likelihood weights for each Guwahati state, sum them for the evidence, and normalize the H weight. Three hypotheses rather than the 2005 two, and likelihoods are tabulated instead of ball counts. No additional shared premise."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bayes-binary-source-posterior",
+      "title": "Infer a binary source from an observed signal or outcome",
+      "subject": "13-other-topics",
+      "status": "reviewed",
+      "representative": "CS-2025-S1-Q32",
+      "members": [
+        "CS-2021-S1-Q64",
+        "CS-2025-S1-Q32"
+      ],
+      "rationale": "Both ask for the posterior probability of one of two possible sources given an observed outcome. Multiply each source prior by its outcome likelihood, sum the two weights, and normalize the target weight. In 2021 the source is a transmitted H/L signal and likelihoods come from the channel diagram. In 2025 the source is a regular/fake coin; two tosses of the same coin first require computing the two-head likelihood. This extra likelihood calculation changes the instance, not the core posterior procedure. Neither is an unconditional total-probability or conditional sample-space enumeration problem. This group stays within the existing excluded/other-topics collection.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-numeric-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2021-S1-Q64",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 41,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Full source page 40 visually inspected, including the complete directed channel diagram and accompanying interpretation. Sender H/L priors are .1/.9; diagram edge probabilities H to H=.3, H to L=.7, L to H=.8, L to L=.2. Given received H, asks probability H was sent to two decimals. Form the two prior-times-likelihood weights and normalize the sent-H weight. No external shared context."
+          },
+          {
+            "question_id": "CS-2025-S1-Q32",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 32,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "Full source page 32 visually inspected. Box contains 4 regular fair coins and 1 always-heads fake coin. Pick one at random and toss that same coin twice, obtaining two heads; asks probability the coin was fake to two decimals. First compute two-head likelihood under each type (1/4 versus 1), then multiply by type priors (4/5 versus 1/5) and normalize fake weight. Additional repeated-toss likelihood step is retained; no figure/shared context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cache-address-field-geometry",
+      "title": "Partition cache addresses into tag, set and offset",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2025-S2-Q39",
+      "members": [
+        "CS-1995-Q50",
+        "CS-2001-Q64",
+        "CS-2001-Q65",
+        "CS-2001-Q67",
+        "CS-2005-Q67",
+        "CS-2007-Q10",
+        "CS-2012-Q64",
+        "CS-2014-S2-Q19",
+        "CS-2016-S2-Q42",
+        "CS-2017-S2-Q63",
+        "CS-2018-Q44",
+        "CS-2019-Q11",
+        "CS-2021-S1-Q32",
+        "CS-2021-S2-Q29",
+        "CS-2023-Q64",
+        "CS-2025-S2-Q39"
+      ],
+      "rationale": "Convert capacity and block size into consistent addressable units, compute sets as capacity/(block size x ways), and partition address bits into offset, set index and tag. Variants ask a field width, set count, associativity, inverse memory/cache sizes, or a symbolic formula. Word-addressed questions must not use byte offsets; fully associative caches have zero index bits. The 2001 leaves retain their shared stem and distinct requested field. Exclude total metadata storage, concrete-address mapping and reference traces, page tables/TLBs, comparator-delay calculations and underdetermined maximum-cache-size searches. These are method variants, not identical statements or answers.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1995-Q50",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 5,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "4K-word, four-way set associative cache with 64 words/block; asks SET and WORD field widths. Full page and options inspected."
+          },
+          {
+            "question_id": "CS-2001-Q64",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 8,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Shared printed Q57 stem: 32-bit addresses, 256KB four-way cache, 16-byte blocks; subpart (a) asks number of sets. Full page contains stem and all five subparts."
+          },
+          {
+            "question_id": "CS-2001-Q65",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 8,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Same printed Q57 stem; subpart (b) asks tag bits per block."
+          },
+          {
+            "question_id": "CS-2001-Q67",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 8,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Same printed Q57 stem; subpart (d) asks byte-offset address bits."
+          },
+          {
+            "question_id": "CS-2005-Q67",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+            "page": 9,
+            "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+            "notes": "Direct mapped 32KB cache, 32-byte blocks and 32-bit CPU addresses; asks index and tag bits. Full question and options inspected."
+          },
+          {
+            "question_id": "CS-2007-Q10",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 3,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Four-way cache, 128 lines of 64 words and 20-bit word addresses; asks TAG, LINE, WORD field widths. Full source/options inspected; word addressing explicit."
+          },
+          {
+            "question_id": "CS-2012-Q64",
+            "file": "sources/archive/CS/CS2012.pdf",
+            "page": 15,
+            "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+            "notes": "Printed Q54 shared stem: 256KB four-way write-back cache, 32-byte blocks, 32-bit addresses; per-directory entry two valid bits, one modified, one replacement. Q54 asks address tag width, not metadata total. Full page/options inspected."
+          },
+          {
+            "question_id": "CS-2014-S2-Q19",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 31,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Printed Q9: four-way 16KB cache, block eight words, word 32 bits and physical address space 4GB. Asks TAG width. Full page inspected."
+          },
+          {
+            "question_id": "CS-2016-S2-Q42",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 33,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Printed Q32: physical address width 40 bits and 512KB eight-way cache; asks tag width. Block size unnecessary. Full source inspected."
+          },
+          {
+            "question_id": "CS-2017-S2-Q63",
+            "file": "sources/archive/CS/CS2-2017.pdf",
+            "page": 21,
+            "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+            "notes": "Printed Q53: byte-addressable 2^32-byte memory, 32-byte blocks, 512 direct-mapped lines; asks tag bits. Full source inspected."
+          },
+          {
+            "question_id": "CS-2018-Q44",
+            "file": "sources/archive/CS/CS2018.pdf",
+            "page": 14,
+            "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+            "notes": "Printed Q34 symbolic byte-space 2^P, 2^W-byte words, cache 2^N bytes, blocks 2^M words, K-way; asks tag width expression. Full page/options inspected; word/block factors cancel in total non-tag width."
+          },
+          {
+            "question_id": "CS-2019-Q11",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+            "page": 4,
+            "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+            "notes": "Printed Q1: fully associative 16KB cache, 16-byte blocks, byte-addressed 32-bit memory; asks tag/index widths, including zero index bits. Full page/options inspected."
+          },
+          {
+            "question_id": "CS-2021-S1-Q32",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 21,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Printed Q22: byte-addressed 2^32-byte memory, 32KB direct cache and 64-byte blocks; asks tag width. Full page inspected."
+          },
+          {
+            "question_id": "CS-2021-S2-Q29",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 64,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Printed Q19: 2KB cache, 64-byte blocks, 32-bit byte addresses and 22-bit tag; asks associativity. Invert the usual address partition equation. Full page inspected."
+          },
+          {
+            "question_id": "CS-2023-Q64",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+            "page": 68,
+            "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+            "notes": "64KB eight-way cache, 32-bit addresses; asks TAG width with index and block offset fields. No block size given or required because offset plus index depends on per-way capacity. Full page inspected."
+          },
+          {
+            "question_id": "CS-2025-S2-Q39",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 30,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Direct cache with four tag bits, twelve cache-index bits and one-byte blocks; asks main/cache memory sizes, expressly no other per-block information. Full page/options inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cache-associativity-width-change",
+      "title": "Compare cache widths after changing associativity",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2026-S1-Q38",
+      "members": [
+        "CS-2014-S2-Q54",
+        "CS-2017-S1-Q64",
+        "CS-2026-S1-Q38"
+      ],
+      "rationale": "Hold total cache capacity and block size fixed while changing associativity: the set count changes inversely, set-index width loses log2 of the factor, and tag width gains it. The 2017 and 2026 variants request numeric/symbolic tag relationships; 2014 additionally compares comparator, decoder, way-selection and external data-bus widths. Preserve its distinction between mux selection configuration and unchanged data-word width. Exclude ordinary fixed-geometry questions and cache access-time arithmetic.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S2-Q54",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 41,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Printed Q44: doubles associativity with capacity and block size fixed; asks which hardware width is guaranteed unaffected among tag comparator, set decoder, way mux, memory data bus. Conceptual comparison extends geometry but is not a numeric field-width problem."
+          },
+          {
+            "question_id": "CS-2017-S1-Q64",
+            "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+            "page": 24,
+            "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+            "notes": "Printed Q54: N-word cache, B-word blocks, direct-mapped tag length 10; change to 16-way while holding capacity/block size fixed and ask tag length. Full page inspected."
+          },
+          {
+            "question_id": "CS-2026-S1-Q38",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 27,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "2^32-byte physical space, 2^23-byte cache, 128-byte blocks; compares tag lengths M and N for direct and K-way cache, K=2^L, L in {1,2,3}. Full page/options inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cache-tag-directory-storage",
+      "title": "Count total cache tag and metadata storage",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2025-S1-Q36",
+      "members": [
+        "CS-2001-Q68",
+        "CS-2008-Q71",
+        "CS-2011-Q53",
+        "CS-2012-Q65",
+        "CS-2025-S1-Q36"
+      ],
+      "rationale": "First derive the tag width and number of cache lines, then multiply per-line tag plus explicitly required metadata by the line count and convert bits/bytes as requested. The 2001, 2008 and 2025 variants ask tag-only storage; 2011 adds valid and modified bits; 2012 adds two valid, one modified and one replacement bit per entry. Keep the 2008 array/program common context accessible although it does not alter this requested total. Do not silently add metadata absent from the source, and do not fold these into single-tag-width or hit-trace problems.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2001-Q68",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 8,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Same printed Q57 stem; subpart (e) asks total extra bytes for tag bits, not data capacity."
+          },
+          {
+            "question_id": "CS-2008-Q71",
+            "file": "sources/archive/CS/CS2008.pdf",
+            "page": 15,
+            "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+            "notes": "Common stem Q71-73: 64KB two-way cache, 16-byte blocks, 32-bit virtual addresses, 4KB pages; row-major double ARR[1024][1024], eight-byte elements at page 0xFF000, empty/no-prefetch. Q71 asks total cache-directory tag bits. Full common context and options inspected; no additional valid/dirty overhead specified."
+          },
+          {
+            "question_id": "CS-2011-Q53",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 11,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Printed Q43: 8KB direct-mapped write-back, 32-byte blocks, 32-bit addresses; one valid plus one modified bit per line alongside tag. Asks total metadata bits. Full source page and options inspected."
+          },
+          {
+            "question_id": "CS-2012-Q65",
+            "file": "sources/archive/CS/CS2012.pdf",
+            "page": 15,
+            "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+            "notes": "Printed Q55 shares Q54 cache stem and asks cache-tag-directory size including specified two valid, one modified and one replacement bits per entry. Full page/options inspected."
+          },
+          {
+            "question_id": "CS-2025-S1-Q36",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 36,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "20-bit byte addresses, 1MB main memory, 16KB direct cache, 16-byte blocks; asks bits for all tag values, no valid/dirty bits. Full page/options inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cache-concrete-address-index",
+      "title": "Extract cache indices from concrete memory addresses",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2020-Q40",
+      "members": [
+        "CS-2002-Q67",
+        "CS-2008-Q72",
+        "CS-2015-S3-Q34",
+        "CS-2020-Q40"
+      ],
+      "rationale": "Compute a memory address when needed from array element size and layout, remove block offset bits, then take the block number modulo the set/line count. Compare indices or report tag/index values. 2002 asks which array elements conflict with A[0]; 2008 uses row-major double-array offsets; 2015 reports a hexadecimal tag and index; 2020 compares four supplied addresses. The 2002 reverse scan belongs to a different leaf and is not part of this member. No cache-content evolution, replacement policy or miss-count simulation is required by these leaves.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q67",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 7,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Printed Q58 shared stem spans pages 7-8: float A[2048], four-byte elements starting 0x00000000, direct mapped 8KB cache and 16-byte blocks. Part (a) asks elements conflicting with A[0]; part (b) reverse-order misses from initially empty cache. Requires mapping a concrete reference sequence, unlike field-width-only problems. This normalized leaf is part (a) only; part (b) was checked solely as surrounding shared context and is not its requested task."
+          },
+          {
+            "question_id": "CS-2002-Q67",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 8,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Printed Q58 shared stem spans pages 7-8: float A[2048], four-byte elements starting 0x00000000, direct mapped 8KB cache and 16-byte blocks. Part (a) asks elements conflicting with A[0]; part (b) reverse-order misses from initially empty cache. Requires mapping a concrete reference sequence, unlike field-width-only problems. This normalized leaf is part (a) only; part (b) was checked solely as surrounding shared context and is not its requested task."
+          },
+          {
+            "question_id": "CS-2008-Q72",
+            "file": "sources/archive/CS/CS2008.pdf",
+            "page": 15,
+            "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+            "notes": "Same full Q71-73 common stem; Q72 asks array element with same cache index as ARR[0][0], among row/column offsets. Use row-major address arithmetic and cache index extraction; no hit-trace simulation required."
+          },
+          {
+            "question_id": "CS-2015-S3-Q34",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 65,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Byte-addressed 2^20-byte main memory, sixteen-byte blocks, 2^12 direct cache lines; asks hexadecimal tag and line for E201F (next byte E2020 also given). Full page/options inspected."
+          },
+          {
+            "question_id": "CS-2020-Q40",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 10,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "notes": "Printed Q30: 16MB byte-addressed memory, 64KB four-way cache, 256-byte blocks; compares set mapping of four hexadecimal addresses. Requires extracting index bits, but no dynamic reference trace. Full options inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "direct-cache-repeated-reference-trace",
+      "title": "Trace repeated references in an empty direct-mapped cache",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2026-S2-Q52",
+      "members": [
+        "CS-2022-Q54",
+        "CS-2026-S2-Q52"
+      ],
+      "rationale": "Split each of four hexadecimal addresses into block offset, line index and tag, then simulate the repeated P,Q,R,S sequence for ten rounds from an initially empty direct-mapped cache. Track same-block hits and same-index evictions, then evaluate the supplied hit/miss, resident and eviction statements. Cache size, line size, address values and word length differ (16-bit versus one-byte words), so keep both full MSQ variants and never infer duplicate answers from their shared structure.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2022-Q54",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+            "page": 36,
+            "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+            "notes": "2KB direct cache, 64-byte blocks, 64KB physical space and 16-bit words; P,Q,R,S addresses 0xA248,0xC28A,0xCA8A,0xA262 accessed in order ten times from empty. MSQ asks hits, retention, final residents and evictions. Full page inspected."
+          },
+          {
+            "question_id": "CS-2026-S2-Q52",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 38,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "notes": "4KB direct cache, 16-byte blocks, 16MB physical space, one-byte words; P,Q,R,S hexadecimal addresses 0x845B32,0x845B26,0x845B36,0x846B32 accessed ten times in order from empty. MSQ asks always-hit/miss and after-first-hit claims. Full page inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cache-comparator-mux-hit-latency",
+      "title": "Derive cache hit latency from tag comparison and way selection",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2006-Q75",
+      "members": [
+        "CS-2006-Q74",
+        "CS-2006-Q75"
+      ],
+      "rationale": "Using the complete shared Q74-75 stem, derive tag width for each cache organization, apply the k/10 ns tag-comparator delay, and include the supplied way-selection mux delay only for the two-way organization. One leaf asks two-way set-associative hit latency and the other direct-mapped hit latency. This is a common comparator/selection timing method with different critical paths, not ordinary cache-geometry or average-memory-access-time arithmetic.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q74",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 11,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Shared full-page stem for Q74-75 compares 32KB two-way and direct mapped caches, 32-byte blocks, 32-bit addresses, 0.6ns two-to-one mux and k/10 ns comparator; asks set-associative hit latency. Derive tag width then comparator/mux delay."
+          },
+          {
+            "question_id": "CS-2006-Q75",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 11,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Same Q74-75 stem; asks direct-mapped hit latency rather than associative latency. All common data and answer choices inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pipeline-weighted-cpi-performance",
+      "title": "Derive pipeline performance from weighted stall costs",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2026-S2-Q57",
+      "members": [
+        "CS-2006-Q42",
+        "CS-2014-S1-Q53",
+        "CS-2014-S3-Q53",
+        "CS-2015-S1-Q55",
+        "CS-2020-Q53",
+        "CS-2022-Q61",
+        "CS-2024-S2-Q58",
+        "CS-2026-S2-Q57"
+      ],
+      "rationale": "Compute effective CPI as ideal throughput cost plus instruction-class frequency times stall cost, then combine CPI with clock period to obtain program time or a speedup ratio. 2006 derives a branch penalty and asks seconds; 2014 S1 has balanced stages and no clock overhead; 2014 S3 changes stage partitioning, clock rate and branch resolution depth; 2015 is the zero-stall special case; 2020 uses conditional cache-miss and branch rates; 2022 compares branch-prediction accuracy; 2024 and 2026 give aggregate stall fractions. Keep all frequency/latency assumptions and requested metrics explicit. Exclude finite per-instruction dependency schedules, fill/drain-only batches, and mere conceptual hazard statements.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q42",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 6,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Five stages at 1GHz; fetch first stage, conditional branch resolves third, fetching stops until known; 10^9 instructions, 20% branches, base one cycle each. Asks total program seconds; derive two-cycle branch penalty then weighted CPI. Full source/options inspected."
+          },
+          {
+            "question_id": "CS-2014-S1-Q53",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 18,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Printed Q43: six perfectly balanced stages, no cycle-time overhead, 25% instructions incur two stall cycles; asks speedup over nonpipeline. Full source inspected."
+          },
+          {
+            "question_id": "CS-2014-S3-Q53",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 63,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Printed Q43: original five stages 1,2.2,2,1,0.75ns, split decode into three and execute into two to make eight stages; 20% branches stall fetch until EX or EX2 finishes. Asks old/new execution-time ratio with base CPI one for other instructions. Full source inspected; branch penalty and frequency both change."
+          },
+          {
+            "question_id": "CS-2015-S1-Q55",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 21,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Nonpipeline 2.5GHz at average four cycles/instruction, redesigned five-stage 2GHz with no stalls. Asks speedup. Entire stem on full page inspected; ideal throughput CPI one, not stage count as nonpipeline CPI."
+          },
+          {
+            "question_id": "CS-2020-Q53",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 14,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "notes": "Printed Q43: nonpipeline 2.5GHz and five CPI, pipeline 2GHz; instruction mix 30% memory, 60% ALU, remainder branch. Five percent of memory instructions stall fifty cycles, half of branches stall two, ALU none. Asks speedup; weighted stall rates must be conditional on instruction type. Full page inspected."
+          },
+          {
+            "question_id": "CS-2022-Q61",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+            "page": 39,
+            "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+            "notes": "Two same-2GHz five-stage RISC machines, base CPI one, 30% branches with two-cycle penalty; new predictor eliminates penalty for 80% correct predictions, no extra wrong-prediction costs or other hazards. Asks speedup via expected CPI ratio. Full page inspected."
+          },
+          {
+            "question_id": "CS-2024-S2-Q58",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 38,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "Nonpipeline 2GHz at six CPI; five-stage 2GHz pipeline ideally one per cycle, 20% instructions average two data stalls and 20% average three control stalls. Asks speedup rounded one decimal. Full page inspected."
+          },
+          {
+            "question_id": "CS-2026-S2-Q57",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 39,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "notes": "Nonpipeline 1.6GHz at five cycles/instruction; pipeline 1.2GHz ideal one instruction/cycle, 30% instructions stall two cycles. Asks program speedup rounded two decimals. Full page inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pipeline-ideal-batch-time",
+      "title": "Time a hazard-free instruction batch including pipeline fill",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2025-S2-Q56",
+      "members": [
+        "CS-2017-S1-Q60",
+        "CS-2021-S1-Q63",
+        "CS-2023-Q33",
+        "CS-2025-S2-Q56"
+      ],
+      "rationale": "Choose the clock period from the slowest stage plus stated register/latch overhead and use instruction count plus stage count minus one cycles. The 2017 variant computes this for two stage partitions and compares their times; 2021 and 2025 include latch delays; 2023 explicitly has no other delay. Counts and requested time units differ. Every source explicitly excludes hazards/stalls for the batch. Do not mix these finite-batch fill/drain calculations with steady-state weighted CPI or data-dependent instruction schedules.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2017-S1-Q60",
+            "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+            "page": 22,
+            "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+            "notes": "Printed Q50: stage latencies 5,4,20,10,3ns with 2ns buffering; compare five stages to six by splitting OF into 12/8ns. Twenty independent hazard-free instructions; asks speedup including fill/drain. Full page inspected."
+          },
+          {
+            "question_id": "CS-2021-S1-Q63",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 40,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Printed Q53: five-stage delays 150,120,150,160,140ns, registers 5ns; 100 independent instructions and no stalls. Asks total ns including pipeline fill/drain. Full page inspected."
+          },
+          {
+            "question_id": "CS-2023-Q33",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+            "page": 31,
+            "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+            "notes": "Three stages at 10,20,14ns, no other delays or hazards and fetch one per cycle; asks total ns for 100 instructions. Full page inspected."
+          },
+          {
+            "question_id": "CS-2025-S2-Q56",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 43,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Five-stage delays 180,250,150,170,250ns, interstage latch 10ns; no stalls, 1000 instructions. Asks time in microseconds rounded two decimals, requiring slowest stage plus latch and fill/drain. Full page inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pipeline-multicycle-forwarding-trace",
+      "title": "Schedule dependent instructions through multicycle execution stages",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2021-S2-Q63",
+      "members": [
+        "CS-2007-Q37",
+        "CS-2010-Q43",
+        "CS-2015-S2-Q53",
+        "CS-2021-S2-Q63"
+      ],
+      "rationale": "Build a cycle-by-cycle stage occupancy schedule for the supplied dependent arithmetic instruction sequence. Respect single-stage occupancy, instruction-specific execution duration and operand availability under the stated forwarding path; finish only when the last instruction exits writeback. The 2007, 2010 and 2015 variants ask elapsed cycles with forwarding and differ in stage count and multiplication/division latency; 2021 explicitly reads registers in EX and asks a ratio of schedules without and with forwarding. Keep that unusual operand-read stage and the extra no-forwarding schedule visible. Exclude unspecified-forwarding examples, aggregate instruction mixes and dependency-identification-only questions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2007-Q37",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 9,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Four IF/ID/EX/WB stages, all but EX one cycle; ADD/SUB EX one, MUL EX three; forwarding explicitly used. Three dependent ADD,MUL,SUB instructions; asks completion cycles. Full sequence/options inspected."
+          },
+          {
+            "question_id": "CS-2010-Q43",
+            "file": "sources/archive/CS/CS2010.pdf",
+            "page": 8,
+            "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+            "notes": "Printed Q33: five IF/ID/OF/PO/WO stages; all but PO one cycle, ADD/SUB one, MUL three, DIV six PO cycles; forwarding used. Four MUL,DIV,ADD,SUB instructions and dependencies; asks total cycles. Full page/options inspected."
+          },
+          {
+            "question_id": "CS-2015-S2-Q53",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 47,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Four IF/OF/PO/WB stages; IF/OF/WB one cycle, ADD/SUB one PO cycle, MUL three and DIV five; explicit PO-to-OF forwarding. MUL R5,R0,R1; DIV R6,R2,R3; ADD R7,R5,R6; SUB R8,R7,R4. Asks elapsed cycles. Full source inspected."
+          },
+          {
+            "question_id": "CS-2021-S2-Q63",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 87,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Printed Q53: five stages, only EX variable, register read in EX rather than ID; ADD EX one, MUL two, alternating eight dependent instructions. Asks time without/with operand forwarding ratio. Full sequence and explicit dependencies inspected; needs two schedules, not average CPI assumption."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pipeline-structural-excess-cycles",
+      "title": "Sum structural stalls from multicycle execution occupancy",
+      "subject": "02-computer-organization-architecture",
+      "status": "reviewed",
+      "representative": "CS-2026-S1-Q60",
+      "members": [
+        "CS-2018-Q60",
+        "CS-2026-S1-Q60"
+      ],
+      "rationale": "For each instruction class, determine how many cycles the shared execution stage is occupied, subtract its ideal one-cycle service, and weight the excess by the class count. 2018 supplies integer PO cycles and asks total completion cycles, so also include baseline instructions and pipeline fill/drain; 2026 supplies EX nanoseconds against a one-nanosecond clock and asks only structural stalls, so apply ceiling before subtracting one and do not add fill/drain. These are aggregate structural occupancy problems, not operand-forwarding traces or probabilistic branch-stall mixes.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2018-Q60",
+            "file": "sources/archive/CS/CS2018.pdf",
+            "page": 21,
+            "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+            "notes": "Printed Q50: five IF/ID/OF/PO/WB stages, all except PO one cycle; 100 instructions include 40 at three PO cycles, 35 at two, 25 at one; no data/control hazards. Asks total cycles. Full page inspected."
+          },
+          {
+            "question_id": "CS-2026-S1-Q60",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 44,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "One-nanosecond cycle, negligible latches; EX LOAD/arithmetic instruction latency/frequency table for 100 instructions. LOAD1.8/15, MUL1.5/10, DIV2.5/5, FADD1.7/10, FSUB1.7/5, FMUL2.8/15, FDIV3.2/5, others<1/35. Asks structural EX stall cycles, ceiling each latency/cycle then subtract base one. Full table inspected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sliding-window-utilization",
+      "title": "Relate sender window to ACK-return time and utilization",
+      "subject": "10-computer-networks",
+      "status": "reviewed",
+      "representative": "CS-2026-S1-Q45",
+      "members": [
+        "CS-2003-Q84",
+        "CS-2021-S1-Q59",
+        "CS-2026-S1-Q45"
+      ],
+      "rationale": "Draw the sender data-serialization and round-trip ACK timeline. The useful transmit fraction is bounded by window x frame transmission time divided by the data/ACK-return cycle, capped at full utilization. 2003 supplies the window and asks maximum throughput; 2021 inverts the relationship for 50% utilization and explicitly includes a small nonzero ACK frame and nearest-integer rounding instruction; 2026 asks minimum whole-frame window for 100% utilization with zero ACK serialization. Keep one-way propagation distinct from round-trip delay and preserve each source rounding convention. Exclude sequence-number wrap bounds, selective-repeat half-space rules, TCP scaling and ambiguous RTT-only optimal-window conventions.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2003-Q84",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+            "page": 12,
+            "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+            "notes": "Full duplex sliding-window link, send/receive windows 5 packets, 1000-byte packets serialized in 50 microseconds, 200 microseconds one-way propagation, negligible ACK transmission. Asks maximum throughput. Complete stem and four options inspected."
+          },
+          {
+            "question_id": "CS-2021-S1-Q59",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 39,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Printed Q49: full duplex error-free link, infinite frames, 2000-bit data and 10-bit ACK frames, 1Mbps in each direction, one-way 100ms, processing negligible. Asks minimum sender window rounded nearest integer for 50% utilization; retain explicit ACK serialization and rounding instruction. Full source inspected."
+          },
+          {
+            "question_id": "CS-2026-S1-Q45",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 34,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "Lossless sliding-window link, 1000-bit frames including headers, 100kbps, one-way100ms, zero processing and ACK transmission; asks minimum frames in window for 100% utilization. Full page/options inspected; data serialization must be included in ACK-return cycle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "selective-repeat-sequence-bits",
+      "title": "Size selective-repeat sequence fields from target utilization",
+      "subject": "10-computer-networks",
+      "status": "reviewed",
+      "representative": "CS-2016-S2-Q65",
+      "members": [
+        "CS-2014-S1-Q38",
+        "CS-2016-S2-Q65"
+      ],
+      "rationale": "Compute frame serialization time and round-trip propagation, derive the sender-window requirement for the requested utilization, then choose sequence-field bits with at least twice the selective-repeat window capacity. The 2014 variant targets 60% on a 1.5Mbps link; 2016 targets full utilization on a slower satellite link and explicitly neglects ACK transmission. Both name selective repeat, so do not substitute the Go-Back-N bound W<=2^m-1 or infer the protocol from a generic sliding-window stem. Keep unit conventions and each target utilization explicit.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-hardware-pattern-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S1-Q38",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 13,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Printed Q28: selective repeat, 1KB frames, 1.5Mbps, 50ms one-way latency, target utilization 60%; asks sequence-number bits. Full source inspected. Determine required window from transmission plus roundtrip, then enforce SR half-sequence-space rule."
+          },
+          {
+            "question_id": "CS-2016-S2-Q65",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 43,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Printed Q55: selective repeat satellite link 128x10^3bit/s, 150ms one-way delay, 1KB frames, negligible ACK transmission; asks sequence-number bits for 100% utilization. Full page inspected; requires window sizing and SR half-space bound."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-nth-symbol-from-right",
+      "title": "Track a bounded suffix for a symbol counted from the right",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2017-S1-Q32",
+      "members": [
+        "CS-1991-Q71",
+        "CS-2017-S1-Q32"
+      ],
+      "rationale": "Both require remembering the last k symbols to decide whether the kth-from-right symbol has the required value, then separating suffix histories to justify the minimal DFA size. The alphabet labels and k differ (three versus two); 1991 also requires an NFA construction. Excludes positions counted from the left, exact lengths, and a fixed complete ending word. All variants remain individually accessible; this is a problem pattern, not a repeat or transcription verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1991-Q71",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+            "page": 8,
+            "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed 17(b) asks an NFA for binary strings whose third symbol from the right is 1, and the minimized equivalent DFA state count with brief justification. Full reproduction page checked; no supplied automaton or options."
+          },
+          {
+            "question_id": "CS-2017-S1-Q32",
+            "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+            "page": 11,
+            "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed question 22 asks smallest DFA state count for (a+b)*b(a+b) over {a,b}; full expression and NAT line inspected. Second symbol from right must be b. Requires remembering a bounded suffix and proving distinguishability; 1991 instead asks third-from-right plus explicit NFA."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-fixed-ending-pattern",
+      "title": "Track suffix-prefix matches for a fixed ending word",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2021-S1-Q48",
+      "members": [
+        "CS-2015-S2-Q45",
+        "CS-2021-S1-Q48"
+      ],
+      "rationale": "Build transitions by retaining the longest suffix of the input that is a prefix of the required ending word, including fallback after a full match. 2015 asks state count for ending 10; 2021 selects among complete diagrams for ending 011. Excludes contains/avoids substring languages, for which a completed match becomes permanent. All variants remain individually accessible; this is a problem pattern, not a repeat or transcription verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2015-S2-Q45",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 41,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed question 45 NAT asks minimal deterministic automaton states for (0+1)*(10); full question and following answer line visible. Fixed suffix 10 requires longest relevant suffix tracking and fallback transitions."
+          },
+          {
+            "question_id": "CS-2021-S1-Q48",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 32,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed Q38 language ends in 011 and all four DFA diagram choices inspected, including differing outgoing transitions from final state. Correct fixed-ending matcher must retain longest suffix which is a prefix of 011 and leave final state appropriately. Unlike 2015 this selects the whole machine rather than counts states."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nfa-subset-state-bound",
+      "title": "Apply the subset-construction DFA state bound",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2026-S1-Q26",
+      "members": [
+        "CS-2001-Q6",
+        "CS-2025-S1-Q28",
+        "CS-2026-S1-Q26"
+      ],
+      "rationale": "All reason from an N-state NFA without its graph using at most 2^N deterministic subsets, and distinguish an upper bound from the potentially smaller minimal machine. 2001 asks the worst-case expression with a documented wording caveat; 2025 tests quantified statements; 2026 instantiates N=6 and asks impossible counts. Not repeats and not tasks requiring a concrete subset-transition table. All variants remain individually accessible; this is a problem pattern, not a repeat or transcription verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2001-Q6",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+            "page": 1,
+            "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed reproduction 6 supplies an arbitrary N-state NFA and asks maximum minimized equivalent DFA states, with N squared, 2^N, 2N, N factorial options. Wording says maximum ... at least; keep existing wording caveat. No machine supplied. Apply subset construction bound and distinguish worst-case attainment from per-language minimum."
+          },
+          {
+            "question_id": "CS-2025-S1-Q28",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 28,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Full official page and all MSQ options checked. Given regular L accepted by n-state NFA, asks false statements about smaller NFAs/DFAs, existence of a DFA with <=2^n states and every DFA having >2^n states. Apply subset-construction upper bound and distinguish existence from universal claims; no concrete NFA supplied."
+          },
+          {
+            "question_id": "CS-2026-S1-Q26",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+            "page": 20,
+            "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Full official page and all MSQ options inspected. Six-state NFA over finite alphabet; asks values impossible for minimum equivalent DFA, options 32,65,1,128. Apply 2^6 subset upper bound, allowing reductions; no actual machine supplied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-explicit-state-equivalence",
+      "title": "Compare future acceptance to merge or distinguish DFA states",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2024-S1-Q50",
+      "members": [
+        "CS-2007-Q75",
+        "CS-2011-Q55",
+        "CS-2024-S1-Q50"
+      ],
+      "rationale": "Each supplies a complete DFA diagram and asks questions resolved by state equivalence: start with accepting versus rejecting states and refine using successor classes or distinguishing suffixes. 2007 removes an unreachable state and counts equivalence classes; 2011 selects the minimal valid diagram; 2024 tests specific pairs and adds an equal-count acceptance claim. That additional invariant remains visible as a broader variant. Excludes constructing an automaton solely from a language description. All variants remain individually accessible; this is a problem pattern, not a repeat or transcription verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2007-Q75",
+            "file": "sources/archive/CS/CS2007.pdf",
+            "page": 19,
+            "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Full common-data diagram for Q74/75 inspected: start q0, accepting q1/q2, unreachable q3; a transitions q0→q1,q1→q2,q2→q1,q3→q1 and b loops q0/q1/q2 with q3→q2. Q75 asks minimum equivalent states, choices 1,2,3,4. Requires reachability and equivalence merging, not language construction from a regex."
+          },
+          {
+            "question_id": "CS-2011-Q55",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 12,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed Q45 complete five-state DFA and all four graphical alternatives inspected. Start p, final s/t, p b→q b→r; p a→s and q a→t, r/s/t loop on a,b. Must select valid minimal equivalent machine. Option C has overlapping b transitions; all alternatives preserved. Uses state equivalence refinement plus validity/reachability checks."
+          },
+          {
+            "question_id": "CS-2024-S1-Q50",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+            "page": 31,
+            "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Full five-state diagram, start/final state 1, edges and four MSQ statements inspected. Inputs (0,1) map 1→(2,4),2→(3,1),3→(1,2),4→(1,5),5→(4,1). First three claims ask distinguishability of named pairs; fourth asks acceptance for equal zero/one counts. Shares concrete state-equivalence analysis but adds a language invariant claim; not a repeat of minimize-and-count tasks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfa-finite-group-accumulator",
+      "title": "Accumulate finite-group products and distinguish with inverses",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2025-S2-Q60",
+      "members": [
+        "CS-2019-Q58",
+        "CS-2025-S2-Q60"
+      ],
+      "rationale": "Both map a word to an accumulated finite-group element, accept one target element, and ask minimum DFA size. Construct one state per reachable group element and use a completing inverse suffix to distinguish two accumulated products. 2019 uses all permutations on five elements with identity target; 2025 uses nonzero residues modulo seven generated by {1,2,3,4} with target two. The group, generator set, noncommutativity and target differ; the reachability and inverse-suffix method is shared. Excludes positional binary-value remainder machines and symbol-count congruence machines. All variants remain individually accessible; this is a problem pattern, not a repeat or transcription verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-formal-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2019-Q58",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+            "page": 14,
+            "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Printed Q48 defines alphabet as all bijections of {1,...,5}, word product as permutation composition, empty product identity, and target identity. Asks minimum DFA count. Track accumulated group element, prove reachability and distinguish pairs with inverse-completion suffixes; no supplied automaton/options."
+          },
+          {
+            "question_id": "CS-2025-S2-Q60",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 45,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Visually inspected full source page, relevant figures, options and context. Full official page inspected: alphabet {1,2,3,4}, symbol product modulo 7, prod(epsilon)=1, target prod=2; NAT minimum DFA states. Example prod(124)=1. Accumulated nonzero multiplicative residue is a finite-group element; construct reachable product states and distinguish with inverse-completion suffixes, unlike 2019 permutation composition."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-precedence-graph-translation",
+      "title": "Translate precedence edges into semaphore synchronization",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-1993-Q60",
+      "members": [
+        "CS-1993-Q60",
+        "CS-1995-Q78"
+      ],
+      "rationale": "Both problems translate statement precedence into, or out of, semaphore handoffs in parallel branches: match each predecessor signal to the successor wait, preserving fan-out and joins. The 1993 problem supplies a six-statement graph and asks for code; the 1995 problem supplies nine branches and asks for the graph. The direction, graph and output differ, so they are not repeats. The 1995 reproduction does not specify initial values; its intended dependency interpretation requires initially zero edge semaphores, and its source caveats must remain visible. Exclude semaphore mutex ownership, token counts and cyclic printing, which do not encode a finite statement DAG. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q60",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 13,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Visually inspected full PDF page 13, printed Q22, including the complete precedence graph and standalone instruction. It asks for a concurrent parbegin-parend/semaphore program for S1 through S6. Checked directed edges S1→S2, S1→S3, S2→S4, S2→S5, S3→S5, S6→S4 and S6→S5; S6 is a source. There are no answer options or shared stem for this question."
+          },
+          {
+            "question_id": "CS-1995-Q78",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+            "page": 8,
+            "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+            "notes": "Visually inspected full PDF page 8, printed Q67, including all nine cobegin branches and the declaration a,b,c,d,e,f,g,h,i,j,k as semaphores. It asks for the precedence graph for S1 through S9. The inspected reproduction has V(e) after S4 and P(j); P(k) before S9. Initial semaphore values are not explicitly supplied, so deriving the intended dependency graph assumes initially zero edge semaphores; retain the existing source-variant and initialization caveats. No separate graph or answer options are supplied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bounded-buffer-semaphore-placement",
+      "title": "Place slot-count and mutex operations around buffer transfers",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2018-Q50",
+      "members": [
+        "CS-2002-Q95",
+        "CS-2002-Q96",
+        "CS-2018-Q50"
+      ],
+      "rationale": "Each uses a bounded producer-consumer buffer and completes semaphore operations around insertion/removal. The common procedure distinguishes available-item permits from available-slot permits, waits for availability before entering the buffer critical section, and signals the opposite count after transfer. The 2002 first part fills four count operations for a size-100 buffer; its second part adds one mutex around the same buffer/index changes for multiple producers/consumers. The 2018 variant supplies mutex operations and asks for count operands, with deliberately nonstandard empty/full meanings and general size N. Preserve these additions and naming differences, rather than treating them as repeats. Exclude lost-wakeup sleep/wakeup code and array rendezvous without a bounded slot inventory. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q95",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 10,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Visually inspected full PDF page 10 across both columns, printed Q68(a), including shared declarations BUFSIZE=100, first=last=0, b_full=0, b_empty=BUFSIZE, and the complete producer and consumer loops. It asks for missing statements p1,p2,c1,c2 for a single producer and consumer. The circular index updates are inside the transfer steps. No answer options or separate figures are supplied."
+          },
+          {
+            "question_id": "CS-2002-Q96",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 10,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Visually inspected full PDF page 10 across both columns, printed Q68(b), together with all Q68 shared code and declarations. It asks to introduce one additional semaphore and insert one statement immediately after p1, before p2, after c1 and before c2 to support multiple producers and consumers. This adds mutual exclusion around buffer/index changes to the slot-count synchronization from part (a), rather than changing buffer capacity."
+          },
+          {
+            "question_id": "CS-2018-Q50",
+            "file": "sources/archive/CS/CS2018.pdf",
+            "page": 17,
+            "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+            "notes": "Visually inspected full physical PDF page 17, printed page 14 and Q40, including the full bounded-buffer statement, producer/consumer table and all four P,Q,R,S alternatives. Capacity is N; empty,full,mutex start at 0,N,1. Crucially the source defines empty as readable-item slots and full as writable slots, opposite the usual names. Both loops already acquire/release mutex around transfer; choose the slot-count wait/signal operands from their stated meanings."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-cyclic-print-order",
+      "title": "Pass semaphore permits to enforce a repeating print order",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2022-Q19",
+      "members": [
+        "CS-2003-Q80",
+        "CS-2022-Q19"
+      ],
+      "rationale": "Both require a predetermined repeating output despite arbitrary interleaving of infinite printing processes. Follow the wait/print/signal edges as a cyclic permit handoff and enable only the required first turn initially. The 2003 variant uses two processes printing two identical characters each and asks for both operation placement and initialization; the 2022 variant has three single-character processes with fixed operations and asks only for initialization. Different cycles, labels and choice formats remain separate variants. Exclude mere run-parity constraints, one-shot feedback counts and conditional-gate outputs, which do not force this cyclic token-passing order. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2003-Q80",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+            "page": 12,
+            "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+            "notes": "Visually inspected full PDF page 12, including the entire shared Q80–81 stem, both infinite process loops, synchronization locations W,X,Y,Z and all four Q80 options. P prints two zeros and Q two ones. Q80 asks for output beginning 001100110011 and tests both semaphore cross-signalling placement and initial values. The required solution passes a single permit between the printing processes; no extra figure is present."
+          },
+          {
+            "question_id": "CS-2022-Q19",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+            "page": 15,
+            "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+            "notes": "Visually inspected full PDF page 15, Q19, including all three infinite-loop columns and all four semaphore initializations. A single processor may context-switch arbitrarily. T2 waits S1 and prints B then signals S3; T1 prints C and signals S2; T3 prints A and signals S1. The required output is BCABCABCA..., so exactly the first turn must be enabled initially. No shared stem or omitted continuation is present."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-lock-acquisition-order",
+      "title": "Choose semaphore acquisition orders that prevent circular wait",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2013-Q26",
+      "members": [
+        "CS-2004-Q48",
+        "CS-2013-Q26"
+      ],
+      "rationale": "Both supply concurrent processes that hold several binary locks until their protected work finishes and ask for a deadlock-free acquisition order. Build the lock-order constraints for each option and reject self-acquisition or a cycle; a consistent order prevents circular wait. The 2004 case has two processes and two locks with four blank acquisitions; the 2013 case has three processes taking overlapping subsets of four locks. Lock sets and option structures differ. Exclude event waits while holding a mutex, counting-permit depletion and barrier reset errors, which require different blocking arguments. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2004-Q48",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 7,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Visually inspected full PDF page 7, Q48, including both while-true process code blocks and all four L1,L2,L3,L4 option tuples. Binary semaphores Sx and Sy both start at one; each process must acquire both before updating X and Y and release them afterward. It asks for lock placement avoiding deadlock. The procedure is to reject repeated self-acquisition/opposite acquisition orders and retain a consistent common order. Preserve existing secondary-source arithmetic caveats; they do not change the lock-order comparison."
+          },
+          {
+            "question_id": "CS-2013-Q26",
+            "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+            "page": 4,
+            "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+            "notes": "Visually inspected full PDF page 4, printed Q16, including the complete acquisition/release description and all four three-process acquisition-order alternatives. X uses a,b,c; Y uses b,c,d; Z uses c,d,a. All four semaphores are binary and start at one; locks are held until each code segment finishes. It asks for a deadlock-free P-operation order, solved by comparing acquisition precedence and rejecting circular-wait orders."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reusable-barrier-generation-reset",
+      "title": "Trace and repair overlapping barrier generations",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2006-Q78",
+      "members": [
+        "CS-2006-Q78",
+        "CS-2006-Q79"
+      ],
+      "rationale": "These linked questions use the same three-process barrier and the same procedure: trace a fast process entering the next invocation before the prior generation has completed/reset its shared arrival and departure counters, then test whether proposed changes prevent that interleaving. Q78 asks for the failure and Q79 for a repair, so retain both different tasks rather than calling them repeats. The printed first-process repair is conceptual and its implementation caveat remains. Exclude one-shot arrival-threshold gates, which have no counter-reset/reuse phase. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q78",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 12,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Visually inspected full PDF page 12 across both columns, including the full linked Q78–79 stem, the eleven-line barrier code, shared counters initialized to zero and all four Q78 options. Three processes call the barrier repeatedly. The requested diagnosis concerns one generation re-entering before the prior generation resets process_arrived/process_left; a one-shot threshold gate does not have this reset problem."
+          },
+          {
+            "question_id": "CS-2006-Q79",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 12,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Visually inspected full PDF page 12 across both columns, including the complete linked Q78–79 barrier and all four Q79 repairs. It asks which change rectifies the same consecutive-invocation failure: decrements, a first-process zero-counter wait, disabling context switches or making process_left private. The first-process wording is conceptual and leaves concrete generation synchronization underspecified; preserve this existing caveat rather than treating it as verified implementation code."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-arrival-threshold-gate",
+      "title": "Trace a counter-triggered semaphore gate",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2020-Q44",
+      "members": [
+        "CS-2020-Q44",
+        "CS-2026-S2-Q51"
+      ],
+      "rationale": "Both have a mutex-protected arrival counter, an initially closed second semaphore signaled at a specified count, and a wait/signal handoff that lets later work proceed once the threshold is reached. Derive the partial order from counter updates and the gate-opening event, then test the requested guarantees or output traces. In 2020 the threshold is all n processes and the question asks P-before-Q ordering; in 2026 it is two of three processes and printing occurs on both sides, so the third arrival can interleave with released prints. The lower threshold and output ordering are essential variants, not equivalent barriers or repeats. Exclude reusable barriers with counter reset and fixed cyclic print rings. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2020-Q44",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 11,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "notes": "Visually inspected full PDF page 11, printed Q34, including both P/Q code-section boxes, complete intervening code and all four claims. n processes share count=0 and semaphores a=1,b=0; P does not use count. Under a, each process increments count and the nth arrival signals b; wait(b);signal(b) then passes the released permit onward. The question asks the guaranteed before/after ordering, not barrier reuse."
+          },
+          {
+            "question_id": "CS-2026-S2-Q51",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 37,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "notes": "Visually inspected full physical PDF page 37, printed page 36, Q51, including every pseudocode line, arbitrary-switching/atomic-line assumptions and all four output strings. Three processes share binary A=1,B=0 and X=0. Under A they print *, increment X and the second arrival prints $ and signals B; after releasing A they pass through wait(B),print(#),signal(B). Thus the arrival threshold is two of three, not an all-process barrier, and later * can interleave with # after the gate opens. SHA-256 was computed directly from the inspected PDF because this crop entry lacks source_sha256."
+          }
+        ]
+      }
+    },
+    {
+      "id": "semaphore-event-wait-under-mutex",
+      "title": "Detect deadlock from waiting for an event while holding its mutex",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2024-S2-Q46",
+      "members": [
+        "CS-2014-S2-Q41",
+        "CS-2024-S2-Q46"
+      ],
+      "rationale": "Both have an initially available mutex and an initially unavailable event semaphore. One participant acquires the mutex and then waits for the event without releasing it, while the participant that can signal the event first needs that same mutex. Trace which participant acquires the mutex first to identify the circular wait and distinguish a successful order. The 2014 version uses producer-consumer loops and an empty buffer; the 2024 version uses one-shot threads, a shared increment and printed outcomes. These are different applications and questions sharing the same two-semaphore blocking dependency. Exclude general opposite lock-order questions, sleep/wakeup lost signals and semaphore implementation details. Every original question and all its variants remain accessible. This review establishes pattern membership only, not transcription, solution or official-key verification.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-semaphore-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S2-Q41",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 37,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Visually inspected full physical PDF page 37, printed set-2 page 8 and Q31, including both complete producer/consumer loops and all four alternatives. n starts at zero and s at one. Consumer waits on s before n; producer needs s before adding an item and signaling n. The empty-buffer schedule creates a circular wait because the consumer holds the mutex while waiting for an event only the excluded producer can generate."
+          },
+          {
+            "question_id": "CS-2024-S2-Q46",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 32,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "Visually inspected full PDF page 32, Q46, including both complete thread code blocks and all four outcome choices. Shared s1=1,s2=0,x=0. T1 acquires s1, increments/prints x, waits on s2 and then releases s1; T2 acquires s1, increments/prints x, signals s2 and releases s1. Running the waiting thread first holds the mutex needed by its signaler and deadlocks; running the signaler first allows both to finish."
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-1",
+      "title": "Trace recursive macro expansion",
+      "subject": "07-compiler-design",
+      "status": "reviewed",
+      "representative": "CS-1996-Q41",
+      "members": [
+        "CS-1992-Q31",
+        "CS-1996-Q41"
+      ],
+      "rationale": "Both present the same recursive M1/M2 macros and ask which can loop. However 1992 additionally requires an example call; 1996 only selects the macro from choices on the next page. Preserve as the same macro-expansion reasoning pattern rather than identical requested answer.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1992-Q31",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+            "page": 4,
+            "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q41",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 5,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q41",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 6,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-2",
+      "title": "Implement queue operations using stack reversal",
+      "subject": "04-data-structures",
+      "status": "reviewed",
+      "representative": "CS-2014-S2-Q51",
+      "members": [
+        "CS-2000-Q71",
+        "CS-2014-S2-Q51"
+      ],
+      "rationale": "Both use PUSH, POP and REVERSE to implement a queue, but 2000 explicitly requests ENQUEUE in one operation and DEQUEUE in three; the correct 2014 offered statement reverses those costs (ENQUEUE three, DEQUEUE one). The concrete implementation requested differs, not just answer format.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2000-Q71",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+            "page": 8,
+            "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2014-S2-Q51",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 40,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-3",
+      "title": "Analyze resource-snapshot deadlock conditions",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2019-Q49",
+      "members": [
+        "CS-2006-Q66",
+        "CS-2019-Q49"
+      ],
+      "rationale": "2006 asks a necessary condition for avoiding deadlock when processes already request Yi; 2019 asks a condition guaranteeing no process other than p,q can complete with requests of at most Yi. Same resource snapshot template, different logical condition and answer choices. Not an identical or numeric-only repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-source-audit-first-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q66",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 10,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2019-Q49",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+            "page": 13,
+            "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+            "notes": "Full source-page image visually inspected, including surrounding instructions and relevant options/figures. Relevant question content and any continuation checked.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-4",
+      "title": "Solve square-root argument recurrences",
+      "subject": "05-algorithms",
+      "status": "reviewed",
+      "representative": "CS-2017-S2-Q40",
+      "members": [
+        "CS-2006-Q51",
+        "CS-2017-S2-Q40"
+      ],
+      "rationale": "Both ask asymptotic order of a square-root recurrence with multiplier 2 and +1 toll, but 2006 explicitly rounds the square-root argument and supplies T(1)=1, whereas 2017 states an unrounded square-root recurrence for n>2 and T(n)=2 for 0<n<=2. This is the same recurrence-solving pattern, not strictly only changed given numerical values.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-independent-repeat-source-middle-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2006-Q51",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+            "page": 7,
+            "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+            "notes": "Inspected full page 7, Q51 recurrence and all four asymptotic options, including bracketed square-root argument and T(1)=1.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2017-S2-Q40",
+            "file": "sources/archive/CS/CS2-2017.pdf",
+            "page": 11,
+            "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+            "notes": "Inspected full archive page 11, printed Q30 recurrence branches n>2 / 0<n<=2, T=2 base and all asymptotic options.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-5",
+      "title": "Check BFS traversal order against graph edges",
+      "subject": "05-algorithms",
+      "status": "reviewed",
+      "representative": "CS-2017-S2-Q25",
+      "members": [
+        "CS-2008-Q19",
+        "CS-2017-S2-Q25"
+      ],
+      "rationale": "Both ask which option is a possible BFS traversal, but the 2017 graph has edge Q-O that the 2008 graph does not. The six labeled vertices are the same; adjacency structure and answer options change. A topology change is not a numeric-only repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-independent-repeat-source-middle-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2008-Q19",
+            "file": "sources/archive/CS/CS2008.pdf",
+            "page": 4,
+            "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+            "notes": "Inspected full archive page 4, Q19 BFS prompt, graph and all traversal options. Edges MN, NO, MR, MQ, NQ, QP, OP; no QO.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2017-S2-Q25",
+            "file": "sources/archive/CS/CS2-2017.pdf",
+            "page": 6,
+            "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+            "notes": "Inspected full archive page 6, printed Q15 BFS prompt, graph and all options. Graph includes QO in addition to the 2008 edges.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-6",
+      "title": "Decide bounded-step machine properties",
+      "subject": "06-theory-of-computation",
+      "status": "reviewed",
+      "representative": "CS-2021-S1-Q49",
+      "members": [
+        "CS-2016-S2-Q54",
+        "CS-2021-S1-Q49"
+      ],
+      "rationale": "2016 asks recursive status of three languages: at least 2016 steps on some input, on all inputs, and acceptance of epsilon. 2021 asks decidability of only two languages, more than 2021 steps on all/some inputs. Removing the epsilon-acceptance language changes the requested proposition set beyond a numerical bound substitution.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-independent-repeat-source-middle-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2016-S2-Q54",
+            "file": "sources/archive/CS/CS2016.pdf",
+            "page": 38,
+            "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+            "notes": "Inspected full archive page 38, printed Q44, three language definitions and all combinations of recursive/nonrecursive status.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2021-S1-Q49",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+            "page": 33,
+            "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+            "notes": "Inspected full PDF page 33 (printed page32/Q39), both quantified step-bound languages and all four decidability options.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-8",
+      "title": "Calculate asynchronous serial framing throughput",
+      "subject": "10-computer-networks",
+      "status": "reviewed",
+      "representative": "CS-2004-Q22",
+      "members": [
+        "CS-1993-Q21",
+        "CS-2004-Q22"
+      ],
+      "rationale": "Both compute asynchronous serial characters per second, but 2004 adds an explicit parity bit while 1993 specifies only character size and stop bits. This changes framing assumptions as well as baud; safe as a shared problem pattern, not a numbers-only repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1993-Q21",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+            "page": 5,
+            "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+            "notes": "Full source page visually inspected. Eight-bit characters, asynchronous 2400 baud line, two stop bits. No parity bit stated; standard one start bit gives 11 bits per character. Options 109,216,218,219,240.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2004-Q22",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 3,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Full source page visually inspected. Eight-bit characters, 9600 baud asynchronous link; explicitly one start bit, eight data bits, two stop bits and one parity bit. Options 600,800,876,1200.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-pattern-9",
+      "title": "Simulate chain lengths in a hash table",
+      "subject": "04-data-structures",
+      "status": "reviewed",
+      "representative": "CS-2026-S2-Q30",
+      "members": [
+        "CS-2014-S1-Q50",
+        "CS-2026-S2-Q30"
+      ],
+      "rationale": "Same mod-9 chained-hash simulation with one changed key (20 versus 26), but requested outputs differ: 2014 asks maximum, minimum and average chain lengths whereas 2026 asks only longest chain. Not the same requested answer, so retain as a problem pattern rather than numbers-only repeat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-repeat-source-review-last-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2014-S1-Q50",
+            "file": "sources/archive/CS/CS2014.pdf",
+            "page": 17,
+            "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+            "notes": "Full source page visually inspected. Printed Q40 gives nine hash slots, k mod 9, chaining, keys 5,28,19,15,20,33,12,17,10; asks maximum, minimum, average chain lengths, options (3,0,1),(3,3,3),(4,0,1),(3,0,2).",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2026-S2-Q30",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+            "page": 22,
+            "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+            "notes": "Full source page visually inspected. Nine keys 5,28,19,15,26,33,12,17,10; hash k mod 9; collision chaining; asks longest chain length.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "bst-probe-ancestor-bounds",
+      "title": "Check BST search probes against ancestor bounds",
+      "subject": "04-data-structures",
+      "status": "reviewed",
+      "representative": "CS-1996-Q56",
+      "members": [
+        "CS-1996-Q52",
+        "CS-1996-Q53",
+        "CS-1996-Q54",
+        "CS-1996-Q55",
+        "CS-1996-Q56"
+      ],
+      "rationale": "These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-text-candidate-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1996-Q52",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 7,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q53",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 7,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q54",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 7,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q55",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 7,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-1996-Q56",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 7,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. These five same-paper listed cases ask whether a probe sequence is possible when searching 43 in a BST. Apply ancestor lower/upper bounds to each sequence. All listed cases remain accessible; they are not repeated exam occurrences. Source first sequence uses 11, not the alternative 17 mentioned in the paraphrase caveat.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "recursive-digit-sum-trace",
+      "title": "Trace recursive digit sums in a specified base",
+      "subject": "03-programming-in-c",
+      "status": "reviewed",
+      "representative": "CS-2011-Q59",
+      "members": [
+        "CS-2011-Q58",
+        "CS-2011-Q59"
+      ],
+      "rationale": "The same complete recursive function is evaluated at (345, 10) and (513, 2). Trace quotient/remainder recursion under each base. They are two same-paper instances, not duplicate exam occurrences.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-text-candidate-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2011-Q58",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 14,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. The same complete recursive function is evaluated at (345, 10) and (513, 2). Trace quotient/remainder recursion under each base. They are two same-paper instances, not duplicate exam occurrences.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2011-Q59",
+            "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+            "page": 14,
+            "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. The same complete recursive function is evaluated at (345, 10) and (513, 2). Trace quotient/remainder recursion under each base. They are two same-paper instances, not duplicate exam occurrences.",
+            "source_reviewed": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "negative-integer-twos-complement",
+      "title": "Encode a negative integer in two’s complement",
+      "subject": "01-digital-logic",
+      "status": "reviewed",
+      "representative": "CS-2019-Q14",
+      "members": [
+        "CS-2002-Q15",
+        "CS-2019-Q14"
+      ],
+      "rationale": "Convert a negative decimal value by complement/add-one or modulo 2^w, respecting each requested or offered width. Values, widths and options differ.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-text-candidate-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2002-Q15",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+            "page": 2,
+            "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. Convert a negative decimal value by complement/add-one or modulo 2^w, respecting each requested or offered width. Values, widths and options differ.",
+            "source_reviewed": true
+          },
+          {
+            "question_id": "CS-2019-Q14",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+            "page": 4,
+            "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+            "notes": "Full relevant source-page pixels inspected, including options, figures, surrounding instructions and shared-context continuations. See referencing pair rationale for actual requested outputs and distinctions. Convert a negative decimal value by complement/add-one or modulo 2^w, respecting each requested or offered width. Values, widths and options differ.",
+            "source_reviewed": true
           }
         ]
       }
