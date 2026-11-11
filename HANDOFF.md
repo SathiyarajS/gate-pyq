@@ -153,6 +153,7 @@ Rules:
 - Notes are plain sentences a student can follow ("Slot 6 holds 50, a collision."). No review or source wording.
 - Do not edit `scripts/animations/__init__.py`, `common.py`, `site-static/steps.js`, other families' files, or `templates/`. If the core needs a change, say so instead.
 - Check: `python scripts/build_site.py --release`, then `python scripts/checks/check_study_views_browser.py` (opens one question of every kind), and look at the player at 390 px wide.
+- Practicalities learned so far: in a git worktree with no `node_modules`, symlink the main checkout's for `node tests/test_transcription_math.js` and remove the link before committing; serve `_site` on a free port (another session may hold 8000/8765); the global `th:first-child{min-width:180px}` and `td,th` border rules apply inside players, so cancel them in your family CSS; off-screen articles use `content-visibility`, so read text with `textContent` in scripts.
 
 ### 3.5 Missing official keys (optional)
 1,716 entries (1991–2010) have no official key. If an official IIT/GATE key for one of those years turns up, record it exactly as printed and log any disagreement with our answers in `DISCREPANCIES.md`.
