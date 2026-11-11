@@ -29,18 +29,20 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # The Noble Playwright image already includes Python 3.12 and pip.
+      - name: Cache Python downloads
+        uses: actions/cache@v4
         with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: requirements-site.txt
+          path: ~/.cache/pip
+          key: pip-playwright-${{ runner.arch }}-${{ hashFiles('requirements-site.txt') }}
+          restore-keys: pip-playwright-${{ runner.arch }}-
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
       - name: Install dependencies
         run: |
-          pip install -r requirements-site.txt pytest
+          python -m pip install -r requirements-site.txt pytest
           npm ci --ignore-scripts
       - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
         continue-on-error: true
