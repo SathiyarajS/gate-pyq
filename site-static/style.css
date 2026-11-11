@@ -65,3 +65,4 @@ details.steps{margin:10px 0 16px;border:1px solid var(--line);border-radius:8px;
 .steps-bar{display:flex;align-items:center;gap:12px}.steps-count{font-size:.85rem;color:var(--muted);min-width:7.5em;text-align:center}
 @media print{details.steps{display:none!important}}
 @media(max-width:520px){.steps-table th,.steps-table td{padding:4px 6px}.steps-table th{white-space:normal}.steps-table{font-size:.8rem}details.steps{padding:0 10px}}
+.pointers .install-app{font-weight:650}.pointers .install-hint{color:var(--muted);font-weight:400}.install-app[hidden],.install-hint[hidden]{display:none}

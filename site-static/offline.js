@@ -98,9 +98,5 @@
     else if (pack && button.classList.contains('pack-save')) run([pack], save);
     else if (pack && button.classList.contains('pack-remove')) run([pack], remove);
   });
-  // Chrome and Edge offer installation through this event; Safari uses Share → Add to Home Screen.
-  let installPrompt = null; const install = document.querySelector('#offline-install');
-  addEventListener('beforeinstallprompt', event => { event.preventDefault(); installPrompt = event; install.hidden = false; });
-  install.addEventListener('click', async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; install.hidden = true; });
   render();
 })();
