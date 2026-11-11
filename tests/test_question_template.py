@@ -43,7 +43,7 @@ class QuestionTemplateTests(unittest.TestCase):
     def render(self, crops, prefix='../../'):
         env = Environment(loader=FileSystemLoader(ROOT / 'templates/site'),
                           autoescape=select_autoescape(['html']))
-        env.filters['rich'] = builder.rich; env.filters['solution'] = builder.solution
+        env.filters['rich'] = builder.rich; env.filters['solution'] = builder.solution; env.filters['reader'] = builder.reader; env.filters['answer'] = builder.answer
         q = dict(question_id='CS-2026-Q1', display_type='MCQ', practice_key='B',
                  subject_dir='test', number='1', ordinal=1, year=2026, session='CS1',
                  marks=1, discrepancy_ids=[], permalink='q/CS-2026-Q1/', report='#',

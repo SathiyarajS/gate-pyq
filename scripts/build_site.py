@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from transcription import load_paper, resolve
 import site_features
 import question_groups
+from reader_text import reader, answer
 TITLES = ['Digital Logic','Computer Organization & Architecture','Programming in C','Data Structures','Algorithms','Theory of Computation','Compiler Design','Operating Systems','Database Management Systems','Computer Networks','General Aptitude','Discrete Mathematics','Engineering Mathematics & Other Topics']
 
 def load(path, default=None):
@@ -46,7 +47,7 @@ def rich(value):
 
 def solution(value):
     """Solution text: like rich(), plus numbered steps and '- ' notes laid out as steps and lists."""
-    chunks = re.split(r'(```[^\n]*\n.*?```)', str(value or ''), flags=re.S)
+    chunks = re.split(r'(```[^\n]*\n.*?```)', reader(str(value or '')), flags=re.S)
     result = []
     for chunk in chunks:
         if chunk.startswith('```'):
@@ -68,6 +69,11 @@ def solution(value):
                 else: flush_items(); buf.append(line)
             flush_items(); flush_text()
     return Markup(''.join(result))
+
+def paper_label(paper_id):
+    """CS-2014-S2 -> 'GATE 2014 · Set 2'."""
+    m=re.match(r'CS-(\d{4})(?:-S(\d+))?$',paper_id)
+    return ('GATE '+m.group(1)+(' · Set '+m.group(2) if m.group(2) else '')) if m else paper_id
 
 def discrepancies():
     rows={}
@@ -92,7 +98,7 @@ def main():
         if not re.fullmatch(r'[A-Za-z0-9_-]+',q['question_id']) or not re.fullmatch(r'[A-Za-z0-9_-]+',q['paper_id']):raise SystemExit('Unsafe identifier')
         seen.add(q['question_id']); subject=q['subject'] if q['subject']!='excluded' else '13-other-topics'
         q['subject_dir']=subject;q['year']=pmap[q['paper_id']]['year'];q['display_type']=q['question_type'].upper() if q['question_type'].upper() in ('MCQ','MSQ','NAT') else ('Descriptive' if q['question_type'].lower() in ('descriptive','short-answer') else 'Other')
-        q['number']=q.get('printed_question_number') or q['source_question_number'];set_match=re.search(r'-S(\d+)$',q['paper_id']);q['session']='Set '+set_match.group(1) if set_match else ''
+        q['number']=re.sub(r'^GFG','',str(q.get('printed_question_number') or q['source_question_number']));set_match=re.search(r'-S(\d+)$',q['paper_id']);q['session']='Set '+set_match.group(1) if set_match else ''
         q['source_link']=safe_url(q.get('source_page_url') or q.get('source_url'));q['key_link']=safe_url(q.get('key_url'))
         if q['key_link'] and q.get('key_page') and '#' not in q['key_link']:q['key_link']+='#page='+str(q['key_page'])
         q['topic']=topics.get(subject,{}).get('assign',{}).get(q['question_id'],'unreviewed')
@@ -115,6 +121,10 @@ def main():
         q['report']='https://github.com/SathiyarajS/gate-pyq/issues/new?'+ 'title='+quote('['+q['question_id']+'] ')+'&body='+quote('Question: https://sathiyarajs.github.io/gate-pyq/'+q['permalink']+'\n\nDescribe the issue and cite the source page:\n')
         groups[subject].append(q)
     # Previously recorded repeats: links on every question and a separate folded study view.
+    display=json.loads((ROOT/'data/display-answers.json').read_text()) if (ROOT/'data/display-answers.json').exists() else {}
+    for q in questions:
+        q['derived_display']=display.get('answers',{}).get(q['question_id'],q['derived_answer'])
+        q['question_title']=display.get('titles',{}).get(q['question_id'],q['question_title'])
     repeats=site_features.load_repeats(ROOT,questions);byid={q['question_id']:q for q in questions}
     for q in questions:
         info=repeats.get(q['question_id'])
@@ -171,7 +181,7 @@ def main():
         shutil.copytree(katex_dir,out/'assets/vendor/katex',dirs_exist_ok=True)
         shutil.copy2(ROOT/'node_modules/katex/LICENSE',out/'assets/vendor/katex/LICENSE')
     shutil.copytree(ROOT/'site-static',out/'assets',dirs_exist_ok=True)
-    env=Environment(loader=FileSystemLoader(ROOT/'templates/site'),autoescape=select_autoescape(['html']));env.filters['rich']=rich;env.filters['solution']=solution
+    env=Environment(loader=FileSystemLoader(ROOT/'templates/site'),autoescape=select_autoescape(['html']));env.filters['rich']=rich;env.filters['solution']=solution;env.filters['reader']=reader;env.filters['answer']=answer
     counts={s:len(qs) for s,qs in groups.items()};titles={s:TITLES[int(s[:2])-1] for s in groups}
     cards=[dict(slug=s,title=titles[s],count=counts[s],topics=len(topics.get(s,{}).get('topics',[]))) for s in sorted(groups)]
     def render(path,**ctx):
@@ -230,11 +240,11 @@ def main():
     for paper in papers:
         qs=[q for q in questions if q['paper_id']==paper['paper_id']];qs.sort(key=lambda q:tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
         paper_seen.extend(q['question_id'] for q in qs)
-        render('papers/'+paper['paper_id'],title=paper['paper_id'],kind='paper',questions=qs,paper_view=True,total=len(qs))
-        packs.append(dict(id=paper['paper_id'],title=paper['paper_id'],group='paper',note=f'{len(qs)} questions',urls=['papers/'+paper['paper_id']+'/']+['assets/questions/'+c['file'] for q in qs for c in q.get('original_crops',[])]))
+        render('papers/'+paper['paper_id'],title=paper_label(paper['paper_id']),kind='paper',questions=qs,paper_view=True,total=len(qs))
+        packs.append(dict(id=paper['paper_id'],title=paper_label(paper['paper_id']),group='paper',note=f'{len(qs)} questions',urls=['papers/'+paper['paper_id']+'/']+['assets/questions/'+c['file'] for q in qs for c in q.get('original_crops',[])]))
     for qid,target in canonical.items():render('q/'+qid,title=qid,kind='redirect',target=target)
     render('',title='GATE CS previous year questions',kind='home',total=len(questions))
-    render('papers',title='All papers',kind='papers',papers=sorted(papers,key=lambda p:p['paper_id'],reverse=True))
+    render('papers',title='All papers',kind='papers',papers=[dict(p,label=paper_label(p['paper_id'])) for p in sorted(papers,key=lambda p:p['paper_id'],reverse=True)])
     render('about',title='About this archive',kind='about',total_questions=len(questions))
     if weights:render('weightage',title='Where the marks are.',kind='weightage',total=len(questions))
     render('discrepancies',title='About this archive',kind='redirect',target='about/')  # former page; notes now sit with each answer

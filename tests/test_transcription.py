@@ -169,7 +169,7 @@ class TranscriptionTests(unittest.TestCase):
 
     def test_verified_template_original_toggle_and_answer(self):
         env = Environment(loader=FileSystemLoader(ROOT/'templates/site'), autoescape=select_autoescape(['html']))
-        env.filters['rich'] = build_site.rich; env.filters['solution'] = build_site.solution
+        env.filters['rich'] = build_site.rich; env.filters['solution'] = build_site.solution; env.filters['reader'] = build_site.reader; env.filters['answer'] = build_site.answer
         q = dict(self.q, transcription=self.resolve(), display_type='MCQ', practice_key='B', subject_dir='test', number='1', ordinal=1, year=2026, marks=1, discrepancy_ids=[], permalink='q/CS-X-Q1/', report='#', question_title='Title', topic_title='Topic', question_text='Paraphrase', official_answer='B', derived_answer='B', solution='Solution', discrepancies=[], original_crops=[], source_link='https://example.org/paper')
         result = env.get_template('question.html').render(q=q,prefix='../')
         self.assertIn('class="transcription"',result)
