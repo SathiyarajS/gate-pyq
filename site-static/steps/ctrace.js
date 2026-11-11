@@ -8,7 +8,7 @@ window.gateStepsRegister(({h, css}) => {
 .ctrace-code span{display:block;padding:0 10px;white-space:pre-wrap;overflow-wrap:anywhere}
 .ctrace-code span[aria-current=true]{background:color-mix(in oklab,var(--accent) 18%,transparent);box-shadow:inset 3px 0 0 var(--accent)}
 .ctrace-vars{width:100%}
-.ctrace-vars th:first-child{min-width:0;vertical-align:top}
+.ctrace-vars th:first-child{min-width:0;vertical-align:top;white-space:nowrap}
 .ctrace-vars th,.ctrace-vars td{white-space:normal;overflow-wrap:anywhere}
 .ctrace-vars tbody th{color:var(--ink)}
 .ctrace-vars th small,.ctrace-vars .ctrace-shadow{display:block;font-weight:400;color:var(--muted)}
