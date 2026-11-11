@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "id": "srtf-schedule-metrics",
+      "title": "Simulate SRTF and derive waiting or turnaround time",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2025-S2-Q26",
+      "members": [
+        "CS-2004-Q46",
+        "CS-2024-S2-Q37",
+        "CS-2025-S2-Q26"
+      ],
+      "rationale": "Each question supplies process arrival times and one CPU burst per process, requires simulating preemptive shortest remaining time first (called SRPT in 2004), and derives an average from process completion times. They share the scheduling procedure, not identical statements or answers: 2004 and 2025 ask average turnaround with different inputs and preemption sequences; 2024 asks average waiting and additionally compares a nonpreemptive SJF schedule. Keep every variant accessible. Exclude conceptual scheduling properties, policy identification without an arrival/burst simulation, and CPU/I/O idle-time or utilization problems requiring alternating I/O phases. Sharing the CPU-scheduling topic alone is insufficient.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-pattern-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2004-Q46",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 6,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Visually inspected the full PDF pages 6 and 7, including the continuation and all four options. P1..P4 arrival/burst pairs are (0,5), (1,3), (2,3), (4,1) milliseconds. The question explicitly specifies preemptive shortest remaining processing time first (SRPT) and asks average turnaround time. No context-switch overhead is supplied. This third-party reproduction contains the complete table and continuation; no additional scheduling figure is present."
+          },
+          {
+            "question_id": "CS-2004-Q46",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+            "page": 7,
+            "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+            "notes": "Continuation of Q46: visually checked the explicit preemptive SRPT policy and turnaround-time answer choices on the full source page."
+          },
+          {
+            "question_id": "CS-2024-S2-Q37",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+            "page": 25,
+            "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+            "notes": "Visually inspected full PDF page 25, including all options. A..D arrival/burst pairs are (0,10), (2,6), (4,3), (6,7). The question asks average waiting times for both preemptive SRTF and nonpreemptive SJF on a single processor. The extra nonpreemptive schedule and waiting-time metric make this a broader variant, not a repeat of the turnaround questions. No additional scheduling figure is present."
+          },
+          {
+            "question_id": "CS-2025-S2-Q26",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+            "page": 21,
+            "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+            "notes": "Visually inspected full PDF page 21, including all options. P1..P4 arrive at 0,1,2,8 milliseconds with execution times 10,13,6,9 milliseconds. The question specifies SRTF, explicitly ignores context switching times, and asks average turnaround time. The arrival and burst values and preemption sequence differ from the 2004 variant. No additional scheduling figure is present."
+          }
+        ]
+      }
+    }
+  ]
+}
