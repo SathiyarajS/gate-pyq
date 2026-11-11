@@ -1,0 +1,2103 @@
+{
+  "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+  "reviewed_on": "2026-11-11",
+  "scope": "Independent grouping coherence review only; no transcription, solution, key, or exhaustive pairwise uniqueness certification. Ungrouped questions must remain visible.",
+  "subjects": [
+    {
+      "subject": "01-digital-logic",
+      "verdict": "accept_with_required_wording_fixes",
+      "coverage_checks": {
+        "canonical_ids": 241,
+        "record_ids": 241,
+        "exact_id_match": true,
+        "duplicate_records": [],
+        "proposed_group_members": 178,
+        "unique_group_members": 178,
+        "preserved_prior_groups": [
+          "synchronous-flip-flop-state-trace",
+          "mealy-equivalence-partition-quotient",
+          "negative-integer-twos-complement"
+        ],
+        "all_proposed_members_source_checked": true,
+        "ungrouped_source_records_not_independently_rereviewed": 63
+      },
+      "accepted_groups": [
+        {
+          "id": "digital-minimum-pos-cover",
+          "members": [
+            "CS-1996-Q49",
+            "CS-2017-S2-Q38"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1996-Q49",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 7,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S2-Q38",
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 11,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both actual K-maps ask minimum POS: cover OFF cells rather than ON cells, preserving 2017 dont-cares. Distinct from SOP and essential-prime groups."
+        },
+        {
+          "id": "digital-prime-implicant-analysis",
+          "members": [
+            "CS-1997-Q36",
+            "CS-2004-Q59",
+            "CS-2015-S3-Q62",
+            "CS-2018-Q59"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1997-Q36",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 4,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1997-Q36",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 5,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q59",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 8,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q59",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 9,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S3-Q62",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 77,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2018-Q59",
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 20,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "1997 asks implicant/prime distinctions, 2004 essential primes, 2015 prime count and 2018 essential primes with dont-cares. Enumerating maximal legal cubes followed by unique required-ON coverage is concrete common procedure; do not equate prime with essential or include dont-care-only coverage."
+        },
+        {
+          "id": "digital-gate-network-function",
+          "members": [
+            "CS-1993-Q18",
+            "CS-1994-Q8",
+            "CS-2005-Q15",
+            "CS-2010-Q41",
+            "CS-2011-Q23",
+            "CS-2020-Q38",
+            "CS-2025-S2-Q31"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1993-Q18",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 4,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1994-Q8",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 1,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q15",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 2,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2010-Q41",
+              "file": "sources/archive/CS/CS2010.pdf",
+              "page": 7,
+              "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2011-Q23",
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 4,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2020-Q38",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+              "page": 9,
+              "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2020-Q38",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+              "page": 10,
+              "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S2-Q31",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 25,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All seven networks require substituting gate functions along directed wires. Checked NAND/NOR and inversion bubbles, 2011 negative-equivalence request, 2020 minterm output and 2025 multi-select formulas. Outputs differ, but no synthesis or sequential reasoning is introduced."
+        },
+        {
+          "id": "digital-mux-network-evaluation",
+          "members": [
+            "CS-2001-Q36",
+            "CS-2002-Q27",
+            "CS-2006-Q35",
+            "CS-2010-Q19",
+            "CS-2014-S1-Q55",
+            "CS-2016-S1-Q40",
+            "CS-2024-S1-Q64",
+            "CS-2026-S2-Q59"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2001-Q36",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 5,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q27",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 3,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q27",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 4,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2006-Q35",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 5,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2010-Q19",
+              "file": "sources/archive/CS/CS2010.pdf",
+              "page": 3,
+              "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S1-Q55",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 19,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S1-Q40",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 13,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S1-Q64",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 36,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S2-Q59",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+              "page": 40,
+              "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All eight use selector-conditioned data evaluation. Retain 2002 enable, select significance, 2024 counting unknown/known input combinations, and 2026 decoder before mux. These add preprocessing or counting but preserve cofactor evaluation, unlike synthesis of missing inputs."
+        },
+        {
+          "id": "digital-mux-function-synthesis",
+          "members": [
+            "CS-1992-Q40",
+            "CS-1996-Q57",
+            "CS-2004-Q60",
+            "CS-2021-S2-Q15",
+            "CS-2023-Q44"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1992-Q40",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 5,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1996-Q57",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 7,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q60",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 9,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S2-Q15",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 57,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2023-Q44",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 46,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All five derive data inputs by fixing select values. 1992 priority A>B>C requires a multi-output truth table first; 1996 controlled NOR/OR/XOR/AND retains gate-resource restrictions; 2004 disallows extra gates; 2021/2023 compare proposed connections. This is synthesis, not evaluation."
+        },
+        {
+          "id": "digital-boolean-algebra-reduction",
+          "members": [
+            "CS-1997-Q11",
+            "CS-1997-Q88",
+            "CS-2002-Q28",
+            "CS-2004-Q17",
+            "CS-2008-Q26",
+            "CS-2011-Q24",
+            "CS-2014-S1-Q17",
+            "CS-2017-S2-Q37",
+            "CS-2021-S1-Q52",
+            "CS-2025-S2-Q50"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1997-Q11",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 2,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1997-Q88",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 10,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q28",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 4,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q17",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 3,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2008-Q26",
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 5,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2011-Q24",
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 4,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S1-Q17",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 9,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S2-Q37",
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 10,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S1-Q52",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 35,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S2-Q50",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 38,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All ten use algebraic substitution and Boolean identities on fully specified formulas. Checked defined operators in 1997/2002, complement scope in 2021 and false-identity request in 2017. Minimum SOP outputs versus multi-select identity checks remain distinct; no K-map or gate-resource assumptions are inferred."
+        },
+        {
+          "id": "digital-xor-xnor-parity",
+          "members": [
+            "CS-1994-Q48",
+            "CS-1994-Q49",
+            "CS-1998-Q13",
+            "CS-2007-Q33",
+            "CS-2013-Q31",
+            "CS-2014-S3-Q65",
+            "CS-2016-S2-Q18",
+            "CS-2018-Q14",
+            "CS-2019-Q16",
+            "CS-2026-S1-Q21"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1994-Q48",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 4,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1994-Q49",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 4,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1994-Q49",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 5,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1998-Q13",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 2,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2007-Q33",
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 7,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2013-Q31",
+              "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+              "page": 5,
+              "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S3-Q65",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 66,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S2-Q18",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 27,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2018-Q14",
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 5,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2019-Q16",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 5,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S1-Q21",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 16,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All ten source tasks centrally use XOR cancellation/parity and XNOR complementation. Includes repeated bit strings, associativity identities, even-parity constraint and formula equivalence. Checked whole-expression versus operand overbars in 2018 and 2026; do not silently treat XOR as OR."
+        },
+        {
+          "id": "digital-operator-laws",
+          "members": [
+            "CS-1992-Q11",
+            "CS-1998-Q43",
+            "CS-2015-S1-Q40",
+            "CS-2015-S3-Q16"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1992-Q11",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 1,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1998-Q43",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 4,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S1-Q40",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 15,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S3-Q16",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 58,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four explicitly ask commutativity/associativity, from named operations, the XOR truth table, or NAND defined as X-prime+Y-prime. Test universal identities or a counterexample, not just the visual operator name. 1992 and 1998 are the same task with reordered options."
+        },
+        {
+          "id": "digital-elementary-boolean-identities",
+          "members": [
+            "CS-1999-Q7",
+            "CS-2024-S2-Q30",
+            "CS-2026-S2-Q16"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1999-Q7",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 1,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S2-Q30",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+              "page": 20,
+              "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S2-Q16",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+              "page": 14,
+              "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All three are elementary identities: self NAND/NOR as negation, idempotence/identity/complement, and commutativity. Their small substitution/truth-table check is coherent; the negative wording in each must be retained."
+        },
+        {
+          "id": "digital-simultaneous-boolean-constraints",
+          "members": [
+            "CS-1994-Q50",
+            "CS-2000-Q33"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1994-Q50",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 5,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2000-Q33",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 4,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both require satisfying two simultaneous Boolean equations, not simply reducing an isolated expression. 1994 equation outputs and 2000 concrete assignments were checked; conjunctively constrain variables and verify candidate assignments."
+        },
+        {
+          "id": "negative-integer-twos-complement",
+          "members": [
+            "CS-2001-Q35",
+            "CS-2002-Q15",
+            "CS-2019-Q14"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2001-Q35",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 5,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q15",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 2,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2019-Q14",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 4,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All three ask encoding of a negative integer, using 2^w-|n| or inversion-plus-one. 2001 asks hexadecimal, 2002 options have different widths, and2019 specifies16 bits. These representation/width constraints remain explicit."
+        },
+        {
+          "id": "digital-signed-overflow-test",
+          "members": [
+            "CS-1992-Q39",
+            "CS-2002-Q21",
+            "CS-2017-S1-Q19",
+            "CS-2022-Q18",
+            "CS-2024-S1-Q13",
+            "CS-2026-S1-Q22",
+            "CS-2026-S2-Q28"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1992-Q39",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 5,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q21",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 3,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S1-Q19",
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 5,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2022-Q18",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2022/cs_2022.pdf",
+              "page": 14,
+              "sha256": "236fb65d02777feba9811b3c5ac62e6305ecfe789f2dd46e29e90f114f75951f",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S1-Q13",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 9,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S1-Q22",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 17,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S2-Q28",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+              "page": 21,
+              "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All seven compare mathematical results with the signed representable range or equivalent sign/carry test. Keep two-complement versus 2026 S1 sign-magnitude distinct; 2024 includes subtraction and doubling, and2026 S2 combines addition/subtraction. A final carry alone is not signed overflow."
+        },
+        {
+          "id": "digital-signed-range-cardinality",
+          "members": [
+            "CS-1999-Q42",
+            "CS-2005-Q16",
+            "CS-2013-Q14",
+            "CS-2016-S2-Q19"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1999-Q42",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 5,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q16",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 2,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2013-Q14",
+              "file": "sources/web/www.gate.iitb.ac.in:80/gate2013/wp-content/uploads/2013/03/CS-A.pdf",
+              "page": 2,
+              "sha256": "18d6722f584ad7bc4f98462f44b2aeaf81313bc939d97895c37d7b3393155e89",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S2-Q19",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 27,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four use the representable signed-value set: zero duplications in1999, bounds in2005/2013 and cardinality difference in2016. Sign-magnitude has two zero encodings but one integer zero. Range versus count is an output variation of the same encoding analysis."
+        },
+        {
+          "id": "digital-sign-extension",
+          "members": [
+            "CS-2002-Q16",
+            "CS-2025-S1-Q25"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2002-Q16",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 2,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S1-Q25",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 25,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both widen signed integers while preserving value. Checked2002 conversion rule and2025 multiple widths for-6. Replicate the sign bit for two-complement, not just place one leading sign bit."
+        },
+        {
+          "id": "digital-radix-conversion",
+          "members": [
+            "CS-1993-Q22",
+            "CS-2002-Q14",
+            "CS-2005-Q17",
+            "CS-2009-Q5",
+            "CS-2017-S2-Q11",
+            "CS-2021-S1-Q16",
+            "CS-2021-S2-Q28",
+            "CS-2023-Q32",
+            "CS-2024-S2-Q49"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1993-Q22",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 5,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q14",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 2,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q17",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 2,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2009-Q5",
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 2,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S2-Q11",
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 2,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S1-Q16",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 14,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S2-Q28",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 64,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2023-Q32",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 30,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S2-Q49",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+              "page": 34,
+              "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All nine convert known-base positional values, including fractions, hexadecimal/octal regrouping and arbitrary radix4/5/7. 2021 S2 asks missing decimal digits and their sum. No unknown-base equation is mixed in."
+        },
+        {
+          "id": "digital-unknown-radix",
+          "members": [
+            "CS-1997-Q39",
+            "CS-2004-Q19",
+            "CS-2008-Q6",
+            "CS-2014-S1-Q18",
+            "CS-2014-S2-Q18",
+            "CS-2015-S3-Q59",
+            "CS-2017-S2-Q34"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1997-Q39",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 5,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q19",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 3,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2008-Q6",
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 2,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S1-Q18",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 9,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S2-Q18",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 31,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S3-Q59",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 76,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S2-Q34",
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 10,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All seven solve base equations after positional expansion and digit-validity restrictions. Includes square roots, different bases, division with a fractional result, solution counting and quadratic roots. Numeric base validity is essential; the 2015 count request cannot be replaced by a single candidate."
+        },
+        {
+          "id": "synchronous-flip-flop-state-trace",
+          "members": [
+            "CS-1993-Q20",
+            "CS-1993-Q55",
+            "CS-1994-Q57",
+            "CS-1996-Q89",
+            "CS-1996-Q90",
+            "CS-2000-Q35",
+            "CS-2001-Q37",
+            "CS-2005-Q64",
+            "CS-2006-Q37",
+            "CS-2011-Q60",
+            "CS-2011-Q61",
+            "CS-2014-S3-Q55",
+            "CS-2015-S1-Q21",
+            "CS-2015-S1-Q53",
+            "CS-2017-S1-Q43",
+            "CS-2018-Q32",
+            "CS-2021-S1-Q38",
+            "CS-2023-Q43",
+            "CS-2025-S1-Q60"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1993-Q20",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 4,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1993-Q55",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 12,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1994-Q57",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 5,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1996-Q89",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 10,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1996-Q90",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 10,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2000-Q35",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 4,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2000-Q35",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 5,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2001-Q37",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 5,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q64",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 8,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2006-Q37",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 5,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2011-Q60",
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 14,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2011-Q61",
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 14,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S3-Q55",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 64,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S1-Q21",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 9,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S1-Q53",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 20,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S1-Q43",
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 15,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2018-Q32",
+              "file": "sources/archive/CS/CS2018.pdf",
+              "page": 9,
+              "sha256": "971ed8ef730e66e382b416a77e8b5123e8345fa27ab53c3371122077e9c49926",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S1-Q38",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 25,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2023-Q43",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 45,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S1-Q60",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 60,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All nineteen use common-clock old-state-to-next-state equations. Independently inspected shared clock buses, including2021 Q38 and2023 mixedT/D circuit. Retain1993 inputP,1996 reachability after shared diagram,2006 serial input,2015 Johnson initialization,2018 self-loop count and2025 arbitrary initial state. No derived-clock ripple chain was admitted. Sequence, reachability and cycle queries require enumerating the same transition relation."
+        },
+        {
+          "id": "mealy-equivalence-partition-quotient",
+          "members": [
+            "CS-1996-Q48",
+            "CS-1997-Q86",
+            "CS-1997-Q87",
+            "CS-2025-S1-Q59"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1996-Q48",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 6,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1996-Q48",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+              "page": 7,
+              "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1997-Q86",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 10,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1997-Q87",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 10,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S1-Q59",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 59,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four use Mealy output-compatible partition refinement, then successor blocks. Checked1996 small table,1997 shared eight-state table with both requests,2025 table. State-count versus quotient-table output remains explicit; original1997 pair and2025 member preserved."
+        },
+        {
+          "id": "digital-counter-excitation-synthesis",
+          "members": [
+            "CS-1992-Q41",
+            "CS-1998-Q83",
+            "CS-2004-Q61",
+            "CS-2017-S2-Q52",
+            "CS-2026-S1-Q37"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1992-Q41",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 5,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1998-Q83",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 7,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q61",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 9,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S2-Q52",
+              "file": "sources/archive/CS/CS2-2017.pdf",
+              "page": 16,
+              "sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S1-Q37",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 26,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All five start from required transitions and derive excitation functions. D next-state directly versus T toggle XOR is material. Keep1992 Gray ordering,1998 custom cyclic sequence,2004 missingT input and2017/2026 saturation. This inverse design is correctly separate from tracing given circuits."
+        },
+        {
+          "id": "digital-feedback-stable-state",
+          "members": [
+            "CS-1991-Q38",
+            "CS-1999-Q33",
+            "CS-2004-Q18",
+            "CS-2023-Q21"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1991-Q38",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+              "page": 5,
+              "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1999-Q33",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 4,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q18",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 3,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2023-Q21",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2023/cs_2023.pdf",
+              "page": 19,
+              "sha256": "c2170087597455affd95bf8e667e8a5f92f4ae48248470932ec160adc21e0fc0",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four impose feedback fixed-point/hold conditions:1991 feedback logic,1999 outputY fixed1,2004 SR-NAND forbidden input combination,2023 feedback mux as a level-sensitive latch. Keep invalid-latch and edge-versus-level distinctions; this is not common-clock state enumeration."
+        },
+        {
+          "id": "digital-counter-state-capacity",
+          "members": [
+            "CS-1994-Q25",
+            "CS-2011-Q25"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1994-Q25",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 3,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2011-Q25",
+              "file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+              "page": 4,
+              "sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both count flip-flops from distinct modulo-counter states using ceiling(log2 N). 1994 is symbolicN;2011 instantiates258 and specifiesD. No repeated displayed state phases are silently collapsed."
+        },
+        {
+          "id": "digital-repeated-output-counter-capacity",
+          "members": [
+            "CS-2015-S2-Q17",
+            "CS-2016-S1-Q18"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2015-S2-Q17",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 32,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S1-Q18",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 5,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both printed sequences repeat visible values with different successor requirements. Distinguish internal phases before counting bits;2015 sequence has eight phases and2016 six. This is properly separate from ordinary modulus capacity."
+        },
+        {
+          "id": "digital-fault-detection",
+          "members": [
+            "CS-1994-Q59",
+            "CS-1997-Q89"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1994-Q59",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 5,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1997-Q89",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+              "page": 10,
+              "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both excite a stuck-at fault and propagate its effect to a visible output. 1994 internal stuck1 requires path sensitization;1997 output stuck0 asks count of detecting assignments. Output faults simplify propagation but retain the same discrepancy test."
+        },
+        {
+          "id": "digital-hamming-parity",
+          "members": [
+            "CS-1994-Q55",
+            "CS-2021-S1-Q39"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1994-Q55",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+              "page": 5,
+              "sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2021-S1-Q39",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+              "page": 25,
+              "sha256": "d7c76b951939118d67ba5c8db784db713289997f6ffa65d0056aea65b1a1a0e3",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both use positional Hamming parity equations. 1994 corrects a received seven-bit word;2021 solves unknown data/check bits in a12-bit arrangement. Keep ordering and parity convention rather than assuming all parity layouts identical."
+        },
+        {
+          "id": "digital-gate-restricted-synthesis",
+          "members": [
+            "CS-1995-Q69",
+            "CS-2002-Q61",
+            "CS-2002-Q62",
+            "CS-2004-Q58",
+            "CS-2009-Q6",
+            "CS-2017-S1-Q31",
+            "CS-2019-Q60"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1995-Q69",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+              "page": 7,
+              "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q61",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 7,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q62",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 7,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q58",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 8,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2009-Q6",
+              "file": "sources/archive/CS/CS2009.pdf",
+              "page": 2,
+              "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2017-S1-Q31",
+              "file": "sources/web/www.gate.iitg.ac.in:80/2017questions/CS1.pdf",
+              "page": 11,
+              "sha256": "8ea4127fc760858fed77772a612f2c23d339c8f3dd58a660bf335a53682891f6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2019-Q60",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 15,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All seven require gate-resource-aware factoring and De Morgan mapping. 2002 single-NOT formula can factor as (x+y) NOT(yz); the adjacent six-NAND task explicitly forbids first expressing the switching function and preserves circuit structure. NOR-only minima in2009/2017/2019 must retain two-input fan-in and free-complement assumptions. Counts and drawings are distinct outputs, and circuit conversion is not permission to optimize away the prescribed procedure."
+        },
+        {
+          "id": "digital-minterm-set-network",
+          "members": [
+            "CS-2002-Q26",
+            "CS-2008-Q8",
+            "CS-2019-Q40",
+            "CS-2024-S2-Q50"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2002-Q26",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 3,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2008-Q8",
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 3,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2019-Q40",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2019/cs_2019.pdf",
+              "page": 10,
+              "sha256": "aa80100a9136a07aaba70b48a9e86b23246e53f2f5fc80760784d8ce3b8994cd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S2-Q50",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+              "page": 35,
+              "sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four translate component functions to ON-index sets then use intersection/union/complement/symmetric difference. 2002/2008 solve a missing function versus2019/2024 compute output. Preserve underdetermination/options when solving backward and maxterm complement in2024."
+        },
+        {
+          "id": "digital-minterm-expansion",
+          "members": [
+            "CS-2010-Q16",
+            "CS-2015-S2-Q55",
+            "CS-2015-S3-Q40"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2010-Q16",
+              "file": "sources/archive/CS/CS2010.pdf",
+              "page": 2,
+              "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S2-Q55",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 48,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S3-Q40",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 67,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All three evaluate formulas into canonical ON/maxterm sets. 2015 S2 explicitly says after minimizing but its complement reduces to a single minterm, so counting ON assignments remains sound; it is not a general minimum-cover term-count task. Variable ordering and outer negation checked."
+        },
+        {
+          "id": "digital-carry-generation",
+          "members": [
+            "CS-2006-Q36",
+            "CS-2007-Q35"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2006-Q36",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+              "page": 5,
+              "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2007-Q35",
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 8,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both expand carry generate/propagate recurrence. 2006 asks a Boolean carry formula;2007 asks two-level gate counts with P/G already available and arbitrary fan-in. Do not charge for generating P/G when source gives them."
+        },
+        {
+          "id": "digital-adder-critical-delay",
+          "members": [
+            "CS-2003-Q11",
+            "CS-2004-Q62",
+            "CS-2015-S2-Q65",
+            "CS-2016-S2-Q17"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2003-Q11",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 2,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2004-Q62",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203330/GATE2004.pdf",
+              "page": 9,
+              "sha256": "ba48acc7ffb92c1722d6efc85bd324a1001e35f5bb1b8766dddbf3d629e081a5",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S2-Q65",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 51,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S2-Q17",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 27,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four require longest sensitizable arithmetic propagation path. 2003 array multiplier asks asymptotic depth,2004 lookahead asks gate-delay total,2015 ripple specifies half-adder structure and unequal XOR delays,2016 asks operand causing longest ripple chain. This is a broader critical-path method family, not an assertion that ripple/lookahead/array topology or delay formula is interchangeable; retain all topology and delay qualifications."
+        },
+        {
+          "id": "digital-propagation-glitch",
+          "members": [
+            "CS-2003-Q47",
+            "CS-2024-S1-Q28"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2003-Q47",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203452/GATE2003.pdf",
+              "page": 6,
+              "sha256": "96d31f045242668747703711ac67fa41d7a624f08e08af389d441681c357480d",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S1-Q28",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 18,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both follow different arrival times along reconvergent paths rather than static truth functions. 2003 zero-delayXOR/nonzero buffers asks transition count;2024 inverter/AND asks possible transient1 on rising input. Initial stability and ideal wire assumptions remain material."
+        },
+        {
+          "id": "digital-selector-capacity",
+          "members": [
+            "CS-1998-Q14",
+            "CS-2020-Q29",
+            "CS-2020-Q30"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1998-Q14",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203837/GATE1998.pdf",
+              "page": 2,
+              "sha256": "392fa496ea31784538bcd0dd45ef8bbe85daab30b514de193830f0cad4394574",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2020-Q29",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+              "page": 8,
+              "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2020-Q30",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+              "page": 8,
+              "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All three relate selector/address width to independently selectable inputs/words:4bit selector,32register mux,1K-word decoder. Word data width is not selector width; decoder versus mux are dual capacity requests."
+        },
+        {
+          "id": "digital-mealy-behavior-identification",
+          "members": [
+            "CS-2002-Q30",
+            "CS-2005-Q63"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2002-Q30",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 4,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q63",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 8,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both diagrams are LSB-first serial transducers. Trace input/output transitions while tracking whether the carry/first1 phase has changed, then identify arithmetic transformation. Initial state and bit order are essential, unlike state minimization."
+        },
+        {
+          "id": "digital-truth-table-identification",
+          "members": [
+            "CS-2012-Q16",
+            "CS-2016-S1-Q16"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-2012-Q16",
+              "file": "sources/archive/CS/CS2012.pdf",
+              "page": 3,
+              "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2016-S1-Q16",
+              "file": "sources/archive/CS/CS2016.pdf",
+              "page": 5,
+              "sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Both determine a Boolean function from all four input combinations:2012 directly tabulates projectionX,2016 supplies operator identities sufficient to reconstruct XOR. This is truth-table identification, not parity simplification of a given XOR formula."
+        }
+      ],
+      "required_fixes": [
+        {
+          "id": "digital-minimum-sop-cover",
+          "members": [
+            "CS-1991-Q39",
+            "CS-1992-Q1",
+            "CS-1995-Q70",
+            "CS-1999-Q8",
+            "CS-2000-Q34",
+            "CS-2001-Q11",
+            "CS-2002-Q12",
+            "CS-2005-Q18",
+            "CS-2007-Q9",
+            "CS-2007-Q32",
+            "CS-2008-Q5",
+            "CS-2012-Q40",
+            "CS-2014-S3-Q17",
+            "CS-2024-S1-Q47",
+            "CS-2025-S1-Q42",
+            "CS-2025-S2-Q43",
+            "CS-2026-S1-Q48",
+            "CS-2026-S2-Q40"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1991-Q39",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204230/GATE1991.pdf",
+              "page": 5,
+              "sha256": "f23e896a84ef380107c5bd0ac9dcdeb2bc614ae45d7b3fe8dbbfba1a94bd7ebd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1992-Q1",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 1,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1995-Q70",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+              "page": 7,
+              "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1999-Q8",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 1,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2000-Q34",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+              "page": 4,
+              "sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2001-Q11",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+              "page": 2,
+              "sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2002-Q12",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203519/GATE2002.pdf",
+              "page": 2,
+              "sha256": "aaa059d0b47e32ade8ea98e4b9bf7e5615717145bbf48095490ea027b5c03a7e",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2005-Q18",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+              "page": 2,
+              "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2007-Q9",
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 3,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2007-Q32",
+              "file": "sources/archive/CS/CS2007.pdf",
+              "page": 7,
+              "sha256": "f3df0aaaf8a898ecd17380984636780d16d897a8d630463fdaab7f1d7187e463",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2008-Q5",
+              "file": "sources/archive/CS/CS2008.pdf",
+              "page": 2,
+              "sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2012-Q40",
+              "file": "sources/archive/CS/CS2012.pdf",
+              "page": 7,
+              "sha256": "c2742712d2e60d89a3a37a5c2d0bf9fdc40c259d0b88a03c661c608304fd2809",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2014-S3-Q17",
+              "file": "sources/archive/CS/CS2014.pdf",
+              "page": 54,
+              "sha256": "ffff763b2bde2242dfb7bac952947e2fee791ce99c23642907e76cd6b22641c9",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2024-S1-Q47",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+              "page": 29,
+              "sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S1-Q42",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+              "page": 42,
+              "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2025-S2-Q43",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf",
+              "page": 32,
+              "sha256": "6ed18668acb46b636ca0badf132d904756e4377a9972e8484a05eaebe9f17ddd",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S1-Q48",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf",
+              "page": 36,
+              "sha256": "ccfa649cdb671e2ac777b266a3eba7729f902122ec5cd3553fef01dac409ed96",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2026-S2-Q40",
+              "file": "sources/web/gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+              "page": 27,
+              "sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "Inspected all 18 source question pages. ON/OFF/dont-care mapping and cover equivalence is shared, but 2000 Q34 asks which expression does NOT implement the map, 2007 Q9 tests variable independence, 2007 Q32 asks non-equivalence, 2024 Q47 includes maxterms and independence, and 2025 S2 Q43 asks multiple equivalent expressions. These do not all ask minimum SOP. Retain printed variable ordering, optional dont-cares and response polarity. Title and rationale need the correction below.",
+          "required_change": {
+            "title": "Derive and compare Boolean covers",
+            "rationale_update": "Explicitly distinguish deriving a minimum SOP cover from using ON/OFF assignments to test equivalent formulas or variable independence; not every member requires minimization. Preserve all18 members."
+          }
+        },
+        {
+          "id": "digital-functional-completeness",
+          "members": [
+            "CS-1992-Q12",
+            "CS-1993-Q44",
+            "CS-1999-Q34",
+            "CS-2015-S1-Q43"
+          ],
+          "reviewer": "codex-independent-full-subjects-review-2026-11-11",
+          "reviewed_on": "2026-11-11",
+          "method": "independent-full-source-page-visual-comparison; PDF hashes checked independently; per-member constraints and outputs compared",
+          "source_checks": [
+            {
+              "question_id": "CS-1992-Q12",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204205/GATE1992.pdf",
+              "page": 1,
+              "sha256": "bb288b8bc04eea34c2affc1daea8dab143253157250ca34cb5dae776b9479d5a",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1993-Q44",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204139/GATE1993.pdf",
+              "page": 10,
+              "sha256": "976a255ec8518394f8d20bd63bf3b5cbd83adfad5e1cdb5cf79441448f53fd29",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-1999-Q34",
+              "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203805/GATE1999.pdf",
+              "page": 4,
+              "sha256": "3e96cc35d279eb23b69a4d923d0bc1017b67c6a5281c97fee282810b5feb8be3",
+              "hash_verified": true,
+              "visually_inspected": true
+            },
+            {
+              "question_id": "CS-2015-S1-Q43",
+              "file": "sources/archive/CS/CS2015.pdf",
+              "page": 16,
+              "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+              "hash_verified": true,
+              "visually_inspected": true
+            }
+          ],
+          "independent_notes": "All four ask universality of a component basis. The 1992,1993 and1999 printed sources do not explicitly supply constant inputs, while those constants change completeness of mux/half-adder/AND-XOR bases. Existing per-ID caveats correctly retain this. The title must say constant assumptions, not imply source-explicit constants. 2015 singleton f/g requires preservation or constructive completeness reasoning without silently free constants.",
+          "required_change": {
+            "title": "Test functional completeness with constant assumptions",
+            "rationale_update": "Keep explicit that fixed constants are not specified in some historical sources. Existing per-ID caveats must remain; do not assert unique unconditional answers across constant conventions. Preserve all4 members."
+          }
+        }
+      ],
+      "deferred_groups": [],
+      "repeat_review": {
+        "accepted_pairs": [
+          [
+            "CS-1992-Q11",
+            "CS-1998-Q43",
+            "same"
+          ],
+          [
+            "CS-1994-Q25",
+            "CS-2011-Q25",
+            "numbers"
+          ],
+          [
+            "CS-2002-Q15",
+            "CS-2019-Q14",
+            "numbers"
+          ]
+        ],
+        "method": "Independent printed-source comparison; all three preserve existing repeats, all cross-paper. Option reorder, modulus substitution and signed encoding value/width changes were checked. No additional repeat promoted."
+      }
+    }
+  ],
+  "integration": "Both title/rationale fixes applied; no member removal."
+}

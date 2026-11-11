@@ -65,3 +65,16 @@ incomplete transcriptions prevent a guarantee of perfect grouping or recall.
 Run `python scripts/checks/check_study_views_browser.py` after building the site
 for desktop/mobile expansion, answer isolation, bookmarks, filters and Back
 regressions. CI runs this automatically where Chromium is available.
+
+## Systematic full-corpus pass
+
+`audits/grouping/full-corpus/manifest.json` accounts for every canonical question,
+including pending, source-blocked, ambiguous and no-reviewed-match records.
+Regenerate it with `python scripts/group_review_progress.py --write`. Candidate
+review alone never counts as full-subject completion. Primary subject reports
+record a method fingerprint and source evidence per question. A subject reaches
+the completion gate only after independent source checking of proposed group
+members and required corrections; this does not imply a second transcription
+review of all ungrouped questions. Proposals awaiting that gate are not integrated
+into the pattern data. No-reviewed-match means no accepted counterpart was found,
+not proof of uniqueness. Source-blocked records cannot count as completed.

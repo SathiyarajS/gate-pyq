@@ -983,6 +983,40 @@
         ]
       },
       "rationale": "Both ask the two-complement representation of a negative decimal integer. 2002 offers variable-length options for -15; 2019 specifies 16 bits and -28. Same complement/add-one or modulo-2^w conversion, with changed value/width and options. Source options inspected."
+    },
+    {
+      "a": "CS-1996-Q36",
+      "b": "CS-2015-S3-Q30",
+      "kind": "numbers",
+      "status": "reviewed",
+      "rationale": "Both ask minimum arbitrary pair interchanges to turn the supplied13-element level-order array into a maxheap. Only array entries and options change; neither asks heapify-operation count.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-full-ds-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203937/GATE1996.pdf",
+            "page": 5,
+            "sha256": "0baf9bae37ad91d94d0e3e40cf6b1ab49d99ca235c7a09e98681304cc13a6665",
+            "notes": "Locate parent-child violations, establish a lower bound on changed positions, and exhibit arbitrary pair swaps satisfying every heap inequality.",
+            "source_reviewed": true,
+            "question_id": "CS-1996-Q36"
+          },
+          {
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 63,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Locate parent-child violations, establish a lower bound on changed positions, and exhibit arbitrary pair swaps satisfying every heap inequality.",
+            "source_reviewed": true,
+            "question_id": "CS-2015-S3-Q30"
+          }
+        ],
+        "independent_review": {
+          "status": "passed",
+          "audit": "audits/grouping/full-corpus/04-07-independent-review.json"
+        }
+      }
     }
   ]
 }

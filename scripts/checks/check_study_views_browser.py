@@ -30,7 +30,7 @@ def main():
                 page=context.new_page();errors=[]
                 page.on('pageerror',lambda error:errors.append(str(error)))
                 page.goto(base+'/08-operating-systems/patterns/')
-                page.get_by_role('link',name='Simulate SRTF and derive waiting or turnaround time',exact=True).click()
+                page.locator('.pattern-index a[href$="#group-srtf-schedule-metrics"]').click()
                 group=page.locator('#group-srtf-schedule-metrics')
                 alt=group.locator('.group-alternatives')
                 assert not alt.evaluate('(el)=>el.open')
