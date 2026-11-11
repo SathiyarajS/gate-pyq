@@ -58,6 +58,22 @@ data/transcriptions/<paper>.json still has draft entries and that you did not
 transcribe in this session. Commit and push to main.
 ```
 
+**E. Finish a step-through family (repeat; one branch per session)**
+```
+Read HANDOFF.md §3.6 and §3.7. Pick the first family in the §3.7 table whose status
+is not "merged". Check out its wip/anim-<name> branch, finish it (simulator, data,
+player, tests) following §3.6, run every check in §3.7, commit and push to that
+same wip branch. Do not merge to main.
+```
+
+**F. Review and merge a finished step-through family (must be a NEW session)**
+```
+Read HANDOFF.md §3.7. Review the finished wip/anim-<name> branch you did not write,
+using the review checklist there. If it passes, merge it into main with --no-ff,
+run all checks, push main, delete the wip branch, and update the §3.7 table.
+If it fails, push fixes to the wip branch or drop the failing questions.
+```
+
 **D. Optional unattended loop.** This runs the agent with full permissions inside this folder, so only use it in this repo.
 
 ```sh
@@ -155,6 +171,35 @@ Rules:
 - Check: `python scripts/build_site.py --release`, then `python scripts/checks/check_study_views_browser.py` (opens one question of every kind), and look at the player at 390 px wide.
 - Practicalities learned so far: in a git worktree with no `node_modules`, symlink the main checkout's for `node tests/test_transcription_math.js` and remove the link before committing; serve `_site` on a free port (another session may hold 8000/8765); the global `th:first-child{min-width:180px}` and `td,th` border rules apply inside players, so cancel them in your family CSS; off-screen articles use `content-visibility`, so read text with `textContent` in scripts.
 
+### 3.7 Step-through families still in progress (handed over 11 Nov 2026)
+214 questions have step-throughs on `main` in 12 families (cpu 15, disk 4, fd 26, fields 28, fork 5, graph 21, hashing 5, kmap 29, numbers 40, paging 10, stack 14, trees 17). Six more families were started in parallel and stopped mid-work. Their unreviewed work is on these branches, each based on `main` at `bf4fcb8`:
+
+| Branch | Families | State when stopped | Left to do |
+|---|---|---|---|
+| `wip/anim-recursion` | recursion | 27 entries pass the build check; player written | tests; review |
+| `wip/anim-automata` | automata | 45 entries pass | player `site-static/steps/automata.js`; tests; review |
+| `wip/anim-networks` | subnet, window, errorcode | 44 entries pass; players written | tests; review |
+| `wip/anim-misc` | pipeline, schedule, sorting, dp, banker | 41 entries pass; players written | tests; review |
+| `wip/anim-parsing` | parsing | data, player and tests written; **the loader fails with `KeyError 'cols'`** | fix that; review |
+| `wip/anim-ctrace` | ctrace (C program traces) | simulator only | data, player, tests; review |
+
+"Pass the build check" means each recorded answer matches what the simulator computes. It does **not** mean the entries have been reviewed. Candidate question lists are in `handoff/anim-candidates/<branch>.json`. These are keyword matches, many of them false positives.
+
+**Finishing a family** (prompt E), on its `wip/anim-<name>` branch:
+1. `git fetch origin && git checkout wip/anim-<name> && git merge origin/main` (the new files never clash with main).
+2. Complete the simulator, `data/animations/<family>.json`, `site-static/steps/<family>.js` and `tests/test_anim_<family>.py` (§3.6). Leave out anything §3.6 says to leave out; when in doubt, leave it out.
+3. Run `python scripts/build_site.py --release`, `python scripts/checks/check_study_views_browser.py`, `python scripts/validate.py`, `python -m pytest -q tests` and `node tests/test_transcription_math.js`. Look at two or three of the family's players at 390×900 in Chromium (Playwright) and fix any layout problems.
+4. Commit and push to the same branch. Record what you included and left out (with one-line reasons) in the commit message.
+
+**Review checklist** (prompt F, in a session that did not write the family):
+- For every entry, the expectation equals `official_answer`, or `derived_answer` when there is no official key. NAT keys may be ranges.
+- For MCQ and MSQ, the expected content is exactly the text of the keyed option or options in `question_text`, not just the letter.
+- The spec transcribes the question's inputs faithfully, with nothing added. Check the IDs against `DISCREPANCIES.md`; drop an entry when an open discrepancy affects the result.
+- Notes are plain sentences a student can follow, with no review or source wording.
+- Look at the player at 390 px wide: no sideways page scroll, labels readable, no JS errors.
+- Each family module sets `TABS` if its questions can have several tabs.
+- Merge with `git merge --no-ff`, run every check, push `main`, then `git push origin --delete wip/anim-<name>` and mark the row "merged" above.
+
 ### 3.5 Missing official keys (optional)
 1,716 entries (1991–2010) have no official key. If an official IIT/GATE key for one of those years turns up, record it exactly as printed and log any disagreement with our answers in `DISCREPANCIES.md`.
 
@@ -176,13 +221,14 @@ python scripts/build_pdfs.py --release   # 26 PDFs into _site/pdf (a few minutes
 - Never invent question text, options, figures or official keys. If something can't be read, keep it `draft` and log it.
 - Before every push, run `python scripts/validate.py`, `python -m pytest -q tests` and `node tests/test_transcription_math.js`.
 
-## 6. Current state (10 Nov 2026)
+## 6. Current state (11 Nov 2026)
 - **Questions:** 3,406 from 46 CS papers (1991–2026), in 13 subject folders. Every question shows its original image; the answers, solutions and 470+ discrepancy notes are live. Two PDFs per subject.
 - **Redraws:**
   - Drafts exist for CS-2026-S1/S2 and CS-2025-S1/S2 (260 questions), none verified.
   - CS-2024 drafts are in `handoff/2024-drafts/`.
   - About 3,016 questions have nothing yet.
 - **Study aids:** `/weightage/` (marks by subject and topic, 2003 on), syllabus flags from `data/syllabus.json` (topic-level, against the official GATE 2027 CS syllabus; update that file when a new syllabus is published), and `/offline/` (service worker `templates/site/sw.js`, per-subject and per-paper offline packs). The logic is in `scripts/site_features.py`. Repeated questions are in `data/repeats.json` (only `reviewed` pairs fold; same setup and requested answer, values may change) and method-level groups in `data/problem-patterns.json`. Every accepted group needs per-member source evidence. Subject and topic pages are single newest-first lists (50 per page by default, or all). Grouped questions link to `/<subject>/similar/<group-id>/`; the “One per method” filter keeps the newest of each group. See `docs/QUESTION_GROUPS.md`.
-- **Checks:** `scripts/validate.py`, 31 unit tests and the KaTeX check pass on `main`.
+- **Step-throughs:** 214 questions in 12 families (§3.6, §3.7). They are closed by default under "Answer & solution" and never appear in PDFs. Six more families are on `wip/anim-*` branches.
+- **Checks:** `scripts/validate.py`, the unit tests (176) and the KaTeX check pass on `main`.
 - **Background:** `CODEX_INSTRUCTIONS.md` has the full original spec and history. `docs/TRANSCRIPTIONS.md` defines the transcription format and verification rules.
 - **If a browser won't run locally:** pushing transcription changes to `main` also triggers `.github/workflows/review-shots.yml`, which publishes the same screenshots to the `review-shots` branch (`git fetch origin review-shots`).
