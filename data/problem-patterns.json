@@ -1639,6 +1639,113 @@
       }
     },
     {
+      "id": "process-state-transition-legality",
+      "title": "Check process-state transitions and preemption",
+      "subject": "08-operating-systems",
+      "status": "reviewed",
+      "representative": "CS-2020-Q22",
+      "members": [
+        "CS-2009-Q32",
+        "CS-2020-Q22"
+      ],
+      "rationale": "Both apply the ready/running/blocked process-state transition model: distinguish dispatch from admission, preemption from blocking, and wakeup to ready from direct dispatch. The 2009 diagram additionally asks whether I/O completion can occur during another process and infers preemption; 2020 explicitly gives preemptive scheduling and asks valid directed transitions. These are reasoning variants, not duplicate statements. Keep both complete question cards and exclude scheduling-metric simulation.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-tail-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2009-Q32",
+            "file": "sources/archive/CS/CS2009.pdf",
+            "page": 7,
+            "sha256": "d260584d7a0fdd14f3c7bd262e3e48c25eb6b2f75fe4df8889993b1b1c41b83a",
+            "notes": "Full labeled process-state diagram checked: A Start→Ready, B Ready→Running, C Running→Ready, D Running→Terminated, E Blocked→Ready, F Running→Blocked. Always-ready uniprocessor premise and four statements/options present. Must distinguish dispatch from admission and identify preemption and independent I/O completion."
+          },
+          {
+            "question_id": "CS-2020-Q22",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+            "page": 6,
+            "sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+            "notes": "Printed Q12 explicitly says preemptive scheduling. Four directed transition claims Running→Ready, Ready→Running, Blocked→Running, Blocked→Ready and all answer combinations checked. Apply same process-state adjacency and dispatch/awakening distinctions as 2009."
+          }
+        ]
+      }
+    },
+    {
+      "id": "synchronous-flip-flop-state-trace",
+      "title": "Trace simultaneous flip-flop state updates",
+      "subject": "01-digital-logic",
+      "status": "reviewed",
+      "representative": "CS-2025-S1-Q60",
+      "members": [
+        "CS-2015-S1-Q53",
+        "CS-2025-S1-Q60"
+      ],
+      "rationale": "Both derive the next bit-vector from the old vector on each common clock edge and iterate it to identify cyclic behavior. 2015 uses a coupled D/JK pair with fixed initial values and asks an output sequence; 2025 uses a four-D complemented-feedback ring, arbitrary initial state, and asks cycle length. Flip-flop laws, state size, initialization, and requested output differ; preserve both full variants and the 2025 counting caveat. Exclude minimum-state synthesis, Mealy equivalence, and ambiguous clock-phase circuits.",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-tail-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-2015-S1-Q53",
+            "file": "sources/archive/CS/CS2015.pdf",
+            "page": 20,
+            "sha256": "1e282618680e247cba75fb368db530ea03560341e463b0a77098d60316e9bfc8",
+            "notes": "Full text specifies positive-edge D and JK flip-flops on common free-running clock; D.Q drives J and K, JK.Q drives D; initial D=1, JK=0; nonzero delays; toggle/hold rules explicit. All four output-sequence alternatives include initial value. Simultaneously update both bits from old state and trace JK output."
+          },
+          {
+            "question_id": "CS-2025-S1-Q60",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 60,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "Full four-D-flip-flop circuit inspected: Q0→D1, Q1→D2, Q2→D3, complemented Q3→D0; shared rising-edge clock. Arbitrary initial state, asks distinct states before return. Derive simultaneous next-state recurrence and follow orbit; preserve initial-state counting ambiguity rather than changing source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mealy-equivalence-partition-quotient",
+      "title": "Minimize explicit Mealy transition tables",
+      "subject": "01-digital-logic",
+      "members": [
+        "CS-1997-Q86",
+        "CS-1997-Q87",
+        "CS-2025-S1-Q59"
+      ],
+      "representative": "CS-2025-S1-Q59",
+      "rationale": "Each uses an explicit complete Mealy transition/output table. First partition states by their per-input output vectors, then refine by successor equivalence until stable. The 1997 subparts share a table but request the partition and the minimal quotient table respectively; 2025 supplies a different table and requests only the minimum state count. Different data and requested outputs make these reasoning variants, not duplicates. No initial state is specified: preserve all-state equivalence rather than pruning from an assumed start. Exclude specification-to-machine synthesis and language-acceptance DFA minimization, and keep every original variant accessible.",
+      "status": "reviewed",
+      "review": {
+        "method": "source-page-comparison",
+        "reviewer": "codex-tail-early-source-review-2026-11-11; codex-tail-source-review-2026-11-11",
+        "reviewed_on": "2026-11-11",
+        "sources": [
+          {
+            "question_id": "CS-1997-Q86",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+            "page": 10,
+            "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+            "notes": "Printed 70(a) p10 asks equivalence partition for complete eight-state Mealy table shared with b. Rows for inputs 0/1: A=B,1/H,1; B=F,1/D,1; C=D,0/E,1; D=C,0/F,1; E=D,1/C,1; F=C,1/C,1; G=C,1/D,1; H=C,0/A,1. No initial state supplied. Table and subparts fully visible."
+          },
+          {
+            "question_id": "CS-1997-Q87",
+            "file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+            "page": 10,
+            "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+            "notes": "Printed 70(b) p10 uses exact same complete table as 70(a); asks minimal-machine state table and explicitly names merged states by concatenated member names (XY example). No initial state supplied."
+          },
+          {
+            "question_id": "CS-2025-S1-Q59",
+            "file": "sources/web/gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf",
+            "page": 59,
+            "sha256": "81a6517cc058c3a471dce9a39a6bb2291f4fff9aa7ebebe6a5f337f61e25ee81",
+            "notes": "Complete eight-state Mealy table inspected, next/output for X=0,1: A F/B 0/0; B D/C 0/0; C F/E 0/0; D G/A 1/0; E D/C 0/0; F F/B 1/1; G G/H 0/1; H G/A 1/0. Integer minimum-state count requested. Partition by output pair and refine by successor equivalence; no initial-state restriction printed."
+          }
+        ]
+      }
+    },
+    {
       "id": "source-pattern-1",
       "title": "Trace recursive macro expansion",
       "subject": "07-compiler-design",
