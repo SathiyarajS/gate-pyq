@@ -84,3 +84,57 @@ class SchedulingStepsTest(unittest.TestCase):
             (Path(tmp) / 'data/animations.json').write_text(json.dumps({'questions': {'Q': {'kind': 'cpu-schedule', 'processes': [['A', 0, 2]], 'metric': 'waiting', 'schedules': [{'policy': 'srtf', 'expect': 1}]}}}))
             with self.assertRaises(SystemExit):
                 animations.load(Path(tmp), {'Q'})
+
+
+class PageReplacementTest(unittest.TestCase):
+    REFS = [1, 2, 3, 2, 4, 1, 3, 2, 4, 1]  # CS-2012-Q52
+
+    def test_policies_match_the_worked_solution(self):
+        for policy, faults in (('fifo', [1, 2, 3, 5, 6, 8]), ('lru', [1, 2, 3, 5, 6, 7, 8, 9, 10]), ('optimal', [1, 2, 3, 5, 8])):
+            with self.subTest(policy=policy):
+                self.assertEqual(animations.page_replace(self.REFS, 3, policy)[1], faults)
+
+    def test_lru_updates_recency_on_a_hit_but_fifo_does_not(self):
+        fifo, _ = animations.page_replace(self.REFS, 3, 'fifo')
+        lru, _ = animations.page_replace(self.REFS, 3, 'lru')
+        self.assertEqual(fifo['steps'][4]['order'], 'Load order (oldest first): 1, 2, 3')
+        self.assertEqual(lru['steps'][4]['order'], 'Recency (least recent first): 1, 3, 2')
+
+    def test_windowed_optimal_looks_only_at_the_window(self):
+        data, faults = animations.page_replace([1, 3, 2, 4, 2, 3, 1, 2, 4, 3, 1, 4], 3, 'optimal-window', 4)
+        self.assertEqual(faults, [1, 2, 3, 4, 7, 10])
+        self.assertIn('page 2 is not used in it', data['steps'][10]['note'])
+
+    def test_rank_and_wrong_positions(self):
+        spec = dict(kind='page-replace', frames=3, refs=self.REFS, policies=[dict(policy='fifo', expect=6), dict(policy='optimal', expect=5)],
+                    compare='rank', expect_compare=['optimal', 'fifo'])
+        self.assertIn('Optimal 5 < FIFO 6', animations.page_animation('Q', spec)['schedules'][0]['steps'][-1]['note'])
+        spec['policies'][0]['positions'] = [1, 2, 3]
+        with self.assertRaises(SystemExit):
+            animations.page_animation('Q', spec)
+
+
+class DiskSchedulingTest(unittest.TestCase):
+    QUEUE = [98, 183, 37, 122, 14, 124, 65, 67]  # the standard textbook queue, head at 53
+
+    def path(self, policy, direction='up'):
+        d = animations.disk_schedule(53, self.QUEUE, policy, direction, 0, 199)
+        return d['total'], [m[1] for m in d['moves']]
+
+    def test_policies(self):
+        self.assertEqual(self.path('fcfs')[0], 640)
+        self.assertEqual(self.path('sstf'), (236, [65, 67, 37, 14, 98, 122, 124, 183]))
+        self.assertEqual(self.path('scan', 'down'), (236, [37, 14, 0, 65, 67, 98, 122, 124, 183]))
+        self.assertEqual(self.path('look', 'down')[0], 208)
+        self.assertEqual(self.path('cscan'), (382, [65, 67, 98, 122, 124, 183, 199, 0, 14, 37]))
+        self.assertEqual(self.path('clook'), (322, [65, 67, 98, 122, 124, 183, 14, 37]))
+
+    def test_sstf_tie_stops_the_build(self):
+        with self.assertRaises(SystemExit):
+            animations.disk_schedule(50, [40, 60], 'sstf')
+
+    def test_reversal_cost(self):
+        # CS-2018-Q63: 200 cylinders at 20 per 100, three reversals at 15.
+        spec = dict(kind='disk-schedule', start=80, requests=[72, 134, 20, 86, 116, 16], lo=0, hi=199, metric='cost',
+                    cost=dict(per=20, cylinders=100, reversal=15), policies=[dict(policy='sstf', expect=85)])
+        self.assertIn('changes direction 3 times', animations.disk_animation('Q', spec)['schedules'][0]['steps'][-1]['note'])

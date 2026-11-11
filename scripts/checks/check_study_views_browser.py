@@ -60,7 +60,18 @@ def main():
                 player.locator('details.answer>summary').click();player.locator('details.steps>summary').click()
                 page.wait_for_selector('#CS-2024-S2-Q37 .gantt');first=player.locator('.steps-count').inner_text()
                 player.locator('.steps-bar button',has_text='Next').click();assert player.locator('.steps-count').inner_text()!=first
-                player.locator('details.steps>summary').click()  # leave the remembered preference closed
+                # Page-replacement player: a frame grid that fills in one reference per step.
+                page.goto(base+'/08-operating-systems/#CS-2022-Q64');grid=page.locator('#CS-2022-Q64')
+                grid.locator('details.answer>summary').click();grid.locator('details.steps>summary').click()
+                page.wait_for_selector('#CS-2022-Q64 .steps-grid')
+                for _ in range(3):grid.locator('.steps-bar button',has_text='Next').click()
+                assert grid.locator('.steps-grid .fault-row td').evaluate_all("c=>c.filter(x=>x.textContent==='F').length")==2
+                # Disk-scheduling player: the head path and its table of moves grow one move per step.
+                page.goto(base+'/08-operating-systems/#CS-2016-S1-Q58');disk=page.locator('#CS-2016-S1-Q58')
+                disk.locator('details.answer>summary').click();disk.locator('details.steps>summary').click()
+                page.wait_for_selector('#CS-2016-S1-Q58 .head-path')
+                for _ in range(2):disk.locator('.steps-bar button',has_text='Next').click()
+                assert disk.locator('.steps-table tbody tr').count()==2
                 # Old addresses redirect.
                 page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
                 assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1

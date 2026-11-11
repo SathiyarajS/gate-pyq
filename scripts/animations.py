@@ -235,6 +235,246 @@ def cpu_animation(qid, spec):
     return out
 
 
+PAGE_POLICIES = {
+    'fifo': ('FIFO', 'First in, first out'),
+    'lru': ('LRU', 'Least recently used'),
+    'optimal': ('Optimal', 'Optimal: replace the page used farthest in the future'),
+    'optimal-window': ('Optimal (window {w})', 'Optimal, looking only {w} references ahead (including the current one)'),
+}
+
+
+def page_replace(refs, frames, policy, window=None):
+    """Simulate demand paging with `frames` initially empty frames.
+
+    A new page fills the first empty frame, else the victim's frame. Where the
+    optimal policy has several pages it never needs again, the one loaded first goes
+    (the fault count is the same whichever goes).
+    """
+    if policy not in PAGE_POLICIES:
+        raise SystemExit('Unknown page-replacement policy: ' + policy)
+    if policy == 'optimal-window' and not window:
+        raise SystemExit('Windowed optimal needs a window')
+    slots, loaded, used = [None] * frames, {}, {}
+    steps = [dict(i=-1, frames=list(slots), fault=None, note=f"Start: {frames} empty frames. References: {', '.join(map(str, refs))}.")]
+    faults = []
+    for i, page in enumerate(refs):
+        n = i + 1
+        if page in slots:
+            used[page] = i
+            note = f"Reference {n}: page {page} is already in a frame, a hit."
+            if policy == 'lru':
+                note += f' It becomes the most recently used.'
+            elif policy == 'fifo':
+                note += ' FIFO order does not change on a hit.'
+            steps.append(dict(i=i, frames=list(slots), fault=False, note=note, order=_page_order(policy, slots, loaded, used)))
+            continue
+        faults.append(n)
+        note = f"Reference {n}: page {page} is not in memory, a fault."
+        if None in slots:
+            k = slots.index(None)
+            note += ' It goes into an empty frame.'
+            victim = None
+        else:
+            resident = [x for x in slots]
+            if policy == 'fifo':
+                victim = min(resident, key=lambda x: loaded[x])
+                note += f" Load order (oldest first): {', '.join(str(x) for x in sorted(resident, key=lambda x: loaded[x]))}. Page {victim} was loaded first, so it is replaced."
+            elif policy == 'lru':
+                victim = min(resident, key=lambda x: used[x])
+                note += ' Last used: ' + ', '.join(f"{x} at {used[x] + 1}" for x in sorted(resident, key=lambda x: used[x])) + f". Page {victim} is the least recently used, so it is replaced."
+            else:
+                ahead = refs[i:i + window] if policy == 'optimal-window' else refs[i:]
+                nxt = {x: (i + ahead.index(x) + 1 if x in ahead else None) for x in resident}
+                absent = [x for x in resident if nxt[x] is None]
+                if absent:
+                    victim = min(absent, key=lambda x: loaded[x])
+                else:
+                    victim = max(resident, key=lambda x: nxt[x])
+                where = 'in the window ' + '[' + ', '.join(map(str, ahead)) + ']' if policy == 'optimal-window' else 'from here on'
+                uses = ', '.join(f"{x} at {nxt[x]}" for x in sorted(resident, key=lambda x: (nxt[x] is None, nxt[x] or 0)) if nxt[x] is not None)
+                gone = [x for x in sorted(absent, key=lambda x: loaded[x])]
+                text = f" Next use {where}: " + (uses if uses else 'none of the resident pages')
+                if gone:
+                    text += ('; ' if uses else '') + ('page ' + str(gone[0]) + ' is' if len(gone) == 1 else 'pages ' + _list([str(x) for x in gone]) + ' are') + (' not used in it' if policy == 'optimal-window' else ' never used again')
+                text += '.'
+                if len(gone) > 1:
+                    text += f" Any of them can go; page {victim}, loaded first, is replaced."
+                elif gone:
+                    text += f" So page {victim} is replaced."
+                else:
+                    text += f" Page {victim} is needed latest, so it is replaced."
+                note += text
+            k = slots.index(victim)
+            del loaded[victim]
+            used.pop(victim, None)
+        slots[k] = page
+        loaded[page] = i
+        used[page] = i
+        steps.append(dict(i=i, frames=list(slots), fault=True, slot=k, victim=victim, note=note, order=_page_order(policy, slots, loaded, used)))
+    short, title = PAGE_POLICIES[policy]
+    return dict(policy=policy, short=short.format(w=window), title=title.format(w=window), steps=steps), faults
+
+
+def _page_order(policy, slots, loaded, used):
+    pages = [x for x in slots if x is not None]
+    if policy == 'fifo':
+        return 'Load order (oldest first): ' + ', '.join(str(x) for x in sorted(pages, key=lambda x: loaded[x]))
+    if policy == 'lru':
+        return 'Recency (least recent first): ' + ', '.join(str(x) for x in sorted(pages, key=lambda x: used[x]))
+    return ''
+
+
+def page_animation(qid, spec):
+    refs, frames, metric = spec['refs'], spec['frames'], spec.get('metric', 'faults')
+    if metric not in ('faults', 'rate'):
+        raise SystemExit(f'Unknown metric for {qid}: {metric}')
+    out, counts = [], []
+    for s in spec['policies']:
+        data, faults = page_replace(refs, frames, s['policy'], s.get('window'))
+        count = len(faults)
+        value = Fraction(count, len(refs)) if metric == 'rate' else count
+        if not _same(value, s['expect']):
+            raise SystemExit(f"Animation for {qid} ({s['policy']}) gives {float(value)}, not the expected {s['expect']}")
+        if 'positions' in s and s['positions'] != faults:
+            raise SystemExit(f"Animation for {qid} ({s['policy']}) faults at {faults}, not {s['positions']}")
+        note = f"All done. {count} faults in {len(refs)} references, at references {', '.join(map(str, faults))}."
+        if metric == 'rate':
+            note += f" Fault rate = {count} / {len(refs)} = {_fmt(value)}."
+        data['steps'].append(dict(i=len(refs), frames=data['steps'][-1]['frames'], fault=None, final=True, note=note))
+        out.append(data)
+        counts.append(count)
+    compare = spec.get('compare')
+    if compare:
+        label = [f"{d['short']} {c}" for d, c in zip(out, counts)]
+        if compare == 'difference':
+            got = abs(counts[0] - counts[1])
+            line = f"Faults: {label[0]} and {label[1]}. Difference = {got}."
+        elif compare == 'rank':
+            ranked = sorted(range(len(counts)), key=lambda k: counts[k])
+            if len(set(counts)) < len(counts):
+                raise SystemExit(f'Animation for {qid}: equal fault counts cannot be ranked strictly')
+            got = [spec['policies'][k]['policy'] for k in ranked]
+            line = 'Faults: ' + ' < '.join(label[k] for k in ranked) + '.'
+        else:
+            raise SystemExit(f'Unknown comparison for {qid}: {compare}')
+        if not _same(got, spec['expect_compare']):
+            raise SystemExit(f'Animation for {qid} compares to {got}, not the expected {spec["expect_compare"]}')
+        for d in out:
+            d['steps'][-1]['note'] += ' ' + line
+    return dict(kind='page-replace', refs=refs, frames=frames, schedules=out, count=sum(len(d['steps']) for d in out))
+
+
+DISK_POLICIES = {
+    'fcfs': ('FCFS', 'First come, first served'),
+    'sstf': ('SSTF', 'Shortest seek time first'),
+    'scan': ('SCAN', 'SCAN: sweep to the end of the disk, then reverse'),
+    'look': ('LOOK', 'LOOK: sweep to the last request, then reverse'),
+    'cscan': ('C-SCAN', 'C-SCAN: sweep up to the end, return to the start, sweep up again'),
+    'clook': ('C-LOOK', 'C-LOOK: sweep up to the last request, jump to the lowest request, sweep up again'),
+}
+
+
+def disk_schedule(start, requests, policy, direction='up', lo=0, hi=None):
+    """Simulate disk-head scheduling. Returns the moves [from, to, served] and the steps.
+
+    The circular policies sweep upwards; their return jump counts as head movement.
+    SSTF stops the build on a distance tie, since the question must then state a rule.
+    """
+    if policy not in DISK_POLICIES:
+        raise SystemExit('Unknown disk-scheduling policy: ' + policy)
+    if policy in ('scan', 'cscan') and hi is None:
+        raise SystemExit('SCAN and C-SCAN need the last cylinder')
+    pending, pos, up = list(requests), start, direction == 'up'
+    moves, steps, total = [], [], 0
+    steps.append(dict(pos=start, pending=list(pending), note=f"The head starts at {start}" + ('' if policy in ('fcfs', 'sstf') else f", moving {'up' if up else 'down'}") + f". Pending: {', '.join(map(str, pending))}."))
+
+    def go(target, why, served=True):
+        nonlocal pos, total
+        d = abs(target - pos)
+        total += d
+        moves.append([pos, target, served])
+        if served:
+            pending.remove(target)
+        steps.append(dict(pos=target, pending=list(pending), note=f"{why} Move {pos} → {target}: {d}. Total so far {total}."))
+        pos = target
+
+    if policy == 'fcfs':
+        while pending:
+            go(pending[0], f"Next in arrival order is {pending[0]}.")
+    elif policy == 'sstf':
+        while pending:
+            dist = sorted((abs(r - pos), r) for r in pending)
+            if len(dist) > 1 and dist[0][0] == dist[1][0] and dist[0][1] != dist[1][1]:
+                raise SystemExit(f'SSTF tie at {pos} between {dist[0][1]} and {dist[1][1]}')
+            nearest = dist[0][1]
+            go(nearest, ('Distances: ' + ', '.join(f"{r} is {abs(r - pos)} away" for r in pending) + f". Nearest is {nearest}.") if len(pending) > 1 else f"Only {nearest} is left.")
+    else:
+        def ahead(upwards):
+            return sorted([r for r in pending if (r >= pos if upwards else r <= pos)], reverse=not upwards)
+        while pending:
+            nxt = ahead(up)
+            if nxt:
+                go(nxt[0], f"Moving {'up' if up else 'down'}, the next request is {nxt[0]}.")
+                continue
+            if policy in ('scan', 'cscan') and pos != (hi if up else lo):
+                end = hi if up else lo
+                go(end, f"No more requests {'above' if up else 'below'}; {DISK_POLICIES[policy][0]} still runs to the end of the disk.", served=False)
+                continue
+            if policy in ('scan', 'look'):
+                up = not up
+                steps[-1]['note'] += f" The head now reverses and moves {'up' if up else 'down'}."
+                continue
+            # Circular: return to the lowest point and continue upwards.
+            target = lo if policy == 'cscan' else min(pending)
+            what = f"returns to cylinder {lo}" if policy == 'cscan' else f"jumps to the lowest pending request, {target}"
+            go(target, f"No more requests above; {DISK_POLICIES[policy][0]} {what}. The jump counts as head movement.", served=policy == 'clook')
+    short, title = DISK_POLICIES[policy]
+    return dict(policy=policy, short=short, title=title, moves=moves, steps=steps, total=total)
+
+
+def disk_animation(qid, spec):
+    metric = spec.get('metric', 'movement')
+    if metric not in ('movement', 'cost'):
+        raise SystemExit(f'Unknown metric for {qid}: {metric}')
+    out, totals = [], []
+    for s in spec['policies']:
+        data = disk_schedule(spec['start'], spec['requests'], s['policy'], spec.get('direction', 'up'), spec.get('lo', 0), spec.get('hi'))
+        parts = [abs(b - a) for a, b, _ in data['moves']]
+        note = f"All done. Total head movement = {' + '.join(map(str, parts))} = {data['total']} cylinders."
+        value = data['total']
+        if metric == 'cost':
+            c = spec['cost']
+            up = spec.get('direction', 'up') == 'up'
+            reversals = 0
+            for a, b, _ in data['moves']:
+                if b != a and (b > a) != up:
+                    reversals += 1
+                    up = b > a
+            value = Fraction(data['total'] * c['per'], c['cylinders']) + reversals * c['reversal']
+            note += f" The head changes direction {reversals} times. Cost = {data['total']}/{c['cylinders']} × {c['per']} + {reversals} × {c['reversal']} = {_fmt(value)}."
+        if not _same(value, s['expect']):
+            raise SystemExit(f"Animation for {qid} ({s['policy']}) gives {float(value)}, not the expected {s['expect']}")
+        if s.get('path') and [m[1] for m in data['moves']] != s['path']:
+            raise SystemExit(f"Animation for {qid} ({s['policy']}) visits {[m[1] for m in data['moves']]}, not {s['path']}")
+        if spec.get('then'):
+            note += ' ' + spec['then']
+        data['steps'].append(dict(pos=data['steps'][-1]['pos'], pending=[], final=True, note=note))
+        out.append(data)
+        totals.append(data['total'])
+    if spec.get('compare') == 'difference':
+        got = abs(totals[0] - totals[1])
+        if not _same(got, spec['expect_compare']):
+            raise SystemExit(f'Animation for {qid} compares to {got}, not the expected {spec["expect_compare"]}')
+        for d in out:
+            d['steps'][-1]['note'] += f" {out[0]['short']} {totals[0]}, {out[1]['short']} {totals[1]}: difference {got}."
+    elif spec.get('compare'):
+        raise SystemExit(f'Unknown comparison for {qid}')
+    marks = [spec['start']] + spec['requests'] + [x for x in (spec.get('lo', 0), spec.get('hi')) if x is not None]
+    return dict(kind='disk-schedule', start=spec['start'], requests=spec['requests'], lo=spec.get('lo', 0),
+                hi=spec.get('hi') if spec.get('hi') is not None else max(marks), schedules=out,
+                count=sum(len(d['steps']) for d in out))
+
+
 def load(root, question_ids):
     path = root / 'data/animations.json'
     if not path.exists():
@@ -243,7 +483,8 @@ def load(root, question_ids):
     for qid, spec in json.loads(path.read_text())['questions'].items():
         if qid not in question_ids:
             raise SystemExit('data/animations.json names an unknown question: ' + qid)
-        if spec['kind'] != 'cpu-schedule':
+        kinds = {'cpu-schedule': cpu_animation, 'page-replace': page_animation, 'disk-schedule': disk_animation}
+        if spec['kind'] not in kinds:
             raise SystemExit('Unknown animation kind for ' + qid)
-        out[qid] = cpu_animation(qid, spec)
+        out[qid] = kinds[spec['kind']](qid, spec)
     return out

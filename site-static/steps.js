@@ -1,5 +1,5 @@
 'use strict';
-// "Step through it" players for CPU-scheduling questions. Loaded only when a reader opens one.
+// "Step through it" players for CPU scheduling, page replacement and disk scheduling. Loaded only when a reader opens one.
 // Data comes from the build (scripts/animations.py), which checks every result against the answer.
 (() => {
   const SVG = 'http://www.w3.org/2000/svg';
@@ -55,6 +55,66 @@
     return t;
   }
 
+  // Page replacement: one column per reference, filled in up to the current step.
+  function frames(s, data, step) {
+    const now = step.final ? data.refs.length - 1 : step.i, t = h('table', 'steps-table steps-grid');
+    const head = t.createTHead().insertRow(), body = t.createTBody();
+    head.append(h('th', null, 'Reference'));
+    data.refs.forEach((r, j) => { const c = h('th', j === now && !step.final ? 'is-now' : null, r); head.append(c); });
+    for (let k = 0; k < data.frames; k++) {
+      const row = body.insertRow(); row.insertCell().textContent = 'Frame ' + (k + 1);
+      data.refs.forEach((_, j) => { const td = row.insertCell(), at = s.steps[j + 1];
+        if (j <= now) { const v = at.frames[k]; td.textContent = v == null ? '' : v; if (at.fault && at.slot === k) td.className = 'is-new'; }
+        if (j === now && !step.final) td.classList.add('is-now'); });
+    }
+    const f = body.insertRow(); f.className = 'fault-row'; f.insertCell().textContent = 'Fault';
+    data.refs.forEach((_, j) => { const td = f.insertCell(); if (j <= now) td.textContent = s.steps[j + 1].fault ? 'F' : ''; if (j === now && !step.final) td.classList.add('is-now'); });
+    return t;
+  }
+
+  // Disk scheduling: cylinders across, one row per head movement, drawn up to the current step.
+  function head(s, data, step, k) {
+    const W = Math.max(300, Math.min(720, Math.round(view.clientWidth || 640))), pad = 16, top = 22, rowH = 20;
+    const x = c => pad + (W - 2 * pad) * (c - data.lo) / Math.max(1, data.hi - data.lo);
+    const H = top + rowH * (s.moves.length + 1);
+    const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, class: 'head-path', role: 'img', 'aria-label': `Head at cylinder ${step.pos}`});
+    svg.append(el('line', {x1: x(data.lo), x2: x(data.hi), y1: top - 8, y2: top - 8, class: 'tick'}));
+    // Axis labels: the ends and every requested cylinder, skipping any that would collide.
+    let last = -Infinity;
+    [...new Set([data.lo, data.hi, data.start, ...data.requests])].sort((a, b) => a - b).forEach(c => {
+      const done = !data.requests.includes(c) || !step.pending.includes(c);
+      svg.append(el('circle', {cx: x(c), cy: top - 8, r: 2.5, class: data.requests.includes(c) ? (done ? 'req done' : 'req') : 'end'}));
+      const room = n => 7 * String(n).length + 6;
+      if (c === data.hi || (x(c) - last >= room(c) && x(data.hi) - x(c) >= room(data.hi))) { svg.append(el('text', {x: x(c), y: top - 13, 'text-anchor': 'middle', class: 'tick-label'}, c)); last = x(c); } });
+    const shown = step.final ? s.moves.length : k;
+    const y = r => top + rowH * r + 6;
+    for (let r = 0; r < shown; r++) {
+      const [a, b, served] = s.moves[r];
+      svg.append(el('line', {x1: x(a), y1: y(r), x2: x(b), y2: y(r + 1), class: 'path' + (served ? '' : ' unserved') + (r === shown - 1 && !step.final ? ' latest' : '')}));
+    }
+    for (let r = 0; r <= shown; r++) {
+      const c = r === 0 ? data.start : s.moves[r - 1][1];
+      // Label on the side away from the line that reaches this point (or leaves the start), kept inside the chart.
+      const other = r === 0 ? (s.moves[0] ? s.moves[0][1] : c) : s.moves[r - 1][0];
+      let right = other === c ? x(c) < W / 2 : other < c;
+      if (!right && x(c) < 34) right = true; else if (right && x(c) > W - 34) right = false;
+      svg.append(el('circle', {cx: x(c), cy: y(r), r: r === shown && !step.final ? 5 : 3.5, class: 'stop' + (r === shown && !step.final ? ' now' : '')}));
+      const gap = r === shown && !step.final ? 10 : 8;
+      svg.append(el('text', {x: x(c) + (right ? gap : -gap), y: y(r) + 4, 'text-anchor': right ? 'start' : 'end', class: 'stop-label'}, c));
+    }
+    return svg;
+  }
+
+  function moveTable(s, step, k) {
+    const shown = step.final ? s.moves.length : k, t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
+    ['Move', 'From', 'To', 'Distance', 'Total'].forEach(c => head.append(h('th', null, c)));
+    let total = 0;
+    s.moves.slice(0, shown).forEach(([a, b], r) => { total += Math.abs(b - a); const row = body.insertRow();
+      [r + 1, a, b, Math.abs(b - a), total].forEach(v => { row.insertCell().textContent = v; });
+      if (r === shown - 1 && !step.final) row.className = 'is-running'; });
+    return t;
+  }
+
   function player(root) {
     const data = JSON.parse(root.dataset.steps);
     let which = 0, i = 0;
@@ -66,16 +126,30 @@
     bar.append(prev, count, next);
     if (data.schedules.length > 1) data.schedules.forEach((s, k) => { const b = h('button', null, s.short); b.type = 'button'; b.onclick = () => { which = k; i = 0; draw(); }; tabs.append(b); });
     function draw() {
-      const s = data.schedules[which], step = s.steps[i];
+      const s = data.schedules[which], step = s.steps[i], pages = data.kind === 'page-replace';
       [...tabs.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === which)));
-      const wrap = h('div', 'steps-table-wrap'); wrap.append(table(s, data, step));
       policy.textContent = s.title;
-      view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Time ' + step.t));
-      view.append(gantt(s, data, step), wrap);
-      if (!step.final && step.ready.length) view.append(h('p', 'steps-ready', s.queue_label + ': ' + step.ready.join(', ')));
+      const wrap = h('div', 'steps-table-wrap');
+      if (data.kind === 'disk-schedule') {
+        wrap.append(moveTable(s, step, i));
+        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Head at ' + step.pos), head(s, data, step, i), wrap);
+        if (!step.final && step.pending.length) view.append(h('p', 'steps-ready', 'Pending: ' + step.pending.join(', ')));
+      } else if (pages) {
+        wrap.append(frames(s, data, step));
+        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : step.i < 0 ? 'Start' : `Reference ${step.i + 1} of ${data.refs.length}: page ${data.refs[step.i]}`), wrap);
+        if (step.order) view.append(h('p', 'steps-ready', step.order));
+      } else {
+        wrap.append(table(s, data, step));
+        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Time ' + step.t));
+        view.append(gantt(s, data, step), wrap);
+        if (!step.final && step.ready.length) view.append(h('p', 'steps-ready', s.queue_label + ': ' + step.ready.join(', ')));
+      }
       note.textContent = step.note;
       count.textContent = `Step ${i + 1} of ${s.steps.length}`;
       prev.disabled = i === 0; next.disabled = i === s.steps.length - 1;
+      // Keep the current reference in view when the grid scrolls sideways.
+      const cur = wrap.querySelector('th.is-now');
+      if (cur && wrap.scrollWidth > wrap.clientWidth) wrap.scrollLeft = Math.max(0, cur.offsetLeft - wrap.clientWidth / 2);
     }
     prev.onclick = () => { if (i > 0) { i--; draw(); } };
     next.onclick = () => { const s = data.schedules[which]; if (i < s.steps.length - 1) { i++; draw(); } };
