@@ -25,6 +25,8 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:8.5pt;background:#f6f6
 p{margin:3pt 0;orphans:3;widows:3}.answers-index{break-before:page}.answers-index table{border-collapse:collapse;width:100%;font-size:8.5pt}.answers-index td,.answers-index th{border:1px solid #ccc;padding:3pt 5pt;text-align:left;vertical-align:top}
 """
 
+PDF_OPTIONS=dict(format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',outline=True,tagged=True)
+
 def _strip_headings(body):
     """Keep bookmarks to subject > topic > question: demote headings inside a question."""
     body=re.sub(r'<h2>(.*?)</h2>', r'<div class="qtitle">\1</div>', body, flags=re.S)
@@ -178,7 +180,12 @@ def cache_key(printed, doc, footer, imgdir, image_hashes, chromium):
     import hashlib
     h=hashlib.sha256()
     printed=GENERATED.sub('Generated',printed.replace(imgdir.as_uri()+'/',''))
-    for part in (Path(__file__).read_bytes(),chromium.encode(),footer.encode(),printed.encode()):
+    import inspect
+    # The parts of this script that decide the bytes but not the fingerprint: page
+    # setup (@page in PDF_CSS), the PDF options and the image repacking. The rest of
+    # the script only shapes the document, which the fingerprint already covers.
+    rendering=PDF_CSS+json.dumps(PDF_OPTIONS,sort_keys=True)+inspect.getsource(repack_gray_images)
+    for part in (rendering.encode(),chromium.encode(),footer.encode(),printed.encode()):
         h.update(hashlib.sha256(part).digest())
     for name in sorted(set(re.findall(r'src="'+re.escape(imgdir.as_uri())+r'/([^"]+)"',doc))):
         h.update(name.encode()+image_hashes(name).encode())
@@ -239,7 +246,7 @@ async def run(args):
                     keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
                     job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
                     if job['cached']:continue
-                    await page.pdf(path=str(tmp),format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',footer_template=job['footer'],outline=True,tagged=True)
+                    await page.pdf(path=str(tmp),footer_template=job['footer'],**PDF_OPTIONS)
                     job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
                     tmp.replace(cached);keyfile.write_text(job['key'])
                 await browser.close()
@@ -252,6 +259,6 @@ async def run(args):
         if args.release:(pdfdir/(job['name']+'.html')).unlink()
         results.append({'subject':job['subject'],'questions_only':job['qo'],'entries':job['entries'],'path':str(path.relative_to(out)),'bytes':path.stat().st_size,'cached':job['cached'],'status':'release' if args.release else 'draft_rendered; visual_review_pending'})
     (out/'pdf-build-report.json').write_text(json.dumps(results,indent=2))
-    print(f'Rendered {len(todo)} PDFs, reused {len(jobs)-len(todo)} unchanged from cache: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
+    print(f'Rendered {len(todo)} PDFs'+(' ('+', '.join(j['name'] for j in todo)+')' if todo else '')+f', reused {len(jobs)-len(todo)} unchanged from cache: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
 if __name__=='__main__':
     a=argparse.ArgumentParser(description=__doc__);a.add_argument('--preview',action='store_true');a.add_argument('--release',action='store_true');a.add_argument('--site',default='_site');a.add_argument('--subject');a.add_argument('--html-only',action='store_true');a.add_argument('--jobs',type=int,default=None,help='Parallel Chromium workers (default: CPU count)');a.add_argument('--cache',default='.pdf-cache',help='Rendered PDFs keyed by content; unchanged subjects are reused');a.add_argument('--chromium',default=None,help="Chromium binary; defaults to Playwright's bundled browser");asyncio.run(run(a.parse_args()))
