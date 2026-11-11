@@ -33,7 +33,7 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: |
-          pip install -r requirements-site.txt
+          pip install -r requirements-site.txt pytest
           python -m playwright install --with-deps chromium
           npm ci --ignore-scripts
       - name: Restore 2007-2018 papers from the official CS.zip (hash-checked)
@@ -43,6 +43,10 @@ jobs:
           python scripts/fetch_sources.py --archive-only
       - name: Validate data
         run: python scripts/validate.py
+      - name: Test grouping and rendering regressions
+        run: |
+          python -m pytest -q tests
+          node tests/test_transcription_math.js
       - name: Cache rendered question images
         uses: actions/cache@v4
         with:
