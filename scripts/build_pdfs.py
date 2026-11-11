@@ -27,6 +27,20 @@ p{margin:3pt 0;orphans:3;widows:3}.answers-index{break-before:page}.answers-inde
 
 PDF_OPTIONS=dict(format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',outline=True,tagged=True)
 
+def drop_answers(body):
+    """Remove each answer section, including any <details> nested inside it (the step-through)."""
+    out,pos=[],0
+    opener=re.compile(r'<details\b[^>]*class="[^"]*\banswer\b[^"]*"[^>]*>')
+    tag=re.compile(r'<(/?)details\b[^>]*>')
+    while (m:=opener.search(body,pos)):
+        out.append(body[pos:m.start()]);depth,i=1,m.end()
+        while depth:
+            t=tag.search(body,i)
+            if not t:raise SystemExit('Unclosed answer section in print HTML')
+            depth+=-1 if t.group(1) else 1;i=t.end()
+        pos=i
+    return ''.join(out)+body[pos:]
+
 def _strip_headings(body):
     """Keep bookmarks to subject > topic > question: demote headings inside a question."""
     body=re.sub(r'<h2>(.*?)</h2>', r'<div class="qtitle">\1</div>', body, flags=re.S)
@@ -56,7 +70,7 @@ def document(subject, records, questions_only, release=False):
         body=row['html']
         body=re.sub(r'<a href="(?!https?://)[^"]*"[^>]*>(.*?)</a>',r'\1',body,flags=re.S)
         if questions_only:
-            body=re.sub(r'<details\b[^>]*class="[^"]*answer[^"]*"[^>]*>.*?</details>','',body,flags=re.S)
+            body=drop_answers(body)
         else:
             body=re.sub(r'<details\b','<details open',body)
         body=re.sub(r'<button\b.*?</button>','',body,flags=re.S)

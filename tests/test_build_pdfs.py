@@ -45,6 +45,23 @@ class RepackGrayImagesTest(unittest.TestCase):
             self.assertEqual(build_pdfs.repack_gray_images(path), 0)
 
 
+class QuestionsOnlyTest(unittest.TestCase):
+    def test_answer_sections_are_removed_with_nested_step_throughs(self):
+        body = ('<p>Q</p><details class="answer"><summary>Answer</summary><details class="steps js-only"><summary>Step</summary></details>'
+                '<div class="solution">Secret working</div></details><p>After</p>')
+        self.assertEqual(build_pdfs.drop_answers(body), '<p>Q</p><p>After</p>')
+
+    def test_no_solution_text_in_questions_only_document(self):
+        import json
+        site = ROOT / '_site'
+        if not (site / '04-data-structures/index.json').is_file():
+            self.skipTest('site not built')
+        records = json.loads((site / '04-data-structures/index.json').read_text())
+        doc = build_pdfs.document('04-data-structures', records, True, True)
+        self.assertNotIn('class="solution"', doc)
+        self.assertNotIn('class="answer', doc.split('class="answers-index"')[0])
+
+
 class CacheKeyTest(unittest.TestCase):
     """The key follows what the PDF prints (its print fingerprint), not every byte of the site."""
     def setUp(self):
