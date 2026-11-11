@@ -72,6 +72,12 @@ def main():
                 page.wait_for_selector('#CS-2016-S1-Q58 .head-path')
                 for _ in range(2):disk.locator('.steps-bar button',has_text='Next').click()
                 assert disk.locator('.steps-table tbody tr').count()==2
+                # Hashing player: one row per slot, with the key placed at this step marked.
+                page.goto(base+'/04-data-structures/#CS-2025-S1-Q65');hp=page.locator('#CS-2025-S1-Q65')
+                hp.locator('details.answer>summary').click();hp.locator('details.steps>summary').click()
+                page.wait_for_selector('#CS-2025-S1-Q65 .steps-table')
+                hp.locator('.steps-bar button',has_text='Next').click()
+                assert hp.locator('.steps-table tr.is-running').count()==1
                 # Old addresses redirect.
                 page.goto(base+'/08-operating-systems/patterns/');page.wait_for_url('**/08-operating-systems/')
                 assert page.evaluate('document.documentElement.scrollWidth-document.documentElement.clientWidth')<=1

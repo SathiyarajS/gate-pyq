@@ -1,5 +1,5 @@
 'use strict';
-// "Step through it" players for CPU scheduling, page replacement and disk scheduling. Loaded only when a reader opens one.
+// "Step through it" players for CPU scheduling, page replacement, disk scheduling and hashing. Loaded only when a reader opens one.
 // Data comes from the build (scripts/animations.py), which checks every result against the answer.
 (() => {
   const SVG = 'http://www.w3.org/2000/svg';
@@ -115,6 +115,18 @@
     return t;
   }
 
+  // Hashing: one row per slot; this step's collisions and placement are labelled.
+  function slots(s, data, step) {
+    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
+    ['Slot', data.chaining ? 'Chain' : 'Key', ''].forEach(c => head.append(h('th', null, c)));
+    step.table.forEach((v, i) => {
+      const row = body.insertRow(), placed = step.slot === i, hit = step.probed.includes(i);
+      [i, Array.isArray(v) ? v.join(' → ') : v == null ? '' : v, placed ? (data.chaining ? 'added' : 'placed') : hit ? 'collision' : ''].forEach(x => { row.insertCell().textContent = x; });
+      if (placed) row.className = 'is-running'; else if (hit) row.className = 'is-probed';
+    });
+    return t;
+  }
+
   function player(root) {
     const data = JSON.parse(root.dataset.steps);
     let which = 0, i = 0;
@@ -130,7 +142,12 @@
       [...tabs.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === which)));
       policy.textContent = s.title;
       const wrap = h('div', 'steps-table-wrap');
-      if (data.kind === 'disk-schedule') {
+      if (data.kind === 'hash-insert') {
+        wrap.append(slots(s, data, step));
+        view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : step.key == null ? 'Start' : 'Insert ' + step.key), wrap);
+        const left = data.keys.slice(step.final ? data.keys.length : s.steps.indexOf(step));
+        if (left.length) view.append(h('p', 'steps-ready', 'Still to insert: ' + left.join(', ')));
+      } else if (data.kind === 'disk-schedule') {
         wrap.append(moveTable(s, step, i));
         view.replaceChildren(h('p', 'steps-time', step.final ? 'Finished' : 'Head at ' + step.pos), head(s, data, step, i), wrap);
         if (!step.final && step.pending.length) view.append(h('p', 'steps-ready', 'Pending: ' + step.pending.join(', ')));
