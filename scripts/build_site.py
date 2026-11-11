@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from transcription import load_paper, resolve
 import site_features
+import question_groups
 TITLES = ['Digital Logic','Computer Organization & Architecture','Programming in C','Data Structures','Algorithms','Theory of Computation','Compiler Design','Operating Systems','Database Management Systems','Computer Networks','General Aptitude','Discrete Mathematics','Engineering Mathematics & Other Topics']
 
 def load(path, default=None):
@@ -113,11 +114,14 @@ def main():
         q['permalink']='q/'+q['question_id']+'/'
         q['report']='https://github.com/SathiyarajS/gate-pyq/issues/new?'+ 'title='+quote('['+q['question_id']+'] ')+'&body='+quote('Question: https://sathiyarajs.github.io/gate-pyq/'+q['permalink']+'\n\nDescribe the issue and cite the source page:\n')
         groups[subject].append(q)
-    # Questions asked again (data/repeats.json): an "Also asked" line on each, and a per-subject unique view.
+    # Previously recorded repeats: links on every question and a separate folded study view.
     repeats=site_features.load_repeats(ROOT,questions);byid={q['question_id']:q for q in questions}
     for q in questions:
         info=repeats.get(q['question_id'])
         q['also']=[dict(url='q/'+o+'/',kind=kind,label='GATE '+str(byid[o]['year'])+(' '+byid[o]['session'] if byid[o]['session'] else '')+', Q'+str(byid[o]['number'])) for o,kind in info['others']] if info else []
+    patterns=question_groups.load_patterns(ROOT,questions)
+    repeat_studies=question_groups.repeat_groups(repeats)
+    pattern_studies=question_groups.with_uncovered_repeats(patterns,repeat_studies,questions)
     missing_topics=[q['question_id'] for q in questions if q['topic']=='unreviewed']
     if missing_topics:issues.append(f'{len(missing_topics)} questions have no topic assignment; draft grouping is displayed.')
     topic_review_counts=collections.Counter()
@@ -177,9 +181,6 @@ def main():
     topic_titles={(s,t['id']):t['title'] for s in groups for t in topics.get(s,{}).get('topics',[])}
     weights=site_features.weightage(questions,titles,topic_titles,off_syllabus)
     packs=[]  # what each subject or paper needs to work offline
-    unique_counts={}
-    for subject,qs in groups.items():
-        unique_counts[subject]=len({tuple(repeats[q['question_id']]['group']) if q['question_id'] in repeats else q['question_id'] for q in qs})
     def sortkey(q):return (-q['year'],q['paper_id'],tuple(int(n) for n in re.findall(r'\d+',q['source_question_number'])))
     search=[];canonical={};subject_seen=[];paper_seen=[]
     for subject,qs in sorted(groups.items()):
@@ -191,11 +192,16 @@ def main():
         order={t['id']:i for i,t in enumerate(topic_list)};qs.sort(key=lambda q:(order.get(q['topic'],999),sortkey(q)))
         for i,q in enumerate(qs,1):q['ordinal']=i;q['topic_title']=next((t['title'] for t in topic_list if t['id']==q['topic']),'Unreviewed')+('' if args.release and q['topic_review_status']=='reviewed' else ' · '+('reviewed grouping' if q['topic_review_status']=='reviewed' else 'candidate grouping'))
         heat=[{'title':t['title'],'cells':[sum(q['topic']==t['id'] and q['year']==y for q in qs) for y in range(1991,2027)]} for t in topic_list]
+        # Regular view: each question in a reviewed pattern links to its group in the problem-patterns view.
+        for n,u in enumerate(question_groups.study_units(qs,pattern_studies,sortkey)):
+            if not u['alternatives'] or u['group']['id'].startswith('repeat-'):continue
+            url=f'{subject}/patterns/'+('' if n//10==0 else f'page/{n//10+1}/')+'#group-'+u['group']['id']
+            for q in [u['representative']]+u['alternatives']:q['pattern']=dict(url=url,title=u['group']['title'],others=len(u['alternatives']))
         for i in range(math.ceil(len(qs)/10)):
             path=subject if i==0 else f'{subject}/page/{i+1}'
             pageqs=qs[i*10:(i+1)*10]
             nav=[(n+1,subject+'/' if n==0 else f'{subject}/page/{n+1}/') for n in range(math.ceil(len(qs)/10))]
-            render(path,title=titles[subject],kind='subject',questions=pageqs,subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(qs),heat=heat,off_topics=off_topics,topic_weights=weights['subject_topics'][subject] if weights else None,unique_total=unique_counts[subject]);urls.append(path+'/')
+            render(path,title=titles[subject],kind='subject',questions=pageqs,subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(qs),heat=heat,off_topics=off_topics,topic_weights=weights['subject_topics'][subject] if weights else None);urls.append(path+'/')
             for q in pageqs:canonical[q['question_id']]=path+'/#'+q['question_id'];subject_seen.append(q['question_id'])
         for t in topic_list:
             tqs=[q for q in qs if q['topic']==t['id']]
@@ -203,16 +209,17 @@ def main():
                 base=f'{subject}/topic/{t["id"]}';path=base if i==0 else base+f'/page/{i+1}'
                 nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(tqs)/10)))]
                 render(path,title=titles[subject]+' · '+t['title'],kind='topic',questions=tqs[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(tqs),off_topics=off_topics,topic_off=off_syllabus.get((subject,t['id'])));urls.append(path+'/')
-        # Unique view: each repeat group once, as its newest member in this subject; newest year first.
-        unique,folded=[],set()
-        for q in sorted(qs,key=sortkey):
-            key=tuple(repeats[q['question_id']]['group']) if q['question_id'] in repeats else q['question_id']
-            if key in folded:continue
-            folded.add(key);unique.append(q)
-        for i in range(max(1,math.ceil(len(unique)/10))):
-            base=f'{subject}/unique';path=base if i==0 else base+f'/page/{i+1}'
-            nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(unique)/10)))]
-            render(path,title=titles[subject]+' · Unique questions',kind='unique',questions=unique[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(unique),all_total=len(qs),off_topics=off_topics);urls.append(path+'/')
+        # All-questions routes above stay canonical. Both study views retain every variant.
+        for view, label, studies in [('unique', 'Known repeats folded', repeat_studies),
+                                     ('patterns', 'Problem patterns', pattern_studies)]:
+            units=question_groups.study_units(qs, studies, sortkey)
+            grouped=sum(len(u['alternatives'])+1 for u in units if u['alternatives'])
+            group_count=sum(bool(u['alternatives']) for u in units)
+            pattern_index=[dict(title=u['group']['title'],count=len(u['alternatives'])+1,url=f'{subject}/patterns/'+('' if n//10==0 else f'page/{n//10+1}/')+'#group-'+u['group']['id']) for n,u in enumerate(units) if view=='patterns' and u['alternatives'] and not u['group']['id'].startswith('repeat-')]
+            for i in range(max(1,math.ceil(len(units)/10))):
+                base=f'{subject}/{view}';path=base if i==0 else base+f'/page/{i+1}'
+                nav=[(n+1,base+'/' if n==0 else base+f'/page/{n+1}/') for n in range(max(1,math.ceil(len(units)/10)))]
+                render(path,title=titles[subject]+' · '+label,kind=view,study_units=units[i*10:(i+1)*10],subject=subject,topics=topic_list,nav=nav,current=i+1,total=len(units),all_total=len(qs),pattern_index=pattern_index,grouped=grouped,group_count=group_count,ungrouped=len(qs)-grouped,off_topics=off_topics);urls.append(path+'/')
         # HTML fragments generated by the same safe autoescaped template as static pages.
         records=[]
         for q in qs:
