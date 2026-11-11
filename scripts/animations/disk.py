@@ -123,3 +123,4 @@ def disk_animation(qid, spec):
 # Animation kinds this family provides, and the player file that draws them.
 KINDS = {'disk-schedule': disk_animation}
 PLAYER = 'disk'
+TABS = 'schedules'

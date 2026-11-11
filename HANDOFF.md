@@ -142,7 +142,7 @@ Nothing reaches the site until this step passes.
 
 | File | What goes in it |
 |---|---|
-| `scripts/animations/<family>.py` | The simulator. Define `KINDS = {'<kind>': fn}` and `PLAYER = '<family>'`; `fn(qid, spec)` returns `{kind, schedules: [{short, title, steps: [...]}], count, ...}`. Each step needs a `note`; the last one has `final: True`. Shared helpers are in `scripts/animations/common.py` (read-only for families). Discovered automatically. |
+| `scripts/animations/<family>.py` | The simulator. Define `KINDS = {'<kind>': fn}`, `PLAYER = '<family>'` and, if a question can have several tabs, `TABS = '<word>'` (e.g. `'schedules'`, shown as “3 schedules”); `fn(qid, spec)` returns `{kind, schedules: [{short, title, steps: [...]}], count, ...}`. Each step needs a `note`; the last one has `final: True`. Shared helpers are in `scripts/animations/common.py` (read-only for families). Discovered automatically. |
 | `data/animations/<family>.json` | `{"description": ..., "questions": {"CS-…": spec}}`. |
 | `site-static/steps/<family>.js` | `window.gateStepsRegister(({el, h, css}) => ({'<kind>': (schedule, data, step, index, width) => [nodes]}))`. Loaded only when a reader opens one. Use `css(...)` for styles, `steps-table`, `steps-table-wrap`, `steps-time`, `steps-ready`, and colours `var(--s0)`–`var(--s5)`, `var(--accent)`, `var(--muted)`, `var(--line)`, `var(--panel)`. |
 | `tests/test_anim_<family>.py` | Unit tests for the simulator, from worked solutions. |

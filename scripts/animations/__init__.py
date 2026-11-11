@@ -2,7 +2,8 @@
 
 Each family is a module in this package that defines KINDS (animation kind ->
 function(qid, spec) returning the player data) and PLAYER (the file
-site-static/steps/<PLAYER>.js that draws it). Modules are discovered
+site-static/steps/<PLAYER>.js that draws it), and optionally TABS (the word for
+several tabs, e.g. 'schedules'; default 'versions'). Modules are discovered
 automatically. Each family's entries live in data/animations/<family>.json.
 
 Every animation is simulated here, and the build stops if a result differs from
@@ -13,7 +14,7 @@ import importlib
 import json
 import pkgutil
 
-KINDS, PLAYERS = {}, {}
+KINDS, PLAYERS, TABS = {}, {}, {}
 for _info in pkgutil.iter_modules(__path__):
     if _info.name == 'common':
         continue
@@ -22,6 +23,7 @@ for _info in pkgutil.iter_modules(__path__):
         if _kind in KINDS:
             raise SystemExit(f'Animation kind {_kind} is defined twice')
         KINDS[_kind], PLAYERS[_kind] = _fn, _mod.PLAYER
+        TABS[_kind] = getattr(_mod, 'TABS', 'versions')
 
 
 def load(root, question_ids):
@@ -38,5 +40,6 @@ def load(root, question_ids):
             seen[qid] = path.name
             data = KINDS[spec['kind']](qid, spec)
             data['player'] = PLAYERS[spec['kind']]
+            data.setdefault('tabs_label', TABS[spec['kind']])
             out[qid] = data
     return out

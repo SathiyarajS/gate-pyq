@@ -141,3 +141,4 @@ def page_animation(qid, spec):
 # Animation kinds this family provides, and the player file that draws them.
 KINDS = {'page-replace': page_animation}
 PLAYER = 'paging'
+TABS = 'policies'

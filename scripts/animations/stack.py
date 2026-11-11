@@ -545,3 +545,4 @@ def moves_animation(qid, spec):
 KINDS = {'stack-postfix': postfix_animation, 'stack-eval': eval_animation, 'stack-ops': ops_animation,
          'stack-split': split_animation, 'stack-moves': moves_animation}
 PLAYER = 'stack'
+TABS = 'options'
