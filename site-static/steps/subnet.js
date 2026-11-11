@@ -30,6 +30,8 @@ window.gateStepsRegister(({el, h, css}) => {
 .sn-frags rect.f0{fill:var(--s0)}.sn-frags rect.f1{fill:var(--s2)}.sn-frags rect.f2{fill:var(--s3)}.sn-frags rect.f3{fill:var(--s4)}
 .sn-frags rect{stroke:var(--panel);stroke-width:1.5}
 .sn-frags rect.alt{opacity:.72}
+.sn-table th,.sn-table td{overflow-wrap:normal}
+@media(max-width:520px){.sn-table th,.sn-table td{padding-inline:4px}}
 `);
   const wrap = node => { const w = h('div', 'steps-table-wrap'); w.append(node); return w; };
 
@@ -57,26 +59,33 @@ window.gateStepsRegister(({el, h, css}) => {
 
   // Byte ranges of the payload, one bar per stage; each fragment is a box with its size.
   function frags(b, width) {
-    const W = Math.max(300, Math.min(680, Math.round(width || 600))), left = 84, right = 8, rowH = 24, gap = 8;
-    const H = b.rows.length * (rowH + gap) + 14, x = v => left + (W - left - right) * v / b.total;
+    const W = Math.max(300, Math.min(680, Math.round(width || 600)));
+    const stacked = W < 410, left = stacked ? 0 : 112, right = 8, rowH = 24, labelH = stacked ? 16 : 0;
+    const pitch = labelH + rowH + 8;
+    const H = b.rows.length * pitch + 14, x = v => left + (W - left - right) * v / b.total;
     const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, class: 'sn-frags', role: 'img', 'aria-label': 'Payload byte ranges of the fragments'});
     b.rows.forEach((r, k) => {
-      const y = k * (rowH + gap);
-      svg.append(el('text', {x: left - 6, y: y + rowH / 2 + 4, 'text-anchor': 'end', class: 'lab'}, r.label));
+      const y = k * pitch + labelH;
+      svg.append(el('text', {
+        x: stacked ? left : left - 6,
+        y: stacked ? y - 4 : y + rowH / 2 + 4,
+        'text-anchor': stacked ? 'start' : 'end',
+        class: 'lab',
+      }, r.label));
       r.parts.forEach(([start, n, text, cls], j) => {
         const x0 = x(start), w = Math.max(1.5, x(start + n) - x0);
         svg.append(el('rect', {x: x0, y, width: w, height: rowH, rx: 2, class: 'f' + (cls % 4) + (j % 2 ? ' alt' : '')}));
         if (w > 7 * text.length + 6) svg.append(el('text', {x: x0 + w / 2, y: y + rowH / 2 + 4, 'text-anchor': 'middle', class: 'num'}, text));
       });
     });
-    const yb = b.rows.length * (rowH + gap) + 6;
+    const yb = b.rows.length * pitch + 6;
     svg.append(el('text', {x: left, y: yb, class: 'tick'}, 'byte 0'));
     svg.append(el('text', {x: W - right, y: yb, 'text-anchor': 'end', class: 'tick'}, String(b.total)));
     return svg;
   }
 
   function table(b) {
-    const t = h('table', 'steps-table'), head = t.createTHead().insertRow(), body = t.createTBody();
+    const t = h('table', 'steps-table sn-table'), head = t.createTHead().insertRow(), body = t.createTBody();
     b.head.forEach(c => head.append(h('th', null, c)));
     b.rows.forEach((r, k) => {
       const row = body.insertRow(); r.forEach(v => { row.insertCell().textContent = v; });

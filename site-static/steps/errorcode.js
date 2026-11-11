@@ -8,7 +8,7 @@ window.gateStepsRegister(({h, css}) => {
 .ec-grid th{font-family:inherit;font-weight:650;font-size:.75rem;color:var(--muted);text-align:right;padding:2px 8px 2px 0;white-space:nowrap}
 .ec-grid thead th{text-align:center;padding:0 1px;font-size:.68rem;font-weight:500}
 .ec-grid th:first-child{min-width:0}
-.ec-grid td{text-align:center;padding:2px 1px;min-width:1.15em;line-height:1.5}
+.ec-grid td{text-align:center;padding:2px 1px;min-width:1.15em;line-height:1.5;white-space:nowrap}
 .ec-grid td.gap,.ec-grid thead th.gap{padding-left:9px}
 .ec-grid td.val{text-align:left;padding-left:10px;font-family:inherit;font-size:.8rem;color:var(--muted);white-space:nowrap}
 .ec-grid td.muted,.ec-grid tr.muted td{color:var(--muted);opacity:.75}
