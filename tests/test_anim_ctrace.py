@@ -62,3 +62,43 @@ def test_expected_output_must_match_the_executed_program():
     spec = {**SPECS["CS-2017-S2-Q24"], "expect": {"output": "0,1"}}
     with pytest.raises(SystemExit, match="prints '1,0', not '0,1'"):
         ctrace_animation("CS-2017-S2-Q24", spec)
+
+
+def test_void_call_returns_to_the_caller_with_the_updated_array():
+    qid = "CS-2025-S2-Q19"
+    result = ctrace_animation(qid, SPECS[qid])
+    returned = next(step for step in result["schedules"][0]["steps"] if "stringcopy(a, a + 2) returns." in step["note"])
+    assert result["code"][returned["line"]].strip() == "stringcopy(a, a + 2);"
+    assert returned["vars"][0]["rows"][0]["s"] == '"Hello World!d!"'
+
+
+def test_for_initializer_and_condition_highlight_the_caller_loop():
+    qid = "CS-2019-Q37"
+    result = ctrace_animation(qid, SPECS[qid])
+    steps = result["schedules"][0]["steps"]
+    initializer = next(step for step in steps if step["note"] == "r(): r() returns 7.")
+    conditions = [step for step in steps if step["note"].startswith("Test r()")]
+    assert len(conditions) == 3
+    for step in [initializer, *conditions]:
+        assert result["code"][step["line"]].strip() == "for (r(); r(); r())"
+        assert step["fn"] == "main"
+    assert any(step["note"] == "Before returning, num becomes 6. r returns 7." for step in steps)
+
+
+def test_loop_update_and_if_side_effects_have_their_own_steps():
+    qid = "CS-2019-Q63"
+    result = ctrace_animation(qid, SPECS[qid])
+    steps = result["schedules"][0]["steps"]
+    update = next(step for step in steps if step["note"] == "i++: i becomes 1.")
+    assert result["code"][update["line"]].strip().startswith("for (")
+    assert any("a holds {2, 4, 6, 8, 10}" in step["note"] for step in steps)
+    body = next(step for step in steps if step["note"].endswith("sum becomes 1."))
+    assert "i becomes" not in body["note"]
+
+    qid = "CS-2021-S1-Q47"
+    result = ctrace_animation(qid, SPECS[qid])
+    steps = result["schedules"][0]["steps"]
+    condition = next(step for step in steps if "i becomes 2" in step["note"])
+    assert result["code"][condition["line"]].strip().startswith("if (")
+    body = next(step for step in steps if step["note"].endswith("count becomes 1."))
+    assert "i becomes" not in body["note"]

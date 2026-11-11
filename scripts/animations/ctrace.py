@@ -721,6 +721,8 @@ class Listing:
             upd = show(s.update) if s.update else ''
             head = 'for (' + init + ';' + (' ' + cond if cond else '') + ';' + (' ' + upd if upd else '') + ')'
             s.line = self.tail(head, s.body, s.braces, s.inline, depth)
+            if s.init is not None:
+                s.init.line = s.line
         elif s.kind == 'do':
             s.top = self.out('do {', depth)
             self.body(s.body, depth + 1)
@@ -827,7 +829,7 @@ class Run:
         self.size_t = UINT if spec.get('size_t') == 'unsigned int' else ULONG
         self.nobj, self.objs, self.globals, self.funcs, self.statics = 0, [], {}, {}, {}
         self.frames, self.steps, self.out, self.prints = [], [], '', 0
-        self.writes, self.reads, self.ctx, self.carry = [], [], None, []
+        self.writes, self.reads, self.ctx = [], [], None
         self.literals, self.seen_static, self.unspecified, self.states = {}, set(), [], set()
         self.breakable, self.cur_line, self.fall = [], None, None
         self.repeat, self.stopped, self.final_main = False, False, {}
@@ -1516,8 +1518,11 @@ class Run:
             self.final_main = {o.name: self.fmt(o.cells[0], o.t) for o in fr.objs if not is_arr(o.t)}
         self.frames.pop()
         self.ctx, self.cur_line = caller_ctx, line_was
-        if self.ctx is not None and f.ret != VOID:
-            self.ctx['calls'].append((show(node), self.fmt(*result)))
+        if self.ctx is not None:
+            call = f'{show(node)} returns'
+            if f.ret != VOID:
+                call += f' {self.fmt(*result)}'
+            self.ctx['calls'].append(call)
         if f.ret != VOID:
             self.work(node, *result)
         body = fr.acc
@@ -1625,9 +1630,6 @@ class Run:
         if len(self.steps) >= MAX_STEPS:
             self.stopped = True
             raise Stop()
-        if self.carry:
-            note = ' '.join(self.carry + [note])
-            self.carry = []
         st = dict(line=line, note=note, vars=self.snapshot(), out=self.out)
         if printed:
             st['new'] = len(printed)
@@ -1692,7 +1694,7 @@ class Run:
         """A clause list for one statement: calls made, values skipped, what changed, what was printed."""
         lead = []
         if ctx['calls']:
-            lead.append(_list([f'{c} returns {v}' for c, v in ctx['calls']]))
+            lead.append(_list(ctx['calls']))
         for a, ta, b, skipped in ctx['logic']:
             if skipped:
                 lead.append(f'{a} is {"true" if ta else "false"}, so {b} is not evaluated')
@@ -1760,8 +1762,8 @@ class Run:
                 return val
         return show(x)
 
-    def test(self, s, node, line, yes, no, fold=False):
-        """Evaluate the test of an if or a loop. The step folds into the next one when the body is one statement."""
+    def test(self, s, node, line, yes, no):
+        """Evaluate and display the test of an if or a loop before its body runs."""
         ctx = self.new_ctx()
         v, t = self.full(node, line)
         truth = self.truth(v, t)
@@ -1770,7 +1772,7 @@ class Run:
         n = strip_paren(node)
         parts = []
         if ctx['calls']:
-            parts.append(_list([f'{c} returns {r}' for c, r in ctx['calls']]))
+            parts.append(_list(ctx['calls']))
         if n.k == 'bin' and n.op in ('&&', '||'):
             for a, ta, b, skipped in ctx['logic'][:1]:
                 parts.append(f'{a} is {"true" if ta else "false"}' + (f', so {b} is not evaluated' if skipped else
@@ -1792,10 +1794,7 @@ class Run:
                 f'{show(n)} is {shown}, {"not zero" if truth else "zero"}'
         parts.append(main)
         sentence = f'Test {show(node)}: {"; ".join(parts)}, so {yes if truth else no}.'
-        if truth and fold:
-            self.carry.append(sentence)
-        else:
-            self.emit(line, sentence, work=ctx['work'], printed=ctx['printed'])
+        self.emit(line, sentence, work=ctx['work'], printed=ctx['printed'])
         self.ctx = None
         if s.kind != 'if':
             self.check_loop(s)
@@ -1809,13 +1808,6 @@ class Run:
             self.repeat = True
             raise Stop()
         self.states.add(state)
-
-    def single(self, gs):
-        """The only statement of a body, when it is one simple statement (its test folds into it)."""
-        stmts = flat(gs)
-        if len(stmts) == 1 and stmts[0].kind == 'expr':
-            return True
-        return False
 
     def run(self, s):
         k = s.kind
@@ -1849,11 +1841,7 @@ class Run:
         elif k == 'if':
             yes = 'the if branch runs' if s.els is not None else 'its body runs'
             no = 'the else branch runs' if s.els is not None else 'its body is skipped'
-            fold_then, fold_else = self.single(s.then), s.els is not None and self.single(s.els)
-            truth = self.test(s, s.cond, s.line, yes, no, fold=fold_then)
-            if not truth and fold_else and self.steps and self.steps[-1]['line'] == s.line:
-                # Fold the failed test into the else statement too.
-                self.carry.append(self.steps.pop()['note'])
+            truth = self.test(s, s.cond, s.line, yes, no)
             if truth:
                 self.run_block(s.then)
             elif s.els is not None:
@@ -1905,13 +1893,11 @@ class Run:
         unset = [o.name for o, d in zip(objs, s.decls) if d.init is None]
         if len(unset) < len(objs):
             note = self.describe(ctx, initial=True)
-            note = note[0].upper() + note[1:]
             if unset:
                 note += f'; {_list(unset)} {"is" if len(unset) == 1 else "are"} not set yet'
         else:
             note = f'{_list(unset)} {"is" if len(unset) == 1 else "are"} created but not set yet'
-            note = note[0].upper() + note[1:]
-        self.emit(s.line, self.fallen(note + '.'), work=ctx['work'], printed=ctx['printed'])
+        self.emit(s.line, self.fallen(f'During this declaration, {note}.'), work=ctx['work'], printed=ctx['printed'])
         self.ctx = None
 
     def run_return(self, s):
@@ -1930,8 +1916,7 @@ class Run:
         pre = self.describe(ctx)
         note = f'{fr.func.name} returns {self.fmt(v, fr.func.ret)}'
         if pre:
-            note = f'{pre}; {note}'
-            note = note[0].upper() + note[1:]
+            note = f'Before returning, {pre}. {note}'
         self.emit(s.line, self.fallen(note + '.'), work=ctx['work'], printed=ctx['printed'])
         self.ctx = None
         raise Ret(v, fr.func.ret)
@@ -1976,7 +1961,6 @@ class Run:
         return note
 
     def loop(self, s, cond, update, body):
-        fold = self.single(body)
         self.breakable.append('loop')
         first = True
         try:
@@ -1985,15 +1969,12 @@ class Run:
                     ctx = self.new_ctx()
                     self.full(update, s.line)
                     text = self.describe(ctx) or 'nothing changes'
-                    if ctx['calls'] or ctx['printed']:
-                        self.emit(s.line, f'{show(update)}: {text}.', work=ctx['work'], printed=ctx['printed'])
-                    else:
-                        self.carry.append(f'{show(update)}: {text}.')
+                    self.emit(s.line, f'{show(update)}: {text}.', work=ctx['work'], printed=ctx['printed'])
                     self.ctx = None
                 first = False
                 if cond is None:
                     self.check_loop(s)
-                elif not self.test(s, cond, s.line, 'the loop body runs', 'the loop ends', fold=fold):
+                elif not self.test(s, cond, s.line, 'the loop body runs', 'the loop ends'):
                     break
                 try:
                     self.run_block(body)
