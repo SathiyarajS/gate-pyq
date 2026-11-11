@@ -25,3 +25,6 @@ _site-crop-preview/
 # Local agent prompts and review screenshots
 .agent-prompt-*
 audits/compare-shots/
+
+# Parallel agents' working copies (git worktrees)
+.claude/worktrees/
