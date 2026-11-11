@@ -8,8 +8,9 @@ window.gateStepsRegister(({h, css}) => {
     .fa-view .fa-accept {border:3px double currentColor}
     .fa-view .fa-now {border-color:var(--accent);background:color-mix(in oklab,var(--accent) 24%,var(--panel));color:var(--ink);font-weight:700}
     .fa-view .fa-off {opacity:.5}
-    .fa-view .steps-table th,.fa-view .steps-table td {white-space:normal;overflow-wrap:anywhere}
+    .fa-view .steps-table th,.fa-view .steps-table td {white-space:normal;overflow-wrap:normal}
     .fa-view .steps-table th:first-child {min-width:0}
+    @media(max-width:520px){.fa-view .steps-table th,.fa-view .steps-table td{padding-inline:4px}}
     .fa-view .fa-transitions {margin:6px 0;padding-left:20px}
     .fa-view .fa-tape {font-family:monospace;white-space:normal;overflow-wrap:anywhere}
     .fa-view .fa-tape span {display:inline-block;padding:3px}
