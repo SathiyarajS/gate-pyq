@@ -11,10 +11,10 @@ window.gateStepsRegister(({h, css}) => {
 .dp-table th:first-child,.dp-table td:first-child{min-width:0;border-left:0}
 .dp-table td.base{color:var(--muted)}
 .dp-table td.blank{background:color-mix(in oklab,var(--muted) 8%,transparent)}
-.dp-table td.now{background:color-mix(in oklab,var(--accent) 22%,transparent);font-weight:800;color:var(--ink);outline:2px solid var(--accent);outline-offset:-2px}
+.dp-table td.dp-current{background:color-mix(in oklab,var(--accent) 22%,transparent);font-weight:800;color:var(--ink);outline:2px solid var(--accent);outline-offset:-2px}
 .dp-table td.dep{background:color-mix(in oklab,var(--s1) 26%,transparent);font-weight:700}
 .dp-table td.alt{background:color-mix(in oklab,var(--s1) 9%,transparent)}
-.dp-table td.path{background:color-mix(in oklab,var(--s2) 26%,transparent);font-weight:700}
+.dp-table td.dp-trace{background:color-mix(in oklab,var(--s2) 26%,transparent);font-weight:700}
 .dp-table tr.took td{background:color-mix(in oklab,var(--s2) 18%,transparent);font-weight:700}
 .dp-key{display:flex;flex-wrap:wrap;gap:2px 12px;font-size:.78rem;color:var(--muted);margin:2px 0}
 .dp-key i{display:inline-block;width:1em;height:.8em;border-radius:2px;margin-right:.35em;vertical-align:-.05em}
@@ -34,8 +34,14 @@ window.gateStepsRegister(({h, css}) => {
     s.fill.forEach(([r, c, v], k) => { if (k <= step.at) { val[at(r, c)] = v; delete cls[at(r, c)]; } });
     (step.alts || []).forEach(([r, c]) => { cls[at(r, c)] = 'alt'; });
     (step.deps || []).forEach(([r, c]) => { cls[at(r, c)] = 'dep'; });
-    (step.path || []).forEach(([r, c]) => { cls[at(r, c)] = 'path'; });
-    if (step.at >= 0 && !step.final) { const [r, c] = s.fill[step.at]; cls[at(r, c)] = 'now'; }
+    (step.path || []).forEach(([r, c]) => { cls[at(r, c)] = 'dp-trace'; });
+    if (step.at >= 0 && !step.final) {
+      const [r, c] = s.fill[step.at];
+      cls[at(r, c)] = 'dp-current is-now';
+    } else if (step.path?.length) {
+      const [r, c] = step.path[0];
+      cls[at(r, c)] = 'dp-trace is-now';
+    }
     const took = new Set((step.took || []).map(k => k - 1));
     s.rows.forEach((label, r) => {
       const tr = body.insertRow();
@@ -52,7 +58,7 @@ window.gateStepsRegister(({h, css}) => {
     if (step.at >= 0 && !step.final) items.push(['now', 'this cell']);
     if ((step.deps || []).length) items.push(['dep', 'the value it came from']);
     if ((step.alts || []).length) items.push(['alt', 'other options tried']);
-    if ((step.path || []).length) items.push(['path', 'the optimal solution']);
+    if ((step.path || []).length) items.push(['path', 'one optimal trace']);
     if ((step.took || []).length) items.push(['path', 'taken']);
     if (!items.length) return null;
     const k = h('p', 'dp-key');

@@ -32,6 +32,13 @@ def _tab(short, title, rows, cols, corner, base, fill, steps, blank=None):
     return dict(short=short, title=title, rows=rows, cols=cols, corner=corner, base=base, fill=fill, blank=blank or [], steps=steps)
 
 
+def _chosen_items(indices):
+    if not indices:
+        return 'no items'
+    label = 'item' if len(indices) == 1 else 'items'
+    return f'{label} {_list([str(i) for i in indices])}'
+
+
 def matrix_chain(qid, spec):
     d = spec['dims']
     n = len(d) - 1
@@ -120,7 +127,7 @@ def lcs(qid, spec):
     best = sorted(S[p][q])
     got = dict(length=L[p][q], distinct=len(best))
     final = f"All done. The longest common subsequences have length L[{p}, {q}] = {L[p][q]}. Following every way back through the table gives {len(best)} different strings: {_list(best)}."
-    if 'answer' in spec['expect']:
+    if 'weights' in spec:
         w = spec['weights']
         got['answer'] = sum(w[k] * got[k] for k in w)
         final += ' So ' + ' + '.join(f"{w[k]}·{got[k]}" if w[k] != 1 else str(got[k]) for k in w) + f" = {got['answer']}."
@@ -168,7 +175,7 @@ def knapsack(qid, spec):
             c -= items[i - 1][0]
     chosen.reverse()
     got = dict(optimal=opt)
-    final = f"All done. The best value is K[{n}, {W}] = {opt}, taking item" + ('s ' if len(chosen) > 1 else ' ') + _list([str(k) for k in chosen]) + '.'
+    final = f"All done. The best value is K[{n}, {W}] = {opt}, taking {_chosen_items(chosen)}."
     tabs = []
     rows, cols = ['none'] + [f'{k} ({w}, {v})' for k, (w, v) in enumerate(items, 1)], [str(c) for c in range(W + 1)]
     gsteps = None
@@ -192,7 +199,7 @@ def knapsack(qid, spec):
         got['difference'] = opt - val
         line = f" Greedy gets {val}, so the difference is {opt} − {val} = {opt - val}."
         final += line
-        gsteps.append(dict(at=-1, took=list(took), final=True, note=f"All done. Greedy takes item" + ('s ' if len(took) > 1 else ' ') + _list([str(k) for k in took]) + f" for a value of {val}. The table's optimum is {opt}, so the difference is {opt - val}."))
+        gsteps.append(dict(at=-1, took=list(took), final=True, note=f"All done. Greedy takes {_chosen_items(took)} for a value of {val}. The table's optimum is {opt}, so the difference is {opt - val}."))
     _check(qid, got, spec['expect'])
     steps.append(dict(at=len(fill) - 1, path=path, final=True, note=final))
     tabs.append(_tab('DP table', f'K[i, c]: rows are items (weight, value), columns capacity in kg', rows, cols, 'item \\ c', [[0, c, '0'] for c in range(W + 1)], fill, steps))
@@ -217,7 +224,7 @@ def nondecreasing(qid, spec):
             best = []
             note = f"A[{i + 1}] = {a[i]}: no earlier entry is ≤ {a[i]}, so L[{i + 1}] = 1."
         fill.append([1, i, str(Lv[i])])
-        steps.append(dict(at=len(fill) - 1, deps=[[0, j] for j in best], alts=[[0, j] for j in prev if j not in best], note=note))
+        steps.append(dict(at=len(fill) - 1, deps=[[1, j] for j in best], alts=[[1, j] for j in prev if j not in best], note=note))
     length = max(Lv)
     got = dict(length=length, distance=n - length)
     _check(qid, got, spec['expect'])
@@ -226,7 +233,8 @@ def nondecreasing(qid, spec):
         if Lv[i] == want and (end is None or a[i] <= a[end]):
             path.append([1, i])
             want, end = want - 1, i
-    steps.append(dict(at=len(fill) - 1, path=path, final=True, note=f"All done. At most {length} entries can stay unchanged (for example " + ', '.join(str(a[c]) for _, c in reversed(path)) + f"), so at least {n} − {length} = {n - length} must be replaced."))
+    kept = ', '.join(str(a[c]) for _, c in reversed(path))
+    steps.append(dict(at=len(fill) - 1, path=path, final=True, note=f"All done. At most {length} entries can stay unchanged (for example {kept}), so at least {n} − {length} = {n - length} must be replaced. Fill each gap with the kept value to its left, using the first kept value for an initial gap. That achieves the bound."))
     return [_tab('Table', 'A and L, position by position', ['A', 'L'], [str(k) for k in range(1, n + 1)], 'i', [[0, k, str(v)] for k, v in enumerate(a)], fill, steps)]
 
 
