@@ -1,0 +1,27 @@
+{
+  "syllabus": "GATE 2027",
+  "source": "GATE 2027 Computer Science and Information Technology (CS) syllabus, IIT Madras (organising institute)",
+  "source_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf",
+  "accessed_on": "2026-11-11",
+  "method": "Topic-level only. A topic is listed here when the syllabus does not name it or anything that covers it. Topics that mix listed and unlisted material (for example application protocols, or compiler phases with linking and loading) are not flagged, and no individual question has been reviewed against the syllabus.",
+  "not_listed": {
+    "02-computer-organization-architecture": {
+      "storage": "The memory-hierarchy line names cache and main memory only. I/O scheduling and file systems remain under Operating Systems."
+    },
+    "05-algorithms": {
+      "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named."
+    },
+    "06-theory-of-computation": {
+      "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named; the section ends at Turing machines and undecidability."
+    },
+    "10-computer-networks": {
+      "security": "Network security (cryptography, digital signatures, firewalls) is not named."
+    },
+    "13-other-topics": {
+      "numerical": "Numerical methods are not named.",
+      "software-engineering": "Software engineering is not named.",
+      "web-technologies": "Web technologies (HTML, XML) are not named.",
+      "other-computing": "Object-oriented programming and programming paradigms are not named; the only language is C."
+    }
+  }
+}

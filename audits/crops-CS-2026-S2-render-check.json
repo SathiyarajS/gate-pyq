@@ -1,0 +1,461 @@
+{
+  "method": "Independent re-render from inspected source bounds at 216 DPI; byte-for-byte WebP comparison, quality 80. All 42 source pages and 65 outlined bounds visually inspected; actual rendered output Q1\u2013Q4 also visually sampled. This is crop-content QA, not transcription, answer or rights clearance.",
+  "source_sha256": "5016950bc4e5c96676fb526e3247bab243a3dde422b6cb40a8531cc9b45f36ff",
+  "results": [
+    {
+      "question_id": "CS-2026-S2-Q1",
+      "sha256": "250f472c21d3bdfa68c9d2c77ff1a6e1a097632f980af4de1862fd7ab95f096c",
+      "width": 1365,
+      "height": 924,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q2",
+      "sha256": "fd1af537e6be921056ae85ee9fb9d758bdcfe1bf5361e81c7534f7de290d3ac9",
+      "width": 1365,
+      "height": 1683,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q3",
+      "sha256": "c03f4f412d93ffc1e1e99ecc82b39470c7f0ce5b52c23ddfcd8d66f7addab5fb",
+      "width": 1365,
+      "height": 966,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q4",
+      "sha256": "e6440cfe0c2ffa38f0802c6399cca14bca3c7c0d62809af937712e0ef6d2968b",
+      "width": 1365,
+      "height": 928,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q5",
+      "sha256": "fdb9b2652533bd4dcb370268365dd80f241c1db9093b2d6c9842f6ac9074cc3e",
+      "width": 1365,
+      "height": 925,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q6",
+      "sha256": "be3bb730c48fccf4239241bced8c2d75b4029cc0b26323214c431514e3534bfa",
+      "width": 1365,
+      "height": 924,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q7",
+      "sha256": "84ad7fd57c58b7724f522fca1fa8db671efe12d3ac2da3921379cc8a83ba99e2",
+      "width": 1365,
+      "height": 1854,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q8",
+      "sha256": "ee99514253fb33d96403fceffa9c897029d3e25241c1dae5bcbbded7bc54fed8",
+      "width": 1365,
+      "height": 1631,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q9",
+      "sha256": "f09d2f17023c22489016c031f6a4597ea524dfde485426b7c0ed692ef3fe1ebb",
+      "width": 1365,
+      "height": 1823,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q10",
+      "sha256": "7c3ab03e73acb1c675954db48a33ce888e3e6174dee2192e9fef7f923a742893",
+      "width": 1365,
+      "height": 1089,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q11",
+      "sha256": "7d9ade021bea4292fdaa72bde2d8acb6aa99e717e63d9308060f5268db453f18",
+      "width": 1365,
+      "height": 1851,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q12",
+      "sha256": "946fada9ab6e90248bba490a9b613848f001e7316c80e3e7c4c1029a9c00e905",
+      "width": 1365,
+      "height": 1996,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q13",
+      "sha256": "98a345ccb2357ce33aa5a051f32d17c71e2d092f8585d8295039a7973e02c8ef",
+      "width": 1365,
+      "height": 917,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q14",
+      "sha256": "f0c7b25c7e2bf0db51b31c3641349946302aa4eb9444151ecb5ad0c3e0c8eecb",
+      "width": 1365,
+      "height": 1058,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q15",
+      "sha256": "b71e77ce9d559fd8a47ead6e7cff645696bd0e56d8f17b590638dae20f69d97b",
+      "width": 1365,
+      "height": 1995,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q16",
+      "sha256": "d8172765908f43fe2236415861c3de4d093bfabae7c1c1664fad679075cd9954",
+      "width": 1365,
+      "height": 1017,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q17",
+      "sha256": "28ba9aa29a83d81c98d7a54699a9efaa63709bd874ab2b7b01fce4c2bb251470",
+      "width": 1365,
+      "height": 922,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q18",
+      "sha256": "61b43b4e5188ddf8ce2a5d086146f7baf34f5771479206316dbfa7932a697514",
+      "width": 1365,
+      "height": 2008,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q19",
+      "sha256": "e45fa8b9cc56194ba0d8c121fad951ecc466f558acaaa86d92fd725dd28175e5",
+      "width": 1365,
+      "height": 1989,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q20",
+      "sha256": "3b42154aef9b2b02c1af014100e88d8b304aab66fa83f4df2244a9f8028f50c2",
+      "width": 1365,
+      "height": 892,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q21",
+      "sha256": "1bd60e1fc62fadb1d1e9982d5911ba497c6ec07da9cab5824b4e590ce06cc974",
+      "width": 1365,
+      "height": 1053,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q22",
+      "sha256": "121a7b4af7425c9f915a4114afccacdb8fda695bcbbe8bef7de6169b2459f7a5",
+      "width": 1365,
+      "height": 919,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q23",
+      "sha256": "e6f808c9a2675b19a7c7bcae1916abae3d5f7aa10520d011b8435dd0721333c4",
+      "width": 1365,
+      "height": 1075,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q24",
+      "sha256": "e3ede78c2a8650f7275e5f191e1bca8f9b27538c55b619c05ed7128dc3cab580",
+      "width": 1365,
+      "height": 1902,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q25",
+      "sha256": "dfbddeb3d7533cbf80a8622ccd74353006013344456c66368ce773681383f82a",
+      "width": 1365,
+      "height": 1028,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q26",
+      "sha256": "fb6c97911d3d845852bfb5de9390e6e1187c70f3c1d473b6d47e0e823e022cb4",
+      "width": 1365,
+      "height": 1006,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q27",
+      "sha256": "fd98cbc360f24a5c5c2de954655fd1275d96083db5818e58134b694a17d17b9b",
+      "width": 1365,
+      "height": 980,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q28",
+      "sha256": "3fac1389b770536eb907a790c6b6506e3eb031588bbec026e3e0a6625d2345c1",
+      "width": 1365,
+      "height": 1007,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q29",
+      "sha256": "8e6c8c923313f12d694741bfe51d965193f15363ac707e5933a02167fbe6ee4e",
+      "width": 1365,
+      "height": 808,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q30",
+      "sha256": "3578805d905f9614c507202d0e52b7f459e1872b61c4a7ea8d89efa6cfdf3104",
+      "width": 1365,
+      "height": 240,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q31",
+      "sha256": "decfaa613a8ec0b3ab3ae99ee15b6107681107a88b4f07d5271d59296a0338a4",
+      "width": 1365,
+      "height": 431,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q32",
+      "sha256": "443c3daeac5bd57c82827f41e9b59286180fb1b37ff9fbe02376dfedecb90fb1",
+      "width": 1365,
+      "height": 482,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q33",
+      "sha256": "72523c599a83da6888b5f3e06bc9cff39fc45f808cbd83e4fb2a55369eb182a0",
+      "width": 1365,
+      "height": 198,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q34",
+      "sha256": "ba22432945c2f9ef5c49514a2f73c08a3a9efe8b77c131409bffe1ca1641bf2a",
+      "width": 1365,
+      "height": 198,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q35",
+      "sha256": "a4c6c15df308bf47fa30199ab5ec49357666477d70f9e907328f772bbf30d0c8",
+      "width": 1365,
+      "height": 726,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q36",
+      "sha256": "9df8cb7da28043c6120c22a768ddbbea9ede9c394854677b6b1411fa614f7040",
+      "width": 1365,
+      "height": 1850,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q37",
+      "sha256": "f88183d9da67aa9b3699f57336a0c557ba40b05ee19f48b7d70bc8fc8bc0aca0",
+      "width": 1365,
+      "height": 935,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q38",
+      "sha256": "f5dd7adb737cf5a1303d95d142bc97a9d0f7184befc308a50d0db80bf0460f19",
+      "width": 1365,
+      "height": 1049,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q39",
+      "sha256": "4804ebac4066ea86a7613d949670c7593147fb83d6366c581e950b4616811230",
+      "width": 1365,
+      "height": 2033,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q40",
+      "sha256": "6801dc790c95f54421465ba44128b833bedca4fc16693fd0c61b52bcdec97598",
+      "width": 1365,
+      "height": 1887,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q41",
+      "sha256": "f1feb77f26691189ad2661215327ca394b75da6041b12397083805c7ce183231",
+      "width": 1365,
+      "height": 1971,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q42",
+      "sha256": "6b0f2cb70abb50b4ef59d3ab4dc77e379052e8d3b77bf6175acb0eb3baf17223",
+      "width": 1365,
+      "height": 1964,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q43",
+      "sha256": "875587d1ce93bca62fc58a02ad1fa4603d2b382d6aab48d7ba782493fbaf7441",
+      "width": 1365,
+      "height": 928,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q44",
+      "sha256": "3186e9d65d75607794297b03762d8a1b3718cadf1f582e943d5717fc938d434e",
+      "width": 1365,
+      "height": 1096,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q45",
+      "sha256": "9da05617406b788b2e28feedf8b0c0562d2af4d5ae12dbaa0830ddd372fa5165",
+      "width": 1365,
+      "height": 1879,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q46",
+      "sha256": "5a5565b5d8962c56376712d39b4cceaba6777b2eb5e67bfb29db8f5691ead1aa",
+      "width": 1365,
+      "height": 1932,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q47",
+      "sha256": "f9916bf52798ddd10df4b23e51fe432440c88ca7c17decef4327eaefcf51153d",
+      "width": 1365,
+      "height": 1949,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q48",
+      "sha256": "82822bae4cbe1885c3e4b8a80fa23ccc866c6f4c4ab65b62e18db97dc86cefcc",
+      "width": 1365,
+      "height": 1960,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q49",
+      "sha256": "83df4d09703a71852ff95c9550c0657108926a0c67943b15fcea40d7a5c08d0f",
+      "width": 1365,
+      "height": 1934,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q50",
+      "sha256": "49bc66271c915f5a5df35f46573a8e14791c58a6bd14005bdcb061a1b1835d23",
+      "width": 1365,
+      "height": 2034,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q51",
+      "sha256": "21316761745189ce14a1128df34d4db37b9e12b9e627868d36c69eb31ef11485",
+      "width": 1365,
+      "height": 2027,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q52",
+      "sha256": "4ee2ba333def9d202d4e3a840aec6155870535eb108649d2b8184e526193e19a",
+      "width": 1365,
+      "height": 1513,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q53",
+      "sha256": "af28fd861477bf7ab3b43ffebc2b10fb28b28ca5a400f5edf8bc73a87a79aeb7",
+      "width": 1365,
+      "height": 442,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q54",
+      "sha256": "0a650d606f020a629e73414cd49a2fab23255f2e5a81e8711abf4508626f744e",
+      "width": 1365,
+      "height": 399,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q55",
+      "sha256": "ddaab8acf6441f9c115e378c312c07a6de69c772c892da218546efb2c83f815a",
+      "width": 1365,
+      "height": 440,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q56",
+      "sha256": "f15a71d84959e8d67e952b1bfa0d02453af62e92898e2627ab0e45597ed4bb4e",
+      "width": 1365,
+      "height": 357,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q57",
+      "sha256": "ea9b50fd6827d7e50125c64cf56252b9dc6e6564530f20a29620f82043407200",
+      "width": 1365,
+      "height": 735,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q58",
+      "sha256": "4965c301cb8ef57100ed59f36d1793962abf68d24da0ee19512689010f2b64db",
+      "width": 1365,
+      "height": 399,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q59",
+      "sha256": "4ee89c8599ade08a8555e7cf8be24b39cbad7a509a86831aecda44b4482adf39",
+      "width": 1365,
+      "height": 739,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q60",
+      "sha256": "7f96dc86ba77376de1edc7a35c648f0c1c2ba76590e36b205b62493807c1d5b1",
+      "width": 1365,
+      "height": 890,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q61",
+      "sha256": "2e88d0c23f84605a085366f2026f435eb13c9cc71e3ae737d9a1751c6fca281c",
+      "width": 1365,
+      "height": 991,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q62",
+      "sha256": "8a4b3add835dd953aa2b6b9ec16c147cda9f941058fdc3bc184507acb68f53e7",
+      "width": 1365,
+      "height": 157,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q63",
+      "sha256": "a962425f66a680192b2230127766b2c566ac8ca0b91ccc8a51957bc28fadb70a",
+      "width": 1365,
+      "height": 360,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q64",
+      "sha256": "2f0e05e693b0f5b16e93f4a1ea56b78f492c4d244297fc457be2325910f5d90b",
+      "width": 1365,
+      "height": 426,
+      "deterministic_source_render_match": true
+    },
+    {
+      "question_id": "CS-2026-S2-Q65",
+      "sha256": "dbe70434a010bd36dcdd693a012cb85d4fec78a25a6ca55c6df0be0dc5f6c627",
+      "width": 1365,
+      "height": 600,
+      "deterministic_source_render_match": true
+    }
+  ]
+}

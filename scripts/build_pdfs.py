@@ -1,0 +1,278 @@
+#!/usr/bin/env python3
+"""Generate the two PDFs per subject (with answers; questions only). --release for the public site, --preview for local drafts."""
+import argparse, asyncio, html, json, re
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+
+TITLES = ['Digital Logic','Computer Organization & Architecture','Programming in C','Data Structures','Algorithms','Theory of Computation','Compiler Design','Operating Systems','Database Management Systems','Computer Networks','General Aptitude','Discrete Mathematics','Engineering Mathematics & Other Topics']
+
+PDF_CSS = """@page{size:A4;margin:16mm 15mm 18mm}
+body{font:10.5pt/1.45 'Inter','Helvetica Neue',Arial,sans-serif;color:#111;background:#fff}
+h1{font-size:26pt;letter-spacing:-.02em;margin:0 0 6pt}h2.topic{font-size:15pt;margin:0 0 10pt;padding-bottom:4pt;border-bottom:2px solid #006a51;color:#006a51;break-before:page}
+h3.qhead{font-size:11pt;margin:0 0 4pt;color:#006a51}
+.cover{break-after:page;padding-top:60mm}.cover .sub{font-size:13pt;color:#444}.cover p{max-width:150mm}
+.toc{break-after:page}.toc ol{list-style:none;padding:0}.toc li{display:flex;gap:8pt;padding:3pt 0;border-bottom:1px dotted #bbb}.toc li span:first-child{flex:1}
+.question{border:none;border-top:1px solid #ccc;border-radius:0;padding:10pt 0 4pt;margin:0;background:none;break-inside:auto}
+.question-meta,.question-tools,.also-asked,.practice,.js-only,details.steps,button,details.provenance,details.text-version,.view-original>summary{display:none!important}
+.qtitle{font-weight:650;margin:2pt 0}.eyebrow{font-size:7.5pt;letter-spacing:.08em;text-transform:uppercase;color:#666;margin:0 0 4pt}
+.original-source h3,.original-source .h,.original-source .source-note{display:none}.original-source figure{margin:4pt 0;break-inside:avoid}
+.original-source img{max-width:100%;max-height:235mm;width:auto;height:auto;border:1px solid #ddd}
+figcaption,.source-note{font-size:7.5pt;color:#666}
+details{border:none;padding:0;margin:4pt 0}summary{list-style:none;font-weight:700;color:#006a51}summary::-webkit-details-marker{display:none}
+.answer{background:#f4f8f5;border-left:3px solid #006a51;padding:6pt 9pt;margin-top:6pt}.answer .h{font-weight:700;margin:6pt 0 2pt}
+.discrepancy{background:#fff4d6;border-left:3px solid #b58100;padding:5pt 8pt;margin:6pt 0;font-size:9pt}.discrepancy .h{font-weight:700}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:8.5pt;background:#f6f6f6;padding:6pt}a{color:#204d76;text-decoration:none}
+p{margin:3pt 0;orphans:3;widows:3}.answers-index{break-before:page}.answers-index table{border-collapse:collapse;width:100%;font-size:8.5pt}.answers-index td,.answers-index th{border:1px solid #ccc;padding:3pt 5pt;text-align:left;vertical-align:top}
+"""
+
+PDF_OPTIONS=dict(format='A4',print_background=True,display_header_footer=True,header_template='<span></span>',outline=True,tagged=True)
+
+def drop_answers(body):
+    """Remove each answer section, including any <details> nested inside it (the step-through)."""
+    out,pos=[],0
+    opener=re.compile(r'<details\b[^>]*class="[^"]*\banswer\b[^"]*"[^>]*>')
+    tag=re.compile(r'<(/?)details\b[^>]*>')
+    while (m:=opener.search(body,pos)):
+        out.append(body[pos:m.start()]);depth,i=1,m.end()
+        while depth:
+            t=tag.search(body,i)
+            if not t:raise SystemExit('Unclosed answer section in print HTML')
+            depth+=-1 if t.group(1) else 1;i=t.end()
+        pos=i
+    return ''.join(out)+body[pos:]
+
+def _strip_headings(body):
+    """Keep bookmarks to subject > topic > question: demote headings inside a question."""
+    body=re.sub(r'<h2>(.*?)</h2>', r'<div class="qtitle">\1</div>', body, flags=re.S)
+    body=re.sub(r'<h3>(.*?)</h3>', r'<div class="h">\1</div>', body, flags=re.S)
+    return body
+
+def document(subject, records, questions_only, release=False):
+    title=TITLES[int(subject[:2])-1]
+    by_id={q['question_id']:q for q in json.loads((ROOT/'data/questions.json').read_text())}
+    topics=json.loads((ROOT/'data/topics.json').read_text()).get(subject,{})
+    topic_title={t['id']:t['title'] for t in topics.get('topics',[])}
+    assign=topics.get('assign',{})
+    # The site lists newest first; the PDF keeps topic sections, newest first within each.
+    order={t['id']:i for i,t in enumerate(topics.get('topics',[]))}
+    records=sorted(records,key=lambda r:order.get(assign.get(r['id'],'other'),len(order)))
+    sections=[];toc=[];index_rows=[];current=None;n=0
+    for row in records:
+        n+=1;q=by_id[row['id']]
+        meta=re.search(r'<div class="question-meta"><span>(.*?)</span>\s*<span>(.*?)</span>',row['html'],re.S)
+        label=html.unescape(meta.group(1)) if meta else row['id'];marks=html.unescape(meta.group(2)) if meta else ''
+        tid=assign.get(row['id'],'other')
+        if tid!=current:
+            current=tid;anchor='topic-'+tid
+            toc.append([topic_title.get(tid,tid),anchor,n,n])
+            sections.append(f'<h2 class="topic" id="{anchor}">{html.escape(topic_title.get(tid,tid))}</h2>')
+        toc[-1][3]=n
+        body=row['html']
+        body=re.sub(r'<a href="(?!https?://)[^"]*"[^>]*>(.*?)</a>',r'\1',body,flags=re.S)
+        if questions_only:
+            body=drop_answers(body)
+        else:
+            body=re.sub(r'<details\b','<details open',body)
+        body=re.sub(r'<button\b.*?</button>','',body,flags=re.S)
+        body=body.replace(' loading="lazy"','').replace(' · tap to enlarge','')
+        body=_strip_headings(body)
+        head=f'<h3 class="qhead">Q{n}. ({html.escape(label)}) · {html.escape(marks)}{" · ⚠ discrepancy" if q["discrepancy_ids"] else ""}</h3>'
+        sections.append(head+body)
+        key=q['official_answer'] if q['official_answer'] is not None else '—'
+        ours='' if (q['official_answer'] is not None and str(q['derived_answer'])==str(q['official_answer'])) else str(q['derived_answer'])
+        index_rows.append(f'<tr><td>Q{n}</td><td>{html.escape(label)}</td><td>{html.escape(str(key))}</td><td>{html.escape(ours[:160])}</td></tr>')
+    if questions_only:
+        sections.append('<section class="answers-index"><h2 class="topic" id="answers">Answer index</h2><p>Official key where one exists; otherwise (or where it differs) our independently derived answer. Full solutions are in the with-answers PDF.</p><table><thead><tr><th>#</th><th>Question</th><th>Official key</th><th>Our answer (if different / no key)</th></tr></thead><tbody>'+''.join(index_rows)+'</tbody></table></section>')
+    toc_html='<section class="toc"><h2>Contents</h2><ol>'+''.join(f'<li><span><a href="#{a}">{html.escape(t)}</a></span><span>Q{s}–Q{e}</span></li>' for t,a,s,e in toc)+('<li><span><a href="#answers">Answer index</a></span><span></span></li>' if questions_only else '')+'</ol></section>'
+    kind='Questions only' if questions_only else 'Questions, answers and detailed solutions'
+    from datetime import date
+    note=('Each question shows the original from the source paper where available, otherwise a paraphrase with the source page. '
+          'Official keys are shown exactly as published; where none was found, the answer is independently derived and marked as such. '
+          'Discrepancies between the key and our working are flagged with ⚠ and explained.')
+    if not release:note='Private working preview. '+note
+    return ('<!doctype html><html lang="en"><meta charset="utf-8"><title>'+html.escape('GATE CS · '+title)+'</title>'
+            '<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/vendor/katex/katex.min.css">'
+            '<script defer src="../assets/vendor/katex/katex.min.js"></script><script defer src="../assets/app.js"></script>'
+            '<style>'+PDF_CSS+'</style><body data-base="../">'
+            '<section class="cover"><p class="sub">GATE Computer Science · 1991–2026</p><h1>'+html.escape(title)+'</h1><p class="sub">'+kind+'</p>'
+            '<p>'+str(len(records))+' questions grouped by topic, newest first within each topic. Year and paper are shown in brackets for every question.</p><p>'+note+'</p>'
+            '<p class="source-note">Generated '+date.today().isoformat()+' · https://sathiyarajs.github.io/gate-pyq/</p></section>'
+            +toc_html+''.join(sections)+'</body></html>')
+
+def _gray_png(job):
+    src,target=job
+    from PIL import Image
+    im=Image.open(src).convert('L');w,h=im.size;scale=150/216
+    im=im.resize((max(1,round(w*scale)),max(1,round(h*scale))),Image.LANCZOS)
+    im.quantize(16).save(target,optimize=True)
+
+def pdf_images(out, workers=None):
+    """Smaller grayscale copies of the question images, used only inside PDFs.
+
+    Site images are 216 DPI WebP; Chromium re-encodes them losslessly, which makes
+    each subject PDF ~60 MB. 150 DPI, 16 grey levels, PNG keeps text sharp at a
+    fraction of the size. Converted in parallel; unchanged images are skipped.
+    """
+    from concurrent.futures import ProcessPoolExecutor
+    src=out/'assets/questions';dst=ROOT/'.pdf-images';dst.mkdir(exist_ok=True)
+    jobs=[]
+    for f in src.glob('*.webp'):
+        target=dst/(f.stem+'.png')
+        if target.exists() and target.stat().st_mtime>=f.stat().st_mtime:continue
+        jobs.append((f,target))
+    if jobs:
+        with ProcessPoolExecutor(workers) as pool:list(pool.map(_gray_png,jobs,chunksize=32))
+    print(f'PDF images: converted {len(jobs)}, reused {len(list(src.glob("*.webp")))-len(jobs)}',flush=True)
+    return dst
+
+def repack_gray_images(path):
+    """Losslessly shrink the question images Chromium embedded in a PDF.
+
+    Chromium stores every image as 8-bit RGB. The PDF copies have at most 16 grey
+    levels, so each one is rewritten as a 4-bit indexed-grey image with the exact
+    same pixel values (about 30% smaller). Images with colour, transparency or
+    more than 16 levels are left untouched.
+    """
+    import zlib
+    import pymupdf
+    from PIL import Image
+    doc=pymupdf.open(path);count=0
+    for xref in range(1,doc.xref_length()):
+        if doc.xref_get_key(xref,'Subtype')[1]!='/Image' or doc.xref_get_key(xref,'SMask')[0]!='null':continue
+        if doc.xref_get_key(xref,'BitsPerComponent')[1]!='8' or doc.xref_get_key(xref,'Mask')[0]!='null':continue
+        pix=pymupdf.Pixmap(doc,xref)
+        if pix.alpha or pix.n not in (1,3):continue
+        img=Image.frombytes('L' if pix.n==1 else 'RGB',(pix.width,pix.height),pix.samples)
+        if pix.n==3:
+            r,g,b=img.split()
+            if r.tobytes()!=g.tobytes() or r.tobytes()!=b.tobytes():continue
+            img=r
+        levels=[v for v,c in enumerate(img.histogram()) if c]
+        if len(levels)>16:continue
+        lut=[0]*256
+        for i,v in enumerate(levels):lut[v]=i
+        # Palette indices, packed two per byte with each row padded to a whole byte.
+        packed=Image.frombytes('P',img.size,img.point(lut).tobytes()).tobytes('raw','P;4')
+        palette=bytes(levels+[0]*(16-len(levels)))
+        doc.update_stream(xref,zlib.compress(packed,9),compress=False)
+        doc.xref_set_key(xref,'Filter','/FlateDecode');doc.xref_set_key(xref,'DecodeParms','null')
+        doc.xref_set_key(xref,'BitsPerComponent','4')
+        doc.xref_set_key(xref,'ColorSpace','[/Indexed /DeviceGray 15 <'+palette.hex()+'>]')
+        count+=1
+    tmp=path.with_suffix('.repack.pdf');doc.save(tmp,garbage=3,deflate=True);doc.close();tmp.replace(path)
+    return count
+
+GENERATED=re.compile(r'Generated \d{4}-\d{2}-\d{2}')
+
+# What the printed page shows, read from Chromium in print mode: every rendered
+# element's box, its print styles and generated content, links and anchors, and all
+# visible text. Elements hidden in print (display:none) are skipped, so changes to the
+# site's stylesheet or scripts that only affect the screen leave this unchanged.
+PRINT_FINGERPRINT = """() => {
+ const P=['display','visibility','position','float','color','background-color','background-image','font-family','font-size','font-weight','font-style','line-height','letter-spacing','word-spacing','text-transform','text-decoration-line','text-align','text-indent','vertical-align','white-space','list-style-type','border-top','border-right','border-bottom','border-left','border-radius','padding','margin','opacity','transform','box-shadow','break-before','break-after','break-inside','orphans','widows','overflow-wrap','object-fit','width','height','max-width','max-height','column-count','gap','flex-direction','justify-content','align-items','grid-template-columns','z-index'];
+ const out=[];
+ const walk=(el,depth)=>{
+  const cs=getComputedStyle(el);
+  if(cs.display==='none')return;
+  const r=el.getBoundingClientRect();
+  let line=depth+' '+el.tagName+' '+[r.x,r.y,r.width,r.height].map(v=>Math.round(v*2)/2).join(',')+' '+P.map(p=>cs.getPropertyValue(p)).join('|');
+  for(const ps of ['::before','::after','::marker']){const c=getComputedStyle(el,ps).content;if(c&&c!=='none'&&c!=='normal')line+=' '+ps+c;}
+  for(const a of ['href','id','src','alt','colspan','rowspan'])if(el.hasAttribute(a))line+=' '+a+'='+el.getAttribute(a);
+  out.push(line);
+  for(const n of el.childNodes){if(n.nodeType===3){if(n.data.trim())out.push((depth+1)+' #'+n.data);}else if(n.nodeType===1)walk(n,depth+1);}
+ };
+ walk(document.documentElement,0);
+ return out.join('\\n');
+}"""
+
+def cache_key(printed, doc, footer, imgdir, image_hashes, chromium):
+    """Everything that decides a PDF's bytes, except the 'Generated' date on the cover.
+
+    `printed` is the print fingerprint above, so the key follows what the PDF shows
+    rather than every byte of the site's stylesheet and scripts.
+    """
+    import hashlib
+    h=hashlib.sha256()
+    printed=GENERATED.sub('Generated',printed.replace(imgdir.as_uri()+'/',''))
+    import inspect
+    # The parts of this script that decide the bytes but not the fingerprint: page
+    # setup (@page in PDF_CSS), the PDF options and the image repacking. The rest of
+    # the script only shapes the document, which the fingerprint already covers.
+    rendering=PDF_CSS+json.dumps(PDF_OPTIONS,sort_keys=True)+inspect.getsource(repack_gray_images)
+    for part in (rendering.encode(),chromium.encode(),footer.encode(),printed.encode()):
+        h.update(hashlib.sha256(part).digest())
+    for name in sorted(set(re.findall(r'src="'+re.escape(imgdir.as_uri())+r'/([^"]+)"',doc))):
+        h.update(name.encode()+image_hashes(name).encode())
+    return h.hexdigest()
+
+async def run(args):
+    import hashlib, os, shutil
+    from concurrent.futures import ProcessPoolExecutor
+    out=ROOT/args.site
+    report=json.loads((out/'build-report.json').read_text())
+    if not args.preview and not args.release:raise SystemExit('Use --release (public build) or --preview (local draft).')
+    pdfdir=out/'pdf';pdfdir.mkdir(exist_ok=True)
+    if args.html_only:
+        count=0
+        for subject in report['subject_counts']:
+            if args.subject and subject!=args.subject:continue
+            records=json.loads((out/subject/'index.json').read_text())
+            for qo in (False,True):
+                name=subject+('-questions' if qo else '')
+                (pdfdir/(name+'.html')).write_text(document(subject,records,qo,args.release));count+=1
+        print(f'Prepared {count} local print HTML drafts; no PDF rendering claimed.');return
+    from playwright.async_api import async_playwright
+    workers=args.jobs or os.cpu_count() or 2
+    imgdir=pdf_images(out,workers)
+    hashes={}
+    def image_hash(name):
+        if name not in hashes:hashes[name]=hashlib.sha256((imgdir/name).read_bytes()).hexdigest()
+        return hashes[name]
+    cache=ROOT/args.cache;cache.mkdir(exist_ok=True)
+    jobs=[]
+    for subject in report['subject_counts']:
+        if args.subject and subject!=args.subject:continue
+        records=json.loads((out/subject/'index.json').read_text())
+        for qo in (False,True):
+            name=subject+('-questions' if qo else '')
+            doc=document(subject,records,qo,args.release)
+            doc=re.sub(r'src="\.\./assets/questions/([^"]+)\.webp"',lambda m:'src="'+(imgdir/(m.group(1)+'.png')).as_uri()+'"',doc)
+            (pdfdir/(name+'.html')).write_text(doc)
+            footer='<div style="font-size:8px;width:100%;text-align:center;color:#666">'+('' if args.release else 'Private working preview · ')+'GATE CS · '+html.escape(TITLES[int(subject[:2])-1])+(' · questions only' if qo else '')+' · <span class="pageNumber"></span> / <span class="totalPages"></span></div>'
+            jobs.append(dict(subject=subject,qo=qo,name=name,doc=doc,footer=footer,entries=len(records)))
+    async with async_playwright() as p:
+        launch=dict(executable_path=args.chromium if args.chromium and Path(args.chromium).is_file() else None,headless=True,args=['--no-sandbox'])
+        probe=await p.chromium.launch(**launch);chromium=probe.version;await probe.close()
+        # Each worker loads a document, reads its print fingerprint and renders it
+        # only when the key differs from the cached PDF's.
+        queue=asyncio.Queue()
+        for job in sorted(jobs,key=lambda j:-len(j['doc'])):queue.put_nowait(job)
+        loop=asyncio.get_running_loop()
+        with ProcessPoolExecutor(workers) as pool:
+            async def worker():
+                browser=await p.chromium.launch(**launch);page=await browser.new_page(viewport={'width':680,'height':960})
+                await page.emulate_media(media='print')
+                while not queue.empty():
+                    job=queue.get_nowait();tmp=cache/(job['name']+'.tmp.pdf')
+                    await page.goto((pdfdir/(job['name']+'.html')).as_uri(),wait_until='networkidle')
+                    await page.evaluate('document.fonts.ready')
+                    job['key']=cache_key(await page.evaluate(PRINT_FINGERPRINT),job['doc'],job['footer'],imgdir,image_hash,chromium)
+                    keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
+                    job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
+                    if job['cached']:continue
+                    await page.pdf(path=str(tmp),footer_template=job['footer'],**PDF_OPTIONS)
+                    job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
+                    tmp.replace(cached);keyfile.write_text(job['key'])
+                await browser.close()
+            await asyncio.gather(*(worker() for _ in range(min(workers,len(jobs)))))
+    todo=[j for j in jobs if not j['cached']]
+    results=[]
+    for job in jobs:
+        path=pdfdir/(job['name']+'.pdf');shutil.copyfile(cache/(job['name']+'.pdf'),path)
+        # The print HTML points at local file:// images; it is a build input, not a page to publish.
+        if args.release:(pdfdir/(job['name']+'.html')).unlink()
+        results.append({'subject':job['subject'],'questions_only':job['qo'],'entries':job['entries'],'path':str(path.relative_to(out)),'bytes':path.stat().st_size,'cached':job['cached'],'status':'release' if args.release else 'draft_rendered; visual_review_pending'})
+    (out/'pdf-build-report.json').write_text(json.dumps(results,indent=2))
+    print(f'Rendered {len(todo)} PDFs'+(' ('+', '.join(j['name'] for j in todo)+')' if todo else '')+f', reused {len(jobs)-len(todo)} unchanged from cache: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
+if __name__=='__main__':
+    a=argparse.ArgumentParser(description=__doc__);a.add_argument('--preview',action='store_true');a.add_argument('--release',action='store_true');a.add_argument('--site',default='_site');a.add_argument('--subject');a.add_argument('--html-only',action='store_true');a.add_argument('--jobs',type=int,default=None,help='Parallel Chromium workers (default: CPU count)');a.add_argument('--cache',default='.pdf-cache',help='Rendered PDFs keyed by content; unchanged subjects are reused');a.add_argument('--chromium',default=None,help="Chromium binary; defaults to Playwright's bundled browser");asyncio.run(run(a.parse_args()))

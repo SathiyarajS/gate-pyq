@@ -1,0 +1,316 @@
+{
+  "status": "independently-reviewed",
+  "scope": "Recorded question_text inputs, official_answer or derived_answer content, solution and DISCREPANCIES.md; not original-PDF transcription verification. All questions view and shared core unchanged.",
+  "entries": [
+    {
+      "question_id": "CS-1991-Q10",
+      "question_text_sha256": "0c577c9d2b75ccfb33e06cb33315e39fb02f64fe8a72aebbeb75dd32bfeaf5a3",
+      "answer_source": "derived_answer",
+      "recorded_answer": "41",
+      "expect": {
+        "calls": 41,
+        "of": "fib"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "fib base values 1,1; sum of both predecessor calls; initial fib(7) included."
+    },
+    {
+      "question_id": "CS-1995-Q52",
+      "question_text_sha256": "104f25dd59f66dca29112c973ba6f7989beb1d70da2e7e945c926b9e6ac5c4af",
+      "answer_source": "derived_answer",
+      "recorded_answer": "3",
+      "expect": {
+        "returns": 3
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "B=0 tested before A<B; GET(3,2) returns 3."
+    },
+    {
+      "question_id": "CS-1997-Q56",
+      "question_text_sha256": "4f95c376d95723e57f6eaaae5acaa009c948f133af4a8647c1811f60b04572f1",
+      "answer_source": "derived_answer",
+      "recorded_answer": "30.",
+      "expect": {
+        "output": "30",
+        "match": "tokens"
+      },
+      "discrepancy_ids": [
+        "CS-1997-Q56-NESTED-MARKS"
+      ],
+      "input_and_key_check": "Global z starts 10, x passed by value; guard <=40; assignment to z after recursion. Unknown submarks do not affect result."
+    },
+    {
+      "question_id": "CS-1997-Q57",
+      "question_text_sha256": "5c90462752bf8c507da98f6e162ec9810e65743a10cc185161b15b89daea9095",
+      "answer_source": "derived_answer",
+      "recorded_answer": "5 total calls, of which 4 are recursive calls.",
+      "expect": {
+        "calls": 5,
+        "of": "recur"
+      },
+      "discrepancy_ids": [
+        "CS-1997-Q57-NESTED-MARKS"
+      ],
+      "input_and_key_check": "Same value-parameter program; all five invocations included. Unknown submarks do not affect result."
+    },
+    {
+      "question_id": "CS-1997-Q58",
+      "question_text_sha256": "f8caef2af135a85df4f76ec86ade0c46954126c4135c092e5c55f02fd997f6ee",
+      "answer_source": "derived_answer",
+      "recorded_answer": "110.",
+      "expect": {
+        "output": "110",
+        "match": "tokens"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Same program, x passed by reference aliases z; three unwind assignments give 110."
+    },
+    {
+      "question_id": "CS-1998-Q47",
+      "question_text_sha256": "8faed1120d20e97d834d01d48eaed6dfea9f7200a069d2613f65c5fae17f209b",
+      "answer_source": "derived_answer",
+      "recorded_answer": "C: 91",
+      "expect": {
+        "returns": 91
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "F(x)=x-10 above 100, nested F(F(x+11)) otherwise; input 95, third listed choice 91."
+    },
+    {
+      "question_id": "CS-2001-Q76",
+      "question_text_sha256": "d8d320758b824882475624551f5f9241a1c625a470d514823076dabbc2377bed",
+      "answer_source": "derived_answer",
+      "recorded_answer": "3323321",
+      "expect": {
+        "output": "3323321"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Null-terminated string 123; two recursive calls before printing each character."
+    },
+    {
+      "question_id": "CS-2004-Q31",
+      "question_text_sha256": "710f5b027e977f9aa0c3918fcef7943045db1460331e5357d578aad995e0b34e",
+      "answer_source": "derived_answer",
+      "recorded_answer": "C",
+      "expect": {
+        "returns": 7
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Static i initialized once to 1; increment after n update; first f(1). Keyed option C is 7."
+    },
+    {
+      "question_id": "CS-2005-Q31",
+      "question_text_sha256": "c78cad95449dce48349525562fdc3ec8d037f0d61df6d71ffd43418ed5cb57ba",
+      "answer_source": "derived_answer",
+      "recorded_answer": "D",
+      "expect": {
+        "output": "2, 0, 4, 8, 0",
+        "match": "tokens"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "2048 and sum=0 passed by value; digits print on return; unchanged outer sum prints last. D is 2, 0, 4, 8, 0."
+    },
+    {
+      "question_id": "CS-2007-Q42",
+      "question_text_sha256": "bccb26170f0e9d706ff8a88716972fe225fdfae55b6fae61bdb5cad2f7a5c96e",
+      "answer_source": "derived_answer",
+      "recorded_answer": "D",
+      "expect": {
+        "returns": 18
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Static r=0; n>3 stores r=n and skips two levels; other recursive step adds r. D is 18."
+    },
+    {
+      "question_id": "CS-2009-Q18",
+      "question_text_sha256": "f31920fb820908ba71ed65d432d7333e530416cf66dcaab27722d3ecc6ecda56",
+      "answer_source": "derived_answer",
+      "recorded_answer": "B",
+      "expect": {
+        "output": "8",
+        "match": "tokens"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Pointer output updated only after recursive return; x starts 15; fun(5,&x). B is 8."
+    },
+    {
+      "question_id": "CS-2010-Q45",
+      "question_text_sha256": "7f73f3ec7f85562875b2eca38cf8c4490f4e6bf99aee10b47a8bd3c23c5c3aa6",
+      "answer_source": "derived_answer",
+      "recorded_answer": "C",
+      "expect": {
+        "output": "15"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Array 12,7,13,4,11,6; even adds recursive result, odd subtracts. C is 15."
+    },
+    {
+      "question_id": "CS-2011-Q58",
+      "question_text_sha256": "feb154f41498f9c7b14ad92f002ed78224594258bd4b3cef7d662a7e0545225d",
+      "answer_source": "official_answer",
+      "recorded_answer": "B",
+      "expect": {
+        "returns": 12
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Unsigned arguments 345,10 remain within signed range; digit sum. B is 12."
+    },
+    {
+      "question_id": "CS-2011-Q59",
+      "question_text_sha256": "68fbd5c27ba8491ce3434ab6e9c79305786555d89e599f7c39f1b386313ded57",
+      "answer_source": "official_answer",
+      "recorded_answer": "D",
+      "expect": {
+        "returns": 2
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Unsigned arguments 513,2 remain within signed range; binary digit sum. D is 2."
+    },
+    {
+      "question_id": "CS-2015-S2-Q24",
+      "question_text_sha256": "db352c4b0cc79ab8057bc94fe26e26a9f0f1b0c71c18f0f88791c0c27314bc22",
+      "answer_source": "official_answer",
+      "recorded_answer": "51",
+      "expect": {
+        "returns": 51
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "x starts 1; k from 1 through n-1; both recursive factors; fun(5)=51."
+    },
+    {
+      "question_id": "CS-2015-S3-Q38",
+      "question_text_sha256": "b9267c5c545b9b6aec417287e897a0705d0d34b1a64a80bac05990d36c31d183",
+      "answer_source": "official_answer",
+      "recorded_answer": "B",
+      "expect": {
+        "calls": 25,
+        "of": "get"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "get(n-1), then get(n-3), base n<1; count includes first call and base cases. B is 25."
+    },
+    {
+      "question_id": "CS-2016-S1-Q45",
+      "question_text_sha256": "9bade73de08b88fe260ca6925b7a15da1f94033a2ec4575a17197bf690b7ad56",
+      "answer_source": "official_answer",
+      "recorded_answer": "A",
+      "expect": {
+        "output": "3 1 2 2 1 3 4 4 4",
+        "match": "tokens"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Static d=1; print n,d then increment, recurse if n>1, print d. A is 3 1 2 2 1 3 4 4 4."
+    },
+    {
+      "question_id": "CS-2016-S2-Q47",
+      "question_text_sha256": "3b9f0ed7ab5cdbb770c25a441b4ab0f6873b1d3cf7a87844007f856ba03a319d",
+      "answer_source": "official_answer",
+      "recorded_answer": "3.0 : 3.0",
+      "expect": {
+        "output": "3"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Array 3,5,2,6,4; max of suffix result and consecutive difference; base returns 0. Key range 3.0:3.0."
+    },
+    {
+      "question_id": "CS-2017-S1-Q45",
+      "question_text_sha256": "1dfcb7ee149b6585111ddee6d39fe3c2d78863048b91117b029a77897da54be6",
+      "answer_source": "official_answer",
+      "recorded_answer": "A",
+      "expect": {
+        "output": "53423122233445"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "fun1 prints n before/after fun2(n-2); fun2 increments local n before fun1; base n==0. A is 53423122233445."
+    },
+    {
+      "question_id": "CS-2020-Q56",
+      "question_text_sha256": "cda23e038de8022dd9b5feb1b0f5cd54ba775e9a4395b48d88526e8623ba1774",
+      "answer_source": "official_answer",
+      "recorded_answer": "55 to 55",
+      "expect": {
+        "returns": 55
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Two separate static i variables, both initially 0; first fun2(5). Key singleton range 55."
+    },
+    {
+      "question_id": "CS-2021-S2-Q33",
+      "question_text_sha256": "a71a8fecd70674246fbc1e07b6566ded7431fb8ba7e9b8dad6df6b0cafe57589",
+      "answer_source": "official_answer",
+      "recorded_answer": "15 to 15",
+      "expect": {
+        "returns": 15
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Equality/base tests and subtractive recursion; inputs 15,255. Key singleton range 15."
+    },
+    {
+      "question_id": "CS-2021-S2-Q59",
+      "question_text_sha256": "6ee618e07591bb71e8eca31c298943cc2b63d6799c97de440733715adce3eb2e",
+      "answer_source": "official_answer",
+      "recorded_answer": "60 to 60",
+      "expect": {
+        "output": "60"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Inputs 15,15,10; nonpositive guards and sum of two branches exactly retained. Key singleton range 60."
+    },
+    {
+      "question_id": "CS-2024-S2-Q13",
+      "question_text_sha256": "0fb227422130f7e7fdd5ff447e822af34bc76db418233fea30e1bacb424021b9",
+      "answer_source": "official_answer",
+      "recorded_answer": "A",
+      "expect": {
+        "output": "20101020"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Explicit right-to-left argument evaluation; f body still calls g then h. A is 20101020."
+    },
+    {
+      "question_id": "CS-2025-S1-Q61",
+      "question_text_sha256": "bb2a7e54d6c67fb5046773b5dbbf1aac3f852bd478da5169194a6ea6dd949e67",
+      "answer_source": "official_answer",
+      "recorded_answer": "5 to 5",
+      "expect": {
+        "output": "5"
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Array 0,1,2,2,2,0,0,1,1 and size 9; adjacent changes plus size-one base. Key singleton range 5."
+    },
+    {
+      "question_id": "CS-2026-S1-Q61",
+      "question_text_sha256": "cc9b634ec5be53976e0867a2781a28a4466f750164b09e7494ef7e552e10f476",
+      "answer_source": "official_answer",
+      "recorded_answer": "65536 to 65536",
+      "expect": {
+        "smallest": 65536
+      },
+      "discrepancy_ids": [],
+      "input_and_key_check": "Integer division in bar; foo base 1; smallest positive n yielding 5 found by exhaustive search from 1. Additional trace at predecessor 65535 is illustrative; both outputs tested. Key singleton range 65536."
+    }
+  ],
+  "excluded": {
+    "CS-2023-Q36": "Key A names a source activation-tree figure; exact keyed option content is absent from question_text.",
+    "CS-2024-S1-Q19": "Typographic character delimiters cause literal compilation failure; cannot silently repair the source to animate the intended answer."
+  },
+  "browser_review": "Done in the independent review (see independent_review.browser).",
+  "checks": {
+    "focused_pytest": "41 passed",
+    "renderer_dom_smoke": "1353 frames passed at widths 280, 390, 900; not a browser geometry test",
+    "javascript_syntax": "passed",
+    "validate": "passed",
+    "browser_review": "Done in the independent review.",
+    "full_pytest": "216 passed, 1 skipped, 301 subtests passed",
+    "katex": "passed",
+    "release_build": "Passes (independent review)."
+  },
+  "independent_review": {
+    "date": "2026-11-11",
+    "by": "separate session (did not write this family)",
+    "answers": "All 25 expectations equal official_answer, or derived_answer where no key exists; MCQ expected content matches the keyed option text.",
+    "discrepancies": "CS-1997-Q56/Q57 NESTED-MARKS notes concern marks only, not the result; kept.",
+    "browser": "Players for CS-2015-S2-Q24, CS-2017-S1-Q45 and CS-2026-S1-Q61 stepped through at 390x900 in Chromium: readable, no sideways scroll, no JS errors. check_study_views_browser.py passes.",
+    "change": "_search parses the call once (CS-2026-S1-Q61 simulation 10 s -> 7 s); results unchanged."
+  }
+}

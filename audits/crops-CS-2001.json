@@ -1,0 +1,3252 @@
+{
+  "paper_id": "CS-2001",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "cd22eb98164c256630091052dc82af2ff42467307b503a58b8ed0ecd442f16ac",
+  "preparation_evidence_sha256": "7a3b31df57f720747a1cf970b3529f5210fa03483d658d1856aba9efb29d3155",
+  "independent_review_evidence_sha256": "a39c7ec6af9d0bbaf21f48dc08a56f7b1f60c359761efdd82e2f653faca206ea",
+  "questions": 99,
+  "crop_parts": 166,
+  "verified_questions": 99,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2001",
+    "status": "approved",
+    "reviewer": "independent review worker",
+    "crops_sha256": "cd22eb98164c256630091052dc82af2ff42467307b503a58b8ed0ecd442f16ac",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203551/GATE2001.pdf",
+    "source_sha256": "e4dd9d8849d91bb70dab35d848f726186a1b8f24acda7b2bed02c99809eef127",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "question_count": 99,
+    "crop_parts": 166,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "actual_webp_outputs_visually_inspected": true,
+    "render_scale": 3,
+    "webp_quality": 80,
+    "fresh_byte_identity_verified": true,
+    "fresh_render_matches": 166,
+    "contact_sheet_pixel_identity_verified": 20,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2001-Q51",
+          "CS-2001-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            244.667,
+            524.0,
+            262.0
+          ],
+          [
+            300.0,
+            244.667,
+            524.0,
+            262.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          244.66700744628906,
+          524.0,
+          262.0
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q53",
+          "CS-2001-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            375.333,
+            524.0,
+            416.667
+          ],
+          [
+            300.0,
+            375.333,
+            524.0,
+            416.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          375.3330078125,
+          524.0,
+          416.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q55",
+          "CS-2001-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            461.333,
+            524.0,
+            491.333
+          ],
+          [
+            300.0,
+            461.333,
+            524.0,
+            491.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          461.3330078125,
+          524.0,
+          491.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q58",
+          "CS-2001-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            626.667,
+            524.0,
+            696.0
+          ],
+          [
+            300.0,
+            626.667,
+            524.0,
+            696.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          626.6669921875,
+          524.0,
+          696.0
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q58",
+          "CS-2001-Q59"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            42.667,
+            277.333,
+            82.0
+          ],
+          [
+            53.333,
+            42.667,
+            277.333,
+            82.0
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          42.66699981689453,
+          277.3330078125,
+          82.0
+        ],
+        "reason": "Identical shared printed shared assumption, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q60",
+          "CS-2001-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q60",
+          "CS-2001-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q60",
+          "CS-2001-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q61",
+          "CS-2001-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q61",
+          "CS-2001-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q62",
+          "CS-2001-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ],
+          [
+            53.333,
+            128.0,
+            277.333,
+            415.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          128.0,
+          277.3330078125,
+          415.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q64",
+          "CS-2001-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q64",
+          "CS-2001-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q64",
+          "CS-2001-Q67"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q64",
+          "CS-2001-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q65",
+          "CS-2001-Q66"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q65",
+          "CS-2001-Q67"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q65",
+          "CS-2001-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q66",
+          "CS-2001-Q67"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q66",
+          "CS-2001-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q67",
+          "CS-2001-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ],
+          [
+            53.333,
+            530.0,
+            277.333,
+            582.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          530.0,
+          277.3330078125,
+          582.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q69",
+          "CS-2001-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            124.0,
+            524.0,
+            142.0
+          ],
+          [
+            300.0,
+            124.0,
+            524.0,
+            142.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          124.0,
+          524.0,
+          142.0
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q71",
+          "CS-2001-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            278.667,
+            524.0,
+            477.333
+          ],
+          [
+            300.0,
+            278.667,
+            524.0,
+            477.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          278.6669921875,
+          524.0,
+          477.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q73",
+          "CS-2001-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ],
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          534.0,
+          524.0,
+          697.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q73",
+          "CS-2001-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ],
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          534.0,
+          524.0,
+          697.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q74",
+          "CS-2001-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ],
+          [
+            300.0,
+            534.0,
+            524.0,
+            697.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          534.0,
+          524.0,
+          697.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q76",
+          "CS-2001-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            118.0,
+            277.333,
+            233.333
+          ],
+          [
+            53.333,
+            118.0,
+            277.333,
+            233.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          118.0,
+          277.3330078125,
+          233.33299255371094
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q78",
+          "CS-2001-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ],
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          329.3330078125,
+          277.3330078125,
+          348.0
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q78",
+          "CS-2001-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ],
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          329.3330078125,
+          277.3330078125,
+          348.0
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q78",
+          "CS-2001-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            348.0,
+            277.333,
+            432.0
+          ],
+          [
+            53.333,
+            348.0,
+            277.333,
+            432.0
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          348.0,
+          277.3330078125,
+          432.0
+        ],
+        "reason": "Identical prior insertion subpart retained because the following deletion explicitly depends on its resulting tree; not unrelated question content."
+      },
+      {
+        "questions": [
+          "CS-2001-Q79",
+          "CS-2001-Q80"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ],
+          [
+            53.333,
+            329.333,
+            277.333,
+            348.0
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          329.3330078125,
+          277.3330078125,
+          348.0
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q82"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q82"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q83"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q81",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q82",
+          "CS-2001-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q82",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q82",
+          "CS-2001-Q83"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q82",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q83",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ],
+          [
+            53.333,
+            673.333,
+            277.333,
+            714.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          673.3330078125,
+          277.3330078125,
+          714.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q83",
+          "CS-2001-Q84"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            94.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          94.66699981689453
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q85",
+          "CS-2001-Q86"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            260.0,
+            524.0,
+            400.667
+          ],
+          [
+            300.0,
+            260.0,
+            524.0,
+            400.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          260.0,
+          524.0,
+          400.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q88",
+          "CS-2001-Q89"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            95.333,
+            277.333,
+            113.333
+          ],
+          [
+            53.333,
+            95.333,
+            277.333,
+            113.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          95.33300018310547,
+          277.3330078125,
+          113.33300018310547
+        ],
+        "reason": "Identical shared printed shared heading, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q90",
+          "CS-2001-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ],
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          221.33299255371094,
+          277.3330078125,
+          468.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q90",
+          "CS-2001-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ],
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          221.33299255371094,
+          277.3330078125,
+          468.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q91",
+          "CS-2001-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ],
+          [
+            53.333,
+            221.333,
+            277.333,
+            468.667
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          221.33299255371094,
+          277.3330078125,
+          468.6669921875
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q93",
+          "CS-2001-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            652.667,
+            277.333,
+            695.333
+          ],
+          [
+            53.333,
+            652.667,
+            277.333,
+            695.333
+          ]
+        ],
+        "intersection": [
+          53.33300018310547,
+          652.6669921875,
+          277.3330078125,
+          695.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q93",
+          "CS-2001-Q94"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.0,
+            71.333
+          ],
+          [
+            300.0,
+            42.667,
+            524.0,
+            71.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.0,
+          71.33300018310547
+        ],
+        "reason": "Identical shared printed shared stem continuation, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q95",
+          "CS-2001-Q96"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ],
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          276.6669921875,
+          524.0,
+          320.0
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q95",
+          "CS-2001-Q97"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ],
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          276.6669921875,
+          524.0,
+          320.0
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q96",
+          "CS-2001-Q97"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ],
+          [
+            300.0,
+            276.667,
+            524.0,
+            320.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          276.6669921875,
+          524.0,
+          320.0
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q98",
+          "CS-2001-Q99"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            478.667,
+            524.0,
+            577.333
+          ],
+          [
+            300.0,
+            478.667,
+            524.0,
+            577.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          478.6669921875,
+          524.0,
+          577.3330078125
+        ],
+        "reason": "Identical shared printed shared stem, required by both separately mapped descriptive subparts."
+      },
+      {
+        "questions": [
+          "CS-2001-Q98",
+          "CS-2001-Q99"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            577.333,
+            524.0,
+            628.667
+          ],
+          [
+            300.0,
+            577.333,
+            524.0,
+            628.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          577.3330078125,
+          524.0,
+          628.6669921875
+        ],
+        "reason": "Identical prior insertion subpart retained because the following deletion explicitly depends on its resulting tree; not unrelated question content."
+      }
+    ],
+    "unexpected_overlaps": [],
+    "findings": [
+      "Independently opened all ten full page renders and all twenty contact sheets containing all 166 actual decoded WebP parts; checked every available question body, options, figure/code/table and descriptive subpart against page context.",
+      "Fresh SHA-256 matches frozen proposal and canonical source manifest. All 166 freshly rendered 3x quality-80 WebPs match existing files byte for byte and audit hashes. All twenty viewed contacts match current decoded WebPs pixel for pixel.",
+      "All 99 canonical IDs are present. Objective 1-50 correspond to source ordinals; descriptive 51-99 map by content and subpart to reproduction 51-70 (record printed 3-22). No question inferred solely from ordinal.",
+      "Cross-column/page continuations retained for Q2, Q11, Q16, Q30, Q33, Q39, Q43, Q46, Q50, Q58-Q59, Q73-Q75, Q81-Q84, Q87 and Q93-Q94. Q33 option a label remains at page 4 bottom and its waveform at page 5 top, in correct order.",
+      "All 55 geometrical overlaps independently recomputed and approved individually: identical required shared headings/stems/assumptions/continuations or Q78-to-Q79 and Q98-to-Q99 linked tree prerequisites. Zero nonidentical or unrelated overlaps.",
+      "Question content visible in this reproduction is preserved with no detected clipping, adjacent unrelated question leak, repeated page header/footer, or answer overlay. General exam instructions are excluded.",
+      "Source blur and missing Fm0 render warnings remain limitations; no visible referenced-figure gap was found, but absent original source content cannot be ruled out.",
+      "Q71/Q72 source says S-K master-slave while asking J/K excitation. Q85/Q86 source names start symbol B but productions E/A; Q87 expression prose alternates E/B. All source pixels and ambiguities preserved, not silently corrected."
+    ],
+    "limitations": [
+      "Approval covers crop fidelity to available third-party rendering only, not original official completeness or legibility restoration.",
+      "No answer, paraphrase, transcription, mathematical correctness or redistribution-rights certification."
+    ],
+    "outputs": [
+      {
+        "question_id": "CS-2001-Q1",
+        "part": 1,
+        "sha256": "25718ecfadf73ae129c25c646ba885cfaa6fbddb5239184c1f071855be23b17f",
+        "width": 672,
+        "height": 512
+      },
+      {
+        "question_id": "CS-2001-Q2",
+        "part": 1,
+        "sha256": "3ca74bef74911bac1265974af9ad9484fdadca0795c67a7acc95f5de0b7e4a54",
+        "width": 672,
+        "height": 748
+      },
+      {
+        "question_id": "CS-2001-Q2",
+        "part": 2,
+        "sha256": "816de249b14b3463403594cd1679546003f40ff109b411376a8b081373921c35",
+        "width": 672,
+        "height": 81
+      },
+      {
+        "question_id": "CS-2001-Q3",
+        "part": 1,
+        "sha256": "3f4ff29e267fe2481be19d0de906dcd301e42cb1e35c0010a7a7b69c79f3e565",
+        "width": 672,
+        "height": 430
+      },
+      {
+        "question_id": "CS-2001-Q4",
+        "part": 1,
+        "sha256": "cbda20e3ac834e887c387d95423d6b8608b704ae0df58b46b1c9a663e3478b1d",
+        "width": 672,
+        "height": 478
+      },
+      {
+        "question_id": "CS-2001-Q5",
+        "part": 1,
+        "sha256": "24f4b91729226b14e81306ef5902c67b99d70e60aff41bd4f0c82303c5c10d32",
+        "width": 672,
+        "height": 430
+      },
+      {
+        "question_id": "CS-2001-Q6",
+        "part": 1,
+        "sha256": "22abd698887ec8b487ce3c3e006d0e0ab1d33d43870a700fbd8dc0a8cdbd7a96",
+        "width": 672,
+        "height": 362
+      },
+      {
+        "question_id": "CS-2001-Q7",
+        "part": 1,
+        "sha256": "cb7e10d2a48d94401a88d0635f43df5ae13b58cdae525b164a409ecdde3386c9",
+        "width": 672,
+        "height": 360
+      },
+      {
+        "question_id": "CS-2001-Q8",
+        "part": 1,
+        "sha256": "508d9cd654f72ea5483e3744e15a14a9dd1f89f68f88a1183ad597f9dc3bf9e4",
+        "width": 672,
+        "height": 543
+      },
+      {
+        "question_id": "CS-2001-Q9",
+        "part": 1,
+        "sha256": "18d2d434f5f238111a2be55da875524baaf41a20f3974c114fa39f2bdf4933e8",
+        "width": 672,
+        "height": 296
+      },
+      {
+        "question_id": "CS-2001-Q10",
+        "part": 1,
+        "sha256": "32af72d7521d6d0a9599f8f8981ad13403a629f75100f7ffd294b039969c42dd",
+        "width": 672,
+        "height": 466
+      },
+      {
+        "question_id": "CS-2001-Q11",
+        "part": 1,
+        "sha256": "602f5e7fcfb9211ae6fea1158adfc19bb8230c0551394d8ece9f3eee84184d75",
+        "width": 672,
+        "height": 340
+      },
+      {
+        "question_id": "CS-2001-Q11",
+        "part": 2,
+        "sha256": "40ff1b608aef97c3cc32e57467749725f37503259abeac074ea51b5931c9966a",
+        "width": 672,
+        "height": 194
+      },
+      {
+        "question_id": "CS-2001-Q12",
+        "part": 1,
+        "sha256": "40eae1699718faa4167984801ccafbddf3606c144962b2fe7b44559b7a87f98a",
+        "width": 672,
+        "height": 318
+      },
+      {
+        "question_id": "CS-2001-Q13",
+        "part": 1,
+        "sha256": "50930da30a13bb60d29069d06ffb60d85412d34bb35b3053c343d714111f74de",
+        "width": 672,
+        "height": 434
+      },
+      {
+        "question_id": "CS-2001-Q14",
+        "part": 1,
+        "sha256": "f38c33edf1b887b6fd5aba717a8362f547c0a576d4981ca73326c5263a75dddf",
+        "width": 672,
+        "height": 398
+      },
+      {
+        "question_id": "CS-2001-Q15",
+        "part": 1,
+        "sha256": "4e9c2aaf303f76b1c80881b5ee118490b27627d53f2d4d2abbd5f929f309f419",
+        "width": 672,
+        "height": 400
+      },
+      {
+        "question_id": "CS-2001-Q16",
+        "part": 1,
+        "sha256": "a1f6c7939ab0b7634958b1bcd4cbb41735581a8e80dc47ec9907ccaf0969b04c",
+        "width": 672,
+        "height": 232
+      },
+      {
+        "question_id": "CS-2001-Q16",
+        "part": 2,
+        "sha256": "10b3d4a3cfc2408d4eb533ad800a8df8716cdd51469e4b98bf8cff8b7ee8947d",
+        "width": 672,
+        "height": 98
+      },
+      {
+        "question_id": "CS-2001-Q17",
+        "part": 1,
+        "sha256": "4ecbbd3428d24ff34b1cc161104e5d14d3454a4e1bbdc83092ff1a870bfd8078",
+        "width": 672,
+        "height": 358
+      },
+      {
+        "question_id": "CS-2001-Q18",
+        "part": 1,
+        "sha256": "654ebdc7e8f4fcd4ec6f256f439b12b05ba61d9f834bae9e05bf905afd914968",
+        "width": 672,
+        "height": 356
+      },
+      {
+        "question_id": "CS-2001-Q19",
+        "part": 1,
+        "sha256": "460115f830cb3200b7879af9b5ebafeb6e7c56f232b2658918cec78f4132bd3a",
+        "width": 672,
+        "height": 394
+      },
+      {
+        "question_id": "CS-2001-Q20",
+        "part": 1,
+        "sha256": "1bc4fc2ac875db8b57b179014fea21fa5b0f2504528f74d0720c3fdf3419dd7c",
+        "width": 672,
+        "height": 250
+      },
+      {
+        "question_id": "CS-2001-Q21",
+        "part": 1,
+        "sha256": "139962cb024d2635b1756761155385568da47b56f8ec4c638c3b47c1d16d65a9",
+        "width": 672,
+        "height": 500
+      },
+      {
+        "question_id": "CS-2001-Q22",
+        "part": 1,
+        "sha256": "0ee78265eb788457fa8b4627e924cb0dc2b73bff5641589707b12b31660e39d9",
+        "width": 672,
+        "height": 284
+      },
+      {
+        "question_id": "CS-2001-Q23",
+        "part": 1,
+        "sha256": "70dab1ea5bb56106ee9ff405841d6199cf2585a08c78946368f2f4a422f27bac",
+        "width": 672,
+        "height": 504
+      },
+      {
+        "question_id": "CS-2001-Q24",
+        "part": 1,
+        "sha256": "a42e0da4bdba9fa5eacbb2d172ea016fd6a3258a77c3860b6b755a33ee522f72",
+        "width": 672,
+        "height": 498
+      },
+      {
+        "question_id": "CS-2001-Q25",
+        "part": 1,
+        "sha256": "6e1bc913b84902ce95d5d152ce066d6811a46236368daa8b5aa6b2a05c9eed94",
+        "width": 672,
+        "height": 416
+      },
+      {
+        "question_id": "CS-2001-Q26",
+        "part": 1,
+        "sha256": "d6e3e183075f94d421e493ef58a194d0be13e3004f45ebe1d3ebddfa17029ac2",
+        "width": 672,
+        "height": 286
+      },
+      {
+        "question_id": "CS-2001-Q27",
+        "part": 1,
+        "sha256": "f9feaf6e55ac3d998fafde62be97320709ee4a66cce53f7dc1aaf6b067760ebb",
+        "width": 672,
+        "height": 514
+      },
+      {
+        "question_id": "CS-2001-Q28",
+        "part": 1,
+        "sha256": "9c4ce88ad171d13ce3fd074cb635625519ab070eedb7bd3508b1e5c1b7f11bae",
+        "width": 672,
+        "height": 508
+      },
+      {
+        "question_id": "CS-2001-Q29",
+        "part": 1,
+        "sha256": "10b272b4e3766156ac989b1bdd2c9b4fd110d53f69543627446a5a8f70c0dc20",
+        "width": 672,
+        "height": 316
+      },
+      {
+        "question_id": "CS-2001-Q30",
+        "part": 1,
+        "sha256": "3242418f9b1a8832c8efd6045e27bf62d4e6dd77e3672749f938e38e454f583a",
+        "width": 672,
+        "height": 202
+      },
+      {
+        "question_id": "CS-2001-Q30",
+        "part": 2,
+        "sha256": "8f95803ed1ef932e0d0b40d32b01a5fb5403e359ec43590019dfe6ec141de692",
+        "width": 672,
+        "height": 188
+      },
+      {
+        "question_id": "CS-2001-Q31",
+        "part": 1,
+        "sha256": "d8e64451466e284fe6e29eaa3e36fc78d34925dca5dd479ae43a82fdd49f44e4",
+        "width": 672,
+        "height": 464
+      },
+      {
+        "question_id": "CS-2001-Q32",
+        "part": 1,
+        "sha256": "1363c51b8da523d678edde6c68268965046651651af8e56efaf162f34d5d4e83",
+        "width": 672,
+        "height": 574
+      },
+      {
+        "question_id": "CS-2001-Q33",
+        "part": 1,
+        "sha256": "cd1f2b95107d49d6b2a965f9718107efcf5f3b3d0944d2030b8f7fc8bd8fd4a2",
+        "width": 672,
+        "height": 782
+      },
+      {
+        "question_id": "CS-2001-Q33",
+        "part": 2,
+        "sha256": "5c65a789a92f23cc573827e59c791889976832926c6ea8fdc5c518eb78649a85",
+        "width": 672,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2001-Q34",
+        "part": 1,
+        "sha256": "851815f38c35802897f7e95aeef97fb5784bafc39eab71e8902ba28cb328b342",
+        "width": 672,
+        "height": 623
+      },
+      {
+        "question_id": "CS-2001-Q35",
+        "part": 1,
+        "sha256": "9f992442a18f4e108befb9bf3c007d81c0c16dd8ffbc9baf6c1e7bfab87beb08",
+        "width": 672,
+        "height": 284
+      },
+      {
+        "question_id": "CS-2001-Q36",
+        "part": 1,
+        "sha256": "f8fb220d7e2c2a6548e5b0e949ff673dc4d29ab639ebaf235cd0d0fbbaafa821",
+        "width": 672,
+        "height": 568
+      },
+      {
+        "question_id": "CS-2001-Q37",
+        "part": 1,
+        "sha256": "148b27a8ff32099b346358b669f3945aabb5afe9ae68cff6f7c8d0999a7aca46",
+        "width": 672,
+        "height": 690
+      },
+      {
+        "question_id": "CS-2001-Q38",
+        "part": 1,
+        "sha256": "7e990556bc56cdad51571adb67666740928b84f697ae384071a21a159281c6f9",
+        "width": 672,
+        "height": 1068
+      },
+      {
+        "question_id": "CS-2001-Q39",
+        "part": 1,
+        "sha256": "bcdbc44dc773cadadfea4509fff5a9220cd18b00b5daf57cc7aa280ca21a5cbc",
+        "width": 672,
+        "height": 246
+      },
+      {
+        "question_id": "CS-2001-Q39",
+        "part": 2,
+        "sha256": "f0867f03a249e705362cccf4da030fcfec1cba3789cdbc6fddf27923f51b5949",
+        "width": 672,
+        "height": 281
+      },
+      {
+        "question_id": "CS-2001-Q40",
+        "part": 1,
+        "sha256": "51268b96861fff7102d44959198f351418ade37323f4b18c861a59a007914e5c",
+        "width": 672,
+        "height": 362
+      },
+      {
+        "question_id": "CS-2001-Q41",
+        "part": 1,
+        "sha256": "c2c73514254a328883fd4b772e0d2e2e297a605f987662f0b8c359344163e251",
+        "width": 672,
+        "height": 318
+      },
+      {
+        "question_id": "CS-2001-Q42",
+        "part": 1,
+        "sha256": "f4f72cea64a59b16b651ad29b98d21755c01e1fa73c628bb2784aebd2ea106c3",
+        "width": 672,
+        "height": 832
+      },
+      {
+        "question_id": "CS-2001-Q43",
+        "part": 1,
+        "sha256": "ab8f685cf80fc9bae3e156c0193d5963e8148d685427e9070138843ed0de3d3b",
+        "width": 672,
+        "height": 204
+      },
+      {
+        "question_id": "CS-2001-Q43",
+        "part": 2,
+        "sha256": "3e1be35f3a1d42c44ac0d9181c15a26f66cbc0947551576d9a78476f7448bddf",
+        "width": 672,
+        "height": 694
+      },
+      {
+        "question_id": "CS-2001-Q44",
+        "part": 1,
+        "sha256": "d0c8d988466f6e4d04e70cf5ece0972bdc9ef975e50b4fb93767c5c3d2edae2e",
+        "width": 672,
+        "height": 882
+      },
+      {
+        "question_id": "CS-2001-Q45",
+        "part": 1,
+        "sha256": "53c42018efc7ff168884e013a48f7b9cfc13d86361fb99e11175aa2fa57a8cb1",
+        "width": 672,
+        "height": 286
+      },
+      {
+        "question_id": "CS-2001-Q46",
+        "part": 1,
+        "sha256": "f19ccb622498c488d102352c2367a9f3b2c2a93558c8ce8acaf2933c73f49c8a",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q46",
+        "part": 2,
+        "sha256": "9ac91ade4520afb79464b7ff99d7cb4c77bf47926e4bfc47353e93ed5719e486",
+        "width": 672,
+        "height": 194
+      },
+      {
+        "question_id": "CS-2001-Q47",
+        "part": 1,
+        "sha256": "603bc6e54f60af1faad37d95b26b2980aaadf3b25dd3397b3a638cd3b12e71f3",
+        "width": 672,
+        "height": 714
+      },
+      {
+        "question_id": "CS-2001-Q48",
+        "part": 1,
+        "sha256": "27b238b6ebd688230c42f781fe45da72df3f820930ed410123b4c779164719ca",
+        "width": 672,
+        "height": 368
+      },
+      {
+        "question_id": "CS-2001-Q49",
+        "part": 1,
+        "sha256": "e1e67ec5096943157c4b906671855ce7b5331b35d02aa4b82e9f14466b091197",
+        "width": 672,
+        "height": 408
+      },
+      {
+        "question_id": "CS-2001-Q50",
+        "part": 1,
+        "sha256": "2670de3ad26a097f7a16a014d245c159834bc5f1b0f7127add520a6b519a934f",
+        "width": 672,
+        "height": 308
+      },
+      {
+        "question_id": "CS-2001-Q50",
+        "part": 2,
+        "sha256": "d510707800354e3bc3a9653123b41d7be09dabfd86f5bc56869d74e42c835348",
+        "width": 672,
+        "height": 281
+      },
+      {
+        "question_id": "CS-2001-Q51",
+        "part": 1,
+        "sha256": "79736e08b9d03a6bb88d960671065510a30b4d6f9759b81fd0501d4182f65b5a",
+        "width": 672,
+        "height": 52
+      },
+      {
+        "question_id": "CS-2001-Q51",
+        "part": 2,
+        "sha256": "5f09c7f43c56c44500fab9f13e341d857bbb49e0ec927b010c1c4bd7f03f464c",
+        "width": 672,
+        "height": 88
+      },
+      {
+        "question_id": "CS-2001-Q52",
+        "part": 1,
+        "sha256": "79736e08b9d03a6bb88d960671065510a30b4d6f9759b81fd0501d4182f65b5a",
+        "width": 672,
+        "height": 52
+      },
+      {
+        "question_id": "CS-2001-Q52",
+        "part": 2,
+        "sha256": "e1d9845af09dda6de20033aa8aab7989bc9efd1b67b5f95783156b9add0c32de",
+        "width": 672,
+        "height": 246
+      },
+      {
+        "question_id": "CS-2001-Q53",
+        "part": 1,
+        "sha256": "dc7dab5c3bd7e7c4611c3ebefde63f275d3a9b14bf9cff32e2ce9445e9fb0ff8",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q53",
+        "part": 2,
+        "sha256": "d7f1c75c2422b5807e5e0085ba4b5acc2349d2e65a56dbe9ad27c7fc45fb30b7",
+        "width": 672,
+        "height": 88
+      },
+      {
+        "question_id": "CS-2001-Q54",
+        "part": 1,
+        "sha256": "dc7dab5c3bd7e7c4611c3ebefde63f275d3a9b14bf9cff32e2ce9445e9fb0ff8",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q54",
+        "part": 2,
+        "sha256": "e650aaac8e95012f0fea591943b4a1737281651b72022e8f0dd8fd8566ddc265",
+        "width": 672,
+        "height": 42
+      },
+      {
+        "question_id": "CS-2001-Q55",
+        "part": 1,
+        "sha256": "998fe313726bf03864dec923c561bb8df1c151785d1586e9103532670e0c4921",
+        "width": 672,
+        "height": 90
+      },
+      {
+        "question_id": "CS-2001-Q55",
+        "part": 2,
+        "sha256": "3bc6b75054a8a70c1cd35212c1412f70610f4a408999b7e0119d66234344a5fd",
+        "width": 672,
+        "height": 84
+      },
+      {
+        "question_id": "CS-2001-Q56",
+        "part": 1,
+        "sha256": "998fe313726bf03864dec923c561bb8df1c151785d1586e9103532670e0c4921",
+        "width": 672,
+        "height": 90
+      },
+      {
+        "question_id": "CS-2001-Q56",
+        "part": 2,
+        "sha256": "49c071c3c912752a8f865650780c76e74dc57c82857a26c21af40c3a26f7b1d4",
+        "width": 672,
+        "height": 116
+      },
+      {
+        "question_id": "CS-2001-Q57",
+        "part": 1,
+        "sha256": "32256258a9f117206badc7e0eb1fa9aac4db201aa9e680479ebb587cac9bd1f2",
+        "width": 672,
+        "height": 188
+      },
+      {
+        "question_id": "CS-2001-Q58",
+        "part": 1,
+        "sha256": "1d838f2c1aec1a7d19ab77f67a4b776d7e1ce8e98b0e3278e629f1accb17d71e",
+        "width": 672,
+        "height": 208
+      },
+      {
+        "question_id": "CS-2001-Q58",
+        "part": 2,
+        "sha256": "a75a27b3fe81c83fa0618cdacf01e366f0b25b55b7e8ae44abd4421e52b9b135",
+        "width": 672,
+        "height": 118
+      },
+      {
+        "question_id": "CS-2001-Q58",
+        "part": 3,
+        "sha256": "3b8f32c7c61505ab0924de704c69d5adad118c6ea8efeb5694fc02812a0f594f",
+        "width": 672,
+        "height": 46
+      },
+      {
+        "question_id": "CS-2001-Q59",
+        "part": 1,
+        "sha256": "1d838f2c1aec1a7d19ab77f67a4b776d7e1ce8e98b0e3278e629f1accb17d71e",
+        "width": 672,
+        "height": 208
+      },
+      {
+        "question_id": "CS-2001-Q59",
+        "part": 2,
+        "sha256": "a75a27b3fe81c83fa0618cdacf01e366f0b25b55b7e8ae44abd4421e52b9b135",
+        "width": 672,
+        "height": 118
+      },
+      {
+        "question_id": "CS-2001-Q59",
+        "part": 3,
+        "sha256": "621df8a46d6f97c3bd012c7a2fdaa7c7f1592d22b96ee79e339ba78b64e3ba15",
+        "width": 672,
+        "height": 80
+      },
+      {
+        "question_id": "CS-2001-Q60",
+        "part": 1,
+        "sha256": "f2275c39199681d8dd19e39b7225536fc93050dfa645642104920754036e2535",
+        "width": 672,
+        "height": 862
+      },
+      {
+        "question_id": "CS-2001-Q60",
+        "part": 2,
+        "sha256": "e9158130c94b430b0e2e13bfb8268a331edfcf4c8af50fb486ac76b8c7fc09fd",
+        "width": 672,
+        "height": 44
+      },
+      {
+        "question_id": "CS-2001-Q61",
+        "part": 1,
+        "sha256": "f2275c39199681d8dd19e39b7225536fc93050dfa645642104920754036e2535",
+        "width": 672,
+        "height": 862
+      },
+      {
+        "question_id": "CS-2001-Q61",
+        "part": 2,
+        "sha256": "f337e78c4d12fdfb33fa27f4d2731f7dc15b3bc1a258dec4b3bb31875620d074",
+        "width": 672,
+        "height": 46
+      },
+      {
+        "question_id": "CS-2001-Q62",
+        "part": 1,
+        "sha256": "f2275c39199681d8dd19e39b7225536fc93050dfa645642104920754036e2535",
+        "width": 672,
+        "height": 862
+      },
+      {
+        "question_id": "CS-2001-Q62",
+        "part": 2,
+        "sha256": "13532fce50a4693fce50fcbd49da28d5ec1a208c7f206a96811fc5321fdefdfa",
+        "width": 672,
+        "height": 116
+      },
+      {
+        "question_id": "CS-2001-Q63",
+        "part": 1,
+        "sha256": "f2275c39199681d8dd19e39b7225536fc93050dfa645642104920754036e2535",
+        "width": 672,
+        "height": 862
+      },
+      {
+        "question_id": "CS-2001-Q63",
+        "part": 2,
+        "sha256": "68801608ba864f10b59111ac8e1c8d657fe72e77a7e528c22ac8bd7ea8d83860",
+        "width": 672,
+        "height": 118
+      },
+      {
+        "question_id": "CS-2001-Q64",
+        "part": 1,
+        "sha256": "7a46c5551c65463159e362430758d4a08b366bb4c696b9f1968b9d8f5d2ac5da",
+        "width": 672,
+        "height": 158
+      },
+      {
+        "question_id": "CS-2001-Q64",
+        "part": 2,
+        "sha256": "45ded4b536d3e7f78dcfd06e9bcae110ddcdfc2a5562c6ae2376d4fb4ae61167",
+        "width": 672,
+        "height": 84
+      },
+      {
+        "question_id": "CS-2001-Q65",
+        "part": 1,
+        "sha256": "7a46c5551c65463159e362430758d4a08b366bb4c696b9f1968b9d8f5d2ac5da",
+        "width": 672,
+        "height": 158
+      },
+      {
+        "question_id": "CS-2001-Q65",
+        "part": 2,
+        "sha256": "6f8ddbdd33e9fbc64640c7d513a569bf9c17a8c0cf790eeaef1cdf866a57fc13",
+        "width": 672,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2001-Q66",
+        "part": 1,
+        "sha256": "7a46c5551c65463159e362430758d4a08b366bb4c696b9f1968b9d8f5d2ac5da",
+        "width": 672,
+        "height": 158
+      },
+      {
+        "question_id": "CS-2001-Q66",
+        "part": 2,
+        "sha256": "1764c57fe9d683a7a5c68c286aa9be0ce002ce1919e19de8e8e63b45d79d2b71",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q67",
+        "part": 1,
+        "sha256": "7a46c5551c65463159e362430758d4a08b366bb4c696b9f1968b9d8f5d2ac5da",
+        "width": 672,
+        "height": 158
+      },
+      {
+        "question_id": "CS-2001-Q67",
+        "part": 2,
+        "sha256": "5d0b2e1f9de55d5167297be11e0e5737c9cc66e47fe82ba9ea7a6dd9cbf6e063",
+        "width": 672,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2001-Q68",
+        "part": 1,
+        "sha256": "7a46c5551c65463159e362430758d4a08b366bb4c696b9f1968b9d8f5d2ac5da",
+        "width": 672,
+        "height": 158
+      },
+      {
+        "question_id": "CS-2001-Q68",
+        "part": 2,
+        "sha256": "c6cf0a4d6b843f55f2d606796e7cc13c5ed85f1af5ed6734c67826d6140cf1ae",
+        "width": 672,
+        "height": 116
+      },
+      {
+        "question_id": "CS-2001-Q69",
+        "part": 1,
+        "sha256": "9346d900a2779559755847b2eaf8e8a4540bca140835b9d61631f449dfe7adfb",
+        "width": 672,
+        "height": 54
+      },
+      {
+        "question_id": "CS-2001-Q69",
+        "part": 2,
+        "sha256": "bd91178871532885a840b91c7259062023e83bee4874b5e616b58bfe99e82bb8",
+        "width": 672,
+        "height": 80
+      },
+      {
+        "question_id": "CS-2001-Q70",
+        "part": 1,
+        "sha256": "9346d900a2779559755847b2eaf8e8a4540bca140835b9d61631f449dfe7adfb",
+        "width": 672,
+        "height": 54
+      },
+      {
+        "question_id": "CS-2001-Q70",
+        "part": 2,
+        "sha256": "215487ea91509c62d7e2f1f664d73e91dd7f8d5629742165f6456a2334f51259",
+        "width": 672,
+        "height": 326
+      },
+      {
+        "question_id": "CS-2001-Q71",
+        "part": 1,
+        "sha256": "fb048c0cbd97d68d6b630c748613c395a47a82ea0682a8cb344608b848920ad8",
+        "width": 672,
+        "height": 596
+      },
+      {
+        "question_id": "CS-2001-Q71",
+        "part": 2,
+        "sha256": "9e96f541e5282540c316d3de0e2e67f6f90485672359e73a7c87c8c0ed4881cc",
+        "width": 672,
+        "height": 50
+      },
+      {
+        "question_id": "CS-2001-Q72",
+        "part": 1,
+        "sha256": "fb048c0cbd97d68d6b630c748613c395a47a82ea0682a8cb344608b848920ad8",
+        "width": 672,
+        "height": 596
+      },
+      {
+        "question_id": "CS-2001-Q72",
+        "part": 2,
+        "sha256": "25e1dfad38fdd329a551674d0eef580cb5f9311c3c0cc9088c62692bc632bdfc",
+        "width": 672,
+        "height": 114
+      },
+      {
+        "question_id": "CS-2001-Q73",
+        "part": 1,
+        "sha256": "f7622febd849c4bfe894d010e368c0fca26740881560c91db9fd66387322c9b3",
+        "width": 672,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2001-Q73",
+        "part": 2,
+        "sha256": "768563c0309ef1141a5e14bd2b23e9f808b8f0e4a17fe1bf6eaf479243f35297",
+        "width": 672,
+        "height": 82
+      },
+      {
+        "question_id": "CS-2001-Q74",
+        "part": 1,
+        "sha256": "f7622febd849c4bfe894d010e368c0fca26740881560c91db9fd66387322c9b3",
+        "width": 672,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2001-Q74",
+        "part": 2,
+        "sha256": "00e606ba6b21723eb1373efdbe58f6d7afe325f41ed66fc8175912571b9612b8",
+        "width": 672,
+        "height": 54
+      },
+      {
+        "question_id": "CS-2001-Q75",
+        "part": 1,
+        "sha256": "f7622febd849c4bfe894d010e368c0fca26740881560c91db9fd66387322c9b3",
+        "width": 672,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2001-Q75",
+        "part": 2,
+        "sha256": "ae9750c22912085c7f43561f8bcd1cd21244c61027a3a0d9074f255998c00a75",
+        "width": 672,
+        "height": 84
+      },
+      {
+        "question_id": "CS-2001-Q76",
+        "part": 1,
+        "sha256": "afbce08dde82989cce21398fbb1c1609033dce24a4d8b08dcaf8e3763ccd8e14",
+        "width": 672,
+        "height": 346
+      },
+      {
+        "question_id": "CS-2001-Q76",
+        "part": 2,
+        "sha256": "3a4cbaa84354d2afe371bfeadfe788103f5143ab2e879e93ca68365ca7caf774",
+        "width": 672,
+        "height": 84
+      },
+      {
+        "question_id": "CS-2001-Q77",
+        "part": 1,
+        "sha256": "afbce08dde82989cce21398fbb1c1609033dce24a4d8b08dcaf8e3763ccd8e14",
+        "width": 672,
+        "height": 346
+      },
+      {
+        "question_id": "CS-2001-Q77",
+        "part": 2,
+        "sha256": "a52d619240117f03e0f27ff0b8c2c940f0817451baaedc57e7009c09bd0aa6c7",
+        "width": 672,
+        "height": 196
+      },
+      {
+        "question_id": "CS-2001-Q78",
+        "part": 1,
+        "sha256": "8452f0615d70cb21603cfc9289c1591af423bddff1330bbb094966e6d7a90592",
+        "width": 672,
+        "height": 56
+      },
+      {
+        "question_id": "CS-2001-Q78",
+        "part": 2,
+        "sha256": "830112625b40fb57f79d23926bcb67479e909add1cdd60d708fe710b92683976",
+        "width": 672,
+        "height": 252
+      },
+      {
+        "question_id": "CS-2001-Q79",
+        "part": 1,
+        "sha256": "8452f0615d70cb21603cfc9289c1591af423bddff1330bbb094966e6d7a90592",
+        "width": 672,
+        "height": 56
+      },
+      {
+        "question_id": "CS-2001-Q79",
+        "part": 2,
+        "sha256": "830112625b40fb57f79d23926bcb67479e909add1cdd60d708fe710b92683976",
+        "width": 672,
+        "height": 252
+      },
+      {
+        "question_id": "CS-2001-Q79",
+        "part": 3,
+        "sha256": "6d511ecd2824563879cba99d059506b2a2c25d655600575d6d1652662052675b",
+        "width": 672,
+        "height": 82
+      },
+      {
+        "question_id": "CS-2001-Q80",
+        "part": 1,
+        "sha256": "8452f0615d70cb21603cfc9289c1591af423bddff1330bbb094966e6d7a90592",
+        "width": 672,
+        "height": 56
+      },
+      {
+        "question_id": "CS-2001-Q80",
+        "part": 2,
+        "sha256": "cd72179f788f6cdd6e46e698c8c3639fca6843b50108cf6250816ea14b63eee6",
+        "width": 672,
+        "height": 636
+      },
+      {
+        "question_id": "CS-2001-Q81",
+        "part": 1,
+        "sha256": "280eccbfdc193da48b5191b67cdaaea95d0d3bd00398f7348d2f64b3188013f0",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q81",
+        "part": 2,
+        "sha256": "56ebdc7320cb5d585e5ffa17919b51fbb5a07c599bcc066fb663afc1ddb2e82c",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q81",
+        "part": 3,
+        "sha256": "d61a4e5bfed7ab40dbb46028e97ffaa97039a629703fe507d1093fd7e96ca58a",
+        "width": 672,
+        "height": 90
+      },
+      {
+        "question_id": "CS-2001-Q82",
+        "part": 1,
+        "sha256": "280eccbfdc193da48b5191b67cdaaea95d0d3bd00398f7348d2f64b3188013f0",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q82",
+        "part": 2,
+        "sha256": "56ebdc7320cb5d585e5ffa17919b51fbb5a07c599bcc066fb663afc1ddb2e82c",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q82",
+        "part": 3,
+        "sha256": "1e9690463900a688f5d9ee756bd072ab5c2bc1f155b1649d16cddbb8981e3772",
+        "width": 672,
+        "height": 82
+      },
+      {
+        "question_id": "CS-2001-Q83",
+        "part": 1,
+        "sha256": "280eccbfdc193da48b5191b67cdaaea95d0d3bd00398f7348d2f64b3188013f0",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q83",
+        "part": 2,
+        "sha256": "56ebdc7320cb5d585e5ffa17919b51fbb5a07c599bcc066fb663afc1ddb2e82c",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q83",
+        "part": 3,
+        "sha256": "e2e9cbe1c5d4f02646181d1d47708a76e667a83df409e2eb579ed83d5afeb195",
+        "width": 672,
+        "height": 154
+      },
+      {
+        "question_id": "CS-2001-Q84",
+        "part": 1,
+        "sha256": "280eccbfdc193da48b5191b67cdaaea95d0d3bd00398f7348d2f64b3188013f0",
+        "width": 672,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2001-Q84",
+        "part": 2,
+        "sha256": "56ebdc7320cb5d585e5ffa17919b51fbb5a07c599bcc066fb663afc1ddb2e82c",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q84",
+        "part": 3,
+        "sha256": "68aaea795363fdc4dd91f8f9e4ea69e325609450a86020b7e4bd0967678335da",
+        "width": 672,
+        "height": 162
+      },
+      {
+        "question_id": "CS-2001-Q85",
+        "part": 1,
+        "sha256": "1fe30c5ef888541dd5231cb73a96309dd3da45541a5170b6eac4458c7ed8bbd6",
+        "width": 672,
+        "height": 422
+      },
+      {
+        "question_id": "CS-2001-Q85",
+        "part": 2,
+        "sha256": "3068ae3a30bfdb2dc986b4b6aa52006365007f14ee40dbd80f2fd500e746a641",
+        "width": 672,
+        "height": 88
+      },
+      {
+        "question_id": "CS-2001-Q86",
+        "part": 1,
+        "sha256": "1fe30c5ef888541dd5231cb73a96309dd3da45541a5170b6eac4458c7ed8bbd6",
+        "width": 672,
+        "height": 422
+      },
+      {
+        "question_id": "CS-2001-Q86",
+        "part": 2,
+        "sha256": "cb611c7231ce2c2a1bbad4477357ae6aa751acfdfbfd90ea05c82875b5b02d03",
+        "width": 672,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2001-Q87",
+        "part": 1,
+        "sha256": "2d4ea0120f0a74bb8a1b46205a7c2970a8188b9d28a5eb9ea7c461d959a3b03c",
+        "width": 672,
+        "height": 758
+      },
+      {
+        "question_id": "CS-2001-Q87",
+        "part": 2,
+        "sha256": "893bca052db6dcc20e67958852c07af51716d4633acd2d121a4d4a04a049b3b7",
+        "width": 672,
+        "height": 156
+      },
+      {
+        "question_id": "CS-2001-Q88",
+        "part": 1,
+        "sha256": "cbd3dedf40f47fe1b05d1c854291db6ad2ac90028ea3b26dd39e7b643c504c54",
+        "width": 672,
+        "height": 54
+      },
+      {
+        "question_id": "CS-2001-Q88",
+        "part": 2,
+        "sha256": "f35b0f9ce4b1b9e89b3f21e5a35c563f9474256dec36ca9a1887c0045a56bf46",
+        "width": 672,
+        "height": 138
+      },
+      {
+        "question_id": "CS-2001-Q89",
+        "part": 1,
+        "sha256": "cbd3dedf40f47fe1b05d1c854291db6ad2ac90028ea3b26dd39e7b643c504c54",
+        "width": 672,
+        "height": 54
+      },
+      {
+        "question_id": "CS-2001-Q89",
+        "part": 2,
+        "sha256": "bb6f952939d8e7b0d3f8a8f4dccf69d4bac5d721f34cf7ab9bd34c00125c004a",
+        "width": 672,
+        "height": 183
+      },
+      {
+        "question_id": "CS-2001-Q90",
+        "part": 1,
+        "sha256": "536d96582f054e37f2dd22e4a597c7a9b76ea69f28f6da8515cc22e3c57cd7a6",
+        "width": 672,
+        "height": 743
+      },
+      {
+        "question_id": "CS-2001-Q90",
+        "part": 2,
+        "sha256": "adbc15d8759c8cfe8e63112392f4e1ca484cefc7ade0cc2f89c3782b40b06c03",
+        "width": 672,
+        "height": 230
+      },
+      {
+        "question_id": "CS-2001-Q91",
+        "part": 1,
+        "sha256": "536d96582f054e37f2dd22e4a597c7a9b76ea69f28f6da8515cc22e3c57cd7a6",
+        "width": 672,
+        "height": 743
+      },
+      {
+        "question_id": "CS-2001-Q91",
+        "part": 2,
+        "sha256": "f8f49342e8dedd38b4e41c794e795f5f8aff3dcfcd1e7db316c297bfb0dcd1f2",
+        "width": 672,
+        "height": 160
+      },
+      {
+        "question_id": "CS-2001-Q92",
+        "part": 1,
+        "sha256": "536d96582f054e37f2dd22e4a597c7a9b76ea69f28f6da8515cc22e3c57cd7a6",
+        "width": 672,
+        "height": 743
+      },
+      {
+        "question_id": "CS-2001-Q92",
+        "part": 2,
+        "sha256": "442bc13f614c65aad8a9c5dc90362b04f905331a68d74e4becbd6e44929c8916",
+        "width": 672,
+        "height": 154
+      },
+      {
+        "question_id": "CS-2001-Q93",
+        "part": 1,
+        "sha256": "da8506033186adef7c82afa589058a125ed746c216a3b4f4960c6450c997b3c8",
+        "width": 672,
+        "height": 128
+      },
+      {
+        "question_id": "CS-2001-Q93",
+        "part": 2,
+        "sha256": "dbe01d791356080745031511e226de14d037a7e0ae7d13a5ee50249d5269b85b",
+        "width": 672,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2001-Q93",
+        "part": 3,
+        "sha256": "2663d44801599cf060b19aaf03d663e534be790664bd9ae32560102739770c9f",
+        "width": 672,
+        "height": 312
+      },
+      {
+        "question_id": "CS-2001-Q94",
+        "part": 1,
+        "sha256": "da8506033186adef7c82afa589058a125ed746c216a3b4f4960c6450c997b3c8",
+        "width": 672,
+        "height": 128
+      },
+      {
+        "question_id": "CS-2001-Q94",
+        "part": 2,
+        "sha256": "dbe01d791356080745031511e226de14d037a7e0ae7d13a5ee50249d5269b85b",
+        "width": 672,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2001-Q94",
+        "part": 3,
+        "sha256": "2265c97a7a21b02fc85f015ef0d4212d9d37649beb3264befd34396e083a9bbf",
+        "width": 672,
+        "height": 302
+      },
+      {
+        "question_id": "CS-2001-Q95",
+        "part": 1,
+        "sha256": "8b55dc68a570a73745b83c2a97f889cb8e2406c049d26cfe65053187e60a5d1c",
+        "width": 672,
+        "height": 130
+      },
+      {
+        "question_id": "CS-2001-Q95",
+        "part": 2,
+        "sha256": "e2cfb1a8d7cbc168de03726c802584feb8ccc50bc740f15dcf7b661473edebb4",
+        "width": 672,
+        "height": 154
+      },
+      {
+        "question_id": "CS-2001-Q96",
+        "part": 1,
+        "sha256": "8b55dc68a570a73745b83c2a97f889cb8e2406c049d26cfe65053187e60a5d1c",
+        "width": 672,
+        "height": 130
+      },
+      {
+        "question_id": "CS-2001-Q96",
+        "part": 2,
+        "sha256": "04be3cd3a0a13bfc2c7e4b28531be47d0f38b12c0ee9278bddcb19f7e31f2c57",
+        "width": 672,
+        "height": 126
+      },
+      {
+        "question_id": "CS-2001-Q97",
+        "part": 1,
+        "sha256": "8b55dc68a570a73745b83c2a97f889cb8e2406c049d26cfe65053187e60a5d1c",
+        "width": 672,
+        "height": 130
+      },
+      {
+        "question_id": "CS-2001-Q97",
+        "part": 2,
+        "sha256": "ed19df8634b50df2087558c5b8aa75efc69138afce970720da917d92f664bcdc",
+        "width": 672,
+        "height": 196
+      },
+      {
+        "question_id": "CS-2001-Q98",
+        "part": 1,
+        "sha256": "bed1202d7f66c60a79b177e80f21fd7d1377246f6a61e97edff3738c2c12eb29",
+        "width": 672,
+        "height": 296
+      },
+      {
+        "question_id": "CS-2001-Q98",
+        "part": 2,
+        "sha256": "133b42a3883d9aceb1ec99db82b23a2a7e014e46fafe65b6def83380e3dae509",
+        "width": 672,
+        "height": 154
+      },
+      {
+        "question_id": "CS-2001-Q99",
+        "part": 1,
+        "sha256": "bed1202d7f66c60a79b177e80f21fd7d1377246f6a61e97edff3738c2c12eb29",
+        "width": 672,
+        "height": 296
+      },
+      {
+        "question_id": "CS-2001-Q99",
+        "part": 2,
+        "sha256": "133b42a3883d9aceb1ec99db82b23a2a7e014e46fafe65b6def83380e3dae509",
+        "width": 672,
+        "height": 154
+      },
+      {
+        "question_id": "CS-2001-Q99",
+        "part": 3,
+        "sha256": "a24d3cb4af52e053850e1f170d91ce0a54cb5f6e534105d7d1ccba9bf064a1a7",
+        "width": 672,
+        "height": 136
+      }
+    ],
+    "descriptive_mapping": {
+      "CS-2001-Q51": {
+        "record_printed_number": "3(a)",
+        "reproduction_number": "51(a)",
+        "content_checked": "Prove P(A∩B)=P(A)∩P(B).\n\nTask: Prove the stated power-set identity."
+      },
+      "CS-2001-Q52": {
+        "record_printed_number": "3(b)",
+        "reproduction_number": "51(b)",
+        "content_checked": "S(n)=0+1+⋯+n for natural numbers including 0. Prove S(m+n)=S(m)+S(n)+mn.\n\nTask: Give an induction proof of the stated sum identity."
+      },
+      "CS-2001-Q53": {
+        "record_printed_number": "4(a)",
+        "reproduction_number": "52(a)",
+        "content_checked": "N={0,1,2,…}; h:N×N→N is h(a,b)=(2a+1)2^b−1.\n\nTask: Prove that h is injective."
+      },
+      "CS-2001-Q54": {
+        "record_printed_number": "4(b)",
+        "reproduction_number": "52(b)",
+        "content_checked": "N={0,1,2,…}; h:N×N→N is h(a,b)=(2a+1)2^b−1.\n\nTask: Prove that h is surjective."
+      },
+      "CS-2001-Q55": {
+        "record_printed_number": "5(a)",
+        "reproduction_number": "53(a)",
+        "content_checked": "Alphabet {a,b}; accept precisely strings containing baab as a contiguous substring.\n\nTask: Construct a DFA for this language."
+      },
+      "CS-2001-Q56": {
+        "record_printed_number": "5(b)",
+        "reproduction_number": "53(b)",
+        "content_checked": "Alphabet {a,b}; accept strings with an odd number of a symbols and an odd number of b symbols.\n\nTask: Construct a DFA for this language."
+      },
+      "CS-2001-Q57": {
+        "record_printed_number": "6",
+        "reproduction_number": "54",
+        "content_checked": "L={aⁿcb²ⁿ | n≥1}, alphabet {a,b,c}; specify accepting state.\n\nTask: Construct a deterministic PDA and specify its accepting state."
+      },
+      "CS-2001-Q58": {
+        "record_printed_number": "7(a)",
+        "reproduction_number": "55(a)",
+        "content_checked": "X asks whether a Turing machine M loops forever on input w. The halting problem H is assumed undecidable but partially decidable.\n\nTask: Prove that X is undecidable."
+      },
+      "CS-2001-Q59": {
+        "record_printed_number": "7(b)",
+        "reproduction_number": "55(b)",
+        "content_checked": "X asks whether a Turing machine M loops forever on input w. The halting problem H is assumed undecidable but partially decidable.\n\nTask: Prove that X is not even partially decidable."
+      },
+      "CS-2001-Q60": {
+        "record_printed_number": "8(a)",
+        "reproduction_number": "56(a)",
+        "content_checked": "Disk: 20 surfaces, 1000 tracks/surface, 16 sectors/track, 1 KB/sector, 3000 rpm; transfer one byte at a time. For CPU calculations memory transfer costs 0.1 μs/byte, interrupt overhead 0.4 μs/byte, DMA setup negligible and requests always granted. Use 1 KB=1024 bytes.\n\nTask: Find the total capacity of the disk."
+      },
+      "CS-2001-Q61": {
+        "record_printed_number": "8(b)",
+        "reproduction_number": "56(b)",
+        "content_checked": "Disk: 20 surfaces, 1000 tracks/surface, 16 sectors/track, 1 KB/sector, 3000 rpm; transfer one byte at a time. For CPU calculations memory transfer costs 0.1 μs/byte, interrupt overhead 0.4 μs/byte, DMA setup negligible and requests always granted. Use 1 KB=1024 bytes.\n\nTask: Find the data transfer rate."
+      },
+      "CS-2001-Q62": {
+        "record_printed_number": "8(c)",
+        "reproduction_number": "56(c)",
+        "content_checked": "Disk: 20 surfaces, 1000 tracks/surface, 16 sectors/track, 1 KB/sector, 3000 rpm; transfer one byte at a time. For CPU calculations memory transfer costs 0.1 μs/byte, interrupt overhead 0.4 μs/byte, DMA setup negligible and requests always granted. Use 1 KB=1024 bytes.\n\nTask: Find the percentage of CPU time required for byte-wise interrupt-driven transfer."
+      },
+      "CS-2001-Q63": {
+        "record_printed_number": "8(d)",
+        "reproduction_number": "56(d)",
+        "content_checked": "Disk: 20 surfaces, 1000 tracks/surface, 16 sectors/track, 1 KB/sector, 3000 rpm; transfer one byte at a time. For CPU calculations memory transfer costs 0.1 μs/byte, interrupt overhead 0.4 μs/byte, DMA setup negligible and requests always granted. Use 1 KB=1024 bytes.\n\nTask: Find the maximum percentage of CPU time held up by cycle-stealing DMA."
+      },
+      "CS-2001-Q64": {
+        "record_printed_number": "9(a)",
+        "reproduction_number": "57(a)",
+        "content_checked": "32-bit byte addresses; cache data capacity 256 KB=2^18 bytes; 4-way set associative; 16-byte blocks.\n\nTask: Find the number of cache sets."
+      },
+      "CS-2001-Q65": {
+        "record_printed_number": "9(b)",
+        "reproduction_number": "57(b)",
+        "content_checked": "32-bit byte addresses; cache data capacity 256 KB=2^18 bytes; 4-way set associative; 16-byte blocks.\n\nTask: Find the tag-field width per block."
+      },
+      "CS-2001-Q66": {
+        "record_printed_number": "9(c)",
+        "reproduction_number": "57(c)",
+        "content_checked": "32-bit byte addresses; cache data capacity 256 KB=2^18 bytes; 4-way set associative; 16-byte blocks.\n\nTask: Find the number and size of comparators for tag matching."
+      },
+      "CS-2001-Q67": {
+        "record_printed_number": "9(d)",
+        "reproduction_number": "57(d)",
+        "content_checked": "32-bit byte addresses; cache data capacity 256 KB=2^18 bytes; 4-way set associative; 16-byte blocks.\n\nTask: Find the byte-offset address width."
+      },
+      "CS-2001-Q68": {
+        "record_printed_number": "9(e)",
+        "reproduction_number": "57(e)",
+        "content_checked": "32-bit byte addresses; cache data capacity 256 KB=2^18 bytes; 4-way set associative; 16-byte blocks.\n\nTask: Find total extra memory in bytes required for tag bits."
+      },
+      "CS-2001-Q69": {
+        "record_printed_number": "10(a)",
+        "reproduction_number": "58(a)",
+        "content_checked": "f(x,y,z)=Σm(0,1,2,4). Determine whether f is self-dual.\n\nTask: Decide whether f is self-dual and justify the answer."
+      },
+      "CS-2001-Q70": {
+        "record_printed_number": "10(b)",
+        "reproduction_number": "58(b)",
+        "content_checked": "Input bits e8,e4,e2,e1 encode decimal d as d+3 (valid codes 3…12); output b4 is the weight-4 BCD bit. Diagram has four excess-3 input lines and four BCD outputs b8,b4,b2,b1. GFG explicitly requests b4; GateForum omits the subscript in its prose.\n\nTask: Give a minimal product-of-sums expression for b4."
+      },
+      "CS-2001-Q71": {
+        "record_printed_number": "11(a)",
+        "reproduction_number": "59(a)",
+        "content_checked": "Initially copy input bits. After two consecutive input zeros, complement following bits; after two consecutive input ones while complementing, return to copying. The triggering second bit still uses the old mode. Use J-K flip-flops.\n\nTask: Give the state transition diagram (specified here by a complete labeled transition table)."
+      },
+      "CS-2001-Q72": {
+        "record_printed_number": "11(b)",
+        "reproduction_number": "59(b)",
+        "content_checked": "Initially copy input bits. After two consecutive input zeros, complement following bits; after two consecutive input ones while complementing, return to copying. The triggering second bit still uses the old mode. Use J-K flip-flops. Encode A=00, B=01, C=10, D=11 with mode bit M and pending-pair bit P. Input x; output y=x XOR M.\n\nTask: Give minimized sum-of-products expressions for the J and K inputs of one state flip-flop."
+      },
+      "CS-2001-Q73": {
+        "record_printed_number": "12(a)",
+        "reproduction_number": "60(a)",
+        "content_checked": "Five stages IF, ID, EX, MEM, WB; reads occur in second half of cycle, writes in first half. I1: sub r2,r3,r4; I2: sub r4,r2,r3; I3: sw r2,100(r1); I4: sub r3,r4,r2.\n\nTask: Show all data dependencies among the four instructions."
+      },
+      "CS-2001-Q74": {
+        "record_printed_number": "12(b)",
+        "reproduction_number": "60(b)",
+        "content_checked": "Five stages IF, ID, EX, MEM, WB; reads occur in second half of cycle, writes in first half. I1: sub r2,r3,r4; I2: sub r4,r2,r3; I3: sw r2,100(r1); I4: sub r3,r4,r2.\n\nTask: Identify the data hazards."
+      },
+      "CS-2001-Q75": {
+        "record_printed_number": "12(c)",
+        "reproduction_number": "60(c)",
+        "content_checked": "Five stages IF, ID, EX, MEM, WB; reads occur in second half of cycle, writes in first half. I1: sub r2,r3,r4; I2: sub r4,r2,r3; I3: sw r2,100(r1); I4: sub r3,r4,r2.\n\nTask: Determine whether forwarding can avoid all the hazards in this sequence."
+      },
+      "CS-2001-Q76": {
+        "record_printed_number": "13(a)",
+        "reproduction_number": "61(a)",
+        "content_checked": "abc(s) returns at the null terminator; otherwise it calls abc(s+1) twice and then prints s[0]. main calls abc(\"123\")."
+      },
+      "CS-2001-Q77": {
+        "record_printed_number": "13(b)",
+        "reproduction_number": "61(b)",
+        "content_checked": "The preceding abc routine is called on a null-terminated string of n characters, excluding the terminator."
+      },
+      "CS-2001-Q78": {
+        "record_printed_number": "14(a)",
+        "reproduction_number": "62(a)",
+        "content_checked": "Insert 15,32,20,9,3,25,12,1 into an initially empty BST."
+      },
+      "CS-2001-Q79": {
+        "record_printed_number": "14(b)",
+        "reproduction_number": "62(b)",
+        "content_checked": "Delete key 15 from the BST built by insertion order 15,32,20,9,3,25,12,1."
+      },
+      "CS-2001-Q80": {
+        "record_printed_number": "14(c)",
+        "reproduction_number": "62(c)",
+        "content_checked": "depth(t) returns 0 for NULL, sets x=depth(t->left), then needs S1, S2 and S3 to return the tree depth."
+      },
+      "CS-2001-Q81": {
+        "record_printed_number": "15(a)",
+        "reproduction_number": "63(a)",
+        "content_checked": "Undirected vertices n1,…,n6; edges (n1,n2,2),(n1,n3,8),(n1,n6,3),(n2,n4,4),(n2,n5,12),(n3,n4,7),(n4,n5,9),(n4,n6,4)."
+      },
+      "CS-2001-Q82": {
+        "record_printed_number": "15(b)",
+        "reproduction_number": "63(b)",
+        "content_checked": "Undirected vertices n1,…,n6; edges (n1,n2,2),(n1,n3,8),(n1,n6,3),(n2,n4,4),(n2,n5,12),(n3,n4,7),(n4,n5,9),(n4,n6,4)."
+      },
+      "CS-2001-Q83": {
+        "record_printed_number": "15(c)",
+        "reproduction_number": "63(c)",
+        "content_checked": "For a connected weighted undirected graph, compare the minimum edge weight present in different MSTs."
+      },
+      "CS-2001-Q84": {
+        "record_printed_number": "15(d)",
+        "reproduction_number": "63(d)",
+        "content_checked": "For a connected weighted undirected graph, compare the maximum edge weight present in different MSTs."
+      },
+      "CS-2001-Q85": {
+        "record_printed_number": "16(a)",
+        "reproduction_number": "64(a)",
+        "content_checked": "Start symbol E; productions E→aA | (E), A→+E | *E | ε. Terminals a,(,),+,*. "
+      },
+      "CS-2001-Q86": {
+        "record_printed_number": "16(b)",
+        "reproduction_number": "64(b)",
+        "content_checked": "Start symbol E; productions E→aA | (E), A→+E | *E | ε. Terminals a,(,),+,*. "
+      },
+      "CS-2001-Q87": {
+        "record_printed_number": "17",
+        "reproduction_number": "65",
+        "content_checked": "S→repeat S1 until E. S1.code is body code; E.code computes a Boolean into E.varName (1=true,0=false). newlabel() returns a fresh label; gen(s) emits a code line."
+      },
+      "CS-2001-Q88": {
+        "record_printed_number": "18(a)",
+        "reproduction_number": "66(a)",
+        "content_checked": "Grammar S→Sa | Sb | a | b."
+      },
+      "CS-2001-Q89": {
+        "record_printed_number": "18(b)",
+        "reproduction_number": "66(b)",
+        "content_checked": "Grammar S→aSbS | bSaS | ε; construct all parse trees of abab and determine ambiguity."
+      },
+      "CS-2001-Q90": {
+        "record_printed_number": "19(a)",
+        "reproduction_number": "67(a)",
+        "content_checked": "GFG variant: P1 executes S1 wait until R1 free; S2 set R1 busy; S3 wait until R2 free; S4 set R2 busy; S5 use both; S6 free R1; S7 free R2. P2 executes Q1 wait until R2 free; Q2 set R2 busy; Q3 wait until R1 free; Q4 set R1 busy; Q5 use both; Q6 free R2; Q7 free R1. Initially both free. Each test and subsequent set is a separate operation."
+      },
+      "CS-2001-Q91": {
+        "record_printed_number": "19(b)",
+        "reproduction_number": "67(b)",
+        "content_checked": "GFG variant: P1 executes S1 wait until R1 free; S2 set R1 busy; S3 wait until R2 free; S4 set R2 busy; S5 use both; S6 free R1; S7 free R2. P2 executes Q1 wait until R2 free; Q2 set R2 busy; Q3 wait until R1 free; Q4 set R1 busy; Q5 use both; Q6 free R2; Q7 free R1. Initially both free. Each test and subsequent set is a separate operation."
+      },
+      "CS-2001-Q92": {
+        "record_printed_number": "19(c)",
+        "reproduction_number": "67(c)",
+        "content_checked": "GFG variant: P1 executes S1 wait until R1 free; S2 set R1 busy; S3 wait until R2 free; S4 set R2 busy; S5 use both; S6 free R1; S7 free R2. P2 executes Q1 wait until R2 free; Q2 set R2 busy; Q3 wait until R1 free; Q4 set R1 busy; Q5 use both; Q6 free R2; Q7 free R1. Initially both free. Each test and subsequent set is a separate operation. Exchange Q1 with Q3 and Q2 with Q4."
+      },
+      "CS-2001-Q93": {
+        "record_printed_number": "20(a)",
+        "reproduction_number": "68(a)",
+        "content_checked": "Disk has tracks 0–99, rotates at 3000 rpm, has 100 sectors per track and takes 0.2 ms to move one track. Requests are tracks 32,7,45,5,10; head starts at 25 moving upward."
+      },
+      "CS-2001-Q94": {
+        "record_printed_number": "20(b)",
+        "reproduction_number": "68(b)",
+        "content_checked": "Disk has tracks 0–99, rotates at 3000 rpm, has 100 sectors per track and takes 0.2 ms to move one track. Initially 100 arbitrary requests, no new arrivals, head starts at track 0; determine worst-case completion time under elevator scheduling."
+      },
+      "CS-2001-Q95": {
+        "record_printed_number": "21(a)",
+        "reproduction_number": "69(a)",
+        "content_checked": "examinee(regno,name,score), with primary key regno. Use projection, selection, renaming and Cartesian product to find names appearing in multiple tuples."
+      },
+      "CS-2001-Q96": {
+        "record_printed_number": "21(b)",
+        "reproduction_number": "69(b)",
+        "content_checked": "examinee(regno,name,score), where regno is a primary key and score is real. List registration numbers with score above the relation-wide average."
+      },
+      "CS-2001-Q97": {
+        "record_printed_number": "21(c)",
+        "reproduction_number": "69(c)",
+        "content_checked": "examinee(regno,name,score) and appears(regno,centr_code). List centre codes having an examinee whose score exceeds 80."
+      },
+      "CS-2001-Q98": {
+        "record_printed_number": "22(a)",
+        "reproduction_number": "70(a)",
+        "content_checked": "B+ tree fan-out 3; insert 80,50,10,70,30,100,90, and show snapshots after 10,30,90."
+      },
+      "CS-2001-Q99": {
+        "record_printed_number": "22(b)",
+        "reproduction_number": "70(b)",
+        "content_checked": "B+ tree fan-out 3, initially empty; insert 80,50,10,70,30,100,90. Use at most 3 child pointers (2 separators) per internal node and at most 2 records per leaf. Non-root internal nodes need ≥2 children; non-root leaves need ≥1 record. Starting with the final tree of the preceding solution, delete 30 and then 10."
+      }
+    }
+  }
+}

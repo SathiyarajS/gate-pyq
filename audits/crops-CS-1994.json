@@ -1,0 +1,1598 @@
+{
+  "paper_id": "CS-1994",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "498b2235ea966410081e3db127873c08936c76f58aaf607aad42684f316ae60a",
+  "preparation_evidence_sha256": "3fb25c016ac34dd390a48746ebb359a2c2e1b2b58cdd0946f6e64f50e0224ab3",
+  "independent_review_evidence_sha256": "dcb5aa049b88235e51576bbedef17fa3b00464f265231e60db9b67216503ae61",
+  "questions": 85,
+  "crop_parts": 117,
+  "verified_questions": 85,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1994",
+    "status": "approved",
+    "review_date": "2026-11-10",
+    "review_scope": "Independent crop fidelity review of all available rendered content in the specified third-party reproduction only.",
+    "crops_sha256": "498b2235ea966410081e3db127873c08936c76f58aaf607aad42684f316ae60a",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204113/GATE1994.pdf",
+    "source_sha256": "a7c803f873b07feadbb796a3a406602a115ed64ace1161aae79a5e8efdf6d902",
+    "questions": 85,
+    "crop_parts": 117,
+    "source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "fresh_render": {
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80,
+      "byte_identical_parts": 117,
+      "mismatches": 0,
+      "contact_sheets_regenerated_byte_identical": 20
+    },
+    "findings": [
+      "All 85 normalized question mappings checked against available source content and records. Printed reproduction numbers differ from normalized metadata; no renumbering performed.",
+      "All 117 final parts reviewed via verified actual-output contact sheets. Available stems, options, equations, diagrams, code and explicit prerequisites are retained; no unrelated question leaks found.",
+      "Cross-column/page continuations Q9, Q13, Q19, Q39 and Q49 are retained. Shared scoping header, full program, separate task lines and give-reasons instruction are retained for Q75/Q76.",
+      "All 16 geometric overlap pairs independently recomputed and approved as identical shared or prerequisite regions. B+ context/figure, proof prerequisite, schema, true/false instructions, independent-set task, precedence-graph program and resource-allocation prerequisites are intentional.",
+      "Q63 lacks its opening label/words in the source. Q64 lacks its parent number/(a), and Q65 lacks the parent number. Mapping is established from content and neighboring tasks, not invented markers.",
+      "Source figure blur, missing XObject Fm0 warnings, malformed probability wording, Q23 option-c variant, Q51 leaf-count formula and Q60 NOT-registered wording are preserved. No absent material reconstructed."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1994-Q48",
+          "CS-1994-Q49"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 4,
+        "source_bboxes": [
+          [
+            300.625,
+            661.25,
+            522.5,
+            701.875
+          ],
+          [
+            300.625,
+            661.25,
+            522.5,
+            701.875
+          ]
+        ],
+        "intersection": [
+          300.625,
+          661.25,
+          522.5,
+          701.875
+        ],
+        "reason": "Boolean * definition and C=A*B premise apply to both separate evaluations (a.i)/(a.ii)."
+      },
+      {
+        "questions": [
+          "CS-1994-Q60",
+          "CS-1994-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.125,
+            45.625,
+            277.5,
+            175.0
+          ],
+          [
+            53.125,
+            45.625,
+            277.5,
+            175.0
+          ]
+        ],
+        "intersection": [
+          53.125,
+          45.625,
+          277.5,
+          175.0
+        ],
+        "reason": "Common COURSES/STUDENTS/REGISTERED FOR schema, keys and year definition required by both query subparts."
+      },
+      {
+        "questions": [
+          "CS-1994-Q62",
+          "CS-1994-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.125,
+            256.25,
+            277.5,
+            308.75
+          ],
+          [
+            53.125,
+            256.25,
+            277.5,
+            308.75
+          ]
+        ],
+        "intersection": [
+          53.125,
+          256.25,
+          277.5,
+          308.75
+        ],
+        "reason": "Common B+ tree definition and referenced Fig.7 retained for both subparts; insertion task remains only with Q62."
+      },
+      {
+        "questions": [
+          "CS-1994-Q62",
+          "CS-1994-Q63"
+        ],
+        "parts": [
+          3,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.125,
+            337.5,
+            277.5,
+            396.25
+          ],
+          [
+            53.125,
+            337.5,
+            277.5,
+            396.25
+          ]
+        ],
+        "intersection": [
+          53.125,
+          337.5,
+          277.5,
+          396.25
+        ],
+        "reason": "Common B+ tree definition and referenced Fig.7 retained for both subparts; insertion task remains only with Q62."
+      },
+      {
+        "questions": [
+          "CS-1994-Q64",
+          "CS-1994-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.125,
+            421.875,
+            277.5,
+            525.0
+          ],
+          [
+            53.125,
+            421.875,
+            277.5,
+            525.0
+          ]
+        ],
+        "intersection": [
+          53.125,
+          421.875,
+          277.5,
+          525.0
+        ],
+        "reason": "Q65 explicitly asks to use the result obtained in (a); Q64 formula, no-induction instruction and dot pattern retained as its separate prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q67",
+          "CS-1994-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            53.125,
+            640.625,
+            277.5,
+            680.0
+          ],
+          [
+            53.125,
+            640.625,
+            277.5,
+            680.0
+          ]
+        ],
+        "intersection": [
+          53.125,
+          640.625,
+          277.5,
+          680.0
+        ],
+        "reason": "Shared true/false-with-reasons instruction for the coroutine and two-pass assembler subparts."
+      },
+      {
+        "questions": [
+          "CS-1994-Q69",
+          "CS-1994-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.625,
+            71.25,
+            522.5,
+            96.875
+          ],
+          [
+            300.625,
+            71.25,
+            522.5,
+            96.875
+          ]
+        ],
+        "intersection": [
+          300.625,
+          71.25,
+          522.5,
+          96.875
+        ],
+        "reason": "Shared true/false-with-reasons instruction for macro and external-symbol subparts."
+      },
+      {
+        "questions": [
+          "CS-1994-Q75",
+          "CS-1994-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.625,
+            660.0,
+            522.5,
+            675.0
+          ],
+          [
+            300.625,
+            660.0,
+            522.5,
+            675.0
+          ]
+        ],
+        "intersection": [
+          300.625,
+          660.0,
+          522.5,
+          675.0
+        ],
+        "reason": "Shared question header, full program and what-is-printed prompt, and give-reasons instruction needed for both static/dynamic scoping; their task lines stay separate."
+      },
+      {
+        "questions": [
+          "CS-1994-Q75",
+          "CS-1994-Q76"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.125,
+            42.5,
+            277.5,
+            154.375
+          ],
+          [
+            53.125,
+            42.5,
+            277.5,
+            154.375
+          ]
+        ],
+        "intersection": [
+          53.125,
+          42.5,
+          277.5,
+          154.375
+        ],
+        "reason": "Shared question header, full program and what-is-printed prompt, and give-reasons instruction needed for both static/dynamic scoping; their task lines stay separate."
+      },
+      {
+        "questions": [
+          "CS-1994-Q75",
+          "CS-1994-Q76"
+        ],
+        "parts": [
+          4,
+          4
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.125,
+            206.875,
+            277.5,
+            219.375
+          ],
+          [
+            53.125,
+            206.875,
+            277.5,
+            219.375
+          ]
+        ],
+        "intersection": [
+          53.125,
+          206.875,
+          277.5,
+          219.375
+        ],
+        "reason": "Shared question header, full program and what-is-printed prompt, and give-reasons instruction needed for both static/dynamic scoping; their task lines stay separate."
+      },
+      {
+        "questions": [
+          "CS-1994-Q78",
+          "CS-1994-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.125,
+            450.0,
+            277.5,
+            640.0
+          ],
+          [
+            53.125,
+            450.0,
+            277.5,
+            640.0
+          ]
+        ],
+        "intersection": [
+          53.125,
+          450.0,
+          277.5,
+          640.0
+        ],
+        "reason": "Shared independent-set definition and incomplete algorithm; Q79 runtime concerns the completed algorithm requested by Q78, so the completion task is a separate prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q78",
+          "CS-1994-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.125,
+            640.0,
+            277.5,
+            666.25
+          ],
+          [
+            53.125,
+            640.0,
+            277.5,
+            666.25
+          ]
+        ],
+        "intersection": [
+          53.125,
+          640.0,
+          277.5,
+          666.25
+        ],
+        "reason": "Shared independent-set definition and incomplete algorithm; Q79 runtime concerns the completed algorithm requested by Q78, so the completion task is a separate prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q82",
+          "CS-1994-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.625,
+            281.25,
+            522.5,
+            406.875
+          ],
+          [
+            300.625,
+            281.25,
+            522.5,
+            406.875
+          ]
+        ],
+        "intersection": [
+          300.625,
+          281.25,
+          522.5,
+          406.875
+        ],
+        "reason": "Q83 asks whether this graph can be converted: Q82 graph-construction task and complete S1-S6 program are its prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q84",
+          "CS-1994-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.625,
+            446.875,
+            522.5,
+            471.25
+          ],
+          [
+            300.625,
+            446.875,
+            522.5,
+            471.25
+          ]
+        ],
+        "intersection": [
+          300.625,
+          446.875,
+          522.5,
+          471.25
+        ],
+        "reason": "Shared resource-allocation header and full figure; Q85 Otherwise also requires the Q84 deadlock-test task as a separate prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q84",
+          "CS-1994-Q85"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.625,
+            471.25,
+            522.5,
+            498.125
+          ],
+          [
+            300.625,
+            471.25,
+            522.5,
+            498.125
+          ]
+        ],
+        "intersection": [
+          300.625,
+          471.25,
+          522.5,
+          498.125
+        ],
+        "reason": "Shared resource-allocation header and full figure; Q85 Otherwise also requires the Q84 deadlock-test task as a separate prerequisite."
+      },
+      {
+        "questions": [
+          "CS-1994-Q84",
+          "CS-1994-Q85"
+        ],
+        "parts": [
+          3,
+          4
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.625,
+            516.875,
+            522.5,
+            665.625
+          ],
+          [
+            300.625,
+            516.875,
+            522.5,
+            665.625
+          ]
+        ],
+        "intersection": [
+          300.625,
+          516.875,
+          522.5,
+          665.625
+        ],
+        "reason": "Shared resource-allocation header and full figure; Q85 Otherwise also requires the Q84 deadlock-test task as a separate prerequisite."
+      }
+    ],
+    "unrelated_overlap_pairs": 0,
+    "blocking_findings": [],
+    "original_source_verified": false,
+    "original_completeness_certified": false,
+    "limitations": [
+      "Exact source hash verified. MuPDF reports missing XObject Fm0 on every source page; rendered source contains all observed diagrams but omitted source material cannot be ruled out.",
+      "GFG reproduction numbering differs from normalized original section/subpart metadata. Map by complete content. Original official fidelity/completeness not certified.",
+      "Page 6 B+ search continuation (Q63) lacks visible (b) label/initial words. Q64 dot proof lacks expected parent number and (a) label. Preserved visible wording; no reconstruction.",
+      "Known GFG errors/ambiguities retained: Q23 option c repeats g2; Q30 probability text malformed; Q51 leaf formula prints 2(n-1); Q60 asks NOT registered; figures/text may be fuzzy at native source resolution.",
+      "Crop review is not answer recertification, transcription verification, or redistribution permission."
+    ],
+    "question_mapping": [
+      {
+        "question_id": "CS-1994-Q1",
+        "normalized_printed_question_number": "1.1",
+        "observed_reproduction_marker": "1",
+        "title": "Historical FORTRAN storage and recursion",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q2",
+        "normalized_printed_question_number": "1.2",
+        "observed_reproduction_marker": "2",
+        "title": "Products of symmetric matrices",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q3",
+        "normalized_printed_question_number": "1.3",
+        "observed_reproduction_marker": "3",
+        "title": "Backward Euler discretization",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q4",
+        "normalized_printed_question_number": "1.4",
+        "observed_reproduction_marker": "4",
+        "title": "A probability inequality without independence",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q5",
+        "normalized_printed_question_number": "1.5",
+        "observed_reproduction_marker": "5",
+        "title": "Why unrestricted goto is discouraged",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q6",
+        "normalized_printed_question_number": "1.6",
+        "observed_reproduction_marker": "6",
+        "title": "Simple graphs on at most three vertices",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q7",
+        "normalized_printed_question_number": "1.7",
+        "observed_reproduction_marker": "7",
+        "title": "Binary search recurrence",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q8",
+        "normalized_printed_question_number": "1.8",
+        "observed_reproduction_marker": "8",
+        "title": "Simplifying a NAND network",
+        "pages": [
+          1
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q9",
+        "normalized_printed_question_number": "1.9",
+        "observed_reproduction_marker": "9",
+        "title": "Rank from proportional columns",
+        "pages": [
+          1,
+          2
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q10",
+        "normalized_printed_question_number": "1.10",
+        "observed_reproduction_marker": "10",
+        "title": "A consequence of an abelian group",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q11",
+        "normalized_printed_question_number": "1.11",
+        "observed_reproduction_marker": "11",
+        "title": "Packing a lower triangular matrix",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q12",
+        "normalized_printed_question_number": "1.12",
+        "observed_reproduction_marker": "12",
+        "title": "Purpose of an intermediate representation",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q13",
+        "normalized_printed_question_number": "1.13",
+        "observed_reproduction_marker": "13",
+        "title": "Evicting a heavily used old page",
+        "pages": [
+          2,
+          2
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q14",
+        "normalized_printed_question_number": "1.14",
+        "observed_reproduction_marker": "14",
+        "title": "A stack permutation",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q15",
+        "normalized_printed_question_number": "1.15",
+        "observed_reproduction_marker": "15",
+        "title": "Counting substring occurrences",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q16",
+        "normalized_printed_question_number": "1.16",
+        "observed_reproduction_marker": "16",
+        "title": "A conversion impossible in general",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q17",
+        "normalized_printed_question_number": "1.17",
+        "observed_reproduction_marker": "17",
+        "title": "Where linked lists are unsuitable",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q18",
+        "normalized_printed_question_number": "1.18",
+        "observed_reproduction_marker": "18",
+        "title": "A context-sensitive language check",
+        "pages": [
+          2
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q19",
+        "normalized_printed_question_number": "1.19",
+        "observed_reproduction_marker": "19",
+        "title": "Quicksort design strategy",
+        "pages": [
+          2,
+          3
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q20",
+        "normalized_printed_question_number": "1.20",
+        "observed_reproduction_marker": "20",
+        "title": "Call by name versus call by reference",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q21",
+        "normalized_printed_question_number": "1.21",
+        "observed_reproduction_marker": "21",
+        "title": "Overlaying versus virtual address space",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q22",
+        "normalized_printed_question_number": "1.22",
+        "observed_reproduction_marker": "22",
+        "title": "A false graph-search claim",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q23",
+        "normalized_printed_question_number": "1.23",
+        "observed_reproduction_marker": "23",
+        "title": "Piecewise functions and multiple big-O answers",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q24",
+        "normalized_printed_question_number": "1.24",
+        "observed_reproduction_marker": "24",
+        "title": "First fit versus best fit",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q25",
+        "normalized_printed_question_number": "2.1",
+        "observed_reproduction_marker": "2.1",
+        "title": "Flip-flops for a modulo counter",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q26",
+        "normalized_printed_question_number": "2.2",
+        "observed_reproduction_marker": "2.2",
+        "title": "An associative noncommutative operation",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q27",
+        "normalized_printed_question_number": "2.3",
+        "observed_reproduction_marker": "2.3",
+        "title": "Properties of inequality relation",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q28",
+        "normalized_printed_question_number": "2.4",
+        "observed_reproduction_marker": "2.4",
+        "title": "Odd-cardinality subsets",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q29",
+        "normalized_printed_question_number": "2.5",
+        "observed_reproduction_marker": "2.5",
+        "title": "Edges in a regular graph",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q30",
+        "normalized_printed_question_number": "2.6",
+        "observed_reproduction_marker": "2.6",
+        "title": "Partitioning an event by another event",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q31",
+        "normalized_printed_question_number": "2.7",
+        "observed_reproduction_marker": "2.7",
+        "title": "Two’s-complement range",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q32",
+        "normalized_printed_question_number": "2.8",
+        "observed_reproduction_marker": "2.8",
+        "title": "At least one of three independent events",
+        "pages": [
+          3
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q33",
+        "normalized_printed_question_number": "2.9",
+        "observed_reproduction_marker": "2.9",
+        "title": "All lattices with at most four elements",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q34",
+        "normalized_printed_question_number": "2.10",
+        "observed_reproduction_marker": "2.10",
+        "title": "Regex from an automaton with a trap",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q35",
+        "normalized_printed_question_number": "3.1",
+        "observed_reproduction_marker": "3.1",
+        "title": "Multiplexed pins and execution time",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q36",
+        "normalized_printed_question_number": "3.2",
+        "observed_reproduction_marker": "3.2",
+        "title": "Expanding opcodes and RISC",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q37",
+        "normalized_printed_question_number": "3.3",
+        "observed_reproduction_marker": "3.3",
+        "title": "Finite-state addition of arbitrarily long integers",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q38",
+        "normalized_printed_question_number": "3.4",
+        "observed_reproduction_marker": "3.4",
+        "title": "Matching numerical methods",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q39",
+        "normalized_printed_question_number": "3.5",
+        "observed_reproduction_marker": "3.5",
+        "title": "Matching compiler formalisms",
+        "pages": [
+          4,
+          4
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q40",
+        "normalized_printed_question_number": "3.6",
+        "observed_reproduction_marker": "3.6",
+        "title": "Losslessness and dependency preservation in BCNF",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q41",
+        "normalized_printed_question_number": "3.7",
+        "observed_reproduction_marker": "3.7",
+        "title": "Distinct values in one database instance",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q42",
+        "normalized_printed_question_number": "3.8",
+        "observed_reproduction_marker": "3.8",
+        "title": "Intersection using union and difference only",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q43",
+        "normalized_printed_question_number": "3.9",
+        "observed_reproduction_marker": "3.9",
+        "title": "Subsets of a countable set",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q44",
+        "normalized_printed_question_number": "3.10",
+        "observed_reproduction_marker": "3.10",
+        "title": "Matching logic families",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q45",
+        "normalized_printed_question_number": "3.11",
+        "observed_reproduction_marker": "3.11",
+        "title": "Logical versus physical data independence",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q46",
+        "normalized_printed_question_number": "3.12",
+        "observed_reproduction_marker": "3.12",
+        "title": "Inverse of a three-by-three matrix",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q47",
+        "normalized_printed_question_number": "3.13",
+        "observed_reproduction_marker": "3.13",
+        "title": "Testing nonimplication by a truth table",
+        "pages": [
+          4
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q48",
+        "normalized_printed_question_number": "4(a.i)",
+        "observed_reproduction_marker": "27(a.i)",
+        "title": "XNOR identities",
+        "pages": [
+          4,
+          4
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q49",
+        "normalized_printed_question_number": "4(a.ii)",
+        "observed_reproduction_marker": "27(a.ii)",
+        "title": "XNOR identities",
+        "pages": [
+          4,
+          5
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q50",
+        "normalized_printed_question_number": "4(b)",
+        "observed_reproduction_marker": "27(b)",
+        "title": "Boolean simultaneous equations",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q51",
+        "normalized_printed_question_number": "5",
+        "observed_reproduction_marker": "28",
+        "title": "Induction on full ternary trees",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q52",
+        "normalized_printed_question_number": "6",
+        "observed_reproduction_marker": "29",
+        "title": "Recursive exponentiation",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q53",
+        "normalized_printed_question_number": "7",
+        "observed_reproduction_marker": "30",
+        "title": "In-place cyclic rotation",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q54",
+        "normalized_printed_question_number": "8",
+        "observed_reproduction_marker": "31",
+        "title": "Reconstruction from preorder and postorder",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q55",
+        "normalized_printed_question_number": "9",
+        "observed_reproduction_marker": "32",
+        "title": "Hamming (7,4) syndrome",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q56",
+        "normalized_printed_question_number": "10",
+        "observed_reproduction_marker": "33",
+        "title": "8085 packed BCD addition",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q57",
+        "normalized_printed_question_number": "11",
+        "observed_reproduction_marker": "34",
+        "title": "Synchronous sequential circuit",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q58",
+        "normalized_printed_question_number": "12(a)",
+        "observed_reproduction_marker": "35(a)",
+        "title": "XOR register exchange",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q59",
+        "normalized_printed_question_number": "12(b)",
+        "observed_reproduction_marker": "35(b)",
+        "title": "Stuck-at fault test",
+        "pages": [
+          5
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q60",
+        "normalized_printed_question_number": "13(a)",
+        "observed_reproduction_marker": "36(a)",
+        "title": "Relational algebra selection and difference",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q61",
+        "normalized_printed_question_number": "13(b)",
+        "observed_reproduction_marker": "36(b)",
+        "title": "SQL grouped aggregation",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q62",
+        "normalized_printed_question_number": "14(a)",
+        "observed_reproduction_marker": "37(a)",
+        "title": "B+ tree insertion and splitting",
+        "pages": [
+          6,
+          6,
+          6
+        ],
+        "parts": 3
+      },
+      {
+        "question_id": "CS-1994-Q63",
+        "normalized_printed_question_number": "14(b)",
+        "observed_reproduction_marker": "37 continuation; (b) missing",
+        "title": "B+ tree search height",
+        "pages": [
+          6,
+          6,
+          6
+        ],
+        "parts": 3
+      },
+      {
+        "question_id": "CS-1994-Q64",
+        "normalized_printed_question_number": "15(a)",
+        "observed_reproduction_marker": "unnumbered proof; parent/(a) missing",
+        "title": "Geometric proof of odd-number sum",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q65",
+        "normalized_printed_question_number": "15(b)",
+        "observed_reproduction_marker": "unnumbered parent (b)",
+        "title": "Deriving the triangular-number sum",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q66",
+        "normalized_printed_question_number": "16",
+        "observed_reproduction_marker": "38",
+        "title": "Boolean rings",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q67",
+        "normalized_printed_question_number": "17(a)",
+        "observed_reproduction_marker": "39(a)",
+        "title": "Coroutines and subroutines",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q68",
+        "normalized_printed_question_number": "17(b)",
+        "observed_reproduction_marker": "39(b)",
+        "title": "Two-pass assembler tables",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q69",
+        "normalized_printed_question_number": "18(a)",
+        "observed_reproduction_marker": "40(a)",
+        "title": "Macros versus callable subroutines",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q70",
+        "normalized_printed_question_number": "18(b)",
+        "observed_reproduction_marker": "40(b)",
+        "title": "External symbol resolution",
+        "pages": [
+          6,
+          6
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q71",
+        "normalized_printed_question_number": "19(a)",
+        "observed_reproduction_marker": "41(a)",
+        "title": "Enumerating maximal runs in pi",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q72",
+        "normalized_printed_question_number": "19(b)",
+        "observed_reproduction_marker": "41(b)",
+        "title": "A regular union does not determine its operand",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q73",
+        "normalized_printed_question_number": "20",
+        "observed_reproduction_marker": "42",
+        "title": "Length of a strict CNF derivation",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q74",
+        "normalized_printed_question_number": "21",
+        "observed_reproduction_marker": "43",
+        "title": "Maximum recursion depth in Fibonacci",
+        "pages": [
+          6
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q75",
+        "normalized_printed_question_number": "22(i)",
+        "observed_reproduction_marker": "44(i)",
+        "title": "Lexical scope in sibling procedures",
+        "pages": [
+          6,
+          7,
+          7,
+          7
+        ],
+        "parts": 4
+      },
+      {
+        "question_id": "CS-1994-Q76",
+        "normalized_printed_question_number": "22(ii)",
+        "observed_reproduction_marker": "44(ii)",
+        "title": "Dynamic scope follows the call chain",
+        "pages": [
+          6,
+          7,
+          7,
+          7
+        ],
+        "parts": 4
+      },
+      {
+        "question_id": "CS-1994-Q77",
+        "normalized_printed_question_number": "23",
+        "observed_reproduction_marker": "45",
+        "title": "A complete one-register translation scheme",
+        "pages": [
+          7
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q78",
+        "normalized_printed_question_number": "24(a)",
+        "observed_reproduction_marker": "46(a)",
+        "title": "Leaf elimination for a maximum independent set",
+        "pages": [
+          7,
+          7
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q79",
+        "normalized_printed_question_number": "24(b)",
+        "observed_reproduction_marker": "46(b)",
+        "title": "Implementing leaf elimination in linear time",
+        "pages": [
+          7,
+          7,
+          7
+        ],
+        "parts": 3
+      },
+      {
+        "question_id": "CS-1994-Q80",
+        "normalized_printed_question_number": "25",
+        "observed_reproduction_marker": "47",
+        "title": "Two pointers for a sorted pair sum",
+        "pages": [
+          7
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q81",
+        "normalized_printed_question_number": "26",
+        "observed_reproduction_marker": "48",
+        "title": "Queue-to-stack transfer preserving front order",
+        "pages": [
+          7
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q82",
+        "normalized_printed_question_number": "27(a)",
+        "observed_reproduction_marker": "49(a)",
+        "title": "Precedence versus control flow in conditional code",
+        "pages": [
+          7
+        ],
+        "parts": 1
+      },
+      {
+        "question_id": "CS-1994-Q83",
+        "normalized_printed_question_number": "27(b)",
+        "observed_reproduction_marker": "49(b)",
+        "title": "Limits of an unguarded parallel block",
+        "pages": [
+          7,
+          7
+        ],
+        "parts": 2
+      },
+      {
+        "question_id": "CS-1994-Q84",
+        "normalized_printed_question_number": "28(a)",
+        "observed_reproduction_marker": "50(a)",
+        "title": "Deadlock detection with multiple resource instances",
+        "pages": [
+          7,
+          7,
+          7
+        ],
+        "parts": 3
+      },
+      {
+        "question_id": "CS-1994-Q85",
+        "normalized_printed_question_number": "28(b)",
+        "observed_reproduction_marker": "50(b)",
+        "title": "Constructing a resource completion order",
+        "pages": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "parts": 4
+      }
+    ],
+    "outputs_sha256": {
+      "CS-1994-Q1-1.webp": "0698a89f448184195038e805e5c38e2b276aa2823c4721233f48730fe9bde0f4",
+      "CS-1994-Q2-1.webp": "98887028a5935d73b93d55d427bf78da48e40deca05cab4194c9edefed57475f",
+      "CS-1994-Q3-1.webp": "72c15dc8b534b6612c5cf72367c6bff2f0000c949cdfcd14b03d5eb655531e27",
+      "CS-1994-Q4-1.webp": "21085dd63a22c3f1d9049408f73183e0ae8a5cbbce7236f06b1d6e847c8507a3",
+      "CS-1994-Q5-1.webp": "b8215b9b09856281f64627dc12555b20209409f1222b065e050c94927d3e1818",
+      "CS-1994-Q6-1.webp": "0708c1b062db067cf2ad92632cb8b99a209fa5fa52a960dc18e4c9e05d09d876",
+      "CS-1994-Q7-1.webp": "3b9c92fe763ce4ff39e0a3ded507250a7d4d1d18c501f3cdfaf9df60508ed5c0",
+      "CS-1994-Q8-1.webp": "cb5d699e43cba37608e97b96151e8a87a555ddf2d0d61dc3f2ee51d37b79dcad",
+      "CS-1994-Q9-1.webp": "66c6f3a82fdeaf16096dfae382467c0a8b86995f291d33693579a00ec4277fd6",
+      "CS-1994-Q9-2.webp": "bd603e2f77d40e8f774f1f7800e1a52e282815f6558e6c304f9c91f7ac158dae",
+      "CS-1994-Q10-1.webp": "f86177dddfbf1bb03ff864090c71c8b575095c901ebb88fcb60e3a25ee17ddaa",
+      "CS-1994-Q11-1.webp": "8186b51f808bd08a2c141f1361d392b6fa49cd696ea7ab7713e657380515901d",
+      "CS-1994-Q12-1.webp": "8f0170a80aefc1384ed4e92259c56363be5bb633d587173a6a88fe2bf6e18b1b",
+      "CS-1994-Q13-1.webp": "1c2d2980ee2dfc76c7de1373323edae34acb74985097f64750a4513922385c91",
+      "CS-1994-Q13-2.webp": "94e54602c2e596a09c4c7a093f84d7f1b7e8325109cfc936554c89cc665dcaed",
+      "CS-1994-Q14-1.webp": "5bd463093e022dff2f2a759c32dc598ed60e4b888678bceccb3927b30a2ff181",
+      "CS-1994-Q15-1.webp": "76168b165e7ea73b21cda98051e854ec008cc09db6b83009e0901342b8a99b8e",
+      "CS-1994-Q16-1.webp": "5ba604606808cce9a90dc06a4e17bb46377a5068f96be04b54b3d248acbe40e7",
+      "CS-1994-Q17-1.webp": "ed0f6c73defac5271e4a87f6fb3b820d323af30efa81e626f9089a81b073006b",
+      "CS-1994-Q18-1.webp": "851828b1d2150241cb3c641681f564c0569765ef1aa672d7517e636ce78f85f2",
+      "CS-1994-Q19-1.webp": "f172dfdd573d503853310bdcc1a3f65ab44b67b9e7935e3ad3dfe9422ae28109",
+      "CS-1994-Q19-2.webp": "5783fb3cae9593fcd428c059ed7abb8afa2441ba9af7b75584e0173c61eb020f",
+      "CS-1994-Q20-1.webp": "f1b71936e503bf43d377bff46ec14c750d24c329e1d0e016f2ee3cb27d125c5f",
+      "CS-1994-Q21-1.webp": "2adc7b36e799b66455cc5295e8aaa1059575a30f0ee106e797bb9ac1c76e832f",
+      "CS-1994-Q22-1.webp": "9e93d6f86482831c2a1dbaae26c73f06842e18d27d92f9825d5829cc1dab1e93",
+      "CS-1994-Q23-1.webp": "809b9a86e6bcaa527b4cca359e51cfbb76bb5fe84ffb6d333e7fa8f01e739bcb",
+      "CS-1994-Q24-1.webp": "2d51d6da73a026fe07069913d4fd9d5ede529e143a649879b8296baee57a2149",
+      "CS-1994-Q25-1.webp": "741e57d455a4b205b9408c167badcab806f02c24a2fc9eae59a46e51baa94e9f",
+      "CS-1994-Q26-1.webp": "55c27739bc0a65846650f497ab98d542c6ff14a93590fbfb0422f1dfe7d61600",
+      "CS-1994-Q27-1.webp": "3e7af2645190119da8005df3582f351d43c34280d00aaf7b2d8ab2e9aec1e471",
+      "CS-1994-Q28-1.webp": "22493d867c4c26b46673da7aababbc7d412702dc0aa487eea6925db82c379ae4",
+      "CS-1994-Q29-1.webp": "82cd1432ecfc00ecaa835b04cf90d1b2a3c329ca3196589e47c7ad257a9149d9",
+      "CS-1994-Q30-1.webp": "bfe19d72de881c7276ed4c194b2d600c10a5a797abb72bd4e088c3f1eb55709e",
+      "CS-1994-Q31-1.webp": "1bd520162bb3cfe6d27207903a6b07c65844d46013c9108990a943d486ef7253",
+      "CS-1994-Q32-1.webp": "5a92375ca4b87659c2ad697a81be0d3d399845ab6d6a9bbb895829fe92b9c88b",
+      "CS-1994-Q33-1.webp": "d58f08d7c076ded92463245af52ead1f84415c33fb9474685e64ababb401ce9a",
+      "CS-1994-Q34-1.webp": "61cd89159e3b54e2f9c27a27cff3d7d214d61ad6bde10eecba265786d1aff1a8",
+      "CS-1994-Q35-1.webp": "d87e21c1f7102aaccc24a2ee99dbb2db2472e0ca680bb14ab061d439bc4a2181",
+      "CS-1994-Q36-1.webp": "2506edd4722c8e64157c859289d91c18b7c42875d03cd48451c7302e82ea5199",
+      "CS-1994-Q37-1.webp": "3e60a87cb128a0b2b4077a63c4bab48023b9e4ccbf034657749b750499b7bc2c",
+      "CS-1994-Q38-1.webp": "9b630118ff24a0e1537350f7b36e713655da4617bcdcf77343d612611b280a09",
+      "CS-1994-Q39-1.webp": "319d2f77c33898dc38673ef61004702b3c824e3b5800d63b4202eb319dcee6ac",
+      "CS-1994-Q39-2.webp": "34db1a7b50f5103d7c266e697e85b8214aac0488d6493f63bd16b66772c941d3",
+      "CS-1994-Q40-1.webp": "fc88cf21cead37c4aa7c702bb342387a042f7ac7e20e36e33b604ea6a4a334bc",
+      "CS-1994-Q41-1.webp": "c72a64ad00a12f85a3f07b4f445d39e9f39b3c24f6698bf5a5b3e685f4c7aa3e",
+      "CS-1994-Q42-1.webp": "3e92703cd23b5549945a1b1602a664d7ea72a98d3a37e5bac5898817c1262b91",
+      "CS-1994-Q43-1.webp": "20d4f996c028f1c5d75ac5ee297991baa8fd3465d1388c1978a5f6a05be1e63c",
+      "CS-1994-Q44-1.webp": "6559755dba92d4e4eb3878e769cc8be255068390c8273a68c8f9b001153dc936",
+      "CS-1994-Q45-1.webp": "055fd7476d5d105cba6b622989f07a850851a2001c8b41d2f1e6ed1620015074",
+      "CS-1994-Q46-1.webp": "c705c9b39ef8b0b361ff454ec471d1c6f916def78d6772f6ce30e4fc6dd10780",
+      "CS-1994-Q47-1.webp": "3f91ad0eea0cf47b8e9da1b95e2f13e3a9a20ad562afdcd7425b191c2216356e",
+      "CS-1994-Q48-1.webp": "2519d971698b8c3a509681e9be1446c866b89a42456e38211d466e7f52bf158c",
+      "CS-1994-Q48-2.webp": "1ab2688b95e8184b08d8d6a117d2cb517443e4cbaec1d8e5fb0ea90146a5cee3",
+      "CS-1994-Q49-1.webp": "2519d971698b8c3a509681e9be1446c866b89a42456e38211d466e7f52bf158c",
+      "CS-1994-Q49-2.webp": "145f2755e25315a67dc9db5ab115b46c4fb228b8f1399362b8eed9a21912f007",
+      "CS-1994-Q50-1.webp": "f9e65e32124bf09ff8debc6c22deaffeb8b97a4b46ee039f4dd42753b45f10f9",
+      "CS-1994-Q51-1.webp": "f2ec2c416065a61df4518a3188fbe5fca13357cffcd5b8b993142d6b38f2813b",
+      "CS-1994-Q52-1.webp": "b81d5d23e062c9f98ce69ebf57ca42c3c141f6a39a3ef122265b9f2b42b72fc2",
+      "CS-1994-Q53-1.webp": "3a6e8c72dc12ad3549e9189dac0ece3bc97d798136a6aaa93705c913cc508501",
+      "CS-1994-Q54-1.webp": "13764e69ccc06cf076435e1ae9d59dc74628396959d497e629a086126ac302a1",
+      "CS-1994-Q55-1.webp": "e062cca5d170b34264b402e454479eb55bc95c90fe8a34becbb0a257432cfebc",
+      "CS-1994-Q56-1.webp": "819c384146932e08f9d340bb4fecd0c31734504f1698c1414bfe5875e7013b28",
+      "CS-1994-Q57-1.webp": "2c36d671aaa28fe81c48cab6cc46d1ad9c4f1b21bc30c42a0bf18a29f0e9614b",
+      "CS-1994-Q58-1.webp": "8d45d5d0fb8a6018972c2f4d0785526b5c1b8e0cccea40830b1bad62f0bd0d33",
+      "CS-1994-Q59-1.webp": "47223f08a576658f4fc10579a2ae0f64d08bf759055e7cab1a53e3c18b29ff9d",
+      "CS-1994-Q60-1.webp": "24105e25d3216ee62f907d452bbf8baf7188ec41b8073c45d67a5aad4f06353b",
+      "CS-1994-Q60-2.webp": "bade642c5554115bf7db36d3011dd758a2fb95aa3b4a179bbc85a2491b241f53",
+      "CS-1994-Q61-1.webp": "24105e25d3216ee62f907d452bbf8baf7188ec41b8073c45d67a5aad4f06353b",
+      "CS-1994-Q61-2.webp": "6bca2f6a4000442377310f4531284e11fcf13e1d9d7be99513cc57da265c4d8f",
+      "CS-1994-Q62-1.webp": "24d57a7b2f47d1e05cf4e53403018a6bcdf3b6d72f637572157959b56f3ca2d4",
+      "CS-1994-Q62-2.webp": "bcbddbdc71c7e5d91c1b81f55500dff33bbe1fb327ee2d1f8e466ce01e94a26a",
+      "CS-1994-Q62-3.webp": "f8b7123385124e2bbfa2557cb719edb7d535c99b0c0888ac9f793de166788f22",
+      "CS-1994-Q63-1.webp": "24d57a7b2f47d1e05cf4e53403018a6bcdf3b6d72f637572157959b56f3ca2d4",
+      "CS-1994-Q63-2.webp": "f8b7123385124e2bbfa2557cb719edb7d535c99b0c0888ac9f793de166788f22",
+      "CS-1994-Q63-3.webp": "230661424b881a168a96aad1b7623eee021ce470197368a83e58515f08ff477c",
+      "CS-1994-Q64-1.webp": "84f1e34f7d84422b6069cf836902b51e7a2be29ffe6dded9c82b3cba7937ca27",
+      "CS-1994-Q65-1.webp": "84f1e34f7d84422b6069cf836902b51e7a2be29ffe6dded9c82b3cba7937ca27",
+      "CS-1994-Q65-2.webp": "aedefc5bc65781f015f4a805e12a355f3bf0e228e16f027c17ecdd2937b7cb01",
+      "CS-1994-Q66-1.webp": "39d791326a848026c202531bd584ed73d077176db6c23b352a1239cc31de4ca5",
+      "CS-1994-Q67-1.webp": "96abcfcae733b335005bfb2e54041630af01cb67b3c47b7547a9b11fccffd81b",
+      "CS-1994-Q67-2.webp": "4421bd96eb6c2f5b8c8194302d4d23601feafd7a8c3e284d94169d6889468bdf",
+      "CS-1994-Q68-1.webp": "96abcfcae733b335005bfb2e54041630af01cb67b3c47b7547a9b11fccffd81b",
+      "CS-1994-Q68-2.webp": "3ce6804e166d306b62399539965ae99c8556e5d9976692ac1b0b6661db84e335",
+      "CS-1994-Q69-1.webp": "e01885620e063f39e25c8707eec6751ff3d892670fce6757f2f02d9e623bb2d7",
+      "CS-1994-Q69-2.webp": "c492082e1a9e857087f0b949757862138d4089215fca52a3931f0c9e30e050b4",
+      "CS-1994-Q70-1.webp": "e01885620e063f39e25c8707eec6751ff3d892670fce6757f2f02d9e623bb2d7",
+      "CS-1994-Q70-2.webp": "bbb52eb3e62f2f157813f4f60bf7e392597214f9352db33dd96765e9a59e29ad",
+      "CS-1994-Q71-1.webp": "ed8bad3563e82c1b5d281f92d3937f56d8ff69bac87f25cf6b7a07d6e3011957",
+      "CS-1994-Q72-1.webp": "f470bcafff2b35d5ab8610ec2252d30a0fc158482f9200f43226d381daa8e87c",
+      "CS-1994-Q73-1.webp": "2668c2fe8c91c44c0ec425e48dd46ee23e272dbed679a015f7525353cdc0eef3",
+      "CS-1994-Q74-1.webp": "eeb9a662cfd4d22bd17e3671cf62a8fa08b152335f7be8f741f1f53452c804d5",
+      "CS-1994-Q75-1.webp": "e9e4223a022a91fc1b2feeae85b47f4d246dd162bffdb7027af014c323f2de45",
+      "CS-1994-Q75-2.webp": "1a1483f1cdb5fd79405348246ad466505d50c4acbd034161170fa2958b10ca64",
+      "CS-1994-Q75-3.webp": "ad1838526614832d9946b981040fc935a04fd2b2e0c5486f316e04619b896965",
+      "CS-1994-Q75-4.webp": "81bce7f2a0b2618b17b0008b494c2e5873b1bb3292cd5db64c8e03e14be8f81f",
+      "CS-1994-Q76-1.webp": "e9e4223a022a91fc1b2feeae85b47f4d246dd162bffdb7027af014c323f2de45",
+      "CS-1994-Q76-2.webp": "1a1483f1cdb5fd79405348246ad466505d50c4acbd034161170fa2958b10ca64",
+      "CS-1994-Q76-3.webp": "2cf7821912d20a91be05047948bc91084a1d38de5ba3fefbad8b2ced21fbfa56",
+      "CS-1994-Q76-4.webp": "81bce7f2a0b2618b17b0008b494c2e5873b1bb3292cd5db64c8e03e14be8f81f",
+      "CS-1994-Q77-1.webp": "4affcb80c060ac9a70ad9458a00b5f7f27802f5a61c36df63e88c3d3b82d64c1",
+      "CS-1994-Q78-1.webp": "48ada2b8dbfdfd3b7ae339ffa57b3fbf0fee1ced0b6ec7ac2c23f8996e521e2d",
+      "CS-1994-Q78-2.webp": "594e91a8f074b873600343f4355bf365df1e40aa6a7276ca3b18a17a6cf0fc21",
+      "CS-1994-Q79-1.webp": "48ada2b8dbfdfd3b7ae339ffa57b3fbf0fee1ced0b6ec7ac2c23f8996e521e2d",
+      "CS-1994-Q79-2.webp": "594e91a8f074b873600343f4355bf365df1e40aa6a7276ca3b18a17a6cf0fc21",
+      "CS-1994-Q79-3.webp": "61eb720cacc4b98ee7abd811311df72cd0d57ecb96af383b768d7d1d1bcaee84",
+      "CS-1994-Q80-1.webp": "f35cc40fa893c56a552fe8aa31970fdc86182691b6b9af2345ffc7cf7cff247f",
+      "CS-1994-Q81-1.webp": "ab6fca68b3fb1dc4c02dd6c4d3d77a6c2cc77de144116f1592b441c866e02307",
+      "CS-1994-Q82-1.webp": "3cd8f4b2ec5ba7529b20831a6049edb5100d1299baf6e5b6b9bcb965220eb6d0",
+      "CS-1994-Q83-1.webp": "3cd8f4b2ec5ba7529b20831a6049edb5100d1299baf6e5b6b9bcb965220eb6d0",
+      "CS-1994-Q83-2.webp": "20fcae4cb6dbe156f168af38c729cbab47fa989fa94afed68154f176e99dc79b",
+      "CS-1994-Q84-1.webp": "755b105de900dc0441e200f7fa72c58eb70670d271718d42ce1efd40112eb9e9",
+      "CS-1994-Q84-2.webp": "6699f28e80c46ef0a52a87462281eb47910aec22b5204ad272ccaefa5f75f87a",
+      "CS-1994-Q84-3.webp": "db968010c5a9f231dbac449c125b1826a7e021f9ddd1afc97e00228af7c40038",
+      "CS-1994-Q85-1.webp": "755b105de900dc0441e200f7fa72c58eb70670d271718d42ce1efd40112eb9e9",
+      "CS-1994-Q85-2.webp": "6699f28e80c46ef0a52a87462281eb47910aec22b5204ad272ccaefa5f75f87a",
+      "CS-1994-Q85-3.webp": "1376949900b288e2e243bc53d605f295d950ea788ee0091635168d45d74a3730",
+      "CS-1994-Q85-4.webp": "db968010c5a9f231dbac449c125b1826a7e021f9ddd1afc97e00228af7c40038"
+    }
+  }
+}

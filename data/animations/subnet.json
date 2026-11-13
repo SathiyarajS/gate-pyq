@@ -1,0 +1,172 @@
+{
+ "description": "Step-through animations (IP addressing: network addresses by ANDing with a mask, host and subnet counts, CIDR block checks, longest-prefix forwarding, IPv4 fragmentation). Each entry is simulated at build time by scripts/animations/subnet.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-2004-Q55": {
+   "kind": "lpm",
+   "routes": [[["128.75.43.0", "255.255.255.0"], "Eth0"], [["128.75.43.0", "255.255.255.128"], "Eth1"], [["192.12.17.5", "255.255.255.255"], "Eth3"]],
+   "default": "Eth2",
+   "destinations": ["128.75.43.16", "192.12.17.10"],
+   "expect": {"hops": ["Eth1", "Eth2"]}
+  },
+  "CS-2005-Q27": {
+   "kind": "subnet-size",
+   "class": "B",
+   "subnets": 64,
+   "expect": {"mask": "255.255.252.0"}
+  },
+  "CS-2006-Q45": {
+   "kind": "same-subnet",
+   "hosts": [["C1", "203.197.2.53", "255.255.128.0"], ["C2", "203.197.75.201", "255.255.192.0"]],
+   "expect": {"views": {"C1": {"C2": "local"}, "C2": {"C1": "remote"}}}
+  },
+  "CS-2008-Q57": {
+   "kind": "subnet-size",
+   "mask": "255.255.248.0",
+   "expect": {"hosts": 2046}
+  },
+  "CS-2010-Q57": {
+   "kind": "same-subnet",
+   "hosts": [["A", "10.105.1.113"], ["B", "10.105.1.91"]],
+   "masks": ["255.255.255.0", "255.255.255.128", "255.255.255.192", "255.255.255.224"],
+   "expect": {"separating": ["255.255.255.224"]}
+  },
+  "CS-2012-Q44": {
+   "kind": "cidr-check",
+   "parent": "245.248.128.0/20",
+   "need": {"shares": ["1/2", "1/4"]},
+   "candidates": [["245.248.136.0/21", "245.248.128.0/22"], ["245.248.128.0/21", "245.248.128.0/22"], ["245.248.132.0/22", "245.248.132.0/21"], ["245.248.136.0/24", "245.248.132.0/21"]],
+   "expect": {"valid": [["245.248.136.0/21", "245.248.128.0/22"]]}
+  },
+  "CS-2013-Q47": {
+   "kind": "fragment-header",
+   "mf": 0,
+   "hlen": 10,
+   "total": 400,
+   "offset": 300,
+   "expect": {"position": "last", "first": 2400, "last": 2759}
+  },
+  "CS-2014-S3-Q36": {
+   "kind": "lpm",
+   "routes": [["131.16.0.0/12", "3"], ["131.28.0.0/14", "5"], ["131.19.0.0/16", "2"], ["131.22.0.0/15", "1"]],
+   "destinations": ["131.23.151.76"],
+   "expect": {"hops": ["1"]}
+  },
+  "CS-2014-S3-Q38": {
+   "kind": "fragment",
+   "header": 20,
+   "total": 4404,
+   "mtus": [1500],
+   "ask": ["fragment_3"],
+   "expect": {"fragment_3_mf": 0, "fragment_3_total": 1444, "fragment_3_offset": 370}
+  },
+  "CS-2015-S2-Q36": {
+   "kind": "lpm",
+   "routes": [["128.96.170.0/23", "interface 0"], ["128.96.168.0/23", "interface 1"], ["128.96.166.0/23", "R2"], ["128.96.164.0/22", "R3"]],
+   "default": "R4",
+   "destinations": ["128.96.171.92", "128.96.167.151", "128.96.163.151", "128.96.165.121"],
+   "expect": {"hops": ["interface 0", "R2", "R4", "R3"]}
+  },
+  "CS-2015-S2-Q37": {
+   "kind": "fragment",
+   "header": 20,
+   "payload": 8888,
+   "parts": [["UDP data", 8880], ["UDP header", 8]],
+   "mtus": [1500],
+   "ask": ["count", "last"],
+   "expect": {"count": 7, "last_offset": 1110}
+  },
+  "CS-2015-S3-Q46": {
+   "kind": "subnet-size",
+   "address": "200.10.11.144",
+   "prefix": 27,
+   "expect": {"last_host_octet4": 158}
+  },
+  "CS-2016-S1-Q63": {
+   "kind": "fragment",
+   "header": 20,
+   "total": 1000,
+   "mtus": [100],
+   "ask": ["count"],
+   "expect": {"count": 13}
+  },
+  "CS-2018-Q64": {
+   "kind": "fragment",
+   "header": 20,
+   "total": 4500,
+   "parts": [["TCP header", 40], ["TCP data", 4440]],
+   "mtus": [600],
+   "ask": ["fragment_3"],
+   "expect": {"fragment_3_offset": 144}
+  },
+  "CS-2019-Q38": {
+   "kind": "same-subnet",
+   "hosts": [["M", "100.10.5.2"], ["N", "100.10.5.5"], ["P", "100.10.5.6"]],
+   "mask": "255.255.255.252",
+   "expect": {"groups": [["M"], ["N", "P"]]}
+  },
+  "CS-2020-Q48": {
+   "kind": "cidr-check",
+   "parent": "202.61.0.0/17",
+   "need": {"hosts": 1500},
+   "candidates": ["202.61.84.0/21", "202.61.104.0/21", "202.61.64.0/21", "202.61.144.0/21"],
+   "expect": {"valid": ["202.61.104.0/21", "202.61.64.0/21"]}
+  },
+  "CS-2023-Q65": {
+   "kind": "lpm",
+   "routes": [["200.150.0.0/16", "1"], ["200.150.64.0/19", "2"], ["200.150.68.0/24", "3"], ["200.150.68.64/27", "4"]],
+   "default": "0",
+   "destinations": ["200.150.68.118"],
+   "expect": {"hops": ["3"]}
+  },
+  "CS-2024-S1-Q58": {
+   "kind": "lpm",
+   "routes": [["10.1.1.0/24", "R1"], ["10.1.1.128/25", "R2"], ["10.1.1.64/26", "R3"], ["10.1.1.192/26", "R4"]],
+   "destinations": ["10.1.1.16", "10.1.1.72", "10.1.1.132", "10.1.1.191", "10.1.1.205"],
+   "count": {"hop": "R2", "packets_each": 20},
+   "expect": {"count": 40}
+  },
+  "CS-2024-S1-Q65": {
+   "kind": "fragment",
+   "header": 20,
+   "total": 1420,
+   "mtus": [542, 360],
+   "links": ["Sender to router", "Router to receiver"],
+   "ask": ["count"],
+   "expect": {"count": 6}
+  },
+  "CS-2024-S2-Q38": {
+   "kind": "cidr-check",
+   "need": {"range": ["10.12.2.0", "10.12.3.255"]},
+   "candidates": ["10.12.2.0/23", "10.12.2.0/24", "10.12.0.0/22", "10.12.2.0/22"],
+   "expect": {"valid": ["10.12.2.0/23"]}
+  },
+  "CS-2025-S1-Q40": {
+   "kind": "lpm",
+   "routes": [["145.36.0.0/16", "E1"], ["145.36.128.0/17", "E2"], ["145.36.64.0/18", "E3"], ["145.36.255.0/24", "E4"]],
+   "default": "E5",
+   "destinations": ["145.36.109.70"],
+   "expect": {"hops": ["E3"]}
+  },
+  "CS-2025-S2-Q23": {
+   "kind": "fragment",
+   "header": 20,
+   "payload": 7496,
+   "parts": [["UDP data", 7488], ["UDP header", 8]],
+   "mtus": [1500],
+   "ask": ["count", "last"],
+   "expect": {"count": 6, "last_total": 116}
+  },
+  "CS-2026-S1-Q56": {
+   "kind": "cidr-check",
+   "parent": "202.16.0.0/15",
+   "need": {"addresses": 6000},
+   "candidates": ["202.16.0.0/19", "202.17.64.0/19", "202.16.32.0/19", "202.17.24.0/19"],
+   "expect": {"valid": ["202.16.0.0/19", "202.17.64.0/19", "202.16.32.0/19"]}
+  },
+  "CS-2026-S2-Q33": {
+   "kind": "subnet-size",
+   "mask": "255.255.240.0",
+   "expect": {"hosts": 4094}
+  }
+ }
+}

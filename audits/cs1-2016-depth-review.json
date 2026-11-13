@@ -1,0 +1,609 @@
+{
+  "paper_id": "CS-2016-S1",
+  "status": "passed",
+  "review_scope": "Fresh independent review of all 65 expanded self-contained question contexts, options, textual diagrams, code and teaching solutions; not just agreement with answer letters.",
+  "reviewer": "review_2016_cs1_depth",
+  "files": {
+    "expanded": "/workspace/shared/gate-pyq-contributions/cs1-2016-expanded.json",
+    "readable": "/workspace/shared/gate-pyq-contributions/cs1-2016-expanded.md",
+    "baseline": "/workspace/shared/gate-pyq/data/questions.json",
+    "source": "/tmp/gate-2016-CS.pdf"
+  },
+  "sha256": {
+    "/workspace/shared/gate-pyq-contributions/cs1-2016-expanded.json": "7360ae89a50737932a8d1d818c34cc7a4dd9a9bebb72421d675006210ead0c1d",
+    "/workspace/shared/gate-pyq-contributions/cs1-2016-expanded.md": "0c8947565183f0902708ab3867f4ed68d1ed2b71e0427cfb7d5d1c8a62473723",
+    "/workspace/shared/gate-pyq/data/questions.json": "29eeaf82288970a871546dbcefe76d534fea37e9d163c2898d8f04c36a317e22",
+    "/tmp/gate-2016-CS.pdf": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2"
+  },
+  "source_review": {
+    "question_physical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "key_physical_pages": [
+      21,
+      22
+    ],
+    "visually_viewed_physical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "method": "Read source text and individually viewed all 22 rendered pages; additionally enlarged mux option complements. Independently reasoned through every solution."
+  },
+  "validation": {
+    "author_checker": "PASS 30 checks; executed check_cs1_2016_expanded.py",
+    "all_65_key_rows_exactly_match": true,
+    "all_baseline_protected_fields_unchanged": true,
+    "markdown_question_and_solution_text_matches_json": true,
+    "record_count": 65,
+    "total_marks": 100
+  },
+  "material_issues": [],
+  "minor_fixes": [],
+  "caveats_preserved": {
+    "CS-2016-S1-Q18": "Derived minimum 3, official accepted 3.0 : 4.0 retained.",
+    "CS-2016-S1-Q31": "Primary key alone does not exclude alternate candidate keys; B is not guaranteed, rather than unconditionally not a superkey.",
+    "CS-2016-S1-Q46": "Missing local declaration leaves binding ambiguity; official D follows intended local-binding semantics, alternate assignment semantics yield 0,0."
+  },
+  "contribution_metadata_note": "This report certifies the reviewed content; existing per-record pending review labels and Markdown pending labels were deliberately left for parent integration. No question, solution, scoring, repository or Pages edits made. Running the provided checker rewrote only its contribution check report.",
+  "records": [
+    {
+      "question_id": "CS-2016-S1-Q1",
+      "source_page": 1,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Until-clause meaning and third-person agreement correctly distinguish D."
+    },
+    {
+      "question_id": "CS-2016-S1-Q2",
+      "source_page": 1,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Definition and all three distractors explained correctly."
+    },
+    {
+      "question_id": "CS-2016-S1-Q3",
+      "source_page": 1,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Figurative hyperbole distinguished from literal usage."
+    },
+    {
+      "question_id": "CS-2016-S1-Q4",
+      "source_page": 1,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Common morpheme and reversed component order justify C without arbitrary decoding."
+    },
+    {
+      "question_id": "CS-2016-S1-Q5",
+      "source_page": 1,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Corner removal exchanges three exterior faces for three exposed interior faces; 96."
+    },
+    {
+      "question_id": "CS-2016-S1-Q6",
+      "source_page": 2,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "All 16 quantities and prices match; annual revenue comparison correctly uses common denominator."
+    },
+    {
+      "question_id": "CS-2016-S1-Q7",
+      "source_page": 2,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Lower bound and emphatic diversity claim do not imply uniqueness or completeness."
+    },
+    {
+      "question_id": "CS-2016-S1-Q8",
+      "source_page": 2,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Pairwise game results do not establish transitive ranking or numerical likelihood; neither conclusion follows."
+    },
+    {
+      "question_id": "CS-2016-S1-Q9",
+      "source_page": 2,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Factor theorem and distractor evaluations correct, including f(-2)=-267."
+    },
+    {
+      "question_id": "CS-2016-S1-Q10",
+      "source_page": 3,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Logarithmic interpolation gives 46.0206 rather than linear interpolation."
+    },
+    {
+      "question_id": "CS-2016-S1-Q11",
+      "source_page": 4,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Negated implication simplification and prime-square impossibility leave 11."
+    },
+    {
+      "question_id": "CS-2016-S1-Q12",
+      "source_page": 4,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Disjoint suffix cases establish recurrence with correct initial values."
+    },
+    {
+      "question_id": "CS-2016-S1-Q13",
+      "source_page": 4,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Translation to sine limit, indeterminate form and radians explained."
+    },
+    {
+      "question_id": "CS-2016-S1-Q14",
+      "source_page": 4,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Normalization and exclusion of zero singularity justify a=1/2."
+    },
+    {
+      "question_id": "CS-2016-S1-Q15",
+      "source_page": 4,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Real characteristic polynomial forces conjugate root and determinant 15."
+    },
+    {
+      "question_id": "CS-2016-S1-Q16",
+      "source_page": 5,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "All complement symbols and options match visual source; XOR truth table correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q17",
+      "source_page": 5,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Two independent two-complement conversions yield -11."
+    },
+    {
+      "question_id": "CS-2016-S1-Q18",
+      "source_page": 5,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Six distinct phases require three bits; official 3.0:4.0 interval remains distinct from derived minimum."
+    },
+    {
+      "question_id": "CS-2016-S1-Q19",
+      "source_page": 5,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Word addressing halves byte count and gives 31 address bits."
+    },
+    {
+      "question_id": "CS-2016-S1-Q20",
+      "source_page": 5,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Circular-buffer implementation establishes constant-time operations with capacity caveat."
+    },
+    {
+      "question_id": "CS-2016-S1-Q21",
+      "source_page": 6,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Visual graph is exactly two branches with six edges; interleavings and all six orders correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q22",
+      "source_page": 6,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Pointer dereference versus void-result assignment correctly distinguish D; nonstandard wrapper caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S1-Q23",
+      "source_page": 7,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Worst-case recurrences and distinction from randomized expected quicksort correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q24",
+      "source_page": 7,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Equal tree edge counts preserve MST; positive distinct triangle counterexample disproves path invariance."
+    },
+    {
+      "question_id": "CS-2016-S1-Q25",
+      "source_page": 8,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Code faithfully reconstructed; pointer parameters are copied and do not modify caller integers."
+    },
+    {
+      "question_id": "CS-2016-S1-Q26",
+      "source_page": 8,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Constructive two-way language argument includes epsilon and arbitrary ordering."
+    },
+    {
+      "question_id": "CS-2016-S1-Q27",
+      "source_page": 9,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Finite product reachability, parsing, CFG equivalence and Rice theorem classifications correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q28",
+      "source_page": 9,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Both disjoint required substrings need arbitrary prefix, middle and suffix; counterexamples correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q29",
+      "source_page": 9,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Five input names plus five SSA definitions; final uses refer to latest definitions."
+    },
+    {
+      "question_id": "CS-2016-S1-Q30",
+      "source_page": 10,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Adjacent-exchange proof yields ascending burst order when arrivals are simultaneous."
+    },
+    {
+      "question_id": "CS-2016-S1-Q31",
+      "source_page": 10,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Intended B and incomplete-FD premise distinguished; extra X-to-Y counterexample compatible with VY remaining a candidate key."
+    },
+    {
+      "question_id": "CS-2016-S1-Q32",
+      "source_page": 10,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "ACID definitions and deadlock/liveness separation correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q33",
+      "source_page": 11,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Partial dependency on proper key subset removed; weakest newly attained form is 2NF under supplied FDs."
+    },
+    {
+      "question_id": "CS-2016-S1-Q34",
+      "source_page": 11,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Address resolution distinguished from DHCP configuration/lease assignment."
+    },
+    {
+      "question_id": "CS-2016-S1-Q35",
+      "source_page": 11,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Protocol layer and statefulness both checked; FTP and POP3 selected."
+    },
+    {
+      "question_id": "CS-2016-S1-Q36",
+      "source_page": 12,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Stars-and-bars counts ordered exponent triples and coefficient 10."
+    },
+    {
+      "question_id": "CS-2016-S1-Q37",
+      "source_page": 12,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Recurrence unrolled and independently simplified to 2N(N+1)^2, yielding 198."
+    },
+    {
+      "question_id": "CS-2016-S1-Q38",
+      "source_page": 12,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Descent plus divisibility-by-five invariant proves exactly two components and explicit attaining witness."
+    },
+    {
+      "question_id": "CS-2016-S1-Q39",
+      "source_page": 12,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Restart recurrence, conditional argument and geometric series agree at one third."
+    },
+    {
+      "question_id": "CS-2016-S1-Q40",
+      "source_page": 13,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Visually verified mux wiring and all option complement bars; three one-minterms prove minimal SOP D."
+    },
+    {
+      "question_id": "CS-2016-S1-Q41",
+      "source_page": 13,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "File arithmetic and ceilings correct for either 65535 or 65536 count convention; burst/binary-unit assumptions explicit."
+    },
+    {
+      "question_id": "CS-2016-S1-Q42",
+      "source_page": 13,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Bottleneck and reciprocal-rate increase correctly distinguished from period decrease."
+    },
+    {
+      "question_id": "CS-2016-S1-Q43",
+      "source_page": 13,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Bounded fan-in lower bound and balanced carry-prefix upper bound give logarithmic time."
+    },
+    {
+      "question_id": "CS-2016-S1-Q44",
+      "source_page": 14,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Endpoint-discard invariant, termination and n=1 case justify b!=a."
+    },
+    {
+      "question_id": "CS-2016-S1-Q45",
+      "source_page": 14,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Static shared d trace correctly produces three trailing fours; wrapper caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S1-Q46",
+      "source_page": 15,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Visual pseudocode has no local declaration; intended local-binding trace gives 4,4 and existing-binding trace gives 0,0; caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S1-Q47",
+      "source_page": 15,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Last-element replacement and one sift path establish worst-case depth bound."
+    },
+    {
+      "question_id": "CS-2016-S1-Q48",
+      "source_page": 15,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "All simple alternative endpoint paths checked; threshold 12 includes ties."
+    },
+    {
+      "question_id": "CS-2016-S1-Q49",
+      "source_page": 15,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Kruskal first-two-edge necessity and triangle construction prove maximal MST weight 7."
+    },
+    {
+      "question_id": "CS-2016-S1-Q50",
+      "source_page": 16,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Cycle-property proof and explicit counterexample distinguish lightest-cycle from lightest-cut rules."
+    },
+    {
+      "question_id": "CS-2016-S1-Q51",
+      "source_page": 16,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Phase argument gives upper bound n^2 and descending input attains it; queue/stack semantics faithfully reconstructed."
+    },
+    {
+      "question_id": "CS-2016-S1-Q52",
+      "source_page": 16,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "All grammar productions and option inequalities match; boundary words distinguish the languages."
+    },
+    {
+      "question_id": "CS-2016-S1-Q53",
+      "source_page": 17,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Visually verified accepting start and final states and all transitions; final-state acceptance yields a-star union equal-count language, deterministically."
+    },
+    {
+      "question_id": "CS-2016-S1-Q54",
+      "source_page": 17,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Visually verified bars over both Y and X; computable-preimage closure arguments correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q55",
+      "source_page": 17,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Operator table and right-associative subtraction faithfully reconstructed; result 9."
+    },
+    {
+      "question_id": "CS-2016-S1-Q56",
+      "source_page": 18,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Bottom-up reductions reverse valid derivation and emit 2,3,1."
+    },
+    {
+      "question_id": "CS-2016-S1-Q57",
+      "source_page": 18,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "26 VPN bits times six-byte entry gives 384 MiB; units explicit."
+    },
+    {
+      "question_id": "CS-2016-S1-Q58",
+      "source_page": 18,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "C-LOOK service order, physical wrap and every head movement sum to 346."
+    },
+    {
+      "question_id": "CS-2016-S1-Q59",
+      "source_page": 18,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "LIFO insertion-order and OPT last-use constructions give 31 versus 30, with empty-frame convention explicit in explanation."
+    },
+    {
+      "question_id": "CS-2016-S1-Q60",
+      "source_page": 19,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Choosing flags preserve exclusion; equal-ticket deadlock witnesses missing tie-breaker under stated execution model."
+    },
+    {
+      "question_id": "CS-2016-S1-Q61",
+      "source_page": 19,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Two-phase locking and global increasing-address order separately justify both guarantees."
+    },
+    {
+      "question_id": "CS-2016-S1-Q62",
+      "source_page": 20,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Signer private key and digest correct; simplified encryption notation caveat avoids claiming general raw encryption is secure signing."
+    },
+    {
+      "question_id": "CS-2016-S1-Q63",
+      "source_page": 20,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Payload and header accounting, eight-byte alignment, DF assumption and 13 fragments correct."
+    },
+    {
+      "question_id": "CS-2016-S1-Q64",
+      "source_page": 20,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Token conservation lower bound and explicit attaining two-rate schedule prove 1.1 seconds."
+    },
+    {
+      "question_id": "CS-2016-S1-Q65",
+      "source_page": 20,
+      "status": "passed",
+      "context_options_code_figure": "passed",
+      "solution_depth_and_correctness": "passed",
+      "note": "Data and ACK serialization plus round-trip propagation give 0.4-second cycle and 2500 bytes/second."
+    }
+  ]
+}

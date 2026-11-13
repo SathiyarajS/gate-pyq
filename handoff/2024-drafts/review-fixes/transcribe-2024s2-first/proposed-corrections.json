@@ -1,0 +1,26 @@
+[
+  {
+    "question_id": "CS-2024-S2-Q2",
+    "type": "question-error",
+    "source_page": 1,
+    "summary": "Source says “all possible combination of elements”; singular combination retained with [sic].",
+    "suggested_correction": "all possible combinations of elements",
+    "affects_answer": false
+  },
+  {
+    "question_id": "CS-2024-S2-Q29",
+    "type": "question-error",
+    "source_page": 20,
+    "summary": "Option B says “a L-attributed definition”; article preserved with [sic].",
+    "suggested_correction": "an L-attributed definition",
+    "affects_answer": false
+  },
+  {
+    "question_id": "CS-2024-S2-Q33",
+    "type": "question-error",
+    "source_page": 22,
+    "summary": "Option string literals use typographic right double quotation marks, preserved with [sic]; interpreted as ordinary C string delimiters by the intended solution.",
+    "suggested_solution_note": "The printed options use typographic quotation marks around abcd. The intended C expressions use ASCII double quotes; under that intended reading, A, B and D return 4. Literal copy-paste of the printed curly quotes is not valid C syntax.",
+    "affects_intended_answer": false
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "year": 2005,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203225/GATE2005.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/2005-gfg.pdf",
+  "sha256": "4444090943ce9093ca672ddc0aa981bf3fb09559ba0bd1bc7c1588a82d199724",
+  "pages": "12",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "85b;1–80 plus81a/b through85a/b =90 answerable items",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "reproduction_instructions": {
+    "objective_items": 90,
+    "marks": 150,
+    "one_mark": "1–30",
+    "two_marks": "31–80 and each a/b of81–85",
+    "linked_rule": "b credited only if a correct; no negative b",
+    "verified_from": "2005-gateforum-p1.png"
+  },
+  "questions": 90,
+  "inventory_scope": "Observed reproduced1–80 and81a/b–85a/b (90 answerable items); original official completeness unverified",
+  "alternate_reproduction": {
+    "year": 2005,
+    "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs2005.pdf",
+    "path": "/workspace/shared/gate1991-2006-research/2005-gateforum.pdf",
+    "sha256": "616bc01b2db61ec8dc8963277a4767f65af4ae40eb73515715e3ff657d93ff59",
+    "pages": "22",
+    "provenance": "Third-party GateForum reproduction hosted on personal Wordpress; not official, rights notice present, use only source reference and independent solutions"
+  },
+  "marks_inventory": {
+    "one_mark": "1–30",
+    "two_marks": "31–80 and each subpart81a–85b",
+    "answerable_items": 90,
+    "total_marks": 150,
+    "evidence": "GateForum secondary reproduction cover, physical page1; original official provenance unverified"
+  },
+  "linked_scoring_note": "Secondary cover says linked part b is credited only if part a is correct. Item-level independent solutions do not certify official scoring."
+}

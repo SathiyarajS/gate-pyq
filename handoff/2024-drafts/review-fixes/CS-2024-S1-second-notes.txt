@@ -1,0 +1,3 @@
+Existing discrepancy CS-2024-S1-Q42-BASE-CASE: reclassify type from Inconsistent recurrence base to question-error. Preserve the ID, explanation, answer and conditional solution; do not duplicate the row or silently change the printed recurrence.
+
+Optional source emphasis fixes: Q53 bold WBC/WTC and italic Least Recently Used; Q55 italic ns and separate the final answer request paragraph; Q56/Q63 italic entire rounding phrase; Q62 italic both (in decimal format) phrases. Verify actual production rendering separately.

@@ -1,0 +1,128 @@
+{
+  "question_id": "CS-2017-S2-Q7",
+  "approval": true,
+  "status": "approved_no_question_content_difference",
+  "scope": "Independent read-only review of the single prepared/final output mismatch; no repository, source, or output files modified.",
+  "source_page": 24,
+  "source_hashes": {
+    "preparation_reference": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+    "sources/archive/CS/CS2-2017.pdf": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390"
+  },
+  "source_map_sha256": "d9d7df696d326acc8344e94e3a9577cf792ca120579eb5dc5e7e337124a7c390",
+  "crop_bbox": [
+    10.0,
+    417.29998779296875,
+    585.0,
+    538.010009765625
+  ],
+  "render_geometry_unchanged": true,
+  "metadata_changes": {
+    "review_audit": {
+      "prepared": null,
+      "final": "audits/crops-CS-2017-S2.json"
+    },
+    "review_status": {
+      "prepared": "independent_visual_review_pending",
+      "final": "independent_source_bounds_review_passed"
+    },
+    "flags": {
+      "prepared": [
+        "independent_visual_review_required"
+      ],
+      "final": []
+    },
+    "status": {
+      "prepared": "draft",
+      "final": "verified"
+    }
+  },
+  "metadata_finding": "Only expected independent-review promotion fields changed. Source file, page, bbox, transform, printed number and numbering mapping are unchanged.",
+  "images": {
+    "prepared": {
+      "sha256": "e611de8e82a1c6db5ea53443ea8bb7ae21e4319dd085765f10a0184df8bfbe61",
+      "bytes": 60028,
+      "dimensions": [
+        1725,
+        364
+      ]
+    },
+    "final": {
+      "path": "site-assets/q/CS-2017-S2-Q7-1.webp",
+      "sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "bytes": 60028,
+      "dimensions": [
+        1725,
+        364
+      ]
+    }
+  },
+  "decoded_difference": {
+    "bbox": [
+      654,
+      180,
+      667,
+      198
+    ],
+    "changed_pixels": 115,
+    "total_pixels": 627900,
+    "changed_pixel_percent": 0.018315018315018316,
+    "max_abs_channel_difference": [
+      5,
+      3,
+      0
+    ],
+    "mean_abs_channel_difference": [
+      0.0002946329033285555,
+      0.00019111323459149545,
+      0.0
+    ],
+    "all_pixels_outside_bbox_identical": true
+  },
+  "fresh_render_experiments": [
+    {
+      "mode": "isolated0",
+      "raw_rgb_sha256": "76c389fd93ff9a2e90d781b45eb051db0ffabec10c64f773e05d9d08938bc5f8",
+      "webp_sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "webp_bytes": 60028
+    },
+    {
+      "mode": "isolated1",
+      "raw_rgb_sha256": "76c389fd93ff9a2e90d781b45eb051db0ffabec10c64f773e05d9d08938bc5f8",
+      "webp_sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "webp_bytes": 60028
+    },
+    {
+      "mode": "isolated2",
+      "raw_rgb_sha256": "76c389fd93ff9a2e90d781b45eb051db0ffabec10c64f773e05d9d08938bc5f8",
+      "webp_sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "webp_bytes": 60028
+    },
+    {
+      "mode": "prepare_order",
+      "raw_rgb_sha256": "bf5d406398bce05239dff047f86fc71b128cb3d59cb86657a954e1534f9df886",
+      "webp_sha256": "e611de8e82a1c6db5ea53443ea8bb7ae21e4319dd085765f10a0184df8bfbe61",
+      "webp_bytes": 60028
+    },
+    {
+      "mode": "production_source_order",
+      "raw_rgb_sha256": "76c389fd93ff9a2e90d781b45eb051db0ffabec10c64f773e05d9d08938bc5f8",
+      "webp_sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "webp_bytes": 60028
+    },
+    {
+      "mode": "isolated_after_text_dict",
+      "raw_rgb_sha256": "76c389fd93ff9a2e90d781b45eb051db0ffabec10c64f773e05d9d08938bc5f8",
+      "webp_sha256": "3bdfe9a1de628816634be3262602ef14d02ce43db439fab5da49ec00e13138d5",
+      "webp_bytes": 60028
+    }
+  ],
+  "reproduction_finding": "Three isolated renders and rendering this source in production crop order exactly reproduced the final WebP SHA-256. Replaying the preparation traversal (page image-block extraction and rendering in original page order) exactly reproduced the approved preparation WebP SHA-256. Extracting text/image blocks on page 24 alone did not change the isolated result. Thus workflow/order-dependent raster variance is reproducible, not a source or geometry change. Before WebP encoding, the two reproduced RGB rasters differ at only 33 pixels, maximum 1 per channel; loss-based WebP encoding yields the documented 115 decoded pixel differences. The deeper MuPDF cache/interpolation mechanism was not isolated.",
+  "visual_checks": [
+    "Viewed both actual WebP outputs at full size.",
+    "Viewed existing canonical page 24 image and freshly rendered canonical PDF page 24.",
+    "Viewed enlarged identical-location details around the difference in both actual outputs."
+  ],
+  "content_finding": "All decoded differences are confined to a pale watermark region in whitespace to the right of the fourth question-text line and above the choices. No question glyph, punctuation, mathematical content, answer option or crop boundary differs. All four answer choices and the entire question are intact and match canonical printed question 62 (normalized Q7).",
+  "decision": "Approve the final build image as content-equivalent to the previously approved preparation output. No rerender or metadata correction is required.",
+  "limitations": "Approval concerns content fidelity and unchanged crop/source geometry, not byte-for-byte image parity. Underlying library implementation cause was not traced beyond reproducible workflow/order dependence."
+}

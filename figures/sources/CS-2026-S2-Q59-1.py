@@ -1,0 +1,28 @@
+from pathlib import Path
+# Hand-written vector redraw of the canonical PDF, page 40. Labels and wires
+# preserve D0->input 0, constant 0->input 1, constant 1->input 2, D3->input 3.
+s='''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 250" role="img" aria-label="Decoder Q and multiplexer M">
+<title id="title">Decoder Q and multiplexer M</title>
+<desc id="desc">A and B enter decoder Q. D0 connects to multiplexer M input 0; input 1 receives constant 0; input 2 receives constant 1; D3 connects to input 3. D1 and D2 have no outgoing wires. S1 and S0 enter M from above, and Y leaves M to the right.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="currentColor"/></marker></defs>
+<g fill="none" stroke="currentColor" stroke-width="1.6">
+<rect x="355" y="10" width="46" height="34" stroke-width="0.3"/><rect x="425" y="10" width="46" height="34" stroke-width="0.3"/>
+<rect x="110" y="75" width="110" height="145"/><rect x="360" y="75" width="110" height="145"/>
+<path d="M30 108 H110" marker-end="url(#arrow)"/>
+<path d="M30 187 H110" marker-end="url(#arrow)"/>
+<path d="M220 92 H360" marker-end="url(#arrow)"/>
+<path d="M292 127 H360" marker-end="url(#arrow)"/>
+<path d="M292 165 H360" marker-end="url(#arrow)"/>
+<path d="M220 205 H360" marker-end="url(#arrow)"/>
+<path d="M470 150 H550" marker-end="url(#arrow)"/>
+<path d="M378 42 V75" marker-end="url(#arrow)"/>
+<path d="M448 42 V75" marker-end="url(#arrow)"/>
+</g>
+<g fill="currentColor" font-family="serif" font-size="20">
+<text x="4" y="114">A</text><text x="4" y="193">B</text><text x="156" y="155">Q</text>
+<text x="188" y="100">D0</text><text x="188" y="138">D1</text><text x="188" y="176">D2</text><text x="188" y="212">D3</text>
+<text x="368" y="100">0</text><text x="368" y="138">1</text><text x="368" y="176">2</text><text x="368" y="212">3</text>
+<text x="280" y="134">0</text><text x="280" y="172">1</text><text x="406" y="155">M</text><text x="551" y="156">Y</text>
+<text x="367" y="37">S1</text><text x="437" y="37">S0</text>
+</g></svg>'''
+Path(__file__).resolve().parents[1].joinpath('CS-2026-S2-Q59-1.svg').write_text(s)

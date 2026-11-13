@@ -1,0 +1,1030 @@
+{
+ "description": "Step-through animations (Karnaugh maps: fill the map, find prime implicants, essential prime implicants and a minimal sum of products or product of sums). Each entry is simulated at build time by scripts/animations/kmap.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1991-Q39": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "name": "f",
+   "minterms": [
+    0,
+    2,
+    8,
+    10,
+    15
+   ],
+   "dontcares": [
+    3,
+    11,
+    12,
+    14
+   ],
+   "expect": {
+    "minimal": "B'D'+AC",
+    "literals": 4
+   }
+  },
+  "CS-1995-Q70": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "notation": "not",
+   "map": {
+    "rows": [
+     "C",
+     "D"
+    ],
+    "cols": [
+     "A",
+     "B"
+    ],
+    "cells": [
+     [
+      1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "B'D'+BD"
+   }
+  },
+  "CS-1997-Q36": {
+   "kind": "kmap",
+   "vars": [
+    "x",
+    "y",
+    "z"
+   ],
+   "name": "f",
+   "notation": "not",
+   "expr": "x'+y'x+xz",
+   "expect": {
+    "claims": [
+     {
+      "type": "prime",
+      "value": "y'x",
+      "holds": false
+     },
+     {
+      "type": "minterm",
+      "value": "xz",
+      "holds": false
+     },
+     {
+      "type": "implicant",
+      "value": "xz",
+      "holds": true
+     },
+     {
+      "type": "prime",
+      "value": "y",
+      "holds": false
+     }
+    ]
+   }
+  },
+  "CS-1999-Q8": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "map": {
+    "rows": [
+     "A",
+     "B"
+    ],
+    "cols": [
+     "C",
+     "D"
+    ],
+    "cells": [
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      "X",
+      "X",
+      1,
+      "X"
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "CD+AD",
+    "claims": [
+     {
+      "type": "equivalent",
+      "value": "D(C+A)",
+      "holds": true
+     }
+    ]
+   }
+  },
+  "CS-2000-Q34": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "map": {
+    "rows": [
+     "x",
+     "y"
+    ],
+    "cols": [
+     "w",
+     "z"
+    ],
+    "cells": [
+     [
+      0,
+      "X",
+      0,
+      0
+     ],
+     [
+      0,
+      "X",
+      1,
+      1
+     ],
+     [
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      0,
+      "X",
+      0,
+      0
+     ]
+    ]
+   },
+   "expect": {
+    "claims": [
+     {
+      "type": "equivalent",
+      "value": "(w+x)y",
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "xy+yw",
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "(w+x)(w'+y)(x'+y)",
+      "holds": true
+     }
+    ]
+   }
+  },
+  "CS-2001-Q11": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "map": {
+    "rows": [
+     "y",
+     "z"
+    ],
+    "cols": [
+     "w",
+     "x"
+    ],
+    "cells": [
+     [
+      0,
+      "X",
+      0,
+      "X"
+     ],
+     [
+      "X",
+      1,
+      "X",
+      1
+     ],
+     [
+      0,
+      "X",
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      "X",
+      0
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "xy+y'z",
+    "rejects": [
+     "wx'y'+xy+xz",
+     "w'x+y'z+xy",
+     "xz+y"
+    ]
+   }
+  },
+  "CS-2002-Q12": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "name": "f",
+   "map": {
+    "rows": [
+     "y",
+     "z"
+    ],
+    "cols": [
+     "w",
+     "x"
+    ],
+    "cells": [
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      "X",
+      0,
+      0,
+      1
+     ],
+     [
+      "X",
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      "X"
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "xz'+zx'",
+    "rejects": [
+     "xz+y'z",
+     "x'y+zx'"
+    ]
+   }
+  },
+  "CS-2004-Q17": {
+   "kind": "kmap",
+   "vars": [
+    "x",
+    "y"
+   ],
+   "name": "f",
+   "expr": "x'y'+xy+x'y",
+   "expect": {
+    "minimal": "x'+y",
+    "rejects": [
+     "x'+y'",
+     "x+y",
+     "x+y'"
+    ]
+   }
+  },
+  "CS-2004-Q59": {
+   "kind": "kmap",
+   "vars": [
+    "a",
+    "b",
+    "c"
+   ],
+   "name": "f",
+   "expr": "a'c+ac'+b'c",
+   "expect": {
+    "essential": [
+     "a'c",
+     "ac'"
+    ]
+   }
+  },
+  "CS-2005-Q18": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "name": "f",
+   "minterms": [
+    1,
+    4,
+    5,
+    9,
+    11,
+    12
+   ],
+   "expect": {
+    "minimal": "BC'D'+A'C'D+AB'D",
+    "rejects": [
+     "ABC'+ACD+B'C'D",
+     "ACD'+A'BC'+AC'D'",
+     "A'BD+ACD'+BCD'"
+    ]
+   }
+  },
+  "CS-2007-Q9": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "name": "f",
+   "minterms": [
+    1,
+    3,
+    4,
+    6,
+    9,
+    11,
+    12,
+    14
+   ],
+   "expect": {
+    "independent_count": 2
+   }
+  },
+  "CS-2008-Q5": {
+   "kind": "kmap",
+   "vars": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "map": {
+    "rows": [
+     "c",
+     "d"
+    ],
+    "cols": [
+     "a",
+     "b"
+    ],
+    "cells": [
+     [
+      1,
+      1,
+      0,
+      1
+     ],
+     [
+      "X",
+      0,
+      0,
+      0
+     ],
+     [
+      "X",
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      1,
+      0,
+      "X"
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "b'd'+a'd'",
+    "rejects": [
+     "a'b'+b'd'+a'bd'",
+     "b'd'+a'bd'",
+     "a'b'+b'd'+a'd'"
+    ]
+   }
+  },
+  "CS-2008-Q26": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R"
+   ],
+   "expr": "(P+Q')(PQ'+PR)(P'R'+Q')",
+   "expect": {
+    "minimal": "PQ'",
+    "rejects": [
+     "PR'",
+     "PQ'+R",
+     "PR'+Q"
+    ]
+   }
+  },
+  "CS-2010-Q16": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R"
+   ],
+   "name": "f",
+   "notation": "not",
+   "expr": "PQ+QR'+PR'",
+   "expect": {
+    "minterms": [
+     2,
+     4,
+     6,
+     7
+    ]
+   }
+  },
+  "CS-2011-Q24": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R"
+   ],
+   "expr": "(P+Q'+R')(P+Q'+R)(P+Q+R')",
+   "expect": {
+    "minimal": "P+Q'R'",
+    "rejects": [
+     "P'Q+R'",
+     "P'Q+R",
+     "PQ+R"
+    ]
+   }
+  },
+  "CS-2012-Q40": {
+   "kind": "kmap",
+   "vars": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "notation": "bar",
+   "map": {
+    "rows": [
+     "c",
+     "d"
+    ],
+    "cols": [
+     "a",
+     "b"
+    ],
+    "cells": [
+     [
+      1,
+      "X",
+      "X",
+      1
+     ],
+     [
+      "X",
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      "X"
+     ]
+    ]
+   },
+   "expect": {
+    "minimal": "b'd'+b'c'",
+    "rejects": [
+     "b'd'",
+     "b'd'+ab'c'd",
+     "b'd'+b'c'+c'd'"
+    ]
+   }
+  },
+  "CS-2014-S1-Q17": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "notation": "bar",
+   "expr": "PQ+P'QR+P'QR'S",
+   "expect": {
+    "minimal": "PQ+QR+QS",
+    "rejects": [
+     "P+Q+R+S",
+     "P'+Q'+R'+S'",
+     "P'R+P'R'S+P"
+    ]
+   }
+  },
+  "CS-2014-S3-Q17": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "notation": "bar",
+   "minterms": [
+    0,
+    5,
+    10,
+    15
+   ],
+   "dontcares": [
+    2,
+    7,
+    8,
+    13
+   ],
+   "expect": {
+    "minimal": "Q'S'+QS",
+    "rejects": [
+     "QS'+Q'S",
+     "Q'R'S'+Q'RS'+QR'S+QRS",
+     "P'Q'S'+P'QS+PQS+PQ'S'"
+    ]
+   }
+  },
+  "CS-2015-S2-Q55": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "notation": "not",
+   "expr": "~(D'+AB'+A'C+AC'D+A'C'D)",
+   "expect": {
+    "on_count": 1
+   }
+  },
+  "CS-2015-S3-Q40": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R"
+   ],
+   "expr": "P'+QR",
+   "expect": {
+    "claims": [
+     {
+      "type": "minterms",
+      "value": [
+       4,
+       5,
+       6
+      ],
+      "holds": false
+     },
+     {
+      "type": "minterms",
+      "value": [
+       0,
+       1,
+       2,
+       3,
+       7
+      ],
+      "holds": true
+     },
+     {
+      "type": "maxterms",
+      "value": [
+       4,
+       5,
+       6
+      ],
+      "holds": true
+     },
+     {
+      "type": "maxterms",
+      "value": [
+       0,
+       1,
+       2,
+       3,
+       7
+      ],
+      "holds": false
+     }
+    ]
+   }
+  },
+  "CS-2015-S3-Q62": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "name": "f",
+   "minterms": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    10
+   ],
+   "expect": {
+    "prime_implicants": 3
+   }
+  },
+  "CS-2017-S2-Q38": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "name": "f",
+   "notation": "not",
+   "form": "pos",
+   "minterms": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    10
+   ],
+   "dontcares": [
+    5,
+    6,
+    11,
+    15
+   ],
+   "expect": {
+    "minimal": "(w'+z')(x'+z)",
+    "rejects": [
+     "(w'+z)(x+z)",
+     "(w+z)(x'+z)",
+     "(w+z')(x'+z)"
+    ]
+   }
+  },
+  "CS-2018-Q59": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "minterms": [
+    0,
+    2,
+    5,
+    7,
+    9,
+    11
+   ],
+   "dontcares": [
+    3,
+    8,
+    10,
+    12,
+    14
+   ],
+   "expect": {
+    "essential": 3
+   }
+  },
+  "CS-2021-S1-Q52": {
+   "kind": "kmap",
+   "vars": [
+    "X",
+    "Y",
+    "Z"
+   ],
+   "name": "¬F",
+   "notation": "not",
+   "expr": "~((X+Y+Z)(X'+Y)(Y'+Z))",
+   "expect": {
+    "claims": [
+     {
+      "type": "equivalent",
+      "value": "(X'+Y'+Z')(X+Y')(Y+Z')",
+      "holds": false
+     },
+     {
+      "type": "equivalent",
+      "value": "XY'+Z'",
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "(X+Z')(Y'+Z')",
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "XY'+YZ'+X'Y'Z'",
+      "holds": true
+     }
+    ]
+   }
+  },
+  "CS-2024-S1-Q47": {
+   "kind": "kmap",
+   "vars": [
+    "X",
+    "Y",
+    "Z"
+   ],
+   "minterms": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "expect": {
+    "claims": [
+     {
+      "type": "maxterms",
+      "value": [
+       0,
+       1,
+       2,
+       4
+      ],
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "XY+YZ+XZ",
+      "holds": true
+     },
+     {
+      "type": "independent_of",
+      "value": "Y",
+      "holds": false
+     },
+     {
+      "type": "independent_of",
+      "value": "X",
+      "holds": false
+     }
+    ]
+   }
+  },
+  "CS-2025-S1-Q42": {
+   "kind": "kmap",
+   "vars": [
+    "b3",
+    "b2",
+    "b1",
+    "b0"
+   ],
+   "notation": "not",
+   "minterms": [
+    0,
+    2,
+    4,
+    8,
+    10,
+    11,
+    12
+   ],
+   "expect": {
+    "minimal": "b1'b0'+b2'b0'+b1b2'b3",
+    "rejects": [
+     "b1'b0'+b2'b0'",
+     "b2'b0'+b1b2b3",
+     "b0'b2'+b3'"
+    ]
+   }
+  },
+  "CS-2025-S2-Q43": {
+   "kind": "kmap",
+   "vars": [
+    "w",
+    "x",
+    "y",
+    "z"
+   ],
+   "notation": "not",
+   "map": {
+    "rows": [
+     "w",
+     "x"
+    ],
+    "cols": [
+     "y",
+     "z"
+    ],
+    "cells": [
+     [
+      1,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      1
+     ]
+    ]
+   },
+   "expect": {
+    "claims": [
+     {
+      "type": "equivalent",
+      "value": "w'x'y'z'+wx'y'z'+w'x'yz'+wx'yz'+xz",
+      "holds": true
+     },
+     {
+      "type": "equivalent",
+      "value": "w'x'y'z'+w'x'yz'+wx'yz+xz",
+      "holds": false
+     },
+     {
+      "type": "equivalent",
+      "value": "w'x'y'z'+wx'y'z'+wx'y'z+xz",
+      "holds": false
+     },
+     {
+      "type": "equivalent",
+      "value": "x'z'+xz",
+      "holds": true
+     }
+    ]
+   }
+  },
+  "CS-2026-S1-Q48": {
+   "kind": "kmap",
+   "vars": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "notation": "not",
+   "minterms": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10,
+    12,
+    13,
+    14
+   ],
+   "expect": {
+    "claims": [
+     {
+      "type": "minimal",
+      "value": "P'S+QR'+P'Q'R+Q'RS'",
+      "holds": false
+     },
+     {
+      "type": "minimal",
+      "value": "P'S+QR'+P'Q'R+PRS'",
+      "holds": true
+     },
+     {
+      "type": "minimal",
+      "value": "P'S+QR'+PQS'+PRS'",
+      "holds": false
+     },
+     {
+      "type": "minimal",
+      "value": "P'S+QR'+PQS'+Q'RS'",
+      "holds": true
+     }
+    ]
+   }
+  },
+  "CS-2026-S2-Q40": {
+   "kind": "kmap",
+   "vars": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "minterms": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    11
+   ],
+   "expect": {
+    "minimal": "B'",
+    "rejects": [
+     "A'+B'+C'+D'",
+     "A'B'+AB",
+     "A'"
+    ]
+   }
+  }
+ }
+}

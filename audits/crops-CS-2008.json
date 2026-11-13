@@ -1,0 +1,364 @@
+{
+  "paper_id": "CS-2008",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "ec421bf6c41a5144ad7f499d77f6d9b5b0267686e0c566d9da3d484cae2ec926",
+  "preparation_evidence_sha256": "f4e466d94739f3ba8ecb3d093baddab5f72ca9d591b5d588caf773e8b03049a0",
+  "independent_review_evidence_sha256": "66f6fd22853d18b7169ca15586c99c85419b1b01527c817242e45fb1874c6272",
+  "questions": 85,
+  "crop_parts": 105,
+  "verified_questions": 85,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "scope": "Independent crop-boundary and rendered-output review only.",
+    "reviewer": "verify_2008_crop_outputs",
+    "source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "initial_contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "findings": [
+      "All 85 question numbers map directly to printed Q1 through Q85; every own-body physical page equals the canonical record's source_page. No GA renumbering is present.",
+      "Q1-Q70 preserve complete stems, all A-D options and mathematical expressions. Specifically checked Q5 Karnaugh map and overbars; Q8 logic gates and all minterm rows; Q19 graph; Q28 matrices; Q45 directed weighted graph; Q49 all six transition tables; Q51 complete matching table; Q52 all four NFAs and regular-expression choices.",
+      "Q60 retains both code columns, pointer symbols, assignments and options. Q61 retains recursive function, main and all two-line option substitutions. Q62 and Q63 retain complete code and all options. No answer changes were made or independently certified.",
+      "Q67 address bit ranges, Q68 relational algebra, Q69 functional dependencies and Q70 full indexing stem/options are preserved.",
+      "Source p1 expressly identifies common data Q71-Q73 and Q74-Q75 and linked answer pairs Q76-Q77, Q78-Q79, Q80-Q81, Q82-Q83 and Q84-Q85. Each later linked question retains the shared statement and complete prerequisite question.",
+      "Q74-Q75 include both complete C functions. Q76-Q77 include delayed-branch statement, Q76 choices, and Q77 assembly plus options. Q78-Q79 include recurrence definition and Q78 recurrence choices. Q80-Q81 include subset-sum definition and all recurrence formulas. Q82-Q83 retain complete ER diagram with attributes, key underlines, double rectangle/diamond and arrow directions. Q84-Q85 retain the ten numbered C lines, Q84 cases and Q85 corrections.",
+      "Initial p15 skew leakage was rejected. Final six p15 parts use an explicit -2 degree whole-source-page rigid rotation before rectangle extraction. Reopened all six actual WEBPs against full original p15: common heading, entire code, complete final paragraph, own numbers, stems and all options remain present with no adjoining foreground question fragments.",
+      "Independently recomputed the rotation matrix using trigonometric coefficients, normalized the rotated page extent, inverse-mapped all six quadrilaterals and checked enclosing source bboxes within 0.0001 PDF point. No masking, erasing, redraw or selective retouch is applied.",
+      "Executed production renderer on the external proposal and independently rerendered all 105 outputs. All bytes match prepared outputs at 3x/WEBP80. Compared prior evidence: exactly six p15 outputs changed and the other 99 remain byte-identical to previously visually reviewed outputs.",
+      "Overlap checking requires identical coordinate systems on each common source page; all p15 records use the same -2-degree transform. Exactly 14 shared/prerequisite intersections remain and no extra question-region intersections remain.",
+      "Q8/Q49/Q77 retain small harmless source header-rule fragments because of source skew; no unrelated header text or adjacent question content is included. This is not a claim that every non-question ink pixel has been removed."
+    ],
+    "limitations": [
+      "Canonical source bytes match the source map and all 85 records, but the map explicitly does not certify original-source authenticity.",
+      "The supplied PDF has 18 scanned physical pages and contains Q1-Q85 and the end-of-paper marker. Printed booklet numbering says /24; absent additional booklet pages are not certified.",
+      "Inherited scan blur, skew and reverse-side show-through remain; these are not newly introduced foreground question leaks.",
+      "No answer, transcription, accessibility, source completeness, publication or redistribution certification.",
+      "Six p15 images are explicitly deskewed source crops, not untouched source-orientation crops. Other99 outputs retain legacy rendering."
+    ],
+    "crops_sha256": "ec421bf6c41a5144ad7f499d77f6d9b5b0267686e0c566d9da3d484cae2ec926",
+    "source_sha256": "f01fcd02a9a5544d1f89959eca288fe967bb537ed00513b46e5fe8f9f97f7202",
+    "questions": 85,
+    "parts": 105,
+    "fresh_render_byte_identity_count": 105,
+    "all_bytes_identical": true,
+    "status": "approved",
+    "source_file": "sources/archive/CS/CS2008.pdf",
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2008-Q71",
+          "CS-2008-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "intersection_bbox": [
+          71.42900085449219,
+          67.14299774169922,
+          542.8569946289062,
+          272.85699462890625
+        ],
+        "reason": "Common cache/array initialization data explicitly shared by Q71-Q73."
+      },
+      {
+        "questions": [
+          "CS-2008-Q71",
+          "CS-2008-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "intersection_bbox": [
+          71.42900085449219,
+          67.14299774169922,
+          542.8569946289062,
+          272.85699462890625
+        ],
+        "reason": "Common cache/array initialization data explicitly shared by Q71-Q73."
+      },
+      {
+        "questions": [
+          "CS-2008-Q72",
+          "CS-2008-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "intersection_bbox": [
+          71.42900085449219,
+          67.14299774169922,
+          542.8569946289062,
+          272.85699462890625
+        ],
+        "reason": "Common cache/array initialization data explicitly shared by Q71-Q73."
+      },
+      {
+        "questions": [
+          "CS-2008-Q74",
+          "CS-2008-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 16,
+        "intersection_bbox": [
+          89.28600311279297,
+          43.57099914550781,
+          558.5709838867188,
+          352.14300537109375
+        ],
+        "reason": "Both C functions f1/f2 explicitly shared by Q74-Q75."
+      },
+      {
+        "questions": [
+          "CS-2008-Q76",
+          "CS-2008-Q77"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 16,
+        "intersection_bbox": [
+          91.42900085449219,
+          522.1430053710938,
+          558.5709838867188,
+          564.2860107421875
+        ],
+        "reason": "Delayed branching statement explicitly shared by linked Q76-Q77."
+      },
+      {
+        "questions": [
+          "CS-2008-Q76",
+          "CS-2008-Q77"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 16,
+        "intersection_bbox": [
+          91.42900085449219,
+          565.7139892578125,
+          558.5709838867188,
+          651.4290161132812
+        ],
+        "reason": "Complete Q76 stem and options are preserved as the prerequisite for explicitly linked Q77; source instruction page declares this linked-answer pair."
+      },
+      {
+        "questions": [
+          "CS-2008-Q78",
+          "CS-2008-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 17,
+        "intersection_bbox": [
+          67.85700225830078,
+          207.14300537109375,
+          539.2860107421875,
+          255.71400451660156
+        ],
+        "reason": "Binary-string sequence definition explicitly shared by linked Q78-Q79."
+      },
+      {
+        "questions": [
+          "CS-2008-Q78",
+          "CS-2008-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 17,
+        "intersection_bbox": [
+          67.85700225830078,
+          256.4289855957031,
+          539.2860107421875,
+          299.2860107421875
+        ],
+        "reason": "Complete Q78 stem and options are preserved as the prerequisite for explicitly linked Q79; source instruction page declares this linked-answer pair."
+      },
+      {
+        "questions": [
+          "CS-2008-Q80",
+          "CS-2008-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 17,
+        "intersection_bbox": [
+          64.28600311279297,
+          375.0,
+          539.2860107421875,
+          471.4289855957031
+        ],
+        "reason": "Subset-sum dynamic-programming statement explicitly shared by linked Q80-Q81."
+      },
+      {
+        "questions": [
+          "CS-2008-Q80",
+          "CS-2008-Q81"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 17,
+        "intersection_bbox": [
+          64.28600311279297,
+          474.2860107421875,
+          539.2860107421875,
+          569.2860107421875
+        ],
+        "reason": "Complete Q80 stem and options are preserved as the prerequisite for explicitly linked Q81; source instruction page declares this linked-answer pair."
+      },
+      {
+        "questions": [
+          "CS-2008-Q82",
+          "CS-2008-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 18,
+        "intersection_bbox": [
+          78.57099914550781,
+          57.143001556396484,
+          546.4290161132812,
+          205.0
+        ],
+        "reason": "Complete ER diagram explicitly shared by linked Q82-Q83."
+      },
+      {
+        "questions": [
+          "CS-2008-Q82",
+          "CS-2008-Q83"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 18,
+        "intersection_bbox": [
+          78.57099914550781,
+          209.28599548339844,
+          546.4290161132812,
+          251.4290008544922
+        ],
+        "reason": "Complete Q82 stem and options are preserved as the prerequisite for explicitly linked Q83; source instruction page declares this linked-answer pair."
+      },
+      {
+        "questions": [
+          "CS-2008-Q84",
+          "CS-2008-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 18,
+        "intersection_bbox": [
+          80.0,
+          323.5710144042969,
+          546.4290161132812,
+          515.0
+        ],
+        "reason": "Erroneous binary-search C program explicitly shared by linked Q84-Q85."
+      },
+      {
+        "questions": [
+          "CS-2008-Q84",
+          "CS-2008-Q85"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 18,
+        "intersection_bbox": [
+          80.0,
+          520.0,
+          546.4290161132812,
+          590.0
+        ],
+        "reason": "Complete Q84 stem and options are preserved as the prerequisite for explicitly linked Q85; source instruction page declares this linked-answer pair."
+      }
+    ],
+    "transform_validation": {
+      "transformed_parts": 6,
+      "rotation_degrees": -2,
+      "coordinate_space": "rotated_page",
+      "inverse_provenance_max_tolerance_pdf_points": 0.0001,
+      "untransformed_outputs_matching_prior_review": 99,
+      "production_render_byte_identical": 105,
+      "independent_render_byte_identical": 105,
+      "regression_tests_passed": 6,
+      "unrelated_question_leaks": 0,
+      "unexpected_overlap_pairs": 0
+    },
+    "reviewed_changed_outputs": [
+      "CS-2008-Q71-1.webp",
+      "CS-2008-Q71-2.webp",
+      "CS-2008-Q72-1.webp",
+      "CS-2008-Q72-2.webp",
+      "CS-2008-Q73-1.webp",
+      "CS-2008-Q73-2.webp"
+    ],
+    "evidence_files": [
+      "independent-byte-check.json",
+      "independent-byte-check-pre-deskew.json",
+      "independent_check.py",
+      "independent-production-render/manifest.json"
+    ]
+  }
+}

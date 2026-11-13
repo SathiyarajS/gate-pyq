@@ -1,0 +1,14 @@
+{
+  "year": 2010,
+  "path": "/tmp/gate-2010-CS.pdf",
+  "sha256": "93889cef9e383267038125f87c7e5e3377b762d619f2781121aac6cd7f2030d6",
+  "pages": 23,
+  "questions": 65,
+  "marks": 100,
+  "end_of_questions": 16,
+  "archive_member": "CS/CS2010.pdf",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "archive_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "key_status": "No official key located; no appended key observed at paper end. Secondary GATE CSE index claims no official key released, not independently established.",
+  "scope": "PDF parse, cover and end-page visual inspection; not full question transcription audit."
+}

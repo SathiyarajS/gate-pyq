@@ -1,0 +1,14 @@
+{
+  "paper_id": "CS-1997",
+  "entries": 101,
+  "correctness_review": "passed with explicit source/model qualifications",
+  "depth_review": "reviewed_expanded",
+  "source_status": "Two third-party reproductions; original official completeness unverified. GateForum truncated; final GFG groups original numbering unverified.",
+  "checks": [
+    "Objective author checks passed",
+    "Middle 15 groups, 48904 cases passed",
+    "Tail 11 author check groups passed",
+    "Independent graph, Mealy, Boolean, float and I/O checks passed"
+  ],
+  "unresolved": "Reproduction variants and conditional models remain disclosed; no official key located."
+}

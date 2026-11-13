@@ -1,0 +1,13 @@
+{
+  "question_id": "CS-2003-Q38",
+  "field": "derived_answer",
+  "before": "B",
+  "after": "C",
+  "reason": "Both printed tables have b\u00d7b=c; exhaustive enumeration yields (b,c) and (c,b).",
+  "source_pages": [
+    "GFG physical page 5",
+    "GateForum physical page 9"
+  ],
+  "confirmation": "Parent independently confirmed enlarged GFG table before author applied correction.",
+  "independent_depth_review": "passed"
+}

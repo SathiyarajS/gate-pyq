@@ -1,0 +1,439 @@
+{
+  "paper_id": "CS-2020",
+  "review_status": "passed_with_explicit_limitations",
+  "reviewer": "independent depth/source reviewer",
+  "reviewed_record_count": 65,
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "official_key_pages": [
+    17,
+    18
+  ],
+  "automated_checks_passed": 27,
+  "baseline_protected_fields_preserved": true,
+  "json_markdown_context_and_solution_consistency": true,
+  "material_issues": [],
+  "edits_made": [],
+  "limits": [
+    "CS-2020-Q20 correctly identifies the non-LL(k) language but provides a clearly labeled explanatory sketch, not a complete formal proof that no equivalent LL(k) grammar exists. Do not market every solution as a formal proof.",
+    "CS-2020-Q12, Q63 and Q65 require the stated recurrence, conditional fault-rate and TCP growth interpretations. Their caveats must survive integration.",
+    "CS-2020-Q17 retains official MTA, and Q31 retains two separate accepted singleton ranges, not a continuous range.",
+    "This review verifies against the supplied official-hosted paper and embedded key; it does not establish a later final-key revision.",
+    "Contribution review metadata remains pending for parent integration; no repository or external document was edited."
+  ],
+  "artifact_sha256": {
+    "cs-2020-expanded.json": "a29ed4c2099a6a3ac9e918208afdcd1b199da0f7b8eeafd23f52f7b370dd3081",
+    "cs-2020-expanded.md": "fd184c6bc2bf6a0394a089c9f369cce59f7303e74bd2824331d37aef2691ccfb"
+  },
+  "records": [
+    {
+      "question_id": "CS-2020-Q1",
+      "source_page": 1,
+      "status": "pass",
+      "finding": "Deadline and duration prepositions; distractors rejected."
+    },
+    {
+      "question_id": "CS-2020-Q2",
+      "source_page": 1,
+      "status": "pass",
+      "finding": "Semantic contrast selects negative performance."
+    },
+    {
+      "question_id": "CS-2020-Q3",
+      "source_page": 1,
+      "status": "pass",
+      "finding": "Action-to-agent analogy."
+    },
+    {
+      "question_id": "CS-2020-Q4",
+      "source_page": 1,
+      "status": "pass",
+      "finding": "Passage inference avoids unsupported responsibility claims."
+    },
+    {
+      "question_id": "CS-2020-Q5",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "All 12 directed edges and six tolls match figure; minimum 500."
+    },
+    {
+      "question_id": "CS-2020-Q6",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Destination taxation and exception qualification preserved."
+    },
+    {
+      "question_id": "CS-2020-Q7",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Geometric alphabetic rule explicitly identified as intended, not unique."
+    },
+    {
+      "question_id": "CS-2020-Q8",
+      "source_page": 2,
+      "status": "pass",
+      "finding": "Tangency equations and nonoverlap justify subtracting n disks."
+    },
+    {
+      "question_id": "CS-2020-Q9",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Acute perpendicular-line angles are complementary."
+    },
+    {
+      "question_id": "CS-2020-Q10",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Bars 500,700,800,600,400 visually confirmed; expenditure denominator correct."
+    },
+    {
+      "question_id": "CS-2020-Q11",
+      "source_page": 3,
+      "status": "pass",
+      "finding": "Derivative signs and endpoint handling correct."
+    },
+    {
+      "question_id": "CS-2020-Q12",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Exact unrolling correct; varying parameters and missing cutoff disclosed."
+    },
+    {
+      "question_id": "CS-2020-Q13",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Vector versus polling distinction and shared-bus arbitration correct."
+    },
+    {
+      "question_id": "CS-2020-Q14",
+      "source_page": 4,
+      "status": "pass",
+      "finding": "Datapath arrows and all five operations checked; dependency ordering correct."
+    },
+    {
+      "question_id": "CS-2020-Q15",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Reconstructed BST edges and postorder correct."
+    },
+    {
+      "question_id": "CS-2020-Q16",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "AVL logarithmic insertion bound supports total tight complexity."
+    },
+    {
+      "question_id": "CS-2020-Q17",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "All four printed regexes checked; soundness/completeness counterexamples valid; MTA retained."
+    },
+    {
+      "question_id": "CS-2020-Q18",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Nonregular complement pair and infinite singleton union refute both claims."
+    },
+    {
+      "question_id": "CS-2020-Q19",
+      "source_page": 5,
+      "status": "pass",
+      "finding": "Compiler phases, stack recursion and contextual declaration condition correct."
+    },
+    {
+      "question_id": "CS-2020-Q20",
+      "source_page": 6,
+      "status": "pass_with_labeled_proof_sketch",
+      "finding": "DPDA constructive proof correct; non-LL(k) classification has explicitly limited proof sketch."
+    },
+    {
+      "question_id": "CS-2020-Q21",
+      "source_page": 6,
+      "status": "pass",
+      "finding": "Best-fit inequality and equality counterexamples correct."
+    },
+    {
+      "question_id": "CS-2020-Q22",
+      "source_page": 6,
+      "status": "pass",
+      "finding": "Direct transitions distinguished from two-step path."
+    },
+    {
+      "question_id": "CS-2020-Q23",
+      "source_page": 7,
+      "status": "pass",
+      "finding": "All source tables and keys checked; SQL bag projection retains four rows."
+    },
+    {
+      "question_id": "CS-2020-Q24",
+      "source_page": 7,
+      "status": "pass",
+      "finding": "Chen identifying relationship versus weak entity distinguished."
+    },
+    {
+      "question_id": "CS-2020-Q25",
+      "source_page": 7,
+      "status": "pass",
+      "finding": "Static routing, TTL mutation and destination fragment reassembly correct."
+    },
+    {
+      "question_id": "CS-2020-Q26",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Online sorted-list insertion scan sum gives quadratic worst case."
+    },
+    {
+      "question_id": "CS-2020-Q27",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Nine relation bits, three fixed diagonal bits give 1/8."
+    },
+    {
+      "question_id": "CS-2020-Q28",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Lagrange upper bound and Cauchy existence both supplied."
+    },
+    {
+      "question_id": "CS-2020-Q29",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Five binary selection controls distinguish 32 sources."
+    },
+    {
+      "question_id": "CS-2020-Q30",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "1024 decoder outputs and ten inputs, not eight data lines."
+    },
+    {
+      "question_id": "CS-2020-Q31",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Full block refill 175 ns; both distinct official timing answers retained."
+    },
+    {
+      "question_id": "CS-2020-Q32",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Printed pointer expression and initializer checked; a[3][3]=19."
+    },
+    {
+      "question_id": "CS-2020-Q33",
+      "source_page": 8,
+      "status": "pass",
+      "finding": "Probe zero convention and modular arithmetic correct."
+    },
+    {
+      "question_id": "CS-2020-Q34",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "All seven reductions and explicit sentential forms verified."
+    },
+    {
+      "question_id": "CS-2020-Q35",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "Six separate objects in conventional nonpersistent HTTP interpretation."
+    },
+    {
+      "question_id": "CS-2020-Q36",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "Rice applies to L1,L3,L4; bounded simulation decides L2."
+    },
+    {
+      "question_id": "CS-2020-Q37",
+      "source_page": 9,
+      "status": "pass",
+      "finding": "Rank subadditivity proof and 2x2 counterexamples correct."
+    },
+    {
+      "question_id": "CS-2020-Q38",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "Source inverter/AND/OR wiring and complete truth table match."
+    },
+    {
+      "question_id": "CS-2020-Q39",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "IEEE fields decode to 40 and -10; exact -4 encoding."
+    },
+    {
+      "question_id": "CS-2020-Q40",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "Cache index width and all four set numbers correct."
+    },
+    {
+      "question_id": "CS-2020-Q41",
+      "source_page": 10,
+      "status": "pass",
+      "finding": "Cycle/path maximum criterion proved in both directions; no preprocessing assumed."
+    },
+    {
+      "question_id": "CS-2020-Q42",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "L1 empty-variable reduction and both inclusions for mismatch grammar correct."
+    },
+    {
+      "question_id": "CS-2020-Q43",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "Inherited-attribute dependency order checked."
+    },
+    {
+      "question_id": "CS-2020-Q44",
+      "source_page": 11,
+      "status": "pass",
+      "finding": "One-use barrier invariant and token release before Q correct."
+    },
+    {
+      "question_id": "CS-2020-Q45",
+      "source_page": 12,
+      "status": "pass",
+      "finding": "SSTF path and direction reversal verified."
+    },
+    {
+      "question_id": "CS-2020-Q46",
+      "source_page": 12,
+      "status": "pass",
+      "finding": "3NF prime exception forced by BCNF violation."
+    },
+    {
+      "question_id": "CS-2020-Q47",
+      "source_page": 12,
+      "status": "pass",
+      "finding": "Every original and option schedule operation visually checked; four conflict orders correct."
+    },
+    {
+      "question_id": "CS-2020-Q48",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "Capacity, /21 alignment and /17 containment checked separately."
+    },
+    {
+      "question_id": "CS-2020-Q49",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "Quantifier identities and two-element countermodel correct."
+    },
+    {
+      "question_id": "CS-2020-Q50",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "Potential telescoping preserves common-endpoint path ordering and cycle weights."
+    },
+    {
+      "question_id": "CS-2020-Q51",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "Pruned range traversal, boundary-path cost and output lower bound correct."
+    },
+    {
+      "question_id": "CS-2020-Q52",
+      "source_page": 13,
+      "status": "pass",
+      "finding": "Indistinguishable L choices and remaining forbidden slot give 12."
+    },
+    {
+      "question_id": "CS-2020-Q53",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Conditional stall rates, clock conversion and steady-state speedup correct."
+    },
+    {
+      "question_id": "CS-2020-Q54",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Word-space bound and realizable expanding opcode allocation give 14."
+    },
+    {
+      "question_id": "CS-2020-Q55",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Nonzero coefficient gives parity-flipping bijection."
+    },
+    {
+      "question_id": "CS-2020-Q56",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "Separate static storage traces yield 55; first-call condition explicit."
+    },
+    {
+      "question_id": "CS-2020-Q57",
+      "source_page": 14,
+      "status": "pass",
+      "finding": "512 unconstrained leaves require 511 guaranteed comparisons."
+    },
+    {
+      "question_id": "CS-2020-Q58",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Source loop scope checked; repeated squaring returns 81 without int overflow."
+    },
+    {
+      "question_id": "CS-2020-Q59",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "99-edge lower bound attained by unit-weight consecutive path."
+    },
+    {
+      "question_id": "CS-2020-Q60",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "Both SJF and RR timelines, completion means and 5.25 difference checked."
+    },
+    {
+      "question_id": "CS-2020-Q61",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "All six states reachable; six suffix-acceptance signatures distinguish them."
+    },
+    {
+      "question_id": "CS-2020-Q62",
+      "source_page": 15,
+      "status": "pass",
+      "finding": "All 19 edge colors checked at both endpoints; degree-seven lower bound attained."
+    },
+    {
+      "question_id": "CS-2020-Q63",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Conditional miss/fault probability tree sums to one and gives 155; ambiguity disclosed."
+    },
+    {
+      "question_id": "CS-2020-Q64",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Fanout 205, leaf capacity 204 and three index levels plus data block correct."
+    },
+    {
+      "question_id": "CS-2020-Q65",
+      "source_page": 16,
+      "status": "pass",
+      "finding": "Ten RTT rounds yield 44 KB under explicit one-MSS classic convention."
+    }
+  ]
+}

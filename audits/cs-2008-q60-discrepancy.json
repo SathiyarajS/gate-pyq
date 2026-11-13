@@ -1,0 +1,24 @@
+{
+  "id": "CS-2008-Q60-source-code",
+  "question_id": "CS-2008-Q60",
+  "status": "unresolved_source_defect",
+  "source_page": 12,
+  "source_path": "/workspace/shared/gate-old-readiness/2008.pdf",
+  "printed_code": "**ppz += 1; z = *ppz;",
+  "issue": "Single dereference assigns int* to int z. Printed program has no portable numeric answer.",
+  "conditional_repair": "z = **ppz gives 19, option B.",
+  "official_key_comparison": null,
+  "protected_field_changes": {
+    "derived_answer": {
+      "old": "B",
+      "new": "B only if z=*ppz is repaired to z=**ppz; no portable numeric answer as printed"
+    },
+    "discrepancy_ids": {
+      "old": [],
+      "new": [
+        "CS-2008-Q60-source-code"
+      ]
+    }
+  },
+  "authorization": "Parent expressly requested conditional derived answer and discrepancy metadata after review finding."
+}

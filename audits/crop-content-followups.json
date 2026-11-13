@@ -1,0 +1,37 @@
+{
+  "scope": "Source/paraphrase observations discovered during crop review. Resolution status is recorded per finding; these do not certify original-source fidelity.",
+  "findings": [
+    {
+      "question_id": "CS-1995-Q48",
+      "finding": "Source transition table differs from earlier paraphrase: source A/input1→D,0 and D/input0→C,0. Independent visual crop review confirms visible source table.",
+      "next_step": "Paraphrase and solution corrected after independent visual checks of GFG p5 and GateForum p9; official original fidelity remains unverified.",
+      "crop_review": "audits/crops-CS-1995.json",
+      "status": "corrected_against_two_reproductions",
+      "resolution_audit": "audits/CS-1995-Q48-transition-correction.json"
+    },
+    {
+      "question_id": "CS-1995-Q72",
+      "finding": "Blurred source register glyph resembles U/G while current paraphrase uses B; reading is not settled.",
+      "next_step": "GateForum p13 clearly says registers A and B; GFG p7 glyph remains unclear. Source-access note now distinguishes the two. No official-original certification.",
+      "crop_review": "audits/crops-CS-1995.json",
+      "status": "qualified_with_alternate_source",
+      "resolution_audit": "audits/legacy-content-followups-resolution.json"
+    },
+    {
+      "question_id": "CS-1997-Q100",
+      "finding": "INVOLVED eno,pno appear underlined in available reproduction, while earlier paraphrase says no primary key is visibly underlined.",
+      "next_step": "Corrected all shared-schema records Q99–101 and Q99 duplicate-row reasoning after independent source and mathematical review.",
+      "crop_review": "audits/crops-CS-1997.json",
+      "status": "corrected_against_reproduction",
+      "resolution_audit": "audits/legacy-content-followups-resolution.json"
+    },
+    {
+      "question_id": "CS-1998-Q59",
+      "finding": "Available reproduction visibly says four implication gates; earlier paraphrase says this reproduction omits the number.",
+      "next_step": "Both sources explicitly require four gates. Corrected source-description statements; retained zero-input discrepancy.",
+      "crop_review": "audits/crops-CS-1998.json",
+      "status": "corrected_against_two_reproductions",
+      "resolution_audit": "audits/legacy-content-followups-resolution.json"
+    }
+  ]
+}

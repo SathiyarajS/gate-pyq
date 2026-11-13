@@ -1,0 +1,590 @@
+{
+  "paper_id": "CS-1995",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "3205eaf432bb6502c8f2a2b4720226a7d7330f9c6a2661f7846ddcec9e479a43",
+  "preparation_evidence_sha256": "47d1861e67f6de91666a661b8342802d26cf3cb5c3e1aa000080c32105f5ab0d",
+  "independent_review_evidence_sha256": "22677bfc9ec56ab95525558c8523e62c8050bb8402d097387eb71e06a53d80b6",
+  "questions": 91,
+  "crop_parts": 117,
+  "verified_questions": 91,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-1995",
+    "status": "approved",
+    "review_scope": "Independent source-to-crop fidelity review only; no original-source completeness, transcription, answer or redistribution certification.",
+    "crops_sha256": "3205eaf432bb6502c8f2a2b4720226a7d7330f9c6a2661f7846ddcec9e479a43",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf",
+    "source_sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c",
+    "questions": 91,
+    "crop_parts": 117,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "actual_webp_outputs_visually_inspected": 117,
+    "render_scale": 3,
+    "webp_quality": 80,
+    "fresh_render_byte_identity_count": 117,
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-1995-Q54",
+          "CS-1995-Q55"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            52.0,
+            383.333,
+            285.333,
+            493.333
+          ],
+          [
+            52.0,
+            383.333,
+            285.333,
+            493.333
+          ]
+        ],
+        "intersection": [
+          52.0,
+          383.3330078125,
+          285.3330078125,
+          493.3330078125
+        ],
+        "reason": "Shared memory-allocation scenario for printed 53(a,b)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q54",
+          "CS-1995-Q55"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            52.0,
+            494.0,
+            285.333,
+            514.667
+          ],
+          [
+            52.0,
+            494.0,
+            285.333,
+            514.667
+          ]
+        ],
+        "intersection": [
+          52.0,
+          494.0,
+          285.3330078125,
+          514.6669921875
+        ],
+        "reason": "Prerequisite names Best Fit and First Fit required to interpret which algorithm in printed 53(b)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q67",
+          "CS-1995-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            52.0,
+            310.667,
+            285.333,
+            338.667
+          ],
+          [
+            52.0,
+            310.667,
+            285.333,
+            338.667
+          ]
+        ],
+        "intersection": [
+          52.0,
+          310.6669921875,
+          285.3330078125,
+          338.6669921875
+        ],
+        "reason": "Shared formatting-overhead premise for disk calculation"
+      },
+      {
+        "questions": [
+          "CS-1995-Q67",
+          "CS-1995-Q68"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            52.0,
+            339.333,
+            285.333,
+            433.333
+          ],
+          [
+            52.0,
+            339.333,
+            285.333,
+            433.333
+          ]
+        ],
+        "intersection": [
+          52.0,
+          339.3330078125,
+          285.3330078125,
+          433.3330078125
+        ],
+        "reason": "Prerequisite disk parameters explicitly referenced by printed 62(b)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q71",
+          "CS-1995-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.6669921875,
+          222.66700744628906
+        ],
+        "reason": "Shared 8085 program for printed 64(a,b,c)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q71",
+          "CS-1995-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.6669921875,
+          222.66700744628906
+        ],
+        "reason": "Shared 8085 program for printed 64(a,b,c)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q72",
+          "CS-1995-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ],
+          [
+            300.0,
+            42.667,
+            524.667,
+            222.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          42.66699981689453,
+          524.6669921875,
+          222.66700744628906
+        ],
+        "reason": "Shared 8085 program for printed 64(a,b,c)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q74",
+          "CS-1995-Q75"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            300.667,
+            524.667,
+            390.667
+          ],
+          [
+            300.0,
+            300.667,
+            524.667,
+            390.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          300.6669921875,
+          524.6669921875,
+          390.6669921875
+        ],
+        "reason": "Shared asynchronous-link parameters for printed 65(a)(i,ii)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q80",
+          "CS-1995-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            52.0,
+            579.333,
+            285.333,
+            595.333
+          ],
+          [
+            52.0,
+            579.333,
+            285.333,
+            595.333
+          ]
+        ],
+        "intersection": [
+          52.0,
+          579.3330078125,
+          285.3330078125,
+          595.3330078125
+        ],
+        "reason": "Shared subgroup premise for printed 69(a,b)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q87",
+          "CS-1995-Q88"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            274.0,
+            524.667,
+            340.667
+          ],
+          [
+            300.0,
+            274.0,
+            524.667,
+            340.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          274.0,
+          524.6669921875,
+          340.6669921875
+        ],
+        "reason": "Shared relation schema and functional dependencies for printed 74(a,b)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q89",
+          "CS-1995-Q90"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ],
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          406.6669921875,
+          524.6669921875,
+          513.3330078125
+        ],
+        "reason": "Shared AUTHOR/PUBLISHER/BOOK schemas and permitted relational operations for printed 75(a,b,c)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q89",
+          "CS-1995-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ],
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          406.6669921875,
+          524.6669921875,
+          513.3330078125
+        ],
+        "reason": "Shared AUTHOR/PUBLISHER/BOOK schemas and permitted relational operations for printed 75(a,b,c)"
+      },
+      {
+        "questions": [
+          "CS-1995-Q90",
+          "CS-1995-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ],
+          [
+            300.0,
+            406.667,
+            524.667,
+            513.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          406.6669921875,
+          524.6669921875,
+          513.3330078125
+        ],
+        "reason": "Shared AUTHOR/PUBLISHER/BOOK schemas and permitted relational operations for printed 75(a,b,c)"
+      }
+    ],
+    "unapproved_overlap_pairs": 0,
+    "findings": [
+      "All 91 records mapped by subject matter and normalized/printed numbering, including descriptive leaves after reproduced ordinal 51. All 117 output parts inspected on decoded-WEBP contact sheets against all eight full source pages.",
+      "Available source stems, options, figures, programs, table and subpart tasks are retained without unrelated question leakage. Headers, footers and section instructions are excluded. Number-free continuation and leaf parts are intentional.",
+      "Cross-column/page continuations Q6, Q10, Q16, Q32, Q36, Q47, Q51 and Q77 retain all available content. Enlarged actual outputs Q30, Q48, Q51 part 2, Q53, Q72 part 2, Q77 part 2 and Q78 were additionally inspected.",
+      "All 13 overlaps are identical shared/prerequisite regions: allocation scenario and algorithm-naming prerequisite, disk premise and referenced parameters, 8085 program, serial parameters, subgroup premise, relation dependencies and database schemas. Every other pair is disjoint.",
+      "Q48 source table has A/input1 to D,0 and D/input0 to C,0, unlike the normalized paraphrase. Preserve the source; this review does not recertify its answer.",
+      "Q72 second register glyph is blurred and looks U/G-like rather than the paraphrase B. Preserve its exact source appearance without asserting a repaired register name.",
+      "Q53 reference to page 13 and Q70 reference to next page are source editorial defects; their program/K-map are present directly below and retained.",
+      "Third-party reproduction remains blurred and emits missing Fm0 XObject diagnostics. Approval covers available rendered content only; no missing original material was reconstructed."
+    ],
+    "image_sha256": {
+      "CS-1995-Q1-1.webp": "44d39c5cbb12c1d6c8d0d94ef6b3e449f7369b318af0c4f6a783af1bc5fc428f",
+      "CS-1995-Q2-1.webp": "6d17239a99d2a878e8b39b1cbaa8b715fb2ec489a300e0895cbc1be50853f7f5",
+      "CS-1995-Q3-1.webp": "06d5ff92b16df0de6269bac184d228e70652c2b797ee05a7239128be28429cc5",
+      "CS-1995-Q4-1.webp": "2cd70bf8886c0ef2787b7f3017e3df6b35ea0a587d415b1898f8c013bcc2549c",
+      "CS-1995-Q5-1.webp": "dc58438f5bb614cf91e6181901360e2ea391853b046b1c011f961beee4d72deb",
+      "CS-1995-Q6-1.webp": "c4d3a87e2c45cd3ed11afb0eaf996f762bf5a850288efcadd8bd047eac868788",
+      "CS-1995-Q6-2.webp": "2d9c4d2c87a43b94c06a53c47199bfd255c2c62db191527d694bf0af197061b0",
+      "CS-1995-Q7-1.webp": "1f54132d3341eddf0cb41aad2746e90509042b805967dc019c7f142e48e1562d",
+      "CS-1995-Q8-1.webp": "3e16aad06055ae87c30ba17350d5b90afc249742cfb678a99c5fba9816bb3405",
+      "CS-1995-Q9-1.webp": "8969ed7a35d9138ba2efe1f1d7975c470ff7bcd7c42cef1aee6a91d13daccb9f",
+      "CS-1995-Q10-1.webp": "cac1d2a03bbdfa0da523d5bd290ce1d6930b280fcfae17bb0627867520c32332",
+      "CS-1995-Q10-2.webp": "f85d882d12846cdf3f069b414d8c96a656ba4e137bc2a935d72df79980723c93",
+      "CS-1995-Q11-1.webp": "2f2b99782894b813b9872633264cb6bee283613d904e0fdf312e69bbfa980a25",
+      "CS-1995-Q12-1.webp": "f5b6e18d0fc9bca65231cbc44b76d3a5781b8a57adff9106993d8e14fea6252a",
+      "CS-1995-Q13-1.webp": "06d022e96e0de89921a4effa086e77cdd91277b6d766e7142b71a5029fc704dc",
+      "CS-1995-Q14-1.webp": "6f6dd43e92ff523173413766f7e6e575d2fcc1774ea3b60a518a9bb04818334f",
+      "CS-1995-Q15-1.webp": "dc680258ebd9da45ce2f0ea149f96aad0ff9f530ddfbc487c10688724fdd1cdb",
+      "CS-1995-Q16-1.webp": "ea65ad9cd5a22ec2ccf444bc9485230424330810afce91cf85cf7244ab8083b8",
+      "CS-1995-Q16-2.webp": "e0d8f8871bcdc6cfc94e16bc618dae423f3044d14bfbc12a2994c2443e801f53",
+      "CS-1995-Q17-1.webp": "869a1459e49c2e329eb77796f288fdfe840a167deef9a5ca90cd42aad9f42ae4",
+      "CS-1995-Q18-1.webp": "bc42f74ed7089f1e39cfa258d4755b96cc6eb6a56a8678da3bca2e8f2201532f",
+      "CS-1995-Q19-1.webp": "a7d54903874b28cada9a39431cbb09c64a6faca2c3a6b5b5d218d514c1d94fb8",
+      "CS-1995-Q20-1.webp": "7daa536486e6ddaa83629ce05924791e223e253eb13e1744aa7035edcfbd8897",
+      "CS-1995-Q21-1.webp": "056df3b50c2ec2bf7aeba7c36ccb371e93821f92a66596f800bd1f1b38d05882",
+      "CS-1995-Q22-1.webp": "37c2ac8fcb6471e1be9d483ea1b9d4f32d228acf8ff1481b947efa3cfe6f0f3d",
+      "CS-1995-Q23-1.webp": "b4a10d91d03716f070b904e02cfa8ba441b5bd72c94e76d0c5171eaa9f50a5d6",
+      "CS-1995-Q24-1.webp": "44cb8654c1649e5e158403bb9a0874a1a7a2b340a411c3b0517af5888c406468",
+      "CS-1995-Q25-1.webp": "39edc9e9d31c0e1b6cedcee2c4dc8887ee4dc3504143729a96826ab52577bdef",
+      "CS-1995-Q26-1.webp": "2807b805dab7640074b2199c4fa85e4654d5aec52d74499a2847d4ff43526305",
+      "CS-1995-Q27-1.webp": "7bf8556a4042c1a11ee6edd90e2e2825a77fc1b30e36f9be3110058c7a26344c",
+      "CS-1995-Q28-1.webp": "8fd9c6e1de9e4974463c8af3eda4ac450920c59eb1777a98a0ea51e5d4252fa7",
+      "CS-1995-Q29-1.webp": "7a3870f7adf16377151d9cdf560d0de80dd5ebe13c224d6eddcddf9e45864749",
+      "CS-1995-Q30-1.webp": "5c2253e257d6c728c2d745a958eed2f0b0bd1b0d5c3736887f11200869f73b0f",
+      "CS-1995-Q31-1.webp": "a4494bb2f9141d6d0e5a8be5bd7328900a7f92bf463232f6c48ff17fb9f4bb51",
+      "CS-1995-Q32-1.webp": "58dc0d62370049a19e5b25cf637b475f86b612a83e769580a7412d68149fa9f7",
+      "CS-1995-Q32-2.webp": "b41233036d9606cb393ca520417745f43df051b3cd17cfd431eb6d5f68d8b90c",
+      "CS-1995-Q33-1.webp": "cd9921b28a0f6ec9d79937a12d246170142a1e4611ab967d3d044ecff22bd611",
+      "CS-1995-Q34-1.webp": "9b5e281416bd13725759cb7dd0dcfb407469c8f2d953342aeab6e83c0b8a37ec",
+      "CS-1995-Q35-1.webp": "975bb69df91fb02342c93eb45ed6a3a785740c92f02c52d3e954a32b5e0c4b4f",
+      "CS-1995-Q36-1.webp": "c1fc08fcbfa92ff0767c32ec3ac75bdfd167052be102324041cc9b3d930a2ce1",
+      "CS-1995-Q36-2.webp": "e98d260d33df1c25017de93061aff603b820a49f0b7eedf525c9b0ff1a14f75b",
+      "CS-1995-Q37-1.webp": "9398487364744de10690ae90c1277ea6e8f5f076c050851ed46ce00f0779df59",
+      "CS-1995-Q38-1.webp": "7f50360c4ce786d9939f51d9e530f5bf6f218e357590085411f2074ce17f9c56",
+      "CS-1995-Q39-1.webp": "53e1aee19afe65e53fe6dba57f1f37f32af216c7f50c31f9c8eccaf9b2788095",
+      "CS-1995-Q40-1.webp": "867a275d714d58977402f01f7599b582fd7ba966f683b08de320b15bbb2e8c94",
+      "CS-1995-Q41-1.webp": "072e301aab2454de641c4c7de4eea53f72f68b8010b9ecf9e9ab7489408f80b0",
+      "CS-1995-Q42-1.webp": "488521bb2d64d68c72a999fc9adac4b37d6e6c1746ff81d55c2f382227bb009a",
+      "CS-1995-Q43-1.webp": "3f31c47540e4958d534aa99bc07221358c99ca1e3ddd27b842324a284481a395",
+      "CS-1995-Q44-1.webp": "8fc1bd28201ff3214dc193b8e3679aae941f5f6020bd7229698f7e52f82c40b7",
+      "CS-1995-Q45-1.webp": "a0a114bb3bb58d69ab16282682acbc8bcb1578b8f152798e9ded7fb4d7f786d9",
+      "CS-1995-Q46-1.webp": "1f01f77513366834e95d43f0deb20002bdf94130c13f4a6e1f2cd7e494d67921",
+      "CS-1995-Q47-1.webp": "37a2d746359bfe2bd2713e733fe9086cc31b323ce1a7ca73c7871a0d1be1773f",
+      "CS-1995-Q47-2.webp": "d823b308bec67f4a2cbfd76dbcba1a9e9f4a4432dc13ada739c62bebacdefd6a",
+      "CS-1995-Q48-1.webp": "461ba73a38341a4f7fbe0e2cf7876935fff37d2e925808633ecb47ce1ffd37ab",
+      "CS-1995-Q49-1.webp": "5a36a0b0609e3eb4c4c4266f559179787fd489b0d52df503270a8f4aaa66aea7",
+      "CS-1995-Q50-1.webp": "753a19063bb9567240036677b3e74de8a2cedeceac8491abbb80132d7cf5f0b9",
+      "CS-1995-Q51-1.webp": "b359c99b8299b1e20da8c3c2efa87bb0ac90e692eff1275169777deebdaa6219",
+      "CS-1995-Q51-2.webp": "b100288d4af1d7134288a13a7eb98983081adff062c1c5ca5c5ae43d0dd68028",
+      "CS-1995-Q52-1.webp": "be533fb92381cdfe312d00fd1335beeab4acbda973cbfd85882c0c99999ee630",
+      "CS-1995-Q53-1.webp": "e1d7f8b8038dc21da96813ce41f3abb0e11fd22ecbb9a33195c5fe65f6301e1b",
+      "CS-1995-Q54-1.webp": "f2f32b597755de289e3bee689bbdcdbe2780e954c5b0672a2323414d8ea676f9",
+      "CS-1995-Q54-2.webp": "5ab2c1066d8014b2b0e919f2cb7aba50991a3edd94cdeaf89e0fe7d258a83e28",
+      "CS-1995-Q55-1.webp": "f2f32b597755de289e3bee689bbdcdbe2780e954c5b0672a2323414d8ea676f9",
+      "CS-1995-Q55-2.webp": "5ab2c1066d8014b2b0e919f2cb7aba50991a3edd94cdeaf89e0fe7d258a83e28",
+      "CS-1995-Q55-3.webp": "d2ffbeddf9e297eaa6a6cfbb0a536f4147ca7a0984cf6efbca813d211db6bdc0",
+      "CS-1995-Q56-1.webp": "88cabdaa1eb396dc4c10c50a0176efe052c608c610535dc6a0cb5058537be8cf",
+      "CS-1995-Q57-1.webp": "9f98e3c783ca309d3d8505c793f5c9c380d513a96a374791d3ff4978fecc437c",
+      "CS-1995-Q58-1.webp": "eda710ef3bffc5dd03183ae40702efb434ffeab22530e266e0acafb8659de18c",
+      "CS-1995-Q59-1.webp": "332ce4769948e492909d2f33edbc260b8a32bb4b7ad9ac235fcab6eaa73ee76c",
+      "CS-1995-Q60-1.webp": "1049d94d1b57a027f41c56b6992bc0e7c5deb52195a55b84a6412d239c7fd97d",
+      "CS-1995-Q61-1.webp": "4a628b61cd414a87d1fae39775b3aa6d594d63fc295ad81078eaaff77d7e47f5",
+      "CS-1995-Q62-1.webp": "f904c1a94f197edf1494cf091cd3eb0cd9375e3dbab9b9d6f449e71a990f3df9",
+      "CS-1995-Q63-1.webp": "dec8c4b301ae6887a828e8c3981fbd203ec79f3e7d9876ce7ceefa6b762bf0b8",
+      "CS-1995-Q64-1.webp": "a5900d1064d291c387f6ef717013213579f86008d708b7013fd6efe44e4f4a0f",
+      "CS-1995-Q65-1.webp": "b8438a58f8f273470157309dcfea3629b7cde2ae96f11830c7f17587a8581e7c",
+      "CS-1995-Q66-1.webp": "3fd703cacb58c8591ec8da8d79e37205256908d08f7f40afcb70b9a262c97759",
+      "CS-1995-Q67-1.webp": "e790ddd6871721a59be2ad5c5c95d48424e6b42c9c5cf2b2227d481f6c0b4dd2",
+      "CS-1995-Q67-2.webp": "2147d3e3a05b62a2ffa000b296b160ed3eedf4cd220604e81e870ff5297ad11e",
+      "CS-1995-Q68-1.webp": "e790ddd6871721a59be2ad5c5c95d48424e6b42c9c5cf2b2227d481f6c0b4dd2",
+      "CS-1995-Q68-2.webp": "2147d3e3a05b62a2ffa000b296b160ed3eedf4cd220604e81e870ff5297ad11e",
+      "CS-1995-Q68-3.webp": "eeca62f5406e9d6700be15025c22a765a41d0ac7507f5ead2e24111bfcb11ad6",
+      "CS-1995-Q69-1.webp": "5863b5231ac8068d78aef5a51a968a2fb539fdd4489f1f4db1186278cf6370f6",
+      "CS-1995-Q70-1.webp": "6ede3ca0fad422242a3b2379b9e6ea6af08d4a01582a9d4141dace3382df462c",
+      "CS-1995-Q71-1.webp": "9385473df8f156d24b1be6058645fbb1fc59ae89ce57d6655d9d1e061e17e5d7",
+      "CS-1995-Q71-2.webp": "5a2e55ba57c2bcb86d0c8298c711a8988fd02b64d8c5678097882657acd85a03",
+      "CS-1995-Q72-1.webp": "9385473df8f156d24b1be6058645fbb1fc59ae89ce57d6655d9d1e061e17e5d7",
+      "CS-1995-Q72-2.webp": "0ebd431a227c4dfe20665a3d008e48ac25a31cd01fbd5531dba0361a316a6c82",
+      "CS-1995-Q73-1.webp": "9385473df8f156d24b1be6058645fbb1fc59ae89ce57d6655d9d1e061e17e5d7",
+      "CS-1995-Q73-2.webp": "253ad49644b80923ba084d61e826ebff4e554cde454f1754f55f3c534ec34d80",
+      "CS-1995-Q74-1.webp": "33e80409621d8d0df1ee3166b20778d4f6ae76c3a2950d631f723c199aab9af5",
+      "CS-1995-Q74-2.webp": "9d386d5d9784fc1cd1adaaedaf68a5f6ed7fffac946ed1b9a9c3aad2f83fbf0d",
+      "CS-1995-Q75-1.webp": "33e80409621d8d0df1ee3166b20778d4f6ae76c3a2950d631f723c199aab9af5",
+      "CS-1995-Q75-2.webp": "cc514119d2db10521c1b4d89cb4e01d6af9028e1ebb158a8cb7f635d45ea90d8",
+      "CS-1995-Q76-1.webp": "70fc01022fb0f8215e02219100acbae6cf22befc67e2e01cb9d626fafb5f52d8",
+      "CS-1995-Q77-1.webp": "3f4cb851d06acb4a4e44d03513608489935cb9282f67d78dbddc734bc5e136c9",
+      "CS-1995-Q77-2.webp": "30248c9c1b01d1aa2b9746ee505e523addc4b5db17b192bdaf692fffa2d4435f",
+      "CS-1995-Q78-1.webp": "4f4167178cdf06136281a2089607c3cc3ea3d7eff6487d23e3cc15347ce81ac3",
+      "CS-1995-Q79-1.webp": "e0aabbbd9581f532e78b2dc899af9d1090859479010bb67b5e796019449604de",
+      "CS-1995-Q80-1.webp": "859f0ea96db7dd955a28f1a0b92bd78869e6cee1e3b859eae54fb0421987727b",
+      "CS-1995-Q80-2.webp": "2caeb310d838ce4c11223229443a438e91be44a227f146a52ed90c6b5ae2cce3",
+      "CS-1995-Q81-1.webp": "859f0ea96db7dd955a28f1a0b92bd78869e6cee1e3b859eae54fb0421987727b",
+      "CS-1995-Q81-2.webp": "894518f33bf92681186ae275f2d0b208a211ca8167963c915507c236b2e9bff4",
+      "CS-1995-Q82-1.webp": "dc7f43c82ebb3ff0b1ad4f35ead23f753b6f696fbd596fd78e8772228a7b921a",
+      "CS-1995-Q83-1.webp": "8ad088c8d2039d6efe2b0411f1204caca7f2950a84c5ee79c74fdc0560a68c8b",
+      "CS-1995-Q84-1.webp": "4e8fcc967f0cbf34b5dc6b60faec0d711e768d724d18b0e53a4311017a487cf6",
+      "CS-1995-Q85-1.webp": "46c7fc8c29b342329a1e6007a3476193f28946a88a9818395c3fd6a13812397a",
+      "CS-1995-Q86-1.webp": "e2672770f0ad916111fe5f4ef80d3e420e1d0d743393113082d110845e5f9208",
+      "CS-1995-Q87-1.webp": "81e72f7377664206b6a35df6b037a00b78316376eb847ac1e93a94a4a9a54b3e",
+      "CS-1995-Q87-2.webp": "3bb4ec25f2d15a470aec369a911ee31936a6c770d7d3a47876281cc90b5363c6",
+      "CS-1995-Q88-1.webp": "81e72f7377664206b6a35df6b037a00b78316376eb847ac1e93a94a4a9a54b3e",
+      "CS-1995-Q88-2.webp": "d5b7e91be927ee9bb9718f35fb8550d30a9922ea97f2b3364d913c6df78a6faa",
+      "CS-1995-Q89-1.webp": "753c772a703db60dcf74dc0fad00e9af3eca048ef2a4ee5792b7abd9f67af44b",
+      "CS-1995-Q89-2.webp": "2546409d9d7205636727fa46a690a57d58e6e834fc9fad3459b5d5a906efe316",
+      "CS-1995-Q90-1.webp": "753c772a703db60dcf74dc0fad00e9af3eca048ef2a4ee5792b7abd9f67af44b",
+      "CS-1995-Q90-2.webp": "98cfd8da5cbdccc0a720beb62b7f56329c50fb52a45fd652bfeaa963f0e0a7b3",
+      "CS-1995-Q91-1.webp": "753c772a703db60dcf74dc0fad00e9af3eca048ef2a4ee5792b7abd9f67af44b",
+      "CS-1995-Q91-2.webp": "cc34c1321ea4d5325cd8ddf1041492517b1313b557fcee938cdfeafaf0679ce6"
+    }
+  }
+}

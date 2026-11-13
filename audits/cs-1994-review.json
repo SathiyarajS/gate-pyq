@@ -1,0 +1,10 @@
+{
+  "paper_id": "CS-1994",
+  "entries": 85,
+  "review": "Independent correctness, source and explanatory-depth review passed for all observed leaves. GFG pages1\u20137 and relevant alternate pages visually inspected; mathematical/source-model caveats retained. All 47 objectives and 38 descriptive leaves reviewed; Q62 minimum/maximum occupancy inference strengthened. No official key located. Original completeness unverified.",
+  "checks": [
+    "check_1994_objectives.py",
+    "check_1994_middle.py",
+    "check_cs_1994_q71_85.py"
+  ]
+}

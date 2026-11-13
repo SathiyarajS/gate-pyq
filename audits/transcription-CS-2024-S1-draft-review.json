@@ -1,0 +1,101 @@
+{
+  "paper_id": "CS-2024-S1",
+  "date": "2026-11-10",
+  "questions": 65,
+  "status": "draft_finished_transcriber_self_check",
+  "verified_questions": 0,
+  "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd",
+  "source_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "transcriber_checks": {
+    "all_text_and_options": "Codex drafts plus review-fixes applied; emphasis swept against PDF font flags for every crop; desktop production comparison self-checked for all 65 questions (see notes for each correction).",
+    "all_6_figures": "Inspected in the production render against the source crop; see per-question notes for changes.",
+    "generators": "Relocated to figures/sources/ with unique names; outputs compared with the bundled reviewed SVGs (see generator_notes).",
+    "solutions": "Checked against exact wording; source qualifications added where code typography is not valid C as printed."
+  },
+  "math_compilation": {
+    "engine": "pinned KaTeX",
+    "expressions": 261,
+    "failures": 0,
+    "trust": false,
+    "strict": "error"
+  },
+  "rendered_comparison_checked": false,
+  "independent_review": "pending (HANDOFF 3.3, fresh session)",
+  "remaining_checks": [
+    "Independent production-rendered comparison for all questions (HANDOFF 3.3)",
+    "Responsive light/dark, accessibility and PDF visual review"
+  ],
+  "sha256": {
+    "data/transcriptions/CS-2024-S1.json": "24a14986f1b830c1a96ea30dcf11ef9f88ff7d5a14b6ee4f426c8311064dca7e",
+    "figures/CS-2024-S1-Q10-1.svg": "0c5431aad01e83ab4f121023a52bc2e7f3544e43af89d230c0e7b1bf17c9f780",
+    "figures/CS-2024-S1-Q20-1.svg": "3d2d8c16a621fb4a69a1bd9b3cca3bd39ace9ad84da932ae16337b64739940df",
+    "figures/CS-2024-S1-Q28-1.svg": "9a58807c72ff704f550c980c242b7527d24bfe25a7713c9510ff4029d99e55e8",
+    "figures/CS-2024-S1-Q50-1.svg": "08b330df098f560d6a0917e9868d00e2e97290cdbf27cbf048805b90b9f9956d",
+    "figures/CS-2024-S1-Q64-1.svg": "163e2cf339c59c4ae36ef7849407d46ca9bc8771a60034cd2d1f869144f1f455",
+    "figures/CS-2024-S1-Q8-1.svg": "0ac7658b1702fde18cdd7133f39778584f1aa2d3cef853d119d4243956d33915"
+  },
+  "generator_notes": "figures/sources/CS-2024-S1-first.py reproduces Q8, Q10, Q20 and Q28 byte-identical to the bundled reviewed SVGs. figures/sources/CS-2024-S1-second.py reproduced Q50 and Q64 byte-identical; this session then moved two Q50 edge labels off their lines (viewBox widened to 0 -8 360 328); Q64 unchanged. CS-2024-S1-Q50-1.dot is the editable topology companion.",
+  "discrepancy_ids": [
+    "CS-2024-S1-Q18-TYPOGRAPHIC-QUOTES",
+    "CS-2024-S1-Q19-TYPOGRAPHIC-QUOTES",
+    "CS-2024-S1-Q42-BASE-CASE (reclassified question-error)"
+  ],
+  "transcriber_render_checks": {
+    "desktop_1280_light": "all 65 questions compared side by side with the source crop at full size",
+    "mobile_390_dark": "all 65 questions inspected on reduced-scale contact sheets for dark-theme contrast, figure visibility and overflow",
+    "mobile_small_text": "figure text renders small at 390 px in: Q20 (four ER panels), Q64"
+  },
+  "site_css_change": "site-static/style.css: display maths scrolls horizontally inside its own box; table cells no longer break words mid-word (affects all papers).",
+  "post_review_changes": [
+    {
+      "date": "2026-11-10",
+      "session": "claude-code-sweep-2026-11-10",
+      "reason": "Figure label styling (bold/italic) matched to the source typography.",
+      "entries_changed": [
+        "CS-2024-S1-Q8"
+      ],
+      "note": "The sha256 map above is left as recorded; these files differ from it and need the independent review (HANDOFF 3.3). Entries remain draft.",
+      "sha256_after": {
+        "data/transcriptions/CS-2024-S1.json": "02de86f08bf9f23f4c9a5afca8d524bb58db05e241a27b96d782ba81c3c57b61",
+        "figures/CS-2024-S1-Q8-1.svg": "a99d9b14041e338307c9ea0c892df7db7f24af8e7ac6f673ab28ef7c24183f04"
+      }
+    }
+  ]
+}

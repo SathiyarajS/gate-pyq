@@ -1,0 +1,3718 @@
+{
+  "paper_id": "CS-2000",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "6c900cf69f2f91be12f7bb0871cec19aeffe19972b42c400e6121be8a7a46beb",
+  "preparation_evidence_sha256": "dbcff1e9bbb26eaa1c96d3bddea9af0dc1249d85663708b7a58225febbcbad5b",
+  "independent_review_evidence_sha256": "12a648a41280945b73d20be4391ed719c8f4aa7a6ea28134e4ae7a24024f5248",
+  "questions": 96,
+  "crop_parts": 173,
+  "verified_questions": 96,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2000",
+    "status": "approved",
+    "review_scope": "Independent crop fidelity to available third-party reproduction only",
+    "crops_sha256": "6c900cf69f2f91be12f7bb0871cec19aeffe19972b42c400e6121be8a7a46beb",
+    "source_file": "sources/web/media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203732/GATE2000_compressed-1.pdf",
+    "source_sha256": "72c2036a2c00a1ed4f4578ba0888e3bf2f745ef7a7b9f724640ad4540f7ee509",
+    "source_provenance": "third_party_reproduction",
+    "original_source_verified": false,
+    "original_completeness_certified": false,
+    "questions": 96,
+    "crop_parts": 173,
+    "full_source_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "actual_output_contact_sheets_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "actual_output_parts_visually_reviewed": 173,
+    "fresh_byte_identity": {
+      "source_matches_canonical_hash": true,
+      "proposal_matches_frozen_hash": true,
+      "webp_3x_quality80_rerender_byte_identical": 173,
+      "contact_sheets_pixel_identical_to_rebuilt_actual_outputs": 29
+    },
+    "findings": [
+      "Read CODEX_INSTRUCTIONS.md, audits/crops.md, crop-source-map.json, preparation audit and notes. Independently opened all ten full source pages and all 29 actual-output contact sheets. No crop-induced loss of available question content, diagrams, code, formulas, option labels or requested subparts found. Headers, page frames and section directions excluded without leaking unrelated questions.",
+      "Q1-Q49 map to reproduction MCQs 1-49. Q50 maps to original 3 / reproduction 50. All Q51-Q96 descriptive mappings checked by subject, shared context and task against question records and source; normalized IDs are not source printed numbers.",
+      "MCQ continuations Q4,Q13,Q17,Q22,Q25,Q35,Q38,Q42,Q47 preserve split options, diagrams and stems. Q52,Q63-Q65,Q70,Q77-Q79,Q82-Q83,Q87,Q90-Q94 preserve descriptive cross-column/page content.",
+      "Verified 55 deliberate overlapping part pairs by recomputation and visual content. Shared stems, PDA labels, timing diagrams, programs, postfix expression and line equation are retained. Q62 needs Q61 bit labels; Q70 needs Q69 20% branch frequency; Q81 needs Q80 memoization instruction; Q89 needs Q88 reader/writer code; Q94 needs Q92 redistribution; Q96 needs Q95 TP-view definition. Six nonidentical heading overlaps have exact source bounds and intersections.",
+      "All 173 current WEBP files freshly rerendered from canonical PDF at 3x quality80 and were byte-identical. All 29 viewed contacts independently rebuilt from those output files and pixel-identical."
+    ],
+    "limitations": [
+      "The canonical PDF is a third-party reproduction, not an authenticated complete original exam. Missing XObject resource warnings X1/X3/X5/X7/X9/X11/X13/X15/X17/X19 were freshly reproduced and agree with source-map. The assignment mentioned Fm0, but that specific name was not observed in this review. Missing resources do not authorize reconstructing content or certifying original completeness.",
+      "Small code, formulas, operator/overbar scope and diagram labels are natively blurry. Their source appearance is preserved, not resolved or certified as a transcription.",
+      "Reproduction Q57 IN09H / DA opcode inconsistency is retained. Q64 explicitly permits nonadjacent swaps. Q62 set-call text and Q58 assembly mnemonics remain as rendered, without replacing them from another reproduction or the paraphrase. Q29 set notation and other source ambiguities remain untouched.",
+      "Approval does not verify answers, solutions, original-source fidelity, transcription accuracy, publication readiness or redistribution rights."
+    ],
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2000-Q51",
+          "CS-2000-Q52"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 6,
+        "source_bboxes": [
+          [
+            300.0,
+            638.667,
+            523.333,
+            679.333
+          ],
+          [
+            300.0,
+            638.667,
+            523.333,
+            679.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          638.667,
+          523.333,
+          679.333
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q53",
+          "CS-2000-Q54"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.333,
+            74.0,
+            279.333,
+            136.667
+          ],
+          [
+            53.333,
+            74.0,
+            279.333,
+            136.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          74.0,
+          279.333,
+          136.667
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q55",
+          "CS-2000-Q56"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.333,
+            218.667,
+            279.333,
+            318.0
+          ],
+          [
+            53.333,
+            218.667,
+            279.333,
+            318.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          218.667,
+          279.333,
+          318.0
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q57",
+          "CS-2000-Q58"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.333,
+            376.667,
+            279.333,
+            391.333
+          ],
+          [
+            53.333,
+            376.667,
+            279.333,
+            391.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          376.667,
+          279.333,
+          391.333
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q59",
+          "CS-2000-Q60"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            53.333,
+            628.0,
+            279.333,
+            667.333
+          ],
+          [
+            53.333,
+            628.0,
+            279.333,
+            667.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          628.0,
+          279.333,
+          667.333
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q59",
+          "CS-2000-Q60"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            44.667,
+            523.333,
+            211.333
+          ],
+          [
+            300.0,
+            44.667,
+            523.333,
+            211.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          44.667,
+          523.333,
+          211.333
+        ],
+        "reason": "Reviewed shared shared_diagram_and_notation / shared_diagram_and_notation within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q61",
+          "CS-2000-Q62"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            338.667,
+            523.333,
+            377.333
+          ],
+          [
+            300.0,
+            338.667,
+            523.333,
+            377.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          338.667,
+          523.333,
+          377.333
+        ],
+        "reason": "Reviewed shared shared_stem / shared_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q61",
+          "CS-2000-Q62"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            379.333,
+            523.333,
+            442.0
+          ],
+          [
+            300.0,
+            379.333,
+            523.333,
+            442.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          379.333,
+          523.333,
+          442.0
+        ],
+        "reason": "Reviewed shared linked_bit_label_prerequisite / linked_bit_label_prerequisite within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q63",
+          "CS-2000-Q64"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ],
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          496.0,
+          523.333,
+          673.333
+        ],
+        "reason": "Reviewed shared shared_instruction_and_timing_diagram / shared_instruction_and_timing_diagram within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q63",
+          "CS-2000-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ],
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          496.0,
+          523.333,
+          673.333
+        ],
+        "reason": "Reviewed shared shared_instruction_and_timing_diagram / shared_instruction_and_timing_diagram within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q64",
+          "CS-2000-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 7,
+        "source_bboxes": [
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ],
+          [
+            300.0,
+            496.0,
+            523.333,
+            673.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          496.0,
+          523.333,
+          673.333
+        ],
+        "reason": "Reviewed shared shared_instruction_and_timing_diagram / shared_instruction_and_timing_diagram within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q66",
+          "CS-2000-Q67"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ],
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          154.0,
+          279.333,
+          317.333
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q66",
+          "CS-2000-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ],
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          154.0,
+          279.333,
+          317.333
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q66",
+          "CS-2000-Q67"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            318.667,
+            279.333,
+            339.333
+          ],
+          [
+            53.333,
+            318.667,
+            279.333,
+            339.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          318.667,
+          279.333,
+          339.333
+        ],
+        "reason": "Reviewed shared shared_input_pairs / shared_input_pairs within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q67",
+          "CS-2000-Q68"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ],
+          [
+            53.333,
+            154.0,
+            279.333,
+            317.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          154.0,
+          279.333,
+          317.333
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q69",
+          "CS-2000-Q70"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            416.667,
+            279.333,
+            484.667
+          ],
+          [
+            53.333,
+            416.667,
+            279.333,
+            484.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          416.667,
+          279.333,
+          484.667
+        ],
+        "reason": "Reviewed shared shared_pipeline_stem / shared_pipeline_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q69",
+          "CS-2000-Q70"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            53.333,
+            486.667,
+            279.333,
+            534.0
+          ],
+          [
+            53.333,
+            486.667,
+            279.333,
+            534.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          486.667,
+          279.333,
+          534.0
+        ],
+        "reason": "Reviewed shared linked_branch_frequency_prerequisite / linked_branch_frequency_prerequisite within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q71",
+          "CS-2000-Q72"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q71",
+          "CS-2000-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q71",
+          "CS-2000-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q72",
+          "CS-2000-Q73"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q72",
+          "CS-2000-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q72",
+          "CS-2000-Q73"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ],
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          207.333,
+          523.333,
+          271.333
+        ],
+        "reason": "Reviewed shared shared_postfix_expression / shared_postfix_expression within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q72",
+          "CS-2000-Q74"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ],
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          207.333,
+          523.333,
+          271.333
+        ],
+        "reason": "Reviewed shared shared_postfix_expression / shared_postfix_expression within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q73",
+          "CS-2000-Q74"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ],
+          [
+            300.0,
+            114.667,
+            523.333,
+            155.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          114.667,
+          523.333,
+          155.333
+        ],
+        "reason": "Reviewed shared shared_stack_stem / shared_stack_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q73",
+          "CS-2000-Q74"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ],
+          [
+            300.0,
+            207.333,
+            523.333,
+            271.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          207.333,
+          523.333,
+          271.333
+        ],
+        "reason": "Reviewed shared shared_postfix_expression / shared_postfix_expression within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q75",
+          "CS-2000-Q76"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            313.333,
+            523.333,
+            342.0
+          ],
+          [
+            300.0,
+            313.333,
+            523.333,
+            342.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          313.333,
+          523.333,
+          342.0
+        ],
+        "reason": "Reviewed shared shared_line_equation / shared_line_equation within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q77",
+          "CS-2000-Q78"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ],
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          514.0,
+          523.333,
+          554.0
+        ],
+        "reason": "Reviewed shared shared_array_initialization / shared_array_initialization within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q77",
+          "CS-2000-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ],
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          514.0,
+          523.333,
+          554.0
+        ],
+        "reason": "Reviewed shared shared_array_initialization / shared_array_initialization within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q77",
+          "CS-2000-Q78"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ],
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          45.333,
+          279.333,
+          176.667
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q77",
+          "CS-2000-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ],
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          45.333,
+          279.333,
+          176.667
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q78",
+          "CS-2000-Q79"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 8,
+        "source_bboxes": [
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ],
+          [
+            300.0,
+            514.0,
+            523.333,
+            554.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          514.0,
+          523.333,
+          554.0
+        ],
+        "reason": "Reviewed shared shared_array_initialization / shared_array_initialization within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q78",
+          "CS-2000-Q79"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ],
+          [
+            53.333,
+            45.333,
+            279.333,
+            176.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          45.333,
+          279.333,
+          176.667
+        ],
+        "reason": "Reviewed shared shared_program / shared_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q80",
+          "CS-2000-Q81"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            357.333,
+            279.333,
+            502.0
+          ],
+          [
+            53.333,
+            357.333,
+            279.333,
+            502.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          357.333,
+          279.333,
+          502.0
+        ],
+        "reason": "Reviewed shared shared_fibonacci_program / shared_fibonacci_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q80",
+          "CS-2000-Q81"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            507.333,
+            279.333,
+            581.333
+          ],
+          [
+            53.333,
+            507.333,
+            279.333,
+            581.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          507.333,
+          279.333,
+          581.333
+        ],
+        "reason": "Reviewed shared linked_memoization_prerequisite / linked_memoization_prerequisite within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q82",
+          "CS-2000-Q83"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            53.333,
+            625.333,
+            279.333,
+            699.333
+          ],
+          [
+            53.333,
+            625.333,
+            279.333,
+            699.333
+          ]
+        ],
+        "intersection": [
+          53.333,
+          625.333,
+          279.333,
+          699.333
+        ],
+        "reason": "Reviewed shared shared_array_stem / shared_array_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q84",
+          "CS-2000-Q85"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            138.0,
+            523.333,
+            385.333
+          ],
+          [
+            300.0,
+            138.0,
+            523.333,
+            385.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          138.0,
+          523.333,
+          385.333
+        ],
+        "reason": "Reviewed shared shared_pascal_program_and_prompt / shared_pascal_program_and_prompt within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q86",
+          "CS-2000-Q87"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 9,
+        "source_bboxes": [
+          [
+            300.0,
+            467.333,
+            523.333,
+            594.0
+          ],
+          [
+            300.0,
+            467.333,
+            523.333,
+            594.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          467.333,
+          523.333,
+          594.0
+        ],
+        "reason": "Reviewed shared shared_sdts / shared_sdts within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q88",
+          "CS-2000-Q89"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            98.667,
+            279.333,
+            112.667
+          ],
+          [
+            53.333,
+            98.667,
+            279.333,
+            112.667
+          ]
+        ],
+        "intersection": [
+          53.333,
+          98.667,
+          279.333,
+          112.667
+        ],
+        "reason": "Reviewed shared shared_heading / shared_heading within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q88",
+          "CS-2000-Q89"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            115.333,
+            279.333,
+            502.0
+          ],
+          [
+            53.333,
+            115.333,
+            279.333,
+            502.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          115.333,
+          279.333,
+          502.0
+        ],
+        "reason": "Reviewed shared linked_reader_writer_program / linked_reader_writer_program within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q90",
+          "CS-2000-Q91"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          628.0
+        ],
+        "reason": "Reviewed shared shared_btree_capacity_and_sequence / shared_btree_capacity_and_sequence within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q90",
+          "CS-2000-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          628.0
+        ],
+        "reason": "Reviewed shared shared_btree_capacity_and_sequence / shared_btree_capacity_and_sequence within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q90",
+          "CS-2000-Q93"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q90",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q90",
+          "CS-2000-Q91"
+        ],
+        "parts": [
+          3,
+          3
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            76.667,
+            523.333,
+            89.333
+          ],
+          [
+            300.0,
+            76.667,
+            523.333,
+            89.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          76.667,
+          523.333,
+          89.333
+        ],
+        "reason": "Reviewed shared shared_no_intermediate_stages_instruction / shared_no_intermediate_stages_instruction within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q91",
+          "CS-2000-Q92"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          628.0
+        ],
+        "reason": "Reviewed shared shared_btree_capacity_and_sequence / shared_btree_capacity_and_sequence within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q91",
+          "CS-2000-Q93"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q91",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q92",
+          "CS-2000-Q93"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q92",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            628.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "The smaller crop contains only reproduction Q68 heading, intentionally reused for general B+-tree occupancy subparts; overlap with the larger Q68(a) context is confined to that heading."
+      },
+      {
+        "questions": [
+          "CS-2000-Q92",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            92.0,
+            523.333,
+            190.667
+          ],
+          [
+            300.0,
+            92.0,
+            523.333,
+            190.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          92.0,
+          523.333,
+          190.667
+        ],
+        "reason": "Reviewed shared linked_sibling_redistribution_rule / linked_sibling_redistribution_rule within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q93",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ],
+          [
+            53.333,
+            538.0,
+            279.333,
+            552.0
+          ]
+        ],
+        "intersection": [
+          53.333,
+          538.0,
+          279.333,
+          552.0
+        ],
+        "reason": "Reviewed shared shared_heading / shared_heading within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q93",
+          "CS-2000-Q94"
+        ],
+        "parts": [
+          2,
+          3
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            194.0,
+            523.333,
+            268.667
+          ],
+          [
+            300.0,
+            194.0,
+            523.333,
+            268.667
+          ]
+        ],
+        "intersection": [
+          300.0,
+          194.0,
+          523.333,
+          268.667
+        ],
+        "reason": "Reviewed shared shared_general_btree_stem / shared_general_btree_stem within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q95",
+          "CS-2000-Q96"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            302.667,
+            523.333,
+            372.0
+          ],
+          [
+            300.0,
+            302.667,
+            523.333,
+            372.0
+          ]
+        ],
+        "intersection": [
+          300.0,
+          302.667,
+          523.333,
+          372.0
+        ],
+        "reason": "Reviewed shared shared_transaction_schema / shared_transaction_schema within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      },
+      {
+        "questions": [
+          "CS-2000-Q95",
+          "CS-2000-Q96"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 10,
+        "source_bboxes": [
+          [
+            300.0,
+            374.667,
+            523.333,
+            467.333
+          ],
+          [
+            300.0,
+            374.667,
+            523.333,
+            467.333
+          ]
+        ],
+        "intersection": [
+          300.0,
+          374.667,
+          523.333,
+          467.333
+        ],
+        "reason": "Reviewed shared linked_view_definition / linked_view_definition within the same reproduced descriptive question; required context, not unrelated-question leakage."
+      }
+    ],
+    "mapping": [
+      {
+        "question_id": "CS-2000-Q1",
+        "original_printed_number_metadata": "1.1",
+        "reproduction_number": 1
+      },
+      {
+        "question_id": "CS-2000-Q2",
+        "original_printed_number_metadata": "1.2",
+        "reproduction_number": 2
+      },
+      {
+        "question_id": "CS-2000-Q3",
+        "original_printed_number_metadata": "1.3",
+        "reproduction_number": 3
+      },
+      {
+        "question_id": "CS-2000-Q4",
+        "original_printed_number_metadata": "1.4",
+        "reproduction_number": 4
+      },
+      {
+        "question_id": "CS-2000-Q5",
+        "original_printed_number_metadata": "1.5",
+        "reproduction_number": 5
+      },
+      {
+        "question_id": "CS-2000-Q6",
+        "original_printed_number_metadata": "1.6",
+        "reproduction_number": 6
+      },
+      {
+        "question_id": "CS-2000-Q7",
+        "original_printed_number_metadata": "1.7",
+        "reproduction_number": 7
+      },
+      {
+        "question_id": "CS-2000-Q8",
+        "original_printed_number_metadata": "1.8",
+        "reproduction_number": 8
+      },
+      {
+        "question_id": "CS-2000-Q9",
+        "original_printed_number_metadata": "1.9",
+        "reproduction_number": 9
+      },
+      {
+        "question_id": "CS-2000-Q10",
+        "original_printed_number_metadata": "1.10",
+        "reproduction_number": 10
+      },
+      {
+        "question_id": "CS-2000-Q11",
+        "original_printed_number_metadata": "1.11",
+        "reproduction_number": 11
+      },
+      {
+        "question_id": "CS-2000-Q12",
+        "original_printed_number_metadata": "1.12",
+        "reproduction_number": 12
+      },
+      {
+        "question_id": "CS-2000-Q13",
+        "original_printed_number_metadata": "1.13",
+        "reproduction_number": 13
+      },
+      {
+        "question_id": "CS-2000-Q14",
+        "original_printed_number_metadata": "1.14",
+        "reproduction_number": 14
+      },
+      {
+        "question_id": "CS-2000-Q15",
+        "original_printed_number_metadata": "1.15",
+        "reproduction_number": 15
+      },
+      {
+        "question_id": "CS-2000-Q16",
+        "original_printed_number_metadata": "1.16",
+        "reproduction_number": 16
+      },
+      {
+        "question_id": "CS-2000-Q17",
+        "original_printed_number_metadata": "1.17",
+        "reproduction_number": 17
+      },
+      {
+        "question_id": "CS-2000-Q18",
+        "original_printed_number_metadata": "1.18",
+        "reproduction_number": 18
+      },
+      {
+        "question_id": "CS-2000-Q19",
+        "original_printed_number_metadata": "1.19",
+        "reproduction_number": 19
+      },
+      {
+        "question_id": "CS-2000-Q20",
+        "original_printed_number_metadata": "1.20",
+        "reproduction_number": 20
+      },
+      {
+        "question_id": "CS-2000-Q21",
+        "original_printed_number_metadata": "1.21",
+        "reproduction_number": 21
+      },
+      {
+        "question_id": "CS-2000-Q22",
+        "original_printed_number_metadata": "1.22",
+        "reproduction_number": 22
+      },
+      {
+        "question_id": "CS-2000-Q23",
+        "original_printed_number_metadata": "1.23",
+        "reproduction_number": 23
+      },
+      {
+        "question_id": "CS-2000-Q24",
+        "original_printed_number_metadata": "2.1",
+        "reproduction_number": 24
+      },
+      {
+        "question_id": "CS-2000-Q25",
+        "original_printed_number_metadata": "2.2",
+        "reproduction_number": 25
+      },
+      {
+        "question_id": "CS-2000-Q26",
+        "original_printed_number_metadata": "2.3",
+        "reproduction_number": 26
+      },
+      {
+        "question_id": "CS-2000-Q27",
+        "original_printed_number_metadata": "2.4",
+        "reproduction_number": 27
+      },
+      {
+        "question_id": "CS-2000-Q28",
+        "original_printed_number_metadata": "2.5",
+        "reproduction_number": 28
+      },
+      {
+        "question_id": "CS-2000-Q29",
+        "original_printed_number_metadata": "2.6",
+        "reproduction_number": 29
+      },
+      {
+        "question_id": "CS-2000-Q30",
+        "original_printed_number_metadata": "2.7",
+        "reproduction_number": 30
+      },
+      {
+        "question_id": "CS-2000-Q31",
+        "original_printed_number_metadata": "2.8",
+        "reproduction_number": 31
+      },
+      {
+        "question_id": "CS-2000-Q32",
+        "original_printed_number_metadata": "2.9",
+        "reproduction_number": 32
+      },
+      {
+        "question_id": "CS-2000-Q33",
+        "original_printed_number_metadata": "2.10",
+        "reproduction_number": 33
+      },
+      {
+        "question_id": "CS-2000-Q34",
+        "original_printed_number_metadata": "2.11",
+        "reproduction_number": 34
+      },
+      {
+        "question_id": "CS-2000-Q35",
+        "original_printed_number_metadata": "2.12",
+        "reproduction_number": 35
+      },
+      {
+        "question_id": "CS-2000-Q36",
+        "original_printed_number_metadata": "2.13",
+        "reproduction_number": 36
+      },
+      {
+        "question_id": "CS-2000-Q37",
+        "original_printed_number_metadata": "2.14",
+        "reproduction_number": 37
+      },
+      {
+        "question_id": "CS-2000-Q38",
+        "original_printed_number_metadata": "2.15",
+        "reproduction_number": 38
+      },
+      {
+        "question_id": "CS-2000-Q39",
+        "original_printed_number_metadata": "2.16",
+        "reproduction_number": 39
+      },
+      {
+        "question_id": "CS-2000-Q40",
+        "original_printed_number_metadata": "2.17",
+        "reproduction_number": 40
+      },
+      {
+        "question_id": "CS-2000-Q41",
+        "original_printed_number_metadata": "2.18",
+        "reproduction_number": 41
+      },
+      {
+        "question_id": "CS-2000-Q42",
+        "original_printed_number_metadata": "2.19",
+        "reproduction_number": 42
+      },
+      {
+        "question_id": "CS-2000-Q43",
+        "original_printed_number_metadata": "2.20",
+        "reproduction_number": 43
+      },
+      {
+        "question_id": "CS-2000-Q44",
+        "original_printed_number_metadata": "2.21",
+        "reproduction_number": 44
+      },
+      {
+        "question_id": "CS-2000-Q45",
+        "original_printed_number_metadata": "2.22",
+        "reproduction_number": 45
+      },
+      {
+        "question_id": "CS-2000-Q46",
+        "original_printed_number_metadata": "2.23",
+        "reproduction_number": 46
+      },
+      {
+        "question_id": "CS-2000-Q47",
+        "original_printed_number_metadata": "2.24",
+        "reproduction_number": 47
+      },
+      {
+        "question_id": "CS-2000-Q48",
+        "original_printed_number_metadata": "2.25",
+        "reproduction_number": 48
+      },
+      {
+        "question_id": "CS-2000-Q49",
+        "original_printed_number_metadata": "2.26",
+        "reproduction_number": 49
+      },
+      {
+        "question_id": "CS-2000-Q50",
+        "original_printed_number_metadata": "3",
+        "reproduction_number": 50
+      },
+      {
+        "question_id": "CS-2000-Q51",
+        "original_printed_number_metadata": "4(a)",
+        "reproduction_number": 51
+      },
+      {
+        "question_id": "CS-2000-Q52",
+        "original_printed_number_metadata": "4(b)",
+        "reproduction_number": 51
+      },
+      {
+        "question_id": "CS-2000-Q53",
+        "original_printed_number_metadata": "5(a)",
+        "reproduction_number": 52
+      },
+      {
+        "question_id": "CS-2000-Q54",
+        "original_printed_number_metadata": "5(b)",
+        "reproduction_number": 52
+      },
+      {
+        "question_id": "CS-2000-Q55",
+        "original_printed_number_metadata": "6(a)",
+        "reproduction_number": 53
+      },
+      {
+        "question_id": "CS-2000-Q56",
+        "original_printed_number_metadata": "6(b)",
+        "reproduction_number": 53
+      },
+      {
+        "question_id": "CS-2000-Q57",
+        "original_printed_number_metadata": "7(a)",
+        "reproduction_number": 54
+      },
+      {
+        "question_id": "CS-2000-Q58",
+        "original_printed_number_metadata": "7(b)",
+        "reproduction_number": 54
+      },
+      {
+        "question_id": "CS-2000-Q59",
+        "original_printed_number_metadata": "8(a)",
+        "reproduction_number": 55
+      },
+      {
+        "question_id": "CS-2000-Q60",
+        "original_printed_number_metadata": "8(b)",
+        "reproduction_number": 55
+      },
+      {
+        "question_id": "CS-2000-Q61",
+        "original_printed_number_metadata": "9(a)",
+        "reproduction_number": 56
+      },
+      {
+        "question_id": "CS-2000-Q62",
+        "original_printed_number_metadata": "9(b)",
+        "reproduction_number": 56
+      },
+      {
+        "question_id": "CS-2000-Q63",
+        "original_printed_number_metadata": "10(a)",
+        "reproduction_number": 57
+      },
+      {
+        "question_id": "CS-2000-Q64",
+        "original_printed_number_metadata": "10(b)",
+        "reproduction_number": 57
+      },
+      {
+        "question_id": "CS-2000-Q65",
+        "original_printed_number_metadata": "10(c)",
+        "reproduction_number": 57
+      },
+      {
+        "question_id": "CS-2000-Q66",
+        "original_printed_number_metadata": "11(a)(i)",
+        "reproduction_number": 58
+      },
+      {
+        "question_id": "CS-2000-Q67",
+        "original_printed_number_metadata": "11(a)(ii)",
+        "reproduction_number": 58
+      },
+      {
+        "question_id": "CS-2000-Q68",
+        "original_printed_number_metadata": "11(b)",
+        "reproduction_number": 58
+      },
+      {
+        "question_id": "CS-2000-Q69",
+        "original_printed_number_metadata": "12(a)",
+        "reproduction_number": 59
+      },
+      {
+        "question_id": "CS-2000-Q70",
+        "original_printed_number_metadata": "12(b)",
+        "reproduction_number": 59
+      },
+      {
+        "question_id": "CS-2000-Q71",
+        "original_printed_number_metadata": "13(a)",
+        "reproduction_number": 60
+      },
+      {
+        "question_id": "CS-2000-Q72",
+        "original_printed_number_metadata": "13(b)(i)",
+        "reproduction_number": 60
+      },
+      {
+        "question_id": "CS-2000-Q73",
+        "original_printed_number_metadata": "13(b)(ii)",
+        "reproduction_number": 60
+      },
+      {
+        "question_id": "CS-2000-Q74",
+        "original_printed_number_metadata": "13(b)(iii)",
+        "reproduction_number": 60
+      },
+      {
+        "question_id": "CS-2000-Q75",
+        "original_printed_number_metadata": "14(a)",
+        "reproduction_number": 61
+      },
+      {
+        "question_id": "CS-2000-Q76",
+        "original_printed_number_metadata": "14(b)",
+        "reproduction_number": 61
+      },
+      {
+        "question_id": "CS-2000-Q77",
+        "original_printed_number_metadata": "15(a)",
+        "reproduction_number": 62
+      },
+      {
+        "question_id": "CS-2000-Q78",
+        "original_printed_number_metadata": "15(b)",
+        "reproduction_number": 62
+      },
+      {
+        "question_id": "CS-2000-Q79",
+        "original_printed_number_metadata": "15(c)",
+        "reproduction_number": 62
+      },
+      {
+        "question_id": "CS-2000-Q80",
+        "original_printed_number_metadata": "16(a)",
+        "reproduction_number": 63
+      },
+      {
+        "question_id": "CS-2000-Q81",
+        "original_printed_number_metadata": "16(b)",
+        "reproduction_number": 63
+      },
+      {
+        "question_id": "CS-2000-Q82",
+        "original_printed_number_metadata": "17(a)",
+        "reproduction_number": 64
+      },
+      {
+        "question_id": "CS-2000-Q83",
+        "original_printed_number_metadata": "17(b)",
+        "reproduction_number": 64
+      },
+      {
+        "question_id": "CS-2000-Q84",
+        "original_printed_number_metadata": "18(a)",
+        "reproduction_number": 65
+      },
+      {
+        "question_id": "CS-2000-Q85",
+        "original_printed_number_metadata": "18(b)",
+        "reproduction_number": 65
+      },
+      {
+        "question_id": "CS-2000-Q86",
+        "original_printed_number_metadata": "19(a)",
+        "reproduction_number": 66
+      },
+      {
+        "question_id": "CS-2000-Q87",
+        "original_printed_number_metadata": "19(b)",
+        "reproduction_number": 66
+      },
+      {
+        "question_id": "CS-2000-Q88",
+        "original_printed_number_metadata": "20(a)",
+        "reproduction_number": 67
+      },
+      {
+        "question_id": "CS-2000-Q89",
+        "original_printed_number_metadata": "20(b)",
+        "reproduction_number": 67
+      },
+      {
+        "question_id": "CS-2000-Q90",
+        "original_printed_number_metadata": "21(a)(i)",
+        "reproduction_number": 68
+      },
+      {
+        "question_id": "CS-2000-Q91",
+        "original_printed_number_metadata": "21(a)(ii)",
+        "reproduction_number": 68
+      },
+      {
+        "question_id": "CS-2000-Q92",
+        "original_printed_number_metadata": "21(b)",
+        "reproduction_number": 68
+      },
+      {
+        "question_id": "CS-2000-Q93",
+        "original_printed_number_metadata": "21(c)(i)",
+        "reproduction_number": 68
+      },
+      {
+        "question_id": "CS-2000-Q94",
+        "original_printed_number_metadata": "21(c)(ii)",
+        "reproduction_number": 68
+      },
+      {
+        "question_id": "CS-2000-Q95",
+        "original_printed_number_metadata": "22(a)",
+        "reproduction_number": 69
+      },
+      {
+        "question_id": "CS-2000-Q96",
+        "original_printed_number_metadata": "22(b)",
+        "reproduction_number": 69
+      }
+    ],
+    "outputs": [
+      {
+        "question_id": "CS-2000-Q1",
+        "part": 1,
+        "file": "images/CS-2000-Q1-1.webp",
+        "sha256": "c19f73b22e40a847be6bf0f43597799a14b8289efa129d08a9ab46b802bade65",
+        "width": 678,
+        "height": 338
+      },
+      {
+        "question_id": "CS-2000-Q2",
+        "part": 1,
+        "file": "images/CS-2000-Q2-1.webp",
+        "sha256": "d70546e54254e67fbeaf217d6c72e69ab7bc013e33a1e1dbb98a9afe53b4150c",
+        "width": 678,
+        "height": 326
+      },
+      {
+        "question_id": "CS-2000-Q3",
+        "part": 1,
+        "file": "images/CS-2000-Q3-1.webp",
+        "sha256": "c5463db833532556923c592e8e8eb3f9d00a1de18f1ffcc98ff144cee2668eb7",
+        "width": 678,
+        "height": 418
+      },
+      {
+        "question_id": "CS-2000-Q4",
+        "part": 1,
+        "file": "images/CS-2000-Q4-1.webp",
+        "sha256": "4c138d4893dde01af064013bff9003c6013f1a4fb056144d49e8623b3058495d",
+        "width": 678,
+        "height": 250
+      },
+      {
+        "question_id": "CS-2000-Q4",
+        "part": 2,
+        "file": "images/CS-2000-Q4-2.webp",
+        "sha256": "07340aeccaca76e198d2683efb8d65a5ca262bab5cbf01efbc6f708fa9d4e7ef",
+        "width": 670,
+        "height": 94
+      },
+      {
+        "question_id": "CS-2000-Q5",
+        "part": 1,
+        "file": "images/CS-2000-Q5-1.webp",
+        "sha256": "f240713ceebf51ce48f51ff131ed9072eb74127e5bfae8189aa97ec0700c5528",
+        "width": 670,
+        "height": 307
+      },
+      {
+        "question_id": "CS-2000-Q6",
+        "part": 1,
+        "file": "images/CS-2000-Q6-1.webp",
+        "sha256": "f5680ea3093f06f9cc17fcb1a223a1194475e05b70a7e2902a4066f930cd188d",
+        "width": 670,
+        "height": 268
+      },
+      {
+        "question_id": "CS-2000-Q7",
+        "part": 1,
+        "file": "images/CS-2000-Q7-1.webp",
+        "sha256": "b15a5718552826733d3b6f9bcfedecc9822be0a2be0c65f26bc354ada234a2ff",
+        "width": 670,
+        "height": 268
+      },
+      {
+        "question_id": "CS-2000-Q8",
+        "part": 1,
+        "file": "images/CS-2000-Q8-1.webp",
+        "sha256": "18429cc37696670fcac6973043b2df4822d841aa4ed106feb4827fe417cff6b6",
+        "width": 670,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q9",
+        "part": 1,
+        "file": "images/CS-2000-Q9-1.webp",
+        "sha256": "852cfd1bc2a380591788b96552e351b7e76698a942d4641e880ac466bbaeb2b2",
+        "width": 670,
+        "height": 494
+      },
+      {
+        "question_id": "CS-2000-Q10",
+        "part": 1,
+        "file": "images/CS-2000-Q10-1.webp",
+        "sha256": "41e986e80f7294d7b4e566fd57999a6e8ec4c592b117cedec9bec8927109eeea",
+        "width": 678,
+        "height": 456
+      },
+      {
+        "question_id": "CS-2000-Q11",
+        "part": 1,
+        "file": "images/CS-2000-Q11-1.webp",
+        "sha256": "91b92a90771b1678557fdeabeb0d8d1c134c29d059c2c2997a80030bd5921e49",
+        "width": 678,
+        "height": 620
+      },
+      {
+        "question_id": "CS-2000-Q12",
+        "part": 1,
+        "file": "images/CS-2000-Q12-1.webp",
+        "sha256": "2134a2ae29491a6117e73c926cd68988b0113136ee68dd78fd0dc5a749d9cea8",
+        "width": 678,
+        "height": 602
+      },
+      {
+        "question_id": "CS-2000-Q13",
+        "part": 1,
+        "file": "images/CS-2000-Q13-1.webp",
+        "sha256": "fa9540d84bdac83024606c0994a46b2d3f58bcb171c93fb5065ed13a77576915",
+        "width": 678,
+        "height": 316
+      },
+      {
+        "question_id": "CS-2000-Q13",
+        "part": 2,
+        "file": "images/CS-2000-Q13-2.webp",
+        "sha256": "a7cba230a3c694d75ce3938193faefada0b189737897275acdabd872d1f04013",
+        "width": 670,
+        "height": 276
+      },
+      {
+        "question_id": "CS-2000-Q14",
+        "part": 1,
+        "file": "images/CS-2000-Q14-1.webp",
+        "sha256": "330e821a2e0d5adee9a202bf35d6a579488b79eeac791b33d5082b05ae68b1e0",
+        "width": 670,
+        "height": 450
+      },
+      {
+        "question_id": "CS-2000-Q15",
+        "part": 1,
+        "file": "images/CS-2000-Q15-1.webp",
+        "sha256": "d81657833de29798ab2f50ae0a8b26e38b2049c9d3d15b71d4b0eba4c4b35569",
+        "width": 670,
+        "height": 460
+      },
+      {
+        "question_id": "CS-2000-Q16",
+        "part": 1,
+        "file": "images/CS-2000-Q16-1.webp",
+        "sha256": "c03759f66b5b91a124f19194ebcb9784f1125120aa78d9f7ec34334d4a0df43b",
+        "width": 670,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q17",
+        "part": 1,
+        "file": "images/CS-2000-Q17-1.webp",
+        "sha256": "4cae03b439d4600cfe3a79eba6a00b845a17d10864aef39a643feff1cb37309f",
+        "width": 670,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q17",
+        "part": 2,
+        "file": "images/CS-2000-Q17-2.webp",
+        "sha256": "e1b22418fc9e9247ec7235d728ce83f9a04db57a5562db4f03d41b268561ae6f",
+        "width": 678,
+        "height": 269
+      },
+      {
+        "question_id": "CS-2000-Q18",
+        "part": 1,
+        "file": "images/CS-2000-Q18-1.webp",
+        "sha256": "e3fb3cc8e6bac824ac467c96bbc5fabe12e08b8903035f65f67c660adfeeaa19",
+        "width": 678,
+        "height": 364
+      },
+      {
+        "question_id": "CS-2000-Q19",
+        "part": 1,
+        "file": "images/CS-2000-Q19-1.webp",
+        "sha256": "8bc1a9a875be850c3c1a3cd0a54e33e010c2af9f59c8517203c8dfefbd48ed2e",
+        "width": 678,
+        "height": 422
+      },
+      {
+        "question_id": "CS-2000-Q20",
+        "part": 1,
+        "file": "images/CS-2000-Q20-1.webp",
+        "sha256": "5ae37c4af935c07737d21f74fc6620a19e8f2baea997346b3c2543263565943e",
+        "width": 678,
+        "height": 314
+      },
+      {
+        "question_id": "CS-2000-Q21",
+        "part": 1,
+        "file": "images/CS-2000-Q21-1.webp",
+        "sha256": "09a9a783f03b3eda6c5304c55558bd0f6ffd350c5cc96d7e761d7c5e29a3accb",
+        "width": 678,
+        "height": 480
+      },
+      {
+        "question_id": "CS-2000-Q22",
+        "part": 1,
+        "file": "images/CS-2000-Q22-1.webp",
+        "sha256": "2a492660165ae6ec5fdb5cacfa63b22fe26013a6b789753f5c4ad0d964583fca",
+        "width": 678,
+        "height": 76
+      },
+      {
+        "question_id": "CS-2000-Q22",
+        "part": 2,
+        "file": "images/CS-2000-Q22-2.webp",
+        "sha256": "dce158a8f8dbf81a3573ed5a4ff4fc30c86e568c4efd0f12e40a39e1f5507461",
+        "width": 670,
+        "height": 294
+      },
+      {
+        "question_id": "CS-2000-Q23",
+        "part": 1,
+        "file": "images/CS-2000-Q23-1.webp",
+        "sha256": "d530bebc7fce97df13dfbb43a4c85cd0e9db5be3bbf9c86c2ed2dde9b55b65ad",
+        "width": 670,
+        "height": 472
+      },
+      {
+        "question_id": "CS-2000-Q24",
+        "part": 1,
+        "file": "images/CS-2000-Q24-1.webp",
+        "sha256": "784a0e4f7fe2aa6bb4c4876bac960d47697d658d90df6e97435a534376f7fb89",
+        "width": 670,
+        "height": 420
+      },
+      {
+        "question_id": "CS-2000-Q25",
+        "part": 1,
+        "file": "images/CS-2000-Q25-1.webp",
+        "sha256": "f0cd4dffda45cb9ab86c8b7c88ed642c545c2fffbb0e8c3b23e499b30a54f1a0",
+        "width": 670,
+        "height": 352
+      },
+      {
+        "question_id": "CS-2000-Q25",
+        "part": 2,
+        "file": "images/CS-2000-Q25-2.webp",
+        "sha256": "e9ffe1e39343d1fec58596d7f37e94217e0ee1dae814a5d6255c06aa0bbd91a1",
+        "width": 678,
+        "height": 130
+      },
+      {
+        "question_id": "CS-2000-Q26",
+        "part": 1,
+        "file": "images/CS-2000-Q26-1.webp",
+        "sha256": "3a80391f99dd9f4aad5bafe394b26ad051e67fdfed27ae97c0113dc89ab13267",
+        "width": 678,
+        "height": 329
+      },
+      {
+        "question_id": "CS-2000-Q27",
+        "part": 1,
+        "file": "images/CS-2000-Q27-1.webp",
+        "sha256": "f7d44a78a6137711918d9573d02987f74ef8808b1bca7921a21c33f31abfeed4",
+        "width": 678,
+        "height": 406
+      },
+      {
+        "question_id": "CS-2000-Q28",
+        "part": 1,
+        "file": "images/CS-2000-Q28-1.webp",
+        "sha256": "7c9cbc3b0ca30bf426c4297951f75592b8e794fb35bf00b0fd31d72b77671b35",
+        "width": 678,
+        "height": 412
+      },
+      {
+        "question_id": "CS-2000-Q29",
+        "part": 1,
+        "file": "images/CS-2000-Q29-1.webp",
+        "sha256": "0e5809807e493587d644ec65c800ca9ea0fbf29289183cbe52c29ba9410b58c5",
+        "width": 678,
+        "height": 272
+      },
+      {
+        "question_id": "CS-2000-Q30",
+        "part": 1,
+        "file": "images/CS-2000-Q30-1.webp",
+        "sha256": "fb4a16a0f5d4ba558c0f95e1846ac9efa54d2d3faa8207b449a9a943279cad48",
+        "width": 678,
+        "height": 404
+      },
+      {
+        "question_id": "CS-2000-Q31",
+        "part": 1,
+        "file": "images/CS-2000-Q31-1.webp",
+        "sha256": "4f458c7c6d3a3661243c65f5542f9a832cfede16e30df883087e0849041f5129",
+        "width": 670,
+        "height": 342
+      },
+      {
+        "question_id": "CS-2000-Q32",
+        "part": 1,
+        "file": "images/CS-2000-Q32-1.webp",
+        "sha256": "830003242dc383930f807159b1e214f64738ac71101a29642900eb4cddeb2c16",
+        "width": 670,
+        "height": 446
+      },
+      {
+        "question_id": "CS-2000-Q33",
+        "part": 1,
+        "file": "images/CS-2000-Q33-1.webp",
+        "sha256": "843d00a384c8185c2d41d832860ef0ffd5394eb9a33f080ad8810295ac17b473",
+        "width": 670,
+        "height": 544
+      },
+      {
+        "question_id": "CS-2000-Q34",
+        "part": 1,
+        "file": "images/CS-2000-Q34-1.webp",
+        "sha256": "9940d7ed894b85f135cddaea6f870c5adb73deb0b16bd35b9d301fa6b034a527",
+        "width": 670,
+        "height": 466
+      },
+      {
+        "question_id": "CS-2000-Q35",
+        "part": 1,
+        "file": "images/CS-2000-Q35-1.webp",
+        "sha256": "ffe6120177cb071ae3b57707933334ce670f634d9c428d2032c3c7360409af28",
+        "width": 670,
+        "height": 80
+      },
+      {
+        "question_id": "CS-2000-Q35",
+        "part": 2,
+        "file": "images/CS-2000-Q35-2.webp",
+        "sha256": "02403f96e84bff4766ed53df6a3b26000eccc669ecd15fde76ce3955bb454796",
+        "width": 678,
+        "height": 560
+      },
+      {
+        "question_id": "CS-2000-Q36",
+        "part": 1,
+        "file": "images/CS-2000-Q36-1.webp",
+        "sha256": "ba8e6b71ab71117b7f053368f7eb6f8fc067739ef6b9f9a94cac47f7c60fad49",
+        "width": 678,
+        "height": 462
+      },
+      {
+        "question_id": "CS-2000-Q37",
+        "part": 1,
+        "file": "images/CS-2000-Q37-1.webp",
+        "sha256": "2988b8bde5550aefddb845b3f043494542cbcc0408ede2af3658c636977dd9ea",
+        "width": 678,
+        "height": 588
+      },
+      {
+        "question_id": "CS-2000-Q38",
+        "part": 1,
+        "file": "images/CS-2000-Q38-1.webp",
+        "sha256": "5fc4e8792fe308720dc5797151b0c97bfa76403e74e5214ef58dd2f2f766697c",
+        "width": 678,
+        "height": 364
+      },
+      {
+        "question_id": "CS-2000-Q38",
+        "part": 2,
+        "file": "images/CS-2000-Q38-2.webp",
+        "sha256": "522df084a47f3ce78d0c3a5890e9b9109a7edb39993324eae080ffc6b4024882",
+        "width": 670,
+        "height": 134
+      },
+      {
+        "question_id": "CS-2000-Q39",
+        "part": 1,
+        "file": "images/CS-2000-Q39-1.webp",
+        "sha256": "d8d30df4db4b1c0c402764e22c33d47055ee04dc1f2a6751cfb537c34cf6944d",
+        "width": 670,
+        "height": 383
+      },
+      {
+        "question_id": "CS-2000-Q40",
+        "part": 1,
+        "file": "images/CS-2000-Q40-1.webp",
+        "sha256": "c72d813baf5bcd16ca128102e94884c72efd0abcf76c1bf33504ca2b095c3ecd",
+        "width": 670,
+        "height": 449
+      },
+      {
+        "question_id": "CS-2000-Q41",
+        "part": 1,
+        "file": "images/CS-2000-Q41-1.webp",
+        "sha256": "4d51feee50d45421f6c7258f13509277046cc195b0d29c3f36e497f107d78f2b",
+        "width": 670,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2000-Q42",
+        "part": 1,
+        "file": "images/CS-2000-Q42-1.webp",
+        "sha256": "895bfc709b860663127b2c198b0982af84c9d5afd81706c399f3a75922726381",
+        "width": 670,
+        "height": 514
+      },
+      {
+        "question_id": "CS-2000-Q42",
+        "part": 2,
+        "file": "images/CS-2000-Q42-2.webp",
+        "sha256": "87b711228b22e951ef086246d8c09115c6911a45c9cc62693791e9aaea74a3b8",
+        "width": 678,
+        "height": 78
+      },
+      {
+        "question_id": "CS-2000-Q43",
+        "part": 1,
+        "file": "images/CS-2000-Q43-1.webp",
+        "sha256": "50f1cdebe2f9d201712e930bdc20e1b69f377be77dbe373ae9f94a90ef97253c",
+        "width": 678,
+        "height": 618
+      },
+      {
+        "question_id": "CS-2000-Q44",
+        "part": 1,
+        "file": "images/CS-2000-Q44-1.webp",
+        "sha256": "d88671f6fff56f6c0a42ef35e5d6e78f6006ba64867c3bcb553c85b3e167f9a5",
+        "width": 678,
+        "height": 376
+      },
+      {
+        "question_id": "CS-2000-Q45",
+        "part": 1,
+        "file": "images/CS-2000-Q45-1.webp",
+        "sha256": "9d70a9263eaf139a58e416e70559b0ade79c4542a987b8d69f09fce3427b3729",
+        "width": 678,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q46",
+        "part": 1,
+        "file": "images/CS-2000-Q46-1.webp",
+        "sha256": "ecb6c224c4a8c4c2849da0601041fb4b67be115e861a89f843cadc4ca137200f",
+        "width": 678,
+        "height": 446
+      },
+      {
+        "question_id": "CS-2000-Q47",
+        "part": 1,
+        "file": "images/CS-2000-Q47-1.webp",
+        "sha256": "cc018669ecef3ede72a06f7ca054754b40b662673937459e96caf40dfda77b8c",
+        "width": 678,
+        "height": 52
+      },
+      {
+        "question_id": "CS-2000-Q47",
+        "part": 2,
+        "file": "images/CS-2000-Q47-2.webp",
+        "sha256": "fc9bac6523a87e3b7d21074f55edeed3bac13bdc41de61ee5e83b72654343c99",
+        "width": 670,
+        "height": 443
+      },
+      {
+        "question_id": "CS-2000-Q48",
+        "part": 1,
+        "file": "images/CS-2000-Q48-1.webp",
+        "sha256": "23b427aeab2cd2e608411e035fd6590443b9b7007c4915bfba3721ae1dbd469f",
+        "width": 670,
+        "height": 377
+      },
+      {
+        "question_id": "CS-2000-Q49",
+        "part": 1,
+        "file": "images/CS-2000-Q49-1.webp",
+        "sha256": "4f8e21c7d9c423097af45b9dc92df39e09c6503ba8034c1d9c14afd3ab713c48",
+        "width": 670,
+        "height": 420
+      },
+      {
+        "question_id": "CS-2000-Q50",
+        "part": 1,
+        "file": "images/CS-2000-Q50-1.webp",
+        "sha256": "ad1991390ee04849a58e45e15cc56a3cd91c12ac80fd1456764ef418fc0a160b",
+        "width": 670,
+        "height": 124
+      },
+      {
+        "question_id": "CS-2000-Q51",
+        "part": 1,
+        "file": "images/CS-2000-Q51-1.webp",
+        "sha256": "5a201eae776dbcecd6c03c8876caee40e31e0c57ca19dbd9c456063062bc84c8",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q51",
+        "part": 2,
+        "file": "images/CS-2000-Q51-2.webp",
+        "sha256": "1e7fbac4856483d1550ff0e932eb0f299893eca59197a32ffa903d6bbbfeb75e",
+        "width": 670,
+        "height": 52
+      },
+      {
+        "question_id": "CS-2000-Q52",
+        "part": 1,
+        "file": "images/CS-2000-Q52-1.webp",
+        "sha256": "5a201eae776dbcecd6c03c8876caee40e31e0c57ca19dbd9c456063062bc84c8",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q52",
+        "part": 2,
+        "file": "images/CS-2000-Q52-2.webp",
+        "sha256": "60d9dc017086a4eb3d051340268276b32fb9a4d0620ec82e978b51369d02f20a",
+        "width": 678,
+        "height": 78
+      },
+      {
+        "question_id": "CS-2000-Q53",
+        "part": 1,
+        "file": "images/CS-2000-Q53-1.webp",
+        "sha256": "b2082a84891cdf884b7bbbd6618f597c09589dc87578cc29bcf4ad705744f5f2",
+        "width": 678,
+        "height": 189
+      },
+      {
+        "question_id": "CS-2000-Q53",
+        "part": 2,
+        "file": "images/CS-2000-Q53-2.webp",
+        "sha256": "1b1643bde27c32639286ba706682daa0c64b86ed82b2071226c755b4cadeb8bb",
+        "width": 678,
+        "height": 148
+      },
+      {
+        "question_id": "CS-2000-Q54",
+        "part": 1,
+        "file": "images/CS-2000-Q54-1.webp",
+        "sha256": "b2082a84891cdf884b7bbbd6618f597c09589dc87578cc29bcf4ad705744f5f2",
+        "width": 678,
+        "height": 189
+      },
+      {
+        "question_id": "CS-2000-Q54",
+        "part": 2,
+        "file": "images/CS-2000-Q54-2.webp",
+        "sha256": "a48c358783c1c0245e1ce5df32ec39b77ad45ddcc77fbba2057ffe57ec28c16a",
+        "width": 678,
+        "height": 81
+      },
+      {
+        "question_id": "CS-2000-Q55",
+        "part": 1,
+        "file": "images/CS-2000-Q55-1.webp",
+        "sha256": "3b9fe5e09f737e18e02047886efdb02810598043b628dfb789758f512be59f23",
+        "width": 678,
+        "height": 298
+      },
+      {
+        "question_id": "CS-2000-Q55",
+        "part": 2,
+        "file": "images/CS-2000-Q55-2.webp",
+        "sha256": "457b6de7ae0acbd4b84f7d71e16102ea3a32da05aef6997d9c09835f6acf0b7a",
+        "width": 678,
+        "height": 76
+      },
+      {
+        "question_id": "CS-2000-Q56",
+        "part": 1,
+        "file": "images/CS-2000-Q56-1.webp",
+        "sha256": "3b9fe5e09f737e18e02047886efdb02810598043b628dfb789758f512be59f23",
+        "width": 678,
+        "height": 298
+      },
+      {
+        "question_id": "CS-2000-Q56",
+        "part": 2,
+        "file": "images/CS-2000-Q56-2.webp",
+        "sha256": "f011ae0ca96a3d7be33aaa37db5a35059533c56fe8e7930d087d508e0d0c19a9",
+        "width": 678,
+        "height": 76
+      },
+      {
+        "question_id": "CS-2000-Q57",
+        "part": 1,
+        "file": "images/CS-2000-Q57-1.webp",
+        "sha256": "d4c55910a31d3009d1aa0658746949137d0c17f54a84d1a9ae67db0d1e57e252",
+        "width": 678,
+        "height": 44
+      },
+      {
+        "question_id": "CS-2000-Q57",
+        "part": 2,
+        "file": "images/CS-2000-Q57-2.webp",
+        "sha256": "88e604783e91bd7458b7974deef646811d9f88f4be3f2013ae72a44bb9fa5ac7",
+        "width": 678,
+        "height": 180
+      },
+      {
+        "question_id": "CS-2000-Q58",
+        "part": 1,
+        "file": "images/CS-2000-Q58-1.webp",
+        "sha256": "d4c55910a31d3009d1aa0658746949137d0c17f54a84d1a9ae67db0d1e57e252",
+        "width": 678,
+        "height": 44
+      },
+      {
+        "question_id": "CS-2000-Q58",
+        "part": 2,
+        "file": "images/CS-2000-Q58-2.webp",
+        "sha256": "c052093165cb3ae76a42370713dfe5a7de1349d5c68168d9ddd557945d750c8b",
+        "width": 678,
+        "height": 506
+      },
+      {
+        "question_id": "CS-2000-Q59",
+        "part": 1,
+        "file": "images/CS-2000-Q59-1.webp",
+        "sha256": "0c0a85211d33aa807256e331f4ff39c47fe140f7b84f553f9bc94a09380af8fa",
+        "width": 678,
+        "height": 118
+      },
+      {
+        "question_id": "CS-2000-Q59",
+        "part": 2,
+        "file": "images/CS-2000-Q59-2.webp",
+        "sha256": "84d39a76ccc2d10444e88f2d8e081e0806eff3d1a9ce5061a4adfb51fa301faa",
+        "width": 670,
+        "height": 500
+      },
+      {
+        "question_id": "CS-2000-Q59",
+        "part": 3,
+        "file": "images/CS-2000-Q59-3.webp",
+        "sha256": "b6d6c8c26f46f9a3b1c8a02a248344273a4cbb87cc92f89fa1ecfb49b25255b5",
+        "width": 670,
+        "height": 211
+      },
+      {
+        "question_id": "CS-2000-Q60",
+        "part": 1,
+        "file": "images/CS-2000-Q60-1.webp",
+        "sha256": "0c0a85211d33aa807256e331f4ff39c47fe140f7b84f553f9bc94a09380af8fa",
+        "width": 678,
+        "height": 118
+      },
+      {
+        "question_id": "CS-2000-Q60",
+        "part": 2,
+        "file": "images/CS-2000-Q60-2.webp",
+        "sha256": "84d39a76ccc2d10444e88f2d8e081e0806eff3d1a9ce5061a4adfb51fa301faa",
+        "width": 670,
+        "height": 500
+      },
+      {
+        "question_id": "CS-2000-Q60",
+        "part": 3,
+        "file": "images/CS-2000-Q60-3.webp",
+        "sha256": "edf7d03895db149980a581a5d82bdb77fca23a1b2e0a378c6a14bcd934ccbd65",
+        "width": 670,
+        "height": 152
+      },
+      {
+        "question_id": "CS-2000-Q61",
+        "part": 1,
+        "file": "images/CS-2000-Q61-1.webp",
+        "sha256": "dc0a7d5f40f3597d09e814c853369f9661e98fd36ef2e4f7c83c1401baaec61b",
+        "width": 670,
+        "height": 116
+      },
+      {
+        "question_id": "CS-2000-Q61",
+        "part": 2,
+        "file": "images/CS-2000-Q61-2.webp",
+        "sha256": "2ca521cd700af9e408a4b42855e5ac1319ecf5cccdfb5821ad7b7d2ec1329b26",
+        "width": 670,
+        "height": 188
+      },
+      {
+        "question_id": "CS-2000-Q62",
+        "part": 1,
+        "file": "images/CS-2000-Q62-1.webp",
+        "sha256": "dc0a7d5f40f3597d09e814c853369f9661e98fd36ef2e4f7c83c1401baaec61b",
+        "width": 670,
+        "height": 116
+      },
+      {
+        "question_id": "CS-2000-Q62",
+        "part": 2,
+        "file": "images/CS-2000-Q62-2.webp",
+        "sha256": "2ca521cd700af9e408a4b42855e5ac1319ecf5cccdfb5821ad7b7d2ec1329b26",
+        "width": 670,
+        "height": 188
+      },
+      {
+        "question_id": "CS-2000-Q62",
+        "part": 3,
+        "file": "images/CS-2000-Q62-3.webp",
+        "sha256": "4a31fd5d90549f550ce2d983a8a818e85d119278c7df2de401749547d83a0d0a",
+        "width": 670,
+        "height": 146
+      },
+      {
+        "question_id": "CS-2000-Q63",
+        "part": 1,
+        "file": "images/CS-2000-Q63-1.webp",
+        "sha256": "202021bb46124c8a92da92f0feb66d62c0991bab6f468a4951e5334441149737",
+        "width": 670,
+        "height": 532
+      },
+      {
+        "question_id": "CS-2000-Q63",
+        "part": 2,
+        "file": "images/CS-2000-Q63-2.webp",
+        "sha256": "5643f7ad2020fbceb189ce59113393a1ef180f768ced568b5fe47248abb6b49b",
+        "width": 678,
+        "height": 94
+      },
+      {
+        "question_id": "CS-2000-Q64",
+        "part": 1,
+        "file": "images/CS-2000-Q64-1.webp",
+        "sha256": "202021bb46124c8a92da92f0feb66d62c0991bab6f468a4951e5334441149737",
+        "width": 670,
+        "height": 532
+      },
+      {
+        "question_id": "CS-2000-Q64",
+        "part": 2,
+        "file": "images/CS-2000-Q64-2.webp",
+        "sha256": "ba788aa8bc323eb544bfae40782e1097b75f6a079379291a0f5edfd53725bced",
+        "width": 678,
+        "height": 64
+      },
+      {
+        "question_id": "CS-2000-Q65",
+        "part": 1,
+        "file": "images/CS-2000-Q65-1.webp",
+        "sha256": "202021bb46124c8a92da92f0feb66d62c0991bab6f468a4951e5334441149737",
+        "width": 670,
+        "height": 532
+      },
+      {
+        "question_id": "CS-2000-Q65",
+        "part": 2,
+        "file": "images/CS-2000-Q65-2.webp",
+        "sha256": "ee63a118c3862e646cd40483ed9bd427ac36724254c28c311dea90fe9291a6c3",
+        "width": 678,
+        "height": 182
+      },
+      {
+        "question_id": "CS-2000-Q66",
+        "part": 1,
+        "file": "images/CS-2000-Q66-1.webp",
+        "sha256": "bf6d64616938d9ada6cf43bd104be764b2fe29e32fae7e5b874cbdfac6ab8e70",
+        "width": 678,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2000-Q66",
+        "part": 2,
+        "file": "images/CS-2000-Q66-2.webp",
+        "sha256": "edab69942f929504c50488ef5a4ea507231339126a738293faa7023cc4bf6d59",
+        "width": 678,
+        "height": 62
+      },
+      {
+        "question_id": "CS-2000-Q66",
+        "part": 3,
+        "file": "images/CS-2000-Q66-3.webp",
+        "sha256": "8335bc378d096c0cc679c7bfc1ae6e5911bd73e41e365337c335d2dba4517460",
+        "width": 678,
+        "height": 62
+      },
+      {
+        "question_id": "CS-2000-Q67",
+        "part": 1,
+        "file": "images/CS-2000-Q67-1.webp",
+        "sha256": "bf6d64616938d9ada6cf43bd104be764b2fe29e32fae7e5b874cbdfac6ab8e70",
+        "width": 678,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2000-Q67",
+        "part": 2,
+        "file": "images/CS-2000-Q67-2.webp",
+        "sha256": "edab69942f929504c50488ef5a4ea507231339126a738293faa7023cc4bf6d59",
+        "width": 678,
+        "height": 62
+      },
+      {
+        "question_id": "CS-2000-Q67",
+        "part": 3,
+        "file": "images/CS-2000-Q67-3.webp",
+        "sha256": "b39912db226cf8f254f88020d8af0fb59ae598fc973d3065f8fc41328d548ee2",
+        "width": 678,
+        "height": 60
+      },
+      {
+        "question_id": "CS-2000-Q68",
+        "part": 1,
+        "file": "images/CS-2000-Q68-1.webp",
+        "sha256": "bf6d64616938d9ada6cf43bd104be764b2fe29e32fae7e5b874cbdfac6ab8e70",
+        "width": 678,
+        "height": 490
+      },
+      {
+        "question_id": "CS-2000-Q68",
+        "part": 2,
+        "file": "images/CS-2000-Q68-2.webp",
+        "sha256": "04fbd2a706e35cdb5ee02190172c7a19e4376ada417c80b5d1be7204af4d864c",
+        "width": 678,
+        "height": 88
+      },
+      {
+        "question_id": "CS-2000-Q69",
+        "part": 1,
+        "file": "images/CS-2000-Q69-1.webp",
+        "sha256": "854605f74ac2684b993310099fe188922948cd2d9d9884797a908b3d82f30413",
+        "width": 678,
+        "height": 204
+      },
+      {
+        "question_id": "CS-2000-Q69",
+        "part": 2,
+        "file": "images/CS-2000-Q69-2.webp",
+        "sha256": "9b6e4a4b5203d38db6aad948035126c370ecbe0339b4b7da3b18975f5c563e7d",
+        "width": 678,
+        "height": 142
+      },
+      {
+        "question_id": "CS-2000-Q70",
+        "part": 1,
+        "file": "images/CS-2000-Q70-1.webp",
+        "sha256": "854605f74ac2684b993310099fe188922948cd2d9d9884797a908b3d82f30413",
+        "width": 678,
+        "height": 204
+      },
+      {
+        "question_id": "CS-2000-Q70",
+        "part": 2,
+        "file": "images/CS-2000-Q70-2.webp",
+        "sha256": "9b6e4a4b5203d38db6aad948035126c370ecbe0339b4b7da3b18975f5c563e7d",
+        "width": 678,
+        "height": 142
+      },
+      {
+        "question_id": "CS-2000-Q70",
+        "part": 3,
+        "file": "images/CS-2000-Q70-3.webp",
+        "sha256": "87ea85271e103f992a0ac7663abbed7628b297f8b8cba4ea96fb6d2a1a45bef1",
+        "width": 678,
+        "height": 66
+      },
+      {
+        "question_id": "CS-2000-Q70",
+        "part": 4,
+        "file": "images/CS-2000-Q70-4.webp",
+        "sha256": "a9730e196b17f585c2d7f72cc873cd3a9d2afff4827a292fc1faf98a643a5fa9",
+        "width": 670,
+        "height": 234
+      },
+      {
+        "question_id": "CS-2000-Q71",
+        "part": 1,
+        "file": "images/CS-2000-Q71-1.webp",
+        "sha256": "11a70c1c89045100f3a7806fe7076109ed8fdc2333b6c477f183126c5c55fc58",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q71",
+        "part": 2,
+        "file": "images/CS-2000-Q71-2.webp",
+        "sha256": "0b899efd274a25e4158f6793a5c05ba179dd217714f6bcdd1ce91f761fae3899",
+        "width": 670,
+        "height": 148
+      },
+      {
+        "question_id": "CS-2000-Q72",
+        "part": 1,
+        "file": "images/CS-2000-Q72-1.webp",
+        "sha256": "11a70c1c89045100f3a7806fe7076109ed8fdc2333b6c477f183126c5c55fc58",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q72",
+        "part": 2,
+        "file": "images/CS-2000-Q72-2.webp",
+        "sha256": "6a24f7d62e9de26de743ffa92ee8f8c48d7370145c21a60d026e092dbacb4861",
+        "width": 670,
+        "height": 193
+      },
+      {
+        "question_id": "CS-2000-Q72",
+        "part": 3,
+        "file": "images/CS-2000-Q72-3.webp",
+        "sha256": "6ceb7932c6f96dc57eb89a7d5b4872c2e0b55582e813f7e16636b7fbb8c5ab8e",
+        "width": 670,
+        "height": 34
+      },
+      {
+        "question_id": "CS-2000-Q73",
+        "part": 1,
+        "file": "images/CS-2000-Q73-1.webp",
+        "sha256": "11a70c1c89045100f3a7806fe7076109ed8fdc2333b6c477f183126c5c55fc58",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q73",
+        "part": 2,
+        "file": "images/CS-2000-Q73-2.webp",
+        "sha256": "6a24f7d62e9de26de743ffa92ee8f8c48d7370145c21a60d026e092dbacb4861",
+        "width": 670,
+        "height": 193
+      },
+      {
+        "question_id": "CS-2000-Q73",
+        "part": 3,
+        "file": "images/CS-2000-Q73-3.webp",
+        "sha256": "c4402fd63df6f795e910046911f966ef816fc0eb481d3008674f95de96f97ccb",
+        "width": 670,
+        "height": 34
+      },
+      {
+        "question_id": "CS-2000-Q74",
+        "part": 1,
+        "file": "images/CS-2000-Q74-1.webp",
+        "sha256": "11a70c1c89045100f3a7806fe7076109ed8fdc2333b6c477f183126c5c55fc58",
+        "width": 670,
+        "height": 122
+      },
+      {
+        "question_id": "CS-2000-Q74",
+        "part": 2,
+        "file": "images/CS-2000-Q74-2.webp",
+        "sha256": "6a24f7d62e9de26de743ffa92ee8f8c48d7370145c21a60d026e092dbacb4861",
+        "width": 670,
+        "height": 193
+      },
+      {
+        "question_id": "CS-2000-Q74",
+        "part": 3,
+        "file": "images/CS-2000-Q74-3.webp",
+        "sha256": "b197a0eb0c8143eaadf365ef7cbaf92590c54e8697d87f99124b7c7eb1d19fab",
+        "width": 670,
+        "height": 36
+      },
+      {
+        "question_id": "CS-2000-Q75",
+        "part": 1,
+        "file": "images/CS-2000-Q75-1.webp",
+        "sha256": "9e19738d80ddf29723498529c65d7797a1e6a0170c8e205c27ff5cdb94500ad8",
+        "width": 670,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2000-Q75",
+        "part": 2,
+        "file": "images/CS-2000-Q75-2.webp",
+        "sha256": "dc9a79ddc6f7b32ba4ec56ed4d09322e6659398d450a895265fea41814aa1322",
+        "width": 670,
+        "height": 92
+      },
+      {
+        "question_id": "CS-2000-Q76",
+        "part": 1,
+        "file": "images/CS-2000-Q76-1.webp",
+        "sha256": "9e19738d80ddf29723498529c65d7797a1e6a0170c8e205c27ff5cdb94500ad8",
+        "width": 670,
+        "height": 86
+      },
+      {
+        "question_id": "CS-2000-Q76",
+        "part": 2,
+        "file": "images/CS-2000-Q76-2.webp",
+        "sha256": "386b00165c7b1748755927797eba1338101831e1747e70875686d1f8db9937ef",
+        "width": 670,
+        "height": 408
+      },
+      {
+        "question_id": "CS-2000-Q77",
+        "part": 1,
+        "file": "images/CS-2000-Q77-1.webp",
+        "sha256": "8958363d8b7c8f0b61b83e0f47987d584e6fe59437e655d2a68e7f811923c0cd",
+        "width": 670,
+        "height": 120
+      },
+      {
+        "question_id": "CS-2000-Q77",
+        "part": 2,
+        "file": "images/CS-2000-Q77-2.webp",
+        "sha256": "e85dc287ec9888c9970af99eb6f55e9ba3a9fce0b0ad6eb10d9709c4cbe59b54",
+        "width": 678,
+        "height": 395
+      },
+      {
+        "question_id": "CS-2000-Q77",
+        "part": 3,
+        "file": "images/CS-2000-Q77-3.webp",
+        "sha256": "2c3931640c2a2f1fb890bfae18678168be065bf3150ccd4f7ce0b4b81d90d659",
+        "width": 678,
+        "height": 245
+      },
+      {
+        "question_id": "CS-2000-Q78",
+        "part": 1,
+        "file": "images/CS-2000-Q78-1.webp",
+        "sha256": "8958363d8b7c8f0b61b83e0f47987d584e6fe59437e655d2a68e7f811923c0cd",
+        "width": 670,
+        "height": 120
+      },
+      {
+        "question_id": "CS-2000-Q78",
+        "part": 2,
+        "file": "images/CS-2000-Q78-2.webp",
+        "sha256": "e85dc287ec9888c9970af99eb6f55e9ba3a9fce0b0ad6eb10d9709c4cbe59b54",
+        "width": 678,
+        "height": 395
+      },
+      {
+        "question_id": "CS-2000-Q78",
+        "part": 3,
+        "file": "images/CS-2000-Q78-3.webp",
+        "sha256": "60672384e1df351252c5b6c35cf18a6d6bbf0616ead8a0378d78079dd2260d98",
+        "width": 678,
+        "height": 152
+      },
+      {
+        "question_id": "CS-2000-Q79",
+        "part": 1,
+        "file": "images/CS-2000-Q79-1.webp",
+        "sha256": "8958363d8b7c8f0b61b83e0f47987d584e6fe59437e655d2a68e7f811923c0cd",
+        "width": 670,
+        "height": 120
+      },
+      {
+        "question_id": "CS-2000-Q79",
+        "part": 2,
+        "file": "images/CS-2000-Q79-2.webp",
+        "sha256": "e85dc287ec9888c9970af99eb6f55e9ba3a9fce0b0ad6eb10d9709c4cbe59b54",
+        "width": 678,
+        "height": 395
+      },
+      {
+        "question_id": "CS-2000-Q79",
+        "part": 3,
+        "file": "images/CS-2000-Q79-3.webp",
+        "sha256": "d995e82626e023735d8b0bcf901d08525e762069cc02e7b094a12abd98f92104",
+        "width": 678,
+        "height": 112
+      },
+      {
+        "question_id": "CS-2000-Q80",
+        "part": 1,
+        "file": "images/CS-2000-Q80-1.webp",
+        "sha256": "3419ac7547e7490a65d1942b5c07e170c3081382af6400cad472f571d85857c8",
+        "width": 678,
+        "height": 434
+      },
+      {
+        "question_id": "CS-2000-Q80",
+        "part": 2,
+        "file": "images/CS-2000-Q80-2.webp",
+        "sha256": "58a49d85fd928c5c6ef72a0af3e85c4eaa20e113de5a75083c1f19c55aca5416",
+        "width": 678,
+        "height": 222
+      },
+      {
+        "question_id": "CS-2000-Q81",
+        "part": 1,
+        "file": "images/CS-2000-Q81-1.webp",
+        "sha256": "3419ac7547e7490a65d1942b5c07e170c3081382af6400cad472f571d85857c8",
+        "width": 678,
+        "height": 434
+      },
+      {
+        "question_id": "CS-2000-Q81",
+        "part": 2,
+        "file": "images/CS-2000-Q81-2.webp",
+        "sha256": "58a49d85fd928c5c6ef72a0af3e85c4eaa20e113de5a75083c1f19c55aca5416",
+        "width": 678,
+        "height": 222
+      },
+      {
+        "question_id": "CS-2000-Q81",
+        "part": 3,
+        "file": "images/CS-2000-Q81-3.webp",
+        "sha256": "ee979bd8882cae0de71f098f4dc404718f61cf09357f4830dd016f76dc9f81f1",
+        "width": 678,
+        "height": 110
+      },
+      {
+        "question_id": "CS-2000-Q82",
+        "part": 1,
+        "file": "images/CS-2000-Q82-1.webp",
+        "sha256": "c6ff9f89be4899d53348903178b88d7156690d286b7c9182ee33e0f3451c2270",
+        "width": 678,
+        "height": 222
+      },
+      {
+        "question_id": "CS-2000-Q82",
+        "part": 2,
+        "file": "images/CS-2000-Q82-2.webp",
+        "sha256": "ae7044ecb6dc6deecf120e28a336391d7edc03572029205c014e63a3900f8e70",
+        "width": 670,
+        "height": 112
+      },
+      {
+        "question_id": "CS-2000-Q83",
+        "part": 1,
+        "file": "images/CS-2000-Q83-1.webp",
+        "sha256": "c6ff9f89be4899d53348903178b88d7156690d286b7c9182ee33e0f3451c2270",
+        "width": 678,
+        "height": 222
+      },
+      {
+        "question_id": "CS-2000-Q83",
+        "part": 2,
+        "file": "images/CS-2000-Q83-2.webp",
+        "sha256": "cb86afc354ec8c81732f6c896d189a245b4ae04221a7b79a4560d707ffbc2ee2",
+        "width": 670,
+        "height": 150
+      },
+      {
+        "question_id": "CS-2000-Q84",
+        "part": 1,
+        "file": "images/CS-2000-Q84-1.webp",
+        "sha256": "75d2d8b16e6631bc7413a47adc837d1fac2f42014f177e0df5d32b98833686b8",
+        "width": 670,
+        "height": 742
+      },
+      {
+        "question_id": "CS-2000-Q84",
+        "part": 2,
+        "file": "images/CS-2000-Q84-2.webp",
+        "sha256": "ee45137cf1fa4351c290fe161c62b99793264141a787c60ddc01f41454a7e830",
+        "width": 670,
+        "height": 114
+      },
+      {
+        "question_id": "CS-2000-Q85",
+        "part": 1,
+        "file": "images/CS-2000-Q85-1.webp",
+        "sha256": "75d2d8b16e6631bc7413a47adc837d1fac2f42014f177e0df5d32b98833686b8",
+        "width": 670,
+        "height": 742
+      },
+      {
+        "question_id": "CS-2000-Q85",
+        "part": 2,
+        "file": "images/CS-2000-Q85-2.webp",
+        "sha256": "f7fa2b80de7526681aa3b264002ddf351ee27a3bb48ba5bebc4606b86487703d",
+        "width": 670,
+        "height": 112
+      },
+      {
+        "question_id": "CS-2000-Q86",
+        "part": 1,
+        "file": "images/CS-2000-Q86-1.webp",
+        "sha256": "71eafdb0584d637322fe04c11302367cd7848b16deae34213f54d9f3246391f4",
+        "width": 670,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q86",
+        "part": 2,
+        "file": "images/CS-2000-Q86-2.webp",
+        "sha256": "7ba36647a0c2f666602f81c42de8c3b64f1b2e3d665d17029f16f8513eb5d765",
+        "width": 670,
+        "height": 166
+      },
+      {
+        "question_id": "CS-2000-Q87",
+        "part": 1,
+        "file": "images/CS-2000-Q87-1.webp",
+        "sha256": "71eafdb0584d637322fe04c11302367cd7848b16deae34213f54d9f3246391f4",
+        "width": 670,
+        "height": 380
+      },
+      {
+        "question_id": "CS-2000-Q87",
+        "part": 2,
+        "file": "images/CS-2000-Q87-2.webp",
+        "sha256": "5f2fd94239f3f7a0c964c9179fa84a2238ea2980fa08028c27f56b7ff29125b3",
+        "width": 670,
+        "height": 160
+      },
+      {
+        "question_id": "CS-2000-Q87",
+        "part": 3,
+        "file": "images/CS-2000-Q87-3.webp",
+        "sha256": "15e3c5ca136c774f2122e84ed95817d9bfce803f032f77d36ed61aca0ede8e8d",
+        "width": 678,
+        "height": 150
+      },
+      {
+        "question_id": "CS-2000-Q88",
+        "part": 1,
+        "file": "images/CS-2000-Q88-1.webp",
+        "sha256": "74c0a66706fb70f94e65cd329a772b53361aeaf2cbdac1913ac3a02c7e569700",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-2000-Q88",
+        "part": 2,
+        "file": "images/CS-2000-Q88-2.webp",
+        "sha256": "e9a8b4844b90cf4ffe76caacbe874bb76b972cd797b9c2ff8a87eae123bc9b58",
+        "width": 678,
+        "height": 1160
+      },
+      {
+        "question_id": "CS-2000-Q89",
+        "part": 1,
+        "file": "images/CS-2000-Q89-1.webp",
+        "sha256": "74c0a66706fb70f94e65cd329a772b53361aeaf2cbdac1913ac3a02c7e569700",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-2000-Q89",
+        "part": 2,
+        "file": "images/CS-2000-Q89-2.webp",
+        "sha256": "e9a8b4844b90cf4ffe76caacbe874bb76b972cd797b9c2ff8a87eae123bc9b58",
+        "width": 678,
+        "height": 1160
+      },
+      {
+        "question_id": "CS-2000-Q89",
+        "part": 3,
+        "file": "images/CS-2000-Q89-3.webp",
+        "sha256": "e1650990ea80025aa114934437f281105a4d71c0091352191ac22c3eac059ffd",
+        "width": 678,
+        "height": 74
+      },
+      {
+        "question_id": "CS-2000-Q90",
+        "part": 1,
+        "file": "images/CS-2000-Q90-1.webp",
+        "sha256": "006f792920765720a85fd34d266aa9390f5f25a7885e9ac844296cc9ac5cddc4",
+        "width": 678,
+        "height": 270
+      },
+      {
+        "question_id": "CS-2000-Q90",
+        "part": 2,
+        "file": "images/CS-2000-Q90-2.webp",
+        "sha256": "394b3bfa61b16817ac79f500360d1b8cd96604694d2a4c41aa608ebdfcea85da",
+        "width": 670,
+        "height": 40
+      },
+      {
+        "question_id": "CS-2000-Q90",
+        "part": 3,
+        "file": "images/CS-2000-Q90-3.webp",
+        "sha256": "d0dd566be06d6d6840ff4578e41126b76efade5380d0b5b934c98830e0892510",
+        "width": 670,
+        "height": 38
+      },
+      {
+        "question_id": "CS-2000-Q91",
+        "part": 1,
+        "file": "images/CS-2000-Q91-1.webp",
+        "sha256": "006f792920765720a85fd34d266aa9390f5f25a7885e9ac844296cc9ac5cddc4",
+        "width": 678,
+        "height": 270
+      },
+      {
+        "question_id": "CS-2000-Q91",
+        "part": 2,
+        "file": "images/CS-2000-Q91-2.webp",
+        "sha256": "e9fb0d7ba78766bb363a6209048b78a4e27dafc6f8ed0e023a75ddc522f3607f",
+        "width": 670,
+        "height": 40
+      },
+      {
+        "question_id": "CS-2000-Q91",
+        "part": 3,
+        "file": "images/CS-2000-Q91-3.webp",
+        "sha256": "d0dd566be06d6d6840ff4578e41126b76efade5380d0b5b934c98830e0892510",
+        "width": 670,
+        "height": 38
+      },
+      {
+        "question_id": "CS-2000-Q92",
+        "part": 1,
+        "file": "images/CS-2000-Q92-1.webp",
+        "sha256": "006f792920765720a85fd34d266aa9390f5f25a7885e9ac844296cc9ac5cddc4",
+        "width": 678,
+        "height": 270
+      },
+      {
+        "question_id": "CS-2000-Q92",
+        "part": 2,
+        "file": "images/CS-2000-Q92-2.webp",
+        "sha256": "913c0eb641e0ac7130b20f5b8e69d8a6595c2ac132263b4d788d95ba014ed9fa",
+        "width": 670,
+        "height": 297
+      },
+      {
+        "question_id": "CS-2000-Q93",
+        "part": 1,
+        "file": "images/CS-2000-Q93-1.webp",
+        "sha256": "074e87e774d8d51f14af47d5334c9c6593e7f57312460651e72d12fedf07de37",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-2000-Q93",
+        "part": 2,
+        "file": "images/CS-2000-Q93-2.webp",
+        "sha256": "d677382b8322857b2fdc2a5739328141bb93682973495f3623967a3a0eec395f",
+        "width": 670,
+        "height": 224
+      },
+      {
+        "question_id": "CS-2000-Q93",
+        "part": 3,
+        "file": "images/CS-2000-Q93-3.webp",
+        "sha256": "2a9862a687b87aaabaa635c242c00258e067b2b09ecdaf94f7da211a91023034",
+        "width": 670,
+        "height": 38
+      },
+      {
+        "question_id": "CS-2000-Q94",
+        "part": 1,
+        "file": "images/CS-2000-Q94-1.webp",
+        "sha256": "074e87e774d8d51f14af47d5334c9c6593e7f57312460651e72d12fedf07de37",
+        "width": 678,
+        "height": 42
+      },
+      {
+        "question_id": "CS-2000-Q94",
+        "part": 2,
+        "file": "images/CS-2000-Q94-2.webp",
+        "sha256": "913c0eb641e0ac7130b20f5b8e69d8a6595c2ac132263b4d788d95ba014ed9fa",
+        "width": 670,
+        "height": 297
+      },
+      {
+        "question_id": "CS-2000-Q94",
+        "part": 3,
+        "file": "images/CS-2000-Q94-3.webp",
+        "sha256": "d677382b8322857b2fdc2a5739328141bb93682973495f3623967a3a0eec395f",
+        "width": 670,
+        "height": 224
+      },
+      {
+        "question_id": "CS-2000-Q94",
+        "part": 4,
+        "file": "images/CS-2000-Q94-4.webp",
+        "sha256": "4827588a2ae2e22af2e915c1820180e747f4817abffeb4f9e11520a6e46ce0e9",
+        "width": 670,
+        "height": 36
+      },
+      {
+        "question_id": "CS-2000-Q95",
+        "part": 1,
+        "file": "images/CS-2000-Q95-1.webp",
+        "sha256": "2ec753f608b09b5febd2aa805370cf05c9e2f2400f6f208f570205cbbc17d297",
+        "width": 670,
+        "height": 208
+      },
+      {
+        "question_id": "CS-2000-Q95",
+        "part": 2,
+        "file": "images/CS-2000-Q95-2.webp",
+        "sha256": "357a23583a7c90c0a8ba269257664e90912c63299526e5b2b1c16f095ab058c4",
+        "width": 670,
+        "height": 278
+      },
+      {
+        "question_id": "CS-2000-Q96",
+        "part": 1,
+        "file": "images/CS-2000-Q96-1.webp",
+        "sha256": "2ec753f608b09b5febd2aa805370cf05c9e2f2400f6f208f570205cbbc17d297",
+        "width": 670,
+        "height": 208
+      },
+      {
+        "question_id": "CS-2000-Q96",
+        "part": 2,
+        "file": "images/CS-2000-Q96-2.webp",
+        "sha256": "357a23583a7c90c0a8ba269257664e90912c63299526e5b2b1c16f095ab058c4",
+        "width": 670,
+        "height": 278
+      },
+      {
+        "question_id": "CS-2000-Q96",
+        "part": 3,
+        "file": "images/CS-2000-Q96-3.webp",
+        "sha256": "dd6714782a9161470a8854ebaaa99954cdbaf2a4a4d8bfb5efff9c39eefd10ed",
+        "width": 670,
+        "height": 412
+      }
+    ]
+  }
+}

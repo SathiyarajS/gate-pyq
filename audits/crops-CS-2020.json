@@ -1,0 +1,33 @@
+{
+  "paper_id": "CS-2020",
+  "status": "independent_source_bounds_review_passed",
+  "source_sha256": "4fb52131a7579e742e38f3c8e4c14c69b9d5d883b996490d197503eec5315be6",
+  "reviewed_proposal_sha256": "fd204cc6470b5c8838b57d899ec623c8d20b754a88615bf01fd53bfb20809404",
+  "independent_review_evidence_sha256": "53043c6cc580a674432bdf2cf75b8216e0269f31547d9761e05a17bdbd8e90d8",
+  "full_source_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "questions": 65,
+  "crop_parts": 77,
+  "verified_questions": 65,
+  "review_scope": "Separate preparation and independent review inspected every relevant full source page and all final crop outputs. Bounds include complete stems, options, notation and figures without neighboring-question content. Fresh 216-DPI output comparisons passed.",
+  "limitations": "Boundary and output fidelity only; not answer certification, source authenticity, complete accessible transcription or redistribution permission. Generated images remain local.",
+  "special_checks": "77 segments retain option continuations for Q8/Q26 and ten orphaned printed labels. Answer keys17\u201318 excluded."
+}

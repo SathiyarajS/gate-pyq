@@ -1,0 +1,2869 @@
+{
+  "year": 1997,
+  "provenance_status": "Secondary-only; official original completeness/fidelity and key unverified",
+  "sources": [
+    {
+      "id": "gfg",
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203902/GATE1997.pdf",
+      "path": "/workspace/shared/gate1991-2006-research/1997-gfg.pdf",
+      "pages": 12,
+      "sha256": "9ece5c02b4e9a29093eff492dcb177c618f8eb449fc82898c11288e2aa219b0b",
+      "provenance": "Secondary reproduction, not official original",
+      "key_status": "No verified official key",
+      "completeness": "Extends through76; renumbering artifact62/63, original completeness unverified"
+    },
+    {
+      "id": "gateforum",
+      "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs1997.pdf",
+      "path": "/workspace/shared/gate1991-2006-research/1997-gateforum.pdf",
+      "pages": 16,
+      "sha256": "1025d881b270879829df7802c396b2b01d4c838d3473d3e09ced26fefdea465d",
+      "provenance": "Secondary reproduction, not official original",
+      "key_status": "No verified official key",
+      "completeness": "Ends midoriginal24; remaining content absent"
+    }
+  ],
+  "count_policy": "75contentgroups:50objectives+5Aregular+20Bdescriptive.101leaves:50objectives+10Aregular+41B. GFG62code+63prompts countedonce. GFG70\u201376 originallabelsunknown.",
+  "marks": {
+    "section_a_one_mark_items": 25,
+    "section_a_two_mark_items": 25,
+    "section_a_objective_total": 75,
+    "section_a_regular_groups": 5,
+    "section_a_regular_group_marks": 5,
+    "section_b_offered_groups": 20,
+    "section_b_required_groups": 10,
+    "section_b_group_marks": 5,
+    "attempted_marks_arithmetic": 150,
+    "offered_group_marks_arithmetic": 200,
+    "negative_marking": "Not established",
+    "individual_descriptive_subpart_marks": "Explicit GFG allocations where printed; unknown nestedleaf allocations remainnull"
+  },
+  "splits": [
+    {
+      "section": "Aobjective",
+      "normalized_range": [
+        1,
+        50
+      ]
+    },
+    {
+      "section": "mixedAregularB",
+      "printed_group_range": [
+        7,
+        19
+      ],
+      "normalized_range": [
+        51,
+        80
+      ]
+    },
+    {
+      "section": "B",
+      "description": "Original20\u201324 and GFG70\u201376",
+      "normalized_range": [
+        81,
+        101
+      ]
+    }
+  ],
+  "verification_scope": "AllGFGdescriptivepages6\u201312 visuallyinspected; GFdescriptionOCR plus targetedrasterchecks. Objective page ranges intentionally groupwide inGFG; no fulloption-by-option audit. No workedsolutions copied or authored.",
+  "discrepancies": [
+    {
+      "question": "completeness",
+      "note": "GateForum ends midQ24. CompleteQ24 is GFG69p10; GFG70\u201376 sevenadditionalgroups have no verified original numbering in available sources. Use GFG labels, not invented original25\u201331."
+    },
+    {
+      "question": "numbering18",
+      "note": "GFG62labels duplicate-removal code stem, then63labels itsabc prompts. Together oneoriginal18group, not twoquestions. Therefore original19\u2192GFG64 throughoriginal24\u2192GFG69."
+    },
+    {
+      "question": "9",
+      "note": "GFp11 adjacency requires BOTH |x1\u2212x2|\u22641 and |y1\u2212y2|\u22641. GFG53p7 omits secondcoordinate bound. Material graph variant; disclose restoredGF bound."
+    },
+    {
+      "question": "10",
+      "note": "Both visible programs use x\u226440, not OCRx<40. GF loses assignment glyphs. GFG54p7 b=2marks; a.i/a.ii individualmarks not printed."
+    },
+    {
+      "question": "11",
+      "note": "GFp12 exponentcondition incorrectlyprints i,j,k,m\u22640; GFG55p7 says\u22650. Preserve nonnegativecounts with caveat."
+    },
+    {
+      "question": "13(c)",
+      "note": "GFp12 says f(i)<f(j) for SOME1\u2264i<j\u2264n; GFG57p8 says for ALL1\u2264i<j\u2264n. Materialquantifier variant; solve/disclose both or clearly choose citedsource."
+    },
+    {
+      "question": "16(b)",
+      "note": "GF OCR suggests h<1; GFG60p8 visibly h\u22651. Check raster rather than OCR."
+    },
+    {
+      "question": "17",
+      "note": "GFp13 misses several code lines/boxes; GFG61p8\u20139 contains full20line program. Both intended threshold\u2265M; OCR may drop equality."
+    },
+    {
+      "question": "18",
+      "note": "GFGcode retains*j=1 after nonemptyhead check, critical to finaldistinctcount interpretation; GFcode garbled. Visually inspect fullstemGFG62 and prompts63."
+    },
+    {
+      "question": "marks",
+      "note": "GFG retains explicit descriptive marks, GF mostlyomits. GFG76b(i)/(ii) jointly4marks; no individual allocation, leafmarksnull. AllBgroup marks5 based headingequalmarks and printedgroups. No negative-marking rule established."
+    }
+  ],
+  "groups": [
+    {
+      "group_ordinal": 1,
+      "section": "A",
+      "printed_id": "1.1",
+      "marks": 1,
+      "leaf_ordinals": [
+        1
+      ]
+    },
+    {
+      "group_ordinal": 2,
+      "section": "A",
+      "printed_id": "1.2",
+      "marks": 1,
+      "leaf_ordinals": [
+        2
+      ]
+    },
+    {
+      "group_ordinal": 3,
+      "section": "A",
+      "printed_id": "1.3",
+      "marks": 1,
+      "leaf_ordinals": [
+        3
+      ]
+    },
+    {
+      "group_ordinal": 4,
+      "section": "A",
+      "printed_id": "1.4",
+      "marks": 1,
+      "leaf_ordinals": [
+        4
+      ]
+    },
+    {
+      "group_ordinal": 5,
+      "section": "A",
+      "printed_id": "1.5",
+      "marks": 1,
+      "leaf_ordinals": [
+        5
+      ]
+    },
+    {
+      "group_ordinal": 6,
+      "section": "A",
+      "printed_id": "1.6",
+      "marks": 1,
+      "leaf_ordinals": [
+        6
+      ]
+    },
+    {
+      "group_ordinal": 7,
+      "section": "A",
+      "printed_id": "1.7",
+      "marks": 1,
+      "leaf_ordinals": [
+        7
+      ]
+    },
+    {
+      "group_ordinal": 8,
+      "section": "A",
+      "printed_id": "1.8",
+      "marks": 1,
+      "leaf_ordinals": [
+        8
+      ]
+    },
+    {
+      "group_ordinal": 9,
+      "section": "A",
+      "printed_id": "1.9",
+      "marks": 1,
+      "leaf_ordinals": [
+        9
+      ]
+    },
+    {
+      "group_ordinal": 10,
+      "section": "A",
+      "printed_id": "1.10",
+      "marks": 1,
+      "leaf_ordinals": [
+        10
+      ]
+    },
+    {
+      "group_ordinal": 11,
+      "section": "A",
+      "printed_id": "2.1",
+      "marks": 1,
+      "leaf_ordinals": [
+        11
+      ]
+    },
+    {
+      "group_ordinal": 12,
+      "section": "A",
+      "printed_id": "2.2",
+      "marks": 1,
+      "leaf_ordinals": [
+        12
+      ]
+    },
+    {
+      "group_ordinal": 13,
+      "section": "A",
+      "printed_id": "2.3",
+      "marks": 1,
+      "leaf_ordinals": [
+        13
+      ]
+    },
+    {
+      "group_ordinal": 14,
+      "section": "A",
+      "printed_id": "2.4",
+      "marks": 1,
+      "leaf_ordinals": [
+        14
+      ]
+    },
+    {
+      "group_ordinal": 15,
+      "section": "A",
+      "printed_id": "2.5",
+      "marks": 1,
+      "leaf_ordinals": [
+        15
+      ]
+    },
+    {
+      "group_ordinal": 16,
+      "section": "A",
+      "printed_id": "3.1",
+      "marks": 1,
+      "leaf_ordinals": [
+        16
+      ]
+    },
+    {
+      "group_ordinal": 17,
+      "section": "A",
+      "printed_id": "3.2",
+      "marks": 1,
+      "leaf_ordinals": [
+        17
+      ]
+    },
+    {
+      "group_ordinal": 18,
+      "section": "A",
+      "printed_id": "3.3",
+      "marks": 1,
+      "leaf_ordinals": [
+        18
+      ]
+    },
+    {
+      "group_ordinal": 19,
+      "section": "A",
+      "printed_id": "3.4",
+      "marks": 1,
+      "leaf_ordinals": [
+        19
+      ]
+    },
+    {
+      "group_ordinal": 20,
+      "section": "A",
+      "printed_id": "3.5",
+      "marks": 1,
+      "leaf_ordinals": [
+        20
+      ]
+    },
+    {
+      "group_ordinal": 21,
+      "section": "A",
+      "printed_id": "3.6",
+      "marks": 1,
+      "leaf_ordinals": [
+        21
+      ]
+    },
+    {
+      "group_ordinal": 22,
+      "section": "A",
+      "printed_id": "3.7",
+      "marks": 1,
+      "leaf_ordinals": [
+        22
+      ]
+    },
+    {
+      "group_ordinal": 23,
+      "section": "A",
+      "printed_id": "3.8",
+      "marks": 1,
+      "leaf_ordinals": [
+        23
+      ]
+    },
+    {
+      "group_ordinal": 24,
+      "section": "A",
+      "printed_id": "3.9",
+      "marks": 1,
+      "leaf_ordinals": [
+        24
+      ]
+    },
+    {
+      "group_ordinal": 25,
+      "section": "A",
+      "printed_id": "3.10",
+      "marks": 1,
+      "leaf_ordinals": [
+        25
+      ]
+    },
+    {
+      "group_ordinal": 26,
+      "section": "A",
+      "printed_id": "4.1",
+      "marks": 2,
+      "leaf_ordinals": [
+        26
+      ]
+    },
+    {
+      "group_ordinal": 27,
+      "section": "A",
+      "printed_id": "4.2",
+      "marks": 2,
+      "leaf_ordinals": [
+        27
+      ]
+    },
+    {
+      "group_ordinal": 28,
+      "section": "A",
+      "printed_id": "4.3",
+      "marks": 2,
+      "leaf_ordinals": [
+        28
+      ]
+    },
+    {
+      "group_ordinal": 29,
+      "section": "A",
+      "printed_id": "4.4",
+      "marks": 2,
+      "leaf_ordinals": [
+        29
+      ]
+    },
+    {
+      "group_ordinal": 30,
+      "section": "A",
+      "printed_id": "4.5",
+      "marks": 2,
+      "leaf_ordinals": [
+        30
+      ]
+    },
+    {
+      "group_ordinal": 31,
+      "section": "A",
+      "printed_id": "4.6",
+      "marks": 2,
+      "leaf_ordinals": [
+        31
+      ]
+    },
+    {
+      "group_ordinal": 32,
+      "section": "A",
+      "printed_id": "4.7",
+      "marks": 2,
+      "leaf_ordinals": [
+        32
+      ]
+    },
+    {
+      "group_ordinal": 33,
+      "section": "A",
+      "printed_id": "4.8",
+      "marks": 2,
+      "leaf_ordinals": [
+        33
+      ]
+    },
+    {
+      "group_ordinal": 34,
+      "section": "A",
+      "printed_id": "4.9",
+      "marks": 2,
+      "leaf_ordinals": [
+        34
+      ]
+    },
+    {
+      "group_ordinal": 35,
+      "section": "A",
+      "printed_id": "4.10",
+      "marks": 2,
+      "leaf_ordinals": [
+        35
+      ]
+    },
+    {
+      "group_ordinal": 36,
+      "section": "A",
+      "printed_id": "5.1",
+      "marks": 2,
+      "leaf_ordinals": [
+        36
+      ]
+    },
+    {
+      "group_ordinal": 37,
+      "section": "A",
+      "printed_id": "5.2",
+      "marks": 2,
+      "leaf_ordinals": [
+        37
+      ]
+    },
+    {
+      "group_ordinal": 38,
+      "section": "A",
+      "printed_id": "5.3",
+      "marks": 2,
+      "leaf_ordinals": [
+        38
+      ]
+    },
+    {
+      "group_ordinal": 39,
+      "section": "A",
+      "printed_id": "5.4",
+      "marks": 2,
+      "leaf_ordinals": [
+        39
+      ]
+    },
+    {
+      "group_ordinal": 40,
+      "section": "A",
+      "printed_id": "5.5",
+      "marks": 2,
+      "leaf_ordinals": [
+        40
+      ]
+    },
+    {
+      "group_ordinal": 41,
+      "section": "A",
+      "printed_id": "6.1",
+      "marks": 2,
+      "leaf_ordinals": [
+        41
+      ]
+    },
+    {
+      "group_ordinal": 42,
+      "section": "A",
+      "printed_id": "6.2",
+      "marks": 2,
+      "leaf_ordinals": [
+        42
+      ]
+    },
+    {
+      "group_ordinal": 43,
+      "section": "A",
+      "printed_id": "6.3",
+      "marks": 2,
+      "leaf_ordinals": [
+        43
+      ]
+    },
+    {
+      "group_ordinal": 44,
+      "section": "A",
+      "printed_id": "6.4",
+      "marks": 2,
+      "leaf_ordinals": [
+        44
+      ]
+    },
+    {
+      "group_ordinal": 45,
+      "section": "A",
+      "printed_id": "6.5",
+      "marks": 2,
+      "leaf_ordinals": [
+        45
+      ]
+    },
+    {
+      "group_ordinal": 46,
+      "section": "A",
+      "printed_id": "6.6",
+      "marks": 2,
+      "leaf_ordinals": [
+        46
+      ]
+    },
+    {
+      "group_ordinal": 47,
+      "section": "A",
+      "printed_id": "6.7",
+      "marks": 2,
+      "leaf_ordinals": [
+        47
+      ]
+    },
+    {
+      "group_ordinal": 48,
+      "section": "A",
+      "printed_id": "6.8",
+      "marks": 2,
+      "leaf_ordinals": [
+        48
+      ]
+    },
+    {
+      "group_ordinal": 49,
+      "section": "A",
+      "printed_id": "6.9",
+      "marks": 2,
+      "leaf_ordinals": [
+        49
+      ]
+    },
+    {
+      "group_ordinal": 50,
+      "section": "A",
+      "printed_id": "6.10",
+      "marks": 2,
+      "leaf_ordinals": [
+        50
+      ]
+    },
+    {
+      "group_ordinal": 51,
+      "section": "A",
+      "printed_id": "7",
+      "marks": 5,
+      "leaf_ordinals": [
+        51,
+        52
+      ]
+    },
+    {
+      "group_ordinal": 52,
+      "section": "A",
+      "printed_id": "8",
+      "marks": 5,
+      "leaf_ordinals": [
+        53
+      ]
+    },
+    {
+      "group_ordinal": 53,
+      "section": "A",
+      "printed_id": "9",
+      "marks": 5,
+      "leaf_ordinals": [
+        54,
+        55
+      ]
+    },
+    {
+      "group_ordinal": 54,
+      "section": "A",
+      "printed_id": "10",
+      "marks": 5,
+      "leaf_ordinals": [
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "group_ordinal": 55,
+      "section": "A",
+      "printed_id": "11",
+      "marks": 5,
+      "leaf_ordinals": [
+        59,
+        60
+      ]
+    },
+    {
+      "group_ordinal": 56,
+      "section": "B",
+      "printed_id": "12",
+      "marks": 5,
+      "leaf_ordinals": [
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "group_ordinal": 57,
+      "section": "B",
+      "printed_id": "13",
+      "marks": 5,
+      "leaf_ordinals": [
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "group_ordinal": 58,
+      "section": "B",
+      "printed_id": "14",
+      "marks": 5,
+      "leaf_ordinals": [
+        67,
+        68
+      ]
+    },
+    {
+      "group_ordinal": 59,
+      "section": "B",
+      "printed_id": "15",
+      "marks": 5,
+      "leaf_ordinals": [
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "group_ordinal": 60,
+      "section": "B",
+      "printed_id": "16",
+      "marks": 5,
+      "leaf_ordinals": [
+        72,
+        73
+      ]
+    },
+    {
+      "group_ordinal": 61,
+      "section": "B",
+      "printed_id": "17",
+      "marks": 5,
+      "leaf_ordinals": [
+        74
+      ]
+    },
+    {
+      "group_ordinal": 62,
+      "section": "B",
+      "printed_id": "18",
+      "marks": 5,
+      "leaf_ordinals": [
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "group_ordinal": 63,
+      "section": "B",
+      "printed_id": "19",
+      "marks": 5,
+      "leaf_ordinals": [
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "group_ordinal": 64,
+      "section": "B",
+      "printed_id": "20",
+      "marks": 5,
+      "leaf_ordinals": [
+        81
+      ]
+    },
+    {
+      "group_ordinal": 65,
+      "section": "B",
+      "printed_id": "21",
+      "marks": 5,
+      "leaf_ordinals": [
+        82
+      ]
+    },
+    {
+      "group_ordinal": 66,
+      "section": "B",
+      "printed_id": "22",
+      "marks": 5,
+      "leaf_ordinals": [
+        83
+      ]
+    },
+    {
+      "group_ordinal": 67,
+      "section": "B",
+      "printed_id": "23",
+      "marks": 5,
+      "leaf_ordinals": [
+        84
+      ]
+    },
+    {
+      "group_ordinal": 68,
+      "section": "B",
+      "printed_id": "24",
+      "marks": 5,
+      "leaf_ordinals": [
+        85
+      ]
+    },
+    {
+      "group_ordinal": 69,
+      "section": "B",
+      "printed_id": "GFG70",
+      "marks": 5,
+      "leaf_ordinals": [
+        86,
+        87
+      ]
+    },
+    {
+      "group_ordinal": 70,
+      "section": "B",
+      "printed_id": "GFG71",
+      "marks": 5,
+      "leaf_ordinals": [
+        88,
+        89
+      ]
+    },
+    {
+      "group_ordinal": 71,
+      "section": "B",
+      "printed_id": "GFG72",
+      "marks": 5,
+      "leaf_ordinals": [
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "group_ordinal": 72,
+      "section": "B",
+      "printed_id": "GFG73",
+      "marks": 5,
+      "leaf_ordinals": [
+        93
+      ]
+    },
+    {
+      "group_ordinal": 73,
+      "section": "B",
+      "printed_id": "GFG74",
+      "marks": 5,
+      "leaf_ordinals": [
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "group_ordinal": 74,
+      "section": "B",
+      "printed_id": "GFG75",
+      "marks": 5,
+      "leaf_ordinals": [
+        97,
+        98
+      ]
+    },
+    {
+      "group_ordinal": 75,
+      "section": "B",
+      "printed_id": "GFG76",
+      "marks": 5,
+      "leaf_ordinals": [
+        99,
+        100,
+        101
+      ]
+    }
+  ],
+  "items": [
+    {
+      "normalized_ordinal": 1,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "1",
+      "printed_id": "1.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 1,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 2,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "2",
+      "printed_id": "1.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 2,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 3,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "3",
+      "printed_id": "1.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 3,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 4,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "4",
+      "printed_id": "1.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 4,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 5,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "5",
+      "printed_id": "1.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        1
+      ],
+      "gfg_question": 5,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 6,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "6",
+      "printed_id": "1.6",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 6,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 7,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "7",
+      "printed_id": "1.7",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 7,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 8,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "8",
+      "printed_id": "1.8",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 8,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 9,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "9",
+      "printed_id": "1.9",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 9,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 10,
+      "section": "A",
+      "printed_question": 1,
+      "printed_subpart": "10",
+      "printed_id": "1.10",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        2
+      ],
+      "gfg_question": 10,
+      "gfg_pages": [
+        1,
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 11,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "1",
+      "printed_id": "2.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 11,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 12,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "2",
+      "printed_id": "2.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 12,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 13,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "3",
+      "printed_id": "2.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 13,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 14,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "4",
+      "printed_id": "2.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 14,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 15,
+      "section": "A",
+      "printed_question": 2,
+      "printed_subpart": "5",
+      "printed_id": "2.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 15,
+      "gfg_pages": [
+        2
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 16,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "1",
+      "printed_id": "3.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        3
+      ],
+      "gfg_question": 16,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 17,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "2",
+      "printed_id": "3.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 17,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 18,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "3",
+      "printed_id": "3.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 18,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 19,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "4",
+      "printed_id": "3.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 19,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 20,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "5",
+      "printed_id": "3.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 20,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 21,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "6",
+      "printed_id": "3.6",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 21,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 22,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "7",
+      "printed_id": "3.7",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        4
+      ],
+      "gfg_question": 22,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 23,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "8",
+      "printed_id": "3.8",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 23,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 24,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "9",
+      "printed_id": "3.9",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 24,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 25,
+      "section": "A",
+      "printed_question": 3,
+      "printed_subpart": "10",
+      "printed_id": "3.10",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 25,
+      "gfg_pages": [
+        2,
+        3
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 26,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "1",
+      "printed_id": "4.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 26,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 27,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "2",
+      "printed_id": "4.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 27,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 28,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "3",
+      "printed_id": "4.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        5
+      ],
+      "gfg_question": 28,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 29,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "4",
+      "printed_id": "4.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 29,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 30,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "5",
+      "printed_id": "4.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 30,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 31,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "6",
+      "printed_id": "4.6",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 31,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 32,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "7",
+      "printed_id": "4.7",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6
+      ],
+      "gfg_question": 32,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 33,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "8",
+      "printed_id": "4.8",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        6,
+        7
+      ],
+      "gfg_question": 33,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 34,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "9",
+      "printed_id": "4.9",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 34,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 35,
+      "section": "A",
+      "printed_question": 4,
+      "printed_subpart": "10",
+      "printed_id": "4.10",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 35,
+      "gfg_pages": [
+        3,
+        4
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 36,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "1",
+      "printed_id": "5.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 36,
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 37,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "2",
+      "printed_id": "5.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        7
+      ],
+      "gfg_question": 37,
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 38,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "3",
+      "printed_id": "5.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 38,
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 39,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "4",
+      "printed_id": "5.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 39,
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 40,
+      "section": "A",
+      "printed_question": 5,
+      "printed_subpart": "5",
+      "printed_id": "5.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 40,
+      "gfg_pages": [
+        4,
+        5
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 41,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "1",
+      "printed_id": "6.1",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 41,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 42,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "2",
+      "printed_id": "6.2",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 42,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 43,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "3",
+      "printed_id": "6.3",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 43,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 44,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "4",
+      "printed_id": "6.4",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        8
+      ],
+      "gfg_question": 44,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 45,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "5",
+      "printed_id": "6.5",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 45,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 46,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "6",
+      "printed_id": "6.6",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 46,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 47,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "7",
+      "printed_id": "6.7",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 47,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 48,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "8",
+      "printed_id": "6.8",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9
+      ],
+      "gfg_question": 48,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 49,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "9",
+      "printed_id": "6.9",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        9,
+        10
+      ],
+      "gfg_question": 49,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 50,
+      "section": "A",
+      "printed_question": 6,
+      "printed_subpart": "10",
+      "printed_id": "6.10",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": null,
+      "source_parent_marks": null,
+      "type": "MCQ",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 50,
+      "gfg_pages": [
+        5,
+        6
+      ],
+      "source_note": "GFG objective page range covers entire printed source group; not pinpoint item page"
+    },
+    {
+      "normalized_ordinal": 51,
+      "section": "A",
+      "printed_question": 7,
+      "printed_subpart": "a",
+      "printed_id": "7(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 51,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 52,
+      "section": "A",
+      "printed_question": 7,
+      "printed_subpart": "b",
+      "printed_id": "7(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 51,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 53,
+      "section": "A",
+      "printed_question": 8,
+      "printed_subpart": null,
+      "printed_id": "8",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        10
+      ],
+      "gfg_question": 52,
+      "gfg_pages": [
+        6
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 54,
+      "section": "A",
+      "printed_question": 9,
+      "printed_subpart": "a",
+      "printed_id": "9(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 53,
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 55,
+      "section": "A",
+      "printed_question": 9,
+      "printed_subpart": "b",
+      "printed_id": "9(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 53,
+      "gfg_pages": [
+        6,
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 56,
+      "section": "A",
+      "printed_question": 10,
+      "printed_subpart": "a.i",
+      "printed_id": "10(a)(i)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": null,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 54,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 57,
+      "section": "A",
+      "printed_question": 10,
+      "printed_subpart": "a.ii",
+      "printed_id": "10(a)(ii)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": null,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 54,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 58,
+      "section": "A",
+      "printed_question": 10,
+      "printed_subpart": "b",
+      "printed_id": "10(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11
+      ],
+      "gfg_question": 54,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 59,
+      "section": "A",
+      "printed_question": 11,
+      "printed_subpart": "a",
+      "printed_id": "11(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11,
+        12
+      ],
+      "gfg_question": 55,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 60,
+      "section": "A",
+      "printed_question": 11,
+      "printed_subpart": "b",
+      "printed_id": "11(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        11,
+        12
+      ],
+      "gfg_question": 55,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 61,
+      "section": "B",
+      "printed_question": 12,
+      "printed_subpart": "a",
+      "printed_id": "12(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 56,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 62,
+      "section": "B",
+      "printed_question": 12,
+      "printed_subpart": "b",
+      "printed_id": "12(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 56,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 63,
+      "section": "B",
+      "printed_question": 12,
+      "printed_subpart": "c",
+      "printed_id": "12(c)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 56,
+      "gfg_pages": [
+        7
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 64,
+      "section": "B",
+      "printed_question": 13,
+      "printed_subpart": "a",
+      "printed_id": "13(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 57,
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 65,
+      "section": "B",
+      "printed_question": 13,
+      "printed_subpart": "b",
+      "printed_id": "13(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 57,
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 66,
+      "section": "B",
+      "printed_question": 13,
+      "printed_subpart": "c",
+      "printed_id": "13(c)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 57,
+      "gfg_pages": [
+        7,
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 67,
+      "section": "B",
+      "printed_question": 14,
+      "printed_subpart": "a",
+      "printed_id": "14(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 58,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 68,
+      "section": "B",
+      "printed_question": 14,
+      "printed_subpart": "b",
+      "printed_id": "14(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12
+      ],
+      "gfg_question": 58,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 69,
+      "section": "B",
+      "printed_question": 15,
+      "printed_subpart": "a",
+      "printed_id": "15(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12,
+        13
+      ],
+      "gfg_question": 59,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 70,
+      "section": "B",
+      "printed_question": 15,
+      "printed_subpart": "b",
+      "printed_id": "15(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12,
+        13
+      ],
+      "gfg_question": 59,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 71,
+      "section": "B",
+      "printed_question": 15,
+      "printed_subpart": "c",
+      "printed_id": "15(c)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        12,
+        13
+      ],
+      "gfg_question": 59,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 72,
+      "section": "B",
+      "printed_question": 16,
+      "printed_subpart": "a",
+      "printed_id": "16(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 60,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 73,
+      "section": "B",
+      "printed_question": 16,
+      "printed_subpart": "b",
+      "printed_id": "16(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13
+      ],
+      "gfg_question": 60,
+      "gfg_pages": [
+        8
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 74,
+      "section": "B",
+      "printed_question": 17,
+      "printed_subpart": null,
+      "printed_id": "17",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        13,
+        14
+      ],
+      "gfg_question": 61,
+      "gfg_pages": [
+        8,
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 75,
+      "section": "B",
+      "printed_question": 18,
+      "printed_subpart": "a",
+      "printed_id": "18(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14
+      ],
+      "gfg_question": 63,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": "GFG62 is shared code stem; GFG63 contains these original18 subparts"
+    },
+    {
+      "normalized_ordinal": 76,
+      "section": "B",
+      "printed_question": 18,
+      "printed_subpart": "b",
+      "printed_id": "18(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14
+      ],
+      "gfg_question": 63,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": "GFG62 is shared code stem; GFG63 contains these original18 subparts"
+    },
+    {
+      "normalized_ordinal": 77,
+      "section": "B",
+      "printed_question": 18,
+      "printed_subpart": "c",
+      "printed_id": "18(c)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        14
+      ],
+      "gfg_question": 63,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": "GFG62 is shared code stem; GFG63 contains these original18 subparts"
+    },
+    {
+      "normalized_ordinal": 78,
+      "section": "B",
+      "printed_question": 19,
+      "printed_subpart": "a",
+      "printed_id": "19(a)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 79,
+      "section": "B",
+      "printed_question": 19,
+      "printed_subpart": "b",
+      "printed_id": "19(b)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 80,
+      "section": "B",
+      "printed_question": 19,
+      "printed_subpart": "c",
+      "printed_id": "19(c)",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 64,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 81,
+      "section": "B",
+      "printed_question": 20,
+      "printed_subpart": null,
+      "printed_id": "20",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 65,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 82,
+      "section": "B",
+      "printed_question": 21,
+      "printed_subpart": null,
+      "printed_id": "21",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 66,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 83,
+      "section": "B",
+      "printed_question": 22,
+      "printed_subpart": null,
+      "printed_id": "22",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15
+      ],
+      "gfg_question": 67,
+      "gfg_pages": [
+        9
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 84,
+      "section": "B",
+      "printed_question": 23,
+      "printed_subpart": null,
+      "printed_id": "23",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        15,
+        16
+      ],
+      "gfg_question": 68,
+      "gfg_pages": [
+        9,
+        10
+      ],
+      "source_note": null
+    },
+    {
+      "normalized_ordinal": 85,
+      "section": "B",
+      "printed_question": 24,
+      "printed_subpart": null,
+      "printed_id": "24",
+      "original_id_status": "Observed GateForum numbering",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [
+        16
+      ],
+      "gfg_question": 69,
+      "gfg_pages": [
+        10
+      ],
+      "source_note": "GateForum ends midprogram; complete prompt only GFG69"
+    },
+    {
+      "normalized_ordinal": 86,
+      "section": "B",
+      "printed_question": 70,
+      "printed_subpart": "a",
+      "printed_id": "GFG70(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 70,
+      "gfg_pages": [
+        10
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 87,
+      "section": "B",
+      "printed_question": 70,
+      "printed_subpart": "b",
+      "printed_id": "GFG70(b)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 70,
+      "gfg_pages": [
+        10
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 88,
+      "section": "B",
+      "printed_question": 71,
+      "printed_subpart": "a",
+      "printed_id": "GFG71(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 71,
+      "gfg_pages": [
+        10
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 89,
+      "section": "B",
+      "printed_question": 71,
+      "printed_subpart": "b",
+      "printed_id": "GFG71(b)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 71,
+      "gfg_pages": [
+        10
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 90,
+      "section": "B",
+      "printed_question": 72,
+      "printed_subpart": "a",
+      "printed_id": "GFG72(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 72,
+      "gfg_pages": [
+        10,
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 91,
+      "section": "B",
+      "printed_question": 72,
+      "printed_subpart": "b",
+      "printed_id": "GFG72(b)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 72,
+      "gfg_pages": [
+        10,
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 92,
+      "section": "B",
+      "printed_question": 72,
+      "printed_subpart": "c",
+      "printed_id": "GFG72(c)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 72,
+      "gfg_pages": [
+        10,
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 93,
+      "section": "B",
+      "printed_question": 73,
+      "printed_subpart": null,
+      "printed_id": "GFG73",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 5,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 73,
+      "gfg_pages": [
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 94,
+      "section": "B",
+      "printed_question": 74,
+      "printed_subpart": "a",
+      "printed_id": "GFG74(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 74,
+      "gfg_pages": [
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 95,
+      "section": "B",
+      "printed_question": 74,
+      "printed_subpart": "b",
+      "printed_id": "GFG74(b)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 74,
+      "gfg_pages": [
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 96,
+      "section": "B",
+      "printed_question": 74,
+      "printed_subpart": "c",
+      "printed_id": "GFG74(c)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 74,
+      "gfg_pages": [
+        11
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 97,
+      "section": "B",
+      "printed_question": 75,
+      "printed_subpart": "a",
+      "printed_id": "GFG75(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 3,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 75,
+      "gfg_pages": [
+        12
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 98,
+      "section": "B",
+      "printed_question": 75,
+      "printed_subpart": "b",
+      "printed_id": "GFG75(b)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 2,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 75,
+      "gfg_pages": [
+        12
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 99,
+      "section": "B",
+      "printed_question": 76,
+      "printed_subpart": "a",
+      "printed_id": "GFG76(a)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": 1,
+      "source_group_marks": 5,
+      "source_parent_marks": null,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 76,
+      "gfg_pages": [
+        12
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 100,
+      "section": "B",
+      "printed_question": 76,
+      "printed_subpart": "b.i",
+      "printed_id": "GFG76(b)(i)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": null,
+      "source_group_marks": 5,
+      "source_parent_marks": 4,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 76,
+      "gfg_pages": [
+        12
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    },
+    {
+      "normalized_ordinal": 101,
+      "section": "B",
+      "printed_question": 76,
+      "printed_subpart": "b.ii",
+      "printed_id": "GFG76(b)(ii)",
+      "original_id_status": "Original number unverified; using actual GFG reproduction label",
+      "marks": null,
+      "source_group_marks": 5,
+      "source_parent_marks": 4,
+      "type": "descriptive",
+      "gateforum_pages": [],
+      "gfg_question": 76,
+      "gfg_pages": [
+        12
+      ],
+      "source_note": "GFG-only supplied source; original grouping number not verified"
+    }
+  ]
+}

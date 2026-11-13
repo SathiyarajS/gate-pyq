@@ -1,0 +1,5 @@
+Jinja2==3.1.6
+# Pinned: a new Playwright brings a new Chromium, which re-renders every PDF.
+playwright==1.65.0
+PyMuPDF>=1.24,<2
+Pillow>=10,<13

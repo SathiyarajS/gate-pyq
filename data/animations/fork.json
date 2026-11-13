@@ -1,0 +1,68 @@
+{
+ "description": "Step-through animations (Process creation with fork(): the process tree, one fork() at a time). Each entry states the question's program as statements and is simulated at build time by scripts/animations/fork.py; the build fails if the count differs from 'expect', which must match the question's official answer, or our answer where no key exists. For an option that is a formula in n, 'expect' is that option's formula and every case in 'cases' must agree with it.",
+ "questions": {
+  "CS-2008-Q66": {
+   "kind": "fork-tree",
+   "program": [
+    {"op": "for", "var": "i", "from": 0, "to": "n", "body": [
+     {"op": "fork"}
+    ]}
+   ],
+   "cases": [{"n": 2}, {"n": 3}, {"n": 4}],
+   "query": "children",
+   "expect": "2^n−1"
+  },
+  "CS-2012-Q18": {
+   "kind": "fork-tree",
+   "program": [
+    {"op": "fork"},
+    {"op": "fork"},
+    {"op": "fork"}
+   ],
+   "query": "children",
+   "expect": 7
+  },
+  "CS-2019-Q27": {
+   "kind": "fork-tree",
+   "program": [
+    {"op": "for", "var": "i", "from": 0, "to": 10, "body": [
+     {"op": "if", "cond": "i % 2 == 0", "then": [
+      {"op": "fork"}
+     ]}
+    ]},
+    {"op": "return"}
+   ],
+   "query": "children",
+   "expect": 31
+  },
+  "CS-2024-S1-Q57": {
+   "kind": "fork-tree",
+   "program": [
+    {"op": "int", "var": "x", "value": 3},
+    {"op": "while", "cond": "x > 0", "body": [
+     {"op": "fork"},
+     {"op": "printf", "text": "hello"},
+     {"op": "wait"},
+     {"op": "dec", "var": "x"}
+    ]}
+   ],
+   "query": "prints",
+   "expect": 14
+  },
+  "CS-2026-S1-Q63": {
+   "kind": "fork-tree",
+   "program": [
+    {"op": "for", "var": "i", "from": 0, "to": 3, "body": [
+     {"op": "if_fork", "test": "== 0", "then": [
+      {"op": "continue"}
+     ]},
+     {"op": "break"}
+    ]},
+    {"op": "printf", "text": "Hello!"},
+    {"op": "return"}
+   ],
+   "query": "prints",
+   "expect": 4
+  }
+ }
+}

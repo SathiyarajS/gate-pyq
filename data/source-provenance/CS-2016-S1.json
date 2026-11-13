@@ -1,0 +1,17 @@
+{
+  "paper_id": "CS-2016-S1",
+  "official_index": "https://gate2026.iitg.ac.in/download.html",
+  "official_linked_folder": "https://drive.google.com/drive/folders/1sV6FgtOUDl_PGjc36Zdc0eJwK1zZ_2OF",
+  "archive_url": "https://drive.google.com/file/d/1popAHO-cX69oQEx_tD0wZXL1tTrBljeO/view",
+  "member": "CS/CS2016.pdf",
+  "merged_paper_and_key_sha256": "979f307a3cebf1abf5fe8938e93d81a434ccb82bc9e34879d2b508b4e2addef2",
+  "key_pages": [
+    21,
+    22
+  ],
+  "printed_ga_set": 5,
+  "printed_cs_set": "A",
+  "official_exam_session": null,
+  "final_revision_verified": false,
+  "answer_ranges": "Exact colon-delimited accepted intervals preserved from appended key."
+}

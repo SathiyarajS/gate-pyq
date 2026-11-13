@@ -1,0 +1,728 @@
+{
+  "description": "Step-through animations (finite automata stated in the question text: runs of DFAs, NFAs and ε-NFAs, counting accepted strings, the subset construction, minimisation by partition refinement for DFAs, product DFAs and Mealy machines, minimal DFAs of precisely stated languages, statements about a machine's language, and Mealy output traces). Each entry states only the machine or language from the question and the expected answer; scripts/animations/automata.py computes everything at build time and the build fails if the result differs from 'expect', which must match the official answer, or our answer where no key exists. A 'regex' or 'rule' that comes with a 'member' test is our construction for the language, checked against that test. 'pos' and 'layout' only place the states in the drawing.",
+  "questions": {
+    "CS-2017-S2-Q49": {
+      "kind": "fa-run",
+      "machine": {
+        "states": [
+          "q0",
+          "q1",
+          "q2",
+          "q3"
+        ],
+        "alphabet": "ab",
+        "edges": [
+          [
+            "q0",
+            "ε",
+            "q2"
+          ],
+          [
+            "q0",
+            "a",
+            "q1"
+          ],
+          [
+            "q0",
+            "b",
+            "q0"
+          ],
+          [
+            "q1",
+            "ε",
+            "q2"
+          ],
+          [
+            "q1",
+            "a",
+            "q2"
+          ],
+          [
+            "q1",
+            "b",
+            "q3"
+          ],
+          [
+            "q2",
+            "ε",
+            "q0"
+          ],
+          [
+            "q3",
+            "b",
+            "q2"
+          ]
+        ],
+        "pos": {
+          "q0": [
+            0,
+            0
+          ],
+          "q1": [
+            1,
+            0
+          ],
+          "q2": [
+            0,
+            1
+          ],
+          "q3": [
+            1,
+            1
+          ]
+        },
+        "start": "q0"
+      },
+      "runs": [
+        {
+          "input": "aba",
+          "from": "q2",
+          "expect": {
+            "states": [
+              "q0",
+              "q1",
+              "q2"
+            ]
+          }
+        }
+      ]
+    },
+    "CS-2025-S1-Q59": {
+      "kind": "fa-refine",
+      "machine": {
+        "states": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H"
+        ],
+        "alphabet": "01",
+        "edges": [
+          [
+            "A",
+            "0/0",
+            "F"
+          ],
+          [
+            "A",
+            "1/0",
+            "B"
+          ],
+          [
+            "B",
+            "0/0",
+            "D"
+          ],
+          [
+            "B",
+            "1/0",
+            "C"
+          ],
+          [
+            "C",
+            "0/0",
+            "F"
+          ],
+          [
+            "C",
+            "1/0",
+            "E"
+          ],
+          [
+            "D",
+            "0/1",
+            "G"
+          ],
+          [
+            "D",
+            "1/0",
+            "A"
+          ],
+          [
+            "E",
+            "0/0",
+            "D"
+          ],
+          [
+            "E",
+            "1/0",
+            "C"
+          ],
+          [
+            "F",
+            "0/1",
+            "F"
+          ],
+          [
+            "F",
+            "1/1",
+            "B"
+          ],
+          [
+            "G",
+            "0/0",
+            "G"
+          ],
+          [
+            "G",
+            "1/1",
+            "H"
+          ],
+          [
+            "H",
+            "0/1",
+            "G"
+          ],
+          [
+            "H",
+            "1/0",
+            "A"
+          ]
+        ],
+        "pos": "circle"
+      },
+      "expect": {
+        "count": 5,
+        "blocks": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "E"
+          ],
+          [
+            "D",
+            "H"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ]
+        ]
+      }
+    },
+    "CS-2015-S2-Q45": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(10)"
+      },
+      "expect": {
+        "count": 3
+      }
+    },
+    "CS-2016-S2-Q26": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(0+1)(0+1)*"
+      },
+      "expect": {
+        "count": 2
+      }
+    },
+    "CS-2017-S1-Q32": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a+b)*b(a+b)"
+      },
+      "expect": {
+        "count": 4
+      }
+    },
+    "CS-2017-S2-Q35": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "dead": "counted",
+      "lang": {
+        "regex": "(a+b)(a+b)a(a+b)(a+b)(a+b)(a+b)*",
+        "member": "len(w) >= 6 and w[2] == 'a'",
+        "text": "{w₁aw₂ : |w₁| = 2, |w₂| ≥ 3}"
+      },
+      "expect": {
+        "count": 8
+      }
+    },
+    "CS-2020-Q61": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "rule": {
+          "start": "0",
+          "next": "(s + (c == 'a')) % 6",
+          "accept": "s % 2 == 0 and s % 3 != 0",
+          "name": "'q%d' % s",
+          "layout": "circle"
+        },
+        "member": "w.count('a') % 2 == 0 and w.count('a') % 3 != 0",
+        "text": "strings whose number of a's is divisible by 2 but not by 3"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-2023-Q63": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "dead": "counted",
+      "lang": {
+        "rule": {
+          "start": "0",
+          "next": "3 if s == 3 or (c == '1' and s == 2) else (s + 1 if c == '1' else 0)",
+          "accept": "s < 3",
+          "name": "'qD' if s == 3 else 'q%d' % s"
+        },
+        "member": "'111' not in w",
+        "text": "strings with no three consecutive 1s"
+      },
+      "expect": {
+        "count": 4
+      }
+    },
+    "CS-2025-S2-Q60": {
+      "kind": "fa-language",
+      "alphabet": "1234",
+      "lang": {
+        "rule": {
+          "start": "1",
+          "next": "s * int(c) % 7",
+          "accept": "s == 2",
+          "name": "'r%d' % s",
+          "layout": "circle"
+        },
+        "member": "prod(int(c) for c in w) % 7 == 2",
+        "text": "strings whose product of symbols is 2 modulo 7"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-2006-Q34": {
+      "kind": "fa-language",
+      "alphabet": "1",
+      "lang": {
+        "regex": "(111+11111)*"
+      },
+      "expect": {
+        "count": 9
+      }
+    },
+    "CS-2007-Q29": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == '0')) % 3, (s[1] + (c == '1')) % 5)",
+          "accept": "s == (0, 0)",
+          "name": "'%d%d' % s",
+          "pos": "[s[1], s[0]]"
+        },
+        "member": "w.count('0') % 3 == 0 and w.count('1') % 5 == 0",
+        "text": "strings whose number of 0s is divisible by 3 and number of 1s by 5"
+      },
+      "expect": {
+        "count": 15
+      }
+    },
+    "CS-1998-Q40": {
+      "kind": "fa-language",
+      "alphabet": "01",
+      "lang": {
+        "regex": "(0+1)*(00+11)",
+        "member": "len(w) >= 2 and w[-1] == w[-2]",
+        "text": "strings whose last two symbols are equal"
+      },
+      "expect": {
+        "count": 5
+      }
+    },
+    "CS-1997-Q81": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == 'a')) % 2, (s[1] + (c == 'b')) % 3)",
+          "accept": "s == (0, 0)",
+          "name": "'q%d%d' % s",
+          "pos": "[s[1], s[0]]"
+        },
+        "member": "w.count('a') % 2 == 0 and w.count('b') % 3 == 0",
+        "text": "strings with a number of a's divisible by 2 and of b's divisible by 3"
+      },
+      "expect": {
+        "count": 6
+      }
+    },
+    "CS-1993-Q68": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "member": "'bbb' not in w",
+        "text": "strings with no substring bbb",
+        "rule": {
+          "start": "0",
+          "next": "3 if s == 3 or (s == 2 and c == 'b') else (s + 1 if c == 'b' else 0)",
+          "accept": "s < 3"
+        }
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "qD"
+          ],
+          "start": "q0",
+          "final": [
+            "q0",
+            "q1",
+            "q2"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q0"
+            ],
+            [
+              "q0",
+              "b",
+              "q1"
+            ],
+            [
+              "q1",
+              "a",
+              "q0"
+            ],
+            [
+              "q1",
+              "b",
+              "q2"
+            ],
+            [
+              "q2",
+              "a",
+              "q0"
+            ],
+            [
+              "q2",
+              "b",
+              "qD"
+            ],
+            [
+              "qD",
+              "a,b",
+              "qD"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2001-Q55": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a+b)*baab(a+b)*",
+        "member": "'baab' in w",
+        "text": "strings containing baab"
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "q3",
+            "q4"
+          ],
+          "start": "q0",
+          "final": [
+            "q4"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q0"
+            ],
+            [
+              "q0",
+              "b",
+              "q1"
+            ],
+            [
+              "q1",
+              "a",
+              "q2"
+            ],
+            [
+              "q1",
+              "b",
+              "q1"
+            ],
+            [
+              "q2",
+              "a",
+              "q3"
+            ],
+            [
+              "q2",
+              "b",
+              "q1"
+            ],
+            [
+              "q3",
+              "a",
+              "q0"
+            ],
+            [
+              "q3",
+              "b",
+              "q4"
+            ],
+            [
+              "q4",
+              "a,b",
+              "q4"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2001-Q56": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "member": "w.count('a') % 2 == 1 and w.count('b') % 2 == 1",
+        "text": "strings with an odd number of a's and an odd number of b's",
+        "rule": {
+          "start": "(0, 0)",
+          "next": "((s[0] + (c == 'a')) % 2, (s[1] + (c == 'b')) % 2)",
+          "accept": "s == (1, 1)"
+        }
+      },
+      "expect": {
+        "dfa": {
+          "states": [
+            "EE",
+            "OE",
+            "EO",
+            "OO"
+          ],
+          "start": "EE",
+          "final": [
+            "OO"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "EE",
+              "a",
+              "OE"
+            ],
+            [
+              "EE",
+              "b",
+              "EO"
+            ],
+            [
+              "OE",
+              "a",
+              "EE"
+            ],
+            [
+              "OE",
+              "b",
+              "OO"
+            ],
+            [
+              "EO",
+              "a",
+              "OO"
+            ],
+            [
+              "EO",
+              "b",
+              "EE"
+            ],
+            [
+              "OO",
+              "a",
+              "EO"
+            ],
+            [
+              "OO",
+              "b",
+              "OE"
+            ]
+          ],
+          "pos": {
+            "EE": [
+              0,
+              0
+            ],
+            "OE": [
+              1,
+              0
+            ],
+            "EO": [
+              0,
+              1
+            ],
+            "OO": [
+              1,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "CS-2002-Q98": {
+      "kind": "fa-language",
+      "alphabet": "ab",
+      "lang": {
+        "regex": "(a|b)*abb"
+      },
+      "expect": {
+        "count": 4,
+        "dfa": {
+          "states": [
+            "q0",
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "start": "q0",
+          "final": [
+            "q3"
+          ],
+          "alphabet": "ab",
+          "edges": [
+            [
+              "q0",
+              "a",
+              "q1"
+            ],
+            [
+              "q0",
+              "b",
+              "q0"
+            ],
+            [
+              "q1",
+              "a",
+              "q1"
+            ],
+            [
+              "q1",
+              "b",
+              "q2"
+            ],
+            [
+              "q2",
+              "a",
+              "q1"
+            ],
+            [
+              "q2",
+              "b",
+              "q3"
+            ],
+            [
+              "q3",
+              "a",
+              "q1"
+            ],
+            [
+              "q3",
+              "b",
+              "q0"
+            ]
+          ]
+        }
+      }
+    },
+    "CS-2021-S2-Q38": {
+      "kind": "fa-mealy",
+      "input": "00100011000011100",
+      "output": "00000001000001100",
+      "options": [
+        {
+          "label": "A",
+          "t": "s | b",
+          "y": "s & b",
+          "show_t": "s + b",
+          "show_y": "sb",
+          "expect": false
+        },
+        {
+          "label": "B",
+          "t": "b",
+          "y": "s & b",
+          "show_t": "b",
+          "show_y": "sb",
+          "expect": true
+        },
+        {
+          "label": "C",
+          "t": "b",
+          "y": "s & (1 - b)",
+          "show_t": "b",
+          "show_y": "s¬b",
+          "expect": false
+        },
+        {
+          "label": "D",
+          "t": "s | b",
+          "y": "s & (1 - b)",
+          "show_t": "s + b",
+          "show_y": "s¬b",
+          "expect": false
+        }
+      ]
+    }
+  },
+  "excluded": {
+    "CS-1996-Q48": "Keyed option text is absent from question_text.",
+    "CS-1997-Q86": "Open source/model qualification: original question number unverified.",
+    "CS-1997-Q87": "Open source/model qualification: original question number unverified.",
+    "CS-2024-S1-Q50": "Positive inclusion for a nonregular language was only bounded-tested, not proved.",
+    "CS-2013-Q43": "Includes a conceptual context-free-language claim.",
+    "CS-2002-Q30": "Spec invents a demonstration input and infers a universal output claim from bounded enumeration.",
+    "CS-2014-S1-Q26": "The source provides required automaton transitions only in a diagram.",
+    "CS-2003-Q50": "The source provides required automaton transitions only in a diagram.",
+    "CS-2021-S2-Q27": "The source provides required automaton transitions only in a diagram.",
+    "CS-2003-Q55": "The source provides required automaton transitions only in a diagram.",
+    "CS-2012-Q22": "The source provides required automaton transitions only in a diagram.",
+    "CS-2007-Q75": "The source provides required automaton transitions only in a diagram.",
+    "CS-2011-Q55": "The source provides required automaton transitions only in a diagram.",
+    "CS-2015-S1-Q49": "The source provides required automaton transitions only in a diagram.",
+    "CS-1994-Q34": "The source provides required automaton transitions only in a diagram.",
+    "CS-2007-Q74": "The source provides required automaton transitions only in a diagram.",
+    "CS-2009-Q41": "The source provides required automaton transitions only in a diagram.",
+    "CS-2014-S1-Q46": "The source provides required automaton transitions only in a diagram.",
+    "CS-2021-S1-Q48": "The source provides required automaton transitions only in a diagram.",
+    "CS-2022-Q12": "The source provides required automaton transitions only in a diagram.",
+    "CS-2023-Q14": "The source provides required automaton transitions only in a diagram.",
+    "CS-2024-S2-Q22": "The source provides required automaton transitions only in a diagram.",
+    "CS-2024-S2-Q41": "The source provides required automaton transitions only in a diagram.",
+    "CS-2025-S1-Q50": "The source provides required automaton transitions only in a diagram.",
+    "CS-2004-Q86": "The source provides required automaton transitions only in a diagram.",
+    "CS-2012-Q56": "The source provides required automaton transitions only in a diagram.",
+    "CS-1991-Q71": "Secondary source copies use different symbol notation and the source qualification is open."
+  }
+}

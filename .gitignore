@@ -1,0 +1,38 @@
+.DS_Store
+*.swp
+*.tmp
+
+
+__pycache__/
+*.pyc
+
+# Generated private previews and local-only source/render caches
+_site/
+.local-source-cache/
+audits/screenshots/
+audits/compare/
+
+node_modules/
+_site-enhanced/
+
+_site-crop-preview/
+
+# PDF-only downscaled question images
+.pdf-images/
+.pdf-cache/
+
+# Local agent prompts and review screenshots
+.agent-prompt-*
+audits/compare-shots/
+
+# Parallel agents' working copies (git worktrees)
+.claude/worktrees/
+
+# Cached step-through simulations (scripts/animations/__init__.py)
+.anim-cache/
+
+# Source PDFs are local working files, not stored in the repository.
+# Restore them with: python scripts/fetch_sources.py  (checks each recorded sha256)
+sources/*
+!sources/manifest.json
+!sources/README.md

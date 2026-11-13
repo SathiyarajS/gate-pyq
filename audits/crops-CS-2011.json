@@ -1,0 +1,174 @@
+{
+  "paper_id": "CS-2011",
+  "status": "independent_source_bounds_review_passed",
+  "reviewed_proposal_sha256": "4b8562d5a8a9dea259218b40b832bdf25e7fc06e3093b4eb71b25de445830706",
+  "preparation_evidence_sha256": "797fad7e0f56c75898c816b7a3bcd7ae39931410608351af55ff046478506789",
+  "independent_review_evidence_sha256": "adc3c948279339dd9164f2915c270c258537fc7e8ed9485b2a3ba922fc822cfa",
+  "questions": 65,
+  "crop_parts": 75,
+  "verified_questions": 65,
+  "review_scope": "Source question-body crop fidelity. Separate preparation and independent review inspected full source pages and all actual output parts. External answer scoring and neighboring questions excluded; original body notation and figures preserved.",
+  "limitations": "Not answer recertification, original-source completeness, accessible transcription or redistribution authorization. Browser QA remains blocked.",
+  "independent_review": {
+    "paper_id": "CS-2011",
+    "status": "approved",
+    "review_scope": "Independent crop-boundary and source-output fidelity review only",
+    "crops_sha256": "4b8562d5a8a9dea259218b40b832bdf25e7fc06e3093b4eb71b25de445830706",
+    "source_sha256": "d84d37b374ed77906a34c410f7fba96af7127808b7697466a0183aa4f82b3acc",
+    "source_file": "sources/web/gate.iitkgp.ac.in/documents/gatepapers/2011/cs_2011.pdf",
+    "question_count": 65,
+    "part_count": 75,
+    "full_source_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "actual_output_contact_sheets_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "fresh_render_byte_identity": {
+      "matched": 75,
+      "mismatched": 0,
+      "scale": 3,
+      "format": "WEBP",
+      "quality": 80
+    },
+    "number_mapping": "Repository Q1–Q10 = printed Q56–Q65; repository Q11–Q65 = printed Q1–Q55. Checked against repository metadata and printed pages.",
+    "approved_overlap_pairs": [
+      {
+        "questions": [
+          "CS-2011-Q58",
+          "CS-2011-Q59"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "reason": "Identical common stem, including complete code/circuit/graph and explanatory text, required by both questions."
+      },
+      {
+        "questions": [
+          "CS-2011-Q60",
+          "CS-2011-Q61"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 14,
+        "reason": "Identical common stem, including complete code/circuit/graph and explanatory text, required by both questions."
+      },
+      {
+        "questions": [
+          "CS-2011-Q62",
+          "CS-2011-Q63"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "reason": "Identical common stem, including complete code/circuit/graph and explanatory text, required by both questions."
+      },
+      {
+        "questions": [
+          "CS-2011-Q62",
+          "CS-2011-Q63"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 15,
+        "reason": "Identical preceding linked question explicitly required by the next question; preserves the changed edge cost or MST dependency."
+      },
+      {
+        "questions": [
+          "CS-2011-Q64",
+          "CS-2011-Q65"
+        ],
+        "parts": [
+          1,
+          1
+        ],
+        "page": 15,
+        "reason": "Identical common stem, including complete code/circuit/graph and explanatory text, required by both questions."
+      },
+      {
+        "questions": [
+          "CS-2011-Q64",
+          "CS-2011-Q65"
+        ],
+        "parts": [
+          2,
+          2
+        ],
+        "page": 15,
+        "reason": "Identical preceding linked question explicitly required by the next question; preserves the changed edge cost or MST dependency."
+      }
+    ],
+    "unexpected_overlap_pairs": 0,
+    "page_findings": {
+      "1": "Booklet A instructions confirm 65 questions, GA printed 56–65, common pairs 48/49 and 50/51, and linked pairs 52/53 and 54/55.",
+      "2": "Printed 1–6: compiler, firewall, probability, email protocols, development-cost table and mode-switch questions complete.",
+      "3": "Printed 7–11: COCOMO stem, language classes, HTML, SRS and interrupt options complete; skewed first stem retained.",
+      "4": "Printed 12–16: database attributes, four circuit options, Boolean overbars, counter and thread question complete.",
+      "5": "Printed 17–22: K4/Q3 figures, expectations, language models, memory timing, addressing and C expression complete.",
+      "6": "Printed 23–25: all four heap diagrams and labels, language notation and recurrence complete.",
+      "7": "Printed 26–27: language expressions and all four parse trees complete.",
+      "8": "Printed 28–31: complete transfer routine, DMA assumptions, tree option formula, predicate and integral complete.",
+      "9": "Printed 32–35: database growth/SQL, statistical formulas, cards and scheduling table complete.",
+      "10": "Printed 36–39: expression tree, growth functions, matrix-chain costs and relational algebra complete.",
+      "11": "Printed 40–44: matrix, entire pipeline diagram/arrows/delays, language exponents, cache and disk details complete.",
+      "12": "Printed 45–46: original DFA and all four candidate DFAs, SQL table and nested query complete.",
+      "13": "Printed 47: complete function comment, case table and all answer sets retained.",
+      "14": "Printed 48–51: recursive C common data and full counter circuit duplicated only within the intended pairs; both individual prompts/options complete.",
+      "15": "Printed 52–55: complete routing and graph shared statements, weighted graph labels and both prerequisite question regions retained. No unrelated overlap.",
+      "16": "Printed 56–61: all six GA questions complete; section marks heading excluded.",
+      "17": "Printed 62–65: complete bubble chart including all axes and units, manufacturing, trucks and mixture questions; end-of-paper and footer excluded."
+    },
+    "findings": [
+      "All 65 own-question parts contain their complete printed question markers, stems, choices, math and diagrams. Shared and linked prerequisites are explicitly separated.",
+      "Expanded top margins for printed 7,12,17,23,28,32,36,47 retain skewed glyphs. Thin rules or small running-header fragments remain where their y-ranges coincide with question text. They are source artifacts, not unrelated question leakage.",
+      "No source masks, redraws, deskew or modifications used. Canonical source hash matches repository crop-source-map; differing archive-CS2011.pdf was not used.",
+      "All 75 delivered files match an independently performed fresh render byte-for-byte and their evidence hashes."
+    ],
+    "limitations": [
+      "This approval is not answer verification, transcription certification, provenance-authenticity certification or redistribution permission.",
+      "Underlying question status remains draft; approval applies only to this exact proposal hash."
+    ]
+  }
+}

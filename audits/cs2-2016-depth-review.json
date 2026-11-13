@@ -1,0 +1,527 @@
+{
+  "paper_id": "CS-2016-S2",
+  "status": "approved_with_existing_caveats",
+  "scope": "Independent full expanded-context and solution-depth review, all 65 records; no repository edits.",
+  "source_pdf": "/tmp/gate-2016-CS.pdf",
+  "source_pages": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "key_pages": [
+    44,
+    45
+  ],
+  "source_visual_review": "All source and key pages rendered and inspected; page 30 additionally inspected at higher resolution for complement bars.",
+  "artifacts_sha256": {
+    "cs2-2016-expanded.json": "3a4eb48f2f98c1ffaeae834227612b652cd1da3173d92ea35eae422220564f95",
+    "cs2-2016-expanded.md": "2f0f11be500664c23431d2a895933355d83247bd1b5dda7ba80e5a0b671c16cf"
+  },
+  "checker": {
+    "path": "/workspace/shared/gate-pyq-contributions/check_cs2_2016_expanded.py",
+    "result": "passed",
+    "records": 65,
+    "marks": 100,
+    "protected_baseline_fields": "unchanged",
+    "inherited_solution_caveats": "verbatim preserved"
+  },
+  "markdown_json_consistency": "All 65 question texts and complete solutions present identically in Markdown.",
+  "embedded_images": [
+    {
+      "question": 10,
+      "decoded_path": "/tmp/cs2embed0.png",
+      "status": "readable_complete_unclipped",
+      "source_match": true
+    },
+    {
+      "question": 49,
+      "decoded_path": "/tmp/cs2embed1.png",
+      "status": "readable_complete_unclipped",
+      "source_match": true
+    },
+    {
+      "question": 60,
+      "decoded_path": "/tmp/cs2embed2.png",
+      "status": "readable_complete_unclipped",
+      "source_match": true
+    }
+  ],
+  "material_issues": [],
+  "minor_fixes": [],
+  "review_metadata_note": "Contribution pending metadata left unchanged; this separate audit records approval for parent integration. No final-key provenance upgrade.",
+  "records": [
+    {
+      "question_id": "CS-2016-S2-Q1",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass_with_inherited_caveats",
+      "note": "Article context caveat distinguishes official B from other grammatical contexts."
+    },
+    {
+      "question_id": "CS-2016-S2-Q2",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Idiom replacement and rejection of causal phrase justified."
+    },
+    {
+      "question_id": "CS-2016-S2-Q3",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Three ridicule synonyms contrasted with praise."
+    },
+    {
+      "question_id": "CS-2016-S2-Q4",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Permutation 31425 versus 32415 verified."
+    },
+    {
+      "question_id": "CS-2016-S2-Q5",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Common denominator and undefined 0/0 caveat correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q6",
+      "source_page": 23,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Inclusion-exclusion and disjoint totals checked."
+    },
+    {
+      "question_id": "CS-2016-S2-Q7",
+      "source_page": 24,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Neither inference follows; questioning is not assertion."
+    },
+    {
+      "question_id": "CS-2016-S2-Q8",
+      "source_page": 24,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "At-least-one semantics and countermodel correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q9",
+      "source_page": 24,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Grid boundary count 3 choose 2 times 5 choose 2 correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q10",
+      "source_page": 25,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "All plotted coordinates and four functions match source; vertex/slopes establish C."
+    },
+    {
+      "question_id": "CS-2016-S2-Q11",
+      "source_page": 26,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Unique satisfying assignment implies four candidates."
+    },
+    {
+      "question_id": "CS-2016-S2-Q12",
+      "source_page": 26,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Even polynomial part derivative has degree nine."
+    },
+    {
+      "question_id": "CS-2016-S2-Q13",
+      "source_page": 26,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Four-color upper bound and planar K4 lower bound provided."
+    },
+    {
+      "question_id": "CS-2016-S2-Q14",
+      "source_page": 26,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Counterexamples and consistency rank criterion correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q15",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Total probability 0.55 derived."
+    },
+    {
+      "question_id": "CS-2016-S2-Q16",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Inverse transpose determinant 1/8; key tolerance preserved."
+    },
+    {
+      "question_id": "CS-2016-S2-Q17",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass_with_inherited_caveats",
+      "note": "Full carry chain correctly described; sum-only tie and timing-model caveat preserved."
+    },
+    {
+      "question_id": "CS-2016-S2-Q18",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Complemented XOR equality proved; all-one counterexample rules out others."
+    },
+    {
+      "question_id": "CS-2016-S2-Q19",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Value counts distinguish negative zero duplication."
+    },
+    {
+      "question_id": "CS-2016-S2-Q20",
+      "source_page": 27,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Opcode/register ceiling bit counts give 16."
+    },
+    {
+      "question_id": "CS-2016-S2-Q21",
+      "source_page": 28,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "BFS breadth bound attained at position 31."
+    },
+    {
+      "question_id": "CS-2016-S2-Q22",
+      "source_page": 28,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Pointer versus value parameter trace gives 30."
+    },
+    {
+      "question_id": "CS-2016-S2-Q23",
+      "source_page": 28,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass_with_inherited_caveats",
+      "note": "Implementation dependence preserved; official sorting convention explicitly conditional."
+    },
+    {
+      "question_id": "CS-2016-S2-Q24",
+      "source_page": 29,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Intermediate-vertex recurrence and initialization explain dynamic programming."
+    },
+    {
+      "question_id": "CS-2016-S2-Q25",
+      "source_page": 29,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Sorted-list reposition search dominates at O(N^2); deletion-count caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S2-Q26",
+      "source_page": 29,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Two-state construction and distinguishability prove minimality."
+    },
+    {
+      "question_id": "CS-2016-S2-Q27",
+      "source_page": 29,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Balanced-count language versus repeated blocks correctly distinguished."
+    },
+    {
+      "question_id": "CS-2016-S2-Q28",
+      "source_page": 30,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Visually verified complement bars; closure arguments correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q29",
+      "source_page": 30,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "All compiler-phase matching options match source."
+    },
+    {
+      "question_id": "CS-2016-S2-Q30",
+      "source_page": 30,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "FIFO anomaly positions verified; consistent MRU inclusion claim sound."
+    },
+    {
+      "question_id": "CS-2016-S2-Q31",
+      "source_page": 31,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Equal leaf depths; weaker option B explicitly acknowledged."
+    },
+    {
+      "question_id": "CS-2016-S2-Q32",
+      "source_page": 31,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass_with_inherited_caveats",
+      "note": "Conflict versus view serializability caveat and blind-write example sound."
+    },
+    {
+      "question_id": "CS-2016-S2-Q33",
+      "source_page": 31,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Signer public key versus recipient decryption key distinguished."
+    },
+    {
+      "question_id": "CS-2016-S2-Q34",
+      "source_page": 31,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Half-duplex context, collision jam and randomized backoff explained."
+    },
+    {
+      "question_id": "CS-2016-S2-Q35",
+      "source_page": 32,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Relative DNS/TCP/HTTP ordering and uncached model explained."
+    },
+    {
+      "question_id": "CS-2016-S2-Q36",
+      "source_page": 32,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Counterexample to transitivity satisfies both antecedent relations."
+    },
+    {
+      "question_id": "CS-2016-S2-Q37",
+      "source_page": 32,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Two-element predicate countermodel refutes D."
+    },
+    {
+      "question_id": "CS-2016-S2-Q38",
+      "source_page": 33,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Odd-degree parity implies nonzero odd count outside S."
+    },
+    {
+      "question_id": "CS-2016-S2-Q39",
+      "source_page": 33,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Modulo-four power cycle gives remainder four."
+    },
+    {
+      "question_id": "CS-2016-S2-Q40",
+      "source_page": 33,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "28 ns bottleneck lower bound and feasible paired pipeline shown."
+    },
+    {
+      "question_id": "CS-2016-S2-Q41",
+      "source_page": 33,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "34-bit instruction individually rounds to five bytes, giving 500."
+    },
+    {
+      "question_id": "CS-2016-S2-Q42",
+      "source_page": 33,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Tag index/offset derivation independent of block size gives 24."
+    },
+    {
+      "question_id": "CS-2016-S2-Q43",
+      "source_page": 34,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Stage values and bottleneck after splitting give 4 GHz."
+    },
+    {
+      "question_id": "CS-2016-S2-Q44",
+      "source_page": 34,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Eight smaller ancestors limit key nine to depth eight; construction feasible."
+    },
+    {
+      "question_id": "CS-2016-S2-Q45",
+      "source_page": 34,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Invariant initialization/preservation/termination verified; integer-overflow caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S2-Q46",
+      "source_page": 35,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Postfix tree construction and root-right-left traversal checked."
+    },
+    {
+      "question_id": "CS-2016-S2-Q47",
+      "source_page": 35,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Recursive suffix maxima explicitly traced to three."
+    },
+    {
+      "question_id": "CS-2016-S2-Q48",
+      "source_page": 35,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "All five parenthesization costs and DP subproblem minima checked."
+    },
+    {
+      "question_id": "CS-2016-S2-Q49",
+      "source_page": 36,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Full flowchart has five calls on longest path; attainability/base-case assumptions explicit."
+    },
+    {
+      "question_id": "CS-2016-S2-Q50",
+      "source_page": 36,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Endpoint permutation recurrence and 7! exhaustive check give 64."
+    },
+    {
+      "question_id": "CS-2016-S2-Q51",
+      "source_page": 37,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Two stable counting sorts provide O(n+m) twin-pointer algorithm."
+    },
+    {
+      "question_id": "CS-2016-S2-Q52",
+      "source_page": 37,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Partial NFA counterexample and empty regular language witness valid."
+    },
+    {
+      "question_id": "CS-2016-S2-Q53",
+      "source_page": 37,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "L1 grammar and inverse homomorphism obstruction for L2 correct."
+    },
+    {
+      "question_id": "CS-2016-S2-Q54",
+      "source_page": 38,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Bounded input-prefix simulation decides L1/L2; acceptance reduction for L3 valid."
+    },
+    {
+      "question_id": "CS-2016-S2-Q55",
+      "source_page": 38,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Direct/indirect left recursion witnesses and acyclic B verified."
+    },
+    {
+      "question_id": "CS-2016-S2-Q56",
+      "source_page": 39,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Both grammar derivations generate the dimension syntax."
+    },
+    {
+      "question_id": "CS-2016-S2-Q57",
+      "source_page": 39,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "SRTF timeline and turnaround average 8.25 verified."
+    },
+    {
+      "question_id": "CS-2016-S2-Q58",
+      "source_page": 40,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Strict alternation progress failure while mutual exclusion holds."
+    },
+    {
+      "question_id": "CS-2016-S2-Q59",
+      "source_page": 40,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Permit conservation yields seven; permanent versus transient blocking distinguished."
+    },
+    {
+      "question_id": "CS-2016-S2-Q60",
+      "source_page": 41,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Every plotted miss rate matches; latency threshold gives smallest size 30 MB."
+    },
+    {
+      "question_id": "CS-2016-S2-Q61",
+      "source_page": 41,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "No dirty reads but dirty write; aborts do not establish cascade."
+    },
+    {
+      "question_id": "CS-2016-S2-Q62",
+      "source_page": 42,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass_with_inherited_caveats",
+      "note": "Seven rows and malformed repeated WITH transcribed; repaired interpretation returns two."
+    },
+    {
+      "question_id": "CS-2016-S2-Q63",
+      "source_page": 42,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Round-trip collision bound gives 1600 bits/200 bytes."
+    },
+    {
+      "question_id": "CS-2016-S2-Q64",
+      "source_page": 43,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Legacy channel/ordinary unicast assumptions and RTS/CTS avoidance caveat retained."
+    },
+    {
+      "question_id": "CS-2016-S2-Q65",
+      "source_page": 43,
+      "context_options_code": "pass",
+      "solution_depth_correctness": "pass",
+      "note": "Six-frame window and selective-repeat sequence-space bound require four bits."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "question_id": "CS-1995-Q48",
+  "status": "corrected",
+  "review_date": "2026-11-10",
+  "source_reviewers": [
+    "resolve_legacy_source_gaps",
+    "continue_gate_question_reviews"
+  ],
+  "visual_evidence": [
+    {
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005204046/GATE1995.pdf#page=5",
+      "sha256": "b8bedc2c747f30d0e05799ceaf47d0918608e4762fede643a0612451fe2f5f8c"
+    },
+    {
+      "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs1995.pdf#page=9",
+      "sha256": "1d530a2885df74d6eeae0c662d04fa73ad0004ef9f0bfbdf07a8c0ca0b1fb075"
+    }
+  ],
+  "transitions": {
+    "0": {
+      "A": "B",
+      "B": "C",
+      "C": "D",
+      "D": "C"
+    },
+    "1": {
+      "A": "D",
+      "B": "B",
+      "C": "B",
+      "D": "B"
+    }
+  },
+  "exhaustive_words_through_length_2": {
+    "": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "0": [
+      "B",
+      "C",
+      "D"
+    ],
+    "1": [
+      "B",
+      "D"
+    ],
+    "00": [
+      "C",
+      "D"
+    ],
+    "01": [
+      "B"
+    ],
+    "10": [
+      "C"
+    ],
+    "11": [
+      "B"
+    ]
+  },
+  "answer_unchanged": "B: 10",
+  "official_key_located": false,
+  "original_source_verified": false,
+  "scope": "Corrects source/paraphrase disagreement and solution reasoning. Both third-party source pages visually inspected independently; does not certify official original or verbatim transcription."
+}

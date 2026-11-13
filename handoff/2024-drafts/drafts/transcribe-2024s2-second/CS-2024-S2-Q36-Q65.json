@@ -1,0 +1,429 @@
+{
+  "CS-2024-S2-Q36": {
+    "stem": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    double a[2]={20.0, 25.0}, *p, *q;\n    p = a;\n    q = p + 1;\n    printf(”%d,%d”, (int)(q – p), (int)(*q – *p));\n    return 0;}\n```\n[sic]",
+    "options": {
+      "A": "4,8",
+      "B": "1,5",
+      "C": "8,5",
+      "D": "1,8"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      24
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json. Source visibly uses typographic quotation marks and en dashes in C code. [sic] is outside the code block to preserve code lines; proposed question-error row records this. Intended answer B assumes ASCII C punctuation.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q37": {
+    "stem": "Consider a single processor system with four processes A, B, C, and D, represented as given below, where for each process the first value is its arrival time, and the second value is its CPU burst time. A (0, 10), B (2, 6), C (4, 3), and D (6, 7). Which one of the following options gives the average waiting times when preemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest Job First (NP-SJF) CPU scheduling algorithms are applied to the processes?",
+    "options": {
+      "A": "SRTF = 6, NP-SJF = 7",
+      "B": "SRTF = 6, NP-SJF = 7.5",
+      "C": "SRTF = 7, NP-SJF = 7.5",
+      "D": "SRTF = 7, NP-SJF = 8.5"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q38": {
+    "stem": "Which one of the following CIDR prefixes exactly represents the range of IP addresses 10.12.2.0 to 10.12.3.255?",
+    "options": {
+      "A": "10.12.2.0/23",
+      "B": "10.12.2.0/24",
+      "C": "10.12.0.0/22",
+      "D": "10.12.2.0/22"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q39": {
+    "stem": "You are given a set $V$ of distinct integers. A binary search tree $T$ is created by inserting all elements of $V$ one by one, starting with an empty tree. The tree $T$ follows the convention that, at each node, all values stored in the left subtree of the node are smaller than the value stored at the node. You are not aware of the sequence in which these values were inserted into $T$, and you do not have access to $T$.\n\nWhich one of the following statements is TRUE?",
+    "options": {
+      "A": "Inorder traversal of $T$ can be determined from $V$",
+      "B": "Root node of $T$ can be determined from $V$",
+      "C": "Preorder traversal of $T$ can be determined from $V$",
+      "D": "Postorder traversal of $T$ can be determined from $V$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q40": {
+    "stem": "Consider the following context-free grammar where the start symbol is $S$ and the set of terminals is $\\{a,b,c,d\\}$.\n\n$$S\\to AaAb\\mid BbBa$$\n$$A\\to cS\\mid\\epsilon$$\n$$B\\to dS\\mid\\epsilon$$\n\nThe following is a partially-filled LL(1) parsing table.\n\n| | $a$ | $b$ | $c$ | $d$ | $\\$$ |\n| --- | --- | --- | --- | --- | --- |\n| $S$ | $S\\to AaAb$ | $S\\to BbBa$ | (1) | (2) | |\n| $A$ | $A\\to\\epsilon$ | (3) | $A\\to cS$ | | |\n| $B$ | (4) | $B\\to\\epsilon$ | | $B\\to dS$ | |\n\nWhich one of the following options represents the CORRECT combination for the numbered cells in the parsing table?\n\n*Note: In the options, “blank” denotes that the corresponding cell is empty.*",
+    "options": {
+      "A": "(1) $S\\to AaAb$  (2) $S\\to BbBa$  (3) $A\\to\\epsilon$  (4) $B\\to\\epsilon$",
+      "B": "(1) $S\\to BbBa$  (2) $S\\to AaAb$  (3) $A\\to\\epsilon$  (4) $B\\to\\epsilon$",
+      "C": "(1) $S\\to AaAb$  (2) $S\\to BbBa$  (3) blank  (4) blank",
+      "D": "(1) $S\\to BbBa$  (2) $S\\to AaAb$  (3) blank  (4) blank"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q41": {
+    "stem": "Let $M$ be the 5-state NFA with $\\epsilon$-transitions shown in the diagram below.\n\nWhich one of the following regular expressions represents the language accepted by $M$ ?",
+    "options": {
+      "A": "$(00)^*+1(11)^*$",
+      "B": "$0^*+(1+0(00)^*)(11)^*$",
+      "C": "$(00)^*+(1+(00)^*)(11)^*$",
+      "D": "$0^++1(11)^*+0(11)^*$"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q41-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q42": {
+    "stem": "Consider an array X that contains n positive integers. A subarray of X is defined to be a sequence of array locations with consecutive indices.\n\nThe C code snippet given below has been written to compute the length of the longest subarray of X that contains at most two distinct integers. The code has two missing expressions labelled $(P)$ and $(Q)$.\n\n```c\nint first=0, second=0, len1=0, len2=0, maxlen=0;\nfor (int i=0; i < n; i++) {\n  if (X[i] == first) {\n    len2++; len1++;\n  } else if (X[i] == second) {\n    len2++;\n    len1 = ___(P)___;\n    second = first;\n  } else {\n    len2 = ___(Q)___;\n    len1 = 1; second = first;\n  }\n  if (len2 > maxlen) {\n    maxlen = len2;\n  }\n  first = X[i];\n}\n```\n\nWhich one of the following options gives the CORRECT missing expressions?\n\n(**Hint:** At the end of the i-th iteration, the value of `len1` is the length of the longest subarray ending with `X[i]` that contains all equal values, and `len2` is the length of the longest subarray ending with `X[i]` that contains at most two distinct values.)",
+    "options": {
+      "A": "$(P)$ `len1+1`  $(Q)$ `len2+1`",
+      "B": "$(P)$ `1`  $(Q)$ `len1+1`",
+      "C": "$(P)$ `1`  $(Q)$ `len2+1`",
+      "D": "$(P)$ `len2+1`  $(Q)$ `len1+1`"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json. Printed underlined blanks around (P)/(Q) are encoded as underscores in the code block; code indentation is two spaces per level.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q43": {
+    "stem": "Consider the following expression: $x[i]=(p+r)*-s[i]+u/w$. The following sequence shows the list of triples representing the given expression, with entries missing for triples (1), (3), and (6).\n\n| | | | |\n| --- | --- | --- | --- |\n| (0) | $+$ | $p$ | $r$ |\n| (1) | | | |\n| (2) | uminus | (1) | |\n| (3) | | | |\n| (4) | $/$ | $u$ | $w$ |\n| (5) | $+$ | (3) | (4) |\n| (6) | | | |\n| (7) | $=$ | (6) | (5) |\n\nWhich one of the following options fills in the missing entries CORRECTLY?",
+    "options": {
+      "A": "(1) =[] $s$ $i$    (3) * (0) (2)    (6) []= $x$ $i$",
+      "B": "(1) []= $s$ $i$    (3) − (0) (2)    (6) =[] $x$ (5)",
+      "C": "(1) =[] $s$ $i$    (3) * (0) (2)    (6) []= $x$ (5)",
+      "D": "(1) []= $s$ $i$    (3) − (0) (2)    (6) =[] $x$ $i$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q44": {
+    "stem": "Let $x$ and $y$ be random variables, not necessarily independent, that take real values in the interval $[0,1]$. Let $z=xy$ and let the mean values of $x,y,z$ be $\\bar{x},\\bar{y},\\bar{z}$, respectively. Which one of the following statements is TRUE?",
+    "options": {
+      "A": "$\\bar{z}=\\bar{x}\\bar{y}$",
+      "B": "$\\bar{z}\\le\\bar{x}\\bar{y}$",
+      "C": "$\\bar{z}\\ge\\bar{x}\\bar{y}$",
+      "D": "$\\bar{z}\\le\\bar{x}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q45": {
+    "stem": "The relation schema, $\\text{Person}(\\underline{\\text{pid}},\\text{city})$, describes the city of residence for every person uniquely identified by `pid`. The following relational algebra operators are available: `selection`, `projection`, `cross product`, and `rename`.\n\nTo find the list of cities where at least 3 persons reside, using the above operators, the minimum number of `cross product` operations that must be used is",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q46": {
+    "stem": "Consider a multi-threaded program with two threads `T1` and `T2`. The threads share two semaphores: `s1` (initialized to 1) and `s2` (initialized to 0). The threads also share a global variable `x` (initialized to 0). The threads execute the code shown below.\n\n```c\n// code of T1\nwait(s1);\nx = x+1;\nprint(x);\nwait(s2);\nsignal(s1);\n```\n\n```c\n// code of T2\nwait(s1);\nx = x+1;\nprint(x);\nsignal(s2);\nsignal(s1);\n```\n\nWhich of the following outcomes is/are possible when threads `T1` and `T2` execute concurrently?",
+    "options": {
+      "A": "T1 runs first and prints 1, T2 runs next and prints 2",
+      "B": "T2 runs first and prints 1, T1 runs next and prints 2",
+      "C": "T1 runs first and prints 1, T2 does not print anything (deadlock)",
+      "D": "T2 runs first and prints 1, T1 does not print anything (deadlock)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q47": {
+    "stem": "Let $A$ be an $n\\times n$ matrix over the set of all real numbers $\\mathbb{R}$. Let $B$ be a matrix obtained from $A$ by swapping two rows. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "The determinant of $B$ is the negative of the determinant of $A$",
+      "B": "If $A$ is invertible, then $B$ is also invertible",
+      "C": "If $A$ is symmetric, then $B$ is also symmetric",
+      "D": "If the trace of $A$ is zero, then the trace of $B$ is also zero"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q48": {
+    "stem": "Let `S1` and `S2` be two stacks. `S1` has capacity of 4 elements. `S2` has capacity of 2 elements. `S1` already has 4 elements: 100, 200, 300, and 400, whereas `S2` is empty, as shown below.\n\nOnly the following three operations are available:\n\n`PushToS2`: Pop the top element from `S1` and push it on `S2`.\n\n`PushToS1`: Pop the top element from `S2` and push it on `S1`.\n\n`GenerateOutput`: Pop the top element from `S1` and output it to the user.\n\nNote that the pop operation is not allowed on an empty stack and the push operation is not allowed on a full stack.\n\nWhich of the following output sequences can be generated by using the above operations?",
+    "options": {
+      "A": "100, 200, 400, 300",
+      "B": "200, 300, 400, 100",
+      "C": "400, 200, 100, 300",
+      "D": "300, 200, 400, 100"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q48-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q49": {
+    "stem": "Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation?",
+    "options": {
+      "A": "64 in radix-10",
+      "B": "100 in radix-8",
+      "C": "50 in radix-16",
+      "D": "121 in radix-7"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q50": {
+    "stem": "Consider 4-variable functions $f1$, $f2$, $f3$, $f4$ expressed in sum-of-minterms form as given below.\n\n$$f1=\\sum(0,2,3,5,7,8,11,13)$$\n$$f2=\\sum(1,3,5,7,11,13,15)$$\n$$f3=\\sum(0,1,4,11)$$\n$$f4=\\sum(0,2,6,13)$$\n\nWith respect to the circuit given above, which of the following options is/are CORRECT?",
+    "options": {
+      "A": "$Y=\\sum(0,1,2,11,13)$",
+      "B": "$Y=\\prod(3,4,5,6,7,8,9,10,12,14,15)$",
+      "C": "$Y=\\sum(0,1,2,3,4,5,6,7)$",
+      "D": "$Y=\\prod(8,9,10,11,12,13,14,15)$"
+    },
+    "figures": [
+      "figures/CS-2024-S2-Q50-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q51": {
+    "stem": "Let $G$ be an undirected connected graph in which every edge has a positive integer weight. Suppose that every spanning tree in $G$ has *even* weight. Which of the following statements is/are TRUE for every such graph $G$ ?",
+    "options": {
+      "A": "All edges in $G$ have even weight",
+      "B": "All edges in $G$ have even weight **OR** all edges in $G$ have odd weight",
+      "C": "In each cycle $C$ in $G$, all edges in $C$ have even weight",
+      "D": "In each cycle $C$ in $G$, either all edges in $C$ have even weight **OR** all edges in $C$ have odd weight"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q52": {
+    "stem": "Consider a context-free grammar $G$ with the following 3 rules.\n\n$$S\\to aS,\\ S\\to aSbS,\\ S\\to c$$\n\nLet $w\\in L(G)$. Let $n_a(w),n_b(w),n_c(w)$ denote the number of times $a,b,c$ occur in $w$, respectively. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "$n_a(w)>n_b(w)$",
+      "B": "$n_a(w)>n_c(w)-2$",
+      "C": "$n_c(w)=n_b(w)+1$",
+      "D": "$n_c(w)=n_b(w)*2$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q53": {
+    "stem": "Consider a disk with the following specifications: rotation speed of 6000 RPM, average seek time of 5 milliseconds, 500 sectors/track, 512-byte sectors. A file has content stored in 3000 sectors located randomly on the disk. Assuming average rotational latency, the total time (in seconds, rounded off to 2 decimal places) to read the entire file from the disk is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q54": {
+    "stem": "Consider a TCP connection operating at a point of time with the congestion window of size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet loss. Assuming that all the segments transmitted in the next two RTTs (Round Trip Time) are acknowledged correctly, the congestion window size (in MSS) during the third RTT will be _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q55": {
+    "stem": "Consider an Ethernet segment with a transmission speed of $10^8$ bits/sec and a maximum segment length of 500 meters. If the speed of propagation of the signal in the medium is $2\\times10^8$ meters/sec, then the minimum frame size *(in bits)* required for collision detection is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q56": {
+    "stem": "A functional dependency $F:X\\to Y$ is termed as a *useful functional dependency* if and only if it satisfies all the following three conditions:\n\n- $X$ is not the empty set.\n- $Y$ is not the empty set.\n- Intersection of $X$ and $Y$ is the empty set.\n\nFor a relation $R$ with 4 attributes, the total number of possible useful functional dependencies is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q57": {
+    "stem": "A processor with 16 general purpose registers uses a 32-bit instruction format. The instruction format consists of an opcode field, an addressing mode field, two register operand fields, and a 16-bit scalar field. If 8 addressing modes are to be supported, the maximum number of unique opcodes possible for every addressing mode is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      37
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q58": {
+    "stem": "A non-pipelined instruction execution unit operating at 2 GHz takes an average of 6 cycles to execute an instruction of a program P. The unit is then redesigned to operate on a 5-stage pipeline at 2 GHz. Assume that the ideal throughput of the pipelined unit is 1 instruction per cycle. In the execution of program P, 20% instructions incur an average of 2 cycles stall due to data hazards and 20% instructions incur an average of 3 cycles stall due to control hazards. The speedup (rounded off to one decimal place) obtained by the pipelined design over the non-pipelined design is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      38
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q59": {
+    "stem": "The number of distinct minimum-weight spanning trees of the following graph is _________",
+    "options": {},
+    "figures": [
+      "figures/CS-2024-S2-Q59-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      38
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q60": {
+    "stem": "The chromatic number of a graph is the minimum number of colours used in a *proper colouring* of the graph. The chromatic number of the following graph is _________",
+    "options": {},
+    "figures": [
+      "figures/CS-2024-S2-Q60-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      38
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q61": {
+    "stem": "A processor uses a 32-bit instruction format and supports byte-addressable memory access. The ISA of the processor has 150 distinct instructions. The instructions are equally divided into two types, namely R-type and I-type, whose formats are shown below.\n\nIn the OPCODE, 1 bit is used to distinguish between I-type and R-type instructions and the remaining bits indicate the operation. The processor has 50 architectural registers, and all register fields in the instructions are of equal size.\n\nLet $X$ be the number of bits used to encode the UNUSED field, $Y$ be the number of bits used to encode the OPCODE field, and $Z$ be the number of bits used to encode the immediate value/address field. The value of $X+2Y+Z$ is ________",
+    "options": {},
+    "figures": [
+      "figures/CS-2024-S2-Q61-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      39
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q62": {
+    "stem": "Let $L_1$ be the language represented by the regular expression $b^*ab^*(ab^*ab^*)^*$ and $L_2=\\{w\\in(a+b)^*\\mid |w|\\le4\\}$, where $|w|$ denotes the length of string $w$. The number of strings in $L_2$ which are also in $L_1$ is ___________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      39
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q63": {
+    "stem": "Let $Z_n$ be the group of integers $\\{0,1,2,\\ldots,n-1\\}$ with addition modulo $n$ as the group operation. The number of elements in the group $Z_2\\times Z_3\\times Z_4$ that are their own inverses is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      39
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q64": {
+    "stem": "Consider a 32-bit system with 4 KB page size and page table entries of size 4 bytes each. Assume 1 KB = $2^{10}$ bytes. The OS uses a 2-level page table for memory management, with the page table containing an outer page directory and an inner page table. The OS allocates a page for the outer page directory upon process creation. The OS uses demand paging when allocating memory for the inner page table, i.e., a page of the inner page table is allocated only if it contains at least one valid page table entry.\n\nAn active process in this system accesses 2000 unique pages during its execution, and none of the pages are swapped out to disk. After it completes the page accesses, let $X$ denote the minimum and $Y$ denote the maximum number of pages across the two levels of the page table of the process.\n\nThe value of $X+Y$ is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      40
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  },
+  "CS-2024-S2-Q65": {
+    "stem": "Consider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals is $\\{a,b,c,d,\\#,@\\}$\n\n$$S'\\to S$$\n$$S\\to SS\\mid Aa\\mid bAc\\mid Bc\\mid bBa$$\n$$A\\to d\\#$$\n$$B\\to @$$\n\nLet $I_0=CLOSURE(\\{S'\\to\\bullet S\\})$. The number of items in the set $GOTO(I_0,S)$ is ___________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      40
+    ],
+    "notes": "Prepared from text extraction and visually checked against canonical source page. Independent source/figure review and manual production-rendered comparison remain pending. Existing solution checked for compatibility; see solution-review.json.",
+    "source_sha256": "b5012f2e7da399f4129e9ac5c1713493e3374ba9c9d30d600383dc535b3b5072"
+  }
+}

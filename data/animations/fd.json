@@ -1,0 +1,1053 @@
+{
+ "description": "Step-through animations (Functional dependencies: attribute closure, candidate keys, superkeys, implied FDs, minimal cover, normal forms, lossless join and dependency preservation). Each entry is simulated at build time by scripts/animations/fd.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1993-Q62": {
+   "kind": "fd",
+   "attrs": [
+    "rollno",
+    "sname",
+    "saddr",
+    "cno",
+    "cname",
+    "grade",
+    "tno",
+    "tname"
+   ],
+   "fds": [
+    "rollno->sname,saddr",
+    "cno->cname",
+    "tno->tname",
+    "rollno,cno->grade"
+   ],
+   "parts": [
+    {
+     "name": "STUDENTS",
+     "relation": "rollno,sname,saddr",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "rollno"
+      ],
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "COURSES",
+     "relation": "cno,cname",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "cno"
+      ],
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "ENROLL",
+     "relation": "rollno,cno,grade",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "rollno,cno"
+      ],
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "TEACH",
+     "relation": "tno,cno,tname",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "tno,cno"
+      ],
+      "nf": "1NF",
+      "3nf": false
+     }
+    }
+   ]
+  },
+  "CS-1995-Q87": {
+   "kind": "fd",
+   "attrs": "ABC",
+   "fds": [
+    "AB->C",
+    "C->A"
+   ],
+   "do": [
+    "keys",
+    "nf"
+   ],
+   "expect": {
+    "keys": [
+     "AB",
+     "BC"
+    ],
+    "nf": "3NF"
+   }
+  },
+  "CS-1995-Q88": {
+   "kind": "fd",
+   "attrs": "ABC",
+   "fds": [
+    "AB->C",
+    "C->A"
+   ],
+   "do": [
+    "keys"
+   ],
+   "expect": {
+    "keys": [
+     "AB",
+     "BC"
+    ]
+   }
+  },
+  "CS-1997-Q49": {
+   "kind": "fd",
+   "attrs": "abcd",
+   "fds": [
+    "a->c",
+    "b->d"
+   ],
+   "do": [
+    "keys",
+    "nf"
+   ],
+   "expect": {
+    "keys": [
+     "ab"
+    ],
+    "nf": "1NF"
+   }
+  },
+  "CS-1999-Q24": {
+   "kind": "fd",
+   "attrs": "ABCDEF",
+   "fds": [
+    "C->F",
+    "E->A",
+    "EC->D",
+    "A->B"
+   ],
+   "do": [
+    "keys"
+   ],
+   "expect": {
+    "keys": [
+     "CE"
+    ]
+   }
+  },
+  "CS-2001-Q23": {
+   "kind": "fd",
+   "attrs": "ABCD",
+   "fds": [
+    "A->B",
+    "C->D"
+   ],
+   "components": {
+    "R1": "AB",
+    "R2": "CD"
+   },
+   "title": "R(A, B, C, D) split into R1(A, B) and R2(C, D)",
+   "do": [
+    "lossless",
+    "preserve"
+   ],
+   "expect": {
+    "lossless": false,
+    "preserved": true
+   }
+  },
+  "CS-2002-Q82": {
+   "kind": "fd",
+   "attrs": "LMNOP",
+   "fds": [
+    "M->O",
+    "NO->P",
+    "P->L",
+    "L->MN"
+   ],
+   "components": {
+    "R1": "LMNP",
+    "R2": "MO"
+   },
+   "title": "R(L, M, N, O, P) split into R1(L, M, N, P) and R2(M, O)",
+   "do": [
+    "lossless"
+   ],
+   "expect": {
+    "lossless": true
+   }
+  },
+  "CS-2002-Q83": {
+   "kind": "fd",
+   "attrs": "LMNOP",
+   "fds": [
+    "M->O",
+    "NO->P",
+    "P->L",
+    "L->MN"
+   ],
+   "components": {
+    "R1": "LMNP",
+    "R2": "MO"
+   },
+   "title": "R(L, M, N, O, P) split into R1(L, M, N, P) and R2(M, O)",
+   "do": [
+    "preserve"
+   ],
+   "expect": {
+    "preserved": false,
+    "lost": [
+     "NO->P"
+    ]
+   }
+  },
+  "CS-2002-Q84": {
+   "kind": "fd",
+   "attrs": "LMNOP",
+   "fds": [
+    "M->O",
+    "NO->P",
+    "P->L",
+    "L->MN"
+   ],
+   "parts": [
+    {
+     "name": "R1",
+     "relation": "LMNP",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "L",
+       "P",
+       "MN"
+      ],
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "R2",
+     "relation": "MO",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "M"
+      ],
+      "nf": "BCNF"
+     }
+    }
+   ]
+  },
+  "CS-2004-Q50": {
+   "kind": "fd",
+   "attrs": [
+    "name",
+    "courseNo",
+    "rollNo",
+    "grade"
+   ],
+   "fds": [
+    "name,courseNo->grade",
+    "rollNo,courseNo->grade",
+    "name->rollNo",
+    "rollNo->name"
+   ],
+   "name": "StudentPerformance",
+   "short": "Normal form",
+   "do": [
+    "keys",
+    "nf"
+   ],
+   "expect": {
+    "keys": [
+     "name,courseNo",
+     "rollNo,courseNo"
+    ],
+    "nf": "3NF"
+   }
+  },
+  "CS-2005-Q78": {
+   "kind": "fd",
+   "attrs": "ABCDEH",
+   "fds": [
+    "A->B",
+    "BC->D",
+    "E->C",
+    "D->A"
+   ],
+   "do": [
+    "keys"
+   ],
+   "expect": {
+    "keys": [
+     "AEH",
+     "BEH",
+     "DEH"
+    ]
+   }
+  },
+  "CS-2008-Q69": {
+   "kind": "fd",
+   "attrs": [
+    "Title",
+    "Author",
+    "Catalog_no",
+    "Publisher",
+    "Year",
+    "Price"
+   ],
+   "fds": [
+    "Title,Author->Catalog_no",
+    "Catalog_no->Title,Author,Publisher,Year",
+    "Publisher,Title,Year->Price"
+   ],
+   "parts": [
+    {
+     "name": "Book",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "Title,Author",
+       "Catalog_no"
+      ],
+      "nf": "2NF"
+     }
+    },
+    {
+     "name": "Collection",
+     "relation": "Title,Author,Catalog_no",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "BCNF"
+     }
+    }
+   ]
+  },
+  "CS-2013-Q64": {
+   "kind": "fd",
+   "attrs": "ABCDEFGH",
+   "fds": [
+    "CH->G",
+    "A->BC",
+    "B->CFH",
+    "E->A",
+    "F->EG"
+   ],
+   "do": [
+    "keys"
+   ],
+   "expect": {
+    "keys": [
+     "AD",
+     "BD",
+     "DE",
+     "DF"
+    ],
+    "key_count": 4
+   }
+  },
+  "CS-2013-Q65": {
+   "kind": "fd",
+   "attrs": "ABCDEFGH",
+   "fds": [
+    "CH->G",
+    "A->BC",
+    "B->CFH",
+    "E->A",
+    "F->EG"
+   ],
+   "do": [
+    "keys",
+    "nf"
+   ],
+   "expect": {
+    "keys": [
+     "AD",
+     "BD",
+     "DE",
+     "DF"
+    ],
+    "nf": "1NF"
+   }
+  },
+  "CS-2014-S1-Q31": {
+   "kind": "fd",
+   "attrs": "EFGHIJKLMN",
+   "fds": [
+    "EF->G",
+    "F->IJ",
+    "EH->KL",
+    "K->M",
+    "L->N"
+   ],
+   "do": [
+    "keys"
+   ],
+   "expect": {
+    "keys": [
+     "EFH"
+    ]
+   }
+  },
+  "CS-2016-S1-Q33": {
+   "kind": "fd",
+   "attrs": [
+    "Volume",
+    "Number",
+    "StartPage",
+    "EndPage",
+    "Title",
+    "Year",
+    "Price"
+   ],
+   "fds": [
+    "Volume,Number,StartPage,EndPage->Title",
+    "Volume,Number->Year",
+    "Volume,Number,StartPage,EndPage->Price"
+   ],
+   "parts": [
+    {
+     "name": "R",
+     "short": "Old",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "1NF"
+     }
+    },
+    {
+     "name": "R1",
+     "short": "New R1",
+     "relation": "Volume,Number,StartPage,EndPage,Title,Price",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "R2",
+     "short": "New R2",
+     "relation": "Volume,Number,Year",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "BCNF"
+     }
+    }
+   ],
+   "gain": {
+    "old": "R",
+    "new": [
+     "R1",
+     "R2"
+    ]
+   },
+   "expect": {
+    "gained": "2NF"
+   }
+  },
+  "CS-2017-S1-Q26": {
+   "kind": "fd",
+   "attrs": "VWXYZ",
+   "fds": [
+    "V->W",
+    "VW->X",
+    "Y->VX",
+    "Y->Z"
+   ],
+   "short": "Cover",
+   "do": [
+    "cover"
+   ],
+   "expect": {
+    "cover": [
+     "V->W",
+     "V->X",
+     "Y->V",
+     "Y->Z"
+    ]
+   }
+  },
+  "CS-2018-Q52": {
+   "kind": "fd",
+   "parts": [
+    {
+     "name": "schema I",
+     "short": "I",
+     "title": "I: R(rollno, courses), courses set-valued",
+     "attrs": [
+      "rollno",
+      "courses"
+     ],
+     "fds": [
+      "rollno->courses"
+     ],
+     "nonatomic": "courses",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "not 1NF"
+     }
+    },
+    {
+     "name": "schema II",
+     "short": "II",
+     "title": "II: R(rollno, courseid, email)",
+     "attrs": [
+      "rollno",
+      "courseid",
+      "email"
+     ],
+     "fds": [
+      "rollno,courseid->email",
+      "email->rollno"
+     ],
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "rollno,courseid",
+       "courseid,email"
+      ],
+      "nf": "3NF"
+     }
+    },
+    {
+     "name": "schema III",
+     "short": "III",
+     "title": "III: R(rollno, courseid, marks, grade)",
+     "attrs": [
+      "rollno",
+      "courseid",
+      "marks",
+      "grade"
+     ],
+     "fds": [
+      "rollno,courseid->marks,grade",
+      "marks->grade"
+     ],
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "3nf": false
+     }
+    },
+    {
+     "name": "schema IV",
+     "short": "IV",
+     "title": "IV: R(rollno, courseid, credit)",
+     "attrs": [
+      "rollno",
+      "courseid",
+      "credit"
+     ],
+     "fds": [
+      "rollno,courseid->credit",
+      "courseid->credit"
+     ],
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "3nf": false
+     }
+    }
+   ]
+  },
+  "CS-2019-Q42": {
+   "kind": "fd",
+   "attrs": "PQRS",
+   "fds": [
+    "QR->S",
+    "R->P",
+    "S->Q"
+   ],
+   "parts": [
+    {
+     "name": "Y",
+     "relation": "PR",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "bcnf": true
+     }
+    },
+    {
+     "name": "Z",
+     "relation": "QRS",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "bcnf": false
+     }
+    },
+    {
+     "name": "X",
+     "short": "Join",
+     "title": "X(P, Q, R, S) split into Y(P, R) and Z(Q, R, S)",
+     "components": {
+      "Y": "PR",
+      "Z": "QRS"
+     },
+     "do": [
+      "lossless",
+      "preserve"
+     ],
+     "expect": {
+      "lossless": true,
+      "preserved": true
+     }
+    }
+   ]
+  },
+  "CS-2021-S1-Q43": {
+   "kind": "fd",
+   "attrs": "PQSTXYZW",
+   "fds": [
+    "PQ->X",
+    "P->YX",
+    "Q->Y",
+    "Y->ZW"
+   ],
+   "parts": [
+    {
+     "name": "D1",
+     "title": "D1: PQST, PTX, QY, YZW",
+     "components": {
+      "PQST": "PQST",
+      "PTX": "PTX",
+      "QY": "QY",
+      "YZW": "YZW"
+     },
+     "do": [
+      "lossless"
+     ],
+     "expect": {
+      "lossless": true
+     }
+    },
+    {
+     "name": "D2",
+     "title": "D2: PQS, TX, QY, YZW",
+     "components": {
+      "PQS": "PQS",
+      "TX": "TX",
+      "QY": "QY",
+      "YZW": "YZW"
+     },
+     "do": [
+      "lossless"
+     ],
+     "expect": {
+      "lossless": false
+     }
+    }
+   ]
+  },
+  "CS-2021-S2-Q50": {
+   "kind": "fd",
+   "attrs": "PQRST",
+   "fds": [
+    "P->QR",
+    "RS->T"
+   ],
+   "parts": [
+    {
+     "name": "A",
+     "short": "A",
+     "title": "Option A: does PS → T follow?",
+     "do": [
+      {
+       "implies": "PS->T"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "PS->T": true
+      }
+     }
+    },
+    {
+     "name": "B",
+     "short": "B",
+     "title": "Option B: does R → T follow?",
+     "do": [
+      {
+       "implies": "R->T"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "R->T": false
+      }
+     }
+    },
+    {
+     "name": "C",
+     "short": "C",
+     "title": "Option C: does P → R follow?",
+     "do": [
+      {
+       "implies": "P->R"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "P->R": true
+      }
+     }
+    },
+    {
+     "name": "D",
+     "short": "D",
+     "title": "Option D: does PS → Q follow?",
+     "do": [
+      {
+       "implies": "PS->Q"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "PS->Q": true
+      }
+     }
+    }
+   ]
+  },
+  "CS-2022-Q31": {
+   "kind": "fd",
+   "attrs": "ABCDE",
+   "fds": [
+    "AB->C",
+    "BC->D",
+    "C->E"
+   ],
+   "do": [
+    "keys",
+    "superkeys"
+   ],
+   "expect": {
+    "keys": [
+     "AB"
+    ],
+    "superkeys": 8
+   }
+  },
+  "CS-2024-S1-Q44": {
+   "kind": "fd",
+   "attrs": "XYZW",
+   "parts": [
+    {
+     "name": "A",
+     "short": "A",
+     "title": "Option A: does XY → ZW give X → ZW?",
+     "fds": [
+      "XY->ZW"
+     ],
+     "do": [
+      {
+       "implies": "X->ZW"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "X->ZW": false
+      }
+     }
+    },
+    {
+     "name": "B",
+     "short": "B",
+     "title": "Option B: does XY → ZW give XY → Z?",
+     "fds": [
+      "XY->ZW"
+     ],
+     "do": [
+      {
+       "implies": "XY->Z"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "XY->Z": true
+      }
+     }
+    },
+    {
+     "name": "C",
+     "short": "C",
+     "title": "Option C: do XY → Z and W → Y give XW → Z?",
+     "fds": [
+      "XY->Z",
+      "W->Y"
+     ],
+     "do": [
+      {
+       "implies": "XW->Z"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "XW->Z": true
+      }
+     }
+    },
+    {
+     "name": "D",
+     "short": "D",
+     "title": "Option D: do X → Y and Y → Z give X → Z?",
+     "fds": [
+      "X->Y",
+      "Y->Z"
+     ],
+     "do": [
+      {
+       "implies": "X->Z"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "X->Z": true
+      }
+     }
+    }
+   ]
+  },
+  "CS-2025-S1-Q47": {
+   "kind": "fd",
+   "attrs": [
+    "name",
+    "city",
+    "owner"
+   ],
+   "fds": [
+    "name->city",
+    "name->owner"
+   ],
+   "parts": [
+    {
+     "name": "team",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "name"
+      ],
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "t1",
+     "relation": "name,city",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "t2",
+     "relation": "name,owner",
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "nf": "BCNF"
+     }
+    },
+    {
+     "name": "team",
+     "short": "Join",
+     "title": "team split into t1(name, city) and t2(name, owner)",
+     "components": {
+      "t1": "name,city",
+      "t2": "name,owner"
+     },
+     "do": [
+      "lossless"
+     ],
+     "expect": {
+      "lossless": true
+     }
+    }
+   ]
+  },
+  "CS-2025-S2-Q46": {
+   "kind": "fd",
+   "parts": [
+    {
+     "name": "R1",
+     "attrs": "ABCDE",
+     "fds": [
+      "D->E",
+      "EA->B",
+      "EB->C"
+     ],
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "AD"
+      ],
+      "3nf": false
+     }
+    },
+    {
+     "name": "R2",
+     "attrs": "ABCD",
+     "fds": [
+      "A->D",
+      "A->B",
+      "C->A"
+     ],
+     "do": [
+      "keys",
+      "nf"
+     ],
+     "expect": {
+      "keys": [
+       "C"
+      ],
+      "3nf": false
+     }
+    }
+   ]
+  },
+  "CS-2026-S1-Q30": {
+   "kind": "fd",
+   "attrs": "PQRS",
+   "parts": [
+    {
+     "name": "A",
+     "short": "A",
+     "title": "Option A: do PQ → R and P → R give Q → R?",
+     "fds": [
+      "PQ->R",
+      "P->R"
+     ],
+     "do": [
+      {
+       "implies": "Q->R"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "Q->R": false
+      }
+     }
+    },
+    {
+     "name": "B",
+     "short": "B",
+     "title": "Option B: does PQ → R give P → R or Q → R?",
+     "fds": [
+      "PQ->R"
+     ],
+     "do": [
+      {
+       "implies": "P->R"
+      },
+      {
+       "implies": "Q->R"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "P->R": false,
+       "Q->R": false
+      }
+     }
+    },
+    {
+     "name": "C",
+     "short": "C",
+     "title": "Option C: do P → R and Q → S give PQ → RS?",
+     "fds": [
+      "P->R",
+      "Q->S"
+     ],
+     "do": [
+      {
+       "implies": "PQ->RS"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "PQ->RS": true
+      }
+     }
+    },
+    {
+     "name": "D",
+     "short": "D",
+     "title": "Option D: does P → R give PQ → R?",
+     "fds": [
+      "P->R"
+     ],
+     "do": [
+      {
+       "implies": "PQ->R"
+      }
+     ],
+     "expect": {
+      "implied": {
+       "PQ->R": true
+      }
+     }
+    }
+   ]
+  }
+ }
+}

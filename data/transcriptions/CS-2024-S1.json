@@ -1,0 +1,974 @@
+{
+  "CS-2024-S1-Q1": {
+    "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words [dry → arid → parched] is analogous to [diet → fast → ________ ].\n\nWhich one of the given options is appropriate to fill the blank?",
+    "options": {
+      "A": "starve",
+      "B": "reject",
+      "C": "feast",
+      "D": "deny"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '________ ]. Which one' -> '________ ].\\n\\nWhich one'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q2": {
+    "stem": "If two distinct non-zero real variables $x$ and $y$ are such that $(x+y)$ is proportional to $(x-y)$ then the value of $\\frac{x}{y}$",
+    "options": {
+      "A": "depends on $xy$",
+      "B": "depends only on $x$ and not on $y$",
+      "C": "depends only on $y$ and not on $x$",
+      "D": "is a constant"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      1
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q3": {
+    "stem": "Consider the following sample of numbers:\n\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13\n\nThe median of the sample is",
+    "options": {
+      "A": "13.5",
+      "B": "14",
+      "C": "11",
+      "D": "18.7"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q4": {
+    "stem": "The number of coins of ₹1, ₹5, and ₹10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in ₹5 coins is",
+    "options": {
+      "A": "21%",
+      "B": "$14\\frac{2}{7}\\%$",
+      "C": "10%",
+      "D": "30%"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      2
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q5": {
+    "stem": "For positive non-zero real variables $p$ and $q$, if\n$$\\log(p^2+q^2)=\\log p+\\log q+2\\log 3\\ ,$$\nthen, the value of $\\frac{p^4+q^4}{p^2q^2}$ is",
+    "options": {
+      "A": "79",
+      "B": "81",
+      "C": "9",
+      "D": "83"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      3
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q6": {
+    "stem": "In the given text, the blanks are numbered (i)−(iv). Select the best match for all the blanks.\n\nSteve was advised to keep his head ___(i)___ before heading ___(ii)___ to bat; for, while he had a head ___(iii)___ batting, he could only do so with a cool head ___(iv)___ his shoulders.",
+    "options": {
+      "A": "(i) down (ii) down (iii) on (iv) for",
+      "B": "(i) on (ii) down (iii) for (iv) on",
+      "C": "(i) down (ii) out (iii) for (iv) on",
+      "D": "(i) on (ii) out (iii) on (iv) for"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      4
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'to bat;\\nfor, while' -> 'to bat; for, while'; stem: 'cool head\\n___(iv)___' -> 'cool head ___(iv)___'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q7": {
+    "stem": "A rectangular paper sheet of dimensions 54 cm × 4 cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken.\n\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+    "options": {
+      "A": "$1/\\pi$",
+      "B": "$2/\\pi$",
+      "C": "$3/\\pi$",
+      "D": "$4/\\pi$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      5
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'also taken. Then, the ratio' -> 'also taken.\\n\\nThen, the ratio'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q8": {
+    "stem": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person.\n\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n\n| Macronutrient | Energy density (kcal/g) |\n|---|---|\n| Carbohydrates | 4 |\n| Proteins | 4 |\n| Unsaturated fat | 9 |\n| Saturated fat | 9 |\n| Trans fat | 9 |\n\nThe total fat (all three types), in grams, this person consumes is",
+    "options": {
+      "A": "44.4",
+      "B": "77.8",
+      "C": "100",
+      "D": "3,600"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q8-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      6
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. The renderer places figures after the whole stem; in the source the figure sits after the first sentence. Chart redrawn in outline (currentColor) without the source fill colours; every label and percentage copied. Figure label styling 2026-11-10 (claude-code-sweep-2026-11-10): Chart title set in bold as printed. SVG edited directly; its sha256 differs from the one recorded in the draft-review audit, see post_review_changes.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q9": {
+    "stem": "A rectangular paper of 20 cm × 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+    "options": {
+      "A": "18",
+      "B": "24",
+      "C": "20",
+      "D": "21"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q10": {
+    "stem": "The least number of squares to be added in the figure to make AB a line of symmetry is",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q10-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      7
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Figure SVG regenerated byte-identical from figures/sources/CS-2024-S1-first.py.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q11": {
+    "stem": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a function such that $f(x)=\\max\\{x,x^3\\},\\ x\\in\\mathbb{R}$, where $\\mathbb{R}$ is the set of all real numbers. The set of all points where $f(x)$ is NOT differentiable is",
+    "options": {
+      "A": "$\\{-1,1,2\\}$",
+      "B": "$\\{-2,-1,1\\}$",
+      "C": "$\\{0,1\\}$",
+      "D": "$\\{-1,0,1\\}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q12": {
+    "stem": "The product of all eigenvalues of the matrix $\\begin{bmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{bmatrix}$ is",
+    "options": {
+      "A": "−1",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      8
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q13": {
+    "stem": "Consider a system that uses 5 bits for representing signed integers in 2’s complement format. In this system, two integers $A$ and $B$ are represented as $A=01010$ and $B=11010$. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+    "options": {
+      "A": "$A+B$",
+      "B": "$A-B$",
+      "C": "$B-A$",
+      "D": "$2*B$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q14": {
+    "stem": "Consider a permutation sampled uniformly at random from the set of all permutations of $\\{1,2,3,\\cdots,n\\}$ for some $n\\geq4$. Let $X$ be the event that 1 occurs before 2 in the permutation, and $Y$ the event that 3 occurs before 4. Which one of the following statements is TRUE?",
+    "options": {
+      "A": "The events $X$ and $Y$ are mutually exclusive",
+      "B": "The events $X$ and $Y$ are independent",
+      "C": "Either event $X$ or $Y$ must occur",
+      "D": "Event $X$ is more likely than event $Y$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      9
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q15": {
+    "stem": "Which one of the following statements is FALSE?",
+    "options": {
+      "A": "In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle",
+      "B": "For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode",
+      "C": "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+      "D": "The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      10
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q16": {
+    "stem": "A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user’s computer in some order. \n\n(i) HTTP GET request for the index page \n\n(ii) DNS request to resolve the web server’s name to its IP address \n\n(iii) HTTP GET request for an image object \n\n(iv) TCP SYN to open a connection to the web server \n\nWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ?",
+    "options": {
+      "A": "(iv), (ii), (iii), (i)",
+      "B": "(ii), (iv), (iii), (i)",
+      "C": "(ii), (iv), (i), (iii)",
+      "D": "(iv), (ii), (i), (iii)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Source item list (i)–(iv) rendered as one paragraph per item.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q17": {
+    "stem": "Given an integer array of size $N$, we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+    "options": {
+      "A": "both $O(N)$ and $\\Omega(N)$",
+      "B": "$O(N)$ but not $\\Omega(N)$",
+      "C": "$\\Omega(N)$ but not $O(N)$",
+      "D": "neither $O(N)$ nor $\\Omega(N)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      11
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q18": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\nint main(){\n   int a = 6;\n   int b = 0;\n   while(a < 10) {\n      a = a / 12 + 1;\n      a += b;}\n   printf(”%d”, a);\n   return 0;}\n```\n[sic: typographic double quotation marks in source.]\n\nWhich one of the following statements is CORRECT?",
+    "options": {
+      "A": "The program prints 9 as output",
+      "B": "The program prints 10 as output",
+      "C": "The program gets stuck in an infinite loop",
+      "D": "The program prints 6 as output"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      12
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Typographic quotes retained with [sic]; CS-2024-S1-Q18-TYPOGRAPHIC-QUOTES; solution carries a source qualification.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q19": {
+    "stem": "Consider the following C program:\n\n```c\n#include <stdio.h>\nvoid fX();\nint main(){\n   fX();\n   return 0;}\n\n  void fX(){\n   char a;\n   if((a=getchar()) != ’\\n’)\n       fX();\n   if(a != ’\\n’)\n       putchar(a);}\n```\n[sic: typographic single quotation marks in source.]\n\nAssume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT?",
+    "options": {
+      "A": "The program will not terminate",
+      "B": "The program will terminate with no output",
+      "C": "The program will terminate with 4321 as output",
+      "D": "The program will terminate with 1234 as output"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      13
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Typographic quotes retained with [sic]; CS-2024-S1-Q19-TYPOGRAPHIC-QUOTES; solution carries a source qualification. Source prints main() and fX() in two columns; linearised with main() first.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q20": {
+    "stem": "Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S?",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(iv)"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q20-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      14
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. All four ER panels checked edge by edge, including the missing Classroom-Allocation link and the diagonal Course-Classroom link in (iii).",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q21": {
+    "stem": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases?",
+    "options": {
+      "A": "Only the root node",
+      "B": "All leaf nodes",
+      "C": "All internal nodes",
+      "D": "Only the leftmost leaf node"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q22": {
+    "stem": "Which of the following statements about a relation **R** in first normal form (1NF) is/are TRUE ?",
+    "options": {
+      "A": "**R** can have a multi-attribute key",
+      "B": "**R** cannot have a foreign key",
+      "C": "**R** cannot have a composite attribute",
+      "D": "**R** cannot have more than one candidate key"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      15
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'relation R' -> 'relation **R**'; options.A: 'R can have a multi-attribute key' -> '**R** can have a multi-attribute key'; options.B: 'R cannot have a foreign key' -> '**R** cannot have a foreign key'; options.C: 'R cannot have a composite attribute' -> '**R** cannot have a composite attribute'; options.D: 'R cannot have more than one candidate key' -> '**R** cannot have more than one candidate key'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q23": {
+    "stem": "Let $L_1,L_2$ be two regular languages and $L_3$ a language which is not regular. Which of the following statements is/are *always* TRUE?",
+    "options": {
+      "A": "$L_1=L_2$ if and only if $L_1\\cap\\overline{L_2}=\\phi$",
+      "B": "$L_1\\cup L_3$ is not regular",
+      "C": "$\\overline{L_3}$ is not regular",
+      "D": "$\\overline{L_1}\\cup\\overline{L_2}$ is regular"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q24": {
+    "stem": "Which of the following statements about threads is/are TRUE?",
+    "options": {
+      "A": "Threads can only be implemented in kernel space",
+      "B": "Each thread has its own file descriptor table for open files",
+      "C": "All the threads belonging to a process share a common stack",
+      "D": "Threads belonging to a process are by default not protected from each other"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      16
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q25": {
+    "stem": "Which of the following process state transitions is/are NOT possible?",
+    "options": {
+      "A": "Running to Ready",
+      "B": "Waiting to Running",
+      "C": "Ready to Waiting",
+      "D": "Running to Terminated"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q26": {
+    "stem": "Which of the following is/are Bottom-Up Parser(s)?",
+    "options": {
+      "A": "Shift-reduce Parser",
+      "B": "Predictive Parser",
+      "C": "LL(1) Parser",
+      "D": "LR Parser"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      17
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q27": {
+    "stem": "Let $A$ and $B$ be two events in a probability space with $P(A)=0.3$, $P(B)=0.5$, and $P(A\\cap B)=0.1$. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "The two events $A$ and $B$ are independent",
+      "B": "$P(A\\cup B)=0.7$",
+      "C": "$P(A\\cap B^c)=0.2$, where $B^c$ is the complement of the event $B$",
+      "D": "$P(A^c\\cap B^c)=0.4$, where $A^c$ and $B^c$ are the complements of the events $A$ and $B$, respectively"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q28": {
+    "stem": "Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT?",
+    "options": {
+      "A": "With no propagation delays, the output $Y$ is always logic Zero",
+      "B": "With no propagation delays, the output $Y$ is always logic One",
+      "C": "With propagation delays, the output $Y$ can have a transient logic One after $X$ transitions from logic Zero to logic One",
+      "D": "With propagation delays, the output $Y$ can have a transient logic Zero after $X$ transitions from logic One to logic Zero"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q28-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      18
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q29": {
+    "stem": "TCP client P successfully establishes a connection to TCP server Q. Let $N_P$ denote the sequence number in the SYN sent from P to Q. Let $N_Q$ denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?",
+    "options": {
+      "A": "The sequence number $N_P$ is chosen randomly by P",
+      "B": "The sequence number $N_P$ is always 0 for a new connection",
+      "C": "The acknowledgement number $N_Q$ is equal to $N_P$",
+      "D": "The acknowledgement number $N_Q$ is equal to $N_P+1$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q30": {
+    "stem": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about *forwarding* is/are CORRECT?",
+    "options": {
+      "A": "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+      "B": "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+      "C": "Forwarding cannot prevent all pipeline stalls",
+      "D": "Forwarding does not require any extra hardware to retrieve the data from the pipeline stages"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      19
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'about forwarding is/are' -> 'about *forwarding* is/are'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q31": {
+    "stem": "Which of the following fields is/are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network?",
+    "options": {
+      "A": "Source IP",
+      "B": "Destination IP",
+      "C": "Header Checksum",
+      "D": "Total Length"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q32": {
+    "stem": "Let $A$ and $B$ be non-empty finite sets such that there exist one-to-one and onto functions (i) from $A$ to $B$ and (ii) from $A\\times A$ to $A\\cup B$. The number of possible values of $|A|$ is __________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q33": {
+    "stem": "Consider the operator precedence and associativity rules for the *integer* arithmetic operators given in the table below.\n\n| Operator | Precedence | Associativity |\n|---|---|---|\n| $+$ | Highest | Left |\n| $-$ | High | Right |\n| $*$ | Medium | Right |\n| $/$ | Low | Right |\n\nThe value of the expression $3+1+5*2/7+2-4-7-6/2$ as per the above rules is __________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      20
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q34": {
+    "stem": "The number of spanning trees in a *complete* graph of 4 vertices labelled A, B, C, and D is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'a complete graph' -> 'a *complete* graph'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q35": {
+    "stem": "Consider the following two relations, ***R***(***A***,***B***) and ***S***(***A***,***C***):\n\n**R**\n\n| A | B |\n|---|---|\n| 10 | 20 |\n| 20 | 30 |\n| 30 | 40 |\n| 30 | 50 |\n| 50 | 95 |\n\n**S**\n\n| A | C |\n|---|---|\n| 10 | 90 |\n| 30 | 45 |\n| 40 | 80 |\n\nThe total number of tuples obtained by evaluating the following expression\n$$\\sigma_{B<C}(R\\bowtie_{R.A=S.A}S)$$\nis _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      21
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_first) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '**R(A,B)** and **S(A,C)**' -> '***R***(***A***,***B***) and ***S***(***A***,***C***)'. Merged-cell table captions R and S rendered as bold labels above each table.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q36": {
+    "stem": "Consider a network path P—Q—R between nodes P and R via router Q. Node P sends a file of size $10^6$ bytes to R via this path by splitting the file into chunks of $10^3$ bytes each. Node P sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n\nEach of the links P—Q and Q—R has a bandwidth of $10^6$ bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P—Q and transmit on link Q—R.\n\nAssume P starts transmitting the chunks at time $t = 0$.\nWhich one of the following options gives the time (*in seconds*, *rounded off to 3 decimal places*) at which R receives all the chunks of the file?",
+    "options": {
+      "A": "8.000",
+      "B": "8.008",
+      "C": "15.992",
+      "D": "16.000"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      22
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '*(in seconds, rounded off to 3 decimal places)*' -> '(*in seconds*, *rounded off to 3 decimal places*)'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q37": {
+    "stem": "Consider the following syntax-directed definition (SDD).\n\n| | |\n|---|---|\n| $S \\to DHTU$ | $\\{\\ S.val = D.val + H.val + T.val + U.val;\\ \\}$ |\n| $D \\to$ \"M\"$D_1$ | $\\{\\ D.val = 5 + D_1.val;\\ \\}$ |\n| $D \\to \\epsilon$ | $\\{\\ D.val = -5;\\ \\}$ |\n| $H \\to$ \"L\"$H_1$ | $\\{\\ H.val = 5 * 10 + H_1.val;\\ \\}$ |\n| $H \\to \\epsilon$ | $\\{\\ H.val = -10;\\ \\}$ |\n| $T \\to$ \"C\"$T_1$ | $\\{\\ T.val = 5 * 100 + T_1.val;\\ \\}$ |\n| $T \\to \\epsilon$ | $\\{\\ T.val = -5;\\ \\}$ |\n| $U \\to$ \"K\" | $\\{\\ U.val = 5;\\ \\}$ |\n\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute $S.val$)?",
+    "options": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "65"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      23
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '$D \\\\to \\\\text{\"M\"}D_1$' -> '$D \\\\to$ \"M\"$D_1$'; stem: '$H \\\\to \\\\text{\"L\"}H_1$' -> '$H \\\\to$ \"L\"$H_1$'; stem: '$T \\\\to \\\\text{\"C\"}T_1$' -> '$T \\\\to$ \"C\"$T_1$'; stem: '$U \\\\to \\\\text{\"K\"}$' -> '$U \\\\to$ \"K\"'. Source table has no header row; rendered with an empty header row. Quoted terminals kept outside math so they show straight quotes as printed.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q38": {
+    "stem": "Consider the following grammar $G$, with $S$ as the start symbol. The grammar $G$ has three incomplete productions denoted by (1), (2), and (3).\n\n$$\\begin{aligned}S&\\to daT\\mid\\underline{\\quad(1)\\quad}\\\\T&\\to aS\\mid bT\\mid\\underline{\\quad(2)\\quad}\\\\R&\\to\\underline{\\quad(3)\\quad}\\mid\\epsilon\\end{aligned}$$\n\nThe set of terminals is $\\{a,b,c,d,f\\}$. The FIRST and FOLLOW sets of the different non-terminals are as follows.\n\n$$\\operatorname{FIRST}(S)=\\{c,d,f\\},\\ \\operatorname{FIRST}(T)=\\{a,b,\\epsilon\\},\\ \\operatorname{FIRST}(R)=\\{c,\\epsilon\\}$$\n$$\\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c,f,\\$\\},\\ \\operatorname{FOLLOW}(R)=\\{f\\}$$\n\nWhich one of the following options CORRECTLY fills in the incomplete productions?",
+    "options": {
+      "A": "(1) $S\\to Rf$    (2) $T\\to\\epsilon$    (3) $R\\to cTR$",
+      "B": "(1) $S\\to fR$    (2) $T\\to\\epsilon$    (3) $R\\to cTR$",
+      "C": "(1) $S\\to fR$    (2) $T\\to cT$    (3) $R\\to cR$",
+      "D": "(1) $S\\to Rf$    (2) $T\\to cT$    (3) $R\\to cR$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      24
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q39": {
+    "stem": "Consider the following pseudo-code.\n\n```text\nL1:        t1 = -1\nL2:        t2 = 0\nL3:        t3 = 0\nL4:        t4 = 4 * t3\nL5:        t5 = 4 * t2\nL6:        t6 = t5 * M\nL7:        t7 = t4 + t6\nL8:        t8 = a[t7]\nL9:        if t8 <= max goto L11\nL10:       t1 = t8\nL11:       t3 = t3 + 1\nL12:       if t3 < M goto L4\nL13:       t2 = t2 + 1\nL14:       if t2 < N goto L3\nL15:       max = t1\n```\n\nWhich one of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively ?",
+    "options": {
+      "A": "6 and 6",
+      "B": "6 and 7",
+      "C": "7 and 7",
+      "D": "7 and 6"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      25
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Source pseudo-code is math-typeset (italic names, bold if/goto); transcribed as a plain code block with the same lines.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q40": {
+    "stem": "Consider the following two threads T1 and T2 that update two shared variables a and b. Assume that initially a = b = 1. Though context switching between threads can happen at any time, each statement of T1 or T2 is executed atomically without interruption.\n\n```text\n     T1                        T2\n\na = a + 1;                 b = 2 * b;\nb = b + 1;                 a = 2 * a;\n```\n\nWhich one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution?",
+    "options": {
+      "A": "(a = 4, b = 4); (a = 3, b = 3); (a = 4, b = 3)",
+      "B": "(a = 3, b = 4); (a = 4, b = 3); (a = 3, b = 3)",
+      "C": "(a = 4, b = 4); (a = 4, b = 3); (a = 3, b = 4)",
+      "D": "(a = 2, b = 2); (a = 2, b = 3); (a = 3, b = 4)"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q41": {
+    "stem": "An array [82, 101, 90, 11, 111, 75, 33, 131, 44, 93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+    "options": {
+      "A": "82, 90, 101",
+      "B": "82, 11, 93",
+      "C": "131, 11, 93",
+      "D": "131, 111, 90"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      26
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Existing qualification CS-2024-S1-Q41-HEAP-TYPE remains applicable.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q42": {
+    "stem": "Consider the following recurrence relation:\n\n$$T(n)=\\begin{cases}\\sqrt{n}T(\\sqrt{n})+n&\\text{for }n\\geq 1,\\\\1&\\text{for }n=1.\\end{cases}$$\n[sic]\n\nWhich one of the following options is CORRECT?",
+    "options": {
+      "A": "$T(n)=\\Theta(n\\log\\log n)$",
+      "B": "$T(n)=\\Theta(n\\log n)$",
+      "C": "$T(n)=\\Theta(n^2\\log n)$",
+      "D": "$T(n)=\\Theta(n^2\\log\\log n)$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Printed n ≥ 1 recursive condition retained with [sic]; CS-2024-S1-Q42-BASE-CASE reclassified as question-error.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q43": {
+    "stem": "Consider a binary min-heap containing 105 distinct elements. Let $k$ be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of $k$ is",
+    "options": {
+      "A": "53",
+      "B": "52",
+      "C": "27",
+      "D": "1"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      27
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q44": {
+    "stem": "The symbol $\\to$ indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "$(X,Y)\\to(Z,W)$ implies $X\\to(Z,W)$",
+      "B": "$(X,Y)\\to(Z,W)$ implies $(X,Y)\\to Z$",
+      "C": "$((X,Y)\\to Z\\ \\text{and}\\ W\\to Y)$ implies $(X,W)\\to Z$",
+      "D": "$(X\\to Y\\ \\text{and}\\ Y\\to Z)$ implies $X\\to Z$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q45": {
+    "stem": "Let $G$ be a directed graph and $T$ a depth first search (DFS) spanning tree in $G$ that is rooted at a vertex $v$. Suppose $T$ is also a breadth first search (BFS) tree in $G$, rooted at $v$. Which of the following statements is/are TRUE for *every* such graph $G$ and tree $T$ ?",
+    "options": {
+      "A": "There are no back-edges in $G$ with respect to the tree $T$",
+      "B": "There are no cross-edges in $G$ with respect to the tree $T$",
+      "C": "There are no forward-edges in $G$ with respect to the tree $T$",
+      "D": "The only edges in $G$ are the edges in $T$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      28
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'TRUE for every such' -> 'TRUE for *every* such'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q46": {
+    "stem": "Consider the following read-write schedule $S$ over three transactions $T_1, T_2,$ and $T_3$, where the subscripts in the schedule indicate transaction IDs:\n\n$$S: r_1(z);\\ w_1(z);\\ r_2(x);\\ r_3(y);\\ w_3(y);\\ r_2(y);\\ w_2(x);\\ w_2(y);$$\n\nWhich of the following transaction schedules is/are conflict equivalent to $S$ ?",
+    "options": {
+      "A": "$T_1T_2T_3$",
+      "B": "$T_1T_3T_2$",
+      "C": "$T_3T_2T_1$",
+      "D": "$T_3T_1T_2$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q47": {
+    "stem": "Consider a Boolean expression given by $F(X,Y,Z)=\\sum(3,5,6,7)$.\nWhich of the following statements is/are CORRECT?",
+    "options": {
+      "A": "$F(X,Y,Z)=\\Pi(0,1,2,4)$",
+      "B": "$F(X,Y,Z)=XY+YZ+XZ$",
+      "C": "$F(X,Y,Z)$ is independent of input $Y$",
+      "D": "$F(X,Y,Z)$ is independent of input $X$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      29
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q48": {
+    "stem": "Consider the following C function definition.\n\n```c\nint f(int x, int y) {\n  for (int i=0; i<y; i++) {\n    x=x+x+y;\n  }\n  return x;\n}\n```\n\nWhich of the following statements is/are TRUE about the above function?",
+    "options": {
+      "A": "If the inputs are x=20, y=10, then the return value is greater than $2^{20}$",
+      "B": "If the inputs are x=20, y=20, then the return value is greater than $2^{20}$",
+      "C": "If the inputs are x=20, y=10, then the return value is less than $2^{10}$",
+      "D": "If the inputs are x=10, y=20, then the return value is greater than $2^{20}$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q49": {
+    "stem": "Let $A$ be any $n\\times m$ matrix, where $m>n$. Which of the following statements is/are TRUE about the system of linear equations $Ax=\\mathbf{0}$ ?",
+    "options": {
+      "A": "There exist at least $m-n$ linearly independent solutions to this system",
+      "B": "There exist $m-n$ linearly independent vectors such that every solution is a linear combination of these vectors",
+      "C": "There exists a non-zero solution in which at least $m-n$ variables are 0",
+      "D": "There exists a solution in which at least $n$ variables are non-zero"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      30
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '$Ax=0$' -> '$Ax=\\\\mathbf{0}$'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q50": {
+    "stem": "Consider the 5-state DFA $M$ accepting the language $L(M)\\subset(0+1)^*$ shown below. For any string $w\\in(0+1)^*$ let $n_0(w)$ be the number of $0$’s in $w$ and $n_1(w)$ be the number of $1$’s in $w$.\n\nWhich of the following statements is/are FALSE?",
+    "options": {
+      "A": "States 2 and 4 are distinguishable in $M$",
+      "B": "States 3 and 4 are distinguishable in $M$",
+      "C": "States 2 and 5 are distinguishable in $M$",
+      "D": "Any string $w$ with $n_0(w)=n_1(w)$ is in $L(M)$"
+    },
+    "figures": [
+      "figures/CS-2024-S1-Q50-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      31
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Label positions of the 2→1 edge and the 3→1 arc moved off their lines (topology unchanged from the reviewed draft).",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q51": {
+    "stem": "The chromatic number of a graph is the minimum number of colours used in a *proper* colouring of the graph. Let $G$ be any graph with $n$ vertices and chromatic number $k$. Which of the following statements is/are always TRUE?",
+    "options": {
+      "A": "$G$ contains a complete subgraph with $k$ vertices",
+      "B": "$G$ contains an independent set of size at least $n/k$",
+      "C": "$G$ contains at least $k(k-1)/2$ edges",
+      "D": "$G$ contains a vertex of degree at least $k$"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q52": {
+    "stem": "Consider the operators $\\lozenge$ and $\\square$ defined by $a\\mathbin{\\lozenge}b=a+2b$, $a\\square b=ab$, for positive integers. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "Operator $\\lozenge$ obeys the associative law",
+      "B": "Operator $\\square$ obeys the associative law",
+      "C": "Operator $\\lozenge$ over the operator $\\square$ obeys the distributive law",
+      "D": "Operator $\\square$ over the operator $\\lozenge$ obeys the distributive law"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      32
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '$\\\\diamond$' -> '$\\\\lozenge$'; stem: 'a\\\\diamond b' -> 'a\\\\mathbin{\\\\lozenge}b'; options.A: '$\\\\diamond$' -> '$\\\\lozenge$'; options.C: '$\\\\diamond$' -> '$\\\\lozenge$'; options.D: '$\\\\diamond$' -> '$\\\\lozenge$'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q53": {
+    "stem": "Consider two set-associative cache memory architectures: **WBC**, which uses the write back policy, and **WTC**, which uses the write through policy. Both of them use the LRU (*Least Recently Used*) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE?",
+    "options": {
+      "A": "A read miss in **WBC** never evicts a dirty block",
+      "B": "A read miss in **WTC** never triggers a write back operation of a cache block to main memory",
+      "C": "A write hit in **WBC** can modify the value of the dirty bit of a cache block",
+      "D": "A write miss in **WTC** always writes the victim cache block to main memory before loading the missed block to the cache"
+    },
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: 'WBC,' -> '**WBC**,'; stem: 'WTC,' -> '**WTC**,'; stem: '(Least Recently Used)' -> '(*Least Recently Used*)'; options.A: 'in WBC ' -> 'in **WBC** '; options.B: 'in WTC ' -> 'in **WTC** '; options.C: 'in WBC ' -> 'in **WBC** '; options.D: 'in WTC ' -> 'in **WTC** '.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q54": {
+    "stem": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q55": {
+    "stem": "The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (*ns*). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10 *ns* when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized code for an equal amount of time.\n\nThe number of cores that minimize the execution time of the program is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '(ns)' -> '(*ns*)'; stem: '10 ns ' -> '10 *ns* '; stem: 'equal amount of time. The number' -> 'equal amount of time.\\n\\nThe number'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q56": {
+    "stem": "A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per instruction) without any memory stalls is 2. The program exhibits 2% miss rate on instruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles. The speedup (*rounded off to two decimal places*) achieved with a perfect cache (i.e., with NO data or instruction cache misses) is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      33
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '(rounded off to two decimal places)' -> '(*rounded off to two decimal places*)'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q57": {
+    "stem": "Consider the following code snippet using the `fork()` and `wait()` system calls. Assume that the code compiles and runs correctly, and that the system calls run successfully without any errors.\n\n```c\nint x = 3;\nwhile(x > 0) {\n  fork();\n  printf(\"hello\");\n  wait(NULL);\n  x--;\n}\n```\n\nThe total number of times the `printf` statement is executed is _______",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Existing qualification CS-2024-S1-Q57-WAIT-PREMISE remains applicable.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q58": {
+    "stem": "Consider the entries shown below in the forwarding table of an IP router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation “/N” in a prefix indicates a subnet mask with the most significant N bits set to 1.\n\n| Prefix | Next hop router |\n|---|---|\n| 10.1.1.0/24 | R1 |\n| 10.1.1.128/25 | R2 |\n| 10.1.1.64/26 | R3 |\n| 10.1.1.192/26 | R4 |\n\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205 . The number of packets forwarded via the next hop router R2 is _______",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q59": {
+    "stem": "Let $G=(V,\\Sigma,S,P)$ be a context-free grammar in Chomsky Normal Form with $\\Sigma=\\{a,b,c\\}$ and $V$ containing 10 variable symbols including the start symbol $S$. The string $w=a^{30}b^{30}c^{30}$ is derivable from $S$. The number of steps (application of rules) in the derivation $S\\to^* w$ is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      34
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q60": {
+    "stem": "The number of edges present in the forest generated by the DFS traversal of an undirected graph $G$ with 100 vertices is 40. The number of connected components in $G$ is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q61": {
+    "stem": "Consider the following two regular expressions over the alphabet $\\{0,1\\}$:\n\n$$r=0^*+1^*$$\n$$s=01^*+10^*$$\n\nThe total number of strings of length less than or equal to 5, which are neither in $r$ nor in $s$, is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q62": {
+    "stem": "Consider a memory management system that uses a page size of 2 KB. Assume that both the physical and virtual addresses start from 0. Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, 2, and 0, respectively. The physical address (*in decimal format*) corresponding to the virtual address 2500 (*in decimal format*) is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '(in decimal format)' -> '(*in decimal format*)'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q63": {
+    "stem": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (*rounded off to 3 decimal places*) that both balls drawn are red is _________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      35
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '(rounded off to 3 decimal places)' -> '(*rounded off to 3 decimal places*)'.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q64": {
+    "stem": "Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. X1 and X2 are inputs of M1. X3 and X4 are inputs of M2. A, B, and C are select lines of M1, M2, and M3, respectively.\n\nFor an instance of inputs **X1=1, X2=1, X3=0**, and **X4=0**, the number of combinations of A, B, C that give the output **Y=1** is _________",
+    "options": {},
+    "figures": [
+      "figures/CS-2024-S1-Q64-1.svg"
+    ],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording. Corrections this session: stem: '**X1=1, X2=1, X3=0, and X4=0**' -> '**X1=1, X2=1, X3=0**, and **X4=0**'. The renderer places figures after the whole stem; in the source the figure sits before the final sentence.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  },
+  "CS-2024-S1-Q65": {
+    "stem": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is ________",
+    "options": {},
+    "figures": [],
+    "status": "draft",
+    "checked_pages": [
+      36
+    ],
+    "notes": "Draft prepared by Codex (transcribe_2024_s1_second) and finished by claude-code-transcribe-2026-11-10 (HANDOFF 3.1). Wording, options, emphasis (PDF font flags) and figures checked against the canonical source page; production-rendered desktop comparison self-checked by the transcriber, which is not an independent review. Existing solution checked against the exact wording.",
+    "source_sha256": "18cf9ac15c01bdbf9d767c7a402d63234a28ae91c8ec227090ba5a5fdef121dd"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gate-cs-private-preview",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned, locally served search and mathematical typesetting assets",
+  "scripts": {
+    "build:preview": "python scripts/build_site.py --preview",
+    "index:search": "pagefind --site _site --glob 'search-docs/**/*.html' --output-subdir pagefind",
+    "build:enhanced-preview": "python scripts/build_site.py --preview && npm run index:search"
+  },
+  "dependencies": {
+    "katex": "0.16.22",
+    "pagefind": "1.4.0"
+  }
+}

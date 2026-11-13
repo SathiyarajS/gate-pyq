@@ -1,0 +1,379 @@
+{
+  "paper_id": "CS-2015-S2",
+  "status": "independent_review_passed_with_existing_source_key_caveats",
+  "reviewed_records": 65,
+  "source": "/tmp/gate-2015-CS.pdf",
+  "visually_inspected_physical_pages": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "review_method": "Read all 65 question paraphrases and complete solutions, visually compared all 25 source pages including diagrams, options and code, checked reasoning and arithmetic independently, then ran protected-field and arithmetic scripts. Not a verbatim-transcription certification.",
+  "protected_fields_unchanged": true,
+  "validation_scripts": [
+    "check_2015s2_expansion.py",
+    "check_2015s2_independent.py"
+  ],
+  "precise_edit_log": "cs2-2015-review-edits.json",
+  "sha256": "dbc6a5e5d44e6eb69987895e072dc120b88852e578904d9df008a823163a3f64",
+  "source_fidelity_edits": [
+    "Q11 knowledge-of-corruption predicate restored",
+    "Q46 exponent names restored and regex disambiguated",
+    "Q48 source movement constraint separated from conventional solution model"
+  ],
+  "prose_spacing": "Obvious joined words/numbers and unit spacing cleaned in 74 initial question/solution fields; subsequent punctuation fixes logged. All before/after text retained in edit log.",
+  "question_reviews": [
+    {
+      "question_id": "CS-2015-S2-Q1",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q2",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q3",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q4",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q5",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q6",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q7",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q8",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q9",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q10",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q11",
+      "result": "pass_with_caveat",
+      "note": "Restored the source predicate known to be corrupt; contraposition is about knowledge of corruption, not corruption itself."
+    },
+    {
+      "question_id": "CS-2015-S2-Q12",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q13",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q14",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q15",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q16",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q17",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q18",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q19",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q20",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q21",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q22",
+      "result": "pass_with_caveat",
+      "note": "Worst-case rather than per-instance lower bound caveat retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q23",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q24",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q25",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q26",
+      "result": "pass_with_caveat",
+      "note": "Necessarily implied versus merely consistent caveat retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q27",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q28",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q29",
+      "result": "pass_with_caveat",
+      "note": "Source exp notation ambiguity retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q30",
+      "result": "pass_with_caveat",
+      "note": "Source visibly says six resources and at most two per process; none of N=1,2,3,4 can deadlock under total-claim interpretation. Published D retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q31",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q32",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q33",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q34",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q35",
+      "result": "pass_with_caveat",
+      "note": "Session-cookie expiry qualification retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q36",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q37",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q38",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q39",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q40",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q41",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q42",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q43",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q44",
+      "result": "pass_with_caveat",
+      "note": "All eleven instructions verified visually, including j=1; explicit entry/exit CFG convention retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q45",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q46",
+      "result": "pass_with_caveat",
+      "note": "Restored source exponent variable order a^n b^m; replaced overloaded regex plus with an unambiguous nonempty-middle expression."
+    },
+    {
+      "question_id": "CS-2015-S2-Q47",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q48",
+      "result": "pass_with_caveat",
+      "note": "Removed invented adjacent-move constraint from source paraphrase; conventional deletion remains clearly labeled. Independent exhaustive ideal-DP over all five 12-cell Young shapes in 4x4 confirms unrestricted minimum five moved entries (per-shape minima 7,7,6,5,6)."
+    },
+    {
+      "question_id": "CS-2015-S2-Q49",
+      "result": "pass_with_caveat",
+      "note": "Visually confirmed source count contract versus index code conflict; all four call choices matched after p renaming; no silent repair."
+    },
+    {
+      "question_id": "CS-2015-S2-Q50",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q51",
+      "result": "pass_with_caveat",
+      "note": "All four formulas visually matched; undefined fa caveat retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q52",
+      "result": "pass_with_caveat",
+      "note": "Global/static shadowing and indeterminately sequenced function executions reviewed; output 15."
+    },
+    {
+      "question_id": "CS-2015-S2-Q53",
+      "result": "pass_with_caveat",
+      "note": "Single occupied PO-stage model and forwarding produce 13 cycles; model caveat retained."
+    },
+    {
+      "question_id": "CS-2015-S2-Q54",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q55",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q56",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q57",
+      "result": "pass_with_caveat",
+      "note": "Visually verified R2:=R2+R3 and C1:=C1-C3. Independent determinant check gives zero and final matrix [[-42,4,45],[-280,11,300],[-182,2,195]]."
+    },
+    {
+      "question_id": "CS-2015-S2-Q58",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q59",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q60",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q61",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q62",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q63",
+      "result": "pass_with_caveat",
+      "note": "Source D is also valid as printed; C-only embedded key and discrepancy remain unchanged. B countermodel survives scope ambiguity."
+    },
+    {
+      "question_id": "CS-2015-S2-Q64",
+      "result": "pass",
+      "note": "Source data/options and complete explanation reviewed; reasoning provides a reproducible method and relevant distinctions."
+    },
+    {
+      "question_id": "CS-2015-S2-Q65",
+      "result": "pass_with_caveat",
+      "note": "19.2 key retained alongside 12.0 gate-overlap analysis and explicit arrival/model caveats."
+    }
+  ],
+  "limitations": [
+    "The archived inline key is preserved; final key revision status is not independently reclassified.",
+    "Source wording ambiguities and protected discrepancies remain visible rather than silently corrected.",
+    "Questions remain linked paraphrases, not certified verbatim transcriptions."
+  ]
+}

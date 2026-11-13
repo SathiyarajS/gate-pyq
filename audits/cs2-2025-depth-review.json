@@ -1,0 +1,727 @@
+{
+  "paper_id": "CS-2025-S2",
+  "review_status": "passed_after_corrections_with_existing_discrepancies_preserved",
+  "reviewed_count": 65,
+  "source_files": [
+    "/tmp/gate-2025-CS2.pdf",
+    "/tmp/gate-2025-CS2.txt",
+    "/tmp/gate-2025-CS2-key.pdf",
+    "/tmp/gate-2025-CS2-key.txt"
+  ],
+  "inputs": {
+    "expanded-cs2-2025.json": {
+      "path": "/workspace/shared/gate-pyq-contributions/expanded-cs2-2025.json",
+      "sha256": "f41e885ec6a36f37208c0f50e43414346da4306f374620b90d55822b7f39edc5"
+    },
+    "expanded-cs2-2025.md": {
+      "path": "/workspace/shared/gate-pyq-contributions/expanded-cs2-2025.md",
+      "sha256": "73866de72e182dfcbe2f553cc1fbee083146d1e2114dcff0dc86a1b2faa9bd9d"
+    }
+  },
+  "protected_fields": "Every existing repository field outside the seven explicitly expanded/access/review fields was compared, including deleted/added-field detection; no protected differences.",
+  "source_visual_pages": [
+    4,
+    9,
+    10,
+    25,
+    32,
+    36,
+    38,
+    42,
+    44
+  ],
+  "corrections": [
+    {
+      "question_id": "CS-2025-S2-Q34",
+      "severity": "teaching_error",
+      "status": "corrected_and_verified",
+      "original": "Each flip-flop toggles once for every two cycles of the signal driving it.",
+      "correction": "Each flip-flop toggles on every active edge of its input clock. Two toggles complete one output cycle, so each stage divides the frequency by two and doubles the period.",
+      "answer_changed": false
+    },
+    {
+      "question_id": "CS-2025-S2-Q54",
+      "severity": "source_fidelity_and_explanation",
+      "status": "corrected_and_verified",
+      "original": "Question omitted source-underlined primary keys; solution called unique student-course enrollment a convention.",
+      "correction": "Question explicitly supplies Students.rollno, Courses.courseno and composite Enrolled(rollno,courseno) keys. Solution derives equal query multiplicity from the actual schema, with duplicate names distinguished from duplicate enrollment pairs.",
+      "answer_changed": false
+    },
+    {
+      "question_id": "CS-2025-S2-Q34",
+      "severity": "metadata",
+      "status": "corrected_and_verified",
+      "original": "solution_word_count 109 after prose correction",
+      "correction": "solution_word_count is now 113, matching whitespace split counting.",
+      "answer_changed": false
+    }
+  ],
+  "unresolved_new_findings": [],
+  "preserved_discrepancies": [
+    "CS-2025-S2-Q6-COUNTERFACTUAL",
+    "CS-2025-S2-Q47-MFU-COUNTERS"
+  ],
+  "executable_checks": {
+    "passed": 31,
+    "failed": 0,
+    "script": "/workspace/shared/gate-pyq-contributions/review-expanded-cs2-2025/independent_checks.py",
+    "results": "/workspace/shared/gate-pyq-contributions/review-expanded-cs2-2025/independent-check-results.json"
+  },
+  "limitations": [
+    "Review is against the provided official PDF/key copies and existing repository metadata; final-key revision provenance was not independently established and must not be relabeled as confirmed.",
+    "No repository content was edited by this reviewer; no GitHub action, commit, push or publication was performed.",
+    "The author builder still needs its Q54 postprocessor if regenerated. Current JSON and Markdown both pass; this review does not certify a future regeneration without rerunning checks."
+  ],
+  "per_question": [
+    {
+      "question_id": "CS-2025-S2-Q1",
+      "status": "passed",
+      "source_page": 1,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Determination/resolve and grammatical fit correctly explained; all distractors retained."
+    },
+    {
+      "question_id": "CS-2025-S2-Q2",
+      "status": "passed",
+      "source_page": 2,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Animal-to-dwelling relation and each alternative are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q3",
+      "status": "passed",
+      "source_page": 3,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The identity for every real x forces P=Q=0; division-by-zero trap correctly rejected."
+    },
+    {
+      "question_id": "CS-2025-S2-Q4",
+      "status": "passed",
+      "source_page": 4,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Visually verified the six-square net and all visible-face choices on source page 4. Opposite pairs and surviving orientation are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q5",
+      "status": "passed",
+      "source_page": 5,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The product argument covers equal primes; all three stated counterexamples are valid."
+    },
+    {
+      "question_id": "CS-2025-S2-Q6",
+      "status": "passed_with_preserved_discrepancy",
+      "source_page": 6,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Official B is appropriately retained as a pragmatic counterfactual reading. The preserved discrepancy correctly prevents presenting it as strict propositional entailment."
+    },
+    {
+      "question_id": "CS-2025-S2-Q7",
+      "status": "passed",
+      "source_page": 7,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Both supplied letter-code examples and BEACH reversal/increment trace are correct. Nonuniqueness of arbitrary coding rules is fairly qualified."
+    },
+    {
+      "question_id": "CS-2025-S2-Q8",
+      "status": "passed",
+      "source_page": 8,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "All input/output values and recurrence choices match the source; the running-sum/product checks are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q9",
+      "status": "passed",
+      "source_page": 9,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 9 visually confirms all incidences. Both triangle-area and determinant derivations give the invariant rectangle area 4."
+    },
+    {
+      "question_id": "CS-2025-S2-Q10",
+      "status": "passed",
+      "source_page": 10,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 10 visually confirms all seven zone edges. Connectivity and four-edge lower bound are correct; independently checked every option."
+    },
+    {
+      "question_id": "CS-2025-S2-Q11",
+      "status": "passed",
+      "source_page": 11,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Direct multiplication gives A²=5I and A⁸=625I. Scalar-matrix explanation is sufficient."
+    },
+    {
+      "question_id": "CS-2025-S2-Q12",
+      "status": "passed",
+      "source_page": 11,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Integration by parts, boundary constant, domain restriction and uniqueness argument are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q13",
+      "status": "passed",
+      "source_page": 12,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The n−1=2i edge count proves (n−1)/2; full tree versus balanced tree distinction is helpful."
+    },
+    {
+      "question_id": "CS-2025-S2-Q14",
+      "status": "passed",
+      "source_page": 13,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "L³=I implies L⁸=L²; zero determinant and nonadditivity warning are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q15",
+      "status": "passed",
+      "source_page": 13,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Induction direction, domain boundary and all three counterexamples are correct under the explicitly stated natural-number convention."
+    },
+    {
+      "question_id": "CS-2025-S2-Q16",
+      "status": "passed",
+      "source_page": 14,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "ARP local-next-hop qualification and TCP full-duplex ACK piggybacking are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q17",
+      "status": "passed",
+      "source_page": 15,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Distance-vector Bellman–Ford recurrence and link-state Dijkstra distinction are accurate."
+    },
+    {
+      "question_id": "CS-2025-S2-Q18",
+      "status": "passed",
+      "source_page": 16,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Protocol numbers and RIP-over-UDP distinction are correct; options retain source meaning."
+    },
+    {
+      "question_id": "CS-2025-S2-Q19",
+      "status": "passed",
+      "source_page": 17,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Actual C execution returns Hello World!d!. Source indices, missing terminator and overlapping explicit-copy distinction are accurately taught."
+    },
+    {
+      "question_id": "CS-2025-S2-Q20",
+      "status": "passed",
+      "source_page": 18,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "A single comparison is both sufficient and necessary in the comparison model for N≥2; the boundary condition is explicit."
+    },
+    {
+      "question_id": "CS-2025-S2-Q21",
+      "status": "passed",
+      "source_page": 18,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Placeholder branches and true/false/next-list examples accurately explain single-pass backpatching."
+    },
+    {
+      "question_id": "CS-2025-S2-Q22",
+      "status": "passed",
+      "source_page": 19,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Dependency classifications and cycle/right-sibling objections are valid; names of attributes correctly do not decide their category."
+    },
+    {
+      "question_id": "CS-2025-S2-Q23",
+      "status": "passed",
+      "source_page": 20,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The single 8-byte UDP header, 20-byte IPv4 headers and 8-byte fragmentation alignment give six fragments, final size 116 bytes."
+    },
+    {
+      "question_id": "CS-2025-S2-Q24",
+      "status": "passed",
+      "source_page": 20,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "DFA simulation by DPDA is correct. Unmarked binary palindromes are a valid established non-DCFL example; aⁿbⁿcⁿ is a valid decidable non-CFL example."
+    },
+    {
+      "question_id": "CS-2025-S2-Q25",
+      "status": "passed",
+      "source_page": 21,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The productive-nonterminal algorithm and undecidability statements are correct. Reducing equality with a regular language to CFG universality is valid."
+    },
+    {
+      "question_id": "CS-2025-S2-Q26",
+      "status": "passed",
+      "source_page": 21,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent SRTF simulation gives completion times 16,38,8,25 and average turnaround 19 ms."
+    },
+    {
+      "question_id": "CS-2025-S2-Q27",
+      "status": "passed",
+      "source_page": 22,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Lost update, aggregate balance inconsistency and serializability failure are correctly separated from atomicity and durability."
+    },
+    {
+      "question_id": "CS-2025-S2-Q28",
+      "status": "passed",
+      "source_page": 22,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Architectural-register interpretation is explicitly distinguished from physical/renaming registers; official D remains appropriate."
+    },
+    {
+      "question_id": "CS-2025-S2-Q29",
+      "status": "passed",
+      "source_page": 23,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The DFS triangle counterexample, undirected ancestor/back-edge property, BFS distance inequality and component traversal all hold."
+    },
+    {
+      "question_id": "CS-2025-S2-Q30",
+      "status": "passed",
+      "source_page": 24,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "All closure properties and option matches are correct. The regular-complement asymmetry is not confused with CFL universality."
+    },
+    {
+      "question_id": "CS-2025-S2-Q31",
+      "status": "passed",
+      "source_page": 25,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source circuit and option complement marks visually verified on page 25. Full circuit truth table is NAND and validates A,B,C."
+    },
+    {
+      "question_id": "CS-2025-S2-Q32",
+      "status": "passed",
+      "source_page": 25,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source bit strings visually verified. Independent bit-pair enumeration gives seven subtractions plus six additions, with no spurious extra sign cycle."
+    },
+    {
+      "question_id": "CS-2025-S2-Q33",
+      "status": "passed",
+      "source_page": 26,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Actual C execution and Euclidean trace both produce 21."
+    },
+    {
+      "question_id": "CS-2025-S2-Q34",
+      "status": "passed",
+      "source_page": 26,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Incorrect original toggle wording was corrected and rechecked. A stage toggles every active input edge; two toggles form a full output cycle. 250 kHz and the corrected word count are valid."
+    },
+    {
+      "question_id": "CS-2025-S2-Q35",
+      "status": "passed",
+      "source_page": 26,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent BST insertion gives root path 10→15→30→20→19, containing four edges."
+    },
+    {
+      "question_id": "CS-2025-S2-Q36",
+      "status": "passed",
+      "source_page": 27,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The 1.7-second cycle and 15/17 utilization are correct; 88.23 is clearly identified as the nearest/truncated choice rather than correct two-decimal rounding."
+    },
+    {
+      "question_id": "CS-2025-S2-Q37",
+      "status": "passed",
+      "source_page": 28,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The fixed spanning-tree edge count proves preservation of MSTs; the explicit positive-weight shortest-path counterexample is correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q38",
+      "status": "passed",
+      "source_page": 29,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Constant-time list splicing, bottom-up heap construction and inorder/merge/rebuild BST algorithms achieve the stated bounds. The interleaved-key worst-case comparison argument supports linear BST melding."
+    },
+    {
+      "question_id": "CS-2025-S2-Q39",
+      "status": "passed",
+      "source_page": 30,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Address bits and cache data capacity give 64 KB and 4 KB. The separate 2-KB tag storage explanation fairly discloses the interpretation."
+    },
+    {
+      "question_id": "CS-2025-S2-Q40",
+      "status": "passed",
+      "source_page": 30,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent LR(0), canonical LR(1) and LALR construction gives 11 states, two SLR shift/reduce conflicts and no CLR/LALR conflicts. The distinct full cores are correctly emphasized."
+    },
+    {
+      "question_id": "CS-2025-S2-Q41",
+      "status": "passed",
+      "source_page": 31,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The source partition definition still yields one peak. Exhaustive checks of all 127 bitonic permutations through size 7 validate the peak algorithm; search and comparison lower bounds are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q42",
+      "status": "passed",
+      "source_page": 31,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Coordinatewise order axioms and explicit min/max meet/join are correct; the positive-n convention is clearly stated."
+    },
+    {
+      "question_id": "CS-2025-S2-Q43",
+      "status": "passed",
+      "source_page": 32,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 32 K-map and all complement bars visually checked. Full 16-assignment evaluation selects A,D and confirms both stated counterexamples."
+    },
+    {
+      "question_id": "CS-2025-S2-Q44",
+      "status": "passed",
+      "source_page": 33,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The factorization solution procedure, determinant proof and concrete symmetric-P/non-symmetric-factor counterexample are valid; singular consistency/free-variable limitations are retained."
+    },
+    {
+      "question_id": "CS-2025-S2-Q45",
+      "status": "passed",
+      "source_page": 34,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The below-minimum pointer invariant supports all three constant-time operations. The alternative methods fail the required worst-case update costs."
+    },
+    {
+      "question_id": "CS-2025-S2-Q46",
+      "status": "passed",
+      "source_page": 35,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Candidate-key closures AD for R1 and C for R2 are correct; both exhibit non-superkey dependencies onto nonprime attributes."
+    },
+    {
+      "question_id": "CS-2025-S2-Q47",
+      "status": "passed_with_preserved_discrepancy",
+      "source_page": 36,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 36 trace visually verified. Independent policy checks confirm LRU first fails at 4, LFU at 8, lifetime MFU at 12; OPT and reset-on-load MFU can match. Official D and the existing counter-semantics discrepancy must remain."
+    },
+    {
+      "question_id": "CS-2025-S2-Q48",
+      "status": "passed",
+      "source_page": 37,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The two wait-for cycles and removal sets are correct under the source’s explicit current-wait definition of claim edges."
+    },
+    {
+      "question_id": "CS-2025-S2-Q49",
+      "status": "passed",
+      "source_page": 38,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source values/formulas visually checked on page 38. Independent binary32 decoding yields −9,6,12; A,B,C are exact identities."
+    },
+    {
+      "question_id": "CS-2025-S2-Q50",
+      "status": "passed",
+      "source_page": 38,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source complement bars, including the outer complement and third factor, visually magnified on page 38. All sixteen assignments validate B,C,D and reject A."
+    },
+    {
+      "question_id": "CS-2025-S2-Q51",
+      "status": "passed",
+      "source_page": 39,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent finite-string parse counting gives two parses for each stated ambiguity witness. Both grammars are ambiguous and not LL(1); the printed G2 trailing S is accurately preserved."
+    },
+    {
+      "question_id": "CS-2025-S2-Q52",
+      "status": "passed",
+      "source_page": 40,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Regular-expression and modular-product-DFA constructions are correct. Both nonregularity arguments correctly isolate unbounded equal counts."
+    },
+    {
+      "question_id": "CS-2025-S2-Q53",
+      "status": "passed",
+      "source_page": 41,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independently generated conflict graphs have one edge only for B (T2→T1); A,C,D each contain a cycle. Commit positions do not affect that result."
+    },
+    {
+      "question_id": "CS-2025-S2-Q54",
+      "status": "passed",
+      "source_page": 42,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 42 visibly underlines Students.rollno, Courses.courseno and Enrolled(rollno,courseno). These omitted keys were restored and the misleading convention caveat replaced. Actual SQL checks confirm A,C,D have the same multiplicity even when students share a name."
+    },
+    {
+      "question_id": "CS-2025-S2-Q55",
+      "status": "passed",
+      "source_page": 43,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Conditional L2 hit rate and additive penalties yield 4.0 ns through both nested and path-weighted calculations."
+    },
+    {
+      "question_id": "CS-2025-S2-Q56",
+      "status": "passed",
+      "source_page": 43,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The clock period 260 ns and 1004 cycles yield 261.04 μs, inside the unchanged published range."
+    },
+    {
+      "question_id": "CS-2025-S2-Q57",
+      "status": "passed",
+      "source_page": 43,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Both 2/3 and 3/2 leaf split conventions promote a separator that splits B into key lists [7,19] and [33,44]; the parent of the 25* leaf has minimum stored separator 33."
+    },
+    {
+      "question_id": "CS-2025-S2-Q58",
+      "status": "passed",
+      "source_page": 44,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "The page offset is 12 bits, inner table index 9 bits, outer index 11 bits. Byte offsets versus independent entry indices are accurately distinguished."
+    },
+    {
+      "question_id": "CS-2025-S2-Q59",
+      "status": "passed",
+      "source_page": 44,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Source page 44 tree visually reconstructed as 14 vertices and 13 edges. Every start and every farthest-vertex tie gives 6; the branch-depth upper bound and tree-only diameter guarantee are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q60",
+      "status": "passed",
+      "source_page": 45,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent DFA reachability and partition refinement leave six singleton classes. The constructive residue/inverse distinguishability proof is valid."
+    },
+    {
+      "question_id": "CS-2025-S2-Q61",
+      "status": "passed",
+      "source_page": 45,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Weighted cycle total is 2.1×10⁹ and clock duration 3.0 ns; the average-CPI and MHz cross-checks are correct."
+    },
+    {
+      "question_id": "CS-2025-S2-Q62",
+      "status": "passed",
+      "source_page": 46,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Actual C execution produces 111; value and pointer postincrements, zero-initialization and sequencing are all accurately explained."
+    },
+    {
+      "question_id": "CS-2025-S2-Q63",
+      "status": "passed",
+      "source_page": 47,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Actual C execution produces 46; both nested g calls and the two loop iterations are correctly traced."
+    },
+    {
+      "question_id": "CS-2025-S2-Q64",
+      "status": "passed",
+      "source_page": 47,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Independent coefficient equations p²=p and s²−2p=s give four distinct polynomials, two with repeated roots. The complex domain and uniform-over-polynomials assumption are explicit."
+    },
+    {
+      "question_id": "CS-2025-S2-Q65",
+      "status": "passed",
+      "source_page": 48,
+      "correctness": "passed",
+      "source_fidelity": "passed",
+      "self_contained": "passed",
+      "teaching_depth": "appropriate",
+      "notes": "Both integral and conditional-mean calculations give 37/50=0.74; conditional interval selection and the unchanged official range are correct."
+    }
+  ]
+}

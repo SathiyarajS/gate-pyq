@@ -1,0 +1,23 @@
+{
+  "year": 2006,
+  "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005203119/GATE2006.pdf",
+  "path": "/workspace/shared/gate1991-2006-research/2006-gfg.pdf",
+  "sha256": "8155cf736514df6a162efa0f458ae7484a98a54c54bf3f370769424f34162f36",
+  "pages": "13",
+  "provenance": "Third-party hosted reproduction; original official provenance not established",
+  "last_question_label": "85",
+  "count_status": "Observed reproduction labels only, not proof of exhaustive original exam coverage; grouped subparts need separate audit",
+  "key_status": "No official key located. Secondary GATECSE index claims no official key released; not independently established",
+  "quality": "Secondary reproduction, noisy OCR. Render and verify symbols; many files emit unknown XObject Fm0 warnings but inspected pages render.",
+  "questions": 85,
+  "inventory_scope": "Observed reproduced questions1\u201385 only; original official completeness unverified",
+  "alternate_reproduction": {
+    "year": 2006,
+    "url": "https://gate0000.wordpress.com/wp-content/uploads/2012/03/cs06.pdf",
+    "path": "/workspace/shared/gate1991-2006-research/2006-gateforum.pdf",
+    "sha256": "c40a8e453fe8fb6d3cc7312df0346aca0da34724a57b7abe23f8de07d056569d",
+    "pages": "29",
+    "provenance": "Third-party GateForum reproduction hosted on personal Wordpress; not official, rights notice present, use only source reference and independent solutions"
+  },
+  "alternate_status": "Third-party retypesetting, not independently authenticated official source; conflicting math and choices disclosed individually."
+}

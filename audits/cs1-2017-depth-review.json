@@ -1,0 +1,699 @@
+{
+  "paper_id": "CS-2017-S1",
+  "review_status": "passed_with_two_minor_fixes",
+  "reviewed_count": 65,
+  "scope": "Independent review of every expanded context, option, code/diagram description and solution; all question-bearing source pages 2-27 visually inspected using rendered contact sheets; both archived key pages visually inspected. Author checker run successfully in addition to independent reasoning.",
+  "source_files": [
+    "/workspace/shared/gate2017/CS1.pdf",
+    "/workspace/shared/gate2017/CS1-key.pdf"
+  ],
+  "protected_metadata": "All protected fields match live repository data/questions.json; official answers/ranges, discrepancy IDs and provenance unchanged.",
+  "source_revision_caveat": "Archived official source/key provenance retained; final-key revision designation remains unverified.",
+  "material_issues": [],
+  "minor_fixes": [
+    {
+      "question_id": "CS-2017-S1-Q12",
+      "before": "Negate IV stepwise:",
+      "after": "Simplify the negations in IV stepwise:",
+      "severity": "minor_expository_notation"
+    },
+    {
+      "question_id": "CS-2017-S1-Q44",
+      "before": "with ab⇒aSb⇒ab, ba⇒bSa⇒ba, and a⇒SaS⇒a.",
+      "after": "using S⇒aSb⇒ab, S⇒bSa⇒ba, and S⇒SaS⇒a (ε reductions are implicit).",
+      "severity": "minor_expository_notation"
+    }
+  ],
+  "printed_q34_verification": "PDF page 15 clearly prints option A abab. Expanded correction from baseline aabb is approved; D unchanged.",
+  "review_field_note": "Contribution independent_review remains author-pending so existing author checker remains runnable. This separate audit is fresh independent review evidence for parent integration.",
+  "items": [
+    {
+      "question_id": "CS-2017-S1-Q1",
+      "printed_question_number": "56",
+      "source_page": 25,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Simple past is appropriate; competing tenses explained.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q2",
+      "printed_question_number": "57",
+      "source_page": 25,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Besides has the additive meaning and correct word order.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q3",
+      "printed_question_number": "58",
+      "source_page": 25,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Inward-facing seat construction establishes opposite pair.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q4",
+      "printed_question_number": "59",
+      "source_page": 25,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Prime exponents and positive-integer assumption correctly produce 36.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q5",
+      "printed_question_number": "60",
+      "source_page": 25,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Seven allowed digits; leading-digit discrepancy correctly preserved.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q5-LEADING-DIGIT"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q6",
+      "printed_question_number": "61",
+      "source_page": 26,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Quotation entails nationalist filtering; distractors addressed.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q7",
+      "printed_question_number": "62",
+      "source_page": 26,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Three women force closure around circle; two-woman witness works.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q8",
+      "printed_question_number": "63",
+      "source_page": 26,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Two absolute-value cases prove minimum.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q9",
+      "printed_question_number": "64",
+      "source_page": 26,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Inclusion-exclusion counts 14 with overlap restored.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q10",
+      "printed_question_number": "65",
+      "source_page": 27,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "All contour positions checked visually; R,S,T below 525 m.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q11",
+      "printed_question_number": "1",
+      "source_page": 2,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Implication identity and falsifying assignment discriminate options.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q12",
+      "printed_question_number": "2",
+      "source_page": 2,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Witness dependence and countermodels correct; minor negation wording fixed.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q13",
+      "printed_question_number": "3",
+      "source_page": 3,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Nonzero null vector plus known particular solution gives infinite affine line.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q14",
+      "printed_question_number": "4",
+      "source_page": 3,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "All five asymptotic comparisons correct.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q15",
+      "printed_question_number": "5",
+      "source_page": 4,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Three paradigms correctly explained with Floyd-Warshall recurrence.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q16",
+      "printed_question_number": "6",
+      "source_page": 4,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Node bound and chain give edge-heights 3 and 14.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q17",
+      "printed_question_number": "7",
+      "source_page": 4,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Scaled unsigned code establishes zero and maximal representable endpoint.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q18",
+      "printed_question_number": "8",
+      "source_page": 5,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Pointer trace and empty-list case correct; invalid typedef/disjoint-list caveats retained.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q18-C-TYPEDEF"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q19",
+      "printed_question_number": "9",
+      "source_page": 5,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Same-sign sign-change criterion correct.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q20",
+      "printed_question_number": "10",
+      "source_page": 6,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Independent T expansions yield independent positive b-block lengths.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q21",
+      "printed_question_number": "11",
+      "source_page": 6,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Fixed displacement selects grade; no concrete int width assumed.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q22",
+      "printed_question_number": "12",
+      "source_page": 7,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "SSA reaching definitions and version uniqueness correctly discriminate options.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q23",
+      "printed_question_number": "13",
+      "source_page": 8,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Pointer overwrite leaks first allocation; source declaration and main caveats retained.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q23-C-DECLARATIONS"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q24",
+      "printed_question_number": "14",
+      "source_page": 8,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Active close state sequence correctly distinguishes FIN-WAIT-2.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q25",
+      "printed_question_number": "15",
+      "source_page": 9,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Birthday collision versus fixed-message second preimage distinction maintained.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q26",
+      "printed_question_number": "16",
+      "source_page": 9,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Extraneous determinant and transitive dependency removed correctly.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q27",
+      "printed_question_number": "17",
+      "source_page": 10,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Nullable R exposes terminal y, while S prevents end marker.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q28",
+      "printed_question_number": "18",
+      "source_page": 10,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Shared process heap/globals versus thread execution state correct.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q29",
+      "printed_question_number": "19",
+      "source_page": 10,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Point mass and both median inequalities give unique zero median.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q30",
+      "printed_question_number": "20",
+      "source_page": 10,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Tree edge count and handshaking lemma produce 18.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q31",
+      "printed_question_number": "21",
+      "source_page": 11,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "All K-map cells/Gray labels visually matched; NOR(a,not c) and lower bound correct.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q32",
+      "printed_question_number": "22",
+      "source_page": 11,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Four-state construction handles short words; pairwise distinguishing suffix proof correct.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q33",
+      "printed_question_number": "23",
+      "source_page": 12,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "All 13 table rows and malformed SQL visually matched; intended grouping gives 2.6.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q33-SQL-SYNTAX"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q34",
+      "printed_question_number": "24",
+      "source_page": 12,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "SRTF timeline and all four waiting times verified.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q35",
+      "printed_question_number": "25",
+      "source_page": 13,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "L2 local access denominator 140 yields 0.05.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q36",
+      "printed_question_number": "26",
+      "source_page": 13,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Distinct-weight exchange proof and 1,2,3 triangle counterexample valid.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q37",
+      "printed_question_number": "27",
+      "source_page": 13,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Single-thread non-reentrant reacquisition yields self-deadlock.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q38",
+      "printed_question_number": "28",
+      "source_page": 14,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Simple common zero and derivative ratio yield one.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q39",
+      "printed_question_number": "29",
+      "source_page": 14,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Literal contradiction wording caveat retained; intended valuation calculation correct.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q39-CONTRADICTION-WORDING"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q40",
+      "printed_question_number": "30",
+      "source_page": 14,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Normalized sum yields internal bisector coefficient two; degeneracies explicit.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q41",
+      "printed_question_number": "31",
+      "source_page": 14,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Frobenius eigenvalue sum and equality counterexample refute strict inequality.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q42",
+      "printed_question_number": "32",
+      "source_page": 15,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "GF(2) division checked, transmitted word has zero remainder.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q43",
+      "printed_question_number": "33",
+      "source_page": 15,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Visual flip-flop wiring matched; simultaneous old-state updates give cycle 11,01,10.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q44",
+      "printed_question_number": "34",
+      "source_page": 15,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Printed option A visually confirmed abab, not baseline aabb; invariant and constructions valid after minor terminal-derivation notation fix.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q45",
+      "printed_question_number": "35",
+      "source_page": 16,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Entry and unwind traces reproduce 53423122233445; declaration assumption explicit.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q46",
+      "printed_question_number": "36",
+      "source_page": 16,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Postdecrement argument versus unchanged caller in bar correctly separated; resource-model caveat retained.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q47",
+      "printed_question_number": "37",
+      "source_page": 17,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Outer-letter conflict leaves exactly c-star.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q48",
+      "printed_question_number": "38",
+      "source_page": 17,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Union closure and three-block pumping argument establish I only.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q49",
+      "printed_question_number": "39",
+      "source_page": 17,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Totality plus dovetailing establishes both recursive and RE graph equivalences; official single choice caveat preserved.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q49-TWO-TRUE-OPTIONS"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q50",
+      "printed_question_number": "40",
+      "source_page": 18,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "LRU stack inclusion and possible adverse random realization appropriately distinguished.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q51",
+      "printed_question_number": "41",
+      "source_page": 18,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed_with_retained_caveats",
+      "note": "Free DeptId unbounded in I/II; explicit witness correct; missing option and active-domain interpretation preserved.",
+      "retained_discrepancy_ids": [
+        "CS-2017-S1-Q51-TRC-DOMAIN"
+      ]
+    },
+    {
+      "question_id": "CS-2017-S1-Q52",
+      "printed_question_number": "42",
+      "source_page": 19,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Waiting edges strictly decrease timestamps; retained restart age gives intended starvation guarantee under stated termination/finitely older assumptions.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q53",
+      "printed_question_number": "43",
+      "source_page": 19,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Sequential binary control-flow choices produce 1024; feasibility versus structural paths distinguished.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q54",
+      "printed_question_number": "44",
+      "source_page": 20,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Extended Euclid and multiplication check give RSA inverse 11.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q55",
+      "printed_question_number": "45",
+      "source_page": 20,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "18 ms cycle and 1960-byte payload give 87.11; alternate frame interpretation and broad official interval preserved.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q56",
+      "printed_question_number": "46",
+      "source_page": 21,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "All course-set rows visually matched; division qualifies SA,SC,SD,SF.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q57",
+      "printed_question_number": "47",
+      "source_page": 21,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Inclusive floor-based inclusion-exclusion gives 271.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q58",
+      "printed_question_number": "48",
+      "source_page": 21,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Binary search upper bound and decision-tree lower bound give five.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q59",
+      "printed_question_number": "49",
+      "source_page": 22,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Next-instruction reference A+16 gives byte offset -16.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q60",
+      "printed_question_number": "50",
+      "source_page": 22,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Pipeline periods/fill times 22x24 and 14x25 give 1.51.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q61",
+      "printed_question_number": "51",
+      "source_page": 23,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "128-set mapping, six compulsory and 76 conflict misses independently traced.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q62",
+      "printed_question_number": "52",
+      "source_page": 23,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Explicit two-register schedule and b+c lower bound sufficient.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q63",
+      "printed_question_number": "53",
+      "source_page": 23,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Printed unsigned-int size_t assumption makes subtraction wrap; selected 3 fits int; void-main caveat retained.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q64",
+      "printed_question_number": "54",
+      "source_page": 24,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Four set-index bits move into tag, giving 14.",
+      "retained_discrepancy_ids": []
+    },
+    {
+      "question_id": "CS-2017-S1-Q65",
+      "printed_question_number": "55",
+      "source_page": 24,
+      "context_status": "passed",
+      "solution_depth_status": "passed",
+      "correctness_status": "passed",
+      "note": "Static cumulative popcounts 2,3,5,6,7 sum to 23; source main caveat retained.",
+      "retained_discrepancy_ids": []
+    }
+  ],
+  "reviewed_artifact_sha256": {
+    "cs1-2017-expanded.json": "558e20ddf192e2990b69bacf9b73cc2ca7150f133e10af4b2fed28ff270230e6",
+    "cs1-2017-expanded.md": "6bdc0d2a886ac87854d960bbed7a16a6a5f8417d40b16e72cb63d67760766f3b"
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "description": "Step-through animations (sorting traces: quicksort partitions, insertion, selection and merge sort, adjacent-swap passes). Each entry is simulated at build time by scripts/animations/sorting.py; the build fails if the result differs from 'expect', which must match the question's official answer, or our answer where no key exists.",
+ "questions": {
+  "CS-1999-Q14": {
+   "kind": "sort-trace",
+   "runs": [
+    {"name": "Straight two-way merging", "algorithm": "merge-passes", "array": [20, 47, 15, 8, 9, 4, 40, 30, 12, 17], "stop_after": 2,
+     "expect": {"after_pass": {"pass": 2, "array": [8, 15, 20, 47, 4, 9, 30, 40, 12, 17]}}}
+   ]
+  },
+  "CS-2014-S1-Q24": {
+   "kind": "sort-trace",
+   "runs": [
+    {"name": "t1", "algorithm": "quicksort", "pivot": "first", "array": [1, 2, 3, 4, 5]},
+    {"name": "t2", "algorithm": "quicksort", "pivot": "first", "array": [4, 1, 5, 3, 2]}
+   ],
+   "expect": {"relation": ["t1", ">", "t2"]}
+  },
+  "CS-2017-S2-Q53": {
+   "kind": "sort-trace",
+   "runs": [
+    {"name": "The given loop", "algorithm": "passes", "array": [3, 5, 1, 4, 6, 2],
+     "title": "Repeat: for i = 0..4 swap if array[i] < array[i+1]; for i = 5..1 swap if array[i] > array[i−1]; stop after a round with no swap",
+     "loops": [
+      {"name": "forward pass", "from": 0, "to": 4, "other": 1, "swap_if": "<"},
+      {"name": "backward pass", "from": 5, "to": 1, "other": -1, "swap_if": ">"}
+     ],
+     "expect": {"value_at": {"index": 3, "value": 3}}}
+   ]
+  },
+  "CS-2021-S1-Q19": {
+   "kind": "sort-trace",
+   "runs": [
+    {"name": "Selection sort", "algorithm": "selection", "array": [23, 32, 45, 69, 72, 73, 89, 97]},
+    {"name": "Merge sort", "algorithm": "merge", "array": [23, 32, 45, 69, 72, 73, 89, 97]},
+    {"name": "Insertion sort", "algorithm": "insertion", "array": [23, 32, 45, 69, 72, 73, 89, 97]},
+    {"name": "Quicksort", "algorithm": "quicksort", "pivot": "last", "array": [23, 32, 45, 69, 72, 73, 89, 97]}
+   ],
+   "expect": {"fewest": "Insertion sort"}
+  },
+  "CS-2026-S2-Q32": {
+   "kind": "sort-trace",
+   "runs": [
+    {"name": "Merge sort", "algorithm": "merge", "array": [10, 7, 8, 19, 41, 35, 25, 31], "expect": {"void_merges": 3, "array": [7, 8, 10, 19, 25, 31, 35, 41]}}
+   ]
+  }
+ }
+}
