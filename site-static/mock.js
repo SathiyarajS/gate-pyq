@@ -30,7 +30,11 @@
     form.borderline.checked = !!prefs.borderline;
     form.officialOnly.checked = !!prefs.officialOnly;
     const url = new URL(location.href), codeParam = url.searchParams.get('code');
-    if (codeParam && C.decodeCode(codeParam)) form.code.value = C.decodeCode(codeParam) && codeParam.toUpperCase();
+    const startBtn = $('#mock-start', app);
+    const syncButton = () => { startBtn.textContent = form.code.value.trim() ? 'Start this mock' : 'Start a new random mock'; };
+    form.code.addEventListener('input', syncButton);
+    if (codeParam && C.decodeCode(codeParam)) { form.code.value = codeParam.toUpperCase(); $('#mock-code', app).open = true; }
+    syncButton();
     $('#mock-status', app).textContent = '';
     app.classList.add('ready');
     form.addEventListener('submit', e => {
@@ -286,7 +290,8 @@
         <p class="eyebrow">MOCK ${esc(active.code)} · ${auto ? 'SUBMITTED WHEN TIME RAN OUT' : 'SUBMITTED'}</p>
         <h2><span class="score">${fmtMarks(sum.total)}</span> / 100</h2>
         <p>General Aptitude ${fmtMarks(ga.marks)} / ${ga.max} · Computer Science ${fmtMarks(cs.marks)} / ${cs.max} · ${counts.correct} correct, ${counts.wrong} wrong, ${counts.unanswered} not answered · time used ${fmtTime(usedMs)}</p>
-        <p class="result-actions"><a class="button" href="?code=${esc(active.code)}" data-retake>Retake this mock</a> <a class="button" href="./" data-new>New mock</a> <button type="button" class="button" data-copy="${esc(active.code)}">Copy mock code</button></p>
+        <p class="result-actions"><a class="button primary" href="./" data-new>New random mock</a> <a class="button" href="?code=${esc(active.code)}" data-retake>Retake this paper</a> <button type="button" class="button" data-copy="${esc(active.code)}">Copy mock code</button></p>
+        <p class="source-note">This paper’s code is <b>${esc(active.code)}</b>. Use it to retake exactly this paper later, or send it to a friend so they get the same questions.</p>
       </section>
       ${sum.weak.length ? `<section><h2>Where you lost marks</h2><p class="source-note">Topics in this mock where marks were lost (wrong or not answered), largest first.</p><ul class="weak">${sum.weak.map(t => { const [s, tp] = t.key.split('|'); const row = sum.rows.find(r => r.s === s && r.t === tp); return `<li><b>${esc(names[s] || s)}</b> · ${esc(row ? row.tt : tp)}: lost ${fmtMarks(t.lost)} of ${t.max}</li>`; }).join('')}</ul></section>` : ''}
       <section><h2>By subject</h2><div class="table-wrap"><table class="result-table"><thead><tr><th>Subject</th><th>Questions</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Marks</th></tr></thead><tbody>

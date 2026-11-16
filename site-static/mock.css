@@ -151,3 +151,7 @@ body.exam-open{overflow:hidden}
   .calc-keys .eq{grid-row:auto}
 }
 @media (prefers-reduced-motion:reduce){.exam-palette{transition:none}}
+.mock-random{margin:.8rem 0 .4rem}
+.mock-code{margin:.4rem 0 1rem}
+.mock-code summary{cursor:pointer;color:var(--accent);font-weight:600}
+.mock-code .code{margin-top:.4rem}
