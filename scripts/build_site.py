@@ -334,6 +334,15 @@ def main():
     # Mock test: pool and weights at build time; sampling, exam UI and marking run in the browser.
     mock=mock_pool.write_mock(out,questions,titles,topic_titles,ds)
     mock_counts=collections.Counter(p['s'] for p in mock['pool'])
+    # Answers and solutions for the post-mock review, one small file per pool question, cut from the
+    # same template as the subject pages (the step-through player stays on the question's own page).
+    mock_byid={q['question_id']:q for q in questions};(out/'mock'/'a').mkdir(parents=True,exist_ok=True)
+    for p in mock['pool']:
+        html=env.get_template('question.html').render(q=mock_byid[p['i']],prefix='../',paper_view=False,preview=not args.release)
+        m=re.search(r'<details class="answer" data-pagefind-ignore><summary>Answer & solution</summary>(.*)</details></article>\s*$',html,re.S)
+        if not m:raise SystemExit('Mock review: no answer block for '+p['i'])
+        body=m.group(1);steps=re.search(r'<details class="steps js-only">.*?</details>',body,re.S)
+        (out/'mock'/'a'/(p['i']+'.json')).write_text(json.dumps(dict(html=(body[:steps.start()]+body[steps.end():] if steps else body).strip(),steps=bool(steps)),ensure_ascii=False))
     render('mock',title='GATE CS mock test',kind='mock',mock=dict(total=len(mock['pool']),official=sum(p['ks']=='o' for p in mock['pool']),borderline=sum(p['b'] for p in mock['pool']),recent_from=mock['recent_from'],latest=mock['latest'],recent_papers=mock['recent_papers'],mix_from=mock['mix_from'],subjects=sorted(((mock['names'][s],mock_counts[s],mock['weights']['subjects'].get(s)) for s in mock_counts),key=lambda r:-(r[2] or 15))))
     render('feedback',title='Feedback',kind='feedback')
     render('discrepancies',title='About this archive',kind='redirect',target='about/')  # former page; notes now sit with each answer

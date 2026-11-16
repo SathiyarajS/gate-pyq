@@ -7,7 +7,7 @@ Every GATE Computer Science question from 1991 to 2026, all 3,406 of them from 4
 - **Organised for study.** 13 subjects, grouped by topic, 10 questions per page. Each question shows the original from the exam paper, with its year and paper in brackets.
 - **Answers you open when ready.** A collapsible **Answer** shows the official key (or says none was found), a step-by-step solution, and any discrepancy between the key and the working.
 - **Step-throughs.** Many questions have an animated walk-through of the solution: sorting, graphs, DP, recursion, automata, parsing, K-maps, pipelines, CPU and disk scheduling, paging, deadlock, subnetting, C traces and more.
-- **Mock tests.** A new 65-question, 100-mark GATE-pattern paper every time, drawn from all years on topics in the current syllabus and weighted like the last ten years, with a 3-hour timer, the exam's question palette, an on-screen scientific calculator and keypad, GATE negative marking, and a results breakdown by subject and topic.
+- **Mock tests.** A new 65-question, 100-mark GATE-pattern paper every time, drawn from all years on topics in the current syllabus and weighted like the last ten years, with a 3-hour timer, the exam's question palette, an on-screen scientific calculator and keypad, GATE negative marking, and after you submit, your score by subject and topic plus every question with your answer, the correct answer and the worked solution.
 - **Practice tools.** Search, filters (year, marks, type), A–D practice buttons, bookmarks and progress, full-paper mock tests with a timer, a topic-by-year chart and dark mode. It can be installed as an app.
 - **PDFs.** Every subject has two downloads: one with answers and solutions, and one with questions only plus an answer index.
 

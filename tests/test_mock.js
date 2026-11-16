@@ -176,6 +176,25 @@ if (fs.existsSync(poolPath)) {
       assert.ok(Math.abs(got - expected) < 1.6, `${s}: ${got.toFixed(2)} marks per paper vs ${expected.toFixed(2)} expected`);
     }
   });
+  test('linked (common-data) pairs come together and in order', () => {
+    const groups = {};
+    for (const q of data.pool) if (q.g) (groups[q.g] = groups[q.g] || []).push(q.i);
+    assert.ok(Object.keys(groups).length >= 30, 'linked groups found: ' + Object.keys(groups).length);
+    let seenGroups = 0;
+    for (let seed = 1; seed <= 600; seed++) {
+      const ids = C.generate(data, seed * 31337, { officialOnly: seed % 2 === 0 }, {}).questions.map(q => q.i);
+      for (const [g, members] of Object.entries(groups)) {
+        const at = members.map(i => ids.indexOf(i)).filter(n => n >= 0);
+        if (!at.length) continue;
+        const usable = data.pool.filter(q => q.g === g && (seed % 2 !== 0 || q.ks === 'o')).length;
+        if (usable < members.length) continue;
+        seenGroups++;
+        assert.strictEqual(at.length, members.length, `seed ${seed}: only part of ${members}`);
+        at.forEach((n, k) => assert.strictEqual(n, at[0] + k, `seed ${seed}: ${members} not adjacent and in order`));
+      }
+    }
+    assert.ok(seenGroups > 20, 'groups drawn: ' + seenGroups);
+  });
   test('modern question-type mix', () => {
     const t = { MCQ: 0, MSQ: 0, NAT: 0 };
     for (let seed = 1; seed <= 200; seed++) for (const q of C.generate(data, seed * 104729, {}, {}).questions) if (q.section === 'CS') t[q.ty]++;
@@ -197,6 +216,7 @@ if (fs.existsSync(poolPath)) {
     const expected = paper.questions.reduce((a, q, n) => a + (n % 2 === 0 ? q.m : 0), 0);
     assert.strictEqual(sum.total, expected);
     assert.strictEqual(sum.sections.length, 2);
+    assert.deepStrictEqual(sum.rows.map(r => r.n), paper.questions.map((q, k) => k + 1));   // numbered 1..65, not by choice count
   });
 } else {
   console.log('(pool not built: generation tests skipped; run scripts/build_site.py --release first)');

@@ -27,7 +27,7 @@
 
   /* ------------------------------------------------------------ setup screen */
   function setup() {
-    const prefs = store.get(K.prefs, { borderline: false, officialOnly: false });
+    const prefs = store.get(K.prefs, { borderline: false, officialOnly: true });
     const form = $('#mock-form', app);
     form.borderline.checked = !!prefs.borderline;
     form.officialOnly.checked = !!prefs.officialOnly;
@@ -303,18 +303,76 @@
         <p class="eyebrow">MOCK ${esc(active.code)} · ${auto ? 'SUBMITTED WHEN TIME RAN OUT' : 'SUBMITTED'}</p>
         <h2><span class="score">${fmtMarks(sum.total)}</span> / 100</h2>
         <p>General Aptitude ${fmtMarks(ga.marks)} / ${ga.max} · Computer Science ${fmtMarks(cs.marks)} / ${cs.max} · ${counts.correct} correct, ${counts.wrong} wrong, ${counts.unanswered} not answered · time used ${fmtTime(usedMs)}</p>
-        <p class="result-actions"><a class="button primary" href="./" data-new>New random mock</a> <a class="button" href="?code=${esc(active.code)}" data-retake>Retake this paper</a> <button type="button" class="button" data-copy="${esc(active.code)}">Copy mock code</button></p>
+        <p class="result-actions"><a class="button primary" href="./" data-new>New random mock</a> <a class="button" href="?code=${esc(active.code)}" data-retake>Retake this paper</a> <button type="button" class="button" data-copy="${esc(active.code)}">Copy mock code</button> <a class="button" href="#mock-review">Answers and solutions ↓</a></p>
         <p class="source-note">This paper’s code is <b>${esc(active.code)}</b>. Use it to retake exactly this paper later, or send it to a friend so they get the same questions.</p>
       </section>
       ${sum.weak.length ? `<section><h2>Where you lost marks</h2><p class="source-note">Topics in this mock where marks were lost (wrong or not answered), largest first.</p><ul class="weak">${sum.weak.map(t => { const [s, tp] = t.key.split('|'); const row = sum.rows.find(r => r.s === s && r.t === tp); return `<li><b>${esc(names[s] || s)}</b> · ${esc(row ? row.tt : tp)}: lost ${fmtMarks(t.lost)} of ${t.max}</li>`; }).join('')}</ul></section>` : ''}
       <section><h2>By subject</h2><div class="table-wrap"><table class="result-table"><thead><tr><th>Subject</th><th>Questions</th><th>Attempted</th><th>Correct</th><th>Wrong</th><th>Marks</th></tr></thead><tbody>
       ${sum.subjects.map(s => `<tr><th>${esc(names[s.key] || s.key)}</th><td>${s.questions}</td><td>${s.attempted}</td><td>${s.correct}</td><td>${s.wrong}</td><td>${fmtMarks(s.marks)} / ${s.max}</td></tr>`).join('')}
       </tbody></table></div></section>
+      <section class="review" id="mock-review"><h2>Answers and solutions</h2><p class="source-note">Go through each question with your answer, the correct answer and the worked solution.</p>
+        <div class="rv-filter" role="group" aria-label="Show questions">${[['all', 'All', sum.rows.length], ['wrong', 'Wrong', counts.wrong], ['unanswered', 'Not answered', counts.unanswered], ['correct', 'Correct', counts.correct]].map(([f, label, n]) => `<button type="button" data-filter="${f}" aria-pressed="${f === 'all'}"${n ? '' : ' disabled'}>${label} <b>${n}</b></button>`).join('')}</div>
+        <div class="rv-grid" role="group" aria-label="Questions">${sum.rows.map((r, n) => `<button type="button" class="rv-${r.status}" data-rv="${n}" aria-label="Question ${r.n}: ${r.status === 'unanswered' ? 'not answered' : r.status}">${r.n}</button>`).join('')}</div>
+        <div class="rv-card"></div></section>
       <section><h2>Every question</h2><p class="source-note">“Our answer” marks questions with no official key, scored against our worked solution.</p><div class="table-wrap"><table class="result-table q-table"><thead><tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct answer</th><th>Result</th><th>Marks</th><th>Time</th></tr></thead><tbody>
-      ${sum.rows.map(r => `<tr class="r-${r.status}"><td>${r.n}</td><td><a href="${BASE}q/${esc(r.i)}/">${esc(r.l)}</a><br><small>${esc(names[r.s] || r.s)} · ${esc(r.tt)} · ${r.ty}</small></td><td>${esc(ans(r))}</td><td>${esc(C.keyText(r))}${r.ks === 'd' ? ' <small>(our answer)</small>' : ''}</td><td>${r.status === 'correct' ? '✓ Correct' : r.status === 'wrong' ? '✗ Wrong' : '— Not answered'}</td><td>${fmtMarks(r.marks)}</td><td>${fmtTime(active.time[r.i] || 0).replace(/^00:/, '')}</td></tr>`).join('')}
+      ${sum.rows.map(r => `<tr class="r-${r.status}"><td><button type="button" class="linklike" data-rv="${r.n - 1}" aria-label="Review question ${r.n}">${r.n}</button></td><td><a href="${BASE}q/${esc(r.i)}/">${esc(r.l)}</a><br><small>${esc(names[r.s] || r.s)} · ${esc(r.tt)} · ${r.ty}</small></td><td>${esc(ans(r))}</td><td>${esc(C.keyText(r))}${r.ks === 'd' ? ' <small>(our answer)</small>' : ''}</td><td>${r.status === 'correct' ? '✓ Correct' : r.status === 'wrong' ? '✗ Wrong' : '— Not answered'}</td><td>${fmtMarks(r.marks)}</td><td>${fmtTime(active.time[r.i] || 0).replace(/^00:/, '')}</td></tr>`).join('')}
       </tbody></table></div></section>`;
     out.querySelector('[data-copy]').addEventListener('click', e => { try { navigator.clipboard.writeText(e.target.dataset.copy); e.target.textContent = 'Copied'; } catch (err) { e.target.textContent = e.target.dataset.copy; } });
+    Review(out, sum, active, ans);
     out.scrollIntoView();
+  }
+
+  /* ------------------------------------------------- answers and solutions */
+  // Solutions are built per question at build time (mock/a/<id>.json) and fetched as the reader moves on.
+  const solutions = new Map();
+  function solution(id) {
+    if (!solutions.has(id)) solutions.set(id, fetch(`${BASE}mock/a/${encodeURIComponent(id)}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(e => { solutions.delete(id); throw e; }));
+    return solutions.get(id);
+  }
+  function Review(out, sum, active, ans) {
+    const box = $('#mock-review', out), card = $('.rv-card', box), names = data.names;
+    let filter = 'all', cur = 0;
+    const list = () => sum.rows.map((r, n) => n).filter(n => filter === 'all' || sum.rows[n].status === filter);
+    const verdict = { correct: '✓ Correct', wrong: '✗ Wrong', unanswered: '— Not answered' };
+    function show(n, scroll) {
+      cur = n;
+      const r = sum.rows[n], ids = list(), pos = ids.indexOf(n);
+      box.querySelectorAll('.rv-grid [data-rv]').forEach(b => { b.classList.toggle('cur', +b.dataset.rv === n); b.hidden = filter !== 'all' && sum.rows[+b.dataset.rv].status !== filter; });
+      card.innerHTML = `<div class="rv-head"><h3>Question ${r.n}</h3><span class="rv-badge rv-${r.status}">${verdict[r.status]} · ${fmtMarks(r.marks)}</span></div>
+        <p class="rv-meta">${r.section === 'GA' ? 'General Aptitude' : 'Computer Science'} · ${r.ty} · ${r.m} mark${r.m === 1 ? '' : 's'}${r.ty === 'MCQ' ? ` · wrong answer −${r.m === 1 ? '1/3' : '2/3'}` : ' · no negative marks'}<br>${esc(r.l)} · ${esc(names[r.s] || r.s)} · ${esc(r.tt)}</p>
+        <div class="rv-img">${r.img.map(([f, w, h]) => `<img src="${BASE}assets/questions/${esc(f)}" width="${w}" height="${h}" alt="Question ${r.n}" loading="lazy">`).join('')}</div>
+        <dl class="rv-ans"><div><dt>Your answer</dt><dd>${esc(ans(r))}</dd></div><div><dt>Correct answer</dt><dd>${esc(C.keyText(r))}${r.ks === 'd' ? ' <small>(our worked answer; no official key)</small>' : ''}</dd></div><div><dt>Marks</dt><dd>${fmtMarks(r.marks)}</dd></div><div><dt>Time spent</dt><dd>${fmtTime(active.time[r.i] || 0).replace(/^00:/, '')}</dd></div></dl>
+        <div class="rv-sol answer"><p class="source-note">Loading the solution…</p></div>
+        <p class="rv-links source-note"><a href="${BASE}q/${esc(r.i)}/">Open this question on its subject page</a><span class="rv-steps" hidden> (it has a step-through)</span></p>
+        <div class="rv-nav"><button type="button" class="button" data-rv-step="-1"${pos <= 0 ? ' disabled' : ''}>← Previous</button><span>${pos + 1} of ${ids.length}</span><button type="button" class="button primary" data-rv-step="1"${pos >= ids.length - 1 ? ' disabled' : ''}>Next →</button></div>`;
+      const sol = $('.rv-sol', card);
+      solution(r.i).then(d => {
+        if (cur !== n) return;
+        sol.innerHTML = d.html;   // built from the site's autoescaped question template
+        if (d.steps) $('.rv-steps', card).hidden = false;
+        if (typeof window.renderMath === 'function') window.renderMath(sol);
+      }).catch(() => { if (cur === n) sol.innerHTML = '<p class="source-note">The solution could not be loaded (are you offline?). Use the link below to open the question.</p>'; });
+      const next = ids[pos + 1]; if (next !== undefined) solution(sum.rows[next].i).catch(() => {});
+      if (scroll) box.scrollIntoView({ block: 'start' });
+    }
+    out.onclick = e => {   // one handler: the results box is reused when a past mock is viewed
+      const f = e.target.closest('[data-filter]');
+      if (f) {
+        filter = f.dataset.filter;
+        box.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === f)));
+        const ids = list(); if (ids.length) show(ids.includes(cur) ? cur : ids[0]);
+        return;
+      }
+      const step = e.target.closest('[data-rv-step]');
+      if (step) { const ids = list(), pos = ids.indexOf(cur), n = ids[pos + +step.dataset.rvStep]; if (n !== undefined) show(n, true); return; }
+      const b = e.target.closest('[data-rv]');
+      if (b) {
+        const n = +b.dataset.rv;
+        if (filter !== 'all' && sum.rows[n].status !== filter) { filter = 'all'; box.querySelectorAll('[data-filter]').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.filter === 'all'))); }
+        show(n, !b.closest('.rv-grid'));
+      }
+    };
+    show(0);
   }
   function renderHistory() {
     const hist = store.get(K.history, []);

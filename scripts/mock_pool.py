@@ -16,6 +16,9 @@ The pool is small JSON (one row per question); questions are shown as their
 committed images, exactly as on the rest of the site.
 """
 import collections, hashlib, json, re
+from pathlib import Path
+
+IMAGES = Path(__file__).resolve().parent.parent / 'site-assets/q'
 
 GA = '11-general-aptitude'
 EM = '13-other-topics'          # in-syllabus part is Engineering Mathematics
@@ -88,12 +91,6 @@ def build(questions, titles, topic_titles, ds):
     mix_papers = {q['paper_id'] for q in questions if q['year'] > latest - TYPE_MIX_YEARS}
     subj_share, topic_share = _shares(questions, recent)
 
-    # Linked ("common data") questions share their context text within a paper.
-    group_of = {}
-    for q in questions:
-        if q.get('shared_context'):
-            group_of[q['question_id']] = q['paper_id'] + ':' + hashlib.sha1(str(q['shared_context']).encode()).hexdigest()[:8]
-
     pool, skipped = [], collections.Counter()
     for q in questions:
         t = q['display_type']
@@ -124,19 +121,12 @@ def build(questions, titles, topic_titles, ds):
             'i': q['question_id'], 's': q['subject_dir'], 't': q['topic'], 'y': q['year'], 'm': q['marks'], 'ty': t,
             'k': key, 'ks': src, 'n': ord(choices) - 64 if choices else 0,
             'b': 1 if q.get('syllabus_status') == 'borderline' else 0,
-            'g': group_of.get(q['question_id'], ''),
+            'g': '',
             'img': [[c['file'], c['width'], c['height']] for c in q['original_crops']],
             'l': 'GATE ' + str(q['year']) + (' ' + q['session'] if q.get('session') else '') + ', Q' + str(q['number']),
             'tt': topic_titles.get((q['subject_dir'], q['topic']), q['topic']),
         })
-    # A linked group is usable only if all its members made it into the pool.
-    members = collections.Counter(p['g'] for p in pool if p['g'])
-    expected = collections.Counter(group_of.values())
-    for p in pool:
-        if p['g'] and members[p['g']] != expected[p['g']]:
-            p['g'] = ''  # partner missing: treat as a standalone question only if it reads standalone
-            p['x'] = 1   # ...but mark it so the sampler skips it (its text relies on shared data)
-    pool = [p for p in pool if not p.get('x')]
+    _link_groups(pool)
 
     subjects = [s for s in sorted(titles) if s != GA]
     names = {s: ('Engineering Mathematics' if s == EM else titles[s]) for s in titles}
@@ -151,6 +141,37 @@ def build(questions, titles, topic_titles, ds):
         'ga': GA, 'names': names, 'weights': weights, 'pool': pool,
         'skipped': dict(skipped.most_common()),
     }
+
+
+def _link_groups(pool):
+    """Common-data and linked-answer questions (papers up to 2013) print one shared statement for a
+    pair of questions, and the images of both start with that same statement. Questions of one paper
+    that share an image form a group, which a mock keeps together and in order. Every image carries
+    the statement, so a member whose partner is not in the pool still reads on its own.
+    A shared image used by more than four questions is a section header, not a statement."""
+    users = collections.defaultdict(set)
+    for p in pool:
+        for f, _, _ in p['img']:
+            path = IMAGES / f
+            if path.is_file():
+                users[hashlib.sha256(path.read_bytes()).hexdigest()].add(p['i'])
+    parent = {}
+    def find(x):
+        while parent.get(x, x) != x:
+            x = parent[x]
+        return x
+    for ids in users.values():
+        ids = sorted(ids)
+        if 2 <= len(ids) <= 4 and len({i.rsplit('-Q', 1)[0] for i in ids}) == 1:
+            for i in ids[1:]:
+                parent[find(i)] = find(ids[0])
+    members = collections.defaultdict(list)
+    for p in pool:
+        members[find(p['i'])].append(p)
+    for root, ps in members.items():
+        if len(ps) > 1 and len({p['m'] for p in ps}) == 1:
+            for p in ps:
+                p['g'] = root
 
 
 def _nat_agrees(official, derived):

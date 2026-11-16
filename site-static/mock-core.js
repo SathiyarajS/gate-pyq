@@ -176,7 +176,8 @@
   }
 
   function summarise(data, paper, responses) {
-    const rows = paper.questions.map((q, n) => Object.assign({ n: n + 1, response: responses[q.i] }, q, mark(q, responses[q.i])));
+    // n is the question's number in this paper (the pool's n, its number of choices, is kept as choices).
+    const rows = paper.questions.map((q, n) => Object.assign({}, q, { n: n + 1, choices: q.n, response: responses[q.i] }, mark(q, responses[q.i])));
     const total = rows.reduce((a, r) => a + r.marks, 0);
     const by = (keyOf) => {
       const m = new Map();

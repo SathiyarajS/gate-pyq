@@ -227,6 +227,8 @@ How it works:
   - **Weights:** subject and topic marks over the last 10 years, and the MCQ/MSQ/NAT mix since 2021.
 - `site-static/mock-core.js` holds the pure logic: seeded generator, GATE marking, calculator engine, mock codes. It is tested by `node tests/test_mock.js`, which checks 300 random papers against the pattern.
 - `site-static/mock.js` and `site-static/mock.css` are the exam screen, calculator and results. The layout follows the official GATE (TCS iON) mock on desktop and mobile; colours are the site's own.
+- After submitting, the results show the score, weak topics, and a review of every question (your answer, the correct answer, marks, the worked solution). The solutions are built per pool question into `_site/mock/a/<id>.json` by `build_site.py`, cut from the same `question.html` template as the subject pages.
+- Common-data and linked-answer pairs (papers up to 2013) are found by their shared statement image (`mock_pool._link_groups`); a mock includes the whole pair, adjacent and in order. Mocks use official-key questions only unless the user unticks that option.
 - The calculator copies the exam's virtual calculator: the same keys in the same places, and number-first input (30 then sin; 625, ʸ√x, 4, =; 81, logᵧx, 3, =). The key engine is `calcPress` in `mock-core.js`; `test_mock.js` checks the worked key sequences. If you can open the official mock (links on the GATE site), compare it before changing the calculator.
 
 Every new mock is random. The mock code only replays a paper.
