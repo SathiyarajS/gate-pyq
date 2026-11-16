@@ -66,6 +66,7 @@ jobs:
           node tests/test_anim_recursion_player.js
           node tests/test_anim_automata_player.js
           python scripts/build_site.py --release
+          node tests/test_mock.js _site/mock/pool.json
           status=0; wait $tests || status=$?
           cat "$RUNNER_TEMP/pytest.log"
           exit $status

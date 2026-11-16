@@ -203,7 +203,7 @@ Rules:
 **Finishing a family** (prompt E), on its `wip/anim-<name>` branch:
 1. `git fetch origin && git checkout wip/anim-<name> && git merge origin/main` (the new files never clash with main).
 2. Complete the simulator, `data/animations/<family>.json`, `site-static/steps/<family>.js` and `tests/test_anim_<family>.py` (§3.6). Leave out anything §3.6 says to leave out; when in doubt, leave it out.
-3. Run `python scripts/build_site.py --release`, `python scripts/checks/check_study_views_browser.py`, `python scripts/validate.py`, `python -m pytest -q tests` and `node tests/test_transcription_math.js`. Look at two or three of the family's players at 390×900 in Chromium (Playwright) and fix any layout problems.
+3. Run `python scripts/build_site.py --release`, `python scripts/checks/check_study_views_browser.py`, `python scripts/validate.py`, `python -m pytest -q tests`, `node tests/test_transcription_math.js` and (after `python scripts/build_site.py --release`) `node tests/test_mock.js`. Look at two or three of the family's players at 390×900 in Chromium (Playwright) and fix any layout problems.
 4. Commit and push to the same branch. Record what you included and left out (with one-line reasons) in the commit message.
 
 **Review checklist** (prompt F, in a session that did not write the family):
@@ -219,6 +219,23 @@ Rules:
 1,716 entries (1991–2010) have no official key. If an official IIT/GATE key for one of those years turns up, record it exactly as printed and log any disagreement with our answers in `DISCREPANCIES.md`.
 
 ---
+
+### 3.8 Mock test (live at `/mock/`; phase 2 open)
+How it works:
+- `scripts/mock_pool.py` builds `_site/mock/pool.json` at build time: eligible questions plus weights.
+  - **Eligible questions:** in the current syllabus per `data/syllabus.json`; MCQ/MSQ/NAT worth 1–2 marks; with an image; with a machine-gradable official key or our independently derived answer; no "marks to all"; no answer-affecting discrepancy.
+  - **Weights:** subject and topic marks over the last 10 years, and the MCQ/MSQ/NAT mix since 2021.
+- `site-static/mock-core.js` holds the pure logic: seeded generator, GATE marking, calculator engine, mock codes. It is tested by `node tests/test_mock.js`, which checks 300 random papers against the pattern.
+- `site-static/mock.js` and `site-static/mock.css` are the exam screen, calculator and results.
+
+Every new mock is random. The mock code only replays a paper.
+
+Rules:
+- When the syllabus changes, update `data/syllabus.json` (topic-level `not_listed`, plus per-question `questions.not_listed` / `borderline` / `listed`, each with a reason). Never drop a question from the mock without recording why.
+
+Phase 2, not built yet:
+1. **"Practise weak areas" mock:** reuse `generate()`, multiplying topic weights by the topics lost in the user's recent results (kept in localStorage).
+2. **Sectional tests:** one subject, about 30 minutes, about 15 questions, same exam screen.
 
 ## 4. Preview locally (optional)
 
@@ -236,7 +253,7 @@ python scripts/build_pdfs.py --release   # 26 PDFs into _site/pdf (a few minutes
 - Never invent question text, options, figures or official keys.
 - Leave `show_redrawn_text` in `data/site-settings.json` as `false`. Redrawn text is collected for later; only the owner switches it on.
 - `star_worker_url` in `data/site-settings.json` turns on the "★ Star on GitHub" links (footer and Feedback page). It is the address of a deployment of [SathiyarajS/star-button-worker](https://github.com/SathiyarajS/star-button-worker) with `SITE = "https://sathiyarajs.github.io/gate-pyq/"` and `REPO = "SathiyarajS/gate-pyq"`; leave it empty until that is deployed. If something can't be read, keep it `draft` and log it.
-- Before every push, run `python scripts/validate.py`, `python -m pytest -q tests` and `node tests/test_transcription_math.js`.
+- Before every push, run `python scripts/validate.py`, `python -m pytest -q tests`, `node tests/test_transcription_math.js` and (after `python scripts/build_site.py --release`) `node tests/test_mock.js`.
 
 ## 6. Current state (11 Nov 2026)
 - **13 Nov 2026 clean-up:** source PDFs are no longer stored in the repo. The rendered question images (`site-assets/q/`, 4,351 files) and each PDF's URL and sha256 are, and `python scripts/fetch_sources.py` restores the PDFs locally when needed. Internal notes moved to `docs/`. License: MIT (code) and CC BY-NC-SA 4.0 (our content). The question papers belong to their setters. History was squashed to a single commit; re-clone any older checkout.

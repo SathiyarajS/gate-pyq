@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from transcription import load_paper, resolve
 import site_features
+import mock_pool
 import question_groups
 import animations
 from reader_text import reader, answer
@@ -330,6 +331,10 @@ def main():
     render('papers',title='All papers',kind='papers',papers=[dict(p,label=paper_label(p['paper_id'])) for p in sorted(papers,key=lambda p:p['paper_id'],reverse=True)])
     render('about',title='About this archive',kind='about',total_questions=len(questions))
     if weights:render('weightage',title='Where the marks are.',kind='weightage',total=len(questions))
+    # Mock test: pool and weights at build time; sampling, exam UI and marking run in the browser.
+    mock=mock_pool.write_mock(out,questions,titles,topic_titles,ds)
+    mock_counts=collections.Counter(p['s'] for p in mock['pool'])
+    render('mock',title='GATE CS mock test',kind='mock',mock=dict(total=len(mock['pool']),official=sum(p['ks']=='o' for p in mock['pool']),borderline=sum(p['b'] for p in mock['pool']),recent_from=mock['recent_from'],latest=mock['latest'],recent_papers=mock['recent_papers'],mix_from=mock['mix_from'],subjects=sorted(((mock['names'][s],mock_counts[s],mock['weights']['subjects'].get(s)) for s in mock_counts),key=lambda r:-(r[2] or 15))))
     render('feedback',title='Feedback',kind='feedback')
     render('discrepancies',title='About this archive',kind='redirect',target='about/')  # former page; notes now sit with each answer
     (out/'search.json').write_text(json.dumps(search,ensure_ascii=False))
@@ -337,7 +342,7 @@ def main():
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     # Offline: per-subject and per-paper packs, the always-cached core, the web app manifest and the service worker.
     (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':f'GATE Computer Science previous-year questions, {inventory_years[0]}–{inventory_years[-1]}, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
-    core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
+    core=['','papers/','about/','mock/','mock/pool.json','assets/mock.css','assets/mock-core.js','assets/mock.js']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
     if has_math:core+=['assets/vendor/katex/katex.min.css','assets/vendor/katex/katex.min.js']+['assets/vendor/katex/fonts/'+f.name for f in sorted((katex_dir/'fonts').glob('*.woff2'))]
     pack_index,core_files,offline_total=site_features.write_offline(out,packs,core)
     render('offline',title='Study without a connection.',kind='offline',packs=pack_index,offline_total=offline_total)

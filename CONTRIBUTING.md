@@ -17,6 +17,7 @@ Please say what is wrong (the answer, the solution, the question image, a step-t
    ```sh
    pip install -r requirements-site.txt pytest && npm ci --ignore-scripts
    python scripts/validate.py && python -m pytest -q tests && node tests/test_transcription_math.js
+   python scripts/build_site.py --release && node tests/test_mock.js
    ```
 3. Open a pull request. The site build runs on it automatically.
 
