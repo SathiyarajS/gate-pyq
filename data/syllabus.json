@@ -1,27 +1,100 @@
 {
-  "syllabus": "GATE 2027",
-  "source": "GATE 2027 Computer Science and Information Technology (CS) syllabus, IIT Madras (organising institute)",
-  "source_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf",
-  "accessed_on": "2026-11-11",
-  "method": "Topic-level only. A topic is listed here when the syllabus does not name it or anything that covers it. Topics that mix listed and unlisted material (for example application protocols, or compiler phases with linking and loading) are not flagged, and no individual question has been reviewed against the syllabus.",
-  "not_listed": {
-    "02-computer-organization-architecture": {
-      "storage": "The memory-hierarchy line names cache and main memory only. I/O scheduling and file systems remain under Operating Systems."
-    },
-    "05-algorithms": {
-      "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named."
-    },
-    "06-theory-of-computation": {
-      "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named; the section ends at Turing machines and undecidability."
-    },
-    "10-computer-networks": {
-      "security": "Network security (cryptography, digital signatures, firewalls) is not named."
-    },
-    "13-other-topics": {
-      "numerical": "Numerical methods are not named.",
-      "software-engineering": "Software engineering is not named.",
-      "web-technologies": "Web technologies (HTML, XML) are not named.",
-      "other-computing": "Object-oriented programming and programming paradigms are not named; the only language is C."
-    }
+ "syllabus": "GATE 2027",
+ "source": "GATE 2027 Computer Science and Information Technology (CS) syllabus, IIT Madras (organising institute)",
+ "source_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf",
+ "accessed_on": "2026-11-11",
+ "method": "Topic-level, refined question by question on 2026-11-16. A topic is listed under not_listed when the syllabus does not name it or anything that covers it. Within listed topics, every gradable question in topics that mix listed and unlisted material was read individually: questions whose main point is unlisted are under questions.not_listed, questions on material the 2027 text no longer names explicitly but that GATE still examines under a listed heading are under questions.borderline, and questions.listed re-admits a question from an unlisted topic. Removed in 2027 per the official text: secondary storage (magnetic disk); ARP, ICMP, DHCP, SMTP, FTP and UDP.",
+ "not_listed": {
+  "02-computer-organization-architecture": {
+   "storage": "The memory-hierarchy line names cache and main memory only. I/O scheduling and file systems remain under Operating Systems."
+  },
+  "05-algorithms": {
+   "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named."
+  },
+  "06-theory-of-computation": {
+   "complexity": "Complexity classes (P, NP, NP-complete) and reductions are not named; the section ends at Turing machines and undecidability."
+  },
+  "10-computer-networks": {
+   "security": "Network security (cryptography, digital signatures, firewalls) is not named."
+  },
+  "13-other-topics": {
+   "numerical": "Numerical methods are not named.",
+   "software-engineering": "Software engineering is not named.",
+   "web-technologies": "Web technologies (HTML, XML) are not named.",
+   "other-computing": "Object-oriented programming and programming paradigms are not named; the only language is C."
+  },
+  "07-compiler-design": {
+   "code-generation": "Code generation and register allocation are not named; the section names intermediate code generation, local optimisation and data-flow analysis."
   }
+ },
+ "questions": {
+  "reviewed_on": "2026-11-16",
+  "not_listed": {
+   "CS-1991-Q20": "Logic-family electronics (CMOS, TTL) are not named.",
+   "CS-1991-Q28": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1991-Q29": "General programming-language design is not named; the only language is C.",
+   "CS-1992-Q15": "Start and stop bits of asynchronous serial transmission (physical layer) are not named.",
+   "CS-1993-Q21": "Asynchronous serial transmission and line coding (physical layer) are not named.",
+   "CS-1993-Q32": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1994-Q21": "Overlays are not named; memory management and virtual memory are.",
+   "CS-1994-Q5": "General programming-language design is not named; the only language is C.",
+   "CS-1995-Q11": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1995-Q14": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1995-Q34": "General programming-language design is not named; the only language is C.",
+   "CS-1996-Q17": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1996-Q41": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1996-Q42": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1997-Q13": "Start and stop bits of asynchronous serial transmission (physical layer) are not named.",
+   "CS-1997-Q9": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1998-Q15": "Logic-family electronics (CMOS, TTL) are not named.",
+   "CS-1998-Q16": "Asynchronous serial transmission and line coding (physical layer) are not named.",
+   "CS-1998-Q28": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-1998-Q51": "Overlays are not named; memory management and virtual memory are.",
+   "CS-1998-Q55": "Physical data storage formats are not named.",
+   "CS-1999-Q10": "Disk geometry and access-time calculations belong to secondary storage, removed from the 2027 syllabus.",
+   "CS-2001-Q17": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-2002-Q11": "Start and stop bits of asynchronous serial transmission (physical layer) are not named.",
+   "CS-2004-Q22": "Asynchronous serial transmission and line coding (physical layer) are not named.",
+   "CS-2004-Q9": "Assemblers, macro processors, linkers and loaders are not named.",
+   "CS-2005-Q24": "ARP is not named in the 2027 syllabus (removed).",
+   "CS-2007-Q19": "Asynchronous serial transmission and line coding (physical layer) are not named.",
+   "CS-2007-Q20": "UDP is not named in the 2027 syllabus (removed); the transport layer lists TCP.",
+   "CS-2007-Q70": "BGP and PPP are not named.",
+   "CS-2008-Q58": "Token-bucket traffic shaping is not named; congestion control is listed for TCP only.",
+   "CS-2009-Q51": "Disk geometry and access-time calculations belong to secondary storage, removed from the 2027 syllabus.",
+   "CS-2009-Q52": "Disk geometry and access-time calculations belong to secondary storage, removed from the 2027 syllabus.",
+   "CS-2010-Q26": "ICMP is not named in the 2027 syllabus (removed).",
+   "CS-2011-Q14": "Email protocols (SMTP, POP3, IMAP) are not named; the application layer lists DNS and HTTP.",
+   "CS-2011-Q54": "Disk geometry and access-time calculations belong to secondary storage, removed from the 2027 syllabus.",
+   "CS-2012-Q32": "Email protocols (SMTP, POP3, IMAP) are not named; the application layer lists DNS and HTTP.",
+   "CS-2013-Q22": "UDP is not named in the 2027 syllabus (removed); the transport layer lists TCP.",
+   "CS-2014-S2-Q40": "Query processing and join-cost estimation are not named.",
+   "CS-2015-S1-Q27": "FTP and POP3 are not named; the application layer lists DNS and HTTP.",
+   "CS-2016-S1-Q34": "ARP is not named in the 2027 syllabus (removed).",
+   "CS-2016-S1-Q35": "FTP and POP3 are not named; the application layer lists DNS and HTTP.",
+   "CS-2016-S1-Q64": "Token-bucket traffic shaping is not named; congestion control is listed for TCP only.",
+   "CS-2017-S2-Q19": "Routing-protocol transport details (RIP over UDP, OSPF) are not named; the syllabus lists distance-vector and link-state routing.",
+   "CS-2017-S2-Q28": "UDP is not named in the 2027 syllabus (removed); the transport layer lists TCP.",
+   "CS-2018-Q23": "Mixes UDP and IPv6 header details, neither of which is named.",
+   "CS-2019-Q26": "Email protocols (SMTP, POP3, IMAP) are not named; the application layer lists DNS and HTTP.",
+   "CS-2019-Q39": "ARP is not named in the 2027 syllabus (removed).",
+   "CS-2021-S1-Q18": "ARP is not named in the 2027 syllabus (removed).",
+   "CS-2025-S2-Q16": "ARP is not named in the 2027 syllabus (removed).",
+   "CS-2025-S2-Q18": "ICMP is not named in the 2027 syllabus (removed).",
+   "CS-2026-S2-Q22": "DHCP is not named in the 2027 syllabus (removed)."
+  },
+  "borderline": {
+   "CS-2004-Q16": "Ethernet bridging and spanning trees are not named explicitly in 2027; Ethernet is.",
+   "CS-2005-Q26": "Ethernet bridging and spanning trees are not named explicitly in 2027; Ethernet is.",
+   "CS-2006-Q20": "Log-based recovery is not named; transactions and concurrency control are, and GATE asked recovery in 2021.",
+   "CS-2006-Q82": "Ethernet bridging and spanning trees are not named explicitly in 2027; Ethernet is.",
+   "CS-2006-Q83": "Ethernet bridging and spanning trees are not named explicitly in 2027; Ethernet is.",
+   "CS-2014-S3-Q34": "Framing (bit stuffing) is not named in the 2027 data-link line, which lists error detection, medium access and Ethernet.",
+   "CS-2015-S2-Q39": "Log-based recovery is not named; transactions and concurrency control are, and GATE asked recovery in 2021.",
+   "CS-2021-S1-Q23": "Log-based recovery is not named; transactions and concurrency control are, and GATE asked recovery in 2021."
+  },
+  "listed": {
+   "CS-2025-S1-Q13": "A liveness (data-flow analysis) question, which is listed, although its topic is register allocation."
+  }
+ }
 }

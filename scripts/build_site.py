@@ -155,6 +155,8 @@ def main():
     show_redrawn=bool(settings.get('show_redrawn_text',False))
     pmap={p['paper_id']:p for p in papers}; groups=collections.defaultdict(list); issues=[]
     off_syllabus,syllabus=site_features.load_syllabus(ROOT,topics)
+    unknown=[qid for part in syllabus['questions'].values() for qid in part if qid not in {q['question_id'] for q in questions}]
+    if unknown:raise SystemExit('data/syllabus.json names unknown questions: '+', '.join(unknown[:5]))
     seen=set()
     for q in questions:
         if q['question_id'] in seen: raise SystemExit('Duplicate question ID')
@@ -166,7 +168,8 @@ def main():
         q['source_link']=safe_url(q.get('source_page_url') or q.get('source_url'));q['key_link']=safe_url(q.get('key_url'))
         if q['key_link'] and q.get('key_page') and '#' not in q['key_link']:q['key_link']+='#page='+str(q['key_page'])
         q['topic']=topics.get(subject,{}).get('assign',{}).get(q['question_id'],'unreviewed')
-        q['off_syllabus']={'label':'Not in '+syllabus['syllabus']+' syllabus','note':off_syllabus[(subject,q['topic'])]} if (subject,q['topic']) in off_syllabus else None
+        q['syllabus_status'],note=site_features.syllabus_status(q,off_syllabus,syllabus)
+        q['off_syllabus']={'label':'Not in '+syllabus['syllabus']+' syllabus','note':note} if q['syllabus_status']=='out' else None
         q['discrepancies']=[]
         for did in q['discrepancy_ids']:
             if did not in ds: raise SystemExit('Missing discrepancy row: '+did)
