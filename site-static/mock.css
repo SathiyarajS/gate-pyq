@@ -36,7 +36,7 @@
 body.exam-open{overflow:hidden}
 .exam{--ex-bg:#fff;--ex-ink:#1b1f24;--ex-muted:#5b6470;--ex-line:#c9d1da;--ex-head:#1f3b57;--ex-tab:#e8eef5;--ex-blue:#2b6cb0;
   --st-a:#1e9e4a;--st-na:#d6452f;--st-nv:#eceff3;--st-mr:#6b3fa0;
-  position:fixed;inset:0;z-index:1000;display:grid;grid-template-rows:auto auto 1fr auto;background:var(--ex-bg);color:var(--ex-ink);
+  position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;background:var(--ex-bg);color:var(--ex-ink);
   font-family:Inter,ui-sans-serif,system-ui,sans-serif;color-scheme:light}
 .exam button{font:inherit;cursor:pointer}
 .exam-top{display:flex;align-items:center;gap:1rem;justify-content:space-between;background:var(--ex-head);color:#fff;padding:.5rem 1rem;flex-wrap:wrap}
@@ -53,7 +53,8 @@ body.exam-open{overflow:hidden}
 .palette-toggle{margin-left:auto;display:none}
 .exam-sections .short,.palette-close{display:none}
 .palette-close{margin-left:auto;border:1px solid var(--ex-line);background:#fff;border-radius:4px;padding:.3rem .7rem;font-weight:650}
-.exam-body{display:grid;grid-template-columns:1fr 300px;min-height:0}
+.exam-body{display:grid;grid-template-columns:1fr 300px;min-height:0;flex:1}
+.exam-mtop,.exam-mbar,.exam-strip{display:none}
 .exam-q{overflow:auto;padding:1rem 1.25rem 2rem;min-height:0}
 .q-meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;font-size:.85rem;color:var(--ex-muted);border-bottom:1px solid var(--ex-line);padding-bottom:.45rem}
 .q-no{font-size:1.05rem;margin:.75rem 0}
@@ -83,7 +84,7 @@ body.exam-open{overflow:hidden}
 .st{display:inline-grid;place-items:center;min-width:30px;height:30px;font-size:.8rem;font-weight:700;border:1px solid transparent;position:relative;color:#fff;padding:0 .2rem}
 .st-a{background:var(--st-a);border-radius:12px 12px 3px 3px}
 .st-na{background:var(--st-na);border-radius:3px 3px 12px 12px}
-.st-nv{background:var(--st-nv);color:var(--ex-ink);border-color:#b8c1cc;border-radius:3px}
+.st-nv{background:#fff;color:var(--ex-ink);border-color:#c5ccd6;border-radius:3px}
 .st-mr,.st-amr{background:var(--st-mr);border-radius:50%}
 .st-amr::after{content:"";position:absolute;right:-2px;bottom:-2px;width:11px;height:11px;border-radius:50%;background:var(--st-a);border:2px solid #f7f9fb}
 .pal-grid .st{height:38px;cursor:pointer}
@@ -92,7 +93,8 @@ body.exam-open{overflow:hidden}
 .exam-actions{display:flex;justify-content:space-between;gap:.5rem;flex-wrap:wrap;padding:.55rem 1rem;border-top:1px solid var(--ex-line);background:#f3f6f9}
 .exam-actions div{display:flex;gap:.5rem;flex-wrap:wrap}
 .exam-actions button{border:1px solid var(--ex-line);background:#fff;border-radius:4px;padding:.55rem .9rem;font-weight:650;min-height:42px}
-.exam-actions .primary{background:var(--ex-blue);border-color:var(--ex-blue);color:#fff}
+.exam-actions .save{background:#2fa84f;border-color:#2fa84f;color:#fff}
+.exam-actions .submit-btn{background:#6fa8dc;border-color:#6fa8dc;color:#fff;min-width:7rem}
 .exam-modal{position:fixed;inset:0;background:rgba(15,23,32,.55);display:grid;place-items:center;z-index:1100;padding:1rem}
 .exam-modal[hidden]{display:none}
 .modal-box{background:#fff;color:var(--ex-ink);border-radius:8px;max-width:720px;width:100%;max-height:90vh;overflow:auto;padding:1.1rem 1.3rem}
@@ -124,16 +126,39 @@ body.exam-open{overflow:hidden}
 .calc-keys .ctl{background:#f8e1dd}
 .calc-keys .eq{background:var(--ex-blue);color:#fff;font-weight:700;grid-row:span 2}
 .calc-keys button:active{filter:brightness(.92)}
-.calc-hint{margin:0 .5rem .45rem;color:#5b6470;font-size:.7rem}
+.calc-bar>span{display:flex;gap:.5rem;align-items:center}
+.calc-bar [data-calc-help]{font-size:.9rem;font-weight:700;border:1px solid rgba(255,255,255,.7);border-radius:50%;width:1.3rem;height:1.3rem;padding:0}
+.calc-help{margin:0 .5rem .5rem;padding:.4rem .55rem;background:#fff;border:1px solid #c5ccd6;border-radius:3px;font-size:.74rem;line-height:1.4}
+.calc-help p{margin:.15rem 0}
+.calc-help[hidden]{display:none}
 
 @media (max-width:860px){
   .exam-body{grid-template-columns:1fr}
-  .palette-toggle{display:inline-block;border:1px solid var(--ex-line)!important;border-radius:4px;margin:.3rem 0 .3rem auto;background:#fff!important}
+  .exam-top,.exam-sections{display:none}
+  .exam-mtop{display:flex;align-items:center;justify-content:space-between;gap:.5rem;background:#1f2d55;color:#fff;padding:.5rem .6rem;font-size:.8rem}
+  .m-crumb{display:flex;align-items:center;gap:.35rem;min-width:0}
+  .m-paper{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:42vw;color:#cfe0ff}
+  .m-sep{opacity:.7}
+  .m-crumb select{background:transparent;color:#fff;border:0;font:inherit;font-weight:650;max-width:48vw;padding:.2rem 0}
+  .m-crumb select option{color:#111}
+  .m-menu{background:none;border:0;color:#fff;font-size:1.3rem;line-height:1;padding:.1rem .35rem}
+  .exam-mbar{display:flex;align-items:center;justify-content:space-between;background:#4285f4;color:#fff;padding:.25rem .5rem;font-size:.8rem}
+  .m-calc{background:none;border:0;color:#fff;padding:.15rem;display:inline-grid;place-items:center}
+  .m-time b{background:#1b1f24;color:#fff;border-radius:3px;padding:.1rem .45rem;margin-left:.3rem;font-family:ui-monospace,Menlo,monospace}
+  .m-time.low b{background:#b42318}
+  .exam-strip{display:flex;align-items:center;gap:.4rem;background:#dce8fb;padding:.35rem .4rem;border-bottom:1px solid var(--ex-line)}
+  .m-strip{display:flex;gap:8px;overflow-x:auto;flex:1;scrollbar-width:none;padding:2px}
+  .m-strip .st{min-width:44px;height:38px;flex:none}
+  .m-strip .st.cur{outline:3px solid var(--ex-blue);outline-offset:1px}
+  .m-info{flex:none;width:26px;height:26px;border-radius:50%;border:0;padding:0;display:inline-grid;place-items:center;line-height:1;background:#4285f4;color:#fff;font-weight:700;font-style:italic;font-family:Georgia,serif;font-size:.95rem}
   .exam-palette{position:fixed;top:0;right:0;bottom:0;width:min(320px,88vw);z-index:1040;transform:translateX(100%);transition:transform .2s;box-shadow:-8px 0 24px rgba(0,0,0,.2)}
   .exam-palette.open{transform:none}
   .exam-q{padding:.75rem .8rem 2rem}
   .exam-actions{padding:.45rem .6rem}
-  .exam-actions button{padding:.5rem .6rem;font-size:.85rem}
+  .exam-actions{flex-wrap:nowrap}
+  .exam-actions div{flex-wrap:nowrap;gap:.35rem}
+  .exam-actions button{padding:.45rem .5rem;font-size:.75rem;min-height:40px}
+  .exam-actions .submit-btn{min-width:0}
   .exam-top{padding:.35rem .6rem;gap:.4rem .6rem}
   .exam-title strong{font-size:.85rem}
   .exam-title span{font-size:.68rem}
@@ -147,8 +172,11 @@ body.exam-open{overflow:hidden}
   .palette-close{display:inline-block}
   .q-meta{font-size:.78rem}
   .calc{right:2vw;left:2vw;width:auto;top:56px}
-  .calc-keys{grid-template-columns:repeat(6,1fr)}
-  .calc-keys .eq{grid-row:auto}
+  /* keep the exam's 11-column key layout on phones too, so key positions are the same everywhere */
+  .calc-keys{gap:2px;padding:0 .3rem .4rem}
+  .calc-keys button{min-height:34px;font-size:.62rem;padding:0}
+  .calc-modes{padding:0 .3rem .35rem;gap:.4rem}
+  .calc-mem button{padding:.12rem .25rem;font-size:.68rem}
 }
 @media (prefers-reduced-motion:reduce){.exam-palette{transition:none}}
 .mock-random{margin:.8rem 0 .4rem}

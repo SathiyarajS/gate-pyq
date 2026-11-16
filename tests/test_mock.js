@@ -79,6 +79,62 @@ test('calculator', () => {
   assert.strictEqual(C.formatResult(1e-13), '0');
 });
 
+// Key sequences as the exam's calculator takes them: the number first, then the function key.
+test('calculator keys work number first, like the exam', () => {
+  const run = (keys, deg = true, mem) => {
+    let st = Object.assign(C.calcInit(), { mem });
+    for (const k of keys.split(' ')) st = Object.assign(C.calcPress(st, k, { deg }), { mem });
+    return st;
+  };
+  const is = (keys, want, deg) => assert.strictEqual(run(keys, deg).val, want, keys);
+  is('3 0 sin', '0.5');                 // 30 sin
+  is('3 0 sin', C.formatResult(Math.sin(30)), false);
+  is('1 sinh', C.formatResult(Math.sinh(1)));
+  is('1 0 0 0 log', '3');
+  is('e ln', '1');
+  is('2 5 6 log2', '8');
+  is('8 1 logy 3 =', '4');              // 81 logᵧx 3 = : log base 3 of 81
+  is('2 ^ 1 0 =', '1024');
+  is('6 2 5 yroot 4 =', '5');           // 625 ʸ√x 4 = : 4th root of 625
+  is('8 yroot 3 =', '2');
+  is('5 sqr', '25');
+  is('4 cube', '64');
+  is('1 4 4 sqrt', '12');
+  is('2 7 cbrt', '3');
+  is('5 fact', '120');
+  is('4 recip', '0.25');
+  is('2 exp', C.formatResult(Math.exp(2)));
+  is('3 pow10', '1000');
+  is('3 EXP 5 =', '300000');
+  is('3 EXP 5 NEG =', '0.00003');
+  is('5 NEG', '-5');
+  is('7 NEG abs', '7');
+  is('2 0 log * 3 - 7 =', String(C.formatResult(Math.log10(20) * 3 - 7)));
+  is('7 3 * ( 2 + 3 ) =', '365');
+  is('8 * pi =', String(C.formatResult(8 * Math.PI)));
+  is('2 + 3 sqr =', '11');              // the one-number key applies to the 3 only
+  is('( 2 + 3 ) sqr =', '25');
+  is('5 sqr sqr', '625');
+  is('2 * 3 = * 2 =', '12');            // a result carries on into the next operation
+  is('2 * 3 = 4', '4');                 // a new number after = starts over
+  is('1 0 mod 3 =', '1');
+  is('2 * - 3 =', '-6');
+  is('2 + * 3 =', '6');                 // a second operator replaces the first
+  is('( 2 + 3 =', '5');                 // open brackets are closed on =
+  is('1 2 BS 3 =', '13');
+  is('3 0 sin BS', '30');               // backspace unwraps the last function
+  is('1 . . 5 =', '1.5');
+  is('0 0 7', '7');
+  is('5 0 %', '0.5');
+  is('5 NEG 3', '-53');
+  is('1 / 0 =', 'Cannot divide by zero');
+  is('9 0 tan', 'Math error');
+  assert.strictEqual(run('2 + MR =', true, 5).val, '7');
+  assert.strictEqual(C.calcPretty(run('3 0 sin').expr), 'sin(30)');
+  assert.strictEqual(C.calcPretty(run('6 2 5 yroot 4').expr), '625 yroot 4');
+  assert.strictEqual(run('CLR').val, '0');
+});
+
 const poolPath = process.argv[2] || path.join(__dirname, '..', '_site', 'mock', 'pool.json');
 if (fs.existsSync(poolPath)) {
   const data = JSON.parse(fs.readFileSync(poolPath, 'utf8'));

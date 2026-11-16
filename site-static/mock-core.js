@@ -203,11 +203,12 @@
   /* ---------- calculator engine ---------- */
   // Expression grammar (what the on-screen keys produce):
   //   expr := term (('+'|'-') term)* ; term := unary (('*'|'/'|'mod') unary)*
-  //   unary := ('-'|'+') unary | power ; power := postfix ('^' unary)?
+  //   unary := ('-'|'+') unary | power ; power := postfix (('^'|'yroot'|'logy') unary)?
   //   postfix := primary ('!' | '%')* ; primary := number | const | func '(' expr (',' expr)? ')' | '(' expr ')'
   const FUNCS = {
     sin: 1, cos: 1, tan: 1, asin: 1, acos: 1, atan: 1, sinh: 1, cosh: 1, tanh: 1, asinh: 1, acosh: 1, atanh: 1,
     log: 1, ln: 1, log2: 1, sqrt: 1, cbrt: 1, abs: 1, exp: 1, root: 2, logb: 2,
+    sqr: 1, cube: 1, fact: 1, recip: 1, pow10: 1, neg: 1,
   };
   function evaluate(src, opts) {
     const deg = !opts || opts.deg !== false;
@@ -250,6 +251,9 @@
         case 'exp': return Math.exp(a);
         case 'root': return b < 0 && a % 2 === 1 ? -Math.pow(-b, 1 / a) : Math.pow(b, 1 / a); // root(n, x) = x^(1/n)
         case 'logb': return Math.log(b) / Math.log(a);                                     // logb(base, x)
+        case 'sqr': return a * a; case 'cube': return a * a * a; case 'fact': return factorial(a);
+        case 'recip': if (a === 0) fail('Cannot divide by zero'); return 1 / a;
+        case 'pow10': return Math.pow(10, a); case 'neg': return -a;
       }
     }
     function factorial(n) {
@@ -266,7 +270,14 @@
       }
     }
     // Negation binds looser than ^ (so -2^2 = -4); the exponent may itself be negative (2^-1).
-    function power() { const b = postfix(); if (eat('^')) return Math.pow(b, unary()); return b; }
+    // The exam's two-operand keys are infix, number first: x yroot y = y-th root of x; x logy y = log base y of x.
+    function power() {
+      const b = postfix();
+      if (eat('^')) return Math.pow(b, unary());
+      if (eat('yroot')) { const n = unary(); if (n === 0) fail('Math error'); return b < 0 && Math.abs(n % 2) === 1 ? -Math.pow(-b, 1 / n) : Math.pow(b, 1 / n); }
+      if (eat('logy')) { const base = unary(); return Math.log(b) / Math.log(base); }
+      return b;
+    }
     function unary() { if (eat('-')) return -unary(); if (eat('+')) return unary(); return power(); }
     function term() {
       let v = unary();
@@ -294,5 +305,131 @@
     return Math.abs(r) >= 1e15 || Math.abs(r) < 1e-9 ? r.toExponential(9).replace(/\.?0+e/, 'e') : String(r);
   }
 
-  return { mulberry32, encodeCode, decodeCode, parseKey, mark, negative, keyText, generate, freshestSeed, summarise, evaluate, formatResult, PATTERN };
+
+  /* ---------- calculator keys ----------
+   * The exam's virtual calculator takes the number first: type 30, then press sin (sin(30) = 0.5);
+   * 5 then x² gives 25; 81, logᵧx, 3, = gives 4; 625, ʸ√x, 4, = gives 5; 3, Exp, 5 gives 3e5.
+   * One-number keys wrap the operand at the end of the expression (the number being typed, a bracket
+   * or an earlier function), so 2 + 3 x² = 11. calcPress is pure: (state, key) -> new state. */
+  const UNARY = ['sin', 'cos', 'tan', 'asin', 'acos', 'atan', 'sinh', 'cosh', 'tanh', 'asinh', 'acosh', 'atanh',
+    'log', 'ln', 'log2', 'sqrt', 'cbrt', 'abs', 'exp', 'sqr', 'cube', 'fact', 'recip', 'pow10'];
+  const BINARY = { '+': '+', '-': '-', '*': '*', '/': '/', '^': '^', mod: ' mod ', yroot: ' yroot ', logy: ' logy ' };
+  const OP_END = /(\+|-|\*|\/|\^| mod | yroot | logy )$/;
+  const NUM_END = /(\d+\.?\d*|\.\d+)(e[+-]?\d*)?$/;
+  // Start index of the operand at the end of s, or -1 if s does not end with one.
+  function operandStart(s) {
+    let j = s.length;
+    while (j > 0 && (s[j - 1] === '!' || s[j - 1] === '%')) j--;
+    if (j === 0) return -1;
+    if (s[j - 1] === ')') {
+      let depth = 0, k = j - 1;
+      for (; k >= 0; k--) { if (s[k] === ')') depth++; else if (s[k] === '(' && --depth === 0) break; }
+      if (k < 0) return -1;
+      const m = /[a-z][a-z0-9]*$/.exec(s.slice(0, k));
+      return m ? k - m[0].length : k;
+    }
+    let m = NUM_END.exec(s.slice(0, j));
+    if (m && !/[a-z]$/.test(s.slice(0, m.index))) return m.index;
+    m = /(pi|e)$/.exec(s.slice(0, j));
+    if (m && !/[a-z0-9.]$/.test(s.slice(0, m.index))) return m.index;
+    return -1;
+  }
+  function openParens(s) { let d = 0; for (const c of s) { if (c === '(') d++; else if (c === ')') d--; } return d; }
+  function calcInit() { return { expr: '', val: '0', done: false }; }
+  const NEG_NUM = /^\(-(\d+\.?\d*|\.\d+)(e[+-]?\d*)?\)$/;
+  function calcPress(st, key, opts) {
+    let expr = st.expr;
+    const done = st.done, val = st.val;
+    const ev = src => { try { return formatResult(evaluate(src, opts)); } catch (e) { return e.message || 'Error'; } };
+    const out = o => Object.assign({ expr, val, done: false }, o);
+    const keep = () => ({ expr: st.expr, val, done, shown: st.shown });
+    if (key === 'CLR') return calcInit();
+    const start = operandStart(expr), atom = start >= 0 ? expr.slice(start) : null;
+    const isNum = atom !== null && /^(\d+\.?\d*|\.\d+)(e[+-]?\d*)?$/.test(atom);
+    // A new number, constant or bracket: after '=' it starts over; right after an operand it multiplies (8π = 8×π).
+    const begin = () => { if (done) expr = ''; else if (atom !== null) expr += '*'; };
+    if (/^[0-9]$/.test(key) || key === '.') {
+      if (done) expr = '';
+      const a = done ? null : atom, neg = a !== null && NEG_NUM.test(a);
+      let head = neg ? expr.slice(0, -1) : expr;
+      if (a !== null && !neg && !isNum) head += '*';
+      const m = NUM_END.exec(head), cur = m ? m[0] : '';
+      let num;
+      if (key === '.') { if (/[.e]/.test(cur)) return keep(); num = cur === '' ? '0.' : cur + '.'; }
+      else num = cur === '0' ? key : cur + key;
+      expr = head.slice(0, head.length - cur.length) + num + (neg ? ')' : '');
+      return out({ expr, val: (neg ? '-' : '') + num });
+    }
+    if (key === 'pi' || key === 'e') { begin(); expr += key; return out({ expr, val: ev(key) }); }
+    if (key === 'MR') { // the UI passes the stored value in st.mem
+      if (st.mem === null || st.mem === undefined) return keep();
+      begin(); const m = formatResult(st.mem); expr += st.mem < 0 ? '(' + m + ')' : m; return out({ expr, val: m });
+    }
+    if (key === '(') { begin(); expr += '('; return out({ expr }); }
+    if (key === ')') {
+      if (done || openParens(expr) <= 0 || atom === null) return keep();
+      expr += ')'; return out({ expr, val: ev(expr.slice(operandStart(expr))) });
+    }
+    if (key === 'BS') {
+      if (done) return keep();
+      if (OP_END.test(expr)) expr = expr.replace(OP_END, '');
+      else if (isNum || /[!%(]$/.test(expr)) expr = expr.slice(0, -1);
+      else if (/(pi|e)$/.test(expr)) expr = expr.replace(/(pi|e)$/, '');
+      else if (atom !== null && /\)$/.test(atom)) {
+        const m = /^[a-z][a-z0-9]*\((.*)\)$/.exec(atom);
+        expr = m ? expr.slice(0, start) + m[1] : expr.slice(0, -1); // unwrap sin(30) to 30; reopen a plain bracket
+      } else expr = expr.slice(0, -1);
+      const s2 = operandStart(expr); return out({ expr, val: s2 >= 0 ? ev(expr.slice(s2)) : '0' });
+    }
+    if (key === 'EXP') { // 3 Exp 5 = 3×10⁵
+      if (done || !isNum || /e/.test(atom)) return keep();
+      expr += 'e'; return out({ expr });
+    }
+    if (key === 'NEG') {
+      if (atom === null) return keep();
+      let next;
+      const em = /^(.*e)([+-]?)(\d*)$/.exec(atom);
+      if (isNum && em) next = em[1] + (em[2] === '-' ? '' : '-') + em[3];   // 3 Exp 5 +/- gives 3e-5
+      else if (NEG_NUM.test(atom)) next = atom.slice(2, -1);
+      else if (/^neg\(/.test(atom)) next = atom.slice(4, -1);
+      else next = isNum ? '(-' + atom + ')' : 'neg(' + atom + ')';
+      expr = expr.slice(0, start) + next; return out({ expr, val: ev(next) });
+    }
+    if (UNARY.includes(key)) { // number first: 30 sin -> sin(30)
+      const a = atom === null ? '0' : atom;
+      const next = key + '(' + a + ')';
+      expr = (atom === null ? expr : expr.slice(0, start)) + next; return out({ expr, val: ev(next) });
+    }
+    if (key === '%') { if (atom === null) return keep(); expr += '%'; return out({ expr, val: ev(expr.slice(operandStart(expr))) }); }
+    if (BINARY[key]) {
+      if (OP_END.test(expr)) {
+        if (key === '-' && /([*/^]| mod | yroot | logy )$/.test(expr)) expr += '-'; // a negative operand: 2×-3, 2^-1
+        else expr = expr.replace(OP_END, '') + BINARY[key];
+        return out({ expr });
+      }
+      if (expr === '' || /\($/.test(expr)) { if (key === '-') return out({ expr: expr + '-' }); expr += '0'; }
+      expr += BINARY[key]; return out({ expr });
+    }
+    if (key === '=') {
+      if (done) return keep();
+      if (!expr) return { expr: '', val: '0', done: true, shown: '0' };
+      let src = expr.replace(OP_END, '');
+      src += ')'.repeat(Math.max(0, openParens(src)));
+      const r = ev(src);
+      if (!/^-?\d/.test(r)) return { expr: src, val: r, done: true, shown: src, err: true };
+      return { expr: Number(r) < 0 ? '(' + r + ')' : r, val: r, done: true, shown: src };
+    }
+    return keep();
+  }
+  // Display form of an expression for the screen's top line.
+  function calcPretty(s) {
+    return String(s).replace(/\*/g, '×').replace(/\//g, '÷').replace(/pi/g, 'π')
+      .replace(/sqrt\(/g, '√(').replace(/cbrt\(/g, '∛(').replace(/ logy /g, ' log base ')
+      .replace(/asinh\(/g, 'sinh⁻¹(').replace(/acosh\(/g, 'cosh⁻¹(').replace(/atanh\(/g, 'tanh⁻¹(')
+      .replace(/asin\(/g, 'sin⁻¹(').replace(/acos\(/g, 'cos⁻¹(').replace(/atan\(/g, 'tan⁻¹(')
+      .replace(/recip\(/g, '1/(').replace(/pow10\(/g, '10^(').replace(/exp\(/g, 'e^(').replace(/log2\(/g, 'log₂(')
+      .replace(/sqr\(/g, 'sqr(').replace(/fact\(/g, 'fact(').replace(/neg\(/g, '-(');
+  }
+
+  return { mulberry32, encodeCode, decodeCode, parseKey, mark, negative, keyText, generate, freshestSeed, summarise, evaluate, formatResult, calcInit, calcPress, calcPretty, PATTERN };
 });
