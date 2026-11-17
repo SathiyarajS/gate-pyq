@@ -392,7 +392,7 @@
   function Calculator(host) {
     // Same keys and positions as the exam's calculator. It takes the number first: 30 then sin, 5 then x².
     const KEYS = [
-      ['mod', 'mod', 'op'], ['sinh', 'sinh', 'fn'], ['cosh', 'cosh', 'fn'], ['tanh', 'tanh', 'fn'], ['Exp', 'EXP', 'fn'], ['(', '(', ''], [')', ')', ''], ['←', 'BS', 'ctl'], ['C', 'CLR', 'ctl'], ['+/−', 'NEG', 'op'], ['√', 'sqrt', 'fn'],
+      ['sinh', 'sinh', 'fn'], ['cosh', 'cosh', 'fn'], ['tanh', 'tanh', 'fn'], ['Exp', 'EXP', 'fn'], ['(', '(', ''], [')', ')', ''], ['←', 'BS', 'ctl wide'], ['C', 'CLR', 'ctl'], ['+/−', 'NEG', 'op'], ['sqrt', 'sqrt', 'fn'],
       ['sinh⁻¹', 'asinh', 'fn'], ['cosh⁻¹', 'acosh', 'fn'], ['tanh⁻¹', 'atanh', 'fn'], ['log₂x', 'log2', 'fn'], ['ln', 'ln', 'fn'], ['log', 'log', 'fn'], ['7', '7', 'num'], ['8', '8', 'num'], ['9', '9', 'num'], ['/', '/', 'op'], ['%', '%', 'op'],
       ['π', 'pi', 'fn'], ['e', 'e', 'fn'], ['n!', 'fact', 'fn'], ['logᵧx', 'logy', 'fn'], ['eˣ', 'exp', 'fn'], ['10ˣ', 'pow10', 'fn'], ['4', '4', 'num'], ['5', '5', 'num'], ['6', '6', 'num'], ['*', '*', 'op'], ['1/x', 'recip', 'fn'],
       ['sin', 'sin', 'fn'], ['cos', 'cos', 'fn'], ['tan', 'tan', 'fn'], ['xʸ', '^', 'fn'], ['x³', 'cube', 'fn'], ['x²', 'sqr', 'fn'], ['1', '1', 'num'], ['2', '2', 'num'], ['3', '3', 'num'], ['−', '-', 'op'], ['=', '=', 'eq'],
@@ -401,14 +401,23 @@
     const el = document.createElement('div');
     el.className = 'calc'; el.hidden = true;
     el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', 'Scientific calculator');
-    el.innerHTML = `<div class="calc-bar"><b>Scientific Calculator</b><span><button type="button" data-calc-help aria-label="Calculator help" aria-expanded="false">?</button><button type="button" data-calc-close aria-label="Close calculator">×</button></span></div>
-      <div class="calc-screen"><div class="calc-expr" aria-label="Expression"></div><div class="calc-val" aria-live="polite">0</div></div>
-      <div class="calc-modes"><label><input type="radio" name="angle" value="deg" checked> Deg</label><label><input type="radio" name="angle" value="rad"> Rad</label>
-        <span class="calc-mem"><button type="button" data-mem="MC">MC</button><button type="button" data-mem="MR">MR</button><button type="button" data-mem="MS">MS</button><button type="button" data-mem="M+">M+</button><button type="button" data-mem="M-">M−</button><span class="mflag" hidden>M</span></span></div>
+    el.innerHTML = `<div class="calc-bar"><b>Scientific Calculator</b><span><button type="button" class="calc-helpbtn" data-calc-help aria-expanded="false">Help</button><button type="button" data-calc-min aria-label="Minimise calculator" aria-expanded="true">_</button><button type="button" data-calc-close aria-label="Close calculator">×</button></span></div>
+      <div class="calc-body">
+      <div class="calc-main">
+      <div class="calc-screen calc-expr" aria-label="Expression"></div><div class="calc-screen calc-val" aria-live="polite">0</div>
+      <div class="calc-modes"><button type="button" class="calc-mod" data-v="mod">mod</button><label><input type="radio" name="angle" value="deg" checked> Deg</label><label><input type="radio" name="angle" value="rad"> Rad</label>
+        <span class="calc-mem"><span class="mflag" hidden>M</span><button type="button" data-mem="MC">MC</button><button type="button" data-mem="MR">MR</button><button type="button" data-mem="MS">MS</button><button type="button" data-mem="M+">M+</button><button type="button" data-mem="M-">M-</button></span></div>
       <div class="calc-keys">${KEYS.map(([label, v, cls]) => `<button type="button" class="${cls}" data-v="${esc(v)}">${label}</button>`).join('')}</div>
-      <div class="calc-help" hidden><p>Enter the number first, then press the function: <b>30 sin</b> gives 0.5, <b>5 x²</b> gives 25, <b>5 n!</b> gives 120, <b>4 1/x</b> gives 0.25.</p>
-        <p>Two-number keys go between the numbers: <b>2 xʸ 10 =</b> gives 1024, <b>625 ʸ√x 4 =</b> gives 5 (4th root), <b>81 logᵧx 3 =</b> gives 4 (log base 3), <b>10 mod 3 =</b> gives 1.</p>
-        <p>For a negative number type it, then press <b>+/−</b>. <b>3 Exp 5</b> is 3×10⁵. Brackets are closed for you on <b>=</b>. Check Deg or Rad before using sin, cos or tan.</p></div>`;
+      </div>
+      <div class="calc-help" hidden><h3>Calculator instructions</h3>
+        <p>Use it with the on-screen buttons only; typing on the keyboard does nothing, as in the exam. Angles are in degrees unless you pick Rad.</p>
+        <h4>How keys work</h4><ul>
+        <li>One-number keys come after the number: <b>30 sin</b> gives 0.5, <b>5 x²</b> gives 25, <b>5 n!</b> gives 120, <b>4 1/x</b> gives 0.25.</li>
+        <li>Two-number keys go between the numbers: <b>2 xʸ 10 =</b> gives 1024, <b>625 ʸ√x 4 =</b> gives 5, <b>81 logᵧx 3 =</b> gives 4 (log base 3), <b>10 mod 3 =</b> gives 1.</li>
+        <li>A negative number: type it, then <b>+/-</b>. <b>3 Exp 5</b> is 3×10⁵.</li></ul>
+        <h4>Good habits</h4><ul><li>Press <b>C</b> before each new calculation.</li><li>Use brackets for long expressions, and close every bracket you open.</li><li>Choose Deg or Rad before you start, not halfway through.</li>
+        <li>Memory: <b>MS</b> stores the shown value, <b>M+</b> / <b>M-</b> add or subtract it, <b>MR</b> recalls it, <b>MC</b> clears it.</li></ul></div>
+      </div>`;
     host.appendChild(el);
     let st = C.calcInit(), mem = null;
     const exprEl = el.querySelector('.calc-expr'), valEl = el.querySelector('.calc-val');
@@ -421,7 +430,11 @@
     el.addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       if (b.hasAttribute('data-calc-close')) return hide();
-      if (b.hasAttribute('data-calc-help')) { const h = el.querySelector('.calc-help'); h.hidden = !h.hidden; b.setAttribute('aria-expanded', String(!h.hidden)); return; }
+      if (b.hasAttribute('data-calc-help')) { // Help swaps the keys for instructions; Back returns, as in the exam
+        const h = el.querySelector('.calc-help'), main = el.querySelector('.calc-main'), open = h.hidden;
+        h.hidden = !open; main.hidden = open; b.textContent = open ? 'Back' : 'Help'; b.setAttribute('aria-expanded', String(open)); return;
+      }
+      if (b.hasAttribute('data-calc-min')) { const body = el.querySelector('.calc-body'); body.hidden = !body.hidden; b.setAttribute('aria-expanded', String(!body.hidden)); return; }
       const memOp = b.dataset.mem;
       if (memOp) {
         const cur = Number(st.val);
@@ -433,19 +446,14 @@
       }
       if (b.dataset.v !== undefined) press(b.dataset.v);
     });
-    el.addEventListener('keydown', e => {
-      if (e.target.closest('input')) return;
-      const map = { Enter: '=', '=': '=', Backspace: 'BS', Escape: 'CLR', '!': 'fact' };
-      if (map[e.key]) { e.preventDefault(); press(map[e.key]); }
-      else if (/^[0-9.+\-*/^()%]$/.test(e.key)) { e.preventDefault(); press(e.key); }
-    });
+    // No keyboard input: the exam's calculator works with its buttons only.
     // Drag by the title bar (pointer events: mouse, pen and touch).
     const bar = el.querySelector('.calc-bar');
     bar.addEventListener('pointerdown', e => {
       if (e.target.closest('button')) return;
       const r = el.getBoundingClientRect(), dx = e.clientX - r.left, dy = e.clientY - r.top;
       bar.setPointerCapture(e.pointerId);
-      const move = ev => { el.style.left = Math.max(0, Math.min(innerWidth - 80, ev.clientX - dx)) + 'px'; el.style.top = Math.max(0, Math.min(innerHeight - 40, ev.clientY - dy)) + 'px'; el.style.right = 'auto'; };
+      const move = ev => { el.style.left = Math.max(0, Math.min(innerWidth - 80, ev.clientX - dx)) + 'px'; el.style.top = Math.max(0, Math.min(innerHeight - 40, ev.clientY - dy)) + 'px'; el.style.right = 'auto'; el.style.bottom = 'auto'; };
       const up = () => { bar.removeEventListener('pointermove', move); bar.removeEventListener('pointerup', up); };
       bar.addEventListener('pointermove', move); bar.addEventListener('pointerup', up);
     });

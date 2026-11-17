@@ -112,8 +112,9 @@ body.exam-open{overflow:hidden}
 .calc[hidden]{display:none}
 .calc-bar{display:flex;justify-content:space-between;align-items:center;background:var(--ex-head);color:#fff;padding:.35rem .6rem;border-radius:6px 6px 0 0;cursor:move;touch-action:none}
 .calc-bar button{background:none;border:0;color:#fff;font-size:1.2rem;line-height:1}
-.calc-screen{margin:.5rem;background:#fff;border:1px solid #9aa6b2;border-radius:3px;padding:.3rem .5rem;font-family:ui-monospace,Menlo,monospace;text-align:right}
-.calc-expr{min-height:1.2em;color:#5b6470;word-break:break-all;font-size:.85rem}
+.calc-screen{margin:.45rem .5rem 0;background:#fff;border:1px solid #9aa6b2;border-radius:3px;padding:.3rem .5rem;font-family:ui-monospace,Menlo,monospace;text-align:right;min-height:1.9rem}
+.calc-val{margin-bottom:.45rem}
+.calc-expr{color:#5b6470;word-break:break-all;font-size:.85rem}
 .calc-val{font-size:1.35rem;font-weight:700;min-height:1.4em;word-break:break-all}
 .calc-modes{display:flex;align-items:center;gap:.75rem;padding:0 .5rem .4rem;flex-wrap:wrap}
 .calc-mem{margin-left:auto;display:flex;gap:3px;align-items:center}
@@ -123,12 +124,18 @@ body.exam-open{overflow:hidden}
 .calc-keys button{min-height:30px;border:1px solid #9aa6b2;border-radius:3px;background:#fff;padding:0 .1rem;font-size:.78rem}
 .calc-keys .num{background:#f9fafb;font-weight:700}
 .calc-keys .op{background:#e3e9f0}
-.calc-keys .ctl{background:#f8e1dd}
-.calc-keys .eq{background:var(--ex-blue);color:#fff;font-weight:700;grid-row:span 2}
+.calc-keys .ctl,.calc-keys [data-v=NEG]{background:#e2463a;border-color:#c93a2f;color:#fff;font-weight:700}
+.calc-keys .wide,.calc-keys .num0{grid-column:span 2}
+.calc-keys .eq{background:#2fbf5b;border-color:#25a04b;color:#fff;font-weight:700;grid-row:span 2}
 .calc-keys button:active{filter:brightness(.92)}
 .calc-bar>span{display:flex;gap:.5rem;align-items:center}
-.calc-bar [data-calc-help]{font-size:.9rem;font-weight:700;border:1px solid rgba(255,255,255,.7);border-radius:50%;width:1.3rem;height:1.3rem;padding:0}
-.calc-help{margin:0 .5rem .5rem;padding:.4rem .55rem;background:#fff;border:1px solid #c5ccd6;border-radius:3px;font-size:.74rem;line-height:1.4}
+.calc-bar .calc-helpbtn{font-size:.78rem;font-weight:700;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.6);border-radius:3px;padding:.15rem .6rem}
+.calc-mod{border:1px solid #9aa6b2;background:#e3e9f0;border-radius:3px;padding:.15rem .5rem;font-size:.78rem}
+.calc-main[hidden],.calc-body[hidden]{display:none}
+.calc-help{margin:.5rem;padding:.5rem .7rem;background:#fff;border:1px solid #c5ccd6;border-radius:3px;font-size:.76rem;line-height:1.45;max-height:60vh;overflow:auto}
+.calc-help h3{margin:.1rem 0 .4rem;font-size:.95rem;text-align:center}
+.calc-help h4{margin:.5rem 0 .2rem;font-size:.8rem}
+.calc-help ul{margin:0;padding-left:1.1rem}
 .calc-help p{margin:.15rem 0}
 .calc-help[hidden]{display:none}
 
@@ -157,7 +164,10 @@ body.exam-open{overflow:hidden}
   .exam-actions{padding:.45rem .6rem}
   .exam-actions{flex-wrap:nowrap}
   .exam-actions div{flex-wrap:nowrap;gap:.35rem}
-  .exam-actions button{padding:.45rem .5rem;font-size:.75rem;min-height:40px}
+  .exam-actions{gap:.35rem}
+  .exam-actions button{padding:.4rem .4rem;font-size:.7rem;min-height:40px;line-height:1.15}
+  .exam-actions div:first-child button{flex:0 1 auto}
+  .exam-actions .submit-btn,.exam-actions .save{white-space:nowrap}
   .exam-actions .submit-btn{min-width:0}
   .exam-top{padding:.35rem .6rem;gap:.4rem .6rem}
   .exam-title strong{font-size:.85rem}
@@ -171,7 +181,8 @@ body.exam-open{overflow:hidden}
   .exam-sections .short{display:inline}
   .palette-close{display:inline-block}
   .q-meta{font-size:.78rem}
-  .calc{right:2vw;left:2vw;width:auto;top:56px}
+  /* opens over the lower half, as in the exam, so the question stays readable; drag it by its title bar */
+  .calc{right:2vw;left:2vw;width:auto;top:auto;bottom:64px}
   /* keep the exam's 11-column key layout on phones too, so key positions are the same everywhere */
   .calc-keys{gap:2px;padding:0 .3rem .4rem}
   .calc-keys button{min-height:34px;font-size:.62rem;padding:0}
