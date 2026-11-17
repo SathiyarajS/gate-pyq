@@ -46,10 +46,18 @@ jobs:
           npm ci --ignore-scripts
       - name: Validate data
         run: python scripts/validate.py
-      # Source PDFs are not in the repo; the import-parser tests use the 2026 papers.
+      # Source PDFs are not in the repo; the import-parser tests use the four 2026 CS files.
+      # They are cached by the recorded sha256 list, and fetch_sources.py checks each
+      # file's sha256 before using it, so a cached copy is downloaded again only if its
+      # recorded hash changed (or the cache was evicted).
+      - name: Cache the 2026 source PDFs
+        uses: actions/cache@v4
+        with:
+          path: sources/web/gate2026.iitg.ac.in/doc/download/2026
+          key: sources-2026-${{ hashFiles('sources/manifest.json', 'audits/crop-source-map.json') }}
       - name: Restore the 2026 source PDFs for the tests (sha256-checked)
         continue-on-error: true
-        run: python scripts/fetch_sources.py gate2026
+        run: python scripts/fetch_sources.py gate2026.iitg.ac.in/doc/download/2026/
       # Simulated step-throughs, keyed inside on each spec and the simulator source.
       - name: Cache step-through simulations
         uses: actions/cache@v4
@@ -73,6 +81,7 @@ jobs:
       # PDFs are keyed by content inside .pdf-cache, so only subjects whose
       # questions, images or layout changed are re-rendered.
       - name: Restore rendered PDFs
+        id: pdf-cache
         uses: actions/cache/restore@v4
         with:
           path: |
@@ -108,13 +117,15 @@ jobs:
             echo "::endgroup::"
           done
           exit "$status"
+      # Saved only when something changed: a PDF, the input keys, or a converted image.
       - name: Save rendered PDFs
+        if: steps.pdf-cache.outputs.cache-matched-key != format('pdfs-{0}', hashFiles('.pdf-cache/*.key', '.pdf-cache/*.inputs', '.pdf-images/index.json'))
         uses: actions/cache/save@v4
         with:
           path: |
             .pdf-cache
             .pdf-images
-          key: pdfs-${{ hashFiles('.pdf-cache/*.key') }}
+          key: pdfs-${{ hashFiles('.pdf-cache/*.key', '.pdf-cache/*.inputs', '.pdf-images/index.json') }}
         continue-on-error: true
       - name: Check links
         run: python scripts/check_links.py _site
