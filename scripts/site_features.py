@@ -11,7 +11,8 @@ def load_syllabus(root, topics):
     """data/syllabus.json -> ({(subject, topic): note}, metadata). Unknown topic IDs are an error."""
     path = root / 'data/syllabus.json'
     if not path.exists():  # optional: without it nothing is flagged
-        return {}, {'syllabus': 'current', 'source': '', 'source_url': '', 'accessed_on': '', 'method': ''}
+        return {}, {'syllabus': 'current', 'source': '', 'source_url': '', 'accessed_on': '', 'method': '',
+                    'questions': {'not_listed': {}, 'borderline': {}, 'listed': {}}}
     data = json.loads(path.read_text())
     off = {}
     for subject, entries in data['not_listed'].items():
@@ -20,7 +21,25 @@ def load_syllabus(root, topics):
             if topic not in known:
                 raise SystemExit(f'data/syllabus.json names an unknown topic: {subject}/{topic}')
             off[(subject, topic)] = note
-    return off, {k: data[k] for k in ('syllabus', 'source', 'source_url', 'accessed_on', 'method')}
+    meta = {k: data[k] for k in ('syllabus', 'source', 'source_url', 'accessed_on', 'method')}
+    # Question-level review: not_listed / borderline / listed (re-admitted from an unlisted topic).
+    meta['questions'] = {k: dict(data.get('questions', {}).get(k, {})) for k in ('not_listed', 'borderline', 'listed')}
+    return off, meta
+
+
+def syllabus_status(q, off, meta):
+    """'out', 'borderline' or 'in' for one question, with the note explaining it."""
+    qid, qmeta = q['question_id'], meta.get('questions', {})
+    if qid in qmeta.get('listed', {}):
+        return 'in', ''
+    if qid in qmeta.get('not_listed', {}):
+        return 'out', qmeta['not_listed'][qid]
+    topic_note = off.get((q['subject_dir'], q['topic']))
+    if topic_note:
+        return 'out', topic_note
+    if qid in qmeta.get('borderline', {}):
+        return 'borderline', qmeta['borderline'][qid]
+    return 'in', ''
 
 
 def _fmt(value):

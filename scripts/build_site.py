@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from transcription import load_paper, resolve
 import site_features
+import mock_pool
 import question_groups
 import animations
 from reader_text import reader, answer
@@ -155,6 +156,8 @@ def main():
     show_redrawn=bool(settings.get('show_redrawn_text',False))
     pmap={p['paper_id']:p for p in papers}; groups=collections.defaultdict(list); issues=[]
     off_syllabus,syllabus=site_features.load_syllabus(ROOT,topics)
+    unknown=[qid for part in syllabus['questions'].values() for qid in part if qid not in {q['question_id'] for q in questions}]
+    if unknown:raise SystemExit('data/syllabus.json names unknown questions: '+', '.join(unknown[:5]))
     seen=set()
     for q in questions:
         if q['question_id'] in seen: raise SystemExit('Duplicate question ID')
@@ -166,7 +169,8 @@ def main():
         q['source_link']=safe_url(q.get('source_page_url') or q.get('source_url'));q['key_link']=safe_url(q.get('key_url'))
         if q['key_link'] and q.get('key_page') and '#' not in q['key_link']:q['key_link']+='#page='+str(q['key_page'])
         q['topic']=topics.get(subject,{}).get('assign',{}).get(q['question_id'],'unreviewed')
-        q['off_syllabus']={'label':'Not in '+syllabus['syllabus']+' syllabus','note':off_syllabus[(subject,q['topic'])]} if (subject,q['topic']) in off_syllabus else None
+        q['syllabus_status'],note=site_features.syllabus_status(q,off_syllabus,syllabus)
+        q['off_syllabus']={'label':'Not in '+syllabus['syllabus']+' syllabus','note':note} if q['syllabus_status']=='out' else None
         q['discrepancies']=[]
         for did in q['discrepancy_ids']:
             if did not in ds: raise SystemExit('Missing discrepancy row: '+did)
@@ -327,6 +331,19 @@ def main():
     render('papers',title='All papers',kind='papers',papers=[dict(p,label=paper_label(p['paper_id'])) for p in sorted(papers,key=lambda p:p['paper_id'],reverse=True)])
     render('about',title='About this archive',kind='about',total_questions=len(questions))
     if weights:render('weightage',title='Where the marks are.',kind='weightage',total=len(questions))
+    # Mock test: pool and weights at build time; sampling, exam UI and marking run in the browser.
+    mock=mock_pool.write_mock(out,questions,titles,topic_titles,ds)
+    mock_counts=collections.Counter(p['s'] for p in mock['pool'])
+    # Answers and solutions for the post-mock review, one small file per pool question, cut from the
+    # same template as the subject pages (the step-through player stays on the question's own page).
+    mock_byid={q['question_id']:q for q in questions};(out/'mock'/'a').mkdir(parents=True,exist_ok=True)
+    for p in mock['pool']:
+        html=env.get_template('question.html').render(q=mock_byid[p['i']],prefix='../',paper_view=False,preview=not args.release)
+        m=re.search(r'<details class="answer" data-pagefind-ignore><summary>Answer & solution</summary>(.*)</details></article>\s*$',html,re.S)
+        if not m:raise SystemExit('Mock review: no answer block for '+p['i'])
+        body=m.group(1);steps=re.search(r'<details class="steps js-only">.*?</details>',body,re.S)
+        (out/'mock'/'a'/(p['i']+'.json')).write_text(json.dumps(dict(html=(body[:steps.start()]+body[steps.end():] if steps else body).strip(),steps=bool(steps)),ensure_ascii=False))
+    render('mock',title='GATE CS mock test',kind='mock',mock=dict(total=len(mock['pool']),official=sum(p['ks']=='o' for p in mock['pool']),borderline=sum(p['b'] for p in mock['pool']),recent_from=mock['recent_from'],latest=mock['latest'],recent_papers=mock['recent_papers'],mix_from=mock['mix_from'],subjects=sorted(((mock['names'][s],mock_counts[s],mock['weights']['subjects'].get(s)) for s in mock_counts),key=lambda r:-(r[2] or 15))))
     render('feedback',title='Feedback',kind='feedback')
     render('discrepancies',title='About this archive',kind='redirect',target='about/')  # former page; notes now sit with each answer
     (out/'search.json').write_text(json.dumps(search,ensure_ascii=False))
@@ -334,7 +351,7 @@ def main():
         render('search-docs/'+item['id'],title=item['title'],kind='searchdoc',item=item)
     # Offline: per-subject and per-paper packs, the always-cached core, the web app manifest and the service worker.
     (out/'manifest.webmanifest').write_text(json.dumps({'name':'GATE CS Archive','short_name':'GATE CS','description':f'GATE Computer Science previous-year questions, {inventory_years[0]}–{inventory_years[-1]}, with sources, answers and solutions.','start_url':'./','scope':'./','display':'standalone','background_color':'#f7f7f1','theme_color':'#006a51','icons':[{'src':'assets/icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'assets/icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'assets/icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},indent=1))
-    core=['','papers/','about/']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
+    core=['','papers/','about/','mock/','mock/pool.json','assets/mock.css','assets/mock-core.js','assets/mock.js']+(['weightage/'] if weights else [])+['manifest.webmanifest','assets/style.css','assets/app.js','assets/offline.js','assets/steps.js']+sorted('assets/steps/'+f.name for f in (ROOT/'site-static/steps').glob('*.js'))+['assets/icons/icon-192.png']
     if has_math:core+=['assets/vendor/katex/katex.min.css','assets/vendor/katex/katex.min.js']+['assets/vendor/katex/fonts/'+f.name for f in sorted((katex_dir/'fonts').glob('*.woff2'))]
     pack_index,core_files,offline_total=site_features.write_offline(out,packs,core)
     render('offline',title='Study without a connection.',kind='offline',packs=pack_index,offline_total=offline_total)
