@@ -111,19 +111,29 @@ def pdf_images(out, workers=None):
 
     Site images are 216 DPI WebP; Chromium re-encodes them losslessly, which makes
     each subject PDF ~60 MB. 150 DPI, 16 grey levels, PNG keeps text sharp at a
-    fraction of the size. Converted in parallel; unchanged images are skipped.
+    fraction of the size. Converted in parallel. An image is converted again only
+    when its sha256 (or this converter) changed, recorded in .pdf-images/index.json;
+    file times are not used, since a fresh checkout makes every image look new.
     """
+    import hashlib, inspect
     from concurrent.futures import ProcessPoolExecutor
     src=out/'assets/questions';dst=ROOT/'.pdf-images';dst.mkdir(exist_ok=True)
-    jobs=[]
-    for f in src.glob('*.webp'):
-        target=dst/(f.stem+'.png')
-        if target.exists() and target.stat().st_mtime>=f.stat().st_mtime:continue
-        jobs.append((f,target))
+    index_path=dst/'index.json'
+    try:index=json.loads(index_path.read_text())
+    except (OSError,ValueError):index={}
+    converter=hashlib.sha256(inspect.getsource(_gray_png).encode()).hexdigest()[:16]
+    if index.get('converter')!=converter:index={'converter':converter}
+    done=index.setdefault('images',{})
+    jobs,current={},{}
+    for f in sorted(src.glob('*.webp')):
+        digest=hashlib.sha256(f.read_bytes()).hexdigest();current[f.stem]=digest
+        if done.get(f.stem)!=digest or not (dst/(f.stem+'.png')).is_file():jobs[f.stem]=(f,dst/(f.stem+'.png'))
     if jobs:
-        with ProcessPoolExecutor(workers) as pool:list(pool.map(_gray_png,jobs,chunksize=32))
-    print(f'PDF images: converted {len(jobs)}, reused {len(list(src.glob("*.webp")))-len(jobs)}',flush=True)
+        with ProcessPoolExecutor(workers) as pool:list(pool.map(_gray_png,jobs.values(),chunksize=32))
+    index['images']=current;index_path.write_text(json.dumps(index,sort_keys=True))
+    print(f'PDF images: converted {len(jobs)}, reused {len(current)-len(jobs)}',flush=True)
     return dst
+
 
 def repack_gray_images(path):
     """Losslessly shrink the question images Chromium embedded in a PDF.
@@ -185,6 +195,26 @@ PRINT_FINGERPRINT = """() => {
  return out.join('\\n');
 }"""
 
+def inputs_key(doc, footer, imgdir, image_hashes, chromium, assets):
+    """A key over everything the print page is made from, checked before loading it in Chromium.
+
+    The document, the site's assets (stylesheet, scripts, KaTeX and its fonts), the
+    images it shows, the footer, the page setup and the Chromium version together fix
+    what Chromium renders. When they are unchanged since the cached PDF was made, the
+    print fingerprint (and so the PDF) is unchanged too, and the page is not loaded.
+    When any of them changed, the fingerprint decides as before, so a change that only
+    affects the screen still reuses the PDF.
+    """
+    import hashlib, inspect
+    h=hashlib.sha256()
+    doc=GENERATED.sub('Generated',doc.replace(imgdir.as_uri()+'/',''))
+    rendering=PDF_CSS+json.dumps(PDF_OPTIONS,sort_keys=True)+inspect.getsource(repack_gray_images)+PRINT_FINGERPRINT
+    for part in (rendering,chromium,footer,doc,assets):
+        h.update(hashlib.sha256(part.encode()).digest())
+    for name in sorted(set(re.findall(r'src="(?:'+re.escape(imgdir.as_uri())+r'/)?([^"/]+\.png)"',doc))):
+        h.update(name.encode()+image_hashes(name).encode())
+    return h.hexdigest()
+
 def cache_key(printed, doc, footer, imgdir, image_hashes, chromium):
     """Everything that decides a PDF's bytes, except the 'Generated' date on the cover.
 
@@ -229,6 +259,13 @@ async def run(args):
         if name not in hashes:hashes[name]=hashlib.sha256((imgdir/name).read_bytes()).hexdigest()
         return hashes[name]
     cache=ROOT/args.cache;cache.mkdir(exist_ok=True)
+    # Every file the print pages can load from the site, apart from the question images
+    # (the PDFs use their own copies, hashed per image).
+    assets_hash=hashlib.sha256()
+    for f in sorted((out/'assets').rglob('*')):
+        if f.is_file() and 'questions' not in f.relative_to(out/'assets').parts[:1]:
+            assets_hash.update(str(f.relative_to(out)).encode()+b'\0'+hashlib.sha256(f.read_bytes()).digest())
+    assets_hash=assets_hash.hexdigest()
     jobs=[]
     for subject in report['subject_counts']:
         if args.subject and subject!=args.subject:continue
@@ -243,10 +280,16 @@ async def run(args):
     async with async_playwright() as p:
         launch=dict(executable_path=args.chromium if args.chromium and Path(args.chromium).is_file() else None,headless=True,args=['--no-sandbox'])
         probe=await p.chromium.launch(**launch);chromium=probe.version;await probe.close()
+        # Unchanged inputs: reuse the cached PDF without loading the page at all.
+        for job in jobs:
+            job['inputs']=inputs_key(job['doc'],job['footer'],imgdir,image_hash,chromium,assets_hash)
+            name=job['name'];cached=cache/(name+'.pdf');keyfile=cache/(name+'.key');infile=cache/(name+'.inputs')
+            job['cached']=job['skipped']=cached.is_file() and keyfile.is_file() and infile.is_file() and infile.read_text()==job['inputs']
+        pending=[j for j in jobs if not j['skipped']]
         # Each worker loads a document, reads its print fingerprint and renders it
         # only when the key differs from the cached PDF's.
         queue=asyncio.Queue()
-        for job in sorted(jobs,key=lambda j:-len(j['doc'])):queue.put_nowait(job)
+        for job in sorted(pending,key=lambda j:-len(j['doc'])):queue.put_nowait(job)
         loop=asyncio.get_running_loop()
         with ProcessPoolExecutor(workers) as pool:
             async def worker():
@@ -259,12 +302,13 @@ async def run(args):
                     job['key']=cache_key(await page.evaluate(PRINT_FINGERPRINT),job['doc'],job['footer'],imgdir,image_hash,chromium)
                     keyfile=cache/(job['name']+'.key');cached=cache/(job['name']+'.pdf')
                     job['cached']=cached.is_file() and keyfile.is_file() and keyfile.read_text()==job['key']
-                    if job['cached']:continue
-                    await page.pdf(path=str(tmp),footer_template=job['footer'],**PDF_OPTIONS)
-                    job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
-                    tmp.replace(cached);keyfile.write_text(job['key'])
+                    if not job['cached']:
+                        await page.pdf(path=str(tmp),footer_template=job['footer'],**PDF_OPTIONS)
+                        job['repacked']=await loop.run_in_executor(pool,repack_gray_images,tmp)
+                        tmp.replace(cached);keyfile.write_text(job['key'])
+                    (cache/(job['name']+'.inputs')).write_text(job['inputs'])
                 await browser.close()
-            await asyncio.gather(*(worker() for _ in range(min(workers,len(jobs)))))
+            if pending:await asyncio.gather(*(worker() for _ in range(min(workers,len(pending)))))
     todo=[j for j in jobs if not j['cached']]
     results=[]
     for job in jobs:
@@ -273,6 +317,6 @@ async def run(args):
         if args.release:(pdfdir/(job['name']+'.html')).unlink()
         results.append({'subject':job['subject'],'questions_only':job['qo'],'entries':job['entries'],'path':str(path.relative_to(out)),'bytes':path.stat().st_size,'cached':job['cached'],'status':'release' if args.release else 'draft_rendered; visual_review_pending'})
     (out/'pdf-build-report.json').write_text(json.dumps(results,indent=2))
-    print(f'Rendered {len(todo)} PDFs'+(' ('+', '.join(j['name'] for j in todo)+')' if todo else '')+f', reused {len(jobs)-len(todo)} unchanged from cache: '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
+    print(f'Rendered {len(todo)} PDFs'+(' ('+', '.join(j['name'] for j in todo)+')' if todo else '')+f', reused {len(jobs)-len(todo)} unchanged from cache ({sum(j["skipped"] for j in jobs)} without loading the page): '+', '.join(f"{r['path']} {r['bytes']//1048576} MB" for r in results))
 if __name__=='__main__':
     a=argparse.ArgumentParser(description=__doc__);a.add_argument('--preview',action='store_true');a.add_argument('--release',action='store_true');a.add_argument('--site',default='_site');a.add_argument('--subject');a.add_argument('--html-only',action='store_true');a.add_argument('--jobs',type=int,default=None,help='Parallel Chromium workers (default: CPU count)');a.add_argument('--cache',default='.pdf-cache',help='Rendered PDFs keyed by content; unchanged subjects are reused');a.add_argument('--chromium',default=None,help="Chromium binary; defaults to Playwright's bundled browser");asyncio.run(run(a.parse_args()))
