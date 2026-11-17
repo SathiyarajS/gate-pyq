@@ -439,7 +439,7 @@
   }
   // Display form of an expression, in the exam's style: sind(30), 625yroot4, no spaces.
   function calcPretty(s, deg) {
-    s = String(s).replace(/ /g, '');
+    s = String(s).replace(/ logy /g, 'logxBasey').replace(/ /g, '');   // the exam writes 81logxBasey3, 10mod3
     if (deg !== false) s = s.replace(/(^|[^a-z])(sin|cos|tan)\(/g, '$1$2d(');
     return s.replace(/pi/g, 'π')
       .replace(/sqrt\(/g, '√(').replace(/cbrt\(/g, '∛(')

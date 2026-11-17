@@ -145,6 +145,9 @@ test('calculator keys work number first, like the exam', () => {
   assert.strictEqual(run('6 2 5 yroot 4').val, '4');
   assert.strictEqual(C.calcTop(run('6 2 5 yroot 4 ='), true), '625yroot4');
   assert.strictEqual(run('6 2 5 yroot 4 =').val, '5');
+  assert.strictEqual(C.calcTop(run('mod'), true), '0mod');                  // operator on an empty display
+  assert.strictEqual(C.calcTop(run('logy'), true), '0logxBasey');
+  assert.strictEqual(C.calcTop(run('8 1 logy 3 ='), true), '81logxBasey3');
   assert.strictEqual(run('CLR').val, '0');
 });
 
