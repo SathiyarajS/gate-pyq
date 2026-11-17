@@ -341,7 +341,8 @@
   function calcPress(st, key, opts) {
     let expr = st.expr;
     const done = st.done, val = st.val;
-    const ev = src => { try { return formatResult(evaluate(src, opts)); } catch (e) { return e.message || 'Error'; } };
+    // The exam shows the unrounded floating-point value: 30 sin gives 0.49999999999999994.
+    const ev = src => { try { return rawResult(evaluate(src, opts)); } catch (e) { return e.message || 'Error'; } };
     const out = o => Object.assign({ expr, val, done: false }, o);
     const keep = () => ({ expr: st.expr, val, done, shown: st.shown });
     if (key === 'CLR') return calcInit();
@@ -364,7 +365,7 @@
     if (key === 'pi' || key === 'e') { begin(); expr += key; return out({ expr, val: ev(key) }); }
     if (key === 'MR') { // the UI passes the stored value in st.mem
       if (st.mem === null || st.mem === undefined) return keep();
-      begin(); const m = formatResult(st.mem); expr += st.mem < 0 ? '(' + m + ')' : m; return out({ expr, val: m });
+      begin(); const m = rawResult(st.mem); expr += st.mem < 0 ? '(' + m + ')' : m; return out({ expr, val: m });
     }
     if (key === '(') { begin(); expr += '('; return out({ expr }); }
     if (key === ')') {
@@ -422,15 +423,31 @@
     }
     return keep();
   }
-  // Display form of an expression for the screen's top line.
-  function calcPretty(s) {
-    return String(s).replace(/\*/g, '×').replace(/\//g, '÷').replace(/pi/g, 'π')
-      .replace(/sqrt\(/g, '√(').replace(/cbrt\(/g, '∛(').replace(/ logy /g, ' log base ')
+  function rawResult(v) {
+    if (!isFinite(v)) return formatResult(v);
+    return Object.is(v, -0) ? '0' : String(v);
+  }
+  // The exam's top line: what has been entered so far, without the number still being typed
+  // (that one is in the lower box): 625 yroot 4 shows "625yroot" above and 4 below; = shows "625yroot4".
+  function calcTop(st, deg) {
+    let s = st.done ? (st.shown || '') : st.expr;
+    if (!st.done) {
+      const a = operandStart(s), atom = a >= 0 ? s.slice(a) : '';
+      if (/^(\d+\.?\d*|\.\d+)(e[+-]?\d*)?$/.test(atom) || NEG_NUM.test(atom)) s = s.slice(0, a);
+    }
+    return calcPretty(s, deg);
+  }
+  // Display form of an expression, in the exam's style: sind(30), 625yroot4, no spaces.
+  function calcPretty(s, deg) {
+    s = String(s).replace(/ /g, '');
+    if (deg !== false) s = s.replace(/(^|[^a-z])(sin|cos|tan)\(/g, '$1$2d(');
+    return s.replace(/pi/g, 'π')
+      .replace(/sqrt\(/g, '√(').replace(/cbrt\(/g, '∛(')
       .replace(/asinh\(/g, 'sinh⁻¹(').replace(/acosh\(/g, 'cosh⁻¹(').replace(/atanh\(/g, 'tanh⁻¹(')
       .replace(/asin\(/g, 'sin⁻¹(').replace(/acos\(/g, 'cos⁻¹(').replace(/atan\(/g, 'tan⁻¹(')
       .replace(/recip\(/g, '1/(').replace(/pow10\(/g, '10^(').replace(/exp\(/g, 'e^(').replace(/log2\(/g, 'log₂(')
       .replace(/sqr\(/g, 'sqr(').replace(/fact\(/g, 'fact(').replace(/neg\(/g, '-(');
   }
 
-  return { mulberry32, encodeCode, decodeCode, parseKey, mark, negative, keyText, generate, freshestSeed, summarise, evaluate, formatResult, calcInit, calcPress, calcPretty, PATTERN };
+  return { mulberry32, encodeCode, decodeCode, parseKey, mark, negative, keyText, generate, freshestSeed, summarise, evaluate, formatResult, calcInit, calcPress, calcPretty, calcTop, rawResult, PATTERN };
 });

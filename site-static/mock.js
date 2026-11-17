@@ -412,7 +412,8 @@
       <div class="calc-help" hidden><h3>Calculator instructions</h3>
         <p>Use it with the on-screen buttons only; typing on the keyboard does nothing, as in the exam. Angles are in degrees unless you pick Rad.</p>
         <h4>How keys work</h4><ul>
-        <li>One-number keys come after the number: <b>30 sin</b> gives 0.5, <b>5 x²</b> gives 25, <b>5 n!</b> gives 120, <b>4 1/x</b> gives 0.25.</li>
+        <li>Results are not rounded, just like the exam: <b>30 sin</b> shows 0.49999999999999994, which is 0.5. Round it yourself.</li>
+        <li>One-number keys come after the number: <b>30 sin</b>, <b>5 x²</b> gives 25, <b>5 n!</b> gives 120, <b>4 1/x</b> gives 0.25.</li>
         <li>Two-number keys go between the numbers: <b>2 xʸ 10 =</b> gives 1024, <b>625 ʸ√x 4 =</b> gives 5, <b>81 logᵧx 3 =</b> gives 4 (log base 3), <b>10 mod 3 =</b> gives 1.</li>
         <li>A negative number: type it, then <b>+/-</b>. <b>3 Exp 5</b> is 3×10⁵.</li></ul>
         <h4>Good habits</h4><ul><li>Press <b>C</b> before each new calculation.</li><li>Use brackets for long expressions, and close every bracket you open.</li><li>Choose Deg or Rad before you start, not halfway through.</li>
@@ -423,7 +424,7 @@
     const exprEl = el.querySelector('.calc-expr'), valEl = el.querySelector('.calc-val');
     const deg = () => el.querySelector('input[name=angle]:checked').value === 'deg';
     function draw() {
-      exprEl.textContent = C.calcPretty(st.done ? (st.shown || '') + (st.err ? '' : ' =') : st.expr);
+      exprEl.textContent = C.calcTop(st, deg());
       valEl.textContent = st.val;
     }
     function press(v) { st = C.calcPress(Object.assign({}, st, { mem }), v, { deg: deg() }); draw(); }

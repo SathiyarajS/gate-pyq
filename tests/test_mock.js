@@ -86,7 +86,12 @@ test('calculator keys work number first, like the exam', () => {
     for (const k of keys.split(' ')) st = Object.assign(C.calcPress(st, k, { deg }), { mem });
     return st;
   };
-  const is = (keys, want, deg) => assert.strictEqual(run(keys, deg).val, want, keys);
+  // Results are the raw floating-point value, as the exam shows them; compare numbers with a tolerance.
+  const is = (keys, want, deg) => {
+    const got = run(keys, deg).val, w = Number(want);
+    if (!isFinite(w) || want === '') return assert.strictEqual(got, want, keys);
+    assert.ok(Math.abs(Number(got) - w) <= 1e-9 * Math.max(1, Math.abs(w)), `${keys}: ${got} vs ${want}`);
+  };
   is('3 0 sin', '0.5');                 // 30 sin
   is('3 0 sin', C.formatResult(Math.sin(30)), false);
   is('1 sinh', C.formatResult(Math.sinh(1)));
@@ -130,8 +135,16 @@ test('calculator keys work number first, like the exam', () => {
   is('1 / 0 =', 'Cannot divide by zero');
   is('9 0 tan', 'Math error');
   assert.strictEqual(run('2 + MR =', true, 5).val, '7');
-  assert.strictEqual(C.calcPretty(run('3 0 sin').expr), 'sin(30)');
-  assert.strictEqual(C.calcPretty(run('6 2 5 yroot 4').expr), '625 yroot 4');
+  // What the official mock shows (checked against screenshots of it):
+  assert.strictEqual(run('3 0 sin').val, '0.49999999999999994');            // unrounded
+  assert.strictEqual(C.calcTop(run('3 0 sin'), true), 'sind(30)');
+  assert.strictEqual(C.calcTop(run('3 0'), true), '');                      // 30 is still being typed
+  assert.strictEqual(C.calcTop(run('6 2 5 yroot'), true), '625yroot');
+  assert.strictEqual(run('6 2 5 yroot').val, '625');
+  assert.strictEqual(C.calcTop(run('6 2 5 yroot 4'), true), '625yroot');
+  assert.strictEqual(run('6 2 5 yroot 4').val, '4');
+  assert.strictEqual(C.calcTop(run('6 2 5 yroot 4 ='), true), '625yroot4');
+  assert.strictEqual(run('6 2 5 yroot 4 =').val, '5');
   assert.strictEqual(run('CLR').val, '0');
 });
 
