@@ -401,7 +401,7 @@
     const el = document.createElement('div');
     el.className = 'calc'; el.hidden = true;
     el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', 'Scientific calculator');
-    el.innerHTML = `<div class="calc-bar"><b>Scientific Calculator</b><span><button type="button" class="calc-helpbtn" data-calc-help aria-expanded="false">Help</button><button type="button" data-calc-min aria-label="Minimise calculator" aria-expanded="true">_</button><button type="button" data-calc-close aria-label="Close calculator">×</button></span></div>
+    el.innerHTML = `<div class="calc-bar"><b class="calc-title">Scientific Calculator</b><span><button type="button" class="calc-helpbtn" data-calc-help aria-expanded="false">Help</button><button type="button" data-calc-min aria-label="Minimise calculator" aria-expanded="true">_</button><button type="button" data-calc-close aria-label="Close calculator">×</button></span></div>
       <div class="calc-body">
       <div class="calc-main">
       <div class="calc-screen calc-expr" aria-label="Expression"></div><div class="calc-screen calc-val" aria-live="polite">0</div>
@@ -434,7 +434,12 @@
         const h = el.querySelector('.calc-help'), main = el.querySelector('.calc-main'), open = h.hidden;
         h.hidden = !open; main.hidden = open; b.textContent = open ? 'Back' : 'Help'; b.setAttribute('aria-expanded', String(open)); return;
       }
-      if (b.hasAttribute('data-calc-min')) { const body = el.querySelector('.calc-body'); body.hidden = !body.hidden; b.setAttribute('aria-expanded', String(!body.hidden)); return; }
+      if (b.hasAttribute('data-calc-min')) { // minimised: a short title bar with restore and close, as in the exam
+        const body = el.querySelector('.calc-body'), min = !body.hidden;
+        body.hidden = min; el.classList.toggle('calc-minimised', min);
+        b.innerHTML = min ? '<span class="restore-ico" aria-hidden="true"></span>' : '_';
+        b.setAttribute('aria-label', min ? 'Restore calculator' : 'Minimise calculator'); b.setAttribute('aria-expanded', String(!min)); return;
+      }
       const memOp = b.dataset.mem;
       if (memOp) {
         const cur = Number(st.val);
